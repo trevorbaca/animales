@@ -432,6 +432,8 @@ segment.14.Flute.Voice.1.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \mf
+        %! rmakers.RewriteMeterCommand.__call__
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! +PARTS
@@ -449,8 +451,6 @@ segment.14.Flute.Voice.1.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \<
-        %! rmakers.RewriteMeterCommand.__call__
-        [
         %! baca.slur()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -784,6 +784,8 @@ segment.14.Flute.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mf
+    %! rmakers.RewriteMeterCommand.__call__
+    [
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -798,8 +800,6 @@ segment.14.Flute.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! rmakers.RewriteMeterCommand.__call__
-    [
     %! baca.slur()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -1228,6 +1228,8 @@ segment.14.Flute.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \mf
+        %! rmakers.RewriteMeterCommand.__call__
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! +PARTS
@@ -1245,8 +1247,6 @@ segment.14.Flute.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \<
-        %! rmakers.RewriteMeterCommand.__call__
-        [
         %! baca.slur()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -1616,6 +1616,8 @@ segment.14.Flute.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mf
+    %! rmakers.RewriteMeterCommand.__call__
+    [
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -1630,8 +1632,6 @@ segment.14.Flute.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! rmakers.RewriteMeterCommand.__call__
-    [
     %! baca.slur()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START

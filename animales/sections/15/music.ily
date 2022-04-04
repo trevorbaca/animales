@@ -475,6 +475,8 @@ segment.15.Flute.Voice.1.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \mf
+        %! rmakers.RewriteMeterCommand.__call__
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! +PARTS
@@ -492,8 +494,6 @@ segment.15.Flute.Voice.1.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \<
-        %! rmakers.RewriteMeterCommand.__call__
-        [
         %! baca.slur()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -875,6 +875,8 @@ segment.15.Flute.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mf
+    %! rmakers.RewriteMeterCommand.__call__
+    [
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -889,8 +891,6 @@ segment.15.Flute.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! rmakers.RewriteMeterCommand.__call__
-    [
     %! baca.slur()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -1369,6 +1369,8 @@ segment.15.Flute.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \mf
+        %! rmakers.RewriteMeterCommand.__call__
+        [
         %! EXPLICIT_DYNAMIC_COLOR
         %! baca.treat_persistent_wrapper()
         %! +PARTS
@@ -1386,8 +1388,6 @@ segment.15.Flute.Voice.2.part.1 = {
         %! baca._set_status_tag()
         %! EXPLICIT_DYNAMIC
     %%% \<
-        %! rmakers.RewriteMeterCommand.__call__
-        [
         %! baca.slur()
         %! baca.SpannerIndicatorCommand._call(2)
         %! SPANNER_START
@@ -1798,6 +1798,8 @@ segment.15.Flute.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \mf
+    %! rmakers.RewriteMeterCommand.__call__
+    [
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -1812,8 +1814,6 @@ segment.15.Flute.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \<
-    %! rmakers.RewriteMeterCommand.__call__
-    [
     %! baca.slur()
     %! baca.SpannerIndicatorCommand._call(2)
     %! SPANNER_START
@@ -2286,6 +2286,9 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
+    %! baca.repeat_tie()
+    %! baca.IndicatorCommand._call()
+    \repeatTie
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -2312,9 +2315,6 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.repeat_tie()
-    %! baca.IndicatorCommand._call()
-    \repeatTie
     %! baca.attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4460,6 +4460,8 @@ segment.15.First.Violin.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \ff
+    %! rmakers.RewriteMeterCommand.__call__
+    ]
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -4474,8 +4476,6 @@ segment.15.First.Violin.Voice.2.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! rmakers.RewriteMeterCommand.__call__
-    ]
     %! baca.glissando()
     %! abjad.glissando(7)
     \glissando

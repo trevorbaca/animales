@@ -4855,6 +4855,10 @@ segment.16.Second.Violin.Voice.1.part.1 = {
     %! baca.accent()
     %! baca.IndicatorCommand._call()
     - \accent
+    %! baca.make_repeat_tied_notes()
+    - \tweak direction #up
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -4869,10 +4873,6 @@ segment.16.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.make_repeat_tied_notes()
-    - \tweak direction #up
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
@@ -8869,6 +8869,10 @@ segment.16.Cello.Voice.1.part.1 = {
     %! baca.accent()
     %! baca.IndicatorCommand._call()
     - \accent
+    %! baca.make_repeat_tied_notes()
+    - \tweak direction #up
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -8883,10 +8887,6 @@ segment.16.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
-    %! baca.make_repeat_tied_notes()
-    - \tweak direction #up
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(2)
     %! SPANNER_START
