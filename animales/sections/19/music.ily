@@ -2624,6 +2624,17 @@ segment.19.Percussion.Voice.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -2636,17 +2647,6 @@ segment.19.Percussion.Voice.1 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
     %! baca._reapply_persistent_indicators(3)
@@ -2838,6 +2838,11 @@ segment.19.Percussion.Voice.2 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -2850,11 +2855,6 @@ segment.19.Percussion.Voice.2 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
     %! baca._reapply_persistent_indicators(3)
@@ -3239,6 +3239,17 @@ segment.19.Percussion.Voice.4 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_BAR_EXTENT
+    %! EXPLICIT_BAR_EXTENT
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! -PARTS
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
@@ -3251,17 +3262,6 @@ segment.19.Percussion.Voice.4 = {
     %! baca._set_status_tag()
     %! REAPPLIED_STAFF_LINES
     \startStaff
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
     %! baca._reapply_persistent_indicators(3)
@@ -3448,6 +3448,13 @@ segment.19.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3463,13 +3470,6 @@ segment.19.First.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
     %! baca.clef_x_extent_false()
@@ -3892,6 +3892,13 @@ segment.19.First.Violin.Voice.3.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -3907,13 +3914,6 @@ segment.19.First.Violin.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
     %! baca.clef_x_extent_false()
@@ -4328,6 +4328,13 @@ segment.19.First.Violin.Voice.5.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.5 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4343,13 +4350,6 @@ segment.19.First.Violin.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
     %! baca.clef_x_extent_false()
@@ -4763,6 +4763,13 @@ segment.19.First.Violin.Voice.7.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.7 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -4778,13 +4785,6 @@ segment.19.First.Violin.Voice.7.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
     %! baca.clef_x_extent_false()
@@ -5179,6 +5179,13 @@ segment.19.First.Violin.Voice.9.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.9 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5194,13 +5201,6 @@ segment.19.First.Violin.Voice.9.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
     %! baca.clef_x_extent_false()
@@ -5595,6 +5595,13 @@ segment.19.First.Violin.Voice.11.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.11 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -5610,13 +5617,6 @@ segment.19.First.Violin.Voice.11.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
     %! baca.clef_x_extent_false()
@@ -6011,6 +6011,13 @@ segment.19.First.Violin.Voice.13.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.13 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6026,13 +6033,6 @@ segment.19.First.Violin.Voice.13.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
     %! baca.clef_x_extent_false()
@@ -6427,6 +6427,13 @@ segment.19.First.Violin.Voice.15.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [First.Violin.Voice.15 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6442,13 +6449,6 @@ segment.19.First.Violin.Voice.15.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
     %! baca.clef_x_extent_false()
@@ -6848,6 +6848,13 @@ segment.19.First.Violin.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -6863,13 +6870,6 @@ segment.19.First.Violin.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
     %! baca.clef_x_extent_false()
@@ -7280,6 +7280,13 @@ segment.19.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7295,13 +7302,6 @@ segment.19.Second.Violin.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
     %! baca.clef_x_extent_false()
@@ -7721,6 +7721,13 @@ segment.19.Second.Violin.Voice.3.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.3 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -7736,13 +7743,6 @@ segment.19.Second.Violin.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
     %! baca.clef_x_extent_false()
@@ -8177,6 +8177,13 @@ segment.19.Second.Violin.Voice.5.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.5 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -8192,13 +8199,6 @@ segment.19.Second.Violin.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
     %! baca.clef_x_extent_false()
@@ -8596,6 +8596,13 @@ segment.19.Second.Violin.Voice.7.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.7 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -8611,13 +8618,6 @@ segment.19.Second.Violin.Voice.7.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
     %! baca.clef_x_extent_false()
@@ -9012,6 +9012,13 @@ segment.19.Second.Violin.Voice.9.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.9 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9027,13 +9034,6 @@ segment.19.Second.Violin.Voice.9.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
     %! baca.clef_x_extent_false()
@@ -9428,6 +9428,13 @@ segment.19.Second.Violin.Voice.11.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.11 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9443,13 +9450,6 @@ segment.19.Second.Violin.Voice.11.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
     %! baca.clef_x_extent_false()
@@ -9872,6 +9872,13 @@ segment.19.Second.Violin.Voice.13.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.13 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -9887,13 +9894,6 @@ segment.19.Second.Violin.Voice.13.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
     %! baca.clef_x_extent_false()
@@ -10288,6 +10288,13 @@ segment.19.Second.Violin.Voice.15.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.15 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -10303,13 +10310,6 @@ segment.19.Second.Violin.Voice.15.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
     %! baca.clef_x_extent_false()
@@ -10709,6 +10709,13 @@ segment.19.Second.Violin.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -10724,13 +10731,6 @@ segment.19.Second.Violin.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
     %! baca.clef_x_extent_false()
@@ -11135,6 +11135,13 @@ segment.19.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -11150,13 +11157,6 @@ segment.19.Viola.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
     %! baca.clef_x_extent_false()
@@ -11576,6 +11576,13 @@ segment.19.Viola.Voice.3.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.3 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -11591,13 +11598,6 @@ segment.19.Viola.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
     %! baca.clef_x_extent_false()
@@ -12012,6 +12012,13 @@ segment.19.Viola.Voice.5.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.5 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -12027,13 +12034,6 @@ segment.19.Viola.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
     %! baca.clef_x_extent_false()
@@ -12444,6 +12444,13 @@ segment.19.Viola.Voice.7.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.7 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -12459,13 +12466,6 @@ segment.19.Viola.Voice.7.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
     %! baca.clef_x_extent_false()
@@ -12860,6 +12860,13 @@ segment.19.Viola.Voice.9.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.9 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -12875,13 +12882,6 @@ segment.19.Viola.Voice.9.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
     %! baca.clef_x_extent_false()
@@ -13276,6 +13276,13 @@ segment.19.Viola.Voice.11.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.11 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -13291,13 +13298,6 @@ segment.19.Viola.Voice.11.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
     %! baca.clef_x_extent_false()
@@ -13709,6 +13709,13 @@ segment.19.Viola.Voice.13.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.13 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -13724,13 +13731,6 @@ segment.19.Viola.Voice.13.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
     %! baca.clef_x_extent_false()
@@ -14125,6 +14125,13 @@ segment.19.Viola.Voice.15.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Viola.Voice.15 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -14140,13 +14147,6 @@ segment.19.Viola.Voice.15.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
     %! baca.clef_x_extent_false()
@@ -14555,6 +14555,13 @@ segment.19.Viola.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -14570,13 +14577,6 @@ segment.19.Viola.Voice.17.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
     %! baca.clef_x_extent_false()
@@ -14990,6 +14990,13 @@ segment.19.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -15005,13 +15012,6 @@ segment.19.Cello.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
     %! baca.clef_x_extent_false()
@@ -15431,6 +15431,13 @@ segment.19.Cello.Voice.3.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.3 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -15446,13 +15453,6 @@ segment.19.Cello.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
     %! baca.clef_x_extent_false()
@@ -15847,6 +15847,13 @@ segment.19.Cello.Voice.5.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.5 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -15862,13 +15869,6 @@ segment.19.Cello.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
     %! baca.clef_x_extent_false()
@@ -16266,6 +16266,13 @@ segment.19.Cello.Voice.7.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.7 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -16281,13 +16288,6 @@ segment.19.Cello.Voice.7.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
     %! baca.clef_x_extent_false()
@@ -16682,6 +16682,13 @@ segment.19.Cello.Voice.9.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.9 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -16697,13 +16704,6 @@ segment.19.Cello.Voice.9.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
     %! baca.clef_x_extent_false()
@@ -17098,6 +17098,13 @@ segment.19.Cello.Voice.11.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Cello.Voice.11 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -17113,13 +17120,6 @@ segment.19.Cello.Voice.11.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
     %! baca.clef_x_extent_false()
@@ -17525,6 +17525,13 @@ segment.19.Cello.Voice.13.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -17540,13 +17547,6 @@ segment.19.Cello.Voice.13.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
     %! baca.clef_x_extent_false()
@@ -17951,6 +17951,13 @@ segment.19.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -17966,13 +17973,6 @@ segment.19.Contrabass.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
     %! baca.clef_x_extent_false()
@@ -18382,6 +18382,13 @@ segment.19.Contrabass.Voice.3.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Contrabass.Voice.3 measure 1]
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -18397,13 +18404,6 @@ segment.19.Contrabass.Voice.3.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
     %! baca.clef_x_extent_false()
@@ -18813,6 +18813,13 @@ segment.19.Contrabass.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! baca.margin_markup()
+    %! -PARTS
+    %! ANIMALES
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! EXPLICIT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -18828,13 +18835,6 @@ segment.19.Contrabass.Voice.5.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_STAFF_LINES
     \startStaff
-    %! baca.margin_markup()
-    %! -PARTS
-    %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
     %! baca.clef_x_extent_false()
