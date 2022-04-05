@@ -674,9 +674,6 @@ segment.10.Bass.Clarinet.Voice.1.part.1 = {
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"
-    %! baca.repeat_tie()
-    %! baca.IndicatorCommand._call()
-    \repeatTie
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
     %! baca.hairpin()
@@ -703,6 +700,9 @@ segment.10.Bass.Clarinet.Voice.1.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_DYNAMIC
     \>
+    %! baca.repeat_tie()
+    %! baca.IndicatorCommand._call()
+    \repeatTie
     %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
