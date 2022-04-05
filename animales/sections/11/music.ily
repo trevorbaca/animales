@@ -3682,9 +3682,9 @@ segment.11.Trombone.Voice.1.part.1 = {
 
     %! animales.brass_manifest_rhythm()
     af!8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! animales.brass_manifest_rhythm()
     af2
@@ -4101,9 +4101,9 @@ segment.11.Trombone.Voice.3.part.1 = {
 
     %! animales.brass_manifest_rhythm()
     g8
-    ~
     %! rmakers.RewriteMeterCommand.__call__
     ]
+    ~
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 4]
