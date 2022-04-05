@@ -326,15 +326,15 @@ segment.01.Percussion.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 1]
     %! -PARTS
-    %! baca._attach_default_indicators(2)
-    %! baca._set_status_tag()
-    %! DEFAULT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! -PARTS
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+    %! -PARTS
+    %! baca._attach_default_indicators(2)
+    %! baca._set_status_tag()
+    %! DEFAULT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
@@ -791,15 +791,15 @@ segment.01.Percussion.Voice.4.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
     %! -PARTS
-    %! baca._attach_default_indicators(2)
-    %! baca._set_status_tag()
-    %! DEFAULT_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! -PARTS
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
     %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+    %! -PARTS
+    %! baca._attach_default_indicators(2)
+    %! baca._set_status_tag()
+    %! DEFAULT_MARGIN_MARKUP
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
     %! baca.staff_lines()
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()

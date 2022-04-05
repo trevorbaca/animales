@@ -839,18 +839,6 @@ segment.30.Percussion.Voice.4.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 1
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \startStaff
     %! -PARTS
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
@@ -864,6 +852,18 @@ segment.30.Percussion.Voice.4.part.1 = {
     %! baca._set_status_tag()
     %! EXPLICIT_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_STAFF_LINES
+    \stopStaff
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_STAFF_LINES
+    \once \override Staff.StaffSymbol.line-count = 1
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! REAPPLIED_STAFF_LINES
+    \startStaff
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
     %! baca.text_script_x_offset()
