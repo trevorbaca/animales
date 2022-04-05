@@ -14336,12 +14336,12 @@ segment.27.Contrabass.Voice.3.part.1 = {
     % [Contrabass.Voice.3 measure 3]
     %! baca.make_repeat_tied_notes()
     cs1
-    %! baca.make_repeat_tied_notes()
-    \repeatTie
     %! baca.text_spanner()
     %! baca.PiecewiseCommand._call(3)
     %! SPANNER_STOP
     \stopTextSpan
+    %! baca.make_repeat_tied_notes()
+    \repeatTie
 
 %! baca.path.extern()
 }

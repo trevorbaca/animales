@@ -2768,9 +2768,9 @@ segment.05.Viola.Voice.1.part.1 = {
 
     %! animales.sforzando_exchange_rhythm()
     b8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! animales.sforzando_exchange_rhythm()
     b8
@@ -2832,9 +2832,9 @@ segment.05.Viola.Voice.1.part.1 = {
 
     %! animales.sforzando_exchange_rhythm()
     b8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! animales.sforzando_exchange_rhythm()
     b8
@@ -3392,9 +3392,9 @@ segment.05.Cello.Voice.1.part.1 = {
 
     %! animales.sforzando_exchange_rhythm()
     b8
-    \repeatTie
     %! rmakers.RewriteMeterCommand.__call__
     [
+    \repeatTie
 
     %! animales.sforzando_exchange_rhythm()
     b8
