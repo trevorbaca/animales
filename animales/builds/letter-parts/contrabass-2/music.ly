@@ -38,7 +38,7 @@
 \paper {
     evenFooterMarkup =
         \markup
-        \on-the-fly #print-page-number-check-first
+        \if \should-print-page-number
         \fill-line {
             " "
             \bold
@@ -50,7 +50,7 @@
                 \hspace #1.5
                 —
                 \hspace #1.5
-                \on-the-fly #print-page-number-check-first
+                \if \should-print-page-number
                 \fromproperty #'page:page-number-string
                 \hspace #1.5
                 —
