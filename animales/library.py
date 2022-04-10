@@ -1072,7 +1072,10 @@ def pennant_rhythm(extra_counts=None, silences=None):
     commands = []
     if silences is not None:
         specifier = rmakers.force_rest(
-            baca.selectors.tuplets(silences),
+            lambda _: abjad.select.get(
+                abjad.select.tuplets(_),
+                silences,
+            ),
         )
         commands.append(specifier)
 
