@@ -282,7 +282,9 @@ commands(
     library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(
         1,
-        rmakers.force_rest(baca.selectors.tuplet(1)),
+        rmakers.force_rest(
+            lambda _: baca.select.tuplet(_, 1),
+        ),
     ),
     library.margin_markup("Cb. 1"),
     baca.dynamic("p"),
