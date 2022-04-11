@@ -69,7 +69,7 @@ commands(
     baca.metronome_mark("114"),
     baca.rehearsal_mark(
         "M",
-        baca.selectors.skip(1 - 1),
+        lambda _: baca.select.skip(_, 1 - 1),
         abjad.Tweak(
             r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
         ),

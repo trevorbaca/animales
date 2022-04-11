@@ -72,7 +72,7 @@ commands(
     "Global_Skips",
     baca.rehearsal_mark(
         "P",
-        baca.selectors.skip(1 - 1),
+        lambda _: baca.select.skip(_, 1 - 1),
         abjad.Tweak(
             r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
