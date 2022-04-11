@@ -102,14 +102,14 @@ commands(
 crescendi = baca.suite(
     baca.new(
         baca.hairpin("< f", left_broken=True),
-        map=baca.selectors.runs((None, 1)),
+        map=lambda _: baca.select.runs(_)[:1],
     ),
     baca.new(
         baca.hairpin(
             "mp < ff",
             remove_length_1_spanner_start=True,
         ),
-        map=baca.selectors.runs((1, None)),
+        map=lambda _: baca.select.runs(_)[1:],
     ),
 )
 

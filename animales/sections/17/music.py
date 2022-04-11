@@ -167,15 +167,15 @@ def crescendi():
     return baca.suite(
         baca.hairpin(
             "mp < mf",
-            selector=baca.selectors.run(0),
+            selector=lambda _: abjad.select.run(_, 0),
         ),
         baca.hairpin(
             "mp < f",
-            selector=baca.selectors.run(1),
+            selector=lambda _: abjad.select.run(_, 1),
         ),
         baca.hairpin(
             "mp < ff",
-            selector=baca.selectors.run(2),
+            selector=lambda _: abjad.select.run(_, 2),
         ),
     )
 
