@@ -275,7 +275,7 @@ for voice, items in string_parts.items():
     commands_.append(
         baca.pitch(
             items[2],
-            selector=baca.selectors.plts(exclude=baca.const.HIDDEN),
+            selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
         ),
     )
     commands(
