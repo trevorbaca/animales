@@ -84,7 +84,7 @@ def swell(peak):
     return baca.hairpin(
         f"niente o< {peak} >o niente",
         pieces=lambda _: baca.mgroups(_, [2, 3, 1]),
-        selector=baca.selectors.rleaves(),
+        selector=lambda _: baca.select.rleaves(_),
     )
 
 
