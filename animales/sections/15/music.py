@@ -206,7 +206,7 @@ commands(
 commands(
     ("hp1", (1, 6)),
     library.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -221,7 +221,7 @@ commands(
 commands(
     ("pf1", (1, 6)),
     library.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -274,7 +274,7 @@ commands(
 commands(
     ("perc3", (1, 6)),
     library.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
 )
 
@@ -397,7 +397,7 @@ commands(
 commands(
     ("cb1", (1, 6)),
     library.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4", do_not_transpose=True),
 )
 

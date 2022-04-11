@@ -193,7 +193,7 @@ commands(
             baca.selectors.pleaf(-1),
             allow_repitch=True,
         ),
-        baca.tie(baca.selectors.ptail(-2)),
+        baca.tie(lambda _: baca.select.ptail(_, -2)),
         baca.glissando(),
     ),
 )

@@ -67,7 +67,7 @@ commands(
 commands(
     ("pf1", (1, 9)),
     baca.note_head_style_harmonic(),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.make_notes(),
     baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
     baca.pitch("C#4"),
@@ -110,7 +110,7 @@ commands(
         baca.rehearsal_mark_down(),
         baca.rehearsal_mark_padding(6),
         baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=baca.selectors.rleaf(-1),
+        selector=lambda _: baca.select.rleaf(_, -1),
     ),
 )
 

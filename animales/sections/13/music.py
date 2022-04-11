@@ -111,7 +111,7 @@ commands(
     "hp1",
     library.parts("Harp"),
     library.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -122,7 +122,7 @@ commands(
     "pf1",
     library.parts("Piano"),
     library.harp_exchange_rhythm(3),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=baca.selectors.pheads()),
 )
@@ -160,7 +160,7 @@ commands(
     "perc3",
     library.parts("Percussion", 3),
     library.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
 )
 
@@ -246,7 +246,7 @@ commands(
     "cb1",
     library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=baca.selectors.ptails()),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),
 )
