@@ -115,7 +115,9 @@ commands(
     baca.only_parts(
         baca.hairpin(
             "mf < ff",
-            selector=baca.selectors.tleaves(),
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
         ),
     ),
     baca.slur(),
@@ -127,7 +129,9 @@ commands(
     library.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
     baca.hairpin(
         "mf < ff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
@@ -141,7 +145,9 @@ commands(
     baca.only_parts(
         baca.hairpin(
             "mf < ff",
-            selector=baca.selectors.tleaves(),
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
         ),
     ),
     baca.slur(),
@@ -153,7 +159,9 @@ commands(
     library.pennant_rhythm([0, 0, -1, -1]),
     baca.hairpin(
         "mf < ff",
-        selector=baca.selectors.tleaves(),
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
     ),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
