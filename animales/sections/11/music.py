@@ -73,7 +73,7 @@ commands(
     baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark(
         "J",
-        baca.selectors.skip(1 - 1),
+        lambda _: baca.select.skip(_, 1 - 1),
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
     ),
     baca.tag(
