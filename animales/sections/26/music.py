@@ -119,10 +119,10 @@ commands(
     library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # bass drum
@@ -133,9 +133,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # tam-tam
@@ -146,9 +146,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # strings

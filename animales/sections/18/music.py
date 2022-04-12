@@ -233,10 +233,10 @@ def tremolo(peak="f"):
         ),
         baca.text_spanner(
             "tasto => ext. pont. => tasto",
-            pieces=baca.selectors.cmgroups([2]),
+            pieces=lambda _: baca.select.cmgroups(_, [2]),
         ),
         baca.stem_tremolo(
-            selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
         ),
     )
 
@@ -306,7 +306,7 @@ commands(
     "1vn5",
     baca.repeat_tie(baca.selectors.leaf(0)),
     baca.stem_tremolo(
-        selector=baca.selectors.pleaves(exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
 )
 

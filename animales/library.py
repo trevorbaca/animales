@@ -771,7 +771,7 @@ def harp_exchange_rhythm(this_part, *commands, silence_first=False):
 
     silence_first_specifier = []
     if silence_first is True:
-        specifier = rmakers.force_rest(baca.selectors.lt(0))
+        specifier = rmakers.force_rest(lambda _: baca.select.lt(_, 0))
         silence_first_specifier.append(specifier)
 
     def preprocessor(divisions):

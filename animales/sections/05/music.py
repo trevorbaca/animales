@@ -83,9 +83,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # cymbal
@@ -96,9 +96,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # strings
@@ -123,12 +123,12 @@ commands(
         library.glissando_positions(transpose=-1),
         baca.pitch(
             "B4",
-            baca.selectors.pleaf(0),
+            lambda _: baca.select.pleaf(_, 0),
             allow_repitch=True,
         ),
         baca.pitch(
             "B3",
-            baca.selectors.pleaf(-1),
+            lambda _: baca.select.pleaf(_, -1),
             allow_repitch=True,
         ),
         baca.glissando(),
@@ -163,7 +163,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads((1, None))),
     baca.dynamic(
         "f-but-accents-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("B3"),
     baca.trill_spanner(alteration="C4", right_broken=True),
