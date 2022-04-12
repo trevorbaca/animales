@@ -234,7 +234,7 @@ commands(
         ),
         baca.pitch(
             "Bb1",
-            selector=baca.selectors.leaves((1, None)),
+            selector=lambda _: baca.select.leaves(_)[1:],
         ),
         baca.repeat_tie(selector=lambda _: abjad.select.leaf(_, 1)),
         baca.edition(
