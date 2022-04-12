@@ -212,7 +212,9 @@ strings = [
 
 commands(
     (strings, (1, 2)),
-    baca.accent(selector=baca.selectors.pheads((1, None))),
+    baca.accent(
+        selector=lambda _: baca.select.pheads(_)[1:],
+    ),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),

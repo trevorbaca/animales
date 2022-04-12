@@ -262,7 +262,7 @@ commands(
     library.parts("Percussion", 2),
     baca.hairpin(
         "niente o< p",
-        selector=baca.selectors.pleaves((None, 3)),
+        selector=lambda _: baca.select.pleaves(_)[:3],
     ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),

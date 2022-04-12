@@ -332,7 +332,7 @@ commands(
     baca.hairpin(
         "< ff",
         left_broken=True,
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.pitch("G3"),
     baca.trill_spanner(alteration="Ab3"),
@@ -395,7 +395,7 @@ commands(
     baca.hairpin(
         "< ff",
         left_broken=True,
-        selector=baca.selectors.pleaves((None, 2)),
+        selector=lambda _: baca.select.pleaves(_)[:2],
     ),
     baca.pitch("G1"),
 )
