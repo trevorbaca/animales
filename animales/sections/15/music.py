@@ -182,7 +182,7 @@ commands(
     ),
     baca.pitch("Ab2"),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -208,7 +208,7 @@ commands(
     library.harp_exchange_rhythm(2),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
-    baca.stopped(selector=baca.selectors.pheads()),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
 
 # piano
@@ -223,7 +223,7 @@ commands(
     library.harp_exchange_rhythm(3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
-    baca.stopped(selector=baca.selectors.pheads()),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
 
 # percussion
@@ -243,7 +243,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # cymbal
@@ -261,7 +261,7 @@ commands(
     ),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # vibraphone
@@ -304,12 +304,12 @@ commands(
         library.glissando_positions(transpose=-3),
         baca.pitch(
             "G4",
-            baca.selectors.pleaf(0),
+            lambda _: baca.select.pleaf(_, 0),
             allow_repitch=True,
         ),
         baca.pitch(
             "G4",
-            baca.selectors.pleaf(-1),
+            lambda _: baca.select.pleaf(_, -1),
             allow_repitch=True,
         ),
         baca.glissando(),

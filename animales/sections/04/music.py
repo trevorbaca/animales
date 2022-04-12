@@ -102,7 +102,7 @@ commands(
     baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
@@ -185,12 +185,12 @@ commands(
         library.glissando_positions(reverse=True),
         baca.pitch(
             "C5",
-            baca.selectors.pleaf(0),
+            lambda _: baca.select.pleaf(_, 0),
             allow_repitch=True,
         ),
         baca.pitch(
             "C6",
-            baca.selectors.pleaf(-1),
+            lambda _: baca.select.pleaf(_, -1),
             allow_repitch=True,
         ),
         baca.tie(lambda _: baca.select.ptail(_, -2)),
@@ -215,7 +215,7 @@ commands(
     baca.accent(selector=baca.selectors.pheads((1, None))),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("Db4"),
     baca.trill_spanner(alteration="Eb4"),

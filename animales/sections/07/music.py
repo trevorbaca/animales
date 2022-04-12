@@ -123,7 +123,7 @@ commands(
         baca.markup(r"\animales-lh-damped-pdlt-explanation-markup"),
     ),
     baca.pitch("D5"),
-    baca.stopped(selector=baca.selectors.pheads()),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
 
 # piano
@@ -136,7 +136,7 @@ commands(
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
     baca.pitch("D5"),
-    baca.stopped(selector=baca.selectors.pheads()),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
 
 # percussion
@@ -160,9 +160,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # vibraphone
@@ -230,7 +230,7 @@ commands(
         baca.untie(baca.selectors.leaf(1)),
         baca.pitch(
             "A#1",
-            selector=baca.selectors.pleaf(0),
+            selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch(
             "Bb1",

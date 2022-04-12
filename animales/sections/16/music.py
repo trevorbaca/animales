@@ -152,7 +152,7 @@ commands(
 
 def tremolo_suite():
     return baca.suite(
-        baca.accent(selector=baca.selectors.pleaves()),
+        baca.accent(selector=lambda _: baca.select.pleaves(_)),
         baca.dynamic("ff-ancora"),
         baca.hairpin(
             "ff > pp",
@@ -165,7 +165,7 @@ def tremolo_suite():
             "ext. pont. => tasto",
             selector=baca.selectors.pleaves((2, -2)),
         ),
-        baca.stem_tremolo(selector=baca.selectors.pleaves()),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
 
 
@@ -199,7 +199,7 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.pitch("C#4"),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # part assignments

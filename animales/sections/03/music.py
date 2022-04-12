@@ -75,7 +75,7 @@ commands(
 # then untie ...
 commands(
     (strings, 4),
-    baca.untie(baca.selectors.pleaf(0)),
+    baca.untie(lambda _: baca.select.pleaf(_, 0)),
 )
 
 # ... then pitch
@@ -83,7 +83,7 @@ commands(
     (strings, (1, 3)),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("E4"),
     baca.trill_spanner(alteration="F4"),
@@ -93,7 +93,7 @@ commands(
     (strings, (4, 5)),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("Eb4"),
     baca.trill_spanner(alteration="E4", right_broken=True),

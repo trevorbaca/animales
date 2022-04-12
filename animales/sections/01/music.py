@@ -141,7 +141,7 @@ commands(
 commands(
     (strings, (5, 6)),
     baca.untie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -150,7 +150,7 @@ commands(
     (strings, (1, 4)),
     baca.dynamic(
         "f-but-accents-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("A4"),
     baca.trill_spanner(alteration="B4"),
@@ -160,7 +160,7 @@ commands(
     (strings, (5, 6)),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
-        selector=baca.selectors.pleaf(0),
+        selector=lambda _: baca.select.pleaf(_, 0),
     ),
     baca.pitch("Ab4"),
     baca.trill_spanner(alteration="A4", right_broken=True),

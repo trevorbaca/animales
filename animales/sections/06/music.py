@@ -93,9 +93,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
@@ -104,9 +104,9 @@ commands(
     baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.stem_tremolo(selector=baca.selectors.pleaves()),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 # strings
@@ -156,7 +156,7 @@ commands(
     (left_broken, 1),
     baca.not_segment(baca.stop_trill()),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
@@ -233,7 +233,7 @@ commands(
     baca.hairpin("ff >", right_broken=True),
     baca.interpolate_pitches("B1", "A1"),
     baca.repeat_tie(
-        baca.selectors.pleaf(0),
+        lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
