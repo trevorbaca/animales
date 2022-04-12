@@ -119,7 +119,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
         library.glissando_positions(transpose=-1),
         baca.pitch(
             "B4",

@@ -87,7 +87,7 @@ commands(
     ("Clarinet.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-explanation-markup",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
     baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
 )
@@ -136,7 +136,7 @@ commands(
     library.parts("Percussion", 2),
     baca.dynamic(
         "niente",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
 )
 
@@ -203,7 +203,7 @@ commands(
     baca.only_parts(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
-            selector=baca.selectors.leaf(0),
+            selector=lambda _: abjad.select.leaf(_, 0),
         ),
     ),
 )
@@ -213,7 +213,7 @@ commands(
     baca.not_parts(
         baca.markup(
             r"\animales-strings-suddenly-ripped-off-markup",
-            selector=baca.selectors.leaf(0),
+            selector=lambda _: abjad.select.leaf(_, 0),
         ),
     ),
 )

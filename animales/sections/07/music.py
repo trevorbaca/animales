@@ -148,7 +148,7 @@ commands(
     library.parts("Percussion", 1),
     baca.dynamic(
         "niente",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
 )
 
@@ -227,7 +227,7 @@ commands(
 commands(
     "cb3",
     baca.suite(
-        baca.untie(baca.selectors.leaf(1)),
+        baca.untie(lambda _: abjad.select.leaf(_, 1)),
         baca.pitch(
             "A#1",
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -236,17 +236,17 @@ commands(
             "Bb1",
             selector=baca.selectors.leaves((1, None)),
         ),
-        baca.repeat_tie(selector=baca.selectors.leaf(1)),
+        baca.repeat_tie(selector=lambda _: abjad.select.leaf(_, 1)),
         baca.edition(
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.DOWN,
-                selector=baca.selectors.leaf(1),
+                selector=lambda _: abjad.select.leaf(_, 1),
             ),
             baca.markup(
                 r"\animales-b-flat-equals-a-sharp-markup",
                 direction=abjad.UP,
-                selector=baca.selectors.leaf(1),
+                selector=lambda _: abjad.select.leaf(_, 1),
             ),
         ),
     ),

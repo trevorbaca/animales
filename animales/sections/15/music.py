@@ -79,7 +79,7 @@ commands(
     baca.new(
         baca.global_fermata("fermata"),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
-        selector=baca.selectors.leaf(7 - 1),
+        selector=lambda _: abjad.select.leaf(_, 7 - 1),
     ),
 )
 
@@ -300,7 +300,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.stop_trill()),
     baca.suite(
-        baca.untie(baca.selectors.leaves()),
+        baca.untie(lambda _: baca.select.leaves(_)),
         library.glissando_positions(transpose=-3),
         baca.pitch(
             "G4",
@@ -361,7 +361,7 @@ commands(
     ("First.Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
-        selector=baca.selectors.leaf(0),
+        selector=lambda _: abjad.select.leaf(_, 0),
     ),
 )
 
@@ -370,7 +370,7 @@ commands(
     baca.only_parts(
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
-            selector=baca.selectors.leaf(0),
+            selector=lambda _: abjad.select.leaf(_, 0),
         ),
     ),
 )

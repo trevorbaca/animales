@@ -80,11 +80,11 @@ commands(
     "Global_Rests",
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(2),
+        selector=lambda _: abjad.select.leaf(_, 2),
     ),
     baca.global_fermata(
         "fermata",
-        selector=baca.selectors.leaf(7),
+        selector=lambda _: abjad.select.leaf(_, 7),
     ),
 )
 
@@ -245,7 +245,7 @@ def upper_voice():
     return baca.suite(
         baca.only_parts(baca.text_spanner_staff_padding(5)),
         baca.not_parts(
-            baca.dynamic_text_stencil_false(selector=baca.selectors.leaves())
+            baca.dynamic_text_stencil_false(selector=lambda _: baca.select.leaves(_))
         ),
         baca.not_parts(baca.hairpin_stencil_false()),
         baca.not_parts(baca.text_spanner_stencil_false()),
@@ -304,7 +304,7 @@ for voice, items in string_parts.items():
 
 commands(
     "1vn5",
-    baca.repeat_tie(baca.selectors.leaf(0)),
+    baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
     baca.stem_tremolo(
         selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
     ),
