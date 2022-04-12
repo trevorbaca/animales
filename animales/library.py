@@ -33,7 +33,9 @@ def instrument(key):
     return baca.instrument(instruments[key])
 
 
-def margin_markup(key, alert=None, context="Staff", selector=baca.selectors.leaf(0)):
+def margin_markup(
+    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
+):
     margin_markup = margin_markups[key]
     command = baca.margin_markup(
         margin_markup,
@@ -473,7 +475,7 @@ def attach_grand_pause_fermatas(maker, score, *, measure=-1):
         markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
         markup_command = baca.markup(
             markup,
-            selector=baca.selectors.leaf(0),
+            selector=lambda _: abjad.select.leaf(_, 0),
         )
         string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
         literal_1 = baca.literal(string)
@@ -538,7 +540,7 @@ def battuti(
                 command: baca.CommandTyping
                 command = baca.markup(
                     markup,
-                    selector=baca.selectors.leaf(0),
+                    selector=lambda _: abjad.select.leaf(_, 0),
                 )
                 command = baca.only_parts(command)
                 commands.append(command)

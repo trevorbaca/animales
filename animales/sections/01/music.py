@@ -129,7 +129,7 @@ strings = [
 # first accents ...
 commands(
     ("1vn1", 1),
-    baca.accent(selector=baca.selectors.phead(0)),
+    baca.accent(selector=lambda _: baca.select.phead(_, 0)),
 )
 
 commands(
