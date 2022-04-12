@@ -174,11 +174,11 @@ commands(
     library.parts("Bass.Clarinet"),
     baca.hairpin(
         "p >o niente",
-        selector=baca.selectors.leaves((None, 2)),
+        selector=lambda _: baca.select.leaves(_)[:2],
     ),
     baca.hairpin(
         "niente o< p",
-        selector=baca.selectors.leaves((2, 4)),
+        selector=lambda _: baca.select.leaves(_)[2:4],
     ),
     baca.pitch("Ab2"),
     baca.repeat_tie(
