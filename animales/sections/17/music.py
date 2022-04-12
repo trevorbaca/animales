@@ -309,14 +309,14 @@ def tremolo_suite():
         baca.dynamic("ff"),
         baca.hairpin(
             "ff > pp",
-            selector=baca.selectors.pleaves((2, -2)),
+            selector=lambda _: baca.select.pleaves(_)[2:-2],
         ),
         baca.only_parts(
             baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
         ),
         baca.text_spanner(
             "ext. pont. => tasto",
-            selector=baca.selectors.pleaves((2, -2)),
+            selector=lambda _: baca.select.pleaves(_)[2:-2],
         ),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )

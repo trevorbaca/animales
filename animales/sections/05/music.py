@@ -160,7 +160,9 @@ strings = [
 
 commands(
     strings,
-    baca.accent(selector=baca.selectors.pheads((1, None))),
+    baca.accent(
+        selector=lambda _: baca.select.pheads(_)[1:],
+    ),
     baca.dynamic(
         "f-but-accents-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
@@ -176,7 +178,7 @@ commands(
     library.parts("Contrabass"),
     baca.hairpin(
         "< ff",
-        selector=baca.selectors.pleaves((None, 4)),
+        selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
     baca.make_repeat_tied_notes(),

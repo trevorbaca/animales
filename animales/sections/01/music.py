@@ -134,7 +134,9 @@ commands(
 
 commands(
     strings,
-    baca.accent(selector=baca.selectors.pheads((1, None))),
+    baca.accent(
+        selector=lambda _: baca.select.pheads(_)[1:],
+    ),
 )
 
 # then untie ...

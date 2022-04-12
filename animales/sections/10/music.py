@@ -96,7 +96,7 @@ commands(
     ("bcl1", (1, 3)),
     baca.hairpin(
         "p >o niente",
-        selector=baca.selectors.pleaves(rleak=True),
+        selector=lambda _: baca.select.rleak(baca.select.pleaves(_)),
     ),
     baca.make_repeat_tied_notes(),
     baca.pitch("A2"),
