@@ -1,5 +1,4 @@
 import inspect
-import typing
 
 import abjad
 import baca
@@ -537,7 +536,6 @@ def battuti(
                 polyphony = upper_voice()
             if first:
                 markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
-                command: baca.CommandTyping
                 command = baca.markup(
                     markup,
                     selector=lambda _: abjad.select.leaf(_, 0),
@@ -627,12 +625,7 @@ def brass_sforzando(maker, range_=(1, -1)):
         maker((voice, range_), baca.pitch(pitch))
 
 
-def clb_rhythm(
-    section: str,
-    member: int,
-    counts: typing.Sequence[abjad.IntegerSequence],
-    wrap: int,
-):
+def clb_rhythm(section, member, counts, wrap):
     if section in ("First.Violin", "Second.Violin", "Viola"):
         assert member in range(1, 18 + 1), repr(member)
     elif section == "Cello":
