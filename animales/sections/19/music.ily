@@ -226,88 +226,134 @@ segment.19.Global.Skips = {
 %! baca.path.extern()
 segment.19.Horn.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "bass"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Horn”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Horn.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "bass"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Horn”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Horn.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -408,39 +454,85 @@ segment.19.Horn.Voice.1 = {
 %! baca.path.extern()
 segment.19.Horn.Voice.3 = {
 
-    %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Horn.Voice.3"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Horn.Rest_Voice.3"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Rest_Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -561,88 +653,134 @@ segment.19.Horn.Staff.1 = <<
 %! baca.path.extern()
 segment.19.Horn.Voice.2 = {
 
-    %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "bass"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Horn”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Horn.Voice.2"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Voice.2 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "bass"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Horn”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Horn.Rest_Voice.2"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Rest_Voice.2 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -743,39 +881,85 @@ segment.19.Horn.Voice.2 = {
 %! baca.path.extern()
 segment.19.Horn.Voice.4 = {
 
-    %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Horn.Voice.4"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Horn.Rest_Voice.4"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Horn.Rest_Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -896,88 +1080,134 @@ segment.19.Horn.Staff.2 = <<
 %! baca.path.extern()
 segment.19.Trumpet.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "treble"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trumpet.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "treble"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trumpet.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1078,39 +1308,85 @@ segment.19.Trumpet.Voice.1 = {
 %! baca.path.extern()
 segment.19.Trumpet.Voice.3 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trumpet.Voice.3"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trumpet.Rest_Voice.3"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Rest_Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1231,88 +1507,134 @@ segment.19.Trumpet.Staff.1 = <<
 %! baca.path.extern()
 segment.19.Trumpet.Voice.2 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "treble"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trumpet.Voice.2"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Voice.2 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "treble"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trumpet.Rest_Voice.2"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Rest_Voice.2 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1413,39 +1735,85 @@ segment.19.Trumpet.Voice.2 = {
 %! baca.path.extern()
 segment.19.Trumpet.Voice.4 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trumpet.Voice.4"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trumpet.Rest_Voice.4"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trumpet.Rest_Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1566,88 +1934,134 @@ segment.19.Trumpet.Staff.2 = <<
 %! baca.path.extern()
 segment.19.Trombone.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "tenor"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trombone”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trombone.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "tenor"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            a1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Trombone”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trombone.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1748,39 +2162,85 @@ segment.19.Trombone.Voice.1 = {
 %! baca.path.extern()
 segment.19.Trombone.Voice.3 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trombone.Voice.3"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            a1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trombone.Rest_Voice.3"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Rest_Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -1901,88 +2361,134 @@ segment.19.Trombone.Staff.1 = <<
 %! baca.path.extern()
 segment.19.Trombone.Voice.2 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "tenor"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! +PARTS
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% - \tweak color #(x11-color 'green4)
-    %! +PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-%%% \sfz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trombone”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trombone.Voice.2"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Voice.2 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "tenor"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            a1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! +PARTS
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% - \tweak color #(x11-color 'green4)
+            %! +PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+        %%% \sfz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Trombone”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trombone.Rest_Voice.2"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Rest_Voice.2 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2083,39 +2589,85 @@ segment.19.Trombone.Voice.2 = {
 %! baca.path.extern()
 segment.19.Trombone.Voice.4 = {
 
-    %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 1]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \sfz
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Trombone.Voice.4"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            a1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \sfz
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Trombone.Rest_Voice.4"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Trombone.Rest_Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2236,85 +2788,131 @@ segment.19.Trombone.Staff.2 = <<
 %! baca.path.extern()
 segment.19.Tuba.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Tuba.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "bass"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \baca-sffz
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Tuba”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Tub.”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Tuba.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Tuba.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "bass"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            d1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \baca-sffz
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Tuba”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Tub.”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Tuba.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Tuba.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Tuba.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Tuba.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2429,85 +3027,131 @@ segment.19.Tuba.Staff.1 = {
 %! baca.path.extern()
 segment.19.Piano.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Piano.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "treble"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \mf
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Piano.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Piano.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "treble"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \mf
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Piano”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Pf.”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Piano.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Piano.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2622,106 +3266,152 @@ segment.19.Piano.Staff.1 = {
 %! baca.path.extern()
 segment.19.Percussion.Voice.1 = {
 
-    %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 1
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \startStaff
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "percussion"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \mp
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Percussion.Voice.1"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Voice.1 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_BAR_EXTENT
+            %! EXPLICIT_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(-2 . 0)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \stopStaff
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \once \override Staff.StaffSymbol.line-count = 1
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \startStaff
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "percussion"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_STAFF_LINES_COLOR
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            c'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \mp
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Percussion.Rest_Voice.1"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Rest_Voice.1 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -2836,100 +3526,146 @@ segment.19.Percussion.Staff.1 = {
 %! baca.path.extern()
 segment.19.Percussion.Voice.2 = {
 
-    %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 1
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \startStaff
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "percussion"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \mp
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Percussion.Voice.2"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Voice.2 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \stopStaff
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \once \override Staff.StaffSymbol.line-count = 1
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \startStaff
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "percussion"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_STAFF_LINES_COLOR
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            c'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \mp
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Perc. 2 (cym.)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Percussion.Rest_Voice.2"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Rest_Voice.2 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.2 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3044,85 +3780,131 @@ segment.19.Percussion.Staff.2 = {
 %! baca.path.extern()
 segment.19.Percussion.Voice.3 = {
 
-    %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "treble"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_DYNAMIC_COLOR
-    %! baca.treat_persistent_wrapper()
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
-    \mp
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Percussion.Voice.3"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Voice.3 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "treble"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            b'1 * 1
+            %! REAPPLIED_DYNAMIC_COLOR
+            %! baca.treat_persistent_wrapper()
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            - \tweak color #(x11-color 'green4)
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_DYNAMIC
+            \mp
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Perc. 3 (vib.)”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Percussion.Rest_Voice.3"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Rest_Voice.3 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
@@ -3237,96 +4019,142 @@ segment.19.Percussion.Staff.3 = {
 %! baca.path.extern()
 segment.19.Percussion.Voice.4 = {
 
-    %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 1]
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \stopStaff
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 1
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
-    \startStaff
-    %! baca._clone_segment_initial_short_instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
-    %! baca._reapply_persistent_indicators(3)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \clef "percussion"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_MARGIN_MARKUP_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-    %! -PARTS
-    %! baca._magnify_staves()
-    \magnifyStaff #3/5
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
-    %! REAPPLIED_INSTRUMENT_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-    %! REAPPLIED_MARGIN_MARKUP_ALERT
-    %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"
-    %! baca._label_duration_multipliers()
-    %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    %! baca._attach_color_literal(2)
-    %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
-    %! baca._attach_color_literal(2)
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
-    %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
-    %! REDRAWN_REAPPLIED_MARGIN_MARKUP
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+    %! baca._make_multimeasure_rest_container(7)
+    <<
+
+        %! baca._make_multimeasure_rest_container(4)
+        \context Voice = "Percussion.Voice.4"
+        %! baca._make_multimeasure_rest_container(4)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Voice.4 measure 1]
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_BAR_EXTENT
+            %! EXPLICIT_BAR_EXTENT
+            \override Staff.BarLine.bar-extent = #'(0 . 2)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \stopStaff
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \once \override Staff.StaffSymbol.line-count = 1
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_STAFF_LINES
+            \startStaff
+            %! baca._clone_segment_initial_short_instrument_name()
+            \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
+            %! baca._make_multimeasure_rest_container(2)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COLORING
+            \abjad-invisible-music-coloring
+            %! baca._make_multimeasure_rest_container(3)
+            %! NOTE
+            %! INVISIBLE_MUSIC_COMMAND
+            %@% \abjad-invisible-music
+            %! baca._reapply_persistent_indicators(3)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \clef "percussion"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_COLOR
+            \once \override Staff.Clef.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(1)
+            %! REAPPLIED_CLEF_COLOR_CANCELLATION
+            %@% \override Staff.Clef.color = ##f
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(2)
+            %! baca._set_status_tag()
+            %! REAPPLIED_CLEF
+            \set Staff.forceClef = ##t
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_STAFF_LINES_COLOR
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_MARGIN_MARKUP_COLOR
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+            %! -PARTS
+            %! baca._magnify_staves()
+            \magnifyStaff #3/5
+            %! baca._make_multimeasure_rest_container(1)
+            %! HIDDEN
+            %! NOTE
+            c'1 * 1
+            %! REAPPLIED_INSTRUMENT_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+            %! REAPPLIED_MARGIN_MARKUP_ALERT
+            %! baca._attach_latent_indicator_alert()
+            ^ \baca-reapplied-indicator-markup "[“Perc.”]"
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! HIDDEN
+            %! NOTE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+            %! baca._attach_color_literal(2)
+            %! REAPPLIED_CLEF_REDRAW_COLOR
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)
+            %! baca._attach_color_literal(2)
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+            %! -PARTS
+            %! baca._reapply_persistent_indicators(3)
+            %! baca.treat_persistent_wrapper(3)
+            %! baca._set_status_tag()
+            %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+            \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Perc."
+
+        %! baca._make_multimeasure_rest_container(4)
+        }
+
+        %! baca._make_multimeasure_rest_container(6)
+        \context Voice = "Percussion.Rest_Voice.4"
+        %! baca._make_multimeasure_rest_container(6)
+        {
+
+            %! baca._comment_measure_numbers()
+            % [Percussion.Rest_Voice.4 measure 1]
+            %! baca._make_multimeasure_rest_container(5)
+            %! REST_VOICE
+            %! MULTIMEASURE_REST
+            R1 * 1
+            %! baca._label_duration_multipliers()
+            %! DURATION_MULTIPLIER
+            %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+
+        %! baca._make_multimeasure_rest_container(6)
+        }
+
+    %! baca._make_multimeasure_rest_container(7)
+    >>
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 2]
-    %! baca._call_rhythm_commands()
-    R1 * 2/4
+    %! baca._make_measure_silences()
+    R1 * 1/2
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"2"
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 3]
-    %! baca._call_rhythm_commands()
-    R1 * 4/4
+    %! baca._make_measure_silences()
+    R1 * 1
     %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
-    %@% ^ \baca-duration-multiplier-markup #"4" #"4"
+    %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
     %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
