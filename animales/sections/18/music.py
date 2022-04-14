@@ -236,7 +236,7 @@ def tremolo(peak="f"):
             pieces=lambda _: baca.select.cmgroups(_, [2]),
         ),
         baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
         ),
     )
 
@@ -275,7 +275,7 @@ for voice, items in string_parts.items():
     commands_.append(
         baca.pitch(
             items[2],
-            selector=lambda _: baca.select.plts(_, exclude=baca.const.HIDDEN),
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
         ),
     )
     commands(
@@ -306,7 +306,7 @@ commands(
     "1vn5",
     baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
     baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.const.HIDDEN),
+        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
     ),
 )
 
