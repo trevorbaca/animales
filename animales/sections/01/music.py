@@ -51,23 +51,47 @@ commands(
 
 commands(
     "perc1",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 1),
     baca.staff_lines(1),
 )
 
 commands(
     "perc2",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 2),
     baca.staff_lines(1),
 )
 
 commands(
     "perc4",
+    baca.make_mmrests(),
+    baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 4),
     baca.staff_lines(1),
 )
 
-# start markup
+# strings
+
+strings = [
+    "1vn1",
+    "1vn3",
+    "2vn1",
+    "2vn3",
+    "va1",
+    "va3",
+    "vc1",
+]
+
+library.make_trill_rhythm(commands)
+
+for voice_name in strings:
+    commands(
+        voice_name,
+        baca.attach_first_segment_default_indicators(),
+    )
 
 voice_to_start_markup = {
     "1vn1": [
@@ -106,25 +130,13 @@ for voice, commands_ in voice_to_start_markup.items():
         *commands_,
     )
 
-# strings
 
 library.assign_trill_parts(commands)
-library.make_trill_rhythm(commands)
 
 commands(
     ("vc1", 1),
     baca.clef("tenor"),
 )
-
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
 
 # first accents ...
 commands(
