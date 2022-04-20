@@ -114,8 +114,9 @@ commands(
 
 commands(
     "hp1",
-    library.parts("Harp"),
     library.harp_exchange_rhythm(2, silence_first=True),
+    baca.attach_first_appearance_default_indicators(),
+    library.parts("Harp"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.edition(
@@ -130,8 +131,9 @@ commands(
 
 commands(
     "pf1",
-    library.parts("Piano"),
     library.harp_exchange_rhythm(3, silence_first=True),
+    baca.attach_first_appearance_default_indicators(),
+    library.parts("Piano"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
@@ -279,13 +281,14 @@ commands(
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(
         1,
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 1),
         ),
     ),
+    baca.attach_first_appearance_default_indicators(),
+    library.parts("Contrabass", 1),
     library.margin_markup("Cb. 1"),
     baca.dynamic("p"),
 )
