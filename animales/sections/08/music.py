@@ -84,9 +84,15 @@ commands(
 # bass clarinet
 
 commands(
+    ("bcl1", (1, 4)),
+    baca.make_mmrests(),
+    baca.attach_first_appearance_default_indicators(),
+)
+
+commands(
     ("bcl1", (5, 6)),
-    baca.hairpin("o<", right_broken=True),
     baca.make_repeat_tied_notes(),
+    baca.hairpin("o<", right_broken=True),
     baca.pitch("A2"),
 )
 

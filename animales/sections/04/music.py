@@ -79,6 +79,12 @@ commands(
 # clarinet
 
 commands(
+    ("cl1", (1, 2)),
+    baca.make_mmrests(),
+    baca.attach_first_appearance_default_indicators(),
+)
+
+commands(
     ("cl1", (3, 6)),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
@@ -129,8 +135,23 @@ commands(
 
 # brass
 
-library.assign_brass_sforzando_parts(commands)
 library.brass_sforzando(commands, 3)
+
+for voice_name in (
+    "hn1",
+    "hn2",
+    "tp1",
+    "tp2",
+    "tbn1",
+    "tbn2",
+    "Tuba.Voice.1",
+):
+    commands(
+        voice_name,
+        baca.attach_first_appearance_default_indicators(),
+    )
+
+library.assign_brass_sforzando_parts(commands)
 
 commands(
     "hn1",
@@ -305,6 +326,12 @@ commands(
 )
 
 # contrabasses
+
+commands(
+    ("cb3", (1, 2)),
+    baca.make_mmrests(),
+    baca.attach_first_appearance_default_indicators(),
+)
 
 commands(
     ("cb3", (3, 6)),

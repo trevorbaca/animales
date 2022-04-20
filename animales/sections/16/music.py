@@ -85,6 +85,7 @@ commands(
 commands(
     ("ob1", (1, 5)),
     baca.make_repeat_tied_notes(),
+    baca.attach_first_appearance_default_indicators(),
     baca.pitch("A4"),
 )
 
@@ -103,6 +104,7 @@ commands(
 commands(
     ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
+    baca.attach_first_appearance_default_indicators(),
     baca.pitch("G3"),
 )
 
@@ -128,6 +130,7 @@ commands(
 commands(
     ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
+    baca.attach_first_appearance_default_indicators(),
     baca.pitch("B3"),
 )
 
@@ -193,10 +196,11 @@ def lower_voice_suite(n=5):
 
 commands(
     "1vn5",
+    baca.make_repeat_tied_notes(),
+    baca.attach_first_appearance_default_indicators(),
     library.margin_markup("Vni. I 18"),
     library.parts("First.Violin", 18),
     baca.dynamic("f"),
-    baca.make_repeat_tied_notes(),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.pitch("C#4"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),

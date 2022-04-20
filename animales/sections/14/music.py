@@ -104,9 +104,10 @@ commands(
 
 commands(
     ("fl1", (1, 3)),
+    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
+    baca.attach_first_appearance_default_indicators(),
     library.margin_markup("Fl. (1+3)"),
     library.pennant_pitches("G5", [6]),
-    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
         baca.hairpin(
@@ -135,9 +136,10 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
+    library.pennant_rhythm([0, -1, -1, 0], [0]),
+    baca.attach_first_appearance_default_indicators(),
     library.margin_markup("Fl. (2+4)"),
     library.pennant_pitches("Eb5", [6]),
-    library.pennant_rhythm([0, -1, -1, 0], [0]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
         baca.hairpin(

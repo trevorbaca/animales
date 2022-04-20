@@ -530,6 +530,7 @@ def battuti(
             maker(voice, parts(section, member))
             rhythm = clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)
+            maker(voice, baca.attach_first_appearance_default_indicators())
             if member % 2 == 0:
                 polyphony = lower_voice()
             else:
