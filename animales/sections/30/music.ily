@@ -48,21 +48,21 @@ segment.30.Global.Rests = {
 
     %! baca._comment_measure_numbers()
     % [Global_Rests measure 10]
-    %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(2)
+    %! baca.global_fermata()
     \baca-fermata-measure
     %! baca._make_global_rests(1)
     R1 * 1/4
-    %! baca.global_fermata()
     %! baca.GlobalFermataCommand._call(1)
+    %! baca.global_fermata()
     ^ \baca-fermata-markup
 
+    %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(4)
-    %! PHANTOM
     % [Global_Rests measure 11]
-    %! baca._make_global_rests(2)
     %! PHANTOM
+    %! baca._make_global_rests(2)
     R1 * 1/4
 
 %! baca.make_global_context()
@@ -75,25 +75,25 @@ segment.30.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 1]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! EMPTY_START_BAR
     %! +SEGMENT
+    %! EMPTY_START_BAR
     %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/4
     %! +TABLOID_SCORE
-    %! baca.rehearsal_mark()
     %! baca.IndicatorCommand._call()
+    %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 6)
-    %! baca.rehearsal_mark()
     %! baca.IndicatorCommand._call()
+    %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "CC" #10
     %! LOCAL_MEASURE_NUMBER
     %! baca._label_measure_numbers()
@@ -107,20 +107,20 @@ segment.30.Global.Skips = {
     %! MEASURE_NUMBER
     %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% - \abjad-invisible-line
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
-    %! baca._reapply_persistent_indicators(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_METRONOME_MARK
     %! baca._attach_metronome_marks(2)
+    %! baca._reapply_persistent_indicators(2)
+    %! baca._set_status_tag()
     %@% \bacaStartTextSpanMM
     %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     %! baca._attach_metronome_marks(3)
@@ -172,12 +172,12 @@ segment.30.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 3]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1
@@ -275,12 +275,12 @@ segment.30.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 6]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 3/4
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 3/4
@@ -346,12 +346,12 @@ segment.30.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 8]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 4/4
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1
@@ -417,12 +417,12 @@ segment.30.Global.Skips = {
 
     %! baca._comment_measure_numbers()
     % [Global_Skips measure 10]
+    %! EXPLICIT_TIME_SIGNATURE
     %! baca._make_global_skips(2)
     %! baca._set_status_tag()
-    %! EXPLICIT_TIME_SIGNATURE
     \time 1/4
-    %! baca._attach_color_literal(2)
     %! EXPLICIT_TIME_SIGNATURE_COLOR
+    %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
     %! baca._make_global_skips(1)
     s1 * 1/4
@@ -453,45 +453,45 @@ segment.30.Global.Skips = {
     %! CLOCK_TIME
     %! baca._label_clock_time()
     %@% \bacaStartTextSpanCT
-    %! baca.bar_line()
     %! baca.IndicatorCommand._call()
+    %! baca.bar_line()
     \bar "|."
 
+    %! PHANTOM
     %! baca._comment_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     % [Global_Skips measure 11]
+    %! PHANTOM
     %! baca._style_phantom_measures(2)
-    %! PHANTOM
     \baca-time-signature-transparent
-    %! baca._make_global_skips(3)
     %! PHANTOM
+    %! baca._make_global_skips(3)
     s1 * 1/4
     %! LOCAL_MEASURE_NUMBER
+    %! PHANTOM
     %! baca._label_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanLMN
     %! MEASURE_NUMBER
+    %! PHANTOM
     %! baca._label_measure_numbers()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanMN
     %! EOS_STOP_MM_SPANNER
+    %! PHANTOM
     %! baca._attach_metronome_marks(4)
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     \bacaStopTextSpanMM
     %! CLOCK_TIME
+    %! PHANTOM
     %! baca._label_clock_time()
     %! baca._style_phantom_measures(1)
-    %! PHANTOM
     %@% \bacaStopTextSpanCT
-    %! baca._style_phantom_measures(3)
     %! PHANTOM
+    %! baca._style_phantom_measures(3)
     \once \override Score.BarLine.transparent = ##t
-    %! baca._style_phantom_measures(3)
     %! PHANTOM
+    %! baca._style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t
 
 %! baca.make_global_context()
@@ -505,55 +505,55 @@ segment.30.Piano.Voice.1.part.1 = {
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 1]
     %! -PARTS
+    %! REAPPLIED_MARGIN_MARKUP
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_MARGIN_MARKUP
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
-    %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(1)
+    %! baca.note_head_style_harmonic()
     \override NoteHead.style = #'harmonic
-    %! baca.text_script_x_offset()
     %! +PARTS
     %! baca.OverrideCommand._call(1)
+    %! baca.text_script_x_offset()
 %%% \override TextScript.X-offset = 3
-    %! baca.literal()
     %! +TABLOID_SCORE
     %! baca.IndicatorCommand._call()
+    %! baca.literal()
 %%% \magnifyStaff #10/7
+    %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
     \clef "treble"
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
-    %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+    %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+    %! REAPPLIED_CLEF
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
     %! REAPPLIED_MARGIN_MARKUP_COLOR
+    %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
     %! baca.make_notes()
     cs'!2.
     %! REAPPLIED_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
+    %! REAPPLIED_DYNAMIC
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
+    %! REAPPLIED_DYNAMIC
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_DYNAMIC
     \mf
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
     %! REAPPLIED_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
@@ -561,91 +561,91 @@ segment.30.Piano.Voice.1.part.1 = {
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"
-    %! baca.markup()
     %! baca.IndicatorCommand._call()
+    %! baca.markup()
     ^ \animales-harmonic-touch-lowest-string-of-piano-markup
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
+    %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
     %! -PARTS
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
     %! REDRAWN_REAPPLIED_MARGIN_MARKUP
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 2]
     %! baca.make_notes()
     cs'!2.
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 3]
     %! baca.make_notes()
     cs'!1
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 4]
     %! baca.make_notes()
     cs'!1
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 5]
     %! baca.make_notes()
     cs'!1
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 6]
     %! baca.make_notes()
     cs'!2.
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 7]
     %! baca.make_notes()
     cs'!2.
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 8]
     %! baca.make_notes()
     cs'!1
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
 
     %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 9]
     %! baca.make_notes()
     cs'!1
-    %! baca.laissez_vibrer()
     %! baca.IndicatorCommand._call()
+    %! baca.laissez_vibrer()
     \laissezVibrer
-    %! baca.note_head_style_harmonic()
     %! baca.OverrideCommand._call(2)
+    %! baca.note_head_style_harmonic()
     \revert NoteHead.style
-    %! baca.text_script_x_offset()
     %! +PARTS
     %! baca.OverrideCommand._call(2)
+    %! baca.text_script_x_offset()
 %%% \revert TextScript.X-offset
 
     %! baca._make_multimeasure_rest_container(7)
@@ -658,34 +658,34 @@ segment.30.Piano.Voice.1.part.1 = {
 
             %! baca._comment_measure_numbers()
             % [Piano.Voice.1 measure 10]
-            %! baca._make_multimeasure_rest_container(2)
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
-            \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
             %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
-            %! baca.literal()
             %! +PARTS
             %! baca.IndicatorCommand._call()
+            %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
-            %! baca.literal()
             %! +PARTS
             %! baca.IndicatorCommand._call()
+            %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
+            %! baca._make_multimeasure_rest_container(1)
             b'1 * 1/4
-            %! baca.markup()
             %! +PARTS
             %! baca.IndicatorCommand._call()
+            %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
         %! baca._make_multimeasure_rest_container(4)
@@ -698,14 +698,14 @@ segment.30.Piano.Voice.1.part.1 = {
 
             %! baca._comment_measure_numbers()
             % [Piano.Rest_Voice.1 measure 10]
-            %! baca._make_multimeasure_rest_container(5)
-            %! REST_VOICE
             %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! REST_VOICE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
         %! baca._make_multimeasure_rest_container(6)
@@ -724,95 +724,95 @@ segment.30.Piano.Voice.1 = {
     %! baca.path.extern()
     { \segment.30.Piano.Voice.1.part.1 }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Piano.Voice.1"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Piano.Voice.1 measure 11]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! MULTIMEASURE_REST
             %! INVISIBLE_MUSIC_COLORING
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! MULTIMEASURE_REST
             %! INVISIBLE_MUSIC_COMMAND
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             R1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! MULTIMEASURE_REST
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Piano.Rest_Voice.1"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Piano.Rest_Voice.1 measure 11]
+            %! PHANTOM
             %! baca._style_phantom_measures(6)
-            %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
+            %! PHANTOM
             %! baca._style_phantom_measures(7)
-            %! PHANTOM
             \once \override MultiMeasureRest.transparent = ##t
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \stopStaff
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \once \override Staff.StaffSymbol.transparent = ##t
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \startStaff
-            %! baca._make_multimeasure_rest_container(5)
+            %! MULTIMEASURE_REST
             %! PHANTOM
             %! REST_VOICE
-            %! MULTIMEASURE_REST
+            %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
             %! REST_VOICE
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! animales._make_staves()
@@ -840,80 +840,80 @@ segment.30.Percussion.Voice.4.part.1 = {
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 1]
     %! -PARTS
+    %! EXPLICIT_BAR_EXTENT
+    %! REAPPLIED_BAR_EXTENT
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_BAR_EXTENT
-    %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 0)
-    %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
+    %! EXPLICIT_MARGIN_MARKUP
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
-    %! EXPLICIT_MARGIN_MARKUP
+    %! baca.margin_markup()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
+    %! REAPPLIED_STAFF_LINES
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
     \stopStaff
+    %! REAPPLIED_STAFF_LINES
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
     \once \override Staff.StaffSymbol.line-count = 1
+    %! REAPPLIED_STAFF_LINES
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_STAFF_LINES
     \startStaff
     %! baca._clone_segment_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
-    %! baca.text_script_x_offset()
     %! +PARTS
     %! baca.OverrideCommand._call(1)
+    %! baca.text_script_x_offset()
 %%% \override TextScript.X-offset = 3
-    %! baca.literal()
     %! +TABLOID_SCORE
     %! baca.IndicatorCommand._call()
+    %! baca.literal()
 %%% \magnifyStaff #10/7
+    %! REAPPLIED_CLEF
     %! baca._reapply_persistent_indicators(3)
     %! baca._set_status_tag()
-    %! REAPPLIED_CLEF
     \clef "percussion"
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_COLOR
+    %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)
-    %! baca._attach_color_literal(1)
     %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
-    %! baca._reapply_persistent_indicators(3)
-    %! baca.treat_persistent_wrapper(2)
-    %! baca._set_status_tag()
     %! REAPPLIED_CLEF
+    %! baca._reapply_persistent_indicators(3)
+    %! baca._set_status_tag()
+    %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
     %! EXPLICIT_MARGIN_MARKUP_COLOR
+    %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
     %! baca.make_tied_repeated_durations()
     c'4
     %! EXPLICIT_DYNAMIC_COLOR
     %! baca.treat_persistent_wrapper()
-    %! baca.dynamic()
+    %! EXPLICIT_DYNAMIC
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
-    %! baca.dynamic()
+    %! EXPLICIT_DYNAMIC
     %! baca.IndicatorCommand._call()
     %! baca._set_status_tag()
-    %! EXPLICIT_DYNAMIC
+    %! baca.dynamic()
     \baca-effort-mf
     %! REAPPLIED_INSTRUMENT_ALERT
     %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"
-    %! baca.markup()
     %! baca.IndicatorCommand._call()
+    %! baca.markup()
     ^ \animales-stonecircle-markup
     %! EXPLICIT_MARGIN_MARKUP_ALERT
     %! baca._attach_latent_indicator_alert()
@@ -922,19 +922,19 @@ segment.30.Percussion.Voice.4.part.1 = {
     - \tweak stencil ##f
     %! baca._attach_shadow_tie_indicators()
     ~
-    %! baca._attach_color_literal(2)
     %! REAPPLIED_CLEF_REDRAW_COLOR
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
+    %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
-    %! baca.margin_markup()
     %! -PARTS
     %! ANIMALES
-    %! baca.IndicatorCommand._call()
-    %! baca.treat_persistent_wrapper(3)
-    %! baca._set_status_tag()
     %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+    %! baca.IndicatorCommand._call()
+    %! baca._set_status_tag()
+    %! baca.margin_markup()
+    %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
 
     %! baca.make_tied_repeated_durations()
@@ -1189,9 +1189,9 @@ segment.30.Percussion.Voice.4.part.1 = {
     c'4
     %! baca.make_tied_repeated_durations()
     \repeatTie
-    %! baca.text_script_x_offset()
     %! +PARTS
     %! baca.OverrideCommand._call(2)
+    %! baca.text_script_x_offset()
 %%% \revert TextScript.X-offset
 
     %! baca._make_multimeasure_rest_container(7)
@@ -1204,22 +1204,22 @@ segment.30.Percussion.Voice.4.part.1 = {
 
             %! baca._comment_measure_numbers()
             % [Percussion.Voice.4 measure 9]
-            %! baca._make_multimeasure_rest_container(2)
-            %! NOTE
             %! INVISIBLE_MUSIC_COLORING
-            \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
             %! NOTE
+            %! baca._make_multimeasure_rest_container(2)
+            \abjad-invisible-music-coloring
             %! INVISIBLE_MUSIC_COMMAND
+            %! NOTE
+            %! baca._make_multimeasure_rest_container(3)
             %@% \abjad-invisible-music
-            %! baca._make_multimeasure_rest_container(1)
             %! HIDDEN
             %! NOTE
+            %! baca._make_multimeasure_rest_container(1)
             c'1 * 1
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! NOTE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
         %! baca._make_multimeasure_rest_container(4)
@@ -1232,14 +1232,14 @@ segment.30.Percussion.Voice.4.part.1 = {
 
             %! baca._comment_measure_numbers()
             % [Percussion.Rest_Voice.4 measure 9]
-            %! baca._make_multimeasure_rest_container(5)
-            %! REST_VOICE
             %! MULTIMEASURE_REST
+            %! REST_VOICE
+            %! baca._make_multimeasure_rest_container(5)
             R1 * 1
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! REST_VOICE
+            %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"1"
 
         %! baca._make_multimeasure_rest_container(6)
@@ -1250,22 +1250,22 @@ segment.30.Percussion.Voice.4.part.1 = {
 
     %! baca._comment_measure_numbers()
     % [Percussion.Voice.4 measure 10]
-    %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
+    %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
-    %! baca.literal()
     %! +PARTS
     %! baca.IndicatorCommand._call()
+    %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
     %! baca._make_measure_silences()
     R1 * 1/4
-    %! baca.markup()
     %! +PARTS
     %! baca.IndicatorCommand._call()
+    %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-    %! baca._label_duration_multipliers()
     %! DURATION_MULTIPLIER
+    %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
 %! baca.path.extern()
@@ -1278,115 +1278,115 @@ segment.30.Percussion.Voice.4 = {
     %! baca.path.extern()
     { \segment.30.Percussion.Voice.4.part.1 }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     <<
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         \context Voice = "Percussion.Voice.4"
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Percussion.Voice.4 measure 11]
-            %! baca._make_multimeasure_rest_container(2)
-            %! PHANTOM
-            %! MULTIMEASURE_REST
             %! INVISIBLE_MUSIC_COLORING
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(2)
             %! baca._style_phantom_measures(5)
             \abjad-invisible-music-coloring
-            %! baca._make_multimeasure_rest_container(3)
-            %! PHANTOM
-            %! MULTIMEASURE_REST
             %! INVISIBLE_MUSIC_COMMAND
+            %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(3)
             %! baca._style_phantom_measures(5)
             %@% \abjad-invisible-music
+            %! PHANTOM
+            %! baca.OverrideCommand._call(1)
+            %! baca._style_phantom_measures(5)
             %! baca.rehearsal_mark_down()
-            %! baca.OverrideCommand._call(1)
-            %! baca._style_phantom_measures(5)
-            %! PHANTOM
             \once \override Score.RehearsalMark.direction = #down
+            %! PHANTOM
+            %! baca.OverrideCommand._call(1)
+            %! baca._style_phantom_measures(5)
             %! baca.rehearsal_mark_padding()
-            %! baca.OverrideCommand._call(1)
-            %! baca._style_phantom_measures(5)
-            %! PHANTOM
             \once \override Score.RehearsalMark.padding = 6
-            %! baca.rehearsal_mark_self_alignment_x()
+            %! PHANTOM
             %! baca.OverrideCommand._call(1)
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
+            %! baca.rehearsal_mark_self_alignment_x()
             \once \override Score.RehearsalMark.self-alignment-X = #right
-            %! baca.mark()
+            %! PHANTOM
             %! baca.IndicatorCommand._call()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
+            %! baca.mark()
             \mark \animales-colophon-markup
-            %! baca._make_multimeasure_rest_container(1)
-            %! PHANTOM
             %! HIDDEN
             %! MULTIMEASURE_REST
+            %! PHANTOM
+            %! baca._make_multimeasure_rest_container(1)
             R1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! HIDDEN
             %! MULTIMEASURE_REST
             %! PHANTOM
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(4)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(4)
         }
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         \context Voice = "Percussion.Rest_Voice.4"
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         {
 
+            %! PHANTOM
             %! baca._comment_measure_numbers()
             %! baca._style_phantom_measures(5)
-            %! PHANTOM
             % [Percussion.Rest_Voice.4 measure 11]
+            %! PHANTOM
             %! baca._style_phantom_measures(6)
-            %! PHANTOM
             \once \override Score.TimeSignature.X-extent = ##f
+            %! PHANTOM
             %! baca._style_phantom_measures(7)
-            %! PHANTOM
             \once \override MultiMeasureRest.transparent = ##t
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \stopStaff
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \once \override Staff.StaffSymbol.transparent = ##t
-            %! baca._style_phantom_measures(8)
             %! PHANTOM
+            %! baca._style_phantom_measures(8)
             \startStaff
-            %! baca._make_multimeasure_rest_container(5)
+            %! MULTIMEASURE_REST
             %! PHANTOM
             %! REST_VOICE
-            %! MULTIMEASURE_REST
+            %! baca._make_multimeasure_rest_container(5)
             R1 * 1/4
-            %! baca._label_duration_multipliers()
             %! DURATION_MULTIPLIER
             %! MULTIMEASURE_REST
             %! PHANTOM
             %! REST_VOICE
+            %! baca._label_duration_multipliers()
             %! baca._style_phantom_measures(5)
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
 
-        %! baca._make_multimeasure_rest_container(6)
         %! PHANTOM
+        %! baca._make_multimeasure_rest_container(6)
         }
 
-    %! baca._make_multimeasure_rest_container(7)
     %! PHANTOM
+    %! baca._make_multimeasure_rest_container(7)
     >>
 
 %! animales._make_staves()
