@@ -106,7 +106,7 @@ commands(
 # brass
 
 library.assign_brass_sforzando_parts(commands)
-library.brass_sforzando(commands, 1)
+library.brass_sforzando(commands, 1, reapply_persistent_indicators=True)
 
 # percussion
 
@@ -114,11 +114,12 @@ library.brass_sforzando(commands, 1)
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
-    baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("p"),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # strings

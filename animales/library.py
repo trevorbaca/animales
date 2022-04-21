@@ -530,6 +530,7 @@ def battuti(
             maker(voice, parts(section, member))
             rhythm = clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)
+            commands.append(baca.reapply_persistent_indicators())
             maker(voice, baca.attach_first_appearance_default_indicators())
             if member % 2 == 0:
                 polyphony = lower_voice()
@@ -596,7 +597,7 @@ def brass_manifest_rhythm(part):
     )
 
 
-def brass_sforzando(maker, range_=(1, -1)):
+def brass_sforzando(maker, range_=(1, -1), *, reapply_persistent_indicators=False):
     voice_to_pitch = {
         "Horn.Voice.1": "C4",
         "Horn.Voice.2": "Gb3",
@@ -614,7 +615,15 @@ def brass_sforzando(maker, range_=(1, -1)):
     }
 
     for voice, pitch in voice_to_pitch.items():
-        maker((voice, range_), downbeat_attack(), baca.marcato())
+        if reapply_persistent_indicators:
+            maker(
+                (voice, range_),
+                downbeat_attack(),
+                baca.reapply_persistent_indicators(),
+                baca.marcato(),
+            )
+        else:
+            maker((voice, range_), downbeat_attack(), baca.marcato())
         words = abjad.string.delimit_words(voice)
         member = int(words[-1])
         if member in (1, 2):

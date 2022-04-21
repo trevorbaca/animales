@@ -94,52 +94,56 @@ commands(
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 1),
 )
 
 # cymbal
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # bass drum
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 3),
 )
 
 # tam-tam
 
 commands(
     "perc4",
-    library.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 4),
 )
 
 # strings

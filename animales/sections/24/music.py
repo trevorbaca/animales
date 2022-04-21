@@ -105,7 +105,7 @@ commands(
 # brass
 
 library.assign_brass_sforzando_parts(commands)
-library.brass_sforzando(commands, 1)
+library.brass_sforzando(commands, 1, reapply_persistent_indicators=True)
 
 # strings
 

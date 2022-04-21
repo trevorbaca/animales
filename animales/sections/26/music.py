@@ -108,7 +108,7 @@ commands(
 # brass
 
 library.assign_brass_sforzando_parts(commands)
-library.brass_sforzando(commands, 1)
+library.brass_sforzando(commands, 1, reapply_persistent_indicators=True)
 
 # percussion
 
@@ -116,39 +116,42 @@ library.brass_sforzando(commands, 1)
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # bass drum
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 3),
 )
 
 # tam-tam
 
 commands(
     "perc4",
-    library.parts("Percussion", 4),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 4),
 )
 
 # strings
@@ -161,13 +164,14 @@ library.battuti(
 
 commands(
     "cb3",
-    library.parts("Contrabass"),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.clef("bass"),
     baca.hairpin("p <", right_broken=True),
-    baca.make_repeat_tied_notes(),
     baca.markup(r"\baca-arco-markup"),
     baca.pitch("C#2"),
     baca.staff_lines(5),
+    library.parts("Contrabass"),
 )
 
 if __name__ == "__main__":

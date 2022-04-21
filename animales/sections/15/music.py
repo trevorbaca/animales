@@ -88,6 +88,70 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 # flutes
 
 commands(
+    ("fl1", (1, 3)),
+    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
+    baca.reapply_persistent_indicators(),
+    library.pennant_pitches("G5", [6]),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(
+        baca.hairpin(
+            "mf < ff",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
+        ),
+    ),
+    baca.slur(),
+)
+
+commands(
+    ("fl3", (1, 3)),
+    library.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
+    baca.reapply_persistent_indicators(),
+    library.pennant_pitches("F5", [6]),
+    baca.hairpin(
+        "mf < ff",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
+    baca.not_parts(baca.voice_two()),
+    baca.slur(),
+)
+
+commands(
+    ("fl2", (1, 3)),
+    library.pennant_rhythm([0, -1, -1, 0], [0]),
+    baca.reapply_persistent_indicators(),
+    library.pennant_pitches("Eb5", [6]),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(
+        baca.hairpin(
+            "mf < ff",
+            selector=lambda _: baca.select.tleaves(
+                _,
+            ),
+        ),
+    ),
+    baca.slur(),
+)
+
+commands(
+    ("fl4", (1, 3)),
+    library.pennant_rhythm([0, 0, -1, -1]),
+    baca.reapply_persistent_indicators(),
+    library.pennant_pitches("D5", [6]),
+    baca.hairpin(
+        "mf < ff",
+        selector=lambda _: baca.select.tleaves(
+            _,
+        ),
+    ),
+    baca.not_parts(baca.voice_two()),
+    baca.slur(),
+)
+
+commands(
     "fl1",
     library.parts("Flute", 1),
 )
@@ -107,67 +171,19 @@ commands(
     library.parts("Flute", 4),
 )
 
-commands(
-    ("fl1", (1, 3)),
-    library.pennant_pitches("G5", [6]),
-    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(
-        baca.hairpin(
-            "mf < ff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-    ),
-    baca.slur(),
-)
-
-commands(
-    ("fl3", (1, 3)),
-    library.pennant_pitches("F5", [6]),
-    library.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-    baca.hairpin(
-        "mf < ff",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-)
-
-commands(
-    ("fl2", (1, 3)),
-    library.pennant_pitches("Eb5", [6]),
-    library.pennant_rhythm([0, -1, -1, 0], [0]),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(
-        baca.hairpin(
-            "mf < ff",
-            selector=lambda _: baca.select.tleaves(
-                _,
-            ),
-        ),
-    ),
-    baca.slur(),
-)
-
-commands(
-    ("fl4", (1, 3)),
-    library.pennant_pitches("D5", [6]),
-    library.pennant_rhythm([0, 0, -1, -1]),
-    baca.hairpin(
-        "mf < ff",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-)
 
 # bass clarinet
+
+commands(
+    ("bcl1", 1),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("bcl1", (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
 
 commands(
     "bcl1",
@@ -186,44 +202,36 @@ commands(
     ),
 )
 
-commands(
-    ("bcl1", 1),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("bcl1", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
-
 # harp
+
+commands(
+    ("hp1", (1, 6)),
+    library.harp_exchange_rhythm(2),
+    baca.reapply_persistent_indicators(),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    baca.pitch("Bb4"),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
+)
 
 commands(
     "hp1",
     library.parts("Harp"),
 )
 
-commands(
-    ("hp1", (1, 6)),
-    library.harp_exchange_rhythm(2),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.pitch("Bb4"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-)
-
 # piano
-
-commands(
-    "pf1",
-    library.parts("Piano"),
-)
 
 commands(
     ("pf1", (1, 6)),
     library.harp_exchange_rhythm(3),
+    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
+)
+
+commands(
+    "pf1",
+    library.parts("Piano"),
 )
 
 # percussion
@@ -231,63 +239,62 @@ commands(
 # triangle
 
 commands(
-    "perc1",
-    library.parts("Percussion", 1),
-)
-
-commands(
     ("perc1", (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "niente o< mp",
         selector=lambda _: baca.select.pleaves(_)[:2],
     ),
-    baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
+commands(
+    "perc1",
+    library.parts("Percussion", 1),
+)
+
 # cymbal
+
+commands(
+    ("perc2", (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin(
+        "niente o< mp",
+        selector=lambda _: baca.select.pleaves(_)[:2],
+    ),
+    baca.staff_position(0),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
 
 commands(
     "perc2",
     library.parts("Percussion", 2),
 )
 
-commands(
-    ("perc2", (1, 3)),
-    baca.hairpin(
-        "niente o< mp",
-        selector=lambda _: baca.select.pleaves(_)[:2],
-    ),
-    baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
 # vibraphone
+
+commands(
+    ("perc3", (1, 6)),
+    library.harp_exchange_rhythm(0),
+    baca.reapply_persistent_indicators(),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    baca.pitch("Bb4"),
+)
 
 commands(
     "perc3",
     library.parts("Percussion", 3),
 )
 
-commands(
-    ("perc3", (1, 6)),
-    library.harp_exchange_rhythm(0),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.pitch("Bb4"),
-)
-
 # strings
-
-commands(
-    "1vn2",
-    library.parts("First.Violin", 1),
-)
 
 commands(
     ("1vn2", (1, 3)),
     library.glissando_rhythm(rotate=-2),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p < ff",
         selector=library.leaves_in_measure(1, rleak=True),
@@ -317,6 +324,25 @@ commands(
 )
 
 commands(
+    "1vn2",
+    library.parts("First.Violin", 1),
+)
+
+commands(
+    [
+        ("1vn1", (1, 3)),
+        ("2vn1", (1, 3)),
+        ("va1", (1, 3)),
+        ("vc1", (1, 3)),
+    ],
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("pp < ff"),
+    baca.pitch("G3"),
+    baca.trill_spanner(alteration="Ab3"),
+)
+
+commands(
     "1vn1",
     library.parts("First.Violin", (2, 18)),
     baca.not_parts(baca.voice_two()),
@@ -335,19 +361,6 @@ commands(
 commands(
     "vc1",
     library.parts("Cello"),
-)
-
-commands(
-    [
-        ("1vn1", (1, 3)),
-        ("2vn1", (1, 3)),
-        ("va1", (1, 3)),
-        ("vc1", (1, 3)),
-    ],
-    baca.make_repeat_tied_notes(),
-    baca.hairpin("pp < ff"),
-    baca.pitch("G3"),
-    baca.trill_spanner(alteration="Ab3"),
 )
 
 most_strings = [
@@ -376,29 +389,31 @@ commands(
 )
 
 commands(
-    "cb3",
-    library.parts("Contrabass", (2, 6)),
+    ("cb3", (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("p < ff"),
+    baca.pitch("G1"),
 )
 
 commands(
-    ("cb3", (1, 3)),
-    baca.make_repeat_tied_notes(),
-    baca.hairpin("p < ff"),
-    baca.pitch("G1"),
+    "cb3",
+    library.parts("Contrabass", (2, 6)),
 )
 
 # contrabass solo
 
 commands(
-    "cb1",
-    library.parts("Contrabass", 1),
+    ("cb1", (1, 6)),
+    library.harp_exchange_rhythm(1),
+    baca.reapply_persistent_indicators(),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    baca.pitch("Bb4", do_not_transpose=True),
 )
 
 commands(
-    ("cb1", (1, 6)),
-    library.harp_exchange_rhythm(1),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.pitch("Bb4", do_not_transpose=True),
+    "cb1",
+    library.parts("Contrabass", 1),
 )
 
 if __name__ == "__main__":

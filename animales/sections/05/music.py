@@ -65,10 +65,11 @@ commands(
 
 commands(
     "cl1",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 2"),
     library.parts("Clarinet", 2),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 2)", "solo"),
     baca.pitch("C#5"),
 )
@@ -79,8 +80,9 @@ commands(
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 1),
     baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
@@ -92,8 +94,9 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
@@ -160,6 +163,7 @@ strings = [
 
 commands(
     strings,
+    baca.reapply_persistent_indicators(),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),
@@ -175,13 +179,14 @@ commands(
 
 commands(
     "cb3",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.parts("Contrabass"),
     baca.hairpin(
         "< ff",
         selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
-    baca.make_repeat_tied_notes(),
     baca.pitch("B1"),
 )
 

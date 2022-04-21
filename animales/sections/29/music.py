@@ -100,18 +100,19 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 # triangle
 
 commands(
-    "perc1",
-    library.parts("Percussion", 1),
-)
-
-commands(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
+
+commands(
+    "perc1",
+    library.parts("Percussion", 1),
 )
 
 # strings

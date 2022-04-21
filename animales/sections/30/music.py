@@ -60,18 +60,19 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 # piano
 
 commands(
-    "pf1",
-    library.parts("Piano"),
-)
-
-commands(
     ("pf1", (1, 9)),
+    baca.make_notes(),
+    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.make_notes(),
     baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
     baca.pitch("C#4"),
     baca.only_parts(baca.text_script_x_offset(3)),
+)
+
+commands(
+    "pf1",
+    library.parts("Piano"),
 )
 
 # slate
@@ -83,9 +84,10 @@ commands(
 
 commands(
     ("perc4", (1, 8)),
+    baca.make_tied_repeated_durations([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
-    baca.make_tied_repeated_durations([(1, 4)]),
     baca.markup(r"\animales-stonecircle-markup"),
     baca.only_parts(baca.text_script_x_offset(3)),
     baca.staff_position(0),

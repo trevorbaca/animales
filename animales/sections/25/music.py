@@ -110,7 +110,7 @@ commands(
 # brass
 
 library.assign_brass_sforzando_parts(commands)
-library.brass_sforzando(commands, 1)
+library.brass_sforzando(commands, 1, reapply_persistent_indicators=True)
 
 # percussion
 
@@ -118,41 +118,44 @@ library.brass_sforzando(commands, 1)
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # bass drum
 
 commands(
     "perc3",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 3 (BD)"),
-    library.parts("Percussion", 3),
     baca.clef("percussion"),
     baca.dynamic("p"),
-    baca.make_repeat_tied_notes(),
     baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 3),
 )
 
 # tam-tam
 
 commands(
     "perc4",
-    library.parts("Percussion", 4),
-    baca.dynamic("p"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("p"),
     library.margin_markup("Perc. 4 (tam.)"),
     baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_position(0),
     baca.staff_lines(1),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 4),
 )
 
 # strings

@@ -112,6 +112,31 @@ commands(
     ),
 )
 
+commands(
+    [
+        "hn1",
+        "hn2",
+        "hn3",
+        "hn4",
+        "tp1",
+        "tp2",
+        "tp3",
+        "tp4",
+        "tbn1",
+        "tbn2",
+        "tbn3",
+        "tbn4",
+        "tub1",
+        "pf1",
+        "perc1",
+        "perc2",
+        "perc3",
+        "perc4",
+    ],
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
 library.battuti(commands, [[1, -117, -117], [1, -118]], first=True)
 
 if __name__ == "__main__":
