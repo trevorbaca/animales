@@ -100,6 +100,7 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 commands(
     ("hn1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -109,6 +110,7 @@ commands(
 commands(
     ("hn3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -117,6 +119,7 @@ commands(
 commands(
     ("hn2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -126,6 +129,7 @@ commands(
 commands(
     ("hn4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -136,6 +140,7 @@ commands(
 commands(
     ("tp1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -145,6 +150,7 @@ commands(
 commands(
     ("tp3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
@@ -153,6 +159,7 @@ commands(
 commands(
     ("tp2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -162,6 +169,7 @@ commands(
 commands(
     ("tp4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
@@ -172,6 +180,7 @@ commands(
 commands(
     ("tbn1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -181,6 +190,7 @@ commands(
 commands(
     ("tbn3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -189,6 +199,7 @@ commands(
 commands(
     ("tbn2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -198,6 +209,7 @@ commands(
 commands(
     ("tbn4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
@@ -285,6 +297,11 @@ for voice, items in string_parts.items():
     if voice == "First.Violin.Voice.5":
         continue
     commands(
+        (voice, (1, 3)),
+        baca.make_mmrests(),
+        baca.reapply_persistent_indicators(),
+    )
+    commands(
         [
             (voice, (4, 6)),
             (voice, (9, 11)),
@@ -317,6 +334,10 @@ commands(
         ("1vn5", (9, 12)),
     ],
     baca.make_repeat_tied_notes(),
+    baca.new(
+        baca.reapply_persistent_indicators(),
+        match=0,
+    ),
 )
 
 if __name__ == "__main__":

@@ -101,6 +101,12 @@ commands(
 # percussion
 
 commands(
+    (["perc1", "perc2"], (1, 2)),
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
     [
         ("perc1", (3, 6)),
         ("perc2", (3, 6)),
@@ -233,6 +239,7 @@ strings = [
 
 commands(
     (strings, (1, 2)),
+    baca.reapply_persistent_indicators(),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),

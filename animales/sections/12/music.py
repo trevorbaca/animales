@@ -90,10 +90,11 @@ commands(
 
 commands(
     ("cl1", (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.pitch("C5"),
 )
 
@@ -125,6 +126,7 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 commands(
     ("hn1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.7)),
@@ -136,6 +138,7 @@ commands(
 commands(
     ("hn3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
@@ -144,6 +147,7 @@ commands(
 commands(
     ("hn2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -153,6 +157,7 @@ commands(
 commands(
     ("hn4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
@@ -163,6 +168,7 @@ commands(
 commands(
     ("tp1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -172,6 +178,7 @@ commands(
 commands(
     ("tp3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
@@ -180,6 +187,7 @@ commands(
 commands(
     ("tp2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -189,6 +197,7 @@ commands(
 commands(
     ("tp4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.0)),
@@ -201,6 +210,7 @@ commands(
 commands(
     ("tbn1", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -210,6 +220,7 @@ commands(
 commands(
     ("tbn3", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -218,6 +229,7 @@ commands(
 commands(
     ("tbn2", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(baca.dynamic("sfz")),
@@ -227,6 +239,7 @@ commands(
 commands(
     ("tbn4", 1),
     library.downbeat_attack(),
+    baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.force_accidental()),
     baca.not_parts(baca.note_column_shift(1.0)),
@@ -238,8 +251,9 @@ commands(
 
 commands(
     "hp1",
-    library.parts("Harp"),
     library.harp_exchange_rhythm(2),
+    baca.reapply_persistent_indicators(),
+    library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -249,8 +263,9 @@ commands(
 
 commands(
     "pf1",
-    library.parts("Piano"),
     library.harp_exchange_rhythm(3),
+    baca.reapply_persistent_indicators(),
+    library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -260,16 +275,18 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
     library.harp_exchange_rhythm(0),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
 )
@@ -278,29 +295,33 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("First.Violin"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("First.Violin"),
     baca.pitch("Ab6"),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Second.Violin"),
     baca.pitch("Ab5"),
 )
 
 commands(
     "va1",
-    library.parts("Viola"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Viola"),
     baca.pitch("Ab4"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Cello"),
     baca.pitch("Ab2"),
 )
 
@@ -318,9 +339,10 @@ commands(
 
 commands(
     "cb3",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.dynamic("p"),
-    baca.make_repeat_tied_notes(),
     baca.pitch("Ab1"),
 )
 
@@ -328,8 +350,9 @@ commands(
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(1),
+    baca.reapply_persistent_indicators(),
+    library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),

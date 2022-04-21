@@ -66,6 +66,11 @@ strings = [
     "vc1",
 ]
 
+commands(
+    strings,
+    baca.reapply_persistent_indicators(),
+)
+
 # first accents ...
 commands(
     strings,

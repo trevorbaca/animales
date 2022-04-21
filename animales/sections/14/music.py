@@ -82,25 +82,6 @@ commands(
 
 # flutes
 
-commands(
-    "fl1",
-    library.parts("Flute", 1),
-)
-
-commands(
-    "fl3",
-    library.parts("Flute", 3),
-)
-
-commands(
-    "fl2",
-    library.parts("Flute", 2),
-)
-
-commands(
-    "fl4",
-    library.parts("Flute", 4),
-)
 
 commands(
     ("fl1", (1, 3)),
@@ -166,18 +147,39 @@ commands(
     baca.slur(),
 )
 
+commands(
+    "fl1",
+    library.parts("Flute", 1),
+)
+
+commands(
+    "fl3",
+    library.parts("Flute", 3),
+)
+
+commands(
+    "fl2",
+    library.parts("Flute", 2),
+)
+
+commands(
+    "fl4",
+    library.parts("Flute", 4),
+)
+
 # clarinet
+
+commands(
+    ("cl1", (1, 3)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    baca.hairpin("< ff", left_broken=True),
+    baca.pitch("Eb5"),
+)
 
 commands(
     "cl1",
     library.parts("Clarinet", 1),
-)
-
-commands(
-    ("cl1", (1, 3)),
-    baca.hairpin("< ff", left_broken=True),
-    baca.make_repeat_tied_notes(),
-    baca.pitch("Eb5"),
 )
 
 commands(
@@ -192,9 +194,10 @@ commands(
 
 commands(
     "bcl1",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.parts("Bass.Clarinet"),
     baca.dynamic("p"),
-    baca.make_repeat_tied_notes(),
     baca.pitch("Ab2"),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
@@ -205,8 +208,9 @@ commands(
 
 commands(
     "hp1",
-    library.parts("Harp"),
     library.harp_exchange_rhythm(2),
+    baca.reapply_persistent_indicators(),
+    library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
@@ -233,8 +237,9 @@ commands(
 
 commands(
     "pf1",
-    library.parts("Piano"),
     library.harp_exchange_rhythm(3),
+    baca.reapply_persistent_indicators(),
+    library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
 )
@@ -244,26 +249,22 @@ commands(
 # triangle
 
 commands(
-    "perc1",
-    library.parts("Percussion", 1),
-)
-
-commands(
     ("perc1", (1, 3)),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
-# cymbal
-
 commands(
-    "perc2",
-    library.parts("Percussion", 2),
+    "perc1",
+    library.parts("Percussion", 1),
 )
+
+# cymbal
 
 commands(
     ("perc2", (1, 3)),
@@ -271,29 +272,32 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
+
+commands(
+    "perc2",
+    library.parts("Percussion", 2),
 )
 
 # vibraphone
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
     library.harp_exchange_rhythm(0),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
 )
 
 # strings
 
 commands(
-    "1vn3",
-    library.parts("First.Violin", 1),
-)
-
-commands(
     ("1vn3", (1, 3)),
     library.glissando_rhythm(rotate=-2),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p < ff",
         selector=library.leaves_in_measure(1, rleak=True),
@@ -324,6 +328,11 @@ commands(
 )
 
 commands(
+    "1vn3",
+    library.parts("First.Violin", 1),
+)
+
+commands(
     [
         ("1vn1", (1, 3)),
         ("2vn1", (1, 3)),
@@ -331,6 +340,7 @@ commands(
         ("vc1", (1, 3)),
     ],
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -387,13 +397,9 @@ commands(
 )
 
 commands(
-    "cb3",
-    library.parts("Contrabass", (2, 6)),
-)
-
-commands(
     ("cb3", (1, 3)),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -402,12 +408,18 @@ commands(
     baca.pitch("G1"),
 )
 
+commands(
+    "cb3",
+    library.parts("Contrabass", (2, 6)),
+)
+
 # contrabass solo
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(1),
+    baca.reapply_persistent_indicators(),
+    library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-as-bell-like-as-possible-markup"),
     baca.pitch("Bb4", do_not_transpose=True),

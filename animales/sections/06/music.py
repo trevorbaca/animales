@@ -76,10 +76,11 @@ commands(
 
 commands(
     "cl1",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 3"),
     library.parts("Clarinet", 3),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 3)", "solo"),
     baca.pitch("C#5"),
 )
@@ -88,24 +89,26 @@ commands(
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
-    baca.hairpin("p >o", right_broken=True),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 1),
+    baca.hairpin("p >o", right_broken=True),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 2),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
@@ -113,36 +116,41 @@ commands(
 
 commands(
     "1vn1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I"),
     library.parts("First.Violin"),
-    baca.make_repeated_duration_notes([(1, 4)]),
     baca.not_parts(baca.one_voice()),
 )
 
 commands(
     "2vn1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II"),
     library.parts("Second.Violin"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "va1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     library.margin_markup("Vle."),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
     baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
+    library.parts("Cello"),
 )
 
 commands(
     "cb3",
-    library.parts("Contrabass"),
     baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
+    library.parts("Contrabass"),
 )
 
 left_broken = [
@@ -165,6 +173,12 @@ absent_left_broken = [
     "2vn3",
     "va3",
 ]
+
+commands(
+    absent_left_broken,
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
+)
 
 commands(
     (absent_left_broken, 1),

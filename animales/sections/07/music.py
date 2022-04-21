@@ -82,10 +82,11 @@ commands(
 
 commands(
     ("cl1", (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 1)", "solo"),
     baca.pitch("D5"),
 )
@@ -147,6 +148,8 @@ commands(
 
 commands(
     "perc1",
+    baca.make_mmrests(),
+    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.dynamic(
         "niente",
@@ -158,12 +161,13 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.make_repeat_tied_notes(),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 2),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
@@ -187,8 +191,9 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("First.Violin"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("First.Violin"),
     baca.not_parts(
         baca.markup(r"\animales-strings-still-non-vib-markup"),
     ),
@@ -197,33 +202,37 @@ commands(
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Second.Violin"),
     baca.pitch("Bb5"),
 )
 
 commands(
     "va1",
-    library.parts("Viola"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Viola"),
     baca.pitch("Bb4"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
     baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
+    library.parts("Cello"),
     baca.pitch("Bb2"),
 )
 
 commands(
     "cb3",
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup(
         "Cb. (2-6)",
         alert=baca.markup(r"\animales-cb-two-to-six-markup"),
     ),
     library.parts("Contrabass", (2, 6)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(

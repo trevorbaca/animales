@@ -73,10 +73,11 @@ commands(
 
 commands(
     ("cl1", (1, 6)),
+    baca.make_repeat_tied_notes(),
+    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp <", right_broken=True),
-    baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 1)", "solo"),
     baca.pitch("F5"),
 )
@@ -105,8 +106,9 @@ commands(
 
 commands(
     "hp1",
-    library.parts("Harp"),
     library.harp_exchange_rhythm(2),
+    baca.reapply_persistent_indicators(),
+    library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -116,8 +118,9 @@ commands(
 
 commands(
     "pf1",
-    library.parts("Piano"),
     library.harp_exchange_rhythm(3),
+    baca.reapply_persistent_indicators(),
+    library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -129,20 +132,22 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
-    baca.hairpin("mp >o", right_broken=True),
     baca.make_repeat_tied_notes(),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 2),
+    baca.hairpin("mp >o", right_broken=True),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
     library.harp_exchange_rhythm(0),
+    baca.reapply_persistent_indicators(),
+    library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("D5"),
 )
@@ -151,6 +156,8 @@ commands(
 
 commands(
     "1vn1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("First.Violin"),
     baca.articulation("trill"),
     baca.glissando(
@@ -161,11 +168,12 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.interpolate_pitches("Bb6", "B3"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "2vn1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("Second.Violin"),
     baca.articulation("trill"),
     baca.glissando(
@@ -176,11 +184,12 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.interpolate_pitches("Bb5", "B3"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "va1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     baca.articulation("trill"),
     baca.glissando(
@@ -191,11 +200,12 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.interpolate_pitches("Bb4", "B3"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "vc1",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("Cello"),
     baca.articulation("trill"),
     baca.glissando(
@@ -206,11 +216,12 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.interpolate_pitches("Bb2", "B3"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 commands(
     "cb3",
+    baca.make_repeated_duration_notes([(1, 4)]),
+    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.articulation("trill"),
     baca.glissando(
@@ -220,15 +231,15 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.interpolate_pitches("Bb1", "A1"),
-    baca.make_repeated_duration_notes([(1, 4)]),
 )
 
 # contrabass solo
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
     library.harp_exchange_rhythm(1),
+    baca.reapply_persistent_indicators(),
+    library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.note_head_style_harmonic(),
     baca.pitch("D5", do_not_transpose=True),
