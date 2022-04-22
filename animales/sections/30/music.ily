@@ -664,15 +664,15 @@ segment.30.Piano.Voice.1.part.1 = {
       %! baca.laissez_vibrer()
     \laissezVibrer
     % MARKUP:
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-harmonic-touch-lowest-string-of-piano-markup
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Piano”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -834,15 +834,15 @@ segment.30.Piano.Voice.1.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -1135,15 +1135,15 @@ segment.30.Percussion.Voice.4.part.1 = {
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-stonecircle-markup
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc. 4 (slate)”]"
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -1632,13 +1632,13 @@ segment.30.Percussion.Voice.4.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 

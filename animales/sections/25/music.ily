@@ -4809,15 +4809,15 @@ segment.25.Percussion.Voice.3.part.1 = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-bass-drum-soft-yarn-mallets-markup
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc. 3 (BD)”]"
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Vibraphone”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5133,15 +5133,15 @@ segment.25.Percussion.Voice.4.part.1 = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-tam-tam-soft-yarn-mallets-markup
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Perc. 4 (tam.)”]"
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f

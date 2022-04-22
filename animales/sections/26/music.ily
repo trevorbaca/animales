@@ -22656,15 +22656,15 @@ segment.26.Contrabass.Voice.3.part.1 = {
       %! baca.hairpin()
     \p
     % MARKUP:
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \baca-arco-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cb. (3-4)”]"
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \baca-arco-markup
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
