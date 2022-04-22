@@ -461,6 +461,9 @@ segment.08.Clarinet.Voice.1.part.1 = {
       %! baca.hairpin()
     \mp
     % MARKUP:
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "[“Cl. 1”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Clarinet”)"
@@ -472,9 +475,6 @@ segment.08.Clarinet.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup { solo }
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Cl. 1”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()

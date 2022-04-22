@@ -9799,20 +9799,20 @@ segment.17.First.Violin.Voice.1.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
+      %! -PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \animales-tutti-sim-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"
-      %! -PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \animales-tutti-sim-markup
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -10863,16 +10863,16 @@ segment.17.First.Violin.Voice.3.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12339,16 +12339,16 @@ segment.17.Second.Violin.Voice.1.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -13409,16 +13409,16 @@ segment.17.Second.Violin.Voice.3.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -14469,16 +14469,16 @@ segment.17.Viola.Voice.1.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -15529,16 +15529,16 @@ segment.17.Viola.Voice.3.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -16589,16 +16589,16 @@ segment.17.Cello.Voice.1.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -17635,16 +17635,16 @@ segment.17.Contrabass.Voice.3.part.1 = {
       %! baca.dynamic()
     \ff
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-ext-ponticello-like-acid-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Cb.”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-ext-ponticello-like-acid-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f

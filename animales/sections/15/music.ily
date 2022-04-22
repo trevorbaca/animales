@@ -954,13 +954,13 @@ segment.15.Flute.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -1577,13 +1577,13 @@ segment.15.Flute.Voice.3.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -2326,13 +2326,13 @@ segment.15.Flute.Voice.2.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -2988,13 +2988,13 @@ segment.15.Flute.Voice.4.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -3521,15 +3521,15 @@ segment.15.Bass.Clarinet.Voice.1.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -3789,12 +3789,12 @@ segment.15.Piano.Voice.1.part.1 = {
       %! baca._set_status_tag()
     \mf
     % MARKUP:
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Piano”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3971,15 +3971,15 @@ segment.15.Piano.Voice.1.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -4239,12 +4239,12 @@ segment.15.Harp.Voice.1.part.1 = {
       %! baca._set_status_tag()
     \mf
     % MARKUP:
-      %! REAPPLIED_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Hp.”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Harp”)"
+      %! REAPPLIED_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "[“Hp.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4401,15 +4401,15 @@ segment.15.Harp.Voice.1.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -4919,13 +4919,13 @@ segment.15.Percussion.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -5387,13 +5387,13 @@ segment.15.Percussion.Voice.2.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -5772,15 +5772,15 @@ segment.15.Percussion.Voice.3.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -6371,13 +6371,13 @@ segment.15.First.Violin.Voice.2.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -6806,13 +6806,13 @@ segment.15.First.Violin.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -7267,13 +7267,13 @@ segment.15.Second.Violin.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -7719,13 +7719,13 @@ segment.15.Viola.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -8171,13 +8171,13 @@ segment.15.Cello.Voice.1.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 
@@ -8561,15 +8561,15 @@ segment.15.Contrabass.Voice.1.part.1 = {
             b'1 * 1/4
             % AFTER:
             % MARKUP:
-              %! +PARTS
-              %! baca.IndicatorCommand._call()
-              %! baca.markup()
-        %%% ^ \markup \musicglyph #"scripts.ufermata"
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+              %! +PARTS
+              %! baca.IndicatorCommand._call()
+              %! baca.markup()
+        %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
 
@@ -9042,13 +9042,13 @@ segment.15.Contrabass.Voice.3.part.1 = {
     R1 * 1/4
     % AFTER:
     % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! baca._label_duration_multipliers()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-      %! DURATION_MULTIPLIER
-      %! baca._label_duration_multipliers()
-    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
     % CLOSING:
     % COMMANDS:
 

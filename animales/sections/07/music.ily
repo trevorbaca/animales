@@ -599,6 +599,9 @@ segment.07.Clarinet.Voice.1.part.1 = {
       %! baca.hairpin()
     \mp
     % MARKUP:
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "[“Cl. 1”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Clarinet”)"
@@ -610,9 +613,6 @@ segment.07.Clarinet.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup { solo }
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Cl. 1”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -752,6 +752,9 @@ segment.07.Clarinet.Voice.1.part.2 = {
       %! baca.hairpin()
     \mp
     % MARKUP:
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "[“Cl. 2”]"
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.markup()
@@ -760,9 +763,6 @@ segment.07.Clarinet.Voice.1.part.2 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \markup { solo }
-      %! EXPLICIT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Cl. 2”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1521,14 +1521,14 @@ segment.07.Harp.Voice.1.part.1 = {
           %! baca.laissez_vibrer()
         \laissezVibrer
         % MARKUP:
-          %! -PARTS
-          %! baca.IndicatorCommand._call()
-          %! baca.markup()
-        ^ \animales-lh-damped-pdlt-markup
           %! +PARTS
           %! baca.IndicatorCommand._call()
           %! baca.markup()
     %%% ^ \animales-lh-damped-pdlt-explanation-markup
+          %! -PARTS
+          %! baca.IndicatorCommand._call()
+          %! baca.markup()
+        ^ \animales-lh-damped-pdlt-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -1915,17 +1915,17 @@ segment.07.Percussion.Voice.1.part.1 = {
               %! baca.dynamic()
             \!
             % MARKUP:
+              %! DURATION_MULTIPLIER
+              %! HIDDEN
+              %! NOTE
+              %! baca._label_duration_multipliers()
+            %@% ^ \baca-duration-multiplier-markup #"1" #"2"
               %! REAPPLIED_INSTRUMENT_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "(“Percussion”)"
               %! REAPPLIED_MARGIN_MARKUP_ALERT
               %! baca._attach_latent_indicator_alert()
             ^ \baca-reapplied-indicator-markup "[“Perc. 1 (tri.)”]"
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! baca._label_duration_multipliers()
-            %@% ^ \baca-duration-multiplier-markup #"1" #"2"
             % ABSOLUTE_AFTER:
             % COMMANDS:
               %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3094,20 +3094,20 @@ segment.07.First.Violin.Voice.1.part.1 = {
       %! baca.dynamic()
     \pp
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-still-non-vibrato-markup
+      %! -PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+    ^ \animales-strings-still-non-vib-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I”]"
-      %! -PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-    ^ \animales-strings-still-non-vib-markup
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3447,16 +3447,16 @@ segment.07.Second.Violin.Voice.1.part.1 = {
       %! baca.dynamic()
     \pp
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -3796,16 +3796,16 @@ segment.07.Viola.Voice.1.part.1 = {
       %! baca.dynamic()
     \pp
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle.”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4145,16 +4145,16 @@ segment.07.Cello.Voice.1.part.1 = {
       %! baca.dynamic()
     \pp
     % MARKUP:
+      %! +PARTS
+      %! baca.IndicatorCommand._call()
+      %! baca.markup()
+%%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"
-      %! +PARTS
-      %! baca.IndicatorCommand._call()
-      %! baca.markup()
-%%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4949,9 +4949,6 @@ segment.07.Contrabass.Voice.3.part.1 = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! REAPPLIED_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
       %! -PARTS
       %! ANIMALES
       %! baca.IndicatorCommand._call()
@@ -4964,6 +4961,9 @@ segment.07.Contrabass.Voice.3.part.1 = {
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. (2-6)”]"
+      %! REAPPLIED_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
