@@ -828,6 +828,9 @@ segment.30.Piano.Voice.1.part.1 = {
               %! baca.IndicatorCommand._call()
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca._make_multimeasure_rest_container(1)
@@ -1560,6 +1563,9 @@ segment.30.Percussion.Voice.4.part.1 = {
               %! NOTE
               %! baca._make_multimeasure_rest_container(2)
             \abjad-invisible-music-coloring
+            % GROB_OVERRIDES:
+            \once \override Accidental.stencil = ##f
+            \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca._make_multimeasure_rest_container(1)
