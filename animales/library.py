@@ -1031,19 +1031,19 @@ def parts(section, token=None):
     ..  container:: example
 
         >>> animales.library.parts("Horn")
-        PartAssignmentCommand()
+        PartAssignmentCommand(scope=None)
 
         >>> animales.library.parts("Horn", 1)
-        PartAssignmentCommand()
+        PartAssignmentCommand(scope=None)
 
         >>> animales.library.parts("Horn", 2)
-        PartAssignmentCommand()
+        PartAssignmentCommand(scope=None)
 
         >>> animales.library.parts("Horn", (3, 4))
-        PartAssignmentCommand()
+        PartAssignmentCommand(scope=None)
 
         >>> animales.library.parts("Horn", [1, 3])
-        PartAssignmentCommand()
+        PartAssignmentCommand(scope=None)
 
     ..  container:: example exception
 
