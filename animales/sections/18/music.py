@@ -100,6 +100,10 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 commands(
     ("hn1", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("hn1", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -110,6 +114,10 @@ commands(
 commands(
     ("hn3", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("hn3", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -119,6 +127,10 @@ commands(
 commands(
     ("hn2", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("hn2", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -129,6 +141,10 @@ commands(
 commands(
     ("hn4", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("hn4", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -140,6 +156,10 @@ commands(
 commands(
     ("tp1", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tp1", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -150,6 +170,10 @@ commands(
 commands(
     ("tp3", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tp3", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -159,6 +183,10 @@ commands(
 commands(
     ("tp2", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tp2", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -169,6 +197,10 @@ commands(
 commands(
     ("tp4", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tp4", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -180,6 +212,10 @@ commands(
 commands(
     ("tbn1", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tbn1", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -190,6 +226,10 @@ commands(
 commands(
     ("tbn3", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tbn3", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
@@ -199,6 +239,10 @@ commands(
 commands(
     ("tbn2", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tbn2", 1),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -209,10 +253,34 @@ commands(
 commands(
     ("tbn4", 1),
     library.make_downbeat_attack(),
+)
+
+commands(
+    ("tbn4", 1),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
+)
+
+brass_voices = [
+    "hn1",
+    "hn2",
+    "hn3",
+    "hn4",
+    "tp1",
+    "tp2",
+    "tp3",
+    "tp4",
+    "tbn1",
+    "tbn2",
+    "tbn3",
+    "tbn4",
+]
+
+commands(
+    (brass_voices, (2, 12)),
+    baca.make_mmrests(),
 )
 
 # strings
@@ -302,11 +370,20 @@ for voice, items in string_parts.items():
         baca.reapply_persistent_indicators(),
     )
     commands(
-        [
-            (voice, (4, 6)),
-            (voice, (9, 11)),
-        ],
+        (voice, (4, 6)),
         baca.make_repeat_tied_notes(),
+    )
+    commands(
+        (voice, (7, 8)),
+        baca.make_mmrests(),
+    )
+    commands(
+        (voice, (9, 11)),
+        baca.make_repeat_tied_notes(),
+    )
+    commands(
+        (voice, 12),
+        baca.make_mmrests(),
     )
     commands(
         (voice, (4, 7)),
@@ -320,6 +397,31 @@ for voice, items in string_parts.items():
 # solo violin
 
 commands(
+    ("1vn5", (1, 2)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn5", 3),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("1vn5", (4, 7)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn5", 8),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("1vn5", (9, 12)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
     "1vn5",
     baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
     baca.stem_tremolo(
@@ -328,16 +430,8 @@ commands(
 )
 
 commands(
-    [
-        ("1vn5", (1, 2)),
-        ("1vn5", (4, 7)),
-        ("1vn5", (9, 12)),
-    ],
-    baca.make_repeat_tied_notes(),
-    baca.new(
-        baca.reapply_persistent_indicators(),
-        match=0,
-    ),
+    "1vn5",
+    baca.reapply_persistent_indicators(),
 )
 
 if __name__ == "__main__":
@@ -348,6 +442,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

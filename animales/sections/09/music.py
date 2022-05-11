@@ -74,6 +74,15 @@ commands(
 commands(
     ("cl1", (1, 3)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl1", (4, 6)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cl1", (1, 3)),
     baca.reapply_persistent_indicators(),
     baca.hairpin("< ff", left_broken=True),
     baca.pitch("F5"),
@@ -99,6 +108,10 @@ commands(
 commands(
     "bcl1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "bcl1",
     baca.reapply_persistent_indicators(),
     library.parts("Bass.Clarinet"),
     baca.dynamic("p"),
@@ -113,6 +126,10 @@ commands(
 commands(
     "hp1",
     library.make_harp_exchange_rhythm(2),
+)
+
+commands(
+    "hp1",
     baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -125,6 +142,10 @@ commands(
 commands(
     "pf1",
     library.make_harp_exchange_rhythm(3),
+)
+
+commands(
+    "pf1",
     baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -139,6 +160,10 @@ commands(
 commands(
     "perc2",
     baca.make_mmrests(),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.dynamic(
@@ -152,6 +177,10 @@ commands(
 commands(
     "perc3",
     library.make_harp_exchange_rhythm(0),
+)
+
+commands(
+    "perc3",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -168,6 +197,25 @@ commands(
         ("vc1", (1, 3)),
     ],
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    [
+        ("1vn1", (4, 6)),
+        ("2vn1", (4, 6)),
+        ("va1", (4, 6)),
+        ("vc1", (4, 6)),
+    ],
+    baca.make_mmrests(),
+)
+
+commands(
+    [
+        ("1vn1", (1, 3)),
+        ("2vn1", (1, 3)),
+        ("va1", (1, 3)),
+        ("vc1", (1, 3)),
+    ],
     baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
@@ -230,6 +278,15 @@ commands(
 commands(
     ("cb3", (1, 3)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cb3", (4, 6)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cb3", (1, 3)),
     baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
@@ -249,6 +306,10 @@ commands(
 commands(
     "cb1",
     library.make_harp_exchange_rhythm(1),
+)
+
+commands(
+    "cb1",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -265,6 +326,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

@@ -105,6 +105,15 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    ("perc1", 4),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc1", (1, 3)),
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -120,6 +129,7 @@ commands(
 library.battuti(
     commands,
     [[1, -17], [1, -17], [1, -17]],
+    append_fermata_measure=True,
     omit_contrabasses=True,
     range_=(1, 3),
 )
@@ -132,6 +142,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

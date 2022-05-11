@@ -78,13 +78,22 @@ def swell(peak):
 # oboes
 
 commands(
+    ("ob1", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("ob1", (6, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
     "ob1",
     library.parts("Oboe"),
 )
 
 commands(
     ("ob1", (1, 5)),
-    baca.make_repeat_tied_notes(),
     baca.attach_first_appearance_default_indicators(),
     baca.pitch("A4"),
 )
@@ -104,6 +113,15 @@ commands(
 commands(
     ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh1", (6, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh1", (1, 5)),
     baca.attach_first_appearance_default_indicators(),
     baca.pitch("G3"),
 )
@@ -130,6 +148,10 @@ commands(
 commands(
     ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("bsn1", (1, 5)),
     baca.attach_first_appearance_default_indicators(),
     baca.pitch("B3"),
 )
@@ -142,6 +164,15 @@ commands(
 commands(
     ("bsn2", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    (["bsn1", "bsn2"], (6, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("bsn2", (1, 5)),
     baca.pitch("G2"),
 )
 
@@ -197,6 +228,10 @@ def lower_voice_suite(n=5):
 commands(
     "1vn5",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn5",
     baca.attach_first_appearance_default_indicators(),
     library.margin_markup("Vni. I 18"),
     library.parts("First.Violin", 18),
@@ -238,6 +273,10 @@ for voice, members in voice_to_members.items():
 commands(
     ("1vn1", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn1", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I (1-4) (5-8)"),
     baca.not_parts(
@@ -254,6 +293,10 @@ commands(
 commands(
     ("1vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F5"),
     lower_voice_suite(8),
@@ -263,6 +306,10 @@ commands(
 commands(
     ("1vn3", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn3", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I (9-12) (13-17)"),
     baca.not_parts(
@@ -276,6 +323,10 @@ commands(
 commands(
     ("1vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("D5"),
     lower_voice_suite(8),
@@ -287,6 +338,10 @@ commands(
 commands(
     ("2vn1", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn1", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II (1-4) (5-8)"),
     baca.not_parts(
@@ -300,6 +355,10 @@ commands(
 commands(
     ("2vn2", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G4"),
     lower_voice_suite(),
@@ -309,6 +368,10 @@ commands(
 commands(
     ("2vn3", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn3", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II (9-12) (13-18)"),
     baca.not_parts(
@@ -322,6 +385,10 @@ commands(
 commands(
     ("2vn4", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F4"),
     lower_voice_suite(),
@@ -333,6 +400,10 @@ commands(
 commands(
     ("va1", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va1", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vle. (1-4) (5-8)"),
     baca.not_parts(
@@ -346,6 +417,10 @@ commands(
 commands(
     ("va2", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("A3"),
     lower_voice_suite(),
@@ -355,6 +430,10 @@ commands(
 commands(
     ("va3", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va3", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vle. (9-12) (13-18)"),
     baca.not_parts(
@@ -368,6 +447,10 @@ commands(
 commands(
     ("va4", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G3"),
     lower_voice_suite(),
@@ -379,6 +462,10 @@ commands(
 commands(
     ("vc1", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc1", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vc. (1-8) (9-14)"),
     baca.not_parts(
@@ -392,6 +479,10 @@ commands(
 commands(
     ("vc2", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G2"),
     lower_voice_suite(),
@@ -403,6 +494,10 @@ commands(
 commands(
     ("cb3", (1, 10)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cb3", (1, 10)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Cb."),
     baca.not_parts(
@@ -417,6 +512,12 @@ commands(
     tremolo_suite(),
 )
 
+for voice_name in voice_to_members:
+    commands(
+        (voice_name, (11, 14)),
+        baca.make_mmrests(),
+    )
+
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -425,6 +526,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

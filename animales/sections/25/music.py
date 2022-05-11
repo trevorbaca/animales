@@ -112,6 +112,27 @@ commands(
 library.assign_brass_sforzando_parts(commands)
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
+brass_voices = [
+    "hn1",
+    "hn2",
+    "hn3",
+    "hn4",
+    "tp1",
+    "tp2",
+    "tp3",
+    "tp4",
+    "tbn1",
+    "tbn2",
+    "tbn3",
+    "tbn4",
+    "Tuba.Voice.1",
+]
+
+commands(
+    (brass_voices, (2, 3)),
+    baca.make_mmrests(),
+)
+
 # percussion
 
 # cymbal
@@ -170,6 +191,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

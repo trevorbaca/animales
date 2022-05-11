@@ -147,6 +147,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),
         transpose_score=True,
     )

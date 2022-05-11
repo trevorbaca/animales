@@ -428,6 +428,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(
