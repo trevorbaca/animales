@@ -130,13 +130,19 @@ library.battuti(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # triangle
 
 commands(
     "perc1",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 1),
@@ -146,7 +152,6 @@ commands(
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 2),
@@ -156,7 +161,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 3),
@@ -166,7 +170,6 @@ commands(
 
 commands(
     "perc4",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 4),

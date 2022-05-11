@@ -219,13 +219,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # flutes
 
 commands(
     ("fl1", (1, 3)),
-    baca.reapply_persistent_indicators(),
     library.pennant_pitches("G5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
@@ -241,7 +247,6 @@ commands(
 
 commands(
     ("fl3", (1, 3)),
-    baca.reapply_persistent_indicators(),
     library.pennant_pitches("F5", [6]),
     baca.hairpin(
         "mf < ff",
@@ -255,7 +260,6 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
-    baca.reapply_persistent_indicators(),
     library.pennant_pitches("Eb5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.only_parts(
@@ -271,7 +275,6 @@ commands(
 
 commands(
     ("fl4", (1, 3)),
-    baca.reapply_persistent_indicators(),
     library.pennant_pitches("D5", [6]),
     baca.hairpin(
         "mf < ff",
@@ -307,11 +310,6 @@ commands(
 # bass clarinet
 
 commands(
-    ("bcl1", 1),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     "bcl1",
     library.parts("Bass.Clarinet"),
     baca.hairpin(
@@ -332,7 +330,6 @@ commands(
 
 commands(
     ("hp1", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -347,7 +344,6 @@ commands(
 
 commands(
     ("pf1", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -364,7 +360,6 @@ commands(
 
 commands(
     ("perc1", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "niente o< mp",
         selector=lambda _: baca.select.pleaves(_)[:2],
@@ -382,7 +377,6 @@ commands(
 
 commands(
     ("perc2", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "niente o< mp",
         selector=lambda _: baca.select.pleaves(_)[:2],
@@ -400,7 +394,6 @@ commands(
 
 commands(
     ("perc3", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
 )
@@ -414,7 +407,6 @@ commands(
 
 commands(
     ("1vn2", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p < ff",
         selector=library.leaves_in_measure(1, rleak=True),
@@ -450,7 +442,6 @@ commands(
 
 commands(
     (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin("pp < ff"),
     baca.pitch("G3"),
     baca.trill_spanner(alteration="Ab3"),
@@ -504,7 +495,6 @@ commands(
 
 commands(
     ("cb3", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin("p < ff"),
     baca.pitch("G1"),
 )
@@ -518,7 +508,6 @@ commands(
 
 commands(
     ("cb1", (1, 6)),
-    baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4", do_not_transpose=True),
 )

@@ -204,13 +204,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # clarinet
 
 commands(
     "cl1",
-    baca.reapply_persistent_indicators(),
     library.parts("Clarinet", 3),
     baca.hairpin("mp < mf"),
     baca.pitch("A4"),
@@ -220,7 +226,6 @@ commands(
 
 commands(
     ("bcl1", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p >o niente",
         selector=lambda _: baca.select.rleak(baca.select.pleaves(_)),
@@ -255,7 +260,6 @@ def crescendi():
 
 commands(
     "hn1",
-    baca.reapply_persistent_indicators(),
     library.parts("Horn", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -265,7 +269,6 @@ commands(
 
 commands(
     "hn3",
-    baca.reapply_persistent_indicators(),
     library.parts("Horn", 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -274,7 +277,6 @@ commands(
 
 commands(
     "hn2",
-    baca.reapply_persistent_indicators(),
     library.parts("Horn", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -284,7 +286,6 @@ commands(
 
 commands(
     "hn4",
-    baca.reapply_persistent_indicators(),
     baca.not_parts(baca.voice_two()),
     library.parts("Horn", 4),
     baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -295,7 +296,6 @@ commands(
 
 commands(
     "tp1",
-    baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -305,7 +305,6 @@ commands(
 
 commands(
     "tp3",
-    baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches("G4 A4", persist="seconds"),
@@ -314,7 +313,6 @@ commands(
 
 commands(
     "tp2",
-    baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -324,7 +322,6 @@ commands(
 
 commands(
     "tp4",
-    baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 4),
     baca.not_parts(baca.voice_two()),
     baca.pitches("G4 A4", persist="seconds"),
@@ -335,7 +332,6 @@ commands(
 
 commands(
     "tbn1",
-    baca.reapply_persistent_indicators(),
     library.parts("Trombone", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -345,7 +341,6 @@ commands(
 
 commands(
     "tbn3",
-    baca.reapply_persistent_indicators(),
     library.parts("Trombone", 3),
     baca.not_parts(baca.voice_two()),
     baca.pitches("G3 A3", persist="seconds"),
@@ -354,7 +349,6 @@ commands(
 
 commands(
     "tbn2",
-    baca.reapply_persistent_indicators(),
     library.parts("Trombone", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -364,7 +358,6 @@ commands(
 
 commands(
     "tbn4",
-    baca.reapply_persistent_indicators(),
     library.parts("Trombone", 4),
     baca.not_parts(baca.voice_two()),
     baca.pitches("G3 A3", persist="seconds"),
@@ -375,7 +368,6 @@ commands(
 
 commands(
     "hp1",
-    baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -386,7 +378,6 @@ commands(
 
 commands(
     "pf1",
-    baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -398,13 +389,7 @@ commands(
 # vibraphone
 
 commands(
-    "perc2",
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -414,7 +399,6 @@ commands(
 
 commands(
     most_strings,
-    baca.reapply_persistent_indicators(),
     baca.hairpin("pp <", right_broken=True),
     baca.pitch("A3"),
     baca.trill_spanner(alteration="Ab3", right_broken=True),
@@ -442,7 +426,6 @@ commands(
 
 commands(
     "cb3",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.hairpin("pp <", right_broken=True),
     baca.pitch("A1"),
@@ -452,7 +435,6 @@ commands(
 
 commands(
     "cb1",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.note_head_style_harmonic(),

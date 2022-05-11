@@ -151,6 +151,15 @@ library.battuti(commands, [[1, -117, -117], [1, -118]])
 
 # phantom
 
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
 # after
 
 library.assign_brass_sforzando_parts(commands)
@@ -159,7 +168,6 @@ library.assign_brass_sforzando_parts(commands)
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 2),
@@ -169,7 +177,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 3 (BD)"),
     baca.clef("percussion"),
     baca.dynamic("p"),
@@ -185,7 +192,6 @@ commands(
 
 commands(
     "perc4",
-    baca.reapply_persistent_indicators(),
     baca.dynamic("p"),
     library.margin_markup("Perc. 4 (tam.)"),
     baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),

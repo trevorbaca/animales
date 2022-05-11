@@ -143,13 +143,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # clarinet
 
 commands(
     ("cl1", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin("< ff", left_broken=True),
     baca.pitch("F5"),
 )
@@ -173,7 +179,6 @@ commands(
 
 commands(
     "bcl1",
-    baca.reapply_persistent_indicators(),
     library.parts("Bass.Clarinet"),
     baca.dynamic("p"),
     baca.pitch("A2"),
@@ -186,7 +191,6 @@ commands(
 
 commands(
     "hp1",
-    baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -197,7 +201,6 @@ commands(
 
 commands(
     "pf1",
-    baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -210,7 +213,6 @@ commands(
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.dynamic(
         "niente",
@@ -222,7 +224,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -237,7 +238,6 @@ commands(
         ("va1", (1, 3)),
         ("vc1", (1, 3)),
     ],
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -298,7 +298,6 @@ commands(
 
 commands(
     ("cb3", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -316,7 +315,6 @@ commands(
 
 commands(
     "cb1",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-seventh-partial-of-d-markup"),

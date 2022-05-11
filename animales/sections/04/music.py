@@ -195,7 +195,7 @@ commands(
 
 # reapply
 
-reapply_voices = ["perc1", "perc2"] + strings
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
     reapply_voices,

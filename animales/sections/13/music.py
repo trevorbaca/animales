@@ -154,13 +154,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # clarinet
 
 commands(
     "cl1",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp <", right_broken=True),
@@ -168,11 +174,6 @@ commands(
 )
 
 # bass clarinet
-
-commands(
-    ("bcl1", (1, 4)),
-    baca.reapply_persistent_indicators(),
-)
 
 commands(
     "bcl1",
@@ -189,7 +190,6 @@ commands(
 
 commands(
     "hp1",
-    baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -200,7 +200,6 @@ commands(
 
 commands(
     "pf1",
-    baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -211,7 +210,6 @@ commands(
 
 commands(
     "perc1",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.hairpin(
         "niente o< mp",
@@ -225,7 +223,6 @@ commands(
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
@@ -238,7 +235,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
@@ -248,7 +244,6 @@ commands(
 
 commands(
     "1vn1",
-    baca.reapply_persistent_indicators(),
     library.parts("First.Violin"),
     baca.articulation("trill"),
     baca.glissando(
@@ -263,7 +258,6 @@ commands(
 
 commands(
     "2vn1",
-    baca.reapply_persistent_indicators(),
     library.parts("Second.Violin"),
     baca.articulation("trill"),
     baca.glissando(
@@ -278,7 +272,6 @@ commands(
 
 commands(
     "va1",
-    baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     baca.articulation("trill"),
     baca.glissando(
@@ -293,7 +286,6 @@ commands(
 
 commands(
     "vc1",
-    baca.reapply_persistent_indicators(),
     library.parts("Cello"),
     baca.articulation("trill"),
     baca.glissando(
@@ -308,7 +300,6 @@ commands(
 
 commands(
     "cb3",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.articulation("trill"),
     baca.glissando(
@@ -324,7 +315,6 @@ commands(
 
 commands(
     "cb1",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.note_head_style_harmonic(),
