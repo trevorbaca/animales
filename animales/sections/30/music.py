@@ -55,8 +55,6 @@ commands(
     ),
 )
 
-library.attach_grand_pause_fermatas(commands, score, measure=-1)
-
 # RHYTHM
 
 commands(
@@ -94,6 +92,10 @@ commands(
     all_voices,
     baca.reapply_persistent_indicators(),
 )
+
+# fermatas
+
+library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 # piano
 

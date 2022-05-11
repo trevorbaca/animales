@@ -83,8 +83,6 @@ commands(
     ),
 )
 
-library.attach_grand_pause_fermatas(commands, score, measure=-1)
-
 # RHYTHM
 
 commands(
@@ -233,6 +231,10 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
+# fermatas
+
+library.attach_grand_pause_fermatas(commands, score, measure=-1)
+
 # flutes
 
 commands(
@@ -310,7 +312,6 @@ commands(
     "fl4",
     library.parts("Flute", 4),
 )
-
 
 # bass clarinet
 
@@ -530,6 +531,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,
