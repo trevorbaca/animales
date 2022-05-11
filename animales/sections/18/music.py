@@ -88,9 +88,6 @@ commands(
     ),
 )
 
-library.attach_grand_pause_fermatas(commands, score, measure=3)
-library.attach_grand_pause_fermatas(commands, score, measure=8)
-
 # RHYTHM
 
 commands(
@@ -229,59 +226,6 @@ def tremolo(peak="f"):
     )
 
 
-voice_abbreviations = library.voice_abbreviations()
-for voice, items in string_parts.items():
-    assert isinstance(items, list), repr(items)
-    commands_ = []
-    voice = voice_abbreviations.get(voice, voice)
-    section = ".".join(abjad.string.delimit_words(voice)[:-2])
-    members = items[0]
-    commands_.append(library.parts(section, members))
-    if items[1] is True:
-        commands_.append(upper_voice())
-    elif items[1] is False:
-        commands_.append(lower_voice())
-    commands_.append(
-        baca.pitch(
-            items[2],
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
-    commands(
-        voice,
-        *commands_,
-    )
-    if voice == "First.Violin.Voice.5":
-        continue
-    commands(
-        (voice, (1, 3)),
-        baca.make_mmrests(),
-    )
-    commands(
-        (voice, (4, 6)),
-        baca.make_repeat_tied_notes(),
-    )
-    commands(
-        (voice, (7, 8)),
-        baca.make_mmrests(),
-    )
-    commands(
-        (voice, (9, 11)),
-        baca.make_repeat_tied_notes(),
-    )
-    commands(
-        (voice, 12),
-        baca.make_mmrests(),
-    )
-    commands(
-        (voice, (4, 7)),
-        tremolo("f"),
-    )
-    commands(
-        (voice, (9, 12)),
-        tremolo("mp"),
-    )
-
 commands(
     ("1vn5", (1, 2)),
     baca.make_repeat_tied_notes(),
@@ -307,6 +251,61 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
+
+voice_abbreviations = library.voice_abbreviations()
+for voice, items in string_parts.items():
+    assert isinstance(items, list), repr(items)
+    commands_ = []
+    voice = voice_abbreviations.get(voice, voice)
+    if voice != "First.Violin.Voice.5":
+        commands(
+            (voice, (1, 3)),
+            baca.make_mmrests(),
+        )
+        commands(
+            (voice, (4, 6)),
+            baca.make_repeat_tied_notes(),
+        )
+        commands(
+            (voice, (7, 8)),
+            baca.make_mmrests(),
+        )
+        commands(
+            (voice, (9, 11)),
+            baca.make_repeat_tied_notes(),
+        )
+        commands(
+            (voice, 12),
+            baca.make_mmrests(),
+        )
+    section = ".".join(abjad.string.delimit_words(voice)[:-2])
+    members = items[0]
+    commands_.append(library.parts(section, members))
+    if items[1] is True:
+        commands_.append(upper_voice())
+    elif items[1] is False:
+        commands_.append(lower_voice())
+    commands_.append(
+        baca.pitch(
+            items[2],
+            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+        ),
+    )
+    commands(
+        voice,
+        *commands_,
+    )
+    if voice == "First.Violin.Voice.5":
+        continue
+    commands(
+        (voice, (4, 7)),
+        tremolo("f"),
+    )
+    commands(
+        (voice, (9, 12)),
+        tremolo("mp"),
+    )
+
 # phantom
 
 all_voices = [_ for _ in voice_names if ".Voice" in _]
@@ -322,6 +321,11 @@ commands(
     all_voices,
     baca.reapply_persistent_indicators(),
 )
+
+# fermatas
+
+library.attach_grand_pause_fermatas(commands, score, measure=3)
+library.attach_grand_pause_fermatas(commands, score, measure=8)
 
 # brass
 
@@ -423,8 +427,6 @@ commands(
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
 )
 
-# strings
-
 # solo violin
 
 commands(
@@ -443,6 +445,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,

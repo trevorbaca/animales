@@ -302,6 +302,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,

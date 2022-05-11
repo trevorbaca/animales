@@ -532,14 +532,17 @@ def battuti(
         if omit_contrabasses and section == "Contrabass":
             continue
         for member in range(1, members + 1):
-            commands = []
             voice = f"{section}.Voice.{member}"
+            rhythm = make_clb_rhythm(section, member, counts, wrap)
+            maker(
+                (voice, range_),
+                rhythm,
+            )
+            commands = []
             maker(
                 voice,
                 parts(section, member),
             )
-            rhythm = make_clb_rhythm(section, member, counts, wrap)
-            commands.append(rhythm)
             commands.append(baca.reapply_persistent_indicators())
             maker(
                 voice,
