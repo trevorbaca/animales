@@ -99,7 +99,7 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 commands(
     ("hn1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -109,7 +109,7 @@ commands(
 
 commands(
     ("hn3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -118,7 +118,7 @@ commands(
 
 commands(
     ("hn2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -128,7 +128,7 @@ commands(
 
 commands(
     ("hn4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -139,7 +139,7 @@ commands(
 
 commands(
     ("tp1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -149,7 +149,7 @@ commands(
 
 commands(
     ("tp3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -158,7 +158,7 @@ commands(
 
 commands(
     ("tp2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -168,7 +168,7 @@ commands(
 
 commands(
     ("tp4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -179,7 +179,7 @@ commands(
 
 commands(
     ("tbn1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -189,7 +189,7 @@ commands(
 
 commands(
     ("tbn3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
@@ -198,7 +198,7 @@ commands(
 
 commands(
     ("tbn2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -208,7 +208,7 @@ commands(
 
 commands(
     ("tbn4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),

@@ -52,6 +52,10 @@ commands(
 commands(
     "perc1",
     baca.make_mmrests(),
+)
+
+commands(
+    "perc1",
     baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 1),
     baca.staff_lines(1),
@@ -60,6 +64,10 @@ commands(
 commands(
     "perc2",
     baca.make_mmrests(),
+)
+
+commands(
+    "perc2",
     baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 2),
     baca.staff_lines(1),
@@ -68,6 +76,10 @@ commands(
 commands(
     "perc4",
     baca.make_mmrests(),
+)
+
+commands(
+    "perc4",
     baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 4),
     baca.staff_lines(1),

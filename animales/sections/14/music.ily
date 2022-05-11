@@ -457,7 +457,7 @@ segment.14.Flute.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     r2.
     % AFTER:
     % MARKUP:
@@ -487,16 +487,16 @@ segment.14.Flute.Voice.1.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Voice.1 measure 2]
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % AFTER:
         % ARTICULATIONS:
@@ -545,12 +545,12 @@ segment.14.Flute.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % AFTER:
         % STOP_BEAM:
@@ -560,12 +560,12 @@ segment.14.Flute.Voice.1.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % AFTER:
     % START_BEAM:
@@ -574,17 +574,17 @@ segment.14.Flute.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % AFTER:
     % STOP_BEAM:
@@ -593,7 +593,7 @@ segment.14.Flute.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % AFTER:
     % START_BEAM:
@@ -602,17 +602,17 @@ segment.14.Flute.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % AFTER:
     % STOP_BEAM:
@@ -621,7 +621,7 @@ segment.14.Flute.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -630,17 +630,17 @@ segment.14.Flute.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % AFTER:
     % STOP_BEAM:
@@ -650,16 +650,16 @@ segment.14.Flute.Voice.1.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Voice.1 measure 3]
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         b''8
         % AFTER:
         % START_BEAM:
@@ -668,12 +668,12 @@ segment.14.Flute.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         bf''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         c'''8
         % AFTER:
         % STOP_BEAM:
@@ -683,20 +683,20 @@ segment.14.Flute.Voice.1.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         cs'''!8
         % AFTER:
         % START_BEAM:
@@ -705,12 +705,12 @@ segment.14.Flute.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         b''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         c'''8
         % AFTER:
         % ARTICULATIONS:
@@ -743,7 +743,7 @@ segment.14.Flute.Voice.1.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1013,12 +1013,12 @@ segment.14.Flute.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % AFTER:
     % ARTICULATIONS:
@@ -1061,17 +1061,17 @@ segment.14.Flute.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     e''16
     % AFTER:
     % STOP_BEAM:
@@ -1081,16 +1081,16 @@ segment.14.Flute.Voice.3.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Voice.3 measure 2]
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % START_BEAM:
@@ -1099,12 +1099,12 @@ segment.14.Flute.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         e''8
         % AFTER:
         % STOP_BEAM:
@@ -1114,20 +1114,20 @@ segment.14.Flute.Voice.3.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         f''8
         % AFTER:
         % START_BEAM:
@@ -1136,12 +1136,12 @@ segment.14.Flute.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         fs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         af''!8
         % AFTER:
         % STOP_BEAM:
@@ -1151,12 +1151,12 @@ segment.14.Flute.Voice.3.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % AFTER:
     % START_BEAM:
@@ -1165,17 +1165,17 @@ segment.14.Flute.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % AFTER:
     % STOP_BEAM:
@@ -1184,7 +1184,7 @@ segment.14.Flute.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -1193,17 +1193,17 @@ segment.14.Flute.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % AFTER:
     % STOP_BEAM:
@@ -1214,7 +1214,7 @@ segment.14.Flute.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flute.Voice.3 measure 3]
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     b''16
     % AFTER:
     % START_BEAM:
@@ -1223,17 +1223,17 @@ segment.14.Flute.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     b''16
     % AFTER:
     % STOP_BEAM:
@@ -1243,14 +1243,14 @@ segment.14.Flute.Voice.3.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         c'''8
         % AFTER:
         % START_BEAM:
@@ -1259,12 +1259,12 @@ segment.14.Flute.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         b''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         bf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -1294,7 +1294,7 @@ segment.14.Flute.Voice.3.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1622,7 +1622,7 @@ segment.14.Flute.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -1652,14 +1652,14 @@ segment.14.Flute.Voice.2.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % ARTICULATIONS:
@@ -1708,12 +1708,12 @@ segment.14.Flute.Voice.2.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         e''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % STOP_BEAM:
@@ -1723,20 +1723,20 @@ segment.14.Flute.Voice.2.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         d''8
         % AFTER:
         % START_BEAM:
@@ -1745,12 +1745,12 @@ segment.14.Flute.Voice.2.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         cs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % STOP_BEAM:
@@ -1760,14 +1760,14 @@ segment.14.Flute.Voice.2.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Voice.2 measure 2]
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     d''16
     % AFTER:
     % START_BEAM:
@@ -1776,17 +1776,17 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % AFTER:
     % STOP_BEAM:
@@ -1795,7 +1795,7 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % AFTER:
     % START_BEAM:
@@ -1804,17 +1804,17 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % AFTER:
     % STOP_BEAM:
@@ -1824,14 +1824,14 @@ segment.14.Flute.Voice.2.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         fs''!8
         % AFTER:
         % START_BEAM:
@@ -1840,12 +1840,12 @@ segment.14.Flute.Voice.2.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         fs''!8
         % AFTER:
         % STOP_BEAM:
@@ -1855,20 +1855,20 @@ segment.14.Flute.Voice.2.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         af''!8
         % AFTER:
         % START_BEAM:
@@ -1877,12 +1877,12 @@ segment.14.Flute.Voice.2.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         a''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % AFTER:
         % STOP_BEAM:
@@ -1892,14 +1892,14 @@ segment.14.Flute.Voice.2.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flute.Voice.2 measure 3]
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -1908,17 +1908,17 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % AFTER:
     % STOP_BEAM:
@@ -1927,7 +1927,7 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -1936,17 +1936,17 @@ segment.14.Flute.Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -2243,7 +2243,7 @@ segment.14.Flute.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -2286,17 +2286,17 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     cs''!16
     % AFTER:
     % STOP_BEAM:
@@ -2305,7 +2305,7 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     c''16
     % AFTER:
     % START_BEAM:
@@ -2314,17 +2314,17 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     cs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     d''16
     % AFTER:
     % STOP_BEAM:
@@ -2334,14 +2334,14 @@ segment.14.Flute.Voice.4.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % START_BEAM:
@@ -2350,12 +2350,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         e''8
         % AFTER:
         % STOP_BEAM:
@@ -2365,22 +2365,22 @@ segment.14.Flute.Voice.4.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Voice.4 measure 2]
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         ef''!8
         % AFTER:
         % START_BEAM:
@@ -2389,12 +2389,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         d''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         e''8
         % AFTER:
         % STOP_BEAM:
@@ -2404,12 +2404,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % AFTER:
     % START_BEAM:
@@ -2418,17 +2418,17 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % AFTER:
     % STOP_BEAM:
@@ -2437,7 +2437,7 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -2446,17 +2446,17 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % STOP_BEAM:
@@ -2466,14 +2466,14 @@ segment.14.Flute.Voice.4.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         a''8
         % AFTER:
         % START_BEAM:
@@ -2482,12 +2482,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % AFTER:
         % STOP_BEAM:
@@ -2497,22 +2497,22 @@ segment.14.Flute.Voice.4.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     \times 2/3
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flute.Voice.4 measure 3]
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         fs''!8
         % AFTER:
         % START_BEAM:
@@ -2521,12 +2521,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.pennant_rhythm()
+          %! animales.make_pennant_rhythm()
         g''8
         % AFTER:
         % STOP_BEAM:
@@ -2536,12 +2536,12 @@ segment.14.Flute.Voice.4.part.1 = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     af''!16
     % AFTER:
     % START_BEAM:
@@ -2550,17 +2550,17 @@ segment.14.Flute.Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     b''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.pennant_rhythm()
+      %! animales.make_pennant_rhythm()
     bf''!16
     % AFTER:
     % ARTICULATIONS:
@@ -3627,7 +3627,7 @@ segment.14.Piano.Voice.1.part.1 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -3666,16 +3666,16 @@ segment.14.Piano.Voice.1.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Voice.1 measure 2]
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3688,57 +3688,57 @@ segment.14.Piano.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 3]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 4]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 5]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -3751,25 +3751,25 @@ segment.14.Piano.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Voice.1 measure 6]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -3946,9 +3946,9 @@ segment.14.Harp.Voice.1.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3984,7 +3984,7 @@ segment.14.Harp.Voice.1.part.1 = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -4028,52 +4028,52 @@ segment.14.Harp.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 2]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 3]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 4]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -4086,40 +4086,40 @@ segment.14.Harp.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 5]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Voice.1 measure 6]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -4132,18 +4132,18 @@ segment.14.Harp.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r4
     % CLOSING:
     % COMMANDS:
@@ -5144,9 +5144,9 @@ segment.14.Percussion.Voice.3.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5182,7 +5182,7 @@ segment.14.Percussion.Voice.3.part.1 = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -5223,38 +5223,38 @@ segment.14.Percussion.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 2]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -5264,49 +5264,49 @@ segment.14.Percussion.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 3]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 4]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.3 measure 5]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Percussion.Voice.3 measure 6]
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -5316,18 +5316,18 @@ segment.14.Percussion.Voice.3.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % CLOSING:
     % COMMANDS:
@@ -5517,7 +5517,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     g'4
         % CLOSING:
         % COMMANDS:
@@ -5571,7 +5571,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     e'''8
     % AFTER:
     % SPANNER_STARTS:
@@ -5581,7 +5581,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     a''4.
     % AFTER:
     % SPANNER_STARTS:
@@ -5593,7 +5593,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 2]
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     f'''4
     % AFTER:
     % ARTICULATIONS:
@@ -5618,7 +5618,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     d''8
     % AFTER:
     % START_BEAM:
@@ -5655,7 +5655,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     d'''8
     % AFTER:
     % STOP_BEAM:
@@ -5668,7 +5668,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -5709,7 +5709,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 3]
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     g''4.
     % AFTER:
     % SPANNER_STARTS:
@@ -5719,7 +5719,7 @@ segment.14.First.Violin.Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.glissando_rhythm()
+      %! animales.make_glissando_rhythm()
     g'8
     % AFTER:
     % ARTICULATIONS:
@@ -7709,7 +7709,7 @@ segment.14.Contrabass.Voice.1.part.1 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -7748,14 +7748,14 @@ segment.14.Contrabass.Voice.1.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -7769,40 +7769,40 @@ segment.14.Contrabass.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 2]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Contrabass.Voice.1 measure 3]
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -7812,47 +7812,47 @@ segment.14.Contrabass.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 4]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 5]
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     \times 2/3
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Contrabass.Voice.1 measure 6]
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -7862,18 +7862,18 @@ segment.14.Contrabass.Voice.1.part.1 = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm()
     r2.
     % CLOSING:
     % COMMANDS:

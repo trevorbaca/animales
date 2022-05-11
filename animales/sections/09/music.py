@@ -112,7 +112,7 @@ commands(
 
 commands(
     "hp1",
-    library.harp_exchange_rhythm(2),
+    library.make_harp_exchange_rhythm(2),
     baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -124,7 +124,7 @@ commands(
 
 commands(
     "pf1",
-    library.harp_exchange_rhythm(3),
+    library.make_harp_exchange_rhythm(3),
     baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -151,7 +151,7 @@ commands(
 
 commands(
     "perc3",
-    library.harp_exchange_rhythm(0),
+    library.make_harp_exchange_rhythm(0),
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -248,7 +248,7 @@ commands(
 
 commands(
     "cb1",
-    library.harp_exchange_rhythm(1),
+    library.make_harp_exchange_rhythm(1),
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

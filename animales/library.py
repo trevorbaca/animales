@@ -528,7 +528,7 @@ def battuti(
             commands = []
             voice = f"{section}.Voice.{member}"
             maker(voice, parts(section, member))
-            rhythm = clb_rhythm(section, member, counts, wrap)
+            rhythm = make_clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)
             commands.append(baca.reapply_persistent_indicators())
             maker(voice, baca.attach_first_appearance_default_indicators())
@@ -557,7 +557,28 @@ def battuti(
             maker((voice, range_), *commands)
 
 
-def brass_manifest_rhythm(part):
+def glissando_positions(*, reverse=False, rotate=0, transpose=0):
+    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
+    positions_ = [_ + transpose for _ in positions_]
+    if reverse is True:
+        positions_.reverse()
+    positions = abjad.sequence.rotate(positions_, rotate)
+    return baca.staff_positions(positions)
+
+
+def leaves_in_measure(n, lleak=False, rleak=False):
+    def selector(argument):
+        result = baca.mleaves(argument, n)
+        if lleak is True:
+            result = baca.lleak(result)
+        if rleak is True:
+            result = baca.rleak(result)
+        return result
+
+    return selector
+
+
+def make_brass_manifest_rhythm(part):
     assert part in range(1, 12 + 1), repr(part)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
@@ -593,11 +614,13 @@ def brass_manifest_rhythm(part):
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
         persist="brass_manifest_rhythm",
-        tag=abjad.Tag("animales.brass_manifest_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
-def brass_sforzando(maker, range_=(1, -1), *, reapply_persistent_indicators=False):
+def make_brass_sforzando_material(
+    maker, range_=(1, -1), *, reapply_persistent_indicators=False
+):
     voice_to_pitch = {
         "Horn.Voice.1": "C4",
         "Horn.Voice.2": "Gb3",
@@ -618,12 +641,16 @@ def brass_sforzando(maker, range_=(1, -1), *, reapply_persistent_indicators=Fals
         if reapply_persistent_indicators:
             maker(
                 (voice, range_),
-                downbeat_attack(),
+                make_downbeat_attack(),
                 baca.reapply_persistent_indicators(),
                 baca.marcato(),
             )
         else:
-            maker((voice, range_), downbeat_attack(), baca.marcato())
+            maker(
+                (voice, range_),
+                make_downbeat_attack(),
+                baca.marcato(),
+            )
         words = abjad.string.delimit_words(voice)
         member = int(words[-1])
         if member in (1, 2):
@@ -635,7 +662,7 @@ def brass_sforzando(maker, range_=(1, -1), *, reapply_persistent_indicators=Fals
         maker((voice, range_), baca.pitch(pitch))
 
 
-def clb_rhythm(section, member, counts, wrap):
+def make_clb_rhythm(section, member, counts, wrap):
     if section in ("First.Violin", "Second.Violin", "Viola"):
         assert member in range(1, 18 + 1), repr(member)
     elif section == "Cello":
@@ -682,11 +709,11 @@ def clb_rhythm(section, member, counts, wrap):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("animales.clb_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
-def downbeat_attack(count=1, denominator=8):
+def make_downbeat_attack(count=1, denominator=8):
     return baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
@@ -696,120 +723,8 @@ def downbeat_attack(count=1, denominator=8):
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        tag=abjad.Tag("animales.downbeat_attack()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
-
-
-def glissando_positions(*, reverse=False, rotate=0, transpose=0):
-    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
-    positions_ = [_ + transpose for _ in positions_]
-    if reverse is True:
-        positions_.reverse()
-    positions = abjad.sequence.rotate(positions_, rotate)
-    return baca.staff_positions(positions)
-
-
-def glissando_rhythm(rotate=0):
-    return baca.rhythm(
-        rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
-        rmakers.beam(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        tag=abjad.Tag("animales.glissando_rhythm()"),
-    )
-
-
-def harp_exchange_rhythm(this_part, *commands, silence_first=False):
-    part_to_pattern = dict(
-        [
-            (0, abjad.index([0, 30], period=36)),
-            (1, abjad.index([0, 12, 16, 28, 32], period=48)),
-            (2, abjad.index([0, 30], period=36)),
-            (3, abjad.index([0, 12, 16, 28, 32], period=48)),
-        ]
-    )
-
-    part_to_indices = {}
-    for part in part_to_pattern:
-        part_to_indices[part] = []
-
-    harp_indices = []
-    part = 0
-    pattern = part_to_pattern[part]
-    index = 0
-    while True:
-        if index % pattern.period in pattern.indices:
-            part_to_indices[part].append(index)
-            harp_indices.append((index, part))
-            degrees = []
-            for indices in part_to_indices.values():
-                talea = abjad.math.difference_series(indices)
-                degree = baca.sequence.degree_of_rotational_symmetry(talea)
-                degrees.append(degree)
-            if all(1 < _ for _ in degrees):
-                break
-            part = (part + 1) % len(part_to_pattern)
-            pattern = part_to_pattern[part]
-        index += 1
-        if 999 < index:
-            break
-
-    part_to_preamble = {}
-    part_to_counts = {}
-    for part, indices in part_to_indices.items():
-        offset = indices[0]
-        preamble = []
-        if offset != 0:
-            preamble.append(offset)
-        part_to_preamble[part] = preamble
-        counts = abjad.math.difference_series(indices)
-        period = baca.sequence.period_of_rotation(counts)
-        counts = counts[:period]
-        part_to_counts[part] = counts
-
-    preamble = part_to_preamble[this_part]
-    counts = []
-    for count in part_to_counts[this_part]:
-        counts.append(2)
-        rest = -(count - 2)
-        counts.append(rest)
-
-    silence_first_specifier = []
-    if silence_first is True:
-        specifier = rmakers.force_rest(lambda _: baca.select.lt(_, 0))
-        silence_first_specifier.append(specifier)
-
-    def preprocessor(divisions):
-        result = baca.sequence.fuse(divisions)
-        result = baca.sequence.quarters(result)
-        return result
-
-    return baca.rhythm(
-        rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
-        *commands,
-        rmakers.cache_state(),
-        *silence_first_specifier,
-        rmakers.beam(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        preprocessor=preprocessor,
-        persist="harp_exchange_rhythm",
-        tag=abjad.Tag("animales.harp_exchange_rhythm()"),
-    )
-
-
-def leaves_in_measure(n, lleak=False, rleak=False):
-    def selector(argument):
-        result = baca.mleaves(argument, n)
-        if lleak is True:
-            result = baca.lleak(result)
-        if rleak is True:
-            result = baca.rleak(result)
-        return result
-
-    return selector
 
 
 def make_empty_score(
@@ -1010,70 +925,98 @@ def make_empty_score(
     return score
 
 
-def make_trill_rhythm(maker, measures=(1, -1)):
-    voice_to_part = {
-        "First.Violin.Voice.1": 0,
-        "First.Violin.Voice.3": 1,
-        "Second.Violin.Voice.1": 2,
-        "Second.Violin.Voice.3": 3,
-        "Viola.Voice.1": 4,
-        "Viola.Voice.3": 5,
-        "Cello.Voice.1": 6,
-    }
-    for voice, part in voice_to_part.items():
-        maker((voice, measures), sforzando_exchange_rhythm(part))
+def make_glissando_rhythm(rotate=0):
+    return baca.rhythm(
+        rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        tag=baca.tags.function_name(inspect.currentframe()),
+    )
 
 
-def parts(section, token=None):
-    """
-    Designates parts.
+def make_harp_exchange_rhythm(this_part, *commands, silence_first=False):
+    part_to_pattern = dict(
+        [
+            (0, abjad.index([0, 30], period=36)),
+            (1, abjad.index([0, 12, 16, 28, 32], period=48)),
+            (2, abjad.index([0, 30], period=36)),
+            (3, abjad.index([0, 12, 16, 28, 32], period=48)),
+        ]
+    )
 
-    ..  container:: example
+    part_to_indices = {}
+    for part in part_to_pattern:
+        part_to_indices[part] = []
 
-        >>> animales.library.parts("Horn")
-        PartAssignmentCommand(scope=None)
+    harp_indices = []
+    part = 0
+    pattern = part_to_pattern[part]
+    index = 0
+    while True:
+        if index % pattern.period in pattern.indices:
+            part_to_indices[part].append(index)
+            harp_indices.append((index, part))
+            degrees = []
+            for indices in part_to_indices.values():
+                talea = abjad.math.difference_series(indices)
+                degree = baca.sequence.degree_of_rotational_symmetry(talea)
+                degrees.append(degree)
+            if all(1 < _ for _ in degrees):
+                break
+            part = (part + 1) % len(part_to_pattern)
+            pattern = part_to_pattern[part]
+        index += 1
+        if 999 < index:
+            break
 
-        >>> animales.library.parts("Horn", 1)
-        PartAssignmentCommand(scope=None)
+    part_to_preamble = {}
+    part_to_counts = {}
+    for part, indices in part_to_indices.items():
+        offset = indices[0]
+        preamble = []
+        if offset != 0:
+            preamble.append(offset)
+        part_to_preamble[part] = preamble
+        counts = abjad.math.difference_series(indices)
+        period = baca.sequence.period_of_rotation(counts)
+        counts = counts[:period]
+        part_to_counts[part] = counts
 
-        >>> animales.library.parts("Horn", 2)
-        PartAssignmentCommand(scope=None)
+    preamble = part_to_preamble[this_part]
+    counts = []
+    for count in part_to_counts[this_part]:
+        counts.append(2)
+        rest = -(count - 2)
+        counts.append(rest)
 
-        >>> animales.library.parts("Horn", (3, 4))
-        PartAssignmentCommand(scope=None)
+    silence_first_specifier = []
+    if silence_first is True:
+        specifier = rmakers.force_rest(lambda _: baca.select.lt(_, 0))
+        silence_first_specifier.append(specifier)
 
-        >>> animales.library.parts("Horn", [1, 3])
-        PartAssignmentCommand(scope=None)
+    def preprocessor(divisions):
+        result = baca.sequence.fuse(divisions)
+        result = baca.sequence.quarters(result)
+        return result
 
-    ..  container:: example exception
-
-        Raises exception on nonexistent part:
-
-        >>> animales.library.parts("Horn", 5)
-        Traceback (most recent call last):
-            ...
-        Exception: no Part(instrument='Horn', member=5, number=None, section='Horn', section_abbreviation=None, zfill=None) in part manifest.
-
-    """
-    part_assignment = baca.PartAssignment(section=section, token=token)
-    if part_assignment.token is not None:
-        for part in part_assignment:
-            if part not in part_manifest.parts:
-                raise Exception(f"no {part!r} in part manifest.")
-    return baca.assign_parts(part_assignment)
-
-
-def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
-    start_pitch_ = abjad.NumberedPitch(start_pitch)
-    start_pitch = start_pitch_.number
-    intervals_ = [0, 1, 0, -1, -2, 0, -1, 0, 1, 3, 2, 1, 0, 2, 3, 4, 3, 5, 6, 4, 5]
-    if direction == abjad.DOWN:
-        intervals_ = [-_ for _ in intervals_]
-    pitch_numbers = [_ + start_pitch for _ in intervals_]
-    return baca.loop(pitch_numbers, intervals)
+    return baca.rhythm(
+        rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
+        *commands,
+        rmakers.cache_state(),
+        *silence_first_specifier,
+        rmakers.beam(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
+        preprocessor=preprocessor,
+        persist="harp_exchange_rhythm",
+        tag=baca.tags.function_name(inspect.currentframe()),
+    )
 
 
-def pennant_rhythm(extra_counts=None, silences=None):
+def make_pennant_rhythm(extra_counts=None, silences=None):
     commands = []
     if silences is not None:
         specifier = rmakers.force_rest(
@@ -1099,11 +1042,11 @@ def pennant_rhythm(extra_counts=None, silences=None):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        tag=abjad.Tag("animales.pennant_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
 
 
-def sforzando_exchange_rhythm(this_part):
+def make_sforzando_exchange_rhythm(this_part):
     part_to_pattern = dict(
         [
             (0, abjad.index([0, 15], period=18)),
@@ -1169,8 +1112,74 @@ def sforzando_exchange_rhythm(this_part):
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
         persist="sforzando_exchange_rhythm",
-        tag=abjad.Tag("animales.sforzando_exchange_rhythm()"),
+        tag=baca.tags.function_name(inspect.currentframe()),
     )
+
+
+def make_trill_rhythm(maker, measures=(1, -1)):
+    voice_to_part = {
+        "First.Violin.Voice.1": 0,
+        "First.Violin.Voice.3": 1,
+        "Second.Violin.Voice.1": 2,
+        "Second.Violin.Voice.3": 3,
+        "Viola.Voice.1": 4,
+        "Viola.Voice.3": 5,
+        "Cello.Voice.1": 6,
+    }
+    for voice, part in voice_to_part.items():
+        maker(
+            (voice, measures),
+            make_sforzando_exchange_rhythm(part),
+        )
+
+
+def parts(section, token=None):
+    """
+    Designates parts.
+
+    ..  container:: example
+
+        >>> animales.library.parts("Horn")
+        PartAssignmentCommand(scope=None)
+
+        >>> animales.library.parts("Horn", 1)
+        PartAssignmentCommand(scope=None)
+
+        >>> animales.library.parts("Horn", 2)
+        PartAssignmentCommand(scope=None)
+
+        >>> animales.library.parts("Horn", (3, 4))
+        PartAssignmentCommand(scope=None)
+
+        >>> animales.library.parts("Horn", [1, 3])
+        PartAssignmentCommand(scope=None)
+
+    ..  container:: example exception
+
+        Raises exception on nonexistent part:
+
+        >>> animales.library.parts("Horn", 5)
+        Traceback (most recent call last):
+            ...
+        Exception: no Part(instrument='Horn', member=5, number=None, section='Horn', section_abbreviation=None, zfill=None) in part manifest.
+
+    """
+    part_assignment = baca.PartAssignment(section=section, token=token)
+    if part_assignment.token is not None:
+        for part in part_assignment:
+            if part not in part_manifest.parts:
+                raise Exception(f"no {part!r} in part manifest.")
+    return baca.assign_parts(part_assignment)
+
+
+def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
+    start_pitch_ = abjad.NumberedPitch(start_pitch)
+    start_pitch = start_pitch_.number
+    intervals_ = [0, 1, 0, -1, -2, 0, -1, 0, 1, 3, 2, 1, 0, 2, 3, 4, 3, 5, 6, 4, 5]
+    if direction == abjad.DOWN:
+        intervals_ = [-_ for _ in intervals_]
+    pitch_numbers = [_ + start_pitch for _ in intervals_]
+    return baca.loop(pitch_numbers, intervals)
 
 
 def voice_abbreviations():

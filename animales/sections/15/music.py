@@ -89,7 +89,7 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 commands(
     ("fl1", (1, 3)),
-    library.pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
+    library.make_pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
     baca.reapply_persistent_indicators(),
     library.pennant_pitches("G5", [6]),
     baca.not_parts(baca.voice_one()),
@@ -106,7 +106,7 @@ commands(
 
 commands(
     ("fl3", (1, 3)),
-    library.pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
+    library.make_pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
     baca.reapply_persistent_indicators(),
     library.pennant_pitches("F5", [6]),
     baca.hairpin(
@@ -121,7 +121,7 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
-    library.pennant_rhythm([0, -1, -1, 0], [0]),
+    library.make_pennant_rhythm([0, -1, -1, 0], [0]),
     baca.reapply_persistent_indicators(),
     library.pennant_pitches("Eb5", [6]),
     baca.not_parts(baca.voice_one()),
@@ -138,7 +138,7 @@ commands(
 
 commands(
     ("fl4", (1, 3)),
-    library.pennant_rhythm([0, 0, -1, -1]),
+    library.make_pennant_rhythm([0, 0, -1, -1]),
     baca.reapply_persistent_indicators(),
     library.pennant_pitches("D5", [6]),
     baca.hairpin(
@@ -206,7 +206,7 @@ commands(
 
 commands(
     ("hp1", (1, 6)),
-    library.harp_exchange_rhythm(2),
+    library.make_harp_exchange_rhythm(2),
     baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
@@ -222,7 +222,7 @@ commands(
 
 commands(
     ("pf1", (1, 6)),
-    library.harp_exchange_rhythm(3),
+    library.make_harp_exchange_rhythm(3),
     baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
@@ -278,7 +278,7 @@ commands(
 
 commands(
     ("perc3", (1, 6)),
-    library.harp_exchange_rhythm(0),
+    library.make_harp_exchange_rhythm(0),
     baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4"),
@@ -293,7 +293,7 @@ commands(
 
 commands(
     ("1vn2", (1, 3)),
-    library.glissando_rhythm(rotate=-2),
+    library.make_glissando_rhythm(rotate=-2),
     baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p < ff",
@@ -405,7 +405,7 @@ commands(
 
 commands(
     ("cb1", (1, 6)),
-    library.harp_exchange_rhythm(1),
+    library.make_harp_exchange_rhythm(1),
     baca.reapply_persistent_indicators(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("Bb4", do_not_transpose=True),

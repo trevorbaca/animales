@@ -188,7 +188,7 @@ def crescendi():
 
 commands(
     "hn1",
-    library.brass_manifest_rhythm(1),
+    library.make_brass_manifest_rhythm(1),
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -199,7 +199,7 @@ commands(
 
 commands(
     "hn3",
-    library.brass_manifest_rhythm(3),
+    library.make_brass_manifest_rhythm(3),
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 3),
     baca.not_parts(baca.voice_two()),
@@ -209,7 +209,7 @@ commands(
 
 commands(
     "hn2",
-    library.brass_manifest_rhythm(2),
+    library.make_brass_manifest_rhythm(2),
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -220,7 +220,7 @@ commands(
 
 commands(
     "hn4",
-    library.brass_manifest_rhythm(4),
+    library.make_brass_manifest_rhythm(4),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.voice_two()),
     library.parts("Horn", 4),
@@ -232,7 +232,7 @@ commands(
 
 commands(
     "tp1",
-    library.brass_manifest_rhythm(5),
+    library.make_brass_manifest_rhythm(5),
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -243,7 +243,7 @@ commands(
 
 commands(
     "tp3",
-    library.brass_manifest_rhythm(7),
+    library.make_brass_manifest_rhythm(7),
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 3),
     baca.not_parts(baca.voice_two()),
@@ -253,7 +253,7 @@ commands(
 
 commands(
     "tp2",
-    library.brass_manifest_rhythm(6),
+    library.make_brass_manifest_rhythm(6),
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -264,7 +264,7 @@ commands(
 
 commands(
     "tp4",
-    library.brass_manifest_rhythm(8),
+    library.make_brass_manifest_rhythm(8),
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 4),
     baca.not_parts(baca.voice_two()),
@@ -276,7 +276,7 @@ commands(
 
 commands(
     "tbn1",
-    library.brass_manifest_rhythm(9),
+    library.make_brass_manifest_rhythm(9),
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -287,7 +287,7 @@ commands(
 
 commands(
     "tbn3",
-    library.brass_manifest_rhythm(11),
+    library.make_brass_manifest_rhythm(11),
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 3),
     baca.not_parts(baca.voice_two()),
@@ -297,7 +297,7 @@ commands(
 
 commands(
     "tbn2",
-    library.brass_manifest_rhythm(10),
+    library.make_brass_manifest_rhythm(10),
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -308,7 +308,7 @@ commands(
 
 commands(
     "tbn4",
-    library.brass_manifest_rhythm(12),
+    library.make_brass_manifest_rhythm(12),
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 4),
     baca.not_parts(baca.voice_two()),

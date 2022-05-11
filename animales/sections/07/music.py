@@ -115,7 +115,7 @@ commands(
 
 commands(
     "hp1",
-    library.harp_exchange_rhythm(2, silence_first=True),
+    library.make_harp_exchange_rhythm(2, silence_first=True),
     baca.attach_first_appearance_default_indicators(),
     library.parts("Harp"),
     baca.dynamic("mf"),
@@ -132,7 +132,7 @@ commands(
 
 commands(
     "pf1",
-    library.harp_exchange_rhythm(3, silence_first=True),
+    library.make_harp_exchange_rhythm(3, silence_first=True),
     baca.attach_first_appearance_default_indicators(),
     library.parts("Piano"),
     baca.dynamic("mf"),
@@ -178,7 +178,7 @@ commands(
     library.instrument("Vibraphone"),
     library.margin_markup("Perc. 3 (vib.)"),
     library.parts("Percussion", 3),
-    library.harp_exchange_rhythm(0),
+    library.make_harp_exchange_rhythm(0),
     baca.clef("treble"),
     baca.dynamic("mp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -290,7 +290,7 @@ commands(
 
 commands(
     "cb1",
-    library.harp_exchange_rhythm(
+    library.make_harp_exchange_rhythm(
         1,
         rmakers.force_rest(
             lambda _: baca.select.tuplet(_, 1),
