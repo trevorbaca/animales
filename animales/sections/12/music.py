@@ -125,7 +125,7 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 commands(
     ("hn1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.force_accidental()),
@@ -137,7 +137,7 @@ commands(
 
 commands(
     ("hn3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -146,7 +146,7 @@ commands(
 
 commands(
     ("hn2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -156,7 +156,7 @@ commands(
 
 commands(
     ("hn4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -167,7 +167,7 @@ commands(
 
 commands(
     ("tp1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -177,7 +177,7 @@ commands(
 
 commands(
     ("tp3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.voice_two()),
@@ -186,7 +186,7 @@ commands(
 
 commands(
     ("tp2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -196,7 +196,7 @@ commands(
 
 commands(
     ("tp4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.force_accidental()),
@@ -209,7 +209,7 @@ commands(
 
 commands(
     ("tbn1", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -219,7 +219,7 @@ commands(
 
 commands(
     ("tbn3", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
@@ -228,7 +228,7 @@ commands(
 
 commands(
     ("tbn2", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
@@ -238,7 +238,7 @@ commands(
 
 commands(
     ("tbn4", 1),
-    library.downbeat_attack(),
+    library.make_downbeat_attack(),
     baca.reapply_persistent_indicators(),
     baca.dynamic("sfz"),
     baca.not_parts(baca.force_accidental()),
@@ -251,7 +251,7 @@ commands(
 
 commands(
     "hp1",
-    library.harp_exchange_rhythm(2),
+    library.make_harp_exchange_rhythm(2),
     baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -263,7 +263,7 @@ commands(
 
 commands(
     "pf1",
-    library.harp_exchange_rhythm(3),
+    library.make_harp_exchange_rhythm(3),
     baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -284,7 +284,7 @@ commands(
 
 commands(
     "perc3",
-    library.harp_exchange_rhythm(0),
+    library.make_harp_exchange_rhythm(0),
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -350,7 +350,7 @@ commands(
 
 commands(
     "cb1",
-    library.harp_exchange_rhythm(1),
+    library.make_harp_exchange_rhythm(1),
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

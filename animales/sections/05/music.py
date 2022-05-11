@@ -108,7 +108,7 @@ commands(
 
 commands(
     "1vn2",
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
     library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",

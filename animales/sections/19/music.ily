@@ -5841,7 +5841,7 @@ segment.19.First.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -5885,21 +5885,21 @@ segment.19.First.Violin.Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.1 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.1 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -6117,7 +6117,7 @@ segment.19.First.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -6146,14 +6146,14 @@ segment.19.First.Violin.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.2 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.2 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -6410,7 +6410,7 @@ segment.19.First.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -6456,14 +6456,14 @@ segment.19.First.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -6676,7 +6676,7 @@ segment.19.First.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -6705,14 +6705,14 @@ segment.19.First.Violin.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.4 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.4 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -6969,7 +6969,7 @@ segment.19.First.Violin.Voice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -7015,14 +7015,14 @@ segment.19.First.Violin.Voice.5.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.5 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.5 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -7235,7 +7235,7 @@ segment.19.First.Violin.Voice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -7253,29 +7253,29 @@ segment.19.First.Violin.Voice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.6 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.6 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % CLOSING:
     % COMMANDS:
@@ -7532,7 +7532,7 @@ segment.19.First.Violin.Voice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -7567,14 +7567,14 @@ segment.19.First.Violin.Voice.7.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.7 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.7 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -7787,7 +7787,7 @@ segment.19.First.Violin.Voice.8.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -7805,14 +7805,14 @@ segment.19.First.Violin.Voice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.8 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.8 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -8069,7 +8069,7 @@ segment.19.First.Violin.Voice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -8104,14 +8104,14 @@ segment.19.First.Violin.Voice.9.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.9 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.9 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -8324,7 +8324,7 @@ segment.19.First.Violin.Voice.10.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -8342,14 +8342,14 @@ segment.19.First.Violin.Voice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.10 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.10 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -8606,7 +8606,7 @@ segment.19.First.Violin.Voice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -8641,14 +8641,14 @@ segment.19.First.Violin.Voice.11.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.11 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.11 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -8861,7 +8861,7 @@ segment.19.First.Violin.Voice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -8879,14 +8879,14 @@ segment.19.First.Violin.Voice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.12 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.12 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -9143,7 +9143,7 @@ segment.19.First.Violin.Voice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -9178,14 +9178,14 @@ segment.19.First.Violin.Voice.13.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.13 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.13 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -9398,7 +9398,7 @@ segment.19.First.Violin.Voice.14.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -9416,14 +9416,14 @@ segment.19.First.Violin.Voice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.14 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.14 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -9680,7 +9680,7 @@ segment.19.First.Violin.Voice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -9715,14 +9715,14 @@ segment.19.First.Violin.Voice.15.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.15 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.15 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -9935,7 +9935,7 @@ segment.19.First.Violin.Voice.16.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -9953,14 +9953,14 @@ segment.19.First.Violin.Voice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.16 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.16 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -10222,7 +10222,7 @@ segment.19.First.Violin.Voice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -10257,14 +10257,14 @@ segment.19.First.Violin.Voice.17.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.17 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.17 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -10482,7 +10482,7 @@ segment.19.First.Violin.Voice.18.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -10500,24 +10500,24 @@ segment.19.First.Violin.Voice.18.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.18 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.18 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2.
     % CLOSING:
     % COMMANDS:
@@ -10779,7 +10779,7 @@ segment.19.Second.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -10825,14 +10825,14 @@ segment.19.Second.Violin.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.1 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.1 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -11050,7 +11050,7 @@ segment.19.Second.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -11079,14 +11079,14 @@ segment.19.Second.Violin.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.2 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.2 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -11343,7 +11343,7 @@ segment.19.Second.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -11389,48 +11389,48 @@ segment.19.Second.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.3 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.3 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % CLOSING:
     % COMMANDS:
@@ -11643,7 +11643,7 @@ segment.19.Second.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -11672,14 +11672,14 @@ segment.19.Second.Violin.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.4 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.4 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -11936,7 +11936,7 @@ segment.19.Second.Violin.Voice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -11971,14 +11971,14 @@ segment.19.Second.Violin.Voice.5.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.5 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.5 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -12191,7 +12191,7 @@ segment.19.Second.Violin.Voice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -12209,19 +12209,19 @@ segment.19.Second.Violin.Voice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.6 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.6 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -12478,7 +12478,7 @@ segment.19.Second.Violin.Voice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -12513,14 +12513,14 @@ segment.19.Second.Violin.Voice.7.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.7 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.7 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -12733,7 +12733,7 @@ segment.19.Second.Violin.Voice.8.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -12751,14 +12751,14 @@ segment.19.Second.Violin.Voice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.8 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.8 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -13015,7 +13015,7 @@ segment.19.Second.Violin.Voice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -13050,14 +13050,14 @@ segment.19.Second.Violin.Voice.9.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.9 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.9 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -13270,7 +13270,7 @@ segment.19.Second.Violin.Voice.10.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -13288,14 +13288,14 @@ segment.19.Second.Violin.Voice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.10 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.10 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -13552,7 +13552,7 @@ segment.19.Second.Violin.Voice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -13587,14 +13587,14 @@ segment.19.Second.Violin.Voice.11.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.11 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.11 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -13807,7 +13807,7 @@ segment.19.Second.Violin.Voice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -13825,62 +13825,62 @@ segment.19.Second.Violin.Voice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.12 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Second.Violin.Voice.12 measure 3]
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % CLOSING:
     % COMMANDS:
@@ -14137,7 +14137,7 @@ segment.19.Second.Violin.Voice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -14172,14 +14172,14 @@ segment.19.Second.Violin.Voice.13.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.13 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.13 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -14392,7 +14392,7 @@ segment.19.Second.Violin.Voice.14.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -14410,14 +14410,14 @@ segment.19.Second.Violin.Voice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.14 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.14 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -14674,7 +14674,7 @@ segment.19.Second.Violin.Voice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -14709,14 +14709,14 @@ segment.19.Second.Violin.Voice.15.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.15 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.15 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -14929,7 +14929,7 @@ segment.19.Second.Violin.Voice.16.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -14947,14 +14947,14 @@ segment.19.Second.Violin.Voice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.16 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.16 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -15216,7 +15216,7 @@ segment.19.Second.Violin.Voice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -15251,14 +15251,14 @@ segment.19.Second.Violin.Voice.17.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.17 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.17 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -15476,7 +15476,7 @@ segment.19.Second.Violin.Voice.18.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -15494,14 +15494,14 @@ segment.19.Second.Violin.Voice.18.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.18 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.18 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -15763,7 +15763,7 @@ segment.19.Viola.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -15809,14 +15809,14 @@ segment.19.Viola.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.1 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.1 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -16034,7 +16034,7 @@ segment.19.Viola.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -16063,14 +16063,14 @@ segment.19.Viola.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.2 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.2 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -16327,7 +16327,7 @@ segment.19.Viola.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -16373,14 +16373,14 @@ segment.19.Viola.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.3 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.3 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -16593,7 +16593,7 @@ segment.19.Viola.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -16622,14 +16622,14 @@ segment.19.Viola.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.4 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.4 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -16886,7 +16886,7 @@ segment.19.Viola.Voice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -16921,14 +16921,14 @@ segment.19.Viola.Voice.5.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.5 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.5 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -17141,7 +17141,7 @@ segment.19.Viola.Voice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -17157,12 +17157,12 @@ segment.19.Viola.Voice.6.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % AFTER:
     % START_BEAM:
@@ -17171,7 +17171,7 @@ segment.19.Viola.Voice.6.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % AFTER:
     % STOP_BEAM:
@@ -17180,21 +17180,21 @@ segment.19.Viola.Voice.6.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.6 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.6 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -17451,7 +17451,7 @@ segment.19.Viola.Voice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -17486,14 +17486,14 @@ segment.19.Viola.Voice.7.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.7 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.7 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -17706,7 +17706,7 @@ segment.19.Viola.Voice.8.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -17724,14 +17724,14 @@ segment.19.Viola.Voice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.8 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.8 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -17988,7 +17988,7 @@ segment.19.Viola.Voice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -18023,14 +18023,14 @@ segment.19.Viola.Voice.9.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.9 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.9 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -18243,7 +18243,7 @@ segment.19.Viola.Voice.10.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -18261,14 +18261,14 @@ segment.19.Viola.Voice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.10 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.10 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -18525,7 +18525,7 @@ segment.19.Viola.Voice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -18560,14 +18560,14 @@ segment.19.Viola.Voice.11.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.11 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.11 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -18780,7 +18780,7 @@ segment.19.Viola.Voice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -18797,44 +18797,44 @@ segment.19.Viola.Voice.12.part.1 = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.clb_rhythm()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.12 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.12 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -19091,7 +19091,7 @@ segment.19.Viola.Voice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -19126,14 +19126,14 @@ segment.19.Viola.Voice.13.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.13 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.13 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -19346,7 +19346,7 @@ segment.19.Viola.Voice.14.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -19364,14 +19364,14 @@ segment.19.Viola.Voice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.14 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.14 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -19628,7 +19628,7 @@ segment.19.Viola.Voice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4.
     % AFTER:
     % MARKUP:
@@ -19661,31 +19661,31 @@ segment.19.Viola.Voice.15.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.15 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.15 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -19898,7 +19898,7 @@ segment.19.Viola.Voice.16.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -19916,14 +19916,14 @@ segment.19.Viola.Voice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.16 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.16 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -20185,7 +20185,7 @@ segment.19.Viola.Voice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -20220,14 +20220,14 @@ segment.19.Viola.Voice.17.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.17 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.17 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -20445,7 +20445,7 @@ segment.19.Viola.Voice.18.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -20461,31 +20461,31 @@ segment.19.Viola.Voice.18.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.18 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.18 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -20747,7 +20747,7 @@ segment.19.Cello.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -20793,14 +20793,14 @@ segment.19.Cello.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.1 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.1 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -21018,7 +21018,7 @@ segment.19.Cello.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -21047,14 +21047,14 @@ segment.19.Cello.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.2 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.2 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -21311,7 +21311,7 @@ segment.19.Cello.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -21346,14 +21346,14 @@ segment.19.Cello.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.3 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.3 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -21566,7 +21566,7 @@ segment.19.Cello.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -21584,14 +21584,14 @@ segment.19.Cello.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.4 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.4 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -21848,7 +21848,7 @@ segment.19.Cello.Voice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -21883,19 +21883,19 @@ segment.19.Cello.Voice.5.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.5 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.5 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     d'16
     % CLOSING:
     % COMMANDS:
@@ -22108,7 +22108,7 @@ segment.19.Cello.Voice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -22126,14 +22126,14 @@ segment.19.Cello.Voice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.6 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.6 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -22390,7 +22390,7 @@ segment.19.Cello.Voice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -22425,14 +22425,14 @@ segment.19.Cello.Voice.7.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.7 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.7 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -22645,7 +22645,7 @@ segment.19.Cello.Voice.8.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -22663,14 +22663,14 @@ segment.19.Cello.Voice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.8 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.8 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -22927,7 +22927,7 @@ segment.19.Cello.Voice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -22962,14 +22962,14 @@ segment.19.Cello.Voice.9.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.9 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.9 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -23182,7 +23182,7 @@ segment.19.Cello.Voice.10.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -23200,14 +23200,14 @@ segment.19.Cello.Voice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.10 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.10 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -23464,7 +23464,7 @@ segment.19.Cello.Voice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -23499,24 +23499,24 @@ segment.19.Cello.Voice.11.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.11 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.11 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8.
     % CLOSING:
     % COMMANDS:
@@ -23729,7 +23729,7 @@ segment.19.Cello.Voice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -23747,14 +23747,14 @@ segment.19.Cello.Voice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.12 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.12 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -24016,7 +24016,7 @@ segment.19.Cello.Voice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -24051,14 +24051,14 @@ segment.19.Cello.Voice.13.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.13 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.13 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -24276,7 +24276,7 @@ segment.19.Cello.Voice.14.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -24294,14 +24294,14 @@ segment.19.Cello.Voice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.14 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.14 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -24563,7 +24563,7 @@ segment.19.Contrabass.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -24609,14 +24609,14 @@ segment.19.Contrabass.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.1 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -24834,7 +24834,7 @@ segment.19.Contrabass.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -24852,14 +24852,14 @@ segment.19.Contrabass.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.2 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.2 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -25116,7 +25116,7 @@ segment.19.Contrabass.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -25162,14 +25162,14 @@ segment.19.Contrabass.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.3 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.3 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -25382,7 +25382,7 @@ segment.19.Contrabass.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -25400,14 +25400,14 @@ segment.19.Contrabass.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.4 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.4 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -25669,7 +25669,7 @@ segment.19.Contrabass.Voice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
     \voiceOne
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -25704,14 +25704,14 @@ segment.19.Contrabass.Voice.5.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.5 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.5 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % CLOSING:
     % COMMANDS:
@@ -25929,7 +25929,7 @@ segment.19.Contrabass.Voice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r1
     % AFTER:
     % MARKUP:
@@ -25947,34 +25947,34 @@ segment.19.Contrabass.Voice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.6 measure 2]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.6 measure 3]
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.clb_rhythm()
+      %! animales.make_clb_rhythm()
     r2
     % CLOSING:
     % COMMANDS:

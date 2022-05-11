@@ -141,7 +141,7 @@ commands(
 
 # brass
 
-library.brass_sforzando(commands, 3)
+library.make_brass_sforzando_material(commands, 3)
 
 for voice_name in (
     "hn1",
@@ -193,7 +193,7 @@ commands(
 
 commands(
     ("1vn2", (3, 6)),
-    library.glissando_rhythm(),
+    library.make_glissando_rhythm(),
     library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
