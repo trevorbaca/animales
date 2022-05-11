@@ -53,23 +53,25 @@ commands(
 
 # strings
 
-library.assign_trill_parts(commands)
 library.make_trill_rhythm(commands)
 
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+
+# phantom
+
+commands(
+    strings,
+    baca.append_phantom_measure(),
+)
+
+# after
 
 commands(
     strings,
     baca.reapply_persistent_indicators(),
 )
+
+library.assign_trill_parts(commands)
 
 # first accents ...
 commands(
@@ -136,6 +138,8 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        do_not_sort_commands=True,
+        append_phantom_measures_by_hand=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,
