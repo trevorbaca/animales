@@ -186,19 +186,17 @@ commands(
 
 # phantom
 
-tutti = [_ for _ in voice_names if ".Voice" in _]
+all_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    tutti,
+    all_voices,
     baca.append_phantom_measure(),
 )
 
 # reapply
 
-reapply_voices = [_ for _ in voice_names if ".Voice" in _]
-
 commands(
-    reapply_voices,
+    all_voices,
     baca.reapply_persistent_indicators(),
 )
 

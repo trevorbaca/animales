@@ -59,17 +59,17 @@ strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 # phantom
 
+all_voices = [_ for _ in voice_names if ".Voice" in _]
+
 commands(
-    strings,
+    all_voices,
     baca.append_phantom_measure(),
 )
 
 # reapply
 
-reapply_voices = [_ for _ in voice_names if ".Voice" in _]
-
 commands(
-    reapply_voices,
+    all_voices,
     baca.reapply_persistent_indicators(),
 )
 

@@ -162,6 +162,15 @@ commands(
 
 library.battuti(commands, [[1, -117, -117], [1, -118]], first=True)
 
+# phantom
+
+all_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+)
+
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(
         score,
@@ -169,6 +178,7 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),

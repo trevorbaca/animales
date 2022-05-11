@@ -131,6 +131,13 @@ library.battuti(commands, [[1, -55], [1, -17], [1, -17]])
 
 # phantom
 
+all_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+)
+
 # after
 
 library.assign_brass_sforzando_parts(commands)
@@ -142,6 +149,7 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,
