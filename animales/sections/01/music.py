@@ -55,15 +55,35 @@ commands(
 )
 
 commands(
+    "perc2",
+    baca.make_mmrests(),
+)
+
+commands(
+    "perc4",
+    baca.make_mmrests(),
+)
+
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+
+library.make_trill_rhythm(commands)
+
+# phantom
+
+tutti = ["perc1", "perc2", "perc4"] + strings
+
+commands(
+    tutti,
+    baca.append_phantom_measure(),
+)
+
+# after
+
+commands(
     "perc1",
     baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 1),
     baca.staff_lines(1),
-)
-
-commands(
-    "perc2",
-    baca.make_mmrests(),
 )
 
 commands(
@@ -75,29 +95,11 @@ commands(
 
 commands(
     "perc4",
-    baca.make_mmrests(),
-)
-
-commands(
-    "perc4",
     baca.attach_first_segment_default_indicators(),
     library.parts("Percussion", 4),
     baca.staff_lines(1),
 )
 
-# strings
-
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
-
-library.make_trill_rhythm(commands)
 
 for voice_name in strings:
     commands(
@@ -222,7 +224,10 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         part_manifest=library.part_manifest,
         transpose_score=True,
     )
