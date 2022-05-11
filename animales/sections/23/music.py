@@ -105,7 +105,6 @@ commands(
 
 # brass
 
-library.assign_brass_sforzando_parts(commands)
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
 brass_voices = [
@@ -129,14 +128,20 @@ commands(
     baca.make_mmrests(),
 )
 
-# percussion
-
-# cymbal
-
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
 )
+
+library.assign_brass_sforzando_parts(commands)
+
+library.battuti(commands, [[1, -17], [1, -17], [1, -17]])
+
+# phantom
+
+# after
+
+# cymbal
 
 commands(
     "perc2",
@@ -146,10 +151,6 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 2),
 )
-
-# strings
-
-library.battuti(commands, [[1, -17], [1, -17], [1, -17]])
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

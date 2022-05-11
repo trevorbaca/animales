@@ -88,9 +88,7 @@ commands(
     ),
 )
 
-# percussion
-
-# triangle
+# RHYTHM
 
 commands(
     "perc1",
@@ -99,6 +97,42 @@ commands(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
+
+commands(
+    "perc2",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    "perc3",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    "perc4",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+library.battuti(
+    commands,
+    [[1, 1, -5], [1, 1, -5], [1, -8]],
+    omit_contrabasses=True,
+)
+
+# phantom
+
+# after
+
+# triangle
 
 commands(
     "perc1",
@@ -112,14 +146,6 @@ commands(
 
 commands(
     "perc2",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc2",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -127,14 +153,6 @@ commands(
 )
 
 # bass drum
-
-commands(
-    "perc3",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
 
 commands(
     "perc3",
@@ -148,26 +166,10 @@ commands(
 
 commands(
     "perc4",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc4",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 4),
-)
-
-# strings
-
-library.battuti(
-    commands,
-    [[1, 1, -5], [1, 1, -5], [1, -8]],
-    omit_contrabasses=True,
 )
 
 if __name__ == "__main__":

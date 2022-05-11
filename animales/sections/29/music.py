@@ -95,9 +95,7 @@ commands(
 
 library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
-# percussion
-
-# triangle
+# RHYTHM
 
 commands(
     ("perc1", (1, 3)),
@@ -112,6 +110,20 @@ commands(
     baca.make_mmrests(),
 )
 
+library.battuti(
+    commands,
+    [[1, -17], [1, -17], [1, -17]],
+    append_fermata_measure=True,
+    omit_contrabasses=True,
+    range_=(1, 3),
+)
+
+# phantom
+
+# after
+
+# triangle
+
 commands(
     ("perc1", (1, 3)),
     baca.reapply_persistent_indicators(),
@@ -122,16 +134,6 @@ commands(
 commands(
     "perc1",
     library.parts("Percussion", 1),
-)
-
-# strings
-
-library.battuti(
-    commands,
-    [[1, -17], [1, -17], [1, -17]],
-    append_fermata_measure=True,
-    omit_contrabasses=True,
-    range_=(1, 3),
 )
 
 if __name__ == "__main__":

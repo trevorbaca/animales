@@ -90,14 +90,58 @@ commands(
     ),
 )
 
-# percussion
-
-# triangle
+# RHYTHM
 
 commands(
     "perc1",
     baca.make_repeat_tied_notes(),
 )
+
+commands(
+    "perc2",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    "perc3",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    "perc4",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+library.battuti(
+    commands,
+    [[1, -17], [1, -17], [1, -17]],
+    omit_contrabasses=True,
+)
+
+commands(
+    "cb3",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+# phantom
+
+# after
+
+# percussion
+
+# triangle
 
 commands(
     "perc1",
@@ -112,14 +156,6 @@ commands(
 
 commands(
     "perc2",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc2",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -127,14 +163,6 @@ commands(
 )
 
 # bass drum
-
-commands(
-    "perc3",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
 
 commands(
     "perc3",
@@ -148,34 +176,10 @@ commands(
 
 commands(
     "perc4",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc4",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 4),
-)
-
-# strings
-
-library.battuti(
-    commands,
-    [[1, -17], [1, -17], [1, -17]],
-    omit_contrabasses=True,
-)
-
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
 )
 
 commands(

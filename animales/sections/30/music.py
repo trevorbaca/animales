@@ -57,7 +57,7 @@ commands(
 
 library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
-# piano
+# RHYTHM
 
 commands(
     ("pf1", (1, 9)),
@@ -68,6 +68,22 @@ commands(
     ("pf1", 10),
     baca.make_mmrests(),
 )
+
+commands(
+    ("perc4", (1, 8)),
+    baca.make_tied_repeated_durations([(1, 4)]),
+)
+
+commands(
+    ("perc4", (9, 10)),
+    baca.make_mmrests(),
+)
+
+# phantom
+
+# after
+
+# piano
 
 commands(
     ("pf1", (1, 9)),
@@ -89,16 +105,6 @@ commands(
 commands(
     "perc4",
     library.parts("Percussion", 4),
-)
-
-commands(
-    ("perc4", (1, 8)),
-    baca.make_tied_repeated_durations([(1, 4)]),
-)
-
-commands(
-    ("perc4", (9, 10)),
-    baca.make_mmrests(),
 )
 
 commands(
