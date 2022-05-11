@@ -80,22 +80,12 @@ commands(
     ),
 )
 
-# clarinet
+# RHYTHM
 
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
 )
-
-commands(
-    "cl1",
-    baca.reapply_persistent_indicators(),
-    library.parts("Clarinet", 3),
-    baca.hairpin("mp < mf"),
-    baca.pitch("A4"),
-)
-
-# bass clarinet
 
 commands(
     ("bcl1", (1, 3)),
@@ -109,6 +99,124 @@ commands(
     ("bcl1", (4, 6)),
     baca.make_mmrests(),
 )
+
+commands(
+    "hn1",
+    library.make_brass_manifest_rhythm(1),
+)
+
+commands(
+    "hn3",
+    library.make_brass_manifest_rhythm(3),
+)
+
+commands(
+    "hn2",
+    library.make_brass_manifest_rhythm(2),
+)
+
+commands(
+    "hn4",
+    library.make_brass_manifest_rhythm(4),
+)
+
+commands(
+    "tp1",
+    library.make_brass_manifest_rhythm(5),
+)
+
+commands(
+    "tp3",
+    library.make_brass_manifest_rhythm(7),
+)
+
+commands(
+    "tp2",
+    library.make_brass_manifest_rhythm(6),
+)
+
+commands(
+    "tp4",
+    library.make_brass_manifest_rhythm(8),
+)
+
+commands(
+    "tbn1",
+    library.make_brass_manifest_rhythm(9),
+)
+
+commands(
+    "tbn3",
+    library.make_brass_manifest_rhythm(11),
+)
+
+commands(
+    "tbn2",
+    library.make_brass_manifest_rhythm(10),
+)
+
+commands(
+    "tbn4",
+    library.make_brass_manifest_rhythm(12),
+)
+
+commands(
+    "hp1",
+    library.make_harp_exchange_rhythm(2),
+)
+
+commands(
+    "pf1",
+    library.make_harp_exchange_rhythm(3),
+)
+
+commands(
+    "perc2",
+    baca.make_mmrests(),
+)
+
+commands(
+    "perc3",
+    library.make_harp_exchange_rhythm(0),
+)
+
+most_strings = [
+    "1vn1",
+    "2vn1",
+    "va1",
+    "vc1",
+]
+
+commands(
+    most_strings,
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb3",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb1",
+    library.make_harp_exchange_rhythm(1),
+)
+
+# phantom
+
+# after
+
+# clarinet
+
+commands(
+    "cl1",
+    baca.reapply_persistent_indicators(),
+    library.parts("Clarinet", 3),
+    baca.hairpin("mp < mf"),
+    baca.pitch("A4"),
+)
+
+# bass clarinet
 
 commands(
     ("bcl1", (1, 3)),
@@ -147,22 +255,12 @@ def crescendi():
 
 commands(
     "hn1",
-    library.make_brass_manifest_rhythm(1),
-)
-
-commands(
-    "hn1",
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("A3 B3", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "hn3",
-    library.make_brass_manifest_rhythm(3),
 )
 
 commands(
@@ -176,22 +274,12 @@ commands(
 
 commands(
     "hn2",
-    library.make_brass_manifest_rhythm(2),
-)
-
-commands(
-    "hn2",
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("A3 B3", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "hn4",
-    library.make_brass_manifest_rhythm(4),
 )
 
 commands(
@@ -207,22 +295,12 @@ commands(
 
 commands(
     "tp1",
-    library.make_brass_manifest_rhythm(5),
-)
-
-commands(
-    "tp1",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("Ab4 Bb4", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "tp3",
-    library.make_brass_manifest_rhythm(7),
 )
 
 commands(
@@ -236,22 +314,12 @@ commands(
 
 commands(
     "tp2",
-    library.make_brass_manifest_rhythm(6),
-)
-
-commands(
-    "tp2",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("Ab4 Bb4", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "tp4",
-    library.make_brass_manifest_rhythm(8),
 )
 
 commands(
@@ -267,22 +335,12 @@ commands(
 
 commands(
     "tbn1",
-    library.make_brass_manifest_rhythm(9),
-)
-
-commands(
-    "tbn1",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 1),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "tbn3",
-    library.make_brass_manifest_rhythm(11),
 )
 
 commands(
@@ -296,22 +354,12 @@ commands(
 
 commands(
     "tbn2",
-    library.make_brass_manifest_rhythm(10),
-)
-
-commands(
-    "tbn2",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 2),
     baca.not_parts(baca.dynamic_up()),
     baca.not_parts(baca.voice_one()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
     crescendi(),
-)
-
-commands(
-    "tbn4",
-    library.make_brass_manifest_rhythm(12),
 )
 
 commands(
@@ -327,11 +375,6 @@ commands(
 
 commands(
     "hp1",
-    library.make_harp_exchange_rhythm(2),
-)
-
-commands(
-    "hp1",
     baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -340,11 +383,6 @@ commands(
 )
 
 # piano
-
-commands(
-    "pf1",
-    library.make_harp_exchange_rhythm(3),
-)
 
 commands(
     "pf1",
@@ -361,17 +399,7 @@ commands(
 
 commands(
     "perc2",
-    baca.make_mmrests(),
-)
-
-commands(
-    "perc2",
     baca.reapply_persistent_indicators(),
-)
-
-commands(
-    "perc3",
-    library.make_harp_exchange_rhythm(0),
 )
 
 commands(
@@ -383,18 +411,6 @@ commands(
 )
 
 # strings
-
-most_strings = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "vc1",
-]
-
-commands(
-    most_strings,
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     most_strings,
@@ -426,11 +442,6 @@ commands(
 
 commands(
     "cb3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "cb3",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.hairpin("pp <", right_broken=True),
@@ -438,11 +449,6 @@ commands(
 )
 
 # contrabass solo
-
-commands(
-    "cb1",
-    library.make_harp_exchange_rhythm(1),
-)
 
 commands(
     "cb1",

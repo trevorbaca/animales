@@ -75,7 +75,7 @@ def swell(peak):
     )
 
 
-# oboes
+# RHYTHM
 
 commands(
     ("ob1", (1, 5)),
@@ -86,6 +86,141 @@ commands(
     ("ob1", (6, 14)),
     baca.make_mmrests(),
 )
+
+commands(
+    ("eh1", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh1", (6, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("bsn1", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("bsn2", (1, 5)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    (["bsn1", "bsn2"], (6, 14)),
+    baca.make_mmrests(),
+)
+
+commands(
+    "1vn5",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn1", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn2", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn3", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("1vn4", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn1", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn2", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn3", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("2vn4", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va1", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va2", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va3", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("va4", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc1", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("vc2", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cb3", (1, 10)),
+    baca.make_repeat_tied_notes(),
+)
+
+voice_to_members = {
+    "1vn1": (1, 4),
+    "1vn2": (5, 8),
+    "1vn3": (9, 12),
+    "1vn4": (13, 17),
+    "2vn1": (1, 4),
+    "2vn2": (5, 8),
+    "2vn3": (9, 12),
+    "2vn4": (13, 18),
+    "va1": (1, 4),
+    "va2": (5, 8),
+    "va3": (9, 12),
+    "va4": (13, 18),
+    "vc1": (1, 8),
+    "vc2": (9, 14),
+    "cb3": None,
+}
+
+for voice_name in voice_to_members:
+    commands(
+        (voice_name, (11, 14)),
+        baca.make_mmrests(),
+    )
+
+# phantom
+
+# after
+
+# oboes
 
 commands(
     "ob1",
@@ -108,16 +243,6 @@ commands(
 commands(
     "eh1",
     library.parts("English.Horn"),
-)
-
-commands(
-    ("eh1", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh1", (6, 14)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -147,11 +272,6 @@ commands(
 
 commands(
     ("bsn1", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("bsn1", (1, 5)),
     baca.attach_first_appearance_default_indicators(),
     baca.pitch("B3"),
 )
@@ -159,16 +279,6 @@ commands(
 commands(
     ("bsn1", (1, 6)),
     baca.only_parts(swell("f")),
-)
-
-commands(
-    ("bsn2", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    (["bsn1", "bsn2"], (6, 14)),
-    baca.make_mmrests(),
 )
 
 commands(
@@ -227,11 +337,6 @@ def lower_voice_suite(n=5):
 
 commands(
     "1vn5",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "1vn5",
     baca.attach_first_appearance_default_indicators(),
     library.margin_markup("Vni. I 18"),
     library.parts("First.Violin", 18),
@@ -243,24 +348,6 @@ commands(
 
 # part assignments
 
-voice_to_members = {
-    "1vn1": (1, 4),
-    "1vn2": (5, 8),
-    "1vn3": (9, 12),
-    "1vn4": (13, 17),
-    "2vn1": (1, 4),
-    "2vn2": (5, 8),
-    "2vn3": (9, 12),
-    "2vn4": (13, 18),
-    "va1": (1, 4),
-    "va2": (5, 8),
-    "va3": (9, 12),
-    "va4": (13, 18),
-    "vc1": (1, 8),
-    "vc2": (9, 14),
-    "cb3": None,
-}
-
 for voice, members in voice_to_members.items():
     section = library.voice_to_section(voice)
     commands(
@@ -269,11 +356,6 @@ for voice, members in voice_to_members.items():
     )
 
 # first violins
-
-commands(
-    ("1vn1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     ("1vn1", (1, 10)),
@@ -292,20 +374,10 @@ commands(
 
 commands(
     ("1vn2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F5"),
     lower_voice_suite(8),
     tremolo_suite(),
-)
-
-commands(
-    ("1vn3", (1, 10)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -322,11 +394,6 @@ commands(
 
 commands(
     ("1vn4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("D5"),
     lower_voice_suite(8),
@@ -334,11 +401,6 @@ commands(
 )
 
 # second violins
-
-commands(
-    ("2vn1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     ("2vn1", (1, 10)),
@@ -354,20 +416,10 @@ commands(
 
 commands(
     ("2vn2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G4"),
     lower_voice_suite(),
     tremolo_suite(),
-)
-
-commands(
-    ("2vn3", (1, 10)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -384,11 +436,6 @@ commands(
 
 commands(
     ("2vn4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("F4"),
     lower_voice_suite(),
@@ -396,11 +443,6 @@ commands(
 )
 
 # violas
-
-commands(
-    ("va1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     ("va1", (1, 10)),
@@ -416,20 +458,10 @@ commands(
 
 commands(
     ("va2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("A3"),
     lower_voice_suite(),
     tremolo_suite(),
-)
-
-commands(
-    ("va3", (1, 10)),
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -446,11 +478,6 @@ commands(
 
 commands(
     ("va4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va4", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G3"),
     lower_voice_suite(),
@@ -458,11 +485,6 @@ commands(
 )
 
 # cellos
-
-commands(
-    ("vc1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     ("vc1", (1, 10)),
@@ -478,11 +500,6 @@ commands(
 
 commands(
     ("vc2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc2", (1, 10)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G2"),
     lower_voice_suite(),
@@ -490,11 +507,6 @@ commands(
 )
 
 # contrabasses
-
-commands(
-    ("cb3", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     ("cb3", (1, 10)),
@@ -511,12 +523,6 @@ commands(
     #    baca.only_segment(baca.literal(r"\clef "bass"")),
     tremolo_suite(),
 )
-
-for voice_name in voice_to_members:
-    commands(
-        (voice_name, (11, 14)),
-        baca.make_mmrests(),
-    )
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

@@ -61,12 +61,38 @@ commands(
     ),
 )
 
-# clarinet
-
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
 )
+
+commands(
+    "perc1",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc2",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn2",
+    library.make_glissando_rhythm(),
+)
+
+library.make_trill_rhythm(commands)
+
+commands(
+    "cb3",
+    baca.make_repeat_tied_notes(),
+)
+
+# phantom
+
+# reapply
+
+# cl1
 
 commands(
     "cl1",
@@ -78,14 +104,7 @@ commands(
     baca.pitch("C#5"),
 )
 
-# percussion
-
-# triangle
-
-commands(
-    "perc1",
-    baca.make_repeat_tied_notes(),
-)
+# perc1 triangle
 
 commands(
     "perc1",
@@ -98,12 +117,7 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
 
-# cymbal
-
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+# perc2 (cymbal)
 
 commands(
     "perc2",
@@ -117,11 +131,6 @@ commands(
 )
 
 # strings
-
-commands(
-    "1vn2",
-    library.make_glissando_rhythm(),
-)
 
 commands(
     "1vn2",
@@ -155,7 +164,7 @@ commands(
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)
-library.make_trill_rhythm(commands)
+
 
 commands(
     ("1vn1", 1),
@@ -192,11 +201,6 @@ commands(
 )
 
 # contrabasses
-
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     "cb3",

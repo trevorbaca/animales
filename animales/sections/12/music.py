@@ -86,30 +86,11 @@ commands(
     ),
 )
 
-# clarinets
+# RHYTHM
 
 commands(
     ("cl1", (1, 4)),
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("cl1", (1, 4)),
-    baca.reapply_persistent_indicators(),
-    library.margin_markup("Cl. 1"),
-    library.parts("Clarinet", 1),
-    baca.hairpin("mp < mf"),
-    baca.pitch("C5"),
-)
-
-commands(
-    ("Global_Rests", (5, -1)),
-    library.parts("Clarinet", 1),
-)
-
-commands(
-    ("Global_Rests", (1, 4)),
-    library.parts("Clarinet", 2),
 )
 
 commands(
@@ -118,33 +99,8 @@ commands(
 )
 
 commands(
-    ("cl1", (5, 8)),
-    library.margin_markup("Cl. 2"),
-    library.parts("Clarinet", 2),
-    baca.hairpin("mp < mf"),
-    baca.pitch("Cb5"),
-)
-
-# brass
-
-library.assign_brass_sforzando_parts(commands, omit_tuba=True)
-
-# horns
-
-commands(
     ("hn1", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("hn1", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.force_accidental()),
-    baca.not_parts(baca.note_column_shift(1.7)),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
 )
 
 commands(
@@ -153,25 +109,8 @@ commands(
 )
 
 commands(
-    ("hn3", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
-    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
-)
-
-commands(
     ("hn2", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("hn2", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
 )
 
 commands(
@@ -180,27 +119,8 @@ commands(
 )
 
 commands(
-    ("hn4", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
-    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
-)
-
-# trumpets
-
-commands(
     ("tp1", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp1", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
 )
 
 commands(
@@ -209,25 +129,8 @@ commands(
 )
 
 commands(
-    ("tp3", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
-    baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
-)
-
-commands(
     ("tp2", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp2", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
 )
 
 commands(
@@ -236,29 +139,8 @@ commands(
 )
 
 commands(
-    ("tp4", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.force_accidental()),
-    baca.not_parts(baca.note_column_shift(1.0)),
-    baca.not_parts(baca.voice_two()),
-    baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
-)
-
-# trombones
-
-commands(
     ("tbn1", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn1", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
 )
 
 commands(
@@ -267,40 +149,13 @@ commands(
 )
 
 commands(
-    ("tbn3", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-)
-
-commands(
     ("tbn2", 1),
     library.make_downbeat_attack(),
 )
 
 commands(
-    ("tbn2", 1),
-    baca.reapply_persistent_indicators(),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
-    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
-)
-
-commands(
     ("tbn4", 1),
     library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn4", 1),
-    baca.reapply_persistent_indicators(),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.force_accidental()),
-    baca.not_parts(baca.note_column_shift(1.0)),
-    baca.not_parts(baca.voice_two()),
-    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
 )
 
 brass_voices = [
@@ -323,12 +178,208 @@ commands(
     baca.make_mmrests(),
 )
 
-# harp
-
 commands(
     "hp1",
     library.make_harp_exchange_rhythm(2),
 )
+
+commands(
+    "pf1",
+    library.make_harp_exchange_rhythm(3),
+)
+
+commands(
+    "perc2",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc3",
+    library.make_harp_exchange_rhythm(0),
+)
+
+commands(
+    "1vn1",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn1",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va1",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "vc1",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb3",
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb1",
+    library.make_harp_exchange_rhythm(1),
+)
+
+# phantom
+
+# after
+
+# clarinets
+
+commands(
+    ("cl1", (1, 4)),
+    baca.reapply_persistent_indicators(),
+    library.margin_markup("Cl. 1"),
+    library.parts("Clarinet", 1),
+    baca.hairpin("mp < mf"),
+    baca.pitch("C5"),
+)
+
+commands(
+    ("Global_Rests", (5, -1)),
+    library.parts("Clarinet", 1),
+)
+
+commands(
+    ("Global_Rests", (1, 4)),
+    library.parts("Clarinet", 2),
+)
+
+commands(
+    ("cl1", (5, 8)),
+    library.margin_markup("Cl. 2"),
+    library.parts("Clarinet", 2),
+    baca.hairpin("mp < mf"),
+    baca.pitch("Cb5"),
+)
+
+# brass
+
+library.assign_brass_sforzando_parts(commands, omit_tuba=True)
+
+# horns
+
+commands(
+    ("hn1", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.force_accidental()),
+    baca.not_parts(baca.note_column_shift(1.7)),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("hn3", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("hn2", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("hn4", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
+)
+
+# trumpets
+
+commands(
+    ("tp1", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("tp3", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("tp2", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("tp4", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.not_parts(baca.force_accidental()),
+    baca.not_parts(baca.note_column_shift(1.0)),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
+)
+
+# trombones
+
+commands(
+    ("tbn1", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("tbn3", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+)
+
+commands(
+    ("tbn2", 1),
+    baca.reapply_persistent_indicators(),
+    baca.not_parts(baca.dynamic_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.dynamic("sfz")),
+    baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
+)
+
+commands(
+    ("tbn4", 1),
+    baca.reapply_persistent_indicators(),
+    baca.dynamic("sfz"),
+    baca.not_parts(baca.force_accidental()),
+    baca.not_parts(baca.note_column_shift(1.0)),
+    baca.not_parts(baca.voice_two()),
+    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+)
+
+# harp
 
 commands(
     "hp1",
@@ -343,11 +394,6 @@ commands(
 
 commands(
     "pf1",
-    library.make_harp_exchange_rhythm(3),
-)
-
-commands(
-    "pf1",
     baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -359,20 +405,10 @@ commands(
 
 commands(
     "perc2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-commands(
-    "perc3",
-    library.make_harp_exchange_rhythm(0),
 )
 
 commands(
@@ -387,19 +423,9 @@ commands(
 
 commands(
     "1vn1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "1vn1",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin"),
     baca.pitch("Ab6"),
-)
-
-commands(
-    "2vn1",
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -411,19 +437,9 @@ commands(
 
 commands(
     "va1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "va1",
     baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     baca.pitch("Ab4"),
-)
-
-commands(
-    "vc1",
-    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -447,11 +463,6 @@ commands(
 
 commands(
     "cb3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "cb3",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.dynamic("p"),
@@ -459,11 +470,6 @@ commands(
 )
 
 # contrabass solo
-
-commands(
-    "cb1",
-    library.make_harp_exchange_rhythm(1),
-)
 
 commands(
     "cb1",

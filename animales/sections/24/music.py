@@ -102,9 +102,8 @@ commands(
     ),
 )
 
-# brass
+# RHYTHM
 
-library.assign_brass_sforzando_parts(commands)
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
 brass_voices = [
@@ -128,9 +127,13 @@ commands(
     baca.make_mmrests(),
 )
 
-# strings
-
 library.battuti(commands, [[1, -55], [1, -17], [1, -17]])
+
+# phantom
+
+# after
+
+library.assign_brass_sforzando_parts(commands)
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_segment(

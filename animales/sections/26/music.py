@@ -105,9 +105,8 @@ commands(
     ),
 )
 
-# brass
+# RHYTHM
 
-library.assign_brass_sforzando_parts(commands)
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
 brass_voices = [
@@ -131,10 +130,6 @@ commands(
     baca.make_mmrests(),
 )
 
-# percussion
-
-# cymbal
-
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
@@ -142,6 +137,43 @@ commands(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
+
+commands(
+    "perc3",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+commands(
+    "perc4",
+    baca.make_repeat_tied_notes(),
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+)
+
+library.battuti(
+    commands,
+    [[1, -55], [1, -17], [1, -17]],
+    omit_contrabasses=True,
+)
+
+commands(
+    "cb3",
+    baca.make_repeat_tied_notes(),
+)
+
+# phantom
+
+# after
+
+library.assign_brass_sforzando_parts(commands)
+
+# percussion
+
+# cymbal
 
 commands(
     "perc2",
@@ -155,14 +187,6 @@ commands(
 
 commands(
     "perc3",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc3",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -173,14 +197,6 @@ commands(
 
 commands(
     "perc4",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    "perc4",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -188,17 +204,6 @@ commands(
 )
 
 # strings
-
-library.battuti(
-    commands,
-    [[1, -55], [1, -17], [1, -17]],
-    omit_contrabasses=True,
-)
-
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-)
 
 commands(
     "cb3",
