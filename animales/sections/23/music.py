@@ -173,6 +173,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         append_phantom_measures_by_hand=True,
+        # do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,
