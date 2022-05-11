@@ -83,6 +83,10 @@ commands(
 commands(
     ("cl1", (1, 4)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl1", (1, 4)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
@@ -103,10 +107,14 @@ commands(
 
 commands(
     ("cl1", (5, 8)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl1", (5, 8)),
     library.margin_markup("Cl. 2"),
     library.parts("Clarinet", 2),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.edition("solo (cl. 2)", "solo"),
     baca.pitch("Db5"),
 )
@@ -116,6 +124,10 @@ commands(
 commands(
     "hp1",
     library.make_harp_exchange_rhythm(2, silence_first=True),
+)
+
+commands(
+    "hp1",
     baca.attach_first_appearance_default_indicators(),
     library.parts("Harp"),
     baca.dynamic("mf"),
@@ -133,6 +145,10 @@ commands(
 commands(
     "pf1",
     library.make_harp_exchange_rhythm(3, silence_first=True),
+)
+
+commands(
+    "pf1",
     baca.attach_first_appearance_default_indicators(),
     library.parts("Piano"),
     baca.dynamic("mf"),
@@ -149,6 +165,10 @@ commands(
 commands(
     "perc1",
     baca.make_mmrests(),
+)
+
+commands(
+    "perc1",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.dynamic(
@@ -165,6 +185,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
@@ -175,10 +199,14 @@ commands(
 
 commands(
     "perc3",
+    library.make_harp_exchange_rhythm(0),
+)
+
+commands(
+    "perc3",
     library.instrument("Vibraphone"),
     library.margin_markup("Perc. 3 (vib.)"),
     library.parts("Percussion", 3),
-    library.make_harp_exchange_rhythm(0),
     baca.clef("treble"),
     baca.dynamic("mp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -192,6 +220,10 @@ commands(
 commands(
     "1vn1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn1",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin"),
     baca.not_parts(
@@ -203,6 +235,10 @@ commands(
 commands(
     "2vn1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn1",
     baca.reapply_persistent_indicators(),
     library.parts("Second.Violin"),
     baca.pitch("Bb5"),
@@ -211,6 +247,10 @@ commands(
 commands(
     "va1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va1",
     baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     baca.pitch("Bb4"),
@@ -219,6 +259,10 @@ commands(
 commands(
     "vc1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "vc1",
     baca.reapply_persistent_indicators(),
     library.parts("Cello"),
     baca.pitch("Bb2"),
@@ -227,6 +271,9 @@ commands(
 commands(
     "cb3",
     baca.make_repeat_tied_notes(),
+)
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     library.margin_markup(
         "Cb. (2-6)",
@@ -296,6 +343,10 @@ commands(
             lambda _: baca.select.tuplet(_, 1),
         ),
     ),
+)
+
+commands(
+    "cb1",
     baca.attach_first_appearance_default_indicators(),
     library.parts("Contrabass", 1),
     library.margin_markup("Cb. 1"),

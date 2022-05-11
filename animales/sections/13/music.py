@@ -85,6 +85,10 @@ commands(
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cl1",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
@@ -97,6 +101,10 @@ commands(
 commands(
     ("bcl1", (1, 4)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("bcl1", (1, 4)),
     baca.reapply_persistent_indicators(),
 )
 
@@ -107,8 +115,12 @@ commands(
 
 commands(
     ("bcl1", (5, 6)),
-    baca.hairpin("o<", right_broken=True),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("bcl1", (5, 6)),
+    baca.hairpin("o<", right_broken=True),
     baca.pitch("Ab2"),
 )
 
@@ -117,6 +129,10 @@ commands(
 commands(
     "hp1",
     library.make_harp_exchange_rhythm(2),
+)
+
+commands(
+    "hp1",
     baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -129,6 +145,10 @@ commands(
 commands(
     "pf1",
     library.make_harp_exchange_rhythm(3),
+)
+
+commands(
+    "pf1",
     baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -141,6 +161,10 @@ commands(
 commands(
     "perc1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc1",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.hairpin(
@@ -156,6 +180,10 @@ commands(
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.repeat_tie(
@@ -170,6 +198,10 @@ commands(
 commands(
     "perc3",
     library.make_harp_exchange_rhythm(0),
+)
+
+commands(
+    "perc3",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -181,6 +213,10 @@ commands(
 commands(
     "1vn1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "1vn1",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin"),
     baca.articulation("trill"),
@@ -197,6 +233,10 @@ commands(
 commands(
     "2vn1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "2vn1",
     baca.reapply_persistent_indicators(),
     library.parts("Second.Violin"),
     baca.articulation("trill"),
@@ -213,6 +253,10 @@ commands(
 commands(
     "va1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "va1",
     baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     baca.articulation("trill"),
@@ -229,6 +273,10 @@ commands(
 commands(
     "vc1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "vc1",
     baca.reapply_persistent_indicators(),
     library.parts("Cello"),
     baca.articulation("trill"),
@@ -245,6 +293,10 @@ commands(
 commands(
     "cb3",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", (2, 6)),
     baca.articulation("trill"),
@@ -262,6 +314,10 @@ commands(
 commands(
     "cb1",
     library.make_harp_exchange_rhythm(1),
+)
+
+commands(
+    "cb1",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

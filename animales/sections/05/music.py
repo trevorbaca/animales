@@ -66,6 +66,10 @@ commands(
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cl1",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 2"),
     library.parts("Clarinet", 2),
@@ -81,6 +85,10 @@ commands(
 commands(
     "perc1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc1",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.staff_position(0),
@@ -95,6 +103,10 @@ commands(
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
@@ -109,6 +121,10 @@ commands(
 commands(
     "1vn2",
     library.make_glissando_rhythm(),
+)
+
+commands(
+    "1vn2",
     library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
@@ -180,6 +196,10 @@ commands(
 commands(
     "cb3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass"),
     baca.hairpin(

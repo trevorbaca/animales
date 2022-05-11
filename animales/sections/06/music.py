@@ -77,6 +77,10 @@ commands(
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cl1",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 3"),
     library.parts("Clarinet", 3),
@@ -93,6 +97,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc1",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.hairpin("p >o", right_broken=True),
@@ -106,6 +114,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
@@ -117,6 +129,10 @@ commands(
 commands(
     "1vn1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "1vn1",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I"),
     library.parts("First.Violin"),
@@ -126,6 +142,10 @@ commands(
 commands(
     "2vn1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "2vn1",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II"),
     library.parts("Second.Violin"),
@@ -134,6 +154,10 @@ commands(
 commands(
     "va1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "va1",
     baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     library.margin_markup("Vle."),
@@ -142,6 +166,10 @@ commands(
 commands(
     "vc1",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "vc1",
     baca.reapply_persistent_indicators(),
     library.parts("Cello"),
 )
@@ -149,6 +177,10 @@ commands(
 commands(
     "cb3",
     baca.make_repeated_duration_notes([(1, 4)]),
+)
+
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     library.parts("Contrabass"),
 )
@@ -177,6 +209,10 @@ absent_left_broken = [
 commands(
     absent_left_broken,
     baca.make_mmrests(),
+)
+
+commands(
+    absent_left_broken,
     baca.reapply_persistent_indicators(),
 )
 

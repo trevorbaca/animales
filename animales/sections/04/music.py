@@ -56,7 +56,6 @@ score = library.make_empty_score(
 )
 voice_names = baca.accumulator.get_voice_names(score)
 
-
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
     instruments=library.instruments,
@@ -76,7 +75,7 @@ commands(
     ),
 )
 
-# clarinet
+# CL
 
 commands(
     ("cl1", (1, 2)),
@@ -88,25 +87,7 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-commands(
-    ("cl1", (1, 2)),
-    baca.attach_first_appearance_default_indicators(),
-)
-
-commands(
-    ("cl1", (3, 6)),
-    baca.edition("solo (cl. 3)", "solo"),
-    baca.hairpin("mp < mf"),
-    baca.pitch("C5"),
-)
-
-commands(
-    "cl1",
-    library.margin_markup("Cl. 3"),
-    library.parts("Clarinet", 3),
-)
-
-# percussion
+# PERC
 
 commands(
     ("perc1", (1, 2)),
@@ -114,18 +95,8 @@ commands(
 )
 
 commands(
-    ("perc1", (1, 2)),
-    baca.reapply_persistent_indicators(),
-)
-
-commands(
     ("perc2", (1, 2)),
     baca.make_mmrests(),
-)
-
-commands(
-    ("perc2", (1, 2)),
-    baca.reapply_persistent_indicators(),
 )
 
 commands(
@@ -138,39 +109,7 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-commands(
-    [
-        ("perc1", (3, 6)),
-        ("perc2", (3, 6)),
-    ],
-    baca.dynamic("p"),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-commands(
-    ("perc1", (3, 6)),
-    baca.markup(r"\animales-triangle-small-beater-markup"),
-)
-
-commands(
-    ("perc2", (3, 6)),
-    baca.markup(r"\animales-suspended-cymbal-markup"),
-)
-
-commands(
-    "perc1",
-    library.margin_markup("Perc. 1 (tri.)"),
-    library.parts("Percussion", 1),
-)
-
-commands(
-    "perc2",
-    library.margin_markup("Perc. 2 (cym.)"),
-    library.parts("Percussion", 2),
-)
-
-# brass
+# BRASS
 
 brass_voices = [
     "hn1",
@@ -214,6 +153,111 @@ for voice_name in [
         baca.attach_first_appearance_default_indicators(),
     )
 
+# STRINGS
+
+commands(
+    ("1vn2", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("1vn2", (3, 6)),
+    library.make_glissando_rhythm(),
+)
+
+library.make_trill_rhythm(commands, measures=(1, 2))
+
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+
+commands(
+    (strings, (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cb3", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("cb3", (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+# phantom
+
+tutti = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    tutti,
+    baca.append_phantom_measure(),
+)
+
+# reapply
+
+reapply_voices = ["perc1", "perc2"] + strings
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
+# cl
+
+commands(
+    ("cl1", (1, 2)),
+    baca.attach_first_appearance_default_indicators(),
+)
+
+commands(
+    ("cl1", (3, 6)),
+    baca.edition("solo (cl. 3)", "solo"),
+    baca.hairpin("mp < mf"),
+    baca.pitch("C5"),
+)
+
+commands(
+    "cl1",
+    library.margin_markup("Cl. 3"),
+    library.parts("Clarinet", 3),
+)
+
+# perc
+
+commands(
+    [
+        ("perc1", (3, 6)),
+        ("perc2", (3, 6)),
+    ],
+    baca.dynamic("p"),
+    baca.staff_position(0),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+)
+
+commands(
+    ("perc1", (3, 6)),
+    baca.markup(r"\animales-triangle-small-beater-markup"),
+)
+
+commands(
+    ("perc2", (3, 6)),
+    baca.markup(r"\animales-suspended-cymbal-markup"),
+)
+
+commands(
+    "perc1",
+    library.margin_markup("Perc. 1 (tri.)"),
+    library.parts("Percussion", 1),
+)
+
+commands(
+    "perc2",
+    library.margin_markup("Perc. 2 (cym.)"),
+    library.parts("Percussion", 2),
+)
+
+# brass
+
 library.assign_brass_sforzando_parts(commands)
 
 commands(
@@ -248,17 +292,6 @@ commands(
 
 # strings
 
-
-commands(
-    ("1vn2", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("1vn2", (3, 6)),
-    library.make_glissando_rhythm(),
-)
-
 commands(
     ("1vn2", (3, 6)),
     library.parts("First.Violin", 1),
@@ -292,21 +325,10 @@ commands(
     ),
 )
 
-library.make_trill_rhythm(commands, measures=(1, 2))
-
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 commands(
     (strings, (1, 2)),
-    baca.reapply_persistent_indicators(),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),
@@ -344,7 +366,6 @@ commands(
 commands(
     (strings, (3, 6)),
     baca.dynamic("p-sub"),
-    baca.make_repeat_tied_notes(),
     baca.only_parts(
         baca.markup(r"\animales-still-non-vibrato-markup"),
     ),
@@ -403,14 +424,12 @@ commands(
 
 commands(
     ("cb3", (1, 2)),
-    baca.make_mmrests(),
     baca.attach_first_appearance_default_indicators(),
 )
 
 commands(
     ("cb3", (3, 6)),
     baca.hairpin("p <", right_broken=True),
-    baca.make_repeat_tied_notes(),
     baca.pitch("C2"),
 )
 
@@ -426,6 +445,8 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
+        do_not_sort_commands=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,

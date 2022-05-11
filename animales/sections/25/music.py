@@ -140,6 +140,10 @@ commands(
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -151,6 +155,10 @@ commands(
 commands(
     "perc3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc3",
     baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 3 (BD)"),
     baca.clef("percussion"),
@@ -168,6 +176,10 @@ commands(
 commands(
     "perc4",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "perc4",
     baca.reapply_persistent_indicators(),
     baca.dynamic("p"),
     library.margin_markup("Perc. 4 (tam.)"),
