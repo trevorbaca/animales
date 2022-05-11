@@ -149,14 +149,30 @@ commands(
 
 library.battuti(commands, [[1, -117, -117], [1, -118]])
 
+## phantom
+#
+## reapply
+#
+# reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+#
+# commands(
+#    reapply_voices,
+#    baca.reapply_persistent_indicators(),
+# )
+
 # phantom
+
+all_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    all_voices,
+    baca.append_phantom_measure(),
+)
 
 # reapply
 
-reapply_voices = [_ for _ in voice_names if ".Voice" in _]
-
 commands(
-    reapply_voices,
+    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
@@ -209,6 +225,7 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,
         transpose_score=True,

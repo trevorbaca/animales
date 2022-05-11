@@ -69,8 +69,6 @@ commands(
     ),
 )
 
-# phantom
-
 commands(
     ("cl1", (1, 6)),
     baca.make_repeat_tied_notes(),
@@ -142,12 +140,17 @@ commands(
 
 # phantom
 
-# reapply
-
-reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+all_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    reapply_voices,
+    all_voices,
+    baca.append_phantom_measure(),
+)
+
+# reapply
+
+commands(
+    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
@@ -306,6 +309,7 @@ if __name__ == "__main__":
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        append_phantom_measures_by_hand=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
         error_on_not_yet_pitched=True,
         intercalate_mmrests_by_hand=True,

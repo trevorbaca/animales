@@ -99,16 +99,6 @@ commands(
 
 # reapply
 
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
-
 commands(
     all_voices,
     baca.reapply_persistent_indicators(),
@@ -194,6 +184,16 @@ commands(
     ("vc1", 1),
     baca.clef("bass"),
 )
+
+strings = [
+    "1vn1",
+    "1vn3",
+    "2vn1",
+    "2vn3",
+    "va1",
+    "va3",
+    "vc1",
+]
 
 commands(
     strings,
