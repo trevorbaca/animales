@@ -167,6 +167,15 @@ commands(
 
 # phantom
 
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
 # after
 
 library.assign_brass_sforzando_parts(commands)
@@ -177,7 +186,6 @@ library.assign_brass_sforzando_parts(commands)
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 2),
@@ -187,7 +195,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 3),
@@ -197,7 +204,6 @@ commands(
 
 commands(
     "perc4",
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     library.parts("Percussion", 4),
@@ -207,7 +213,6 @@ commands(
 
 commands(
     "cb3",
-    baca.reapply_persistent_indicators(),
     baca.clef("bass"),
     baca.hairpin("p <", right_broken=True),
     baca.markup(r"\baca-arco-markup"),

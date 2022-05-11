@@ -92,11 +92,29 @@ commands(
 
 # reapply
 
+strings = [
+    "1vn1",
+    "1vn3",
+    "2vn1",
+    "2vn3",
+    "va1",
+    "va3",
+    "vc1",
+]
+
+reapply_voices = ["cl1", "perc1", "perc2"] + strings + ["cb3"]
+
+# reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
 # cl1
 
 commands(
     "cl1",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 2"),
     library.parts("Clarinet", 2),
     baca.hairpin("mp < mf"),
@@ -108,7 +126,6 @@ commands(
 
 commands(
     "perc1",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -121,7 +138,6 @@ commands(
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.repeat_tie(
@@ -176,19 +192,8 @@ commands(
     baca.clef("bass"),
 )
 
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
-
 commands(
     strings,
-    baca.reapply_persistent_indicators(),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),
@@ -204,7 +209,6 @@ commands(
 
 commands(
     "cb3",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass"),
     baca.hairpin(
         "< ff",

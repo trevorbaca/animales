@@ -133,11 +133,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
+# cl1
 
 commands(
     "cl1",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Cl. 3"),
     library.parts("Clarinet", 3),
     baca.hairpin("mp < mf"),
@@ -147,9 +155,9 @@ commands(
 
 # percussion
 
+
 commands(
     "perc1",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 1),
     baca.hairpin("p >o", right_broken=True),
     baca.staff_position(0),
@@ -158,7 +166,6 @@ commands(
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -168,7 +175,6 @@ commands(
 
 commands(
     "1vn1",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I"),
     library.parts("First.Violin"),
     baca.not_parts(baca.one_voice()),
@@ -176,27 +182,23 @@ commands(
 
 commands(
     "2vn1",
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II"),
     library.parts("Second.Violin"),
 )
 
 commands(
     "va1",
-    baca.reapply_persistent_indicators(),
     library.parts("Viola"),
     library.margin_markup("Vle."),
 )
 
 commands(
     "vc1",
-    baca.reapply_persistent_indicators(),
     library.parts("Cello"),
 )
 
 commands(
     "cb3",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass"),
 )
 
@@ -213,11 +215,6 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-)
-
-commands(
-    absent_left_broken,
-    baca.reapply_persistent_indicators(),
 )
 
 commands(

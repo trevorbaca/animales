@@ -212,7 +212,14 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # flutes
 
@@ -301,7 +308,6 @@ commands(
 
 commands(
     ("cl1", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin("< ff", left_broken=True),
     baca.pitch("Eb5"),
 )
@@ -323,7 +329,6 @@ commands(
 
 commands(
     "bcl1",
-    baca.reapply_persistent_indicators(),
     library.parts("Bass.Clarinet"),
     baca.dynamic("p"),
     baca.pitch("Ab2"),
@@ -336,7 +341,6 @@ commands(
 
 commands(
     "hp1",
-    baca.reapply_persistent_indicators(),
     library.parts("Harp"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -364,7 +368,6 @@ commands(
 
 commands(
     "pf1",
-    baca.reapply_persistent_indicators(),
     library.parts("Piano"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -379,7 +382,6 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
@@ -393,7 +395,6 @@ commands(
 
 commands(
     ("perc2", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
@@ -407,7 +408,6 @@ commands(
 
 commands(
     "perc3",
-    baca.reapply_persistent_indicators(),
     library.parts("Percussion", 3),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
 )
@@ -416,7 +416,6 @@ commands(
 
 commands(
     ("1vn3", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "p < ff",
         selector=library.leaves_in_measure(1, rleak=True),
@@ -458,7 +457,6 @@ commands(
         ("va1", (1, 3)),
         ("vc1", (1, 3)),
     ],
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -516,7 +514,6 @@ commands(
 
 commands(
     ("cb3", (1, 3)),
-    baca.reapply_persistent_indicators(),
     baca.hairpin(
         "< ff",
         left_broken=True,
@@ -534,7 +531,6 @@ commands(
 
 commands(
     "cb1",
-    baca.reapply_persistent_indicators(),
     library.parts("Contrabass", 1),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-as-bell-like-as-possible-markup"),

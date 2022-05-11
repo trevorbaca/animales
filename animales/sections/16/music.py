@@ -218,7 +218,14 @@ for voice_name in voice_to_members:
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # oboes
 
@@ -359,7 +366,6 @@ for voice, members in voice_to_members.items():
 
 commands(
     ("1vn1", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I (1-4) (5-8)"),
     baca.not_parts(
         baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
@@ -374,7 +380,6 @@ commands(
 
 commands(
     ("1vn2", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("F5"),
     lower_voice_suite(8),
     tremolo_suite(),
@@ -382,7 +387,6 @@ commands(
 
 commands(
     ("1vn3", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. I (9-12) (13-17)"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
@@ -394,7 +398,6 @@ commands(
 
 commands(
     ("1vn4", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("D5"),
     lower_voice_suite(8),
     tremolo_suite(),
@@ -404,7 +407,6 @@ commands(
 
 commands(
     ("2vn1", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II (1-4) (5-8)"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -416,7 +418,6 @@ commands(
 
 commands(
     ("2vn2", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("G4"),
     lower_voice_suite(),
     tremolo_suite(),
@@ -424,7 +425,6 @@ commands(
 
 commands(
     ("2vn3", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vni. II (9-12) (13-18)"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -436,7 +436,6 @@ commands(
 
 commands(
     ("2vn4", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("F4"),
     lower_voice_suite(),
     tremolo_suite(),
@@ -446,7 +445,6 @@ commands(
 
 commands(
     ("va1", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vle. (1-4) (5-8)"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -458,7 +456,6 @@ commands(
 
 commands(
     ("va2", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("A3"),
     lower_voice_suite(),
     tremolo_suite(),
@@ -466,7 +463,6 @@ commands(
 
 commands(
     ("va3", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vle. (9-12) (13-18)"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -478,7 +474,6 @@ commands(
 
 commands(
     ("va4", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("G3"),
     lower_voice_suite(),
     tremolo_suite(),
@@ -488,7 +483,6 @@ commands(
 
 commands(
     ("vc1", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Vc. (1-8) (9-14)"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
@@ -500,7 +494,6 @@ commands(
 
 commands(
     ("vc2", (1, 10)),
-    baca.reapply_persistent_indicators(),
     baca.pitch("G2"),
     lower_voice_suite(),
     tremolo_suite(),
@@ -510,7 +503,6 @@ commands(
 
 commands(
     ("cb3", (1, 10)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Cb."),
     baca.not_parts(
         baca.markup(r"\animales-cb-tutti-markup"),

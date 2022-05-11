@@ -81,13 +81,19 @@ commands(
 
 # phantom
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
 
 # piano
 
 commands(
     ("pf1", (1, 9)),
-    baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
@@ -109,7 +115,6 @@ commands(
 
 commands(
     ("perc4", (1, 8)),
-    baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
     baca.markup(r"\animales-stonecircle-markup"),

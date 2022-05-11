@@ -64,12 +64,16 @@ commands(
     baca.append_phantom_measure(),
 )
 
-# after
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    strings,
+    reapply_voices,
     baca.reapply_persistent_indicators(),
 )
+
+# after
 
 library.assign_trill_parts(commands)
 

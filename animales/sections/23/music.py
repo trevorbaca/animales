@@ -133,19 +133,27 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-library.assign_brass_sforzando_parts(commands)
-
 library.battuti(commands, [[1, -17], [1, -17], [1, -17]])
 
 # phantom
 
+# reapply
+
+reapply_voices = [_ for _ in voice_names if ".Voice" in _]
+
+commands(
+    reapply_voices,
+    baca.reapply_persistent_indicators(),
+)
+
 # after
+
+library.assign_brass_sforzando_parts(commands)
 
 # cymbal
 
 commands(
     "perc2",
-    baca.reapply_persistent_indicators(),
     baca.dynamic("p"),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
