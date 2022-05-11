@@ -492,6 +492,7 @@ def battuti(
     maker,
     counts,
     *,
+    append_fermata_measure=False,
     first=False,
     omit_contrabasses=False,
     range_=(1, -1),
@@ -513,10 +514,16 @@ def battuti(
     }
 
     def upper_voice():
-        return baca.suite(baca.not_parts(baca.voice_one()), baca.staff_position(1))
+        return baca.suite(
+            baca.not_parts(baca.voice_one()),
+            baca.staff_position(1),
+        )
 
     def lower_voice():
-        return baca.suite(baca.not_parts(baca.voice_two()), baca.staff_position(-1))
+        return baca.suite(
+            baca.not_parts(baca.voice_two()),
+            baca.staff_position(-1),
+        )
 
     duration = sum([_.duration for _ in maker.time_signatures])
     assert isinstance(duration, abjad.Duration), repr(duration)
@@ -527,11 +534,17 @@ def battuti(
         for member in range(1, members + 1):
             commands = []
             voice = f"{section}.Voice.{member}"
-            maker(voice, parts(section, member))
+            maker(
+                voice,
+                parts(section, member),
+            )
             rhythm = make_clb_rhythm(section, member, counts, wrap)
             commands.append(rhythm)
             commands.append(baca.reapply_persistent_indicators())
-            maker(voice, baca.attach_first_appearance_default_indicators())
+            maker(
+                voice,
+                baca.attach_first_appearance_default_indicators(),
+            )
             if member % 2 == 0:
                 polyphony = lower_voice()
             else:
@@ -554,7 +567,17 @@ def battuti(
                 margin_markup_ = margin_markup(key)
                 commands.append(margin_markup_)
             commands.append(polyphony)
-            maker((voice, range_), *commands)
+            maker(
+                (voice, range_),
+                *commands,
+            )
+            if append_fermata_measure is True:
+                stop_measure = range_[1]
+                fermata_measure = stop_measure + 1
+                maker(
+                    (voice, fermata_measure),
+                    baca.make_mmrests(),
+                )
 
 
 def glissando_positions(*, reverse=False, rotate=0, transpose=0):

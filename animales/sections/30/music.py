@@ -62,6 +62,15 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 commands(
     ("pf1", (1, 9)),
     baca.make_notes(),
+)
+
+commands(
+    ("pf1", 10),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("pf1", (1, 9)),
     baca.reapply_persistent_indicators(),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -85,6 +94,15 @@ commands(
 commands(
     ("perc4", (1, 8)),
     baca.make_tied_repeated_durations([(1, 4)]),
+)
+
+commands(
+    ("perc4", (9, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc4", (1, 8)),
     baca.reapply_persistent_indicators(),
     library.margin_markup("Perc. 4 (slate)"),
     baca.dynamic('"mf"'),
@@ -106,7 +124,7 @@ for voice in (
     )
 
 commands(
-    ("perc4", -1),
+    ("perc4", 10),
     baca.chunk(
         baca.mark(r"\animales-colophon-markup"),
         baca.rehearsal_mark_down(),
@@ -125,6 +143,7 @@ if __name__ == "__main__":
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         final_segment=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

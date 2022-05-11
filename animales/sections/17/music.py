@@ -93,6 +93,15 @@ def swell(peak):
 commands(
     ("ob1", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("ob1", (6, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("ob1", (1, 5)),
     baca.reapply_persistent_indicators(),
     baca.pitch("A4"),
 )
@@ -112,6 +121,15 @@ commands(
 commands(
     ("eh1", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("eh1", (6, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("eh1", (1, 5)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G3"),
 )
@@ -131,6 +149,10 @@ commands(
 commands(
     ("bsn1", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("bsn1", (1, 5)),
     baca.reapply_persistent_indicators(),
     baca.pitch("B3"),
 )
@@ -149,6 +171,15 @@ commands(
 commands(
     ("bsn2", (1, 5)),
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    (["bsn1", "bsn2"], (6, 10)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("bsn2", (1, 5)),
     baca.reapply_persistent_indicators(),
     baca.pitch("G2"),
 )
@@ -189,6 +220,10 @@ def crescendi():
 commands(
     "hn1",
     library.make_brass_manifest_rhythm(1),
+)
+
+commands(
+    "hn1",
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -200,6 +235,10 @@ commands(
 commands(
     "hn3",
     library.make_brass_manifest_rhythm(3),
+)
+
+commands(
+    "hn3",
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 3),
     baca.not_parts(baca.voice_two()),
@@ -210,6 +249,10 @@ commands(
 commands(
     "hn2",
     library.make_brass_manifest_rhythm(2),
+)
+
+commands(
+    "hn2",
     baca.reapply_persistent_indicators(),
     library.parts("Horn", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -221,6 +264,10 @@ commands(
 commands(
     "hn4",
     library.make_brass_manifest_rhythm(4),
+)
+
+commands(
+    "hn4",
     baca.reapply_persistent_indicators(),
     baca.not_parts(baca.voice_two()),
     library.parts("Horn", 4),
@@ -233,6 +280,10 @@ commands(
 commands(
     "tp1",
     library.make_brass_manifest_rhythm(5),
+)
+
+commands(
+    "tp1",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -244,6 +295,10 @@ commands(
 commands(
     "tp3",
     library.make_brass_manifest_rhythm(7),
+)
+
+commands(
+    "tp3",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 3),
     baca.not_parts(baca.voice_two()),
@@ -254,6 +309,10 @@ commands(
 commands(
     "tp2",
     library.make_brass_manifest_rhythm(6),
+)
+
+commands(
+    "tp2",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -265,6 +324,10 @@ commands(
 commands(
     "tp4",
     library.make_brass_manifest_rhythm(8),
+)
+
+commands(
+    "tp4",
     baca.reapply_persistent_indicators(),
     library.parts("Trumpet", 4),
     baca.not_parts(baca.voice_two()),
@@ -277,6 +340,10 @@ commands(
 commands(
     "tbn1",
     library.make_brass_manifest_rhythm(9),
+)
+
+commands(
+    "tbn1",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 1),
     baca.not_parts(baca.dynamic_up()),
@@ -288,6 +355,10 @@ commands(
 commands(
     "tbn3",
     library.make_brass_manifest_rhythm(11),
+)
+
+commands(
+    "tbn3",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 3),
     baca.not_parts(baca.voice_two()),
@@ -298,6 +369,10 @@ commands(
 commands(
     "tbn2",
     library.make_brass_manifest_rhythm(10),
+)
+
+commands(
+    "tbn2",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 2),
     baca.not_parts(baca.dynamic_up()),
@@ -309,6 +384,10 @@ commands(
 commands(
     "tbn4",
     library.make_brass_manifest_rhythm(12),
+)
+
+commands(
+    "tbn4",
     baca.reapply_persistent_indicators(),
     library.parts("Trombone", 4),
     baca.not_parts(baca.voice_two()),
@@ -363,6 +442,10 @@ def lower_voice_suite(n=5):
 commands(
     "1vn5",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn5",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin", 18),
     baca.pitch("C#4"),
@@ -377,6 +460,10 @@ commands(
 commands(
     "1vn1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn1",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin", (1, 4)),
     baca.not_parts(
@@ -390,6 +477,10 @@ commands(
 commands(
     "1vn2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn2",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin", (5, 8)),
     baca.pitch("F5"),
@@ -400,6 +491,10 @@ commands(
 commands(
     "1vn3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn3",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin", (9, 12)),
     baca.pitch("G5"),
@@ -410,6 +505,10 @@ commands(
 commands(
     "1vn4",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "1vn4",
     baca.reapply_persistent_indicators(),
     library.parts("First.Violin", (13, 17)),
     baca.pitch("D5"),
@@ -422,6 +521,10 @@ commands(
 commands(
     "2vn1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn1",
     baca.reapply_persistent_indicators(),
     baca.pitch("B4"),
     tremolo_suite(),
@@ -432,6 +535,10 @@ commands(
 commands(
     "2vn2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn2",
     baca.reapply_persistent_indicators(),
     baca.pitch("G4"),
     lower_voice_suite(),
@@ -442,6 +549,10 @@ commands(
 commands(
     "2vn3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn3",
     baca.reapply_persistent_indicators(),
     baca.pitch("A4"),
     tremolo_suite(),
@@ -452,6 +563,10 @@ commands(
 commands(
     "2vn4",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "2vn4",
     baca.reapply_persistent_indicators(),
     baca.pitch("F4"),
     lower_voice_suite(),
@@ -464,6 +579,10 @@ commands(
 commands(
     "va1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va1",
     baca.reapply_persistent_indicators(),
     baca.pitch("D4"),
     tremolo_suite(),
@@ -474,6 +593,10 @@ commands(
 commands(
     "va2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va2",
     baca.reapply_persistent_indicators(),
     baca.pitch("A3"),
     lower_voice_suite(),
@@ -484,6 +607,10 @@ commands(
 commands(
     "va3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va3",
     baca.reapply_persistent_indicators(),
     baca.pitch("B3"),
     tremolo_suite(),
@@ -494,6 +621,10 @@ commands(
 commands(
     "va4",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "va4",
     baca.reapply_persistent_indicators(),
     baca.pitch("G3"),
     lower_voice_suite(),
@@ -506,6 +637,10 @@ commands(
 commands(
     "vc1",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "vc1",
     baca.reapply_persistent_indicators(),
     baca.pitch("D3"),
     tremolo_suite(),
@@ -516,6 +651,10 @@ commands(
 commands(
     "vc2",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "vc2",
     baca.reapply_persistent_indicators(),
     baca.pitch("G2"),
     lower_voice_suite(),
@@ -528,6 +667,10 @@ commands(
 commands(
     "cb3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     baca.pitch("G1"),
     tremolo_suite(),
@@ -542,6 +685,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

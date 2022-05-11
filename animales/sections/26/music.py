@@ -110,6 +110,27 @@ commands(
 library.assign_brass_sforzando_parts(commands)
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
+brass_voices = [
+    "hn1",
+    "hn2",
+    "hn3",
+    "hn4",
+    "tp1",
+    "tp2",
+    "tp3",
+    "tp4",
+    "tbn1",
+    "tbn2",
+    "tbn3",
+    "tbn4",
+    "Tuba.Voice.1",
+]
+
+commands(
+    (brass_voices, (2, 3)),
+    baca.make_mmrests(),
+)
+
 # percussion
 
 # cymbal
@@ -120,6 +141,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc2",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -134,6 +159,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc3",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -148,6 +177,10 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+)
+
+commands(
+    "perc4",
     baca.reapply_persistent_indicators(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -165,6 +198,10 @@ library.battuti(
 commands(
     "cb3",
     baca.make_repeat_tied_notes(),
+)
+
+commands(
+    "cb3",
     baca.reapply_persistent_indicators(),
     baca.clef("bass"),
     baca.hairpin("p <", right_broken=True),
@@ -182,6 +219,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(

@@ -81,6 +81,15 @@ commands(
 commands(
     ("cl1", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("cl1", (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("cl1", (1, 2)),
     baca.attach_first_appearance_default_indicators(),
 )
 
@@ -88,7 +97,6 @@ commands(
     ("cl1", (3, 6)),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
-    baca.make_repeat_tied_notes(),
     baca.pitch("C5"),
 )
 
@@ -101,9 +109,33 @@ commands(
 # percussion
 
 commands(
-    (["perc1", "perc2"], (1, 2)),
+    ("perc1", (1, 2)),
     baca.make_mmrests(),
+)
+
+commands(
+    ("perc1", (1, 2)),
     baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc2", (1, 2)),
+    baca.make_mmrests(),
+)
+
+commands(
+    ("perc2", (1, 2)),
+    baca.reapply_persistent_indicators(),
+)
+
+commands(
+    ("perc1", (3, 6)),
+    baca.make_repeat_tied_notes(),
+)
+
+commands(
+    ("perc2", (3, 6)),
+    baca.make_repeat_tied_notes(),
 )
 
 commands(
@@ -112,7 +144,6 @@ commands(
         ("perc2", (3, 6)),
     ],
     baca.dynamic("p"),
-    baca.make_repeat_tied_notes(),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
 )
@@ -141,9 +172,35 @@ commands(
 
 # brass
 
+brass_voices = [
+    "hn1",
+    "hn2",
+    "hn3",
+    "hn4",
+    "tp1",
+    "tp2",
+    "tp3",
+    "tp4",
+    "tbn1",
+    "tbn2",
+    "tbn3",
+    "tbn4",
+    "Tuba.Voice.1",
+]
+
+commands(
+    (brass_voices, (1, 2)),
+    baca.make_mmrests(),
+)
+
 library.make_brass_sforzando_material(commands, 3)
 
-for voice_name in (
+commands(
+    (brass_voices, (4, 6)),
+    baca.make_mmrests(),
+)
+
+for voice_name in [
     "hn1",
     "hn2",
     "tp1",
@@ -151,7 +208,7 @@ for voice_name in (
     "tbn1",
     "tbn2",
     "Tuba.Voice.1",
-):
+]:
     commands(
         voice_name,
         baca.attach_first_appearance_default_indicators(),
@@ -191,9 +248,19 @@ commands(
 
 # strings
 
+
+commands(
+    ("1vn2", (1, 2)),
+    baca.make_mmrests(),
+)
+
 commands(
     ("1vn2", (3, 6)),
     library.make_glissando_rhythm(),
+)
+
+commands(
+    ("1vn2", (3, 6)),
     library.parts("First.Violin", 1),
     baca.hairpin(
         "p < f",
@@ -360,6 +427,7 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        intercalate_mmrests_by_hand=True,
         transpose_score=True,
     )
     lilypond_file = baca.make_lilypond_file(
