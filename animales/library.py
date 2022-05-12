@@ -581,20 +581,32 @@ def make_battuti_material(
                 (voice, range_),
                 rhythm,
             )
-            stack = []
+            if append_fermata_measure is True:
+                stop_measure = range_[1]
+                fermata_measure = stop_measure + 1
+                commands(
+                    (voice, fermata_measure),
+                    baca.make_mmrests(),
+                )
+            if first:
+                commands(
+                    voice,
+                    baca.attach_first_appearance_default_indicators(),
+                )
+    for section, members in section_to_members.items():
+        if omit_contrabasses and section == "Contrabass":
+            continue
+        for member in range(1, members + 1):
+            voice = f"{section}.Voice.{member}"
+            commands(
+                voice,
+                baca.reapply_persistent_indicators(),
+            )
             commands(
                 voice,
                 parts(section, member),
             )
-            stack.append(baca.reapply_persistent_indicators())
-            commands(
-                voice,
-                baca.attach_first_appearance_default_indicators(),
-            )
-            if member % 2 == 0:
-                polyphony = lower_voice()
-            else:
-                polyphony = upper_voice()
+            stack = []
             if first:
                 markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
                 command = baca.markup(
@@ -612,18 +624,15 @@ def make_battuti_material(
                 key = f"{abbreviation} ({member}-{member+1})"
                 margin_markup_ = margin_markup(key)
                 stack.append(margin_markup_)
+            if member % 2 == 0:
+                polyphony = lower_voice()
+            else:
+                polyphony = upper_voice()
             stack.append(polyphony)
             commands(
                 (voice, range_),
                 *stack,
             )
-            if append_fermata_measure is True:
-                stop_measure = range_[1]
-                fermata_measure = stop_measure + 1
-                commands(
-                    (voice, fermata_measure),
-                    baca.make_mmrests(),
-                )
 
 
 def make_brass_manifest_rhythm(part):
