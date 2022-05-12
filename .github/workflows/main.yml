@@ -51,10 +51,11 @@ jobs:
         wget -q ${lilypond_url}
         tar -xf ${lilypond_archive}
 
+    # TODO: maybe -e no longer required because scm/abjad.ily
     - name: Install Abjad trevor/dev branch ("editable" to include abjad.ily)
       run: |
         git clone -b trevor/dev https://github.com/Abjad/abjad.git /tmp/abjad
-        python -m pip install --use-feature=in-tree-build -e /tmp/abjad
+        python -m pip install -e /tmp/abjad
         echo Priming Abjad parser tables ...
         import="import abjad; from abjad.parsers"
         python -c "${import}.parser import LilyPondParser; LilyPondParser()"
