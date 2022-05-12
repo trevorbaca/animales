@@ -88,7 +88,7 @@ commands(
     ),
 )
 
-library.battuti(commands, [[1, 1, -5], [1, 1, -5], [1, -8]])
+library.make_battuti_material(commands, [[1, 1, -5], [1, 1, -5], [1, -8]])
 
 # phantom
 

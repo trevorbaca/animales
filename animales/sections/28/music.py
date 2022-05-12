@@ -122,7 +122,7 @@ commands(
     ),
 )
 
-library.battuti(
+library.make_battuti_material(
     commands,
     [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,

@@ -133,7 +133,7 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-library.battuti(commands, [[1, -17], [1, -17], [1, -17]])
+library.make_battuti_material(commands, [[1, -17], [1, -17], [1, -17]])
 
 # phantom
 
