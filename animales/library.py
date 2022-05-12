@@ -395,56 +395,75 @@ def allows_instrument(staff_name, instrument):
     raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
 
-def assign_brass_sforzando_parts(maker, omit_tuba=False):
-    maker("Horn.Voice.1", parts("Horn", 1), baca.not_parts(baca.voice_one()))
-    maker("Horn.Voice.3", parts("Horn", 3), baca.not_parts(baca.voice_two()))
-    maker("Horn.Voice.2", parts("Horn", 2), baca.not_parts(baca.voice_one()))
-    maker("Horn.Voice.4", parts("Horn", 4), baca.not_parts(baca.voice_two()))
-    maker(
+def assign_brass_sforzando_parts(commands, omit_tuba=False):
+    commands(
+        "Horn.Voice.1",
+        parts("Horn", 1),
+        baca.not_parts(baca.voice_one()),
+    )
+    commands(
+        "Horn.Voice.3",
+        parts("Horn", 3),
+        baca.not_parts(baca.voice_two()),
+    )
+    commands(
+        "Horn.Voice.2",
+        parts("Horn", 2),
+        baca.not_parts(baca.voice_one()),
+    )
+    commands(
+        "Horn.Voice.4",
+        parts("Horn", 4),
+        baca.not_parts(baca.voice_two()),
+    )
+    commands(
         "Trumpet.Voice.1",
         parts("Trumpet", 1),
         baca.not_parts(baca.voice_one()),
     )
-    maker(
+    commands(
         "Trumpet.Voice.3",
         parts("Trumpet", 3),
         baca.not_parts(baca.voice_two()),
     )
-    maker(
+    commands(
         "Trumpet.Voice.2",
         parts("Trumpet", 2),
         baca.not_parts(baca.voice_one()),
     )
-    maker(
+    commands(
         "Trumpet.Voice.4",
         parts("Trumpet", 4),
         baca.not_parts(baca.voice_two()),
     )
-    maker(
+    commands(
         "Trombone.Voice.1",
         parts("Trombone", 1),
         baca.not_parts(baca.voice_one()),
     )
-    maker(
+    commands(
         "Trombone.Voice.3",
         parts("Trombone", 3),
         baca.not_parts(baca.voice_two()),
     )
-    maker(
+    commands(
         "Trombone.Voice.2",
         parts("Trombone", 2),
         baca.not_parts(baca.voice_one()),
     )
-    maker(
+    commands(
         "Trombone.Voice.4",
         parts("Trombone", 4),
         baca.not_parts(baca.voice_two()),
     )
     if not omit_tuba:
-        maker("Tuba.Voice.1", parts("Tuba"))
+        commands(
+            "Tuba.Voice.1",
+            parts("Tuba"),
+        )
 
 
-def assign_trill_parts(maker, *, exclude_first_violin=False):
+def assign_trill_parts(commands, *, exclude_first_violin=False):
     voice_to_members = {
         "First.Violin.Voice.1": (1, 10),
         "First.Violin.Voice.3": (11, 18),
@@ -463,13 +482,16 @@ def assign_trill_parts(maker, *, exclude_first_violin=False):
         else:
             assert not isinstance(members, str)
             command = parts(section, members)
-        maker(voice, command)
+        commands(
+            voice,
+            command,
+        )
 
 
 # attaches grand pause fermatas in parts because voices alive in segment
 # do not receive GlobalRests variables.
-def attach_grand_pause_fermatas(maker, score, *, measure=-1):
-    assert isinstance(maker, baca.CommandAccumulator)
+def attach_grand_pause_fermatas(commands, score, *, measure=-1):
+    assert isinstance(commands, baca.CommandAccumulator)
     for voice in abjad.iterate.components(score, abjad.Voice):
         markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
         markup_command = baca.markup(
@@ -480,7 +502,7 @@ def attach_grand_pause_fermatas(maker, score, *, measure=-1):
         literal_1 = baca.literal(string)
         string = r"\once \override Score.TimeSignature.stencil = ##f"
         literal_2 = baca.literal(string)
-        maker(
+        commands(
             (voice.name, measure),
             baca.only_parts(markup_command),
             baca.only_parts(literal_1),
@@ -510,7 +532,7 @@ def leaves_in_measure(n, lleak=False, rleak=False):
 
 
 def make_battuti_material(
-    maker,
+    commands,
     counts,
     *,
     append_fermata_measure=False,
@@ -546,7 +568,7 @@ def make_battuti_material(
             baca.staff_position(-1),
         )
 
-    duration = sum([_.duration for _ in maker.time_signatures])
+    duration = sum([_.duration for _ in commands.time_signatures])
     assert isinstance(duration, abjad.Duration), repr(duration)
     wrap = duration.with_denominator(16).numerator
     for section, members in section_to_members.items():
@@ -555,17 +577,17 @@ def make_battuti_material(
         for member in range(1, members + 1):
             voice = f"{section}.Voice.{member}"
             rhythm = make_clb_rhythm(section, member, counts, wrap)
-            maker(
+            commands(
                 (voice, range_),
                 rhythm,
             )
-            commands = []
-            maker(
+            stack = []
+            commands(
                 voice,
                 parts(section, member),
             )
-            commands.append(baca.reapply_persistent_indicators())
-            maker(
+            stack.append(baca.reapply_persistent_indicators())
+            commands(
                 voice,
                 baca.attach_first_appearance_default_indicators(),
             )
@@ -580,25 +602,25 @@ def make_battuti_material(
                     selector=lambda _: abjad.select.leaf(_, 0),
                 )
                 command = baca.only_parts(command)
-                commands.append(command)
+                stack.append(command)
                 command = baca.staff_lines(1)
-                commands.append(command)
+                stack.append(command)
                 command = baca.clef("percussion")
-                commands.append(command)
+                stack.append(command)
             if first and member % 2 == 1:
                 abbreviation = section_to_abbreviation[section]
                 key = f"{abbreviation} ({member}-{member+1})"
                 margin_markup_ = margin_markup(key)
-                commands.append(margin_markup_)
-            commands.append(polyphony)
-            maker(
+                stack.append(margin_markup_)
+            stack.append(polyphony)
+            commands(
                 (voice, range_),
-                *commands,
+                *stack,
             )
             if append_fermata_measure is True:
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
-                maker(
+                commands(
                     (voice, fermata_measure),
                     baca.make_mmrests(),
                 )
@@ -645,7 +667,7 @@ def make_brass_manifest_rhythm(part):
 
 
 def make_brass_sforzando_material(
-    maker, range_=(1, -1), *, reapply_persistent_indicators=False
+    commands, range_=(1, -1), *, reapply_persistent_indicators=False
 ):
     voice_to_pitch = {
         "Horn.Voice.1": "C4",
@@ -665,14 +687,14 @@ def make_brass_sforzando_material(
 
     for voice, pitch in voice_to_pitch.items():
         if reapply_persistent_indicators:
-            maker(
+            commands(
                 (voice, range_),
                 make_downbeat_attack(),
                 baca.reapply_persistent_indicators(),
                 baca.marcato(),
             )
         else:
-            maker(
+            commands(
                 (voice, range_),
                 make_downbeat_attack(),
                 baca.marcato(),
@@ -680,12 +702,21 @@ def make_brass_sforzando_material(
         words = abjad.string.delimit_words(voice)
         member = int(words[-1])
         if member in (1, 2):
-            maker((voice, range_), baca.dynamic("sffz"))
+            commands(
+                (voice, range_),
+                baca.dynamic("sffz"),
+            )
         elif member in (3, 4):
-            maker((voice, range_), baca.only_parts(baca.dynamic("sffz")))
+            commands(
+                (voice, range_),
+                baca.only_parts(baca.dynamic("sffz")),
+            )
         else:
             raise ValueError(member)
-        maker((voice, range_), baca.pitch(pitch))
+        commands(
+            (voice, range_),
+            baca.pitch(pitch),
+        )
 
 
 def make_clb_rhythm(section, member, counts, wrap):
@@ -961,7 +992,7 @@ def make_glissando_rhythm(rotate=0):
     )
 
 
-def make_harp_exchange_rhythm(this_part, *commands, silence_first=False):
+def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
     part_to_pattern = dict(
         [
             (0, abjad.index([0, 30], period=36)),
@@ -1028,7 +1059,7 @@ def make_harp_exchange_rhythm(this_part, *commands, silence_first=False):
 
     return baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
-        *commands,
+        *stack,
         rmakers.cache_state(),
         *silence_first_specifier,
         rmakers.beam(),
@@ -1043,7 +1074,7 @@ def make_harp_exchange_rhythm(this_part, *commands, silence_first=False):
 
 
 def make_pennant_rhythm(extra_counts=None, silences=None):
-    commands = []
+    stack = []
     if silences is not None:
         specifier = rmakers.force_rest(
             lambda _: abjad.select.get(
@@ -1051,7 +1082,7 @@ def make_pennant_rhythm(extra_counts=None, silences=None):
                 silences,
             ),
         )
-        commands.append(specifier)
+        stack.append(specifier)
 
     def preprocessor(divisions):
         result = baca.sequence.fuse(divisions)
@@ -1060,7 +1091,7 @@ def make_pennant_rhythm(extra_counts=None, silences=None):
 
     return baca.rhythm(
         rmakers.talea([1], 16, extra_counts=extra_counts),
-        *commands,
+        *stack,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.force_diminution(),
@@ -1142,7 +1173,7 @@ def make_sforzando_exchange_rhythm(this_part):
     )
 
 
-def make_trill_rhythm(maker, measures=(1, -1)):
+def make_trill_rhythm(commands, measures=(1, -1)):
     voice_to_part = {
         "First.Violin.Voice.1": 0,
         "First.Violin.Voice.3": 1,
@@ -1153,7 +1184,7 @@ def make_trill_rhythm(maker, measures=(1, -1)):
         "Cello.Voice.1": 6,
     }
     for voice, part in voice_to_part.items():
-        maker(
+        commands(
             (voice, measures),
             make_sforzando_exchange_rhythm(part),
         )
