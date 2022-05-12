@@ -160,7 +160,7 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-library.battuti(commands, [[1, -117, -117], [1, -118]], first=True)
+library.make_battuti_material(commands, [[1, -117, -117], [1, -118]], first=True)
 
 # phantom
 

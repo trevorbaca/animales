@@ -488,7 +488,28 @@ def attach_grand_pause_fermatas(maker, score, *, measure=-1):
         )
 
 
-def battuti(
+def glissando_positions(*, reverse=False, rotate=0, transpose=0):
+    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
+    positions_ = [_ + transpose for _ in positions_]
+    if reverse is True:
+        positions_.reverse()
+    positions = abjad.sequence.rotate(positions_, rotate)
+    return baca.staff_positions(positions)
+
+
+def leaves_in_measure(n, lleak=False, rleak=False):
+    def selector(argument):
+        result = baca.mleaves(argument, n)
+        if lleak is True:
+            result = baca.lleak(result)
+        if rleak is True:
+            result = baca.rleak(result)
+        return result
+
+    return selector
+
+
+def make_battuti_material(
     maker,
     counts,
     *,
@@ -581,27 +602,6 @@ def battuti(
                     (voice, fermata_measure),
                     baca.make_mmrests(),
                 )
-
-
-def glissando_positions(*, reverse=False, rotate=0, transpose=0):
-    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
-    positions_ = [_ + transpose for _ in positions_]
-    if reverse is True:
-        positions_.reverse()
-    positions = abjad.sequence.rotate(positions_, rotate)
-    return baca.staff_positions(positions)
-
-
-def leaves_in_measure(n, lleak=False, rleak=False):
-    def selector(argument):
-        result = baca.mleaves(argument, n)
-        if lleak is True:
-            result = baca.lleak(result)
-        if rleak is True:
-            result = baca.rleak(result)
-        return result
-
-    return selector
 
 
 def make_brass_manifest_rhythm(part):
