@@ -921,7 +921,7 @@ segment.18.Horn.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -937,7 +937,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -949,7 +949,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -961,7 +961,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -973,7 +973,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -995,7 +995,7 @@ segment.18.Horn.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1011,7 +1011,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1023,7 +1023,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1035,7 +1035,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1047,7 +1047,7 @@ segment.18.Horn.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.1 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -1343,7 +1343,7 @@ segment.18.Horn.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1359,7 +1359,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1371,7 +1371,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1383,7 +1383,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1395,7 +1395,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1417,7 +1417,7 @@ segment.18.Horn.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1433,7 +1433,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1445,7 +1445,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1457,7 +1457,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1469,7 +1469,7 @@ segment.18.Horn.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.3 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -1849,7 +1849,7 @@ segment.18.Horn.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1865,7 +1865,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1877,7 +1877,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1889,7 +1889,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1901,7 +1901,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1923,7 +1923,7 @@ segment.18.Horn.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1939,7 +1939,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1951,7 +1951,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1963,7 +1963,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -1975,7 +1975,7 @@ segment.18.Horn.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.2 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -2271,7 +2271,7 @@ segment.18.Horn.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2287,7 +2287,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2299,7 +2299,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2311,7 +2311,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2323,7 +2323,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2345,7 +2345,7 @@ segment.18.Horn.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2361,7 +2361,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2373,7 +2373,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2385,7 +2385,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2397,7 +2397,7 @@ segment.18.Horn.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Voice.4 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -2777,7 +2777,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2793,7 +2793,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2805,7 +2805,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2817,7 +2817,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2829,7 +2829,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2851,7 +2851,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2867,7 +2867,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2879,7 +2879,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2891,7 +2891,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2903,7 +2903,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.1 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -3199,7 +3199,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3215,7 +3215,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3227,7 +3227,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3239,7 +3239,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3251,7 +3251,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3273,7 +3273,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3289,7 +3289,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3301,7 +3301,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3313,7 +3313,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3325,7 +3325,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.3 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -3705,7 +3705,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3721,7 +3721,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3733,7 +3733,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3745,7 +3745,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3757,7 +3757,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3779,7 +3779,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3795,7 +3795,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3807,7 +3807,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3819,7 +3819,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -3831,7 +3831,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.2 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -4127,7 +4127,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4143,7 +4143,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4155,7 +4155,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4167,7 +4167,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4179,7 +4179,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -4201,7 +4201,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4217,7 +4217,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -4229,7 +4229,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4241,7 +4241,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4253,7 +4253,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Voice.4 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -4633,7 +4633,7 @@ segment.18.Trombone.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4649,7 +4649,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4661,7 +4661,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4673,7 +4673,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4685,7 +4685,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -4707,7 +4707,7 @@ segment.18.Trombone.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4723,7 +4723,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -4735,7 +4735,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4747,7 +4747,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -4759,7 +4759,7 @@ segment.18.Trombone.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.1 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -5055,7 +5055,7 @@ segment.18.Trombone.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5071,7 +5071,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5083,7 +5083,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5095,7 +5095,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5107,7 +5107,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -5129,7 +5129,7 @@ segment.18.Trombone.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5145,7 +5145,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -5157,7 +5157,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5169,7 +5169,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5181,7 +5181,7 @@ segment.18.Trombone.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.3 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -5561,7 +5561,7 @@ segment.18.Trombone.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5577,7 +5577,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5589,7 +5589,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5601,7 +5601,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5613,7 +5613,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -5635,7 +5635,7 @@ segment.18.Trombone.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5651,7 +5651,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -5663,7 +5663,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5675,7 +5675,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -5687,7 +5687,7 @@ segment.18.Trombone.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.2 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -5983,7 +5983,7 @@ segment.18.Trombone.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5999,7 +5999,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -6011,7 +6011,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -6023,7 +6023,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -6035,7 +6035,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -6057,7 +6057,7 @@ segment.18.Trombone.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -6073,7 +6073,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 9]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -6085,7 +6085,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 10]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -6097,7 +6097,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 11]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -6109,7 +6109,7 @@ segment.18.Trombone.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Voice.4 measure 12]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -6461,7 +6461,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -6483,7 +6483,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -6782,7 +6782,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -7342,7 +7342,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.2 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -7364,7 +7364,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -7663,7 +7663,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -8297,7 +8297,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.3 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -8319,7 +8319,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -8618,7 +8618,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -9178,7 +9178,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First.Violin.Voice.4 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -9200,7 +9200,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -9499,7 +9499,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -10734,7 +10734,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -10756,7 +10756,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -11059,7 +11059,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -11623,7 +11623,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.2 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -11645,7 +11645,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -11944,7 +11944,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -12578,7 +12578,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.3 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -12600,7 +12600,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -12899,7 +12899,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -13459,7 +13459,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second.Violin.Voice.4 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -13481,7 +13481,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -13780,7 +13780,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -14414,7 +14414,7 @@ segment.18.Viola.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -14436,7 +14436,7 @@ segment.18.Viola.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -14735,7 +14735,7 @@ segment.18.Viola.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -15295,7 +15295,7 @@ segment.18.Viola.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.2 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -15317,7 +15317,7 @@ segment.18.Viola.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -15616,7 +15616,7 @@ segment.18.Viola.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -16250,7 +16250,7 @@ segment.18.Viola.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.3 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -16272,7 +16272,7 @@ segment.18.Viola.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -16571,7 +16571,7 @@ segment.18.Viola.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -17131,7 +17131,7 @@ segment.18.Viola.Voice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Voice.4 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -17153,7 +17153,7 @@ segment.18.Viola.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -17452,7 +17452,7 @@ segment.18.Viola.Voice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -18086,7 +18086,7 @@ segment.18.Cello.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -18108,7 +18108,7 @@ segment.18.Cello.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -18411,7 +18411,7 @@ segment.18.Cello.Voice.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -18975,7 +18975,7 @@ segment.18.Cello.Voice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Voice.2 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -18997,7 +18997,7 @@ segment.18.Cello.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -19296,7 +19296,7 @@ segment.18.Cello.Voice.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -19910,7 +19910,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Voice.3 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -19932,7 +19932,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -20231,7 +20231,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/4
     % AFTER:
     % MARKUP:
