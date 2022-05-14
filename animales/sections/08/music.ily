@@ -896,7 +896,7 @@ segment.08.Bass.Clarinet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass.Clarinet.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -908,7 +908,7 @@ segment.08.Bass.Clarinet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass.Clarinet.Voice.1 measure 3]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -920,7 +920,7 @@ segment.08.Bass.Clarinet.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass.Clarinet.Voice.1 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 3/4
     % AFTER:
     % MARKUP:

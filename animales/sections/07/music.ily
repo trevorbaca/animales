@@ -1999,7 +1999,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 2]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2011,7 +2011,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 3]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2023,7 +2023,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 4]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2035,7 +2035,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 5]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2047,7 +2047,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 6]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1/2
     % AFTER:
     % MARKUP:
@@ -2059,7 +2059,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 7]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
@@ -2071,7 +2071,7 @@ segment.07.Percussion.Voice.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Voice.1 measure 8]
-      %! baca._make_measure_silences()
+      %! baca._make_mmrests()
     R1 * 1
     % AFTER:
     % MARKUP:
