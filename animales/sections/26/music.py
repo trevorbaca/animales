@@ -103,7 +103,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# BRASS
 
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
@@ -120,13 +120,15 @@ brass_voices = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "Tuba.Voice.1",
+    "tub1",
 ]
 
 commands(
     (brass_voices, (2, 3)),
     baca.make_mmrests(),
 )
+
+# PERCUSSION
 
 commands(
     "perc2",
@@ -151,6 +153,8 @@ commands(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
+
+# STRINGS
 
 library.make_battuti_material(
     commands,
@@ -163,40 +167,21 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-## phantom
-#
-## reapply
-#
-# reapply_voices = [_ for _ in voice_names if ".Voice" in _]
-#
-# commands(
-#    reapply_voices,
-#    baca.reapply_persistent_indicators(),
-# )
+# phantom & reapply
 
-# phantom
-
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# after
+# brass
 
 library.assign_brass_sforzando_parts(commands)
 
-# percussion
-
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
@@ -205,7 +190,7 @@ commands(
     library.parts("Percussion", 2),
 )
 
-# bass drum
+# perc3 (BD)
 
 commands(
     "perc3",
@@ -214,7 +199,7 @@ commands(
     library.parts("Percussion", 3),
 )
 
-# tam-tam
+# perc4 (tam-tam)
 
 commands(
     "perc4",
@@ -223,15 +208,15 @@ commands(
     library.parts("Percussion", 4),
 )
 
-# strings
+# cb3
 
 commands(
     "cb3",
     baca.clef("bass"),
-    baca.hairpin("p <", right_broken=True),
-    baca.markup(r"\baca-arco-markup"),
-    baca.pitch("C#2"),
     baca.staff_lines(5),
+    baca.pitch("C#2"),
+    baca.markup(r"\baca-arco-markup"),
+    baca.hairpin("p <", right_broken=True),
     library.parts("Contrabass"),
 )
 

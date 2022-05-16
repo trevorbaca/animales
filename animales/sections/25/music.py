@@ -105,11 +105,11 @@ commands(
     ),
 )
 
-# RHYTHM
+# BRASS
 
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
-brass_voices = [
+brass_voice_names = [
     "hn1",
     "hn2",
     "hn3",
@@ -122,13 +122,15 @@ brass_voices = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "Tuba.Voice.1",
+    "tub1",
 ]
 
 commands(
-    (brass_voices, (2, 3)),
+    (brass_voice_names, (2, 3)),
     baca.make_mmrests(),
 )
+
+# PERCUSSION
 
 commands(
     "perc2",
@@ -145,40 +147,25 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
+# STRINGS
+
 library.make_battuti_material(commands, [[1, -117, -117], [1, -118]])
 
-## phantom
-#
-## reapply
-#
-# reapply_voices = [_ for _ in voice_names if ".Voice" in _]
-#
-# commands(
-#    reapply_voices,
-#    baca.reapply_persistent_indicators(),
-# )
+# phantom & reapply
 
-# phantom
-
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# after
+# brass
 
 library.assign_brass_sforzando_parts(commands)
 
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
@@ -187,32 +174,32 @@ commands(
     library.parts("Percussion", 2),
 )
 
-# bass drum
+# perc3 (BD)
 
 commands(
     "perc3",
     library.margin_markup("Perc. 3 (BD)"),
     baca.clef("percussion"),
-    baca.dynamic("p"),
-    baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
-    baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
+    baca.only_parts(baca.text_script_extra_offset((0, 4))),
+    baca.dynamic("p"),
     library.parts("Percussion", 3),
 )
 
-# tam-tam
+# perc4 (tam-tam)
 
 commands(
     "perc4",
-    baca.dynamic("p"),
     library.margin_markup("Perc. 4 (tam.)"),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
-    baca.staff_position(0),
-    baca.staff_lines(1),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.dynamic("p"),
     library.parts("Percussion", 4),
 )
 

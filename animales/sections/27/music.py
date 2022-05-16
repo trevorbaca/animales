@@ -89,7 +89,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# PERCUSSION
 
 commands(
     "perc1",
@@ -119,6 +119,8 @@ commands(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
+
+# STRINGS
 
 library.make_battuti_material(
     commands,
@@ -134,35 +136,27 @@ commands(
     ),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# percussion
-
-# triangle
+# perc1 (triangle)
 
 commands(
     "perc1",
-    baca.dynamic("p"),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.dynamic("p"),
     library.parts("Percussion", 1),
 )
 
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
@@ -171,7 +165,7 @@ commands(
     library.parts("Percussion", 2),
 )
 
-# bass drum
+# perc3 (BD)
 
 commands(
     "perc3",
@@ -180,7 +174,7 @@ commands(
     library.parts("Percussion", 3),
 )
 
-# tam-tam
+# perc4 (tam-tam)
 
 commands(
     "perc4",
@@ -189,11 +183,13 @@ commands(
     library.parts("Percussion", 4),
 )
 
+# cb3
+
 commands(
     "cb3",
-    baca.dynamic("fff"),
     baca.pitch("C#2"),
     baca.text_spanner("ord. => ext. pont."),
+    baca.dynamic("fff"),
     library.parts("Contrabass"),
 )
 

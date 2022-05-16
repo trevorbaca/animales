@@ -86,7 +86,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# BRASS
 
 commands(
     ("hn1", 1),
@@ -148,7 +148,7 @@ commands(
     library.make_downbeat_attack(),
 )
 
-brass_voices = [
+brass_voice_names = [
     "hn1",
     "hn2",
     "hn3",
@@ -164,12 +164,14 @@ brass_voices = [
 ]
 
 commands(
-    (brass_voices, (2, 12)),
+    (brass_voice_names, (2, 12)),
     baca.make_mmrests(),
 )
 
+# STRINGS
 
-def upper_voice():
+
+def _upper_voice():
     return baca.suite(
         baca.only_parts(baca.text_spanner_staff_padding(5)),
         baca.not_parts(
@@ -181,7 +183,7 @@ def upper_voice():
     )
 
 
-def lower_voice(n=5):
+def _lower_voice(n=5):
     return baca.suite(
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.text_spanner_staff_padding(n)),
@@ -208,18 +210,18 @@ string_parts = {
 }
 
 
-def tremolo(peak="f"):
+def _tremolo(peak="f"):
     return baca.suite(
-        baca.hairpin(
-            f"niente o< {peak} >o niente",
-            pieces=lambda _: baca.mgroups(_, [2, 2]),
+        baca.stem_tremolo(
+            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
         ),
         baca.text_spanner(
             "tasto => ext. pont. => tasto",
             pieces=lambda _: baca.select.cmgroups(_, [2]),
         ),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+        baca.hairpin(
+            f"niente o< {peak} >o niente",
+            pieces=lambda _: baca.mgroups(_, [2, 2]),
         ),
     )
 
@@ -280,9 +282,9 @@ for voice, items in string_parts.items():
     members = items[0]
     commands_.append(library.parts(section, members))
     if items[1] is True:
-        commands_.append(upper_voice())
+        commands_.append(_upper_voice())
     elif items[1] is False:
-        commands_.append(lower_voice())
+        commands_.append(_lower_voice())
     commands_.append(
         baca.pitch(
             items[2],
@@ -297,26 +299,20 @@ for voice, items in string_parts.items():
         continue
     commands(
         (voice, (4, 7)),
-        tremolo("f"),
+        _tremolo("f"),
     )
     commands(
         (voice, (9, 12)),
-        tremolo("mp"),
+        _tremolo("mp"),
     )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
@@ -333,96 +329,96 @@ library.assign_brass_sforzando_parts(commands, omit_tuba=True)
 
 commands(
     ("hn1", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("hn3", 1),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 commands(
     ("hn2", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("hn4", 1),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 # trumpets
 
 commands(
     ("tp1", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("tp3", 1),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 commands(
     ("tp2", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("tp4", 1),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 # trombones
 
 commands(
     ("tbn1", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("tbn3", 1),
-    baca.dynamic("sfz"),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 commands(
     ("tbn2", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.dynamic("sfz")),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
+    baca.only_parts(baca.dynamic("sfz")),
 )
 
 commands(
     ("tbn4", 1),
-    baca.dynamic("sfz"),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
+    baca.not_parts(baca.voice_two()),
+    baca.dynamic("sfz"),
 )
 
 # solo violin
