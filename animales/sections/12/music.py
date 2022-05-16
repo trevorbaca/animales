@@ -472,6 +472,7 @@ if __name__ == "__main__":
         commands,
         **baca.score_interpretation_defaults(),
         all_music_in_part_containers=True,
+        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         transpose_score=True,

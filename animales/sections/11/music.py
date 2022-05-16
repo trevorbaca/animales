@@ -505,6 +505,7 @@ if __name__ == "__main__":
         score,
         commands,
         **baca.score_interpretation_defaults(),
+        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
