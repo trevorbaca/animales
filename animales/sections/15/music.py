@@ -4,7 +4,7 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 15 [N] ########################################
+########################################### 15 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
@@ -12,7 +12,6 @@ start = metadata.get("final_measure_number")
 assert start == 87
 
 time_signatures = library.time_signatures[start : start + 6] + ((1, 4),)
-
 
 score = library.make_empty_score(
     flutes=[
@@ -50,8 +49,8 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),

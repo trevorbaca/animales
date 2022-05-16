@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 03 [B] ########################################
+########################################### 03 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 12
-
 
 score = library.make_empty_score(
     first_violins=[
@@ -29,8 +28,8 @@ score = library.make_empty_score(
         (1, [1]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
@@ -51,31 +50,23 @@ commands(
     ),
 )
 
-# strings
+# STRINGS
 
 library.make_trill_rhythm(commands)
 
 strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# after
-
-library.assign_trill_parts(commands)
+# strings
 
 # first accents ...
 commands(
@@ -94,46 +85,35 @@ commands(
 # ... then pitch
 commands(
     (strings, (1, 3)),
+    baca.pitch("E4"),
+    baca.trill_spanner(alteration="F4"),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("E4"),
-    baca.trill_spanner(alteration="F4"),
 )
 
 commands(
     (strings, (4, 5)),
+    baca.pitch("Eb4"),
+    baca.trill_spanner(alteration="E4", right_broken=True),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("Eb4"),
-    baca.trill_spanner(alteration="E4", right_broken=True),
 )
 
-raised_trill = [
-    "1vn3",
-    "2vn3",
-]
-
-unraised_trill = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "va3",
-    "vc1",
-]
-
 commands(
-    raised_trill,
+    ["1vn3", "2vn3"],
     baca.trill_spanner_staff_padding(6),
 )
 
 commands(
-    unraised_trill,
+    ["1vn1", "2vn1", "va1", "va3", "vc1"],
     baca.trill_spanner_staff_padding(4),
 )
+
+library.assign_trill_parts(commands)
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(

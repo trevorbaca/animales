@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 06 [E] ########################################
+########################################### 06 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 29
-
 
 score = library.make_empty_score(
     clarinets=[
@@ -39,8 +38,8 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
@@ -72,12 +71,14 @@ commands(
     ),
 )
 
-# rhythm
+# WINDS
 
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
 )
+
+# PERCUSSION
 
 commands(
     "perc1",
@@ -94,6 +95,8 @@ commands(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
+
+# STRINGS
 
 commands(
     "1vn1",
@@ -120,30 +123,20 @@ commands(
     baca.make_repeated_duration_notes([(1, 4)]),
 )
 
-absent_left_broken = [
-    "1vn3",
-    "2vn3",
-    "va3",
-]
+absent_left_broken = ["1vn3", "2vn3", "va3"]
 
 commands(
     absent_left_broken,
     baca.make_mmrests(),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
@@ -152,28 +145,27 @@ commands(
 commands(
     "cl1",
     library.margin_markup("Cl. 3"),
-    library.parts("Clarinet", 3),
-    baca.hairpin("mp < mf"),
-    baca.edition("solo (cl. 3)", "solo"),
     baca.pitch("C#5"),
+    baca.edition("solo (cl. 3)", "solo"),
+    baca.hairpin("mp < mf"),
+    library.parts("Clarinet", 3),
 )
 
-# percussion
-
+# perc1, perc2
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
-    baca.hairpin("p >o", right_broken=True),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.hairpin("p >o", right_broken=True),
+    library.parts("Percussion", 1),
 )
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # strings
@@ -181,8 +173,8 @@ commands(
 commands(
     "1vn1",
     library.margin_markup("Vni. I"),
-    library.parts("First.Violin"),
     baca.not_parts(baca.one_voice()),
+    library.parts("First.Violin"),
 )
 
 commands(
@@ -193,8 +185,8 @@ commands(
 
 commands(
     "va1",
-    library.parts("Viola"),
     library.margin_markup("Vle."),
+    library.parts("Viola"),
 )
 
 commands(
@@ -207,19 +199,14 @@ commands(
     library.parts("Contrabass"),
 )
 
-left_broken = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "vc1",
-]
+left_broken = ["1vn1", "2vn1", "va1", "vc1"]
 
 commands(
     (left_broken, 1),
-    baca.not_segment(baca.stop_trill()),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.not_segment(baca.stop_trill()),
 )
 
 commands(
@@ -229,68 +216,68 @@ commands(
 
 commands(
     "1vn1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("B3", "A6"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("B3", "A6"),
 )
 
 commands(
     "2vn1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("B3", "A5"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("B3", "A5"),
 )
 
 commands(
     "va1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("B3", "A4"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("B3", "A4"),
 )
 
 commands(
     "vc1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("B3", "C3"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("B3", "C3"),
 )
 
 commands(
     "cb3",
+    baca.repeat_tie(
+        lambda _: baca.select.pleaf(_, 0),
+    ),
+    baca.interpolate_pitches("B1", "A1"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
     ),
     baca.hairpin("ff >", right_broken=True),
-    baca.interpolate_pitches("B1", "A1"),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
 )
 
 if __name__ == "__main__":

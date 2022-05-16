@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 17 [P] ########################################
+########################################### 17 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 assert metadata.get("final_measure_number") == 108
 start = 94
-
 
 score = library.make_empty_score(
     oboes=[
@@ -54,7 +53,6 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-
 
 voice_names = baca.accumulator.get_voice_names(score)
 

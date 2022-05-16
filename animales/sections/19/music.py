@@ -4,7 +4,7 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 19 [R] ########################################
+########################################### 19 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
@@ -12,7 +12,6 @@ start = metadata.get("final_measure_number")
 assert start == 130
 
 time_signatures = library.time_signatures[start : start + 3]
-
 
 score = library.make_empty_score(
     horns=[
@@ -87,7 +86,6 @@ score = library.make_empty_score(
         (3, [5, 6]),
     ],
 )
-
 
 voice_names = baca.accumulator.get_voice_names(score)
 

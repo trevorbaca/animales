@@ -5,13 +5,12 @@ from abjadext import rmakers
 from animales import library
 
 #########################################################################################
-######################################### 07 [F] ########################################
+########################################### 07 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 35
-
 
 score = library.make_empty_score(
     clarinets=[
@@ -45,8 +44,8 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
