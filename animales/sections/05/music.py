@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 05 [D] ########################################
+########################################### 05 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 23
-
 
 score = library.make_empty_score(
     clarinets=[
@@ -39,8 +38,8 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
@@ -61,10 +60,14 @@ commands(
     ),
 )
 
+# WINDS
+
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
 )
+
+# PERCUSSION
 
 commands(
     "perc1",
@@ -75,6 +78,8 @@ commands(
     "perc2",
     baca.make_repeat_tied_notes(),
 )
+
+# STRINGS
 
 commands(
     "1vn2",
@@ -90,17 +95,11 @@ commands(
 
 # phantom
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
@@ -108,53 +107,41 @@ commands(
 
 commands(
     "cl1",
-    library.margin_markup("Cl. 2"),
-    library.parts("Clarinet", 2),
-    baca.hairpin("mp < mf"),
-    baca.edition("solo (cl. 2)", "solo"),
     baca.pitch("C#5"),
+    library.margin_markup("Cl. 2"),
+    baca.edition("solo (cl. 2)", "solo"),
+    baca.hairpin("mp < mf"),
+    library.parts("Clarinet", 2),
 )
 
-# perc1 triangle
+# perc1 (triangle)
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 1),
 )
 
 # perc2 (cymbal)
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
-    baca.staff_position(0),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # strings
 
 commands(
     "1vn2",
-    library.parts("First.Violin", 1),
-    baca.hairpin(
-        "p < f",
-        selector=library.leaves_in_measure(1, rleak=True),
-    ),
-    baca.hairpin(
-        "f > p",
-        selector=library.leaves_in_measure(-1, lleak=True),
-    ),
-    baca.not_parts(baca.dls_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie(lambda _: baca.select.leaves(_)),
         library.glissando_positions(transpose=-1),
@@ -170,10 +157,21 @@ commands(
         ),
         baca.glissando(),
     ),
+    baca.not_parts(baca.dls_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.stop_trill()),
+    baca.hairpin(
+        "p < f",
+        selector=library.leaves_in_measure(1, rleak=True),
+    ),
+    baca.hairpin(
+        "f > p",
+        selector=library.leaves_in_measure(-1, lleak=True),
+    ),
+    library.parts("First.Violin", 1),
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)
-
 
 commands(
     ("1vn1", 1),
@@ -185,40 +183,30 @@ commands(
     baca.clef("bass"),
 )
 
-strings = [
-    "1vn1",
-    "1vn3",
-    "2vn1",
-    "2vn3",
-    "va1",
-    "va3",
-    "vc1",
-]
-
 commands(
-    strings,
+    ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"],
+    baca.pitch("B3"),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),
+    baca.trill_spanner(alteration="C4", right_broken=True),
     baca.dynamic(
         "f-but-accents-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("B3"),
-    baca.trill_spanner(alteration="C4", right_broken=True),
 )
 
-# contrabasses
+# cb3
 
 commands(
     "cb3",
-    library.parts("Contrabass"),
+    baca.pitch("B1"),
     baca.hairpin(
         "< ff",
         selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
-    baca.pitch("B1"),
+    library.parts("Contrabass"),
 )
 
 if __name__ == "__main__":

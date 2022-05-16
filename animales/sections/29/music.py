@@ -4,14 +4,13 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################## 29 [BB] ########################################
+########################################### 29 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = 136
 
 time_signatures = library.time_signatures[start : start + 3] + ((1, 4),)
-
 
 score = library.make_empty_score(
     percussion=[
@@ -60,7 +59,6 @@ score = library.make_empty_score(
         (7, [13, 14]),
     ],
 )
-
 
 voice_names = baca.accumulator.get_voice_names(score)
 

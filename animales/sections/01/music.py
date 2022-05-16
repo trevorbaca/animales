@@ -3,9 +3,8 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 01 [_] ########################################
+########################################### 01 ##########################################
 #########################################################################################
-
 
 score = library.make_empty_score(
     percussion=[
@@ -29,8 +28,8 @@ score = library.make_empty_score(
         (1, [1]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
@@ -47,7 +46,7 @@ commands(
     baca.metronome_mark("114"),
 )
 
-# single-staff percussion
+# PERCUSSION
 
 commands(
     "perc1",
@@ -64,48 +63,43 @@ commands(
     baca.make_mmrests(),
 )
 
-strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+# STRINGS
 
 library.make_trill_rhythm(commands)
 
-# phantom
+# phantom & reapply
 
-tutti = ["perc1", "perc2", "perc4"] + strings
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    tutti,
+    music_voices,
     baca.append_phantom_measure(),
+    baca.attach_first_segment_default_indicators(),
 )
 
-# after
+# percussion
 
 commands(
     "perc1",
-    baca.attach_first_segment_default_indicators(),
-    library.parts("Percussion", 1),
     baca.staff_lines(1),
+    library.parts("Percussion", 1),
 )
 
 commands(
     "perc2",
-    baca.attach_first_segment_default_indicators(),
-    library.parts("Percussion", 2),
     baca.staff_lines(1),
+    library.parts("Percussion", 2),
 )
 
 commands(
     "perc4",
-    baca.attach_first_segment_default_indicators(),
-    library.parts("Percussion", 4),
     baca.staff_lines(1),
+    library.parts("Percussion", 4),
 )
 
+# strings
 
-for voice_name in strings:
-    commands(
-        voice_name,
-        baca.attach_first_segment_default_indicators(),
-    )
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 voice_to_start_markup = {
     "1vn1": [
@@ -144,7 +138,6 @@ for voice, commands_ in voice_to_start_markup.items():
         *commands_,
     )
 
-
 library.assign_trill_parts(commands)
 
 commands(
@@ -176,44 +169,31 @@ commands(
 # ... then pitch
 commands(
     (strings, (1, 4)),
+    baca.pitch("A4"),
+    baca.trill_spanner(alteration="B4"),
     baca.dynamic(
         "f-but-accents-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("A4"),
-    baca.trill_spanner(alteration="B4"),
 )
 
 commands(
     (strings, (5, 6)),
+    baca.pitch("Ab4"),
+    baca.trill_spanner(alteration="A4", right_broken=True),
     baca.dynamic(
         "p-sub-but-accents-continue-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("Ab4"),
-    baca.trill_spanner(alteration="A4", right_broken=True),
 )
 
-raised_trill = [
-    "1vn3",
-    "2vn3",
-]
-
-unraised_trill = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "va3",
-    "vc1",
-]
-
 commands(
-    raised_trill,
+    ["1vn3", "2vn3"],
     baca.trill_spanner_staff_padding(6),
 )
 
 commands(
-    unraised_trill,
+    ["1vn1", "2vn1", "va1", "va3", "vc1"],
     baca.trill_spanner_staff_padding(4),
 )
 

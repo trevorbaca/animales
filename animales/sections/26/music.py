@@ -4,14 +4,13 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 26 [Y] ########################################
+########################################### 26 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = 133
 
 time_signatures = library.time_signatures[start : start + 3]
-
 
 score = library.make_empty_score(
     horns=[
@@ -80,7 +79,6 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-
 
 voice_names = baca.accumulator.get_voice_names(score)
 

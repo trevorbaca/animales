@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 11 [J] ########################################
+########################################### 11 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 61
-
 
 score = library.make_empty_score(
     clarinets=[
@@ -55,8 +54,8 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
-voice_names = baca.accumulator.get_voice_names(score)
 
+voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.segment_accumulation_defaults(),
@@ -86,12 +85,14 @@ commands(
     ),
 )
 
-# RHYTHM
+# WINDS
 
 commands(
     "cl1",
     baca.make_repeat_tied_notes(),
 )
+
+# BRASS
 
 commands(
     "hn1",
@@ -153,15 +154,19 @@ commands(
     library.make_brass_manifest_rhythm(12),
 )
 
-commands(
-    "hp1",
-    library.make_harp_exchange_rhythm(2),
-)
+# PIANO, HARP
 
 commands(
     "pf1",
     library.make_harp_exchange_rhythm(3),
 )
+
+commands(
+    "hp1",
+    library.make_harp_exchange_rhythm(2),
+)
+
+# PERCUSSION
 
 commands(
     "perc2",
@@ -172,6 +177,8 @@ commands(
     "perc3",
     library.make_harp_exchange_rhythm(0),
 )
+
+# STRINGS
 
 commands(
     "1vn1",
@@ -203,30 +210,24 @@ commands(
     library.make_harp_exchange_rhythm(1),
 )
 
-# phantom
+# phantom & reapply
 
 all_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
     all_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# clarinet
+# cl1
 
 commands(
     "cl1",
     library.margin_markup("Cl. 2"),
-    library.parts("Clarinet", 2),
-    baca.hairpin("mp < mf"),
     baca.pitch("Bb4"),
+    baca.hairpin("mp < mf"),
+    library.parts("Clarinet", 2),
 )
 
 # horns
@@ -247,128 +248,128 @@ crescendi = baca.suite(
 
 commands(
     "hn1",
-    library.parts("Horn", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("A3 B3", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Horn", 1),
 )
 
 commands(
     "hn3",
-    library.parts("Horn", 3),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Horn", 3),
 )
 
 commands(
     "hn2",
-    library.parts("Horn", 2),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("A3 B3", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Horn", 2),
 )
 
 commands(
     "hn4",
-    library.parts("Horn", 4),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Horn", 4),
 )
 
 # trumpets
 
 commands(
     "tp1",
-    library.parts("Trumpet", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("Ab4 Bb4", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Trumpet", 1),
 )
 
 commands(
     "tp3",
-    library.parts("Trumpet", 3),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("G4 A4", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Trumpet", 3),
 )
 
 commands(
     "tp2",
-    library.parts("Trumpet", 2),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("Ab4 Bb4", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Trumpet", 2),
 )
 
 commands(
     "tp4",
-    library.parts("Trumpet", 4),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("G4 A4", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Trumpet", 4),
 )
 
 # trombones
 
 commands(
     "tbn1",
-    library.parts("Trombone", 1),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Trombone", 1),
 )
 
 commands(
     "tbn3",
-    library.parts("Trombone", 3),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("G3 A3", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Trombone", 3),
 )
 
 commands(
     "tbn2",
-    library.parts("Trombone", 2),
-    baca.not_parts(baca.dynamic_up()),
-    baca.not_parts(baca.voice_one()),
     baca.pitches("Ab3 Bb3", persist="seconds"),
+    baca.not_parts(baca.voice_one()),
+    baca.not_parts(baca.dynamic_up()),
     crescendi,
+    library.parts("Trombone", 2),
 )
 
 commands(
     "tbn4",
-    library.parts("Trombone", 4),
-    baca.not_parts(baca.voice_two()),
     baca.pitches("G3 A3", persist="seconds"),
+    baca.not_parts(baca.voice_two()),
     crescendi,
+    library.parts("Trombone", 4),
 )
 
 # harp
 
 commands(
     "hp1",
-    library.parts("Harp"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Harp"),
 )
 
 # piano
 
 commands(
     "pf1",
-    library.parts("Piano"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Piano"),
 )
 
 # percussion
@@ -377,22 +378,22 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
+    baca.staff_position(0),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.hairpin(
         "niente o< p",
         selector=lambda _: baca.select.pleaves(_)[:3],
     ),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
 # vibraphone
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Percussion", 3),
 )
 
 # strings
@@ -417,93 +418,86 @@ commands(
     library.parts("Cello"),
 )
 
-stop_trill = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "vc1",
-]
-
 commands(
-    (stop_trill, 1),
-    baca.not_segment(baca.stop_trill()),
+    (["1vn1", "2vn1", "va1", "vc1"], 1),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
+    baca.not_segment(baca.stop_trill()),
 )
 
 commands(
     "1vn1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("A3", "G6"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("A3", "G6"),
 )
 
 commands(
     "2vn1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("A3", "G5"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("A3", "G5"),
 )
 
 commands(
     "va1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("A3", "G4"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("A3", "G4"),
 )
 
 commands(
     "vc1",
-    baca.articulation("trill"),
+    baca.interpolate_pitches("A3", "B2"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("f >", right_broken=True),
-    baca.interpolate_pitches("A3", "B2"),
 )
 
 commands(
     "cb3",
-    library.parts("Contrabass", (2, 6)),
+    baca.interpolate_pitches("A1", "G1"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
     ),
     baca.hairpin("ff >", right_broken=True),
-    baca.interpolate_pitches("A1", "G1"),
+    library.parts("Contrabass", (2, 6)),
 )
 
-# contrabass solo
+# cb1 (solo)
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),
+    baca.note_head_style_harmonic(),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Contrabass", 1),
 )
 
 if __name__ == "__main__":

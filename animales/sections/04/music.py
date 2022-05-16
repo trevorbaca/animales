@@ -4,13 +4,12 @@ import baca
 from animales import library
 
 #########################################################################################
-######################################### 04 [C] ########################################
+########################################### 04 ##########################################
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
 start = metadata.get("final_measure_number")
 assert start == 17
-
 
 score = library.make_empty_score(
     clarinets=[
@@ -54,6 +53,7 @@ score = library.make_empty_score(
         (2, [3]),
     ],
 )
+
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -111,7 +111,7 @@ commands(
 
 # BRASS
 
-brass_voices = [
+brass_voice_names = [
     "hn1",
     "hn2",
     "hn3",
@@ -124,34 +124,20 @@ brass_voices = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "Tuba.Voice.1",
+    "tub1",
 ]
 
 commands(
-    (brass_voices, (1, 2)),
+    (brass_voice_names, (1, 2)),
     baca.make_mmrests(),
 )
 
 library.make_brass_sforzando_material(commands, 3)
 
 commands(
-    (brass_voices, (4, 6)),
+    (brass_voice_names, (4, 6)),
     baca.make_mmrests(),
 )
-
-for voice_name in [
-    "hn1",
-    "hn2",
-    "tp1",
-    "tp2",
-    "tbn1",
-    "tbn2",
-    "Tuba.Voice.1",
-]:
-    commands(
-        voice_name,
-        baca.attach_first_appearance_default_indicators(),
-    )
 
 # STRINGS
 
@@ -184,34 +170,47 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# cl
-
 commands(
-    ("cl1", (1, 2)),
+    "cl1",
     baca.attach_first_appearance_default_indicators(),
 )
 
+for voice_name in [
+    "hn1",
+    "hn2",
+    "tp1",
+    "tp2",
+    "tbn1",
+    "tbn2",
+    "tub1",
+]:
+    commands(
+        voice_name,
+        baca.attach_first_appearance_default_indicators(),
+    )
+
+commands(
+    "cb3",
+    baca.attach_first_appearance_default_indicators(),
+)
+
+# cl1
+
 commands(
     ("cl1", (3, 6)),
+    baca.pitch("C5"),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
-    baca.pitch("C5"),
 )
 
 commands(
@@ -220,25 +219,22 @@ commands(
     library.parts("Clarinet", 3),
 )
 
-# perc
+# perc1, perc2
 
 commands(
-    [
-        ("perc1", (3, 6)),
-        ("perc2", (3, 6)),
-    ],
-    baca.dynamic("p"),
+    (["perc1", "perc2"], (3, 6)),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.dynamic("p"),
 )
 
 commands(
-    ("perc1", (3, 6)),
+    ("perc1", 3),
     baca.markup(r"\animales-triangle-small-beater-markup"),
 )
 
 commands(
-    ("perc2", (3, 6)),
+    ("perc2", 3),
     baca.markup(r"\animales-suspended-cymbal-markup"),
 )
 
@@ -292,19 +288,6 @@ commands(
 
 commands(
     ("1vn2", (3, 6)),
-    library.parts("First.Violin", 1),
-    baca.hairpin(
-        "p < f",
-        selector=library.leaves_in_measure(1, rleak=True),
-    ),
-    baca.hairpin(
-        "f > p",
-        selector=library.leaves_in_measure(-1, lleak=True),
-    ),
-    baca.edition("solo (first violin)", "solo"),
-    baca.not_parts(baca.dls_up()),
-    baca.not_parts(baca.voice_one()),
-    baca.only_parts(baca.stop_trill()),
     baca.suite(
         baca.untie(lambda _: baca.select.leaves(_)),
         library.glissando_positions(reverse=True),
@@ -321,53 +304,52 @@ commands(
         baca.tie(lambda _: baca.select.ptail(_, -2)),
         baca.glissando(),
     ),
+    library.parts("First.Violin", 1),
+    baca.edition("solo (first violin)", "solo"),
+    baca.not_parts(baca.dls_up()),
+    baca.not_parts(baca.voice_one()),
+    baca.only_parts(baca.stop_trill()),
+    baca.hairpin(
+        "p < f",
+        selector=library.leaves_in_measure(1, rleak=True),
+    ),
+    baca.hairpin(
+        "f > p",
+        selector=library.leaves_in_measure(-1, lleak=True),
+    ),
 )
-
-strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 commands(
     (strings, (1, 2)),
+    baca.pitch("Db4"),
     baca.accent(
         selector=lambda _: baca.select.pheads(_)[1:],
     ),
+    baca.trill_spanner(alteration="Eb4"),
     baca.dynamic(
         "f-sub-but-accents-continue-sffz",
         selector=lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.pitch("Db4"),
-    baca.trill_spanner(alteration="Eb4"),
 )
 
-raised_trill = [
-    "1vn3",
-    "2vn3",
-]
-
-unraised_trill = [
-    "1vn1",
-    "2vn1",
-    "va1",
-    "va3",
-    "vc1",
-]
 
 commands(
-    (raised_trill, (1, 2)),
+    (["1vn3", "2vn3"], (1, 2)),
     baca.trill_spanner_staff_padding(6),
 )
 
 commands(
-    (unraised_trill, (1, 2)),
+    (["1vn1", "2vn1", "va1", "va3", "vc1"], (1, 2)),
     baca.trill_spanner_staff_padding(4),
 )
 
 commands(
     (strings, (3, 6)),
-    baca.dynamic("p-sub"),
+    baca.pitch(0),
     baca.only_parts(
         baca.markup(r"\animales-still-non-vibrato-markup"),
     ),
-    baca.pitch(0),
+    baca.dynamic("p-sub"),
 )
 
 commands(
@@ -418,17 +400,12 @@ commands(
     library.parts("Cello"),
 )
 
-# contrabasses
-
-commands(
-    ("cb3", (1, 2)),
-    baca.attach_first_appearance_default_indicators(),
-)
+# cb3
 
 commands(
     ("cb3", (3, 6)),
-    baca.hairpin("p <", right_broken=True),
     baca.pitch("C2"),
+    baca.hairpin("p <", right_broken=True),
 )
 
 commands(
