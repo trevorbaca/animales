@@ -53,7 +53,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# PIANO
 
 commands(
     ("pf1", (1, 9)),
@@ -65,6 +65,8 @@ commands(
     baca.make_mmrests(),
 )
 
+# PERCUSSION
+
 commands(
     ("perc4", (1, 8)),
     baca.make_tied_repeated_durations([(1, 4)]),
@@ -75,34 +77,28 @@ commands(
     baca.make_mmrests(),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
 # fermatas
 
-library.attach_grand_pause_fermatas(commands, score, measure=-1)
+library.attach_grand_pause_fermatas(commands, score, measure=10)
 
-# piano
+# pf1
 
 commands(
     ("pf1", (1, 9)),
+    baca.pitch("C#4"),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
-    baca.pitch("C#4"),
     baca.only_parts(baca.text_script_x_offset(3)),
 )
 
@@ -111,7 +107,7 @@ commands(
     library.parts("Piano"),
 )
 
-# slate
+# perc4 (slate)
 
 commands(
     "perc4",
@@ -121,23 +117,11 @@ commands(
 commands(
     ("perc4", (1, 8)),
     library.margin_markup("Perc. 4 (slate)"),
-    baca.dynamic('"mf"'),
+    baca.staff_position(0),
     baca.markup(r"\animales-stonecircle-markup"),
     baca.only_parts(baca.text_script_x_offset(3)),
-    baca.staff_position(0),
+    baca.dynamic('"mf"'),
 )
-
-for voice in (
-    "perc4",
-    "pf1",
-):
-    commands(
-        (voice, 1),
-        baca.tag(
-            abjad.Tag("+TABLOID_SCORE"),
-            baca.literal(r"\magnifyStaff #10/7"),
-        ),
-    )
 
 commands(
     ("perc4", 10),
@@ -149,6 +133,17 @@ commands(
         selector=lambda _: baca.select.rleaf(_, -1),
     ),
 )
+
+# pf1, perc4
+
+for voice_name in ("pf1", "perc4"):
+    commands(
+        (voice_name, 1),
+        baca.tag(
+            abjad.Tag("+TABLOID_SCORE"),
+            baca.literal(r"\magnifyStaff #10/7"),
+        ),
+    )
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(

@@ -135,33 +135,27 @@ commands(
 
 library.make_battuti_material(commands, [[1, -17], [1, -17], [1, -17]])
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# after
+# brass
 
 library.assign_brass_sforzando_parts(commands)
 
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
-    baca.dynamic("p"),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    baca.dynamic("p"),
     library.parts("Percussion", 2),
 )
 

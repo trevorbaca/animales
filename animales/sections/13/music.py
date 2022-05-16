@@ -79,7 +79,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# WINDS
 
 commands(
     "cl1",
@@ -96,15 +96,19 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-commands(
-    "hp1",
-    library.make_harp_exchange_rhythm(2),
-)
+# PIANO, HARP
 
 commands(
     "pf1",
     library.make_harp_exchange_rhythm(3),
 )
+
+commands(
+    "hp1",
+    library.make_harp_exchange_rhythm(2),
+)
+
+# PERCUSSION
 
 commands(
     "perc1",
@@ -120,6 +124,8 @@ commands(
     "perc3",
     library.make_harp_exchange_rhythm(0),
 )
+
+# STRINGS
 
 commands(
     "1vn1",
@@ -151,147 +157,138 @@ commands(
     library.make_harp_exchange_rhythm(1),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# clarinet
+# cl1
 
 commands(
     "cl1",
     library.margin_markup("Cl. 1"),
-    library.parts("Clarinet", 1),
-    baca.hairpin("mp <", right_broken=True),
     baca.pitch("Eb5"),
+    baca.hairpin("mp <", right_broken=True),
+    library.parts("Clarinet", 1),
 )
 
-# bass clarinet
+# bcl1
+
+commands(
+    ("bcl1", (5, 6)),
+    baca.pitch("Ab2"),
+    baca.hairpin("o<", right_broken=True),
+)
 
 commands(
     "bcl1",
     library.parts("Bass.Clarinet"),
 )
 
-commands(
-    ("bcl1", (5, 6)),
-    baca.hairpin("o<", right_broken=True),
-    baca.pitch("Ab2"),
-)
-
-# harp
-
-commands(
-    "hp1",
-    library.parts("Harp"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.pitch("C5"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-)
-
-# piano
+# pf1, hp1
 
 commands(
     "pf1",
-    library.parts("Piano"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Piano"),
 )
 
-# triangle
+commands(
+    "hp1",
+    baca.pitch("C5"),
+    baca.stopped(selector=lambda _: baca.select.pheads(_)),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Harp"),
+)
+
+# perc1 (triangle)
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
+    baca.staff_position(0),
+    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.hairpin(
         "niente o< mp",
         selector=lambda _: baca.select.pleaves(_)[:4],
     ),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 1),
 )
 
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    library.parts("Percussion", 2),
 )
 
-# vibraphone
+# perc3 (vibraphone)
 
 commands(
     "perc3",
-    library.parts("Percussion", 3),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.pitch("C5"),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Percussion", 3),
 )
 
 # strings
 
 commands(
     "1vn1",
-    library.parts("First.Violin"),
-    baca.articulation("trill"),
+    baca.interpolate_pitches("Ab6", "A3"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_pitches("Ab6", "A3"),
+    library.parts("First.Violin"),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
-    baca.articulation("trill"),
+    baca.interpolate_pitches("Ab5", "A3"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_pitches("Ab5", "A3"),
+    library.parts("Second.Violin"),
 )
 
 commands(
     "va1",
-    library.parts("Viola"),
-    baca.articulation("trill"),
+    baca.interpolate_pitches("Ab4", "A3"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
         style="trill",
     ),
+    baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_pitches("Ab4", "A3"),
+    library.parts("Viola"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
-    baca.articulation("trill"),
+    baca.interpolate_pitches("Ab2", "A3"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
@@ -299,30 +296,31 @@ commands(
         style="trill",
     ),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_pitches("Ab2", "A3"),
+    baca.articulation("trill"),
+    library.parts("Cello"),
 )
 
 commands(
     "cb3",
-    library.parts("Contrabass", (2, 6)),
-    baca.articulation("trill"),
+    baca.interpolate_pitches("Ab1", "G1"),
     baca.glissando(
         allow_repeats=True,
         hide_middle_note_heads=True,
         right_broken=True,
     ),
+    baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    baca.interpolate_pitches("Ab1", "G1"),
+    library.parts("Contrabass", (2, 6)),
 )
 
-# contrabass solo
+# cb1 (solo)
 
 commands(
     "cb1",
-    library.parts("Contrabass", 1),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.note_head_style_harmonic(),
     baca.pitch("Cqf5", do_not_transpose=True),
+    baca.note_head_style_harmonic(),
+    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    library.parts("Contrabass", 1),
 )
 
 if __name__ == "__main__":

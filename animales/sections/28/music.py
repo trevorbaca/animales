@@ -86,7 +86,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# PERCUSSION
 
 commands(
     "perc1",
@@ -120,29 +120,25 @@ commands(
     ),
 )
 
+# STRINGS
+
 library.make_battuti_material(
     commands,
     [[1, 1, -5], [1, 1, -5], [1, -8]],
     omit_contrabasses=True,
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
-# triangle
+# perc1 (triangle)
 
 commands(
     "perc1",
@@ -151,7 +147,7 @@ commands(
     library.parts("Percussion", 1),
 )
 
-# cymbal
+# perc2 (cymbal)
 
 commands(
     "perc2",
@@ -160,7 +156,7 @@ commands(
     library.parts("Percussion", 2),
 )
 
-# bass drum
+# perc3 (BD)
 
 commands(
     "perc3",
@@ -169,7 +165,7 @@ commands(
     library.parts("Percussion", 3),
 )
 
-# tam-tam
+# perc4 (tam-tam)
 
 commands(
     "perc4",

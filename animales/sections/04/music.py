@@ -181,26 +181,7 @@ commands(
 )
 
 commands(
-    "cl1",
-    baca.attach_first_appearance_default_indicators(),
-)
-
-for voice_name in [
-    "hn1",
-    "hn2",
-    "tp1",
-    "tp2",
-    "tbn1",
-    "tbn2",
-    "tub1",
-]:
-    commands(
-        voice_name,
-        baca.attach_first_appearance_default_indicators(),
-    )
-
-commands(
-    "cb3",
+    ["cl1", "hn1", "hn2", "tp1", "tp2", "tbn1", "tbn2", "tub1", "cb3"],
     baca.attach_first_appearance_default_indicators(),
 )
 

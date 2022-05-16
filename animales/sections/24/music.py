@@ -100,7 +100,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# BRASS
 
 library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
 
@@ -117,7 +117,7 @@ brass_voices = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "Tuba.Voice.1",
+    "tub1",
 ]
 
 commands(
@@ -125,18 +125,20 @@ commands(
     baca.make_mmrests(),
 )
 
+# STRINGS
+
 library.make_battuti_material(commands, [[1, -55], [1, -17], [1, -17]])
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
 )
 
-# after
+# brass
 
 library.assign_brass_sforzando_parts(commands)
 

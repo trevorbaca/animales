@@ -91,7 +91,7 @@ commands(
     ),
 )
 
-# RHYTHM
+# PERCUSSION
 
 commands(
     ("perc1", (1, 3)),
@@ -106,6 +106,8 @@ commands(
     baca.make_mmrests(),
 )
 
+# STRINGS
+
 library.make_battuti_material(
     commands,
     [[1, -17], [1, -17], [1, -17]],
@@ -114,27 +116,21 @@ library.make_battuti_material(
     range_=(1, 3),
 )
 
-# phantom
+# phantom & reapply
 
-all_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
-    all_voices,
+    music_voices,
     baca.append_phantom_measure(),
-)
-
-# reapply
-
-commands(
-    all_voices,
     baca.reapply_persistent_indicators(),
 )
 
 # fermatas
 
-library.attach_grand_pause_fermatas(commands, score, measure=-1)
+library.attach_grand_pause_fermatas(commands, score, measure=4)
 
-# triangle
+# perc1 (triangle)
 
 commands(
     ("perc1", (1, 3)),
