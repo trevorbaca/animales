@@ -106,7 +106,7 @@ commands(
 
 commands(
     (["fl1", "fl2", "fl3", "fl4"], (4, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -116,7 +116,7 @@ commands(
 
 commands(
     ("bcl1", 2),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -126,7 +126,7 @@ commands(
 
 commands(
     ("bcl1", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PIANO, HARP
@@ -138,7 +138,7 @@ commands(
 
 commands(
     ("pf1", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -148,7 +148,7 @@ commands(
 
 commands(
     ("hp1", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERCUSSION
@@ -160,7 +160,7 @@ commands(
 
 commands(
     ("perc1", (4, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -170,7 +170,7 @@ commands(
 
 commands(
     ("perc2", (4, 7)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -180,7 +180,7 @@ commands(
 
 commands(
     ("perc3", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # STRINGS
@@ -217,7 +217,7 @@ commands(
 
 commands(
     ("cb1", 7),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # phantom & reapply

@@ -127,7 +127,7 @@ absent_left_broken = ["1vn3", "2vn3", "va3"]
 
 commands(
     absent_left_broken,
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # phantom & reapply

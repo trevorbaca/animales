@@ -101,7 +101,7 @@ commands(
 
 commands(
     "perc2",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(

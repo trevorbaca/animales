@@ -103,7 +103,7 @@ commands(
 
 commands(
     ("perc1", 4),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # STRINGS

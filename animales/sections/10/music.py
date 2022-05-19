@@ -96,7 +96,7 @@ commands(
 
 commands(
     ("bcl1", (4, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # BRASS
@@ -177,7 +177,7 @@ commands(
 
 commands(
     "perc2",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(

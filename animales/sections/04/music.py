@@ -79,7 +79,7 @@ commands(
 
 commands(
     ("cl1", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -91,12 +91,12 @@ commands(
 
 commands(
     ("perc1", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
     ("perc2", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -129,21 +129,21 @@ brass_voice_names = [
 
 commands(
     (brass_voice_names, (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 library.make_brass_sforzando_material(commands, 3)
 
 commands(
     (brass_voice_names, (4, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # STRINGS
 
 commands(
     ("1vn2", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -162,7 +162,7 @@ commands(
 
 commands(
     ("cb3", (1, 2)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
