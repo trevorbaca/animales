@@ -50,17 +50,17 @@ commands(
 
 commands(
     "perc1",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
     "perc2",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
     "perc4",
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # STRINGS
