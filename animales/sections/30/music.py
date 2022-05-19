@@ -62,7 +62,7 @@ commands(
 
 commands(
     ("pf1", 10),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERCUSSION
@@ -74,7 +74,7 @@ commands(
 
 commands(
     ("perc4", (9, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # phantom & reapply

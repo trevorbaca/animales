@@ -95,7 +95,7 @@ commands(
 
 commands(
     ("ob1", (6, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -105,7 +105,7 @@ commands(
 
 commands(
     ("eh1", (6, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(
@@ -120,7 +120,7 @@ commands(
 
 commands(
     (["bsn1", "bsn2"], (6, 10)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # BRASS

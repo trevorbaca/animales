@@ -131,7 +131,7 @@ commands(
         "perc3",
         "perc4",
     ],
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(

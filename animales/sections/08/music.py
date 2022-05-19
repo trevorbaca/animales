@@ -77,7 +77,7 @@ commands(
 
 commands(
     ("bcl1", (1, 4)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 commands(

@@ -125,7 +125,7 @@ brass_voices = [
 
 commands(
     (brass_voices, (2, 3)),
-    baca.make_mmrests(),
+    baca.make_mmrests_flat(),
 )
 
 # PERCUSSION
