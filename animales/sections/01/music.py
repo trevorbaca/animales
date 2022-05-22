@@ -70,10 +70,15 @@ library.make_trill_rhythm(commands)
 # phantom & reapply
 
 music_voices = [_ for _ in voice_names if ".Voice" in _]
+nonpercussion_voices = [_ for _ in music_voices if "Percussion" not in _]
+
+commands(
+    nonpercussion_voices,
+    baca.append_anchor_note(),
+)
 
 commands(
     music_voices,
-    baca.append_phantom_measure(),
     baca.attach_first_segment_default_indicators(),
 )
 
