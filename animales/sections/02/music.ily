@@ -651,135 +651,67 @@ segment.02.First.Violin.Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.1 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "First.Violin.Rest_Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [First.Violin.Rest_Voice.1 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [First.Violin.Voice.1 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    b'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -1060,135 +992,67 @@ segment.02.First.Violin.Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.3 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "First.Violin.Rest_Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [First.Violin.Rest_Voice.3 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [First.Violin.Voice.3 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    b'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -1443,135 +1307,67 @@ segment.02.Second.Violin.Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.1 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Second.Violin.Rest_Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Second.Violin.Rest_Voice.1 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [Second.Violin.Voice.1 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    b'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -1852,135 +1648,67 @@ segment.02.Second.Violin.Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.3 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            b'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Second.Violin.Rest_Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Second.Violin.Rest_Voice.3 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [Second.Violin.Voice.3 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    b'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -2247,135 +1975,67 @@ segment.02.Viola.Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Viola.Voice.1 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            c'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Viola.Rest_Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Viola.Rest_Voice.1 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [Viola.Voice.1 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    c'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -2618,135 +2278,67 @@ segment.02.Viola.Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Viola.Voice.3 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            c'1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Viola.Rest_Voice.3"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Viola.Rest_Voice.3 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [Viola.Voice.3 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    c'1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 
@@ -3023,135 +2615,67 @@ segment.02.Cello.Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Cello.Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Cello.Voice.1 measure 7]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-            % GROB_OVERRIDES:
-            \once \override Accidental.stencil = ##f
-            \once \override NoteColumn.ignore-collision = ##t
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            a1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! NOTE
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % SPANNER_STOPS:
-              %! PHANTOM
-              %! RIGHT_BROKEN
-              %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(3)
-              %! baca._style_phantom_measures(5)
-              %! baca.trill_spanner()
-            \stopTrillSpan
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Cello.Rest_Voice.1"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Cello.Rest_Voice.1 measure 7]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
+      %! baca._comment_measure_numbers()
+      %! baca._style_anchor_notes()
+    % [Cello.Voice.1 measure 7]
+    % BEFORE:
+    % COMMANDS:
+      %! INVISIBLE_MUSIC_COMMAND
+      %! NOTE
       %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(3)
+    %@% \abjad-invisible-music
+      %! INVISIBLE_MUSIC_COLORING
+      %! NOTE
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(2)
+    \abjad-invisible-music-coloring
+      %! HIDDEN
+      %! NOTE
+      %! NOT_YET_PITCHED_COLORING
+      %! PHANTOM
+      %! baca._color_not_yet_pitched()
+      %! baca._style_anchor_notes()
+    \baca-not-yet-pitched-coloring
+    % OPENING:
+    % COMMANDS:
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \stopStaff
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \once \override Staff.StaffSymbol.transparent = ##t
+      %! PHANTOM
+      %! baca._style_anchor_notes()
+      %! baca.append_anchor_note(4)
+    \startStaff
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca.append_anchor_note(1)
+    a1 * 1/4
+    % AFTER:
+    % MARKUP:
+      %! DURATION_MULTIPLIER
+      %! HIDDEN
+      %! NOTE
+      %! PHANTOM
+      %! baca._label_duration_multipliers()
+      %! baca._style_anchor_notes()
+    %@% ^ \baca-duration-multiplier-markup #"1" #"4"
+    % SPANNER_STOPS:
+      %! PHANTOM
+      %! RIGHT_BROKEN
+      %! SPANNER_STOP
+      %! baca.SpannerIndicatorCommand._call(3)
+      %! baca._style_anchor_notes()
+      %! baca.trill_spanner()
+    \stopTrillSpan
     % CLOSING:
     % COMMANDS:
 

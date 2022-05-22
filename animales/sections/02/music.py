@@ -60,7 +60,7 @@ music_voices = [_ for _ in voice_names if ".Voice" in _]
 
 commands(
     music_voices,
-    baca.append_phantom_measure(),
+    baca.append_anchor_note(),
     baca.reapply_persistent_indicators(),
 )
 
