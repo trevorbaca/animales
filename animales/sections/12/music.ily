@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.12.Global.Rests.part.1 = {
+segment.12.Global_Rests.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -37,7 +37,7 @@ segment.12.Global.Rests.part.1 = {
 
 
   %! baca.path.extern()
-segment.12.Global.Rests.part.2 = {
+segment.12.Global_Rests.part.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -75,19 +75,19 @@ segment.12.Global.Rests.part.2 = {
 
 
   %! baca.path.extern()
-segment.12.Global.Rests = {
+segment.12.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.12.Global.Rests.part.1 }
+    { \segment.12.Global_Rests.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.12.Global.Rests.part.2 }
+    { \segment.12.Global_Rests.part.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -108,7 +108,7 @@ segment.12.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.12.Global.Skips = {
+segment.12.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

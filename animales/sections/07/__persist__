@@ -73,11 +73,11 @@
             baca.PartAssignment("First.Violin"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "segment.07.Global.Rests.part.1": (
+        "segment.07.Global_Rests.part.1": (
             baca.PartAssignment("Clarinet", 2),
             Timespan(Offset((0, 1)), Offset((7, 2))),
         ),
-        "segment.07.Global.Rests.part.2": (
+        "segment.07.Global_Rests.part.2": (
             baca.PartAssignment("Clarinet", 1),
             Timespan(Offset((7, 2)), Offset((7, 1))),
         ),

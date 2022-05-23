@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.21.Global.Rests = {
+segment.21.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -41,7 +41,7 @@ segment.21.Global.Rests = {
 
 
   %! baca.path.extern()
-segment.21.Global.Skips = {
+segment.21.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
