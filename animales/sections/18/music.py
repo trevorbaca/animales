@@ -257,7 +257,7 @@ for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
     voice = voice_abbreviations.get(voice, voice)
-    if voice != "First.Violin.Voice.5":
+    if voice != "First.Violin.Music_Voice.5":
         commands(
             (voice, (1, 3)),
             baca.make_mmrests_flat(),
@@ -278,7 +278,7 @@ for voice, items in string_parts.items():
             (voice, 12),
             baca.make_mmrests_flat(),
         )
-    section = ".".join(abjad.string.delimit_words(voice)[:-2])
+    section = ".".join(voice.split(".")[:-2])
     members = items[0]
     commands_.append(library.parts(section, members))
     if items[1] is True:
@@ -295,7 +295,7 @@ for voice, items in string_parts.items():
         voice,
         *commands_,
     )
-    if voice == "First.Violin.Voice.5":
+    if voice == "First.Violin.Music_Voice.5":
         continue
     commands(
         (voice, (4, 7)),
@@ -308,10 +308,10 @@ for voice, items in string_parts.items():
 
 # phantom & reapply
 
-music_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    music_voices,
+    music_voice_names,
     baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )

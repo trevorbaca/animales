@@ -724,12 +724,12 @@ segment.18.Global_Skips = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.1.part.1 = {
+segment.18.Horn.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 1]
+    % [Horn.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -825,7 +825,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 2]
+    % [Horn.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -837,7 +837,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 3]
+    % [Horn.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -863,7 +863,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 4]
+    % [Horn.Music_Voice.1 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -875,7 +875,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 5]
+    % [Horn.Music_Voice.1 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -887,7 +887,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 6]
+    % [Horn.Music_Voice.1 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -899,7 +899,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 7]
+    % [Horn.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -911,7 +911,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 8]
+    % [Horn.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -937,7 +937,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 9]
+    % [Horn.Music_Voice.1 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -949,7 +949,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 10]
+    % [Horn.Music_Voice.1 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -961,7 +961,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 11]
+    % [Horn.Music_Voice.1 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -973,7 +973,7 @@ segment.18.Horn.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.1 measure 12]
+    % [Horn.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -990,13 +990,13 @@ segment.18.Horn.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.1 = {
+segment.18.Horn.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.1.part.1 }
+    { \segment.18.Horn.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1010,7 +1010,7 @@ segment.18.Horn.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Horn.Voice.1"
+        \context Voice = "Horn.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -1020,7 +1020,7 @@ segment.18.Horn.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Horn.Voice.1 measure 13]
+            % [Horn.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -1128,12 +1128,12 @@ segment.18.Horn.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.3.part.1 = {
+segment.18.Horn.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 1]
+    % [Horn.Music_Voice.3 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -1174,7 +1174,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 2]
+    % [Horn.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1186,7 +1186,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 3]
+    % [Horn.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1212,7 +1212,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 4]
+    % [Horn.Music_Voice.3 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1224,7 +1224,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 5]
+    % [Horn.Music_Voice.3 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1236,7 +1236,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 6]
+    % [Horn.Music_Voice.3 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1248,7 +1248,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 7]
+    % [Horn.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1260,7 +1260,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 8]
+    % [Horn.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1286,7 +1286,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 9]
+    % [Horn.Music_Voice.3 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1298,7 +1298,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 10]
+    % [Horn.Music_Voice.3 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1310,7 +1310,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 11]
+    % [Horn.Music_Voice.3 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1322,7 +1322,7 @@ segment.18.Horn.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.3 measure 12]
+    % [Horn.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -1339,13 +1339,13 @@ segment.18.Horn.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.3 = {
+segment.18.Horn.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.3.part.1 }
+    { \segment.18.Horn.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1359,7 +1359,7 @@ segment.18.Horn.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Horn.Voice.3"
+        \context Voice = "Horn.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -1369,7 +1369,7 @@ segment.18.Horn.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Horn.Voice.3 measure 13]
+            % [Horn.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -1483,19 +1483,19 @@ segment.18.Horn.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Horn.Voice.1"
+    \context Voice = "Horn.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.1 }
+    { \segment.18.Horn.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Horn.Voice.3"
+    \context Voice = "Horn.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.3 }
+    { \segment.18.Horn.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -1506,12 +1506,12 @@ segment.18.Horn.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.2.part.1 = {
+segment.18.Horn.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 1]
+    % [Horn.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -1607,7 +1607,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 2]
+    % [Horn.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1619,7 +1619,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 3]
+    % [Horn.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1645,7 +1645,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 4]
+    % [Horn.Music_Voice.2 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1657,7 +1657,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 5]
+    % [Horn.Music_Voice.2 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1669,7 +1669,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 6]
+    % [Horn.Music_Voice.2 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1681,7 +1681,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 7]
+    % [Horn.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1693,7 +1693,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 8]
+    % [Horn.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1719,7 +1719,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 9]
+    % [Horn.Music_Voice.2 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1731,7 +1731,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 10]
+    % [Horn.Music_Voice.2 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1743,7 +1743,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 11]
+    % [Horn.Music_Voice.2 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -1755,7 +1755,7 @@ segment.18.Horn.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.2 measure 12]
+    % [Horn.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -1772,13 +1772,13 @@ segment.18.Horn.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.2 = {
+segment.18.Horn.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.2.part.1 }
+    { \segment.18.Horn.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1792,7 +1792,7 @@ segment.18.Horn.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Horn.Voice.2"
+        \context Voice = "Horn.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -1802,7 +1802,7 @@ segment.18.Horn.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Horn.Voice.2 measure 13]
+            % [Horn.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -1910,12 +1910,12 @@ segment.18.Horn.Voice.2 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.4.part.1 = {
+segment.18.Horn.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 1]
+    % [Horn.Music_Voice.4 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -1956,7 +1956,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 2]
+    % [Horn.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -1968,7 +1968,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 3]
+    % [Horn.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1994,7 +1994,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 4]
+    % [Horn.Music_Voice.4 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2006,7 +2006,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 5]
+    % [Horn.Music_Voice.4 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2018,7 +2018,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 6]
+    % [Horn.Music_Voice.4 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2030,7 +2030,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 7]
+    % [Horn.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2042,7 +2042,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 8]
+    % [Horn.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -2068,7 +2068,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 9]
+    % [Horn.Music_Voice.4 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2080,7 +2080,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 10]
+    % [Horn.Music_Voice.4 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2092,7 +2092,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 11]
+    % [Horn.Music_Voice.4 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2104,7 +2104,7 @@ segment.18.Horn.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Horn.Voice.4 measure 12]
+    % [Horn.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -2121,13 +2121,13 @@ segment.18.Horn.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Horn.Voice.4 = {
+segment.18.Horn.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.4.part.1 }
+    { \segment.18.Horn.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2141,7 +2141,7 @@ segment.18.Horn.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Horn.Voice.4"
+        \context Voice = "Horn.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -2151,7 +2151,7 @@ segment.18.Horn.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Horn.Voice.4 measure 13]
+            % [Horn.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -2265,19 +2265,19 @@ segment.18.Horn.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Horn.Voice.2"
+    \context Voice = "Horn.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.2 }
+    { \segment.18.Horn.Music_Voice.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Horn.Voice.4"
+    \context Voice = "Horn.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Horn.Voice.4 }
+    { \segment.18.Horn.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -2288,12 +2288,12 @@ segment.18.Horn.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.1.part.1 = {
+segment.18.Trumpet.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 1]
+    % [Trumpet.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -2389,7 +2389,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 2]
+    % [Trumpet.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2401,7 +2401,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 3]
+    % [Trumpet.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -2427,7 +2427,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 4]
+    % [Trumpet.Music_Voice.1 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2439,7 +2439,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 5]
+    % [Trumpet.Music_Voice.1 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2451,7 +2451,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 6]
+    % [Trumpet.Music_Voice.1 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2463,7 +2463,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 7]
+    % [Trumpet.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2475,7 +2475,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 8]
+    % [Trumpet.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -2501,7 +2501,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 9]
+    % [Trumpet.Music_Voice.1 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2513,7 +2513,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 10]
+    % [Trumpet.Music_Voice.1 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2525,7 +2525,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 11]
+    % [Trumpet.Music_Voice.1 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2537,7 +2537,7 @@ segment.18.Trumpet.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.1 measure 12]
+    % [Trumpet.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -2554,13 +2554,13 @@ segment.18.Trumpet.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.1 = {
+segment.18.Trumpet.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.1.part.1 }
+    { \segment.18.Trumpet.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2574,7 +2574,7 @@ segment.18.Trumpet.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trumpet.Voice.1"
+        \context Voice = "Trumpet.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -2584,7 +2584,7 @@ segment.18.Trumpet.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trumpet.Voice.1 measure 13]
+            % [Trumpet.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -2692,12 +2692,12 @@ segment.18.Trumpet.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.3.part.1 = {
+segment.18.Trumpet.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 1]
+    % [Trumpet.Music_Voice.3 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -2738,7 +2738,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 2]
+    % [Trumpet.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2750,7 +2750,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 3]
+    % [Trumpet.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -2776,7 +2776,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 4]
+    % [Trumpet.Music_Voice.3 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2788,7 +2788,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 5]
+    % [Trumpet.Music_Voice.3 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2800,7 +2800,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 6]
+    % [Trumpet.Music_Voice.3 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2812,7 +2812,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 7]
+    % [Trumpet.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2824,7 +2824,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 8]
+    % [Trumpet.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -2850,7 +2850,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 9]
+    % [Trumpet.Music_Voice.3 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -2862,7 +2862,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 10]
+    % [Trumpet.Music_Voice.3 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2874,7 +2874,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 11]
+    % [Trumpet.Music_Voice.3 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -2886,7 +2886,7 @@ segment.18.Trumpet.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.3 measure 12]
+    % [Trumpet.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -2903,13 +2903,13 @@ segment.18.Trumpet.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.3 = {
+segment.18.Trumpet.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.3.part.1 }
+    { \segment.18.Trumpet.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2923,7 +2923,7 @@ segment.18.Trumpet.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trumpet.Voice.3"
+        \context Voice = "Trumpet.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -2933,7 +2933,7 @@ segment.18.Trumpet.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trumpet.Voice.3 measure 13]
+            % [Trumpet.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -3047,19 +3047,19 @@ segment.18.Trumpet.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trumpet.Voice.1"
+    \context Voice = "Trumpet.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.1 }
+    { \segment.18.Trumpet.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trumpet.Voice.3"
+    \context Voice = "Trumpet.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.3 }
+    { \segment.18.Trumpet.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -3070,12 +3070,12 @@ segment.18.Trumpet.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.2.part.1 = {
+segment.18.Trumpet.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 1]
+    % [Trumpet.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -3171,7 +3171,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 2]
+    % [Trumpet.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3183,7 +3183,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 3]
+    % [Trumpet.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -3209,7 +3209,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 4]
+    % [Trumpet.Music_Voice.2 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3221,7 +3221,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 5]
+    % [Trumpet.Music_Voice.2 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3233,7 +3233,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 6]
+    % [Trumpet.Music_Voice.2 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3245,7 +3245,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 7]
+    % [Trumpet.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3257,7 +3257,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 8]
+    % [Trumpet.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -3283,7 +3283,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 9]
+    % [Trumpet.Music_Voice.2 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3295,7 +3295,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 10]
+    % [Trumpet.Music_Voice.2 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3307,7 +3307,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 11]
+    % [Trumpet.Music_Voice.2 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3319,7 +3319,7 @@ segment.18.Trumpet.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.2 measure 12]
+    % [Trumpet.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -3336,13 +3336,13 @@ segment.18.Trumpet.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.2 = {
+segment.18.Trumpet.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.2.part.1 }
+    { \segment.18.Trumpet.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3356,7 +3356,7 @@ segment.18.Trumpet.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trumpet.Voice.2"
+        \context Voice = "Trumpet.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -3366,7 +3366,7 @@ segment.18.Trumpet.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trumpet.Voice.2 measure 13]
+            % [Trumpet.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -3474,12 +3474,12 @@ segment.18.Trumpet.Voice.2 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.4.part.1 = {
+segment.18.Trumpet.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 1]
+    % [Trumpet.Music_Voice.4 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -3520,7 +3520,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 2]
+    % [Trumpet.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3532,7 +3532,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 3]
+    % [Trumpet.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -3558,7 +3558,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 4]
+    % [Trumpet.Music_Voice.4 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3570,7 +3570,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 5]
+    % [Trumpet.Music_Voice.4 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3582,7 +3582,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 6]
+    % [Trumpet.Music_Voice.4 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3594,7 +3594,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 7]
+    % [Trumpet.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3606,7 +3606,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 8]
+    % [Trumpet.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -3632,7 +3632,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 9]
+    % [Trumpet.Music_Voice.4 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3644,7 +3644,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 10]
+    % [Trumpet.Music_Voice.4 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3656,7 +3656,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 11]
+    % [Trumpet.Music_Voice.4 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3668,7 +3668,7 @@ segment.18.Trumpet.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trumpet.Voice.4 measure 12]
+    % [Trumpet.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -3685,13 +3685,13 @@ segment.18.Trumpet.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trumpet.Voice.4 = {
+segment.18.Trumpet.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.4.part.1 }
+    { \segment.18.Trumpet.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3705,7 +3705,7 @@ segment.18.Trumpet.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trumpet.Voice.4"
+        \context Voice = "Trumpet.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -3715,7 +3715,7 @@ segment.18.Trumpet.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trumpet.Voice.4 measure 13]
+            % [Trumpet.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -3829,19 +3829,19 @@ segment.18.Trumpet.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trumpet.Voice.2"
+    \context Voice = "Trumpet.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.2 }
+    { \segment.18.Trumpet.Music_Voice.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trumpet.Voice.4"
+    \context Voice = "Trumpet.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trumpet.Voice.4 }
+    { \segment.18.Trumpet.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -3852,12 +3852,12 @@ segment.18.Trumpet.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.1.part.1 = {
+segment.18.Trombone.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 1]
+    % [Trombone.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -3953,7 +3953,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 2]
+    % [Trombone.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -3965,7 +3965,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 3]
+    % [Trombone.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -3991,7 +3991,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 4]
+    % [Trombone.Music_Voice.1 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4003,7 +4003,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 5]
+    % [Trombone.Music_Voice.1 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4015,7 +4015,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 6]
+    % [Trombone.Music_Voice.1 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4027,7 +4027,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 7]
+    % [Trombone.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4039,7 +4039,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 8]
+    % [Trombone.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -4065,7 +4065,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 9]
+    % [Trombone.Music_Voice.1 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4077,7 +4077,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 10]
+    % [Trombone.Music_Voice.1 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4089,7 +4089,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 11]
+    % [Trombone.Music_Voice.1 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4101,7 +4101,7 @@ segment.18.Trombone.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.1 measure 12]
+    % [Trombone.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -4118,13 +4118,13 @@ segment.18.Trombone.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.1 = {
+segment.18.Trombone.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.1.part.1 }
+    { \segment.18.Trombone.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4138,7 +4138,7 @@ segment.18.Trombone.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trombone.Voice.1"
+        \context Voice = "Trombone.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -4148,7 +4148,7 @@ segment.18.Trombone.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trombone.Voice.1 measure 13]
+            % [Trombone.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -4256,12 +4256,12 @@ segment.18.Trombone.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.3.part.1 = {
+segment.18.Trombone.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 1]
+    % [Trombone.Music_Voice.3 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -4302,7 +4302,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 2]
+    % [Trombone.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4314,7 +4314,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 3]
+    % [Trombone.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -4340,7 +4340,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 4]
+    % [Trombone.Music_Voice.3 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4352,7 +4352,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 5]
+    % [Trombone.Music_Voice.3 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4364,7 +4364,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 6]
+    % [Trombone.Music_Voice.3 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4376,7 +4376,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 7]
+    % [Trombone.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4388,7 +4388,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 8]
+    % [Trombone.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -4414,7 +4414,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 9]
+    % [Trombone.Music_Voice.3 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4426,7 +4426,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 10]
+    % [Trombone.Music_Voice.3 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4438,7 +4438,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 11]
+    % [Trombone.Music_Voice.3 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4450,7 +4450,7 @@ segment.18.Trombone.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.3 measure 12]
+    % [Trombone.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -4467,13 +4467,13 @@ segment.18.Trombone.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.3 = {
+segment.18.Trombone.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.3.part.1 }
+    { \segment.18.Trombone.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4487,7 +4487,7 @@ segment.18.Trombone.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trombone.Voice.3"
+        \context Voice = "Trombone.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -4497,7 +4497,7 @@ segment.18.Trombone.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trombone.Voice.3 measure 13]
+            % [Trombone.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -4611,19 +4611,19 @@ segment.18.Trombone.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trombone.Voice.1"
+    \context Voice = "Trombone.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.1 }
+    { \segment.18.Trombone.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trombone.Voice.3"
+    \context Voice = "Trombone.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.3 }
+    { \segment.18.Trombone.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -4634,12 +4634,12 @@ segment.18.Trombone.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.2.part.1 = {
+segment.18.Trombone.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 1]
+    % [Trombone.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -4735,7 +4735,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 2]
+    % [Trombone.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4747,7 +4747,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 3]
+    % [Trombone.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -4773,7 +4773,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 4]
+    % [Trombone.Music_Voice.2 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4785,7 +4785,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 5]
+    % [Trombone.Music_Voice.2 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4797,7 +4797,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 6]
+    % [Trombone.Music_Voice.2 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4809,7 +4809,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 7]
+    % [Trombone.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4821,7 +4821,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 8]
+    % [Trombone.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -4847,7 +4847,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 9]
+    % [Trombone.Music_Voice.2 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -4859,7 +4859,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 10]
+    % [Trombone.Music_Voice.2 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4871,7 +4871,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 11]
+    % [Trombone.Music_Voice.2 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -4883,7 +4883,7 @@ segment.18.Trombone.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.2 measure 12]
+    % [Trombone.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -4900,13 +4900,13 @@ segment.18.Trombone.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.2 = {
+segment.18.Trombone.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.2.part.1 }
+    { \segment.18.Trombone.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4920,7 +4920,7 @@ segment.18.Trombone.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trombone.Voice.2"
+        \context Voice = "Trombone.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -4930,7 +4930,7 @@ segment.18.Trombone.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trombone.Voice.2 measure 13]
+            % [Trombone.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -5038,12 +5038,12 @@ segment.18.Trombone.Voice.2 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.4.part.1 = {
+segment.18.Trombone.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 1]
+    % [Trombone.Music_Voice.4 measure 1]
     % OPENING:
     % COMMANDS:
       %! -PARTS
@@ -5084,7 +5084,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 2]
+    % [Trombone.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -5096,7 +5096,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 3]
+    % [Trombone.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -5122,7 +5122,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 4]
+    % [Trombone.Music_Voice.4 measure 4]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -5134,7 +5134,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 5]
+    % [Trombone.Music_Voice.4 measure 5]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -5146,7 +5146,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 6]
+    % [Trombone.Music_Voice.4 measure 6]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -5158,7 +5158,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 7]
+    % [Trombone.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -5170,7 +5170,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 8]
+    % [Trombone.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -5196,7 +5196,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 9]
+    % [Trombone.Music_Voice.4 measure 9]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -5208,7 +5208,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 10]
+    % [Trombone.Music_Voice.4 measure 10]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -5220,7 +5220,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 11]
+    % [Trombone.Music_Voice.4 measure 11]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -5232,7 +5232,7 @@ segment.18.Trombone.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Trombone.Voice.4 measure 12]
+    % [Trombone.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -5249,13 +5249,13 @@ segment.18.Trombone.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Trombone.Voice.4 = {
+segment.18.Trombone.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.4.part.1 }
+    { \segment.18.Trombone.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5269,7 +5269,7 @@ segment.18.Trombone.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Trombone.Voice.4"
+        \context Voice = "Trombone.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -5279,7 +5279,7 @@ segment.18.Trombone.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Trombone.Voice.4 measure 13]
+            % [Trombone.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -5393,19 +5393,19 @@ segment.18.Trombone.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trombone.Voice.2"
+    \context Voice = "Trombone.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.2 }
+    { \segment.18.Trombone.Music_Voice.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Trombone.Voice.4"
+    \context Voice = "Trombone.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Trombone.Voice.4 }
+    { \segment.18.Trombone.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -5416,12 +5416,12 @@ segment.18.Trombone.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.1.part.1 = {
+segment.18.First.Violin.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 1]
+    % [First.Violin.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -5513,7 +5513,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 2]
+    % [First.Violin.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -5525,7 +5525,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 3]
+    % [First.Violin.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -5551,7 +5551,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 4]
+    % [First.Violin.Music_Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5615,7 +5615,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 5]
+    % [First.Violin.Music_Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5634,7 +5634,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 6]
+    % [First.Violin.Music_Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5719,7 +5719,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 7]
+    % [First.Violin.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -5751,7 +5751,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 8]
+    % [First.Violin.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -5777,7 +5777,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 9]
+    % [First.Violin.Music_Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     a''2.
     % AFTER:
@@ -5841,7 +5841,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 10]
+    % [First.Violin.Music_Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5860,7 +5860,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 11]
+    % [First.Violin.Music_Voice.1 measure 11]
       %! baca.make_repeat_tied_notes()
     a''1
     % AFTER:
@@ -5945,7 +5945,7 @@ segment.18.First.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.1 measure 12]
+    % [First.Violin.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -5999,13 +5999,13 @@ segment.18.First.Violin.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.1 = {
+segment.18.First.Violin.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.1.part.1 }
+    { \segment.18.First.Violin.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6019,7 +6019,7 @@ segment.18.First.Violin.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.1"
+        \context Voice = "First.Violin.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -6029,7 +6029,7 @@ segment.18.First.Violin.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.1 measure 13]
+            % [First.Violin.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -6137,12 +6137,12 @@ segment.18.First.Violin.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.2.part.1 = {
+segment.18.First.Violin.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 1]
+    % [First.Violin.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -6177,7 +6177,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 2]
+    % [First.Violin.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -6189,7 +6189,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 3]
+    % [First.Violin.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -6215,7 +6215,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 4]
+    % [First.Violin.Music_Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     f''1
     % AFTER:
@@ -6279,7 +6279,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 5]
+    % [First.Violin.Music_Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     f''1
     % AFTER:
@@ -6298,7 +6298,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 6]
+    % [First.Violin.Music_Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     f''1
     % AFTER:
@@ -6383,7 +6383,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 7]
+    % [First.Violin.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -6415,7 +6415,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 8]
+    % [First.Violin.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -6441,7 +6441,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 9]
+    % [First.Violin.Music_Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     f''2.
     % AFTER:
@@ -6505,7 +6505,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 10]
+    % [First.Violin.Music_Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     f''1
     % AFTER:
@@ -6524,7 +6524,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 11]
+    % [First.Violin.Music_Voice.2 measure 11]
       %! baca.make_repeat_tied_notes()
     f''1
     % AFTER:
@@ -6609,7 +6609,7 @@ segment.18.First.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.2 measure 12]
+    % [First.Violin.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -6651,13 +6651,13 @@ segment.18.First.Violin.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.2 = {
+segment.18.First.Violin.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.2.part.1 }
+    { \segment.18.First.Violin.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6671,7 +6671,7 @@ segment.18.First.Violin.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.2"
+        \context Voice = "First.Violin.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -6681,7 +6681,7 @@ segment.18.First.Violin.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.2 measure 13]
+            % [First.Violin.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -6795,19 +6795,19 @@ segment.18.First.Violin.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First.Violin.Voice.1"
+    \context Voice = "First.Violin.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.1 }
+    { \segment.18.First.Violin.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First.Violin.Voice.2"
+    \context Voice = "First.Violin.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.2 }
+    { \segment.18.First.Violin.Music_Voice.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -6818,12 +6818,12 @@ segment.18.First.Violin.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.3.part.1 = {
+segment.18.First.Violin.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 1]
+    % [First.Violin.Music_Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -6915,7 +6915,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 2]
+    % [First.Violin.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -6927,7 +6927,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 3]
+    % [First.Violin.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -6953,7 +6953,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 4]
+    % [First.Violin.Music_Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
@@ -7017,7 +7017,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 5]
+    % [First.Violin.Music_Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
@@ -7036,7 +7036,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 6]
+    % [First.Violin.Music_Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
@@ -7121,7 +7121,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 7]
+    % [First.Violin.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -7153,7 +7153,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 8]
+    % [First.Violin.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -7179,7 +7179,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 9]
+    % [First.Violin.Music_Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     g''2.
     % AFTER:
@@ -7243,7 +7243,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 10]
+    % [First.Violin.Music_Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
@@ -7262,7 +7262,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 11]
+    % [First.Violin.Music_Voice.3 measure 11]
       %! baca.make_repeat_tied_notes()
     g''1
     % AFTER:
@@ -7347,7 +7347,7 @@ segment.18.First.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.3 measure 12]
+    % [First.Violin.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -7401,13 +7401,13 @@ segment.18.First.Violin.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.3 = {
+segment.18.First.Violin.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.3.part.1 }
+    { \segment.18.First.Violin.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7421,7 +7421,7 @@ segment.18.First.Violin.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.3"
+        \context Voice = "First.Violin.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -7431,7 +7431,7 @@ segment.18.First.Violin.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.3 measure 13]
+            % [First.Violin.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -7539,12 +7539,12 @@ segment.18.First.Violin.Voice.3 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.4.part.1 = {
+segment.18.First.Violin.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 1]
+    % [First.Violin.Music_Voice.4 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -7579,7 +7579,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 2]
+    % [First.Violin.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -7591,7 +7591,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 3]
+    % [First.Violin.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -7617,7 +7617,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 4]
+    % [First.Violin.Music_Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -7681,7 +7681,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 5]
+    % [First.Violin.Music_Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -7700,7 +7700,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 6]
+    % [First.Violin.Music_Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -7785,7 +7785,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 7]
+    % [First.Violin.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -7817,7 +7817,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 8]
+    % [First.Violin.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -7843,7 +7843,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 9]
+    % [First.Violin.Music_Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     d''2.
     % AFTER:
@@ -7907,7 +7907,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 10]
+    % [First.Violin.Music_Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -7926,7 +7926,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 11]
+    % [First.Violin.Music_Voice.4 measure 11]
       %! baca.make_repeat_tied_notes()
     d''1
     % AFTER:
@@ -8011,7 +8011,7 @@ segment.18.First.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.4 measure 12]
+    % [First.Violin.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -8053,13 +8053,13 @@ segment.18.First.Violin.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.4 = {
+segment.18.First.Violin.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.4.part.1 }
+    { \segment.18.First.Violin.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8073,7 +8073,7 @@ segment.18.First.Violin.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.4"
+        \context Voice = "First.Violin.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -8083,7 +8083,7 @@ segment.18.First.Violin.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.4 measure 13]
+            % [First.Violin.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -8197,19 +8197,19 @@ segment.18.First.Violin.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First.Violin.Voice.3"
+    \context Voice = "First.Violin.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.3 }
+    { \segment.18.First.Violin.Music_Voice.3 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First.Violin.Voice.4"
+    \context Voice = "First.Violin.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.4 }
+    { \segment.18.First.Violin.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -8220,12 +8220,12 @@ segment.18.First.Violin.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.5.part.1 = {
+segment.18.First.Violin.Music_Voice.5.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 1]
+    % [First.Violin.Music_Voice.5 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -8306,7 +8306,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 2]
+    % [First.Violin.Music_Voice.5 measure 2]
       %! baca.make_repeat_tied_notes()
     cs'2.
     % AFTER:
@@ -8321,7 +8321,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 3]
+    % [First.Violin.Music_Voice.5 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -8347,7 +8347,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 4]
+    % [First.Violin.Music_Voice.5 measure 4]
       %! baca.make_repeat_tied_notes()
     cs'!1
     % AFTER:
@@ -8364,7 +8364,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 5]
+    % [First.Violin.Music_Voice.5 measure 5]
       %! baca.make_repeat_tied_notes()
     cs'1
     % AFTER:
@@ -8383,7 +8383,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 6]
+    % [First.Violin.Music_Voice.5 measure 6]
       %! baca.make_repeat_tied_notes()
     cs'1
     % AFTER:
@@ -8402,7 +8402,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 7]
+    % [First.Violin.Music_Voice.5 measure 7]
       %! baca.make_repeat_tied_notes()
     cs'2.
     % AFTER:
@@ -8417,7 +8417,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 8]
+    % [First.Violin.Music_Voice.5 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -8443,7 +8443,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 9]
+    % [First.Violin.Music_Voice.5 measure 9]
       %! baca.make_repeat_tied_notes()
     cs'!2.
     % AFTER:
@@ -8460,7 +8460,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 10]
+    % [First.Violin.Music_Voice.5 measure 10]
       %! baca.make_repeat_tied_notes()
     cs'1
     % AFTER:
@@ -8479,7 +8479,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 11]
+    % [First.Violin.Music_Voice.5 measure 11]
       %! baca.make_repeat_tied_notes()
     cs'1
     % AFTER:
@@ -8498,7 +8498,7 @@ segment.18.First.Violin.Voice.5.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First.Violin.Voice.5 measure 12]
+    % [First.Violin.Music_Voice.5 measure 12]
       %! baca.make_repeat_tied_notes()
     cs'2
     % AFTER:
@@ -8518,13 +8518,13 @@ segment.18.First.Violin.Voice.5.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.First.Violin.Voice.5 = {
+segment.18.First.Violin.Music_Voice.5 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.5.part.1 }
+    { \segment.18.First.Violin.Music_Voice.5.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8538,7 +8538,7 @@ segment.18.First.Violin.Voice.5 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "First.Violin.Voice.5"
+        \context Voice = "First.Violin.Music_Voice.5"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -8548,7 +8548,7 @@ segment.18.First.Violin.Voice.5 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [First.Violin.Voice.5 measure 13]
+            % [First.Violin.Music_Voice.5 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -8665,10 +8665,10 @@ segment.18.First.Violin.Staff.3 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First.Violin.Voice.5"
+    \context Voice = "First.Violin.Music_Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.First.Violin.Voice.5 }
+    { \segment.18.First.Violin.Music_Voice.5 }
     % CLOSING:
     % COMMANDS:
 
@@ -8679,12 +8679,12 @@ segment.18.First.Violin.Staff.3 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.1.part.1 = {
+segment.18.Second.Violin.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 1]
+    % [Second.Violin.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -8776,7 +8776,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 2]
+    % [Second.Violin.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -8788,7 +8788,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 3]
+    % [Second.Violin.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -8814,7 +8814,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 4]
+    % [Second.Violin.Music_Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
@@ -8878,7 +8878,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 5]
+    % [Second.Violin.Music_Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
@@ -8899,7 +8899,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 6]
+    % [Second.Violin.Music_Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
@@ -8986,7 +8986,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 7]
+    % [Second.Violin.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -9018,7 +9018,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 8]
+    % [Second.Violin.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -9044,7 +9044,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 9]
+    % [Second.Violin.Music_Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     b'2.
     % AFTER:
@@ -9108,7 +9108,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 10]
+    % [Second.Violin.Music_Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
@@ -9129,7 +9129,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 11]
+    % [Second.Violin.Music_Voice.1 measure 11]
       %! baca.make_repeat_tied_notes()
     b'1
     % AFTER:
@@ -9216,7 +9216,7 @@ segment.18.Second.Violin.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.1 measure 12]
+    % [Second.Violin.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -9270,13 +9270,13 @@ segment.18.Second.Violin.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.1 = {
+segment.18.Second.Violin.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.1.part.1 }
+    { \segment.18.Second.Violin.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9290,7 +9290,7 @@ segment.18.Second.Violin.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.1"
+        \context Voice = "Second.Violin.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -9300,7 +9300,7 @@ segment.18.Second.Violin.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.1 measure 13]
+            % [Second.Violin.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -9408,12 +9408,12 @@ segment.18.Second.Violin.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.2.part.1 = {
+segment.18.Second.Violin.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 1]
+    % [Second.Violin.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -9448,7 +9448,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 2]
+    % [Second.Violin.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -9460,7 +9460,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 3]
+    % [Second.Violin.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -9486,7 +9486,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 4]
+    % [Second.Violin.Music_Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     g'1
     % AFTER:
@@ -9550,7 +9550,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 5]
+    % [Second.Violin.Music_Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     g'1
     % AFTER:
@@ -9569,7 +9569,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 6]
+    % [Second.Violin.Music_Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     g'1
     % AFTER:
@@ -9654,7 +9654,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 7]
+    % [Second.Violin.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -9686,7 +9686,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 8]
+    % [Second.Violin.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -9712,7 +9712,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 9]
+    % [Second.Violin.Music_Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     g'2.
     % AFTER:
@@ -9776,7 +9776,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 10]
+    % [Second.Violin.Music_Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     g'1
     % AFTER:
@@ -9795,7 +9795,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 11]
+    % [Second.Violin.Music_Voice.2 measure 11]
       %! baca.make_repeat_tied_notes()
     g'1
     % AFTER:
@@ -9880,7 +9880,7 @@ segment.18.Second.Violin.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.2 measure 12]
+    % [Second.Violin.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -9922,13 +9922,13 @@ segment.18.Second.Violin.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.2 = {
+segment.18.Second.Violin.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.2.part.1 }
+    { \segment.18.Second.Violin.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9942,7 +9942,7 @@ segment.18.Second.Violin.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.2"
+        \context Voice = "Second.Violin.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -9952,7 +9952,7 @@ segment.18.Second.Violin.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.2 measure 13]
+            % [Second.Violin.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -10066,19 +10066,19 @@ segment.18.Second.Violin.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second.Violin.Voice.1"
+    \context Voice = "Second.Violin.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.1 }
+    { \segment.18.Second.Violin.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second.Violin.Voice.2"
+    \context Voice = "Second.Violin.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.2 }
+    { \segment.18.Second.Violin.Music_Voice.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -10089,12 +10089,12 @@ segment.18.Second.Violin.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.3.part.1 = {
+segment.18.Second.Violin.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 1]
+    % [Second.Violin.Music_Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -10186,7 +10186,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 2]
+    % [Second.Violin.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -10198,7 +10198,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 3]
+    % [Second.Violin.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -10224,7 +10224,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 4]
+    % [Second.Violin.Music_Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -10288,7 +10288,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 5]
+    % [Second.Violin.Music_Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -10307,7 +10307,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 6]
+    % [Second.Violin.Music_Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -10392,7 +10392,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 7]
+    % [Second.Violin.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -10424,7 +10424,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 8]
+    % [Second.Violin.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -10450,7 +10450,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 9]
+    % [Second.Violin.Music_Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     a'2.
     % AFTER:
@@ -10514,7 +10514,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 10]
+    % [Second.Violin.Music_Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -10533,7 +10533,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 11]
+    % [Second.Violin.Music_Voice.3 measure 11]
       %! baca.make_repeat_tied_notes()
     a'1
     % AFTER:
@@ -10618,7 +10618,7 @@ segment.18.Second.Violin.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.3 measure 12]
+    % [Second.Violin.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -10672,13 +10672,13 @@ segment.18.Second.Violin.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.3 = {
+segment.18.Second.Violin.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.3.part.1 }
+    { \segment.18.Second.Violin.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10692,7 +10692,7 @@ segment.18.Second.Violin.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.3"
+        \context Voice = "Second.Violin.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -10702,7 +10702,7 @@ segment.18.Second.Violin.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.3 measure 13]
+            % [Second.Violin.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -10810,12 +10810,12 @@ segment.18.Second.Violin.Voice.3 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.4.part.1 = {
+segment.18.Second.Violin.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 1]
+    % [Second.Violin.Music_Voice.4 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -10850,7 +10850,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 2]
+    % [Second.Violin.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -10862,7 +10862,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 3]
+    % [Second.Violin.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -10888,7 +10888,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 4]
+    % [Second.Violin.Music_Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     f'1
     % AFTER:
@@ -10952,7 +10952,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 5]
+    % [Second.Violin.Music_Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     f'1
     % AFTER:
@@ -10971,7 +10971,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 6]
+    % [Second.Violin.Music_Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     f'1
     % AFTER:
@@ -11056,7 +11056,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 7]
+    % [Second.Violin.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -11088,7 +11088,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 8]
+    % [Second.Violin.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -11114,7 +11114,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 9]
+    % [Second.Violin.Music_Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     f'2.
     % AFTER:
@@ -11178,7 +11178,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 10]
+    % [Second.Violin.Music_Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     f'1
     % AFTER:
@@ -11197,7 +11197,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 11]
+    % [Second.Violin.Music_Voice.4 measure 11]
       %! baca.make_repeat_tied_notes()
     f'1
     % AFTER:
@@ -11282,7 +11282,7 @@ segment.18.Second.Violin.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second.Violin.Voice.4 measure 12]
+    % [Second.Violin.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -11324,13 +11324,13 @@ segment.18.Second.Violin.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Second.Violin.Voice.4 = {
+segment.18.Second.Violin.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.4.part.1 }
+    { \segment.18.Second.Violin.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11344,7 +11344,7 @@ segment.18.Second.Violin.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Second.Violin.Voice.4"
+        \context Voice = "Second.Violin.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -11354,7 +11354,7 @@ segment.18.Second.Violin.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Second.Violin.Voice.4 measure 13]
+            % [Second.Violin.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -11468,19 +11468,19 @@ segment.18.Second.Violin.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second.Violin.Voice.3"
+    \context Voice = "Second.Violin.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.3 }
+    { \segment.18.Second.Violin.Music_Voice.3 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second.Violin.Voice.4"
+    \context Voice = "Second.Violin.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Second.Violin.Voice.4 }
+    { \segment.18.Second.Violin.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -11491,12 +11491,12 @@ segment.18.Second.Violin.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.1.part.1 = {
+segment.18.Viola.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 1]
+    % [Viola.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -11588,7 +11588,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 2]
+    % [Viola.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -11600,7 +11600,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 3]
+    % [Viola.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -11626,7 +11626,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 4]
+    % [Viola.Music_Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     d'1
     % AFTER:
@@ -11690,7 +11690,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 5]
+    % [Viola.Music_Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     d'1
     % AFTER:
@@ -11709,7 +11709,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 6]
+    % [Viola.Music_Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     d'1
     % AFTER:
@@ -11794,7 +11794,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 7]
+    % [Viola.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -11826,7 +11826,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 8]
+    % [Viola.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -11852,7 +11852,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 9]
+    % [Viola.Music_Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     d'2.
     % AFTER:
@@ -11916,7 +11916,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 10]
+    % [Viola.Music_Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     d'1
     % AFTER:
@@ -11935,7 +11935,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 11]
+    % [Viola.Music_Voice.1 measure 11]
       %! baca.make_repeat_tied_notes()
     d'1
     % AFTER:
@@ -12020,7 +12020,7 @@ segment.18.Viola.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.1 measure 12]
+    % [Viola.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -12074,13 +12074,13 @@ segment.18.Viola.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.1 = {
+segment.18.Viola.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.1.part.1 }
+    { \segment.18.Viola.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12094,7 +12094,7 @@ segment.18.Viola.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.1"
+        \context Voice = "Viola.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -12104,7 +12104,7 @@ segment.18.Viola.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola.Voice.1 measure 13]
+            % [Viola.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -12212,12 +12212,12 @@ segment.18.Viola.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.2.part.1 = {
+segment.18.Viola.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 1]
+    % [Viola.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -12252,7 +12252,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 2]
+    % [Viola.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -12264,7 +12264,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 3]
+    % [Viola.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -12290,7 +12290,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 4]
+    % [Viola.Music_Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
@@ -12354,7 +12354,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 5]
+    % [Viola.Music_Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
@@ -12373,7 +12373,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 6]
+    % [Viola.Music_Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
@@ -12458,7 +12458,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 7]
+    % [Viola.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -12490,7 +12490,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 8]
+    % [Viola.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -12516,7 +12516,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 9]
+    % [Viola.Music_Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     a2.
     % AFTER:
@@ -12580,7 +12580,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 10]
+    % [Viola.Music_Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
@@ -12599,7 +12599,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 11]
+    % [Viola.Music_Voice.2 measure 11]
       %! baca.make_repeat_tied_notes()
     a1
     % AFTER:
@@ -12684,7 +12684,7 @@ segment.18.Viola.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.2 measure 12]
+    % [Viola.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -12726,13 +12726,13 @@ segment.18.Viola.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.2 = {
+segment.18.Viola.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.2.part.1 }
+    { \segment.18.Viola.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -12746,7 +12746,7 @@ segment.18.Viola.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.2"
+        \context Voice = "Viola.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -12756,7 +12756,7 @@ segment.18.Viola.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola.Voice.2 measure 13]
+            % [Viola.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -12870,19 +12870,19 @@ segment.18.Viola.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.Voice.1"
+    \context Voice = "Viola.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.1 }
+    { \segment.18.Viola.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.Voice.2"
+    \context Voice = "Viola.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.2 }
+    { \segment.18.Viola.Music_Voice.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -12893,12 +12893,12 @@ segment.18.Viola.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.3.part.1 = {
+segment.18.Viola.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 1]
+    % [Viola.Music_Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -12990,7 +12990,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 2]
+    % [Viola.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -13002,7 +13002,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 3]
+    % [Viola.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -13028,7 +13028,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 4]
+    % [Viola.Music_Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
@@ -13092,7 +13092,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 5]
+    % [Viola.Music_Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
@@ -13111,7 +13111,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 6]
+    % [Viola.Music_Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
@@ -13196,7 +13196,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 7]
+    % [Viola.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -13228,7 +13228,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 8]
+    % [Viola.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -13254,7 +13254,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 9]
+    % [Viola.Music_Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     b2.
     % AFTER:
@@ -13318,7 +13318,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 10]
+    % [Viola.Music_Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
@@ -13337,7 +13337,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 11]
+    % [Viola.Music_Voice.3 measure 11]
       %! baca.make_repeat_tied_notes()
     b1
     % AFTER:
@@ -13422,7 +13422,7 @@ segment.18.Viola.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.3 measure 12]
+    % [Viola.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -13476,13 +13476,13 @@ segment.18.Viola.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.3 = {
+segment.18.Viola.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.3.part.1 }
+    { \segment.18.Viola.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -13496,7 +13496,7 @@ segment.18.Viola.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.3"
+        \context Voice = "Viola.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -13506,7 +13506,7 @@ segment.18.Viola.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola.Voice.3 measure 13]
+            % [Viola.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -13614,12 +13614,12 @@ segment.18.Viola.Voice.3 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.4.part.1 = {
+segment.18.Viola.Music_Voice.4.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 1]
+    % [Viola.Music_Voice.4 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -13654,7 +13654,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 2]
+    % [Viola.Music_Voice.4 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -13666,7 +13666,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 3]
+    % [Viola.Music_Voice.4 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -13692,7 +13692,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 4]
+    % [Viola.Music_Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     g1
     % AFTER:
@@ -13756,7 +13756,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 5]
+    % [Viola.Music_Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     g1
     % AFTER:
@@ -13775,7 +13775,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 6]
+    % [Viola.Music_Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     g1
     % AFTER:
@@ -13860,7 +13860,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 7]
+    % [Viola.Music_Voice.4 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -13892,7 +13892,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 8]
+    % [Viola.Music_Voice.4 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -13918,7 +13918,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 9]
+    % [Viola.Music_Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     g2.
     % AFTER:
@@ -13982,7 +13982,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 10]
+    % [Viola.Music_Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     g1
     % AFTER:
@@ -14001,7 +14001,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 11]
+    % [Viola.Music_Voice.4 measure 11]
       %! baca.make_repeat_tied_notes()
     g1
     % AFTER:
@@ -14086,7 +14086,7 @@ segment.18.Viola.Voice.4.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.Voice.4 measure 12]
+    % [Viola.Music_Voice.4 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -14128,13 +14128,13 @@ segment.18.Viola.Voice.4.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Viola.Voice.4 = {
+segment.18.Viola.Music_Voice.4 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.4.part.1 }
+    { \segment.18.Viola.Music_Voice.4.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -14148,7 +14148,7 @@ segment.18.Viola.Voice.4 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Viola.Voice.4"
+        \context Voice = "Viola.Music_Voice.4"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -14158,7 +14158,7 @@ segment.18.Viola.Voice.4 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Viola.Voice.4 measure 13]
+            % [Viola.Music_Voice.4 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -14272,19 +14272,19 @@ segment.18.Viola.Staff.2 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.Voice.3"
+    \context Voice = "Viola.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.3 }
+    { \segment.18.Viola.Music_Voice.3 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.Voice.4"
+    \context Voice = "Viola.Music_Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Viola.Voice.4 }
+    { \segment.18.Viola.Music_Voice.4 }
     % CLOSING:
     % COMMANDS:
 
@@ -14295,12 +14295,12 @@ segment.18.Viola.Staff.2 = <<
 
 
   %! baca.path.extern()
-segment.18.Cello.Voice.1.part.1 = {
+segment.18.Cello.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 1]
+    % [Cello.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -14392,7 +14392,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 2]
+    % [Cello.Music_Voice.1 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -14404,7 +14404,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 3]
+    % [Cello.Music_Voice.1 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -14430,7 +14430,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 4]
+    % [Cello.Music_Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     d1
     % AFTER:
@@ -14494,7 +14494,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 5]
+    % [Cello.Music_Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     d1
     % AFTER:
@@ -14515,7 +14515,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 6]
+    % [Cello.Music_Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     d1
     % AFTER:
@@ -14602,7 +14602,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 7]
+    % [Cello.Music_Voice.1 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -14634,7 +14634,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 8]
+    % [Cello.Music_Voice.1 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -14660,7 +14660,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 9]
+    % [Cello.Music_Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     d2.
     % AFTER:
@@ -14724,7 +14724,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 10]
+    % [Cello.Music_Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     d1
     % AFTER:
@@ -14745,7 +14745,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 11]
+    % [Cello.Music_Voice.1 measure 11]
       %! baca.make_repeat_tied_notes()
     d1
     % AFTER:
@@ -14832,7 +14832,7 @@ segment.18.Cello.Voice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.1 measure 12]
+    % [Cello.Music_Voice.1 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -14886,13 +14886,13 @@ segment.18.Cello.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Cello.Voice.1 = {
+segment.18.Cello.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Cello.Voice.1.part.1 }
+    { \segment.18.Cello.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -14906,7 +14906,7 @@ segment.18.Cello.Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Cello.Voice.1"
+        \context Voice = "Cello.Music_Voice.1"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -14916,7 +14916,7 @@ segment.18.Cello.Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Cello.Voice.1 measure 13]
+            % [Cello.Music_Voice.1 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -15024,12 +15024,12 @@ segment.18.Cello.Voice.1 = {
 
 
   %! baca.path.extern()
-segment.18.Cello.Voice.2.part.1 = {
+segment.18.Cello.Music_Voice.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 1]
+    % [Cello.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -15064,7 +15064,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 2]
+    % [Cello.Music_Voice.2 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -15076,7 +15076,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 3]
+    % [Cello.Music_Voice.2 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -15102,7 +15102,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 4]
+    % [Cello.Music_Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15166,7 +15166,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 5]
+    % [Cello.Music_Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15185,7 +15185,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 6]
+    % [Cello.Music_Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15270,7 +15270,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 7]
+    % [Cello.Music_Voice.2 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -15302,7 +15302,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 8]
+    % [Cello.Music_Voice.2 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -15328,7 +15328,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 9]
+    % [Cello.Music_Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     g,2.
     % AFTER:
@@ -15392,7 +15392,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 10]
+    % [Cello.Music_Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15411,7 +15411,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 11]
+    % [Cello.Music_Voice.2 measure 11]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15496,7 +15496,7 @@ segment.18.Cello.Voice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.Voice.2 measure 12]
+    % [Cello.Music_Voice.2 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -15538,13 +15538,13 @@ segment.18.Cello.Voice.2.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Cello.Voice.2 = {
+segment.18.Cello.Music_Voice.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Cello.Voice.2.part.1 }
+    { \segment.18.Cello.Music_Voice.2.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -15558,7 +15558,7 @@ segment.18.Cello.Voice.2 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Cello.Voice.2"
+        \context Voice = "Cello.Music_Voice.2"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -15568,7 +15568,7 @@ segment.18.Cello.Voice.2 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Cello.Voice.2 measure 13]
+            % [Cello.Music_Voice.2 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -15682,19 +15682,19 @@ segment.18.Cello.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Cello.Voice.1"
+    \context Voice = "Cello.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Cello.Voice.1 }
+    { \segment.18.Cello.Music_Voice.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Cello.Voice.2"
+    \context Voice = "Cello.Music_Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Cello.Voice.2 }
+    { \segment.18.Cello.Music_Voice.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -15705,12 +15705,12 @@ segment.18.Cello.Staff.1 = <<
 
 
   %! baca.path.extern()
-segment.18.Contrabass.Voice.3.part.1 = {
+segment.18.Contrabass.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 1]
+    % [Contrabass.Music_Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_segment_initial_short_instrument_name()
@@ -15782,7 +15782,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 2]
+    % [Contrabass.Music_Voice.3 measure 2]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -15794,7 +15794,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 3]
+    % [Contrabass.Music_Voice.3 measure 3]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -15820,7 +15820,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 4]
+    % [Contrabass.Music_Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15884,7 +15884,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 5]
+    % [Contrabass.Music_Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15903,7 +15903,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 6]
+    % [Contrabass.Music_Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -15988,7 +15988,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 7]
+    % [Contrabass.Music_Voice.3 measure 7]
       %! baca._make_mmrests_flat()
     R1 * 3/4
     % AFTER:
@@ -16020,7 +16020,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 8]
+    % [Contrabass.Music_Voice.3 measure 8]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -16046,7 +16046,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 9]
+    % [Contrabass.Music_Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     g,2.
     % AFTER:
@@ -16110,7 +16110,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 10]
+    % [Contrabass.Music_Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -16129,7 +16129,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 11]
+    % [Contrabass.Music_Voice.3 measure 11]
       %! baca.make_repeat_tied_notes()
     g,1
     % AFTER:
@@ -16214,7 +16214,7 @@ segment.18.Contrabass.Voice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.Voice.3 measure 12]
+    % [Contrabass.Music_Voice.3 measure 12]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -16251,13 +16251,13 @@ segment.18.Contrabass.Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.18.Contrabass.Voice.3 = {
+segment.18.Contrabass.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.18.Contrabass.Voice.3.part.1 }
+    { \segment.18.Contrabass.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -16271,7 +16271,7 @@ segment.18.Contrabass.Voice.3 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Contrabass.Voice.3"
+        \context Voice = "Contrabass.Music_Voice.3"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -16281,7 +16281,7 @@ segment.18.Contrabass.Voice.3 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Contrabass.Voice.3 measure 13]
+            % [Contrabass.Music_Voice.3 measure 13]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -16395,10 +16395,10 @@ segment.18.Contrabass.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Contrabass.Voice.3"
+    \context Voice = "Contrabass.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.18.Contrabass.Voice.3 }
+    { \segment.18.Contrabass.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 

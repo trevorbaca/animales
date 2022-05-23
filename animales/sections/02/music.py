@@ -56,10 +56,10 @@ library.make_trill_rhythm(commands)
 
 # phantom & reapply
 
-music_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    music_voices,
+    music_voice_names,
     baca.append_anchor_note(),
     baca.reapply_persistent_indicators(),
 )

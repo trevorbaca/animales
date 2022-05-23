@@ -90,10 +90,10 @@ library.make_battuti_material(commands, [[1, -55], [1, -17], [1, -17]])
 
 # phantom
 
-music_voices = [_ for _ in voice_names if ".Voice" in _]
+music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
 
 commands(
-    music_voices,
+    music_voice_names,
     baca.append_phantom_measure(),
 )
 
