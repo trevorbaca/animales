@@ -1,5 +1,5 @@
   %! baca.path.extern()
-segment.03.Global_Rests = {
+section_number.03.Global_Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -55,7 +55,7 @@ segment.03.Global_Rests = {
 
 
   %! baca.path.extern()
-segment.03.Global_Skips = {
+section_number.03.Global_Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -345,7 +345,7 @@ segment.03.Global_Skips = {
 
 
   %! baca.path.extern()
-segment.03.First_Violin.Music_Voice.1.part.1 = {
+section_number.03.First_Violin.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -532,13 +532,13 @@ segment.03.First_Violin.Music_Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.First_Violin.Music_Voice.1 = {
+section_number.03.First_Violin.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.First_Violin.Music_Voice.1.part.1 }
+    { \section_number.03.First_Violin.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -681,7 +681,7 @@ segment.03.First_Violin.Music_Voice.1 = {
 
 
   %! baca.path.extern()
-segment.03.First.Violin.Staff.1 = {
+section_number.03.First_Violin.Staff.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -690,7 +690,7 @@ segment.03.First.Violin.Staff.1 = {
     \context Voice = "First_Violin.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.First_Violin.Music_Voice.1 }
+    { \section_number.03.First_Violin.Music_Voice.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -701,7 +701,7 @@ segment.03.First.Violin.Staff.1 = {
 
 
   %! baca.path.extern()
-segment.03.First_Violin.Music_Voice.3.part.1 = {
+section_number.03.First_Violin.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -939,13 +939,13 @@ segment.03.First_Violin.Music_Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.First_Violin.Music_Voice.3 = {
+section_number.03.First_Violin.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.First_Violin.Music_Voice.3.part.1 }
+    { \section_number.03.First_Violin.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1088,7 +1088,7 @@ segment.03.First_Violin.Music_Voice.3 = {
 
 
   %! baca.path.extern()
-segment.03.First.Violin.Staff.2 = {
+section_number.03.First_Violin.Staff.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1097,7 +1097,7 @@ segment.03.First.Violin.Staff.2 = {
     \context Voice = "First_Violin.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.First_Violin.Music_Voice.3 }
+    { \section_number.03.First_Violin.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -1108,7 +1108,7 @@ segment.03.First.Violin.Staff.2 = {
 
 
   %! baca.path.extern()
-segment.03.Second_Violin.Music_Voice.1.part.1 = {
+section_number.03.Second_Violin.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1341,13 +1341,13 @@ segment.03.Second_Violin.Music_Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.Second_Violin.Music_Voice.1 = {
+section_number.03.Second_Violin.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.Second_Violin.Music_Voice.1.part.1 }
+    { \section_number.03.Second_Violin.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1490,7 +1490,7 @@ segment.03.Second_Violin.Music_Voice.1 = {
 
 
   %! baca.path.extern()
-segment.03.Second.Violin.Staff.1 = {
+section_number.03.Second_Violin.Staff.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1499,7 +1499,7 @@ segment.03.Second.Violin.Staff.1 = {
     \context Voice = "Second_Violin.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.Second_Violin.Music_Voice.1 }
+    { \section_number.03.Second_Violin.Music_Voice.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -1510,7 +1510,7 @@ segment.03.Second.Violin.Staff.1 = {
 
 
   %! baca.path.extern()
-segment.03.Second_Violin.Music_Voice.3.part.1 = {
+section_number.03.Second_Violin.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1797,13 +1797,13 @@ segment.03.Second_Violin.Music_Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.Second_Violin.Music_Voice.3 = {
+section_number.03.Second_Violin.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.Second_Violin.Music_Voice.3.part.1 }
+    { \section_number.03.Second_Violin.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1946,7 +1946,7 @@ segment.03.Second_Violin.Music_Voice.3 = {
 
 
   %! baca.path.extern()
-segment.03.Second.Violin.Staff.2 = {
+section_number.03.Second_Violin.Staff.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1955,7 +1955,7 @@ segment.03.Second.Violin.Staff.2 = {
     \context Voice = "Second_Violin.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.Second_Violin.Music_Voice.3 }
+    { \section_number.03.Second_Violin.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -1966,7 +1966,7 @@ segment.03.Second.Violin.Staff.2 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music_Voice.1.part.1 = {
+section_number.03.Viola.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2166,13 +2166,13 @@ segment.03.Viola.Music_Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music_Voice.1 = {
+section_number.03.Viola.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.Viola.Music_Voice.1.part.1 }
+    { \section_number.03.Viola.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2315,7 +2315,7 @@ segment.03.Viola.Music_Voice.1 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Staff.1 = {
+section_number.03.Viola.Staff.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2324,7 +2324,7 @@ segment.03.Viola.Staff.1 = {
     \context Voice = "Viola.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.Viola.Music_Voice.1 }
+    { \section_number.03.Viola.Music_Voice.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -2335,7 +2335,7 @@ segment.03.Viola.Staff.1 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music_Voice.3.part.1 = {
+section_number.03.Viola.Music_Voice.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2528,13 +2528,13 @@ segment.03.Viola.Music_Voice.3.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Music_Voice.3 = {
+section_number.03.Viola.Music_Voice.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.Viola.Music_Voice.3.part.1 }
+    { \section_number.03.Viola.Music_Voice.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2677,7 +2677,7 @@ segment.03.Viola.Music_Voice.3 = {
 
 
   %! baca.path.extern()
-segment.03.Viola.Staff.2 = {
+section_number.03.Viola.Staff.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2686,7 +2686,7 @@ segment.03.Viola.Staff.2 = {
     \context Voice = "Viola.Music_Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.Viola.Music_Voice.3 }
+    { \section_number.03.Viola.Music_Voice.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -2697,7 +2697,7 @@ segment.03.Viola.Staff.2 = {
 
 
   %! baca.path.extern()
-segment.03.Cello.Music_Voice.1.part.1 = {
+section_number.03.Cello.Music_Voice.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2909,13 +2909,13 @@ segment.03.Cello.Music_Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-segment.03.Cello.Music_Voice.1 = {
+section_number.03.Cello.Music_Voice.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \segment.03.Cello.Music_Voice.1.part.1 }
+    { \section_number.03.Cello.Music_Voice.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3058,7 +3058,7 @@ segment.03.Cello.Music_Voice.1 = {
 
 
   %! baca.path.extern()
-segment.03.Cello.Staff.1 = {
+section_number.03.Cello.Staff.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3067,7 +3067,7 @@ segment.03.Cello.Staff.1 = {
     \context Voice = "Cello.Music_Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \segment.03.Cello.Music_Voice.1 }
+    { \section_number.03.Cello.Music_Voice.1 }
     % CLOSING:
     % COMMANDS:
 

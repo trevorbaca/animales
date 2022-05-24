@@ -48,51 +48,51 @@
         "Contrabass.Rest_Voice.3",
     ],
     "container_to_part_assignment": {
-        "segment.05.Cello.Music_Voice.1.part.1": (
+        "section_number.05.Cello.Music_Voice.1.part.1": (
             baca.PartAssignment("Cello"),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Clarinet.Music_Voice.1.part.1": (
+        "section_number.05.Clarinet.Music_Voice.1.part.1": (
             baca.PartAssignment("Clarinet", 2),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Contrabass.Music_Voice.3.part.1": (
+        "section_number.05.Contrabass.Music_Voice.3.part.1": (
             baca.PartAssignment("Contrabass"),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.First_Violin.Music_Voice.1.part.1": (
+        "section_number.05.First_Violin.Music_Voice.1.part.1": (
             baca.PartAssignment("First_Violin", (2, 10)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.First_Violin.Music_Voice.2.part.1": (
+        "section_number.05.First_Violin.Music_Voice.2.part.1": (
             baca.PartAssignment("First_Violin", 1),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.First_Violin.Music_Voice.3.part.1": (
+        "section_number.05.First_Violin.Music_Voice.3.part.1": (
             baca.PartAssignment("First_Violin", (11, 18)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Percussion.Music_Voice.1.part.1": (
+        "section_number.05.Percussion.Music_Voice.1.part.1": (
             baca.PartAssignment("Percussion", 1),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Percussion.Music_Voice.2.part.1": (
+        "section_number.05.Percussion.Music_Voice.2.part.1": (
             baca.PartAssignment("Percussion", 2),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Second_Violin.Music_Voice.1.part.1": (
+        "section_number.05.Second_Violin.Music_Voice.1.part.1": (
             baca.PartAssignment("Second_Violin", (1, 10)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Second_Violin.Music_Voice.3.part.1": (
+        "section_number.05.Second_Violin.Music_Voice.3.part.1": (
             baca.PartAssignment("Second_Violin", (11, 18)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Viola.Music_Voice.1.part.1": (
+        "section_number.05.Viola.Music_Voice.1.part.1": (
             baca.PartAssignment("Viola", (1, 10)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
-        "segment.05.Viola.Music_Voice.3.part.1": (
+        "section_number.05.Viola.Music_Voice.3.part.1": (
             baca.PartAssignment("Viola", (11, 18)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),

@@ -85,107 +85,107 @@
         "Contrabass.Rest_Voice.3",
     ],
     "container_to_part_assignment": {
-        "segment.04.Cello.Music_Voice.1.part.1": (
+        "section_number.04.Cello.Music_Voice.1.part.1": (
             baca.PartAssignment("Cello"),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Clarinet.Music_Voice.1.part.1": (
+        "section_number.04.Clarinet.Music_Voice.1.part.1": (
             baca.PartAssignment("Clarinet", 3),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Contrabass.Music_Voice.3.part.1": (
+        "section_number.04.Contrabass.Music_Voice.3.part.1": (
             baca.PartAssignment("Contrabass"),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.First_Violin.Music_Voice.1.part.1": (
+        "section_number.04.First_Violin.Music_Voice.1.part.1": (
             baca.PartAssignment("First_Violin", (1, 10)),
             Timespan(Offset((0, 1)), Offset((2, 1))),
         ),
-        "segment.04.First_Violin.Music_Voice.1.part.2": (
+        "section_number.04.First_Violin.Music_Voice.1.part.2": (
             baca.PartAssignment("First_Violin", (2, 10)),
             Timespan(Offset((2, 1)), Offset((23, 4))),
         ),
-        "segment.04.First_Violin.Music_Voice.2.part.1": (
+        "section_number.04.First_Violin.Music_Voice.2.part.1": (
             baca.PartAssignment("First_Violin", 1),
             Timespan(Offset((2, 1)), Offset((23, 4))),
         ),
-        "segment.04.First_Violin.Music_Voice.3.part.1": (
+        "section_number.04.First_Violin.Music_Voice.3.part.1": (
             baca.PartAssignment("First_Violin", (11, 18)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Horn.Music_Voice.1.part.1": (
+        "section_number.04.Horn.Music_Voice.1.part.1": (
             baca.PartAssignment("Horn", 1),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Horn.Music_Voice.2.part.1": (
+        "section_number.04.Horn.Music_Voice.2.part.1": (
             baca.PartAssignment("Horn", 2),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Horn.Music_Voice.3.part.1": (
+        "section_number.04.Horn.Music_Voice.3.part.1": (
             baca.PartAssignment("Horn", 3),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Horn.Music_Voice.4.part.1": (
+        "section_number.04.Horn.Music_Voice.4.part.1": (
             baca.PartAssignment("Horn", 4),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Percussion.Music_Voice.1.part.1": (
+        "section_number.04.Percussion.Music_Voice.1.part.1": (
             baca.PartAssignment("Percussion", 1),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Percussion.Music_Voice.2.part.1": (
+        "section_number.04.Percussion.Music_Voice.2.part.1": (
             baca.PartAssignment("Percussion", 2),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Second_Violin.Music_Voice.1.part.1": (
+        "section_number.04.Second_Violin.Music_Voice.1.part.1": (
             baca.PartAssignment("Second_Violin", (1, 10)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Second_Violin.Music_Voice.3.part.1": (
+        "section_number.04.Second_Violin.Music_Voice.3.part.1": (
             baca.PartAssignment("Second_Violin", (11, 18)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trombone.Music_Voice.1.part.1": (
+        "section_number.04.Trombone.Music_Voice.1.part.1": (
             baca.PartAssignment("Trombone", 1),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trombone.Music_Voice.2.part.1": (
+        "section_number.04.Trombone.Music_Voice.2.part.1": (
             baca.PartAssignment("Trombone", 2),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trombone.Music_Voice.3.part.1": (
+        "section_number.04.Trombone.Music_Voice.3.part.1": (
             baca.PartAssignment("Trombone", 3),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trombone.Music_Voice.4.part.1": (
+        "section_number.04.Trombone.Music_Voice.4.part.1": (
             baca.PartAssignment("Trombone", 4),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trumpet.Music_Voice.1.part.1": (
+        "section_number.04.Trumpet.Music_Voice.1.part.1": (
             baca.PartAssignment("Trumpet", 1),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trumpet.Music_Voice.2.part.1": (
+        "section_number.04.Trumpet.Music_Voice.2.part.1": (
             baca.PartAssignment("Trumpet", 2),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trumpet.Music_Voice.3.part.1": (
+        "section_number.04.Trumpet.Music_Voice.3.part.1": (
             baca.PartAssignment("Trumpet", 3),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Trumpet.Music_Voice.4.part.1": (
+        "section_number.04.Trumpet.Music_Voice.4.part.1": (
             baca.PartAssignment("Trumpet", 4),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Tuba.Music_Voice.1.part.1": (
+        "section_number.04.Tuba.Music_Voice.1.part.1": (
             baca.PartAssignment("Tuba"),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Viola.Music_Voice.1.part.1": (
+        "section_number.04.Viola.Music_Voice.1.part.1": (
             baca.PartAssignment("Viola", (1, 10)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "segment.04.Viola.Music_Voice.3.part.1": (
+        "section_number.04.Viola.Music_Voice.3.part.1": (
             baca.PartAssignment("Viola", (11, 18)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),

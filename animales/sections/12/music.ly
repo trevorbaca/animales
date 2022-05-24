@@ -54,7 +54,7 @@
                 \context GlobalRests = "Global_Rests"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.12.Global_Rests }
+                { \section_number.12.Global_Rests }
                 % ABSOLUTE_BEFORE:
                 % COMMANDS:
 
@@ -63,7 +63,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.12.Global_Skips }
+                { \section_number.12.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -94,7 +94,7 @@
                     \context Staff = "Clarinet.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Clarinet.Staff.1 }
+                    { \section_number.12.Clarinet.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -133,7 +133,7 @@
                         \context Staff = "Horn.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Horn.Staff.1 }
+                        { \section_number.12.Horn.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -142,7 +142,7 @@
                         \context Staff = "Horn.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Horn.Staff.2 }
+                        { \section_number.12.Horn.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -173,7 +173,7 @@
                         \context Staff = "Trumpet.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Trumpet.Staff.1 }
+                        { \section_number.12.Trumpet.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -182,7 +182,7 @@
                         \context Staff = "Trumpet.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Trumpet.Staff.2 }
+                        { \section_number.12.Trumpet.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -213,7 +213,7 @@
                         \context Staff = "Trombone.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Trombone.Staff.1 }
+                        { \section_number.12.Trombone.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -222,7 +222,7 @@
                         \context Staff = "Trombone.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Trombone.Staff.2 }
+                        { \section_number.12.Trombone.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -249,7 +249,7 @@
                     \context Staff = "Piano.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Piano.Staff.1 }
+                    { \section_number.12.Piano.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -269,7 +269,7 @@
                     \context Staff = "Harp.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Harp.Staff.1 }
+                    { \section_number.12.Harp.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -291,7 +291,7 @@
                     \context Staff = "Percussion.Staff.2"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Percussion.Staff.2 }
+                    { \section_number.12.Percussion.Staff.2 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -300,7 +300,7 @@
                     \context Staff = "Percussion.Staff.3"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Percussion.Staff.3 }
+                    { \section_number.12.Percussion.Staff.3 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -323,7 +323,7 @@
                     \context Staff = "First_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.First.Violin.Staff.1 }
+                    { \section_number.12.First_Violin.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -332,7 +332,7 @@
                     \context Staff = "Second_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Second.Violin.Staff.1 }
+                    { \section_number.12.Second_Violin.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -341,7 +341,7 @@
                     \context Staff = "Viola.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Viola.Staff.1 }
+                    { \section_number.12.Viola.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -350,7 +350,7 @@
                     \context Staff = "Cello.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.12.Cello.Staff.1 }
+                    { \section_number.12.Cello.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -375,7 +375,7 @@
                         \context Staff = "Contrabass.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Contrabass.Staff.1 }
+                        { \section_number.12.Contrabass.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -384,7 +384,7 @@
                         \context Staff = "Contrabass.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.12.Contrabass.Staff.2 }
+                        { \section_number.12.Contrabass.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
