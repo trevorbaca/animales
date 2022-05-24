@@ -619,7 +619,7 @@ section_number.30.Piano.Music_Voice.1.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_script_x_offset()
 %%% \override TextScript.X-offset = 3
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -1006,7 +1006,7 @@ section_number.30.Percussion.Music_Voice.4.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.text_script_x_offset()
 %%% \override TextScript.X-offset = 3
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
       %! -PARTS
       %! ANIMALES

@@ -397,7 +397,7 @@ section_number.04.Clarinet.Music_Voice.1.part.1 = {
     % [Clarinet.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "3" }
       %! -PARTS
       %! ANIMALES
@@ -752,7 +752,7 @@ section_number.04.Horn.Music_Voice.1.part.1 = {
     % [Horn.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
       %! -PARTS
       %! ANIMALES
@@ -1321,7 +1321,7 @@ section_number.04.Horn.Music_Voice.2.part.1 = {
     % [Horn.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
       %! -PARTS
       %! ANIMALES
@@ -1890,7 +1890,7 @@ section_number.04.Trumpet.Music_Voice.1.part.1 = {
     % [Trumpet.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
       %! -PARTS
       %! ANIMALES
@@ -2459,7 +2459,7 @@ section_number.04.Trumpet.Music_Voice.2.part.1 = {
     % [Trumpet.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
       %! -PARTS
       %! ANIMALES
@@ -3028,7 +3028,7 @@ section_number.04.Trombone.Music_Voice.1.part.1 = {
     % [Trombone.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
       %! -PARTS
       %! ANIMALES
@@ -3597,7 +3597,7 @@ section_number.04.Trombone.Music_Voice.2.part.1 = {
     % [Trombone.Music_Voice.2 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
       %! -PARTS
       %! ANIMALES
@@ -4166,7 +4166,7 @@ section_number.04.Tuba.Music_Voice.1.part.1 = {
     % [Tuba.Music_Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
       %! -PARTS
       %! DEFAULT_MARGIN_MARKUP
@@ -4478,7 +4478,7 @@ section_number.04.Percussion.Music_Voice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
       %! -PARTS
       %! ANIMALES
@@ -4838,7 +4838,7 @@ section_number.04.Percussion.Music_Voice.2.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
       %! -PARTS
       %! ANIMALES
@@ -5692,7 +5692,7 @@ section_number.04.First_Violin.Music_Voice.1.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -6092,7 +6092,7 @@ section_number.04.First_Violin.Music_Voice.3.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 6
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -6453,7 +6453,7 @@ section_number.04.Second_Violin.Music_Voice.1.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -6814,7 +6814,7 @@ section_number.04.Second_Violin.Music_Voice.3.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 6
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -7165,7 +7165,7 @@ section_number.04.Viola.Music_Voice.1.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -7542,7 +7542,7 @@ section_number.04.Viola.Music_Voice.3.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -7907,7 +7907,7 @@ section_number.04.Cello.Music_Voice.1.part.1 = {
       %! baca.OverrideCommand._call(1)
       %! baca.trill_spanner_staff_padding()
     \override TrillSpanner.staff-padding = 4
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
       %! -PARTS
       %! REAPPLIED_MARGIN_MARKUP
@@ -8265,7 +8265,7 @@ section_number.04.Contrabass.Music_Voice.3.part.1 = {
     % [Contrabass.Music_Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca._clone_segment_initial_short_instrument_name()
+      %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
       %! -PARTS
       %! DEFAULT_MARGIN_MARKUP
