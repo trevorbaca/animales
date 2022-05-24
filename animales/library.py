@@ -202,9 +202,9 @@ time_signatures = _make_time_signatures()
 part_manifest = baca.PartManifest(
     baca.Section(abbreviation="FL", count=4, name="Flute"),
     baca.Section(abbreviation="OB", count=3, name="Oboe"),
-    baca.Part(section="English.Horn", section_abbreviation="EH"),
+    baca.Part(section="English_Horn", section_abbreviation="EH"),
     baca.Section(abbreviation="CL", count=3, name="Clarinet"),
-    baca.Part(section="Bass.Clarinet", section_abbreviation="BCL"),
+    baca.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
     baca.Section(abbreviation="BSN", count=2, name="Bassoon"),
     baca.Section(abbreviation="HN", count=4, name="Horn"),
     baca.Section(abbreviation="TP", count=4, name="Trumpet"),
@@ -217,13 +217,13 @@ part_manifest = baca.PartManifest(
         abbreviation="VN-1",
         count=18,
         instrument="Violin",
-        name="First.Violin",
+        name="First_Violin",
     ),
     baca.Section(
         abbreviation="VN-2",
         count=18,
         instrument="Violin",
-        name="Second.Violin",
+        name="Second_Violin",
     ),
     baca.Section(abbreviation="VA", count=18, name="Viola"),
     baca.Section(abbreviation="VC", count=14, name="Cello"),
@@ -335,7 +335,7 @@ def allows_instrument(staff_name, instrument):
 
         >>> import animales
         >>> animales.library.allows_instrument(
-        ...     "First.Violin.Staff.1",
+        ...     "First_Violin.Staff.1",
         ...     animales.library.instruments["Violin"],
         ... )
         True
@@ -363,9 +363,9 @@ def allows_instrument(staff_name, instrument):
         [
             ("Flute", [instruments["Flute"]]),
             ("Oboe", [instruments["Oboe"]]),
-            ("English.Horn", [instruments["EnglishHorn"]]),
+            ("English_Horn", [instruments["EnglishHorn"]]),
             ("Clarinet", [instruments["Clarinet"]]),
-            ("Bass.Clarinet", [instruments["BassClarinet"]]),
+            ("Bass_Clarinet", [instruments["BassClarinet"]]),
             ("Horn", [instruments["Horn"]]),
             ("Trumpet", [instruments["Trumpet"]]),
             ("Trombone", [instruments["Trombone"]]),
@@ -376,8 +376,8 @@ def allows_instrument(staff_name, instrument):
             ("Percussion.Staff.2", [instruments["Percussion"]]),
             ("Percussion.Staff.3", [instruments["Vibraphone"]]),
             ("Percussion.Staff.4", [instruments["Percussion"]]),
-            ("First.Violin", [instruments["Violin"]]),
-            ("Second.Violin", [instruments["Violin"]]),
+            ("First_Violin", [instruments["Violin"]]),
+            ("Second_Violin", [instruments["Violin"]]),
             ("Viola", [instruments["Viola"]]),
             ("Cello", [instruments["Cello"]]),
             ("Contrabass", [instruments["Contrabass"]]),
@@ -465,17 +465,17 @@ def assign_brass_sforzando_parts(commands, omit_tuba=False):
 
 def assign_trill_parts(commands, *, exclude_first_violin=False):
     voice_to_members = {
-        "First.Violin.Music_Voice.1": (1, 10),
-        "First.Violin.Music_Voice.3": (11, 18),
-        "Second.Violin.Music_Voice.1": (1, 10),
-        "Second.Violin.Music_Voice.3": (11, 18),
+        "First_Violin.Music_Voice.1": (1, 10),
+        "First_Violin.Music_Voice.3": (11, 18),
+        "Second_Violin.Music_Voice.1": (1, 10),
+        "Second_Violin.Music_Voice.3": (11, 18),
         "Viola.Music_Voice.1": (1, 10),
         "Viola.Music_Voice.3": (11, 18),
         "Cello.Music_Voice.1": "all",
     }
     for voice, members in voice_to_members.items():
         section = voice_to_section(voice)
-        if voice == "First.Violin.Music_Voice.1" and exclude_first_violin:
+        if voice == "First_Violin.Music_Voice.1" and exclude_first_violin:
             command = parts(section, (2, 10))
         elif members == "all":
             command = parts(section)
@@ -541,16 +541,16 @@ def make_battuti_material(
     range_=(1, -1),
 ):
     section_to_members = {
-        "First.Violin": 18,
-        "Second.Violin": 18,
+        "First_Violin": 18,
+        "Second_Violin": 18,
         "Viola": 18,
         "Cello": 14,
         "Contrabass": 6,
     }
 
     section_to_abbreviation = {
-        "First.Violin": "Vni. I",
-        "Second.Violin": "Vni. II",
+        "First_Violin": "Vni. I",
+        "Second_Violin": "Vni. II",
         "Viola": "Vle.",
         "Cello": "Vc.",
         "Contrabass": "Cb.",
@@ -729,7 +729,7 @@ def make_brass_sforzando_material(
 
 
 def make_clb_rhythm(section, member, counts, wrap):
-    if section in ("First.Violin", "Second.Violin", "Viola"):
+    if section in ("First_Violin", "Second_Violin", "Viola"):
         assert member in range(1, 18 + 1), repr(member)
     elif section == "Cello":
         assert member in range(1, 14 + 1), repr(member)
@@ -739,8 +739,8 @@ def make_clb_rhythm(section, member, counts, wrap):
         assert ValueError(section)
 
     section_to_offset = {
-        "First.Violin": 0,
-        "Second.Violin": 18,
+        "First_Violin": 0,
+        "Second_Violin": 18,
         "Viola": 36,
         "Cello": 54,
         "Contrabass": 68,
@@ -830,7 +830,7 @@ def make_empty_score(
         abjad.Clef("treble"),
     )
     english_horn_staves = _make_staves(
-        "English.Horn",
+        "English_Horn",
         english_horn,
         instruments["EnglishHorn"],
         margin_markups["Eng. hn."],
@@ -844,7 +844,7 @@ def make_empty_score(
         abjad.Clef("treble"),
     )
     bass_clarinet_staves = _make_staves(
-        "Bass.Clarinet",
+        "Bass_Clarinet",
         bass_clarinet,
         instruments["BassClarinet"],
         margin_markups["B. cl."],
@@ -907,14 +907,14 @@ def make_empty_score(
         abjad.Clef("percussion"),
     )
     first_violin_staves = _make_staves(
-        "First.Violin",
+        "First_Violin",
         first_violins,
         instruments["Violin"],
         margin_markups["Vni. I"],
         abjad.Clef("treble"),
     )
     second_violin_staves = _make_staves(
-        "Second.Violin",
+        "Second_Violin",
         second_violins,
         instruments["Violin"],
         margin_markups["Vni. II"],
@@ -1184,10 +1184,10 @@ def make_sforzando_exchange_rhythm(this_part):
 
 def make_trill_rhythm(commands, measures=(1, -1)):
     voice_to_part = {
-        "First.Violin.Music_Voice.1": 0,
-        "First.Violin.Music_Voice.3": 1,
-        "Second.Violin.Music_Voice.1": 2,
-        "Second.Violin.Music_Voice.3": 3,
+        "First_Violin.Music_Voice.1": 0,
+        "First_Violin.Music_Voice.3": 1,
+        "Second_Violin.Music_Voice.1": 2,
+        "Second_Violin.Music_Voice.3": 3,
         "Viola.Music_Voice.1": 4,
         "Viola.Music_Voice.3": 5,
         "Cello.Music_Voice.1": 6,
@@ -1261,9 +1261,9 @@ def voice_abbreviations():
         ('fl3', 'Flute.Music_Voice.3')
         ('fl4', 'Flute.Music_Voice.4')
         ('ob1', 'Oboe.Music_Voice.1')
-        ('eh1', 'English.Horn.Music_Voice.1')
+        ('eh1', 'English_Horn.Music_Voice.1')
         ('cl1', 'Clarinet.Music_Voice.1')
-        ('bcl1', 'Bass.Clarinet.Music_Voice.1')
+        ('bcl1', 'Bass_Clarinet.Music_Voice.1')
         ('bsn1', 'Bassoon.Music_Voice.1')
         ('bsn2', 'Bassoon.Music_Voice.2')
         ('hn1', 'Horn.Music_Voice.1')
@@ -1285,42 +1285,42 @@ def voice_abbreviations():
         ('perc2', 'Percussion.Music_Voice.2')
         ('perc3', 'Percussion.Music_Voice.3')
         ('perc4', 'Percussion.Music_Voice.4')
-        ('1vn1', 'First.Violin.Music_Voice.1')
-        ('1vn2', 'First.Violin.Music_Voice.2')
-        ('1vn3', 'First.Violin.Music_Voice.3')
-        ('1vn4', 'First.Violin.Music_Voice.4')
-        ('1vn5', 'First.Violin.Music_Voice.5')
-        ('1vn6', 'First.Violin.Music_Voice.6')
-        ('1vn7', 'First.Violin.Music_Voice.7')
-        ('1vn8', 'First.Violin.Music_Voice.8')
-        ('1vn9', 'First.Violin.Music_Voice.9')
-        ('1vn10', 'First.Violin.Music_Voice.10')
-        ('1vn11', 'First.Violin.Music_Voice.11')
-        ('1vn12', 'First.Violin.Music_Voice.12')
-        ('1vn13', 'First.Violin.Music_Voice.13')
-        ('1vn14', 'First.Violin.Music_Voice.14')
-        ('1vn15', 'First.Violin.Music_Voice.15')
-        ('1vn16', 'First.Violin.Music_Voice.16')
-        ('1vn17', 'First.Violin.Music_Voice.17')
-        ('1vn18', 'First.Violin.Music_Voice.18')
-        ('2vn1', 'Second.Violin.Music_Voice.1')
-        ('2vn2', 'Second.Violin.Music_Voice.2')
-        ('2vn3', 'Second.Violin.Music_Voice.3')
-        ('2vn4', 'Second.Violin.Music_Voice.4')
-        ('2vn5', 'Second.Violin.Music_Voice.5')
-        ('2vn6', 'Second.Violin.Music_Voice.6')
-        ('2vn7', 'Second.Violin.Music_Voice.7')
-        ('2vn8', 'Second.Violin.Music_Voice.8')
-        ('2vn9', 'Second.Violin.Music_Voice.9')
-        ('2vn10', 'Second.Violin.Music_Voice.10')
-        ('2vn11', 'Second.Violin.Music_Voice.11')
-        ('2vn12', 'Second.Violin.Music_Voice.12')
-        ('2vn13', 'Second.Violin.Music_Voice.13')
-        ('2vn14', 'Second.Violin.Music_Voice.14')
-        ('2vn15', 'Second.Violin.Music_Voice.15')
-        ('2vn16', 'Second.Violin.Music_Voice.16')
-        ('2vn17', 'Second.Violin.Music_Voice.17')
-        ('2vn18', 'Second.Violin.Music_Voice.18')
+        ('1vn1', 'First_Violin.Music_Voice.1')
+        ('1vn2', 'First_Violin.Music_Voice.2')
+        ('1vn3', 'First_Violin.Music_Voice.3')
+        ('1vn4', 'First_Violin.Music_Voice.4')
+        ('1vn5', 'First_Violin.Music_Voice.5')
+        ('1vn6', 'First_Violin.Music_Voice.6')
+        ('1vn7', 'First_Violin.Music_Voice.7')
+        ('1vn8', 'First_Violin.Music_Voice.8')
+        ('1vn9', 'First_Violin.Music_Voice.9')
+        ('1vn10', 'First_Violin.Music_Voice.10')
+        ('1vn11', 'First_Violin.Music_Voice.11')
+        ('1vn12', 'First_Violin.Music_Voice.12')
+        ('1vn13', 'First_Violin.Music_Voice.13')
+        ('1vn14', 'First_Violin.Music_Voice.14')
+        ('1vn15', 'First_Violin.Music_Voice.15')
+        ('1vn16', 'First_Violin.Music_Voice.16')
+        ('1vn17', 'First_Violin.Music_Voice.17')
+        ('1vn18', 'First_Violin.Music_Voice.18')
+        ('2vn1', 'Second_Violin.Music_Voice.1')
+        ('2vn2', 'Second_Violin.Music_Voice.2')
+        ('2vn3', 'Second_Violin.Music_Voice.3')
+        ('2vn4', 'Second_Violin.Music_Voice.4')
+        ('2vn5', 'Second_Violin.Music_Voice.5')
+        ('2vn6', 'Second_Violin.Music_Voice.6')
+        ('2vn7', 'Second_Violin.Music_Voice.7')
+        ('2vn8', 'Second_Violin.Music_Voice.8')
+        ('2vn9', 'Second_Violin.Music_Voice.9')
+        ('2vn10', 'Second_Violin.Music_Voice.10')
+        ('2vn11', 'Second_Violin.Music_Voice.11')
+        ('2vn12', 'Second_Violin.Music_Voice.12')
+        ('2vn13', 'Second_Violin.Music_Voice.13')
+        ('2vn14', 'Second_Violin.Music_Voice.14')
+        ('2vn15', 'Second_Violin.Music_Voice.15')
+        ('2vn16', 'Second_Violin.Music_Voice.16')
+        ('2vn17', 'Second_Violin.Music_Voice.17')
+        ('2vn18', 'Second_Violin.Music_Voice.18')
         ('va1', 'Viola.Music_Voice.1')
         ('va2', 'Viola.Music_Voice.2')
         ('va3', 'Viola.Music_Voice.3')
@@ -1385,7 +1385,7 @@ def voice_abbreviations():
         for n in range(1, count + 1):
             voice_abbreviation = instrument_abbreviation + str(n)
             words = abjad.string.delimit_words(instrument)
-            instrument = ".".join(words)
+            instrument = "_".join(words)
             voice_name = f"{instrument}.Music_Voice.{n}"
             result[voice_abbreviation] = voice_name
     return result
@@ -1397,17 +1397,17 @@ def voice_to_section(voice):
 
     ..  container:: example
 
-        >>> string = "English.Horn.Music_Voice.1"
+        >>> string = "English_Horn.Music_Voice.1"
         >>> animales.library.voice_to_section(string)
-        'English.Horn'
+        'English_Horn'
 
-        >>> string = "First.Violin.Music_Voice.1"
+        >>> string = "First_Violin.Music_Voice.1"
         >>> animales.library.voice_to_section(string)
-        'First.Violin'
+        'First_Violin'
 
-        >>> string = "Second.Violin.Music_Voice.1"
+        >>> string = "Second_Violin.Music_Voice.1"
         >>> animales.library.voice_to_section(string)
-        'Second.Violin'
+        'Second_Violin'
 
         >>> string = "Viola.Music_Voice.1"
         >>> animales.library.voice_to_section(string)

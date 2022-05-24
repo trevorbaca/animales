@@ -168,7 +168,7 @@ commands(
         "f > p",
         selector=library.leaves_in_measure(-1, lleak=True),
     ),
-    library.parts("First.Violin", 1),
+    library.parts("First_Violin", 1),
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)

@@ -285,7 +285,7 @@ commands(
         baca.tie(lambda _: baca.select.ptail(_, -2)),
         baca.glissando(),
     ),
-    library.parts("First.Violin", 1),
+    library.parts("First_Violin", 1),
     baca.edition("solo (first violin)", "solo"),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
@@ -335,13 +335,13 @@ commands(
 
 commands(
     ("1vn1", (1, 2)),
-    library.parts("First.Violin", (1, 10)),
+    library.parts("First_Violin", (1, 10)),
     baca.not_parts(baca.voice_two()),
 )
 
 commands(
     ("1vn1", (3, 6)),
-    library.parts("First.Violin", (2, 10)),
+    library.parts("First_Violin", (2, 10)),
     baca.not_parts(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
@@ -353,17 +353,17 @@ commands(
 
 commands(
     "1vn3",
-    library.parts("First.Violin", (11, 18)),
+    library.parts("First_Violin", (11, 18)),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin", (1, 10)),
+    library.parts("Second_Violin", (1, 10)),
 )
 
 commands(
     "2vn3",
-    library.parts("Second.Violin", (11, 18)),
+    library.parts("Second_Violin", (11, 18)),
 )
 
 commands(

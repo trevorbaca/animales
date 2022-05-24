@@ -241,7 +241,7 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "First.Violin.Staff.1"
+                        \context Staff = "First_Violin.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.1 }
@@ -250,7 +250,7 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "First.Violin.Staff.2"
+                        \context Staff = "First_Violin.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.2 }
@@ -259,7 +259,7 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "First.Violin.Staff.3"
+                        \context Staff = "First_Violin.Staff.3"
                           %! animales._make_staves()
                           %! baca.path.extern()
                         { \segment.18.First.Violin.Staff.3 }
@@ -290,7 +290,7 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Second.Violin.Staff.1"
+                        \context Staff = "Second_Violin.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
                         { \segment.18.Second.Violin.Staff.1 }
@@ -299,7 +299,7 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Second.Violin.Staff.2"
+                        \context Staff = "Second_Violin.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
                         { \segment.18.Second.Violin.Staff.2 }

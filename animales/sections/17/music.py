@@ -308,7 +308,7 @@ commands(
 
 commands(
     "eh1",
-    library.parts("English.Horn"),
+    library.parts("English_Horn"),
 )
 
 # bsn1, bsn2
@@ -524,7 +524,7 @@ commands(
     ),
     baca.pitch("C#4"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("First.Violin", 18),
+    library.parts("First_Violin", 18),
 )
 
 commands(
@@ -535,7 +535,7 @@ commands(
     baca.not_parts(
         baca.markup(r"\animales-tutti-sim-markup"),
     ),
-    library.parts("First.Violin", (1, 4)),
+    library.parts("First_Violin", (1, 4)),
 )
 
 commands(
@@ -543,7 +543,7 @@ commands(
     baca.pitch("F5"),
     _lower_voice_suite(8),
     _tremolo_suite(),
-    library.parts("First.Violin", (5, 8)),
+    library.parts("First_Violin", (5, 8)),
 )
 
 commands(
@@ -551,7 +551,7 @@ commands(
     baca.pitch("G5"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("First.Violin", (9, 12)),
+    library.parts("First_Violin", (9, 12)),
 )
 
 commands(
@@ -559,7 +559,7 @@ commands(
     baca.pitch("D5"),
     _lower_voice_suite(8),
     _tremolo_suite(),
-    library.parts("First.Violin", (13, 17)),
+    library.parts("First_Violin", (13, 17)),
 )
 
 commands(
@@ -567,7 +567,7 @@ commands(
     baca.pitch("B4"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("Second.Violin", (1, 4)),
+    library.parts("Second_Violin", (1, 4)),
 )
 
 commands(
@@ -575,7 +575,7 @@ commands(
     baca.pitch("G4"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("Second.Violin", (5, 8)),
+    library.parts("Second_Violin", (5, 8)),
 )
 
 commands(
@@ -583,7 +583,7 @@ commands(
     baca.pitch("A4"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("Second.Violin", (9, 12)),
+    library.parts("Second_Violin", (9, 12)),
 )
 
 commands(
@@ -591,7 +591,7 @@ commands(
     baca.pitch("F4"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("Second.Violin", (13, 18)),
+    library.parts("Second_Violin", (13, 18)),
 )
 
 commands(

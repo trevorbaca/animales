@@ -100,7 +100,7 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Bass.Clarinet.Staff.1"
+                    \context Staff = "Bass_Clarinet.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
                     { \segment.10.Bass.Clarinet.Staff.1 }
@@ -329,7 +329,7 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "First.Violin.Staff.1"
+                    \context Staff = "First_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
                     { \segment.10.First.Violin.Staff.1 }
@@ -338,7 +338,7 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Second.Violin.Staff.1"
+                    \context Staff = "Second_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
                     { \segment.10.Second.Violin.Staff.1 }

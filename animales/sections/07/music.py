@@ -273,13 +273,13 @@ commands(
     baca.not_parts(
         baca.markup(r"\animales-strings-still-non-vib-markup"),
     ),
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
     "2vn1",
     baca.pitch("Bb5"),
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(
