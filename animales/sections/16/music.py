@@ -499,7 +499,7 @@ commands(
     #        abjad.Tag("+LETTER_PARTS_CB-1"),
     #        baca.clef("bass"),
     #    ),
-    #    baca.only_segment(baca.literal(r"\clef "bass"")),
+    #    baca.only_section(baca.literal(r"\clef "bass"")),
     _tremolo_suite(),
 )
 

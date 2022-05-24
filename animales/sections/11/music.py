@@ -423,7 +423,7 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-    baca.not_segment(baca.stop_trill()),
+    baca.not_section(baca.stop_trill()),
 )
 
 commands(
