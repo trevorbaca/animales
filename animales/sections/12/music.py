@@ -422,13 +422,13 @@ commands(
 commands(
     "1vn1",
     baca.pitch("Ab6"),
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
     "2vn1",
     baca.pitch("Ab5"),
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(

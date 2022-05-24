@@ -257,7 +257,7 @@ for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
     voice = voice_abbreviations.get(voice, voice)
-    if voice != "First.Violin.Music_Voice.5":
+    if voice != "First_Violin.Music_Voice.5":
         commands(
             (voice, (1, 3)),
             baca.make_mmrests_flat(),
@@ -295,7 +295,7 @@ for voice, items in string_parts.items():
         voice,
         *commands_,
     )
-    if voice == "First.Violin.Music_Voice.5":
+    if voice == "First_Violin.Music_Voice.5":
         continue
     commands(
         (voice, (4, 7)),

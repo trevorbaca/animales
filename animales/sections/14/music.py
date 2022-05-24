@@ -335,7 +335,7 @@ commands(
     ),
     baca.pitch("Ab2"),
     baca.dynamic("p"),
-    library.parts("Bass.Clarinet"),
+    library.parts("Bass_Clarinet"),
 )
 
 # pf1, hp1, perc3
@@ -438,7 +438,7 @@ commands(
 
 commands(
     "1vn3",
-    library.parts("First.Violin", 1),
+    library.parts("First_Violin", 1),
 )
 
 commands(
@@ -455,12 +455,12 @@ commands(
 commands(
     "1vn1",
     baca.not_parts(baca.voice_two()),
-    library.parts("First.Violin", (2, 18)),
+    library.parts("First_Violin", (2, 18)),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(
@@ -474,14 +474,14 @@ commands(
 )
 
 most_strings = [
-    "Second.Violin.Rest_Voice.1",
+    "Second_Violin.Rest_Voice.1",
     "Viola.Rest_Voice.1",
     "Cello.Rest_Voice.1",
     "Contrabass.Rest_Voice.3",
 ]
 
 commands(
-    ("First.Violin.Rest_Voice.1", 4),
+    ("First_Violin.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),

@@ -236,7 +236,7 @@ commands(
 
 commands(
     "bcl1",
-    library.parts("Bass.Clarinet"),
+    library.parts("Bass_Clarinet"),
 )
 
 # horns
@@ -405,12 +405,12 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(

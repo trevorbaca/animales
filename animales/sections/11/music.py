@@ -400,12 +400,12 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
     "2vn1",
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(

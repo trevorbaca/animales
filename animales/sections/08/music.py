@@ -179,7 +179,7 @@ commands(
 
 commands(
     "bcl1",
-    library.parts("Bass.Clarinet"),
+    library.parts("Bass_Clarinet"),
 )
 
 # pf1
@@ -234,7 +234,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
@@ -248,7 +248,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(

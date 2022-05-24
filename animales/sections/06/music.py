@@ -174,13 +174,13 @@ commands(
     "1vn1",
     library.margin_markup("Vni. I"),
     baca.not_parts(baca.one_voice()),
-    library.parts("First.Violin"),
+    library.parts("First_Violin"),
 )
 
 commands(
     "2vn1",
     library.margin_markup("Vni. II"),
-    library.parts("Second.Violin"),
+    library.parts("Second_Violin"),
 )
 
 commands(
