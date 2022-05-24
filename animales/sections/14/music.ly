@@ -54,7 +54,7 @@
                 \context GlobalRests = "Global_Rests"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.14.Global_Rests }
+                { \section_number.14.Global_Rests }
                 % ABSOLUTE_BEFORE:
                 % COMMANDS:
 
@@ -63,7 +63,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \segment.14.Global_Skips }
+                { \section_number.14.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -110,7 +110,7 @@
                         \context Staff = "Flute.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Flute.Staff.1 }
+                        { \section_number.14.Flute.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -119,7 +119,7 @@
                         \context Staff = "Flute.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Flute.Staff.2 }
+                        { \section_number.14.Flute.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -150,7 +150,7 @@
                         \context Staff = "Clarinet.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Clarinet.Staff.1 }
+                        { \section_number.14.Clarinet.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -159,7 +159,7 @@
                         \context Staff = "Bass_Clarinet.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Bass.Clarinet.Staff.1 }
+                        { \section_number.14.Bass_Clarinet.Staff.1 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -186,7 +186,7 @@
                     \context Staff = "Piano.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Piano.Staff.1 }
+                    { \section_number.14.Piano.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -206,7 +206,7 @@
                     \context Staff = "Harp.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Harp.Staff.1 }
+                    { \section_number.14.Harp.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -228,7 +228,7 @@
                     \context Staff = "Percussion.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Percussion.Staff.1 }
+                    { \section_number.14.Percussion.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -237,7 +237,7 @@
                     \context Staff = "Percussion.Staff.2"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Percussion.Staff.2 }
+                    { \section_number.14.Percussion.Staff.2 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -246,7 +246,7 @@
                     \context Staff = "Percussion.Staff.3"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Percussion.Staff.3 }
+                    { \section_number.14.Percussion.Staff.3 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -269,7 +269,7 @@
                     \context Staff = "First_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.First.Violin.Staff.1 }
+                    { \section_number.14.First_Violin.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -278,7 +278,7 @@
                     \context Staff = "Second_Violin.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Second.Violin.Staff.1 }
+                    { \section_number.14.Second_Violin.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -287,7 +287,7 @@
                     \context Staff = "Viola.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Viola.Staff.1 }
+                    { \section_number.14.Viola.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -296,7 +296,7 @@
                     \context Staff = "Cello.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \segment.14.Cello.Staff.1 }
+                    { \section_number.14.Cello.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
@@ -321,7 +321,7 @@
                         \context Staff = "Contrabass.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Contrabass.Staff.1 }
+                        { \section_number.14.Contrabass.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
@@ -330,7 +330,7 @@
                         \context Staff = "Contrabass.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \segment.14.Contrabass.Staff.2 }
+                        { \section_number.14.Contrabass.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 

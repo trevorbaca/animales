@@ -15,11 +15,11 @@
         "Percussion.Rest_Voice.4",
     ],
     "container_to_part_assignment": {
-        "segment.30.Percussion.Music_Voice.4.part.1": (
+        "section_number.30.Percussion.Music_Voice.4.part.1": (
             baca.PartAssignment("Percussion", 4),
             Timespan(Offset((0, 1)), Offset((33, 4))),
         ),
-        "segment.30.Piano.Music_Voice.1.part.1": (
+        "section_number.30.Piano.Music_Voice.1.part.1": (
             baca.PartAssignment("Piano"),
             Timespan(Offset((0, 1)), Offset((33, 4))),
         ),
