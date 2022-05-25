@@ -56,12 +56,12 @@ commands(
 # PIANO
 
 commands(
-    ("pf1", (1, 9)),
+    ("pf", (1, 9)),
     baca.make_notes(),
 )
 
 commands(
-    ("pf1", 10),
+    ("pf", 10),
     baca.make_mmrests_flat(),
 )
 
@@ -91,10 +91,10 @@ commands(
 
 library.attach_grand_pause_fermatas(commands, score, measure=10)
 
-# pf1
+# pf
 
 commands(
-    ("pf1", (1, 9)),
+    ("pf", (1, 9)),
     baca.pitch("C#4"),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -103,7 +103,7 @@ commands(
 )
 
 commands(
-    "pf1",
+    "pf",
     library.parts("Piano"),
 )
 
@@ -134,9 +134,9 @@ commands(
     ),
 )
 
-# pf1, perc4
+# pf, perc4
 
-for voice_name in ("pf1", "perc4"):
+for voice_name in ("pf", "perc4"):
     commands(
         (voice_name, 1),
         baca.tag(

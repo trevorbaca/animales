@@ -122,29 +122,29 @@ commands(
 )
 
 commands(
-    ("cl1", (1, 3)),
+    ("cl", (1, 3)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("cl1", (4, 6)),
+    ("cl", (4, 6)),
     baca.make_mmrests(),
 )
 
 commands(
-    "bcl1",
+    "bcl",
     baca.make_repeat_tied_notes(),
 )
 
 # PIANO, HARP
 
 commands(
-    "pf1",
+    "pf",
     library.make_harp_exchange_rhythm(3),
 )
 
 commands(
-    "hp1",
+    "hp",
     library.make_harp_exchange_rhythm(2),
 )
 
@@ -305,16 +305,16 @@ commands(
     library.parts("Flute", 4),
 )
 
-# cl1
+# cl
 
 commands(
-    ("cl1", (1, 3)),
+    ("cl", (1, 3)),
     baca.pitch("Eb5"),
     baca.hairpin("< ff", left_broken=True),
 )
 
 commands(
-    ("Clarinet.Rest_Voice.1", 4),
+    ("Clarinet.Rest_Voice", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -322,14 +322,14 @@ commands(
 )
 
 commands(
-    "cl1",
+    "cl",
     library.parts("Clarinet", 1),
 )
 
-# bcl1
+# bcl
 
 commands(
-    "bcl1",
+    "bcl",
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
@@ -338,29 +338,29 @@ commands(
     library.parts("Bass_Clarinet"),
 )
 
-# pf1, hp1, perc3
+# pf, hp, perc3
 
 commands(
-    (["pf1", "hp1", "perc3"], (1, 3)),
+    (["pf", "hp", "perc3"], (1, 3)),
     baca.pitch("C5"),
 )
 
 commands(
-    (["pf1", "hp1", "perc3"], (4, 6)),
+    (["pf", "hp", "perc3"], (4, 6)),
     baca.pitch("Bb4"),
 )
 
-# pf1, hp1
+# pf, hp
 
 commands(
-    "pf1",
+    "pf",
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     library.parts("Piano"),
 )
 
 commands(
-    "hp1",
+    "hp",
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     library.parts("Harp"),

@@ -82,29 +82,29 @@ commands(
 # WINDS
 
 commands(
-    "cl1",
+    "cl",
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("bcl1", (1, 4)),
+    ("bcl", (1, 4)),
     baca.make_mmrests_flat(),
 )
 
 commands(
-    ("bcl1", (5, 6)),
+    ("bcl", (5, 6)),
     baca.make_repeat_tied_notes(),
 )
 
 # PIANO, HARP
 
 commands(
-    "pf1",
+    "pf",
     library.make_harp_exchange_rhythm(3),
 )
 
 commands(
-    "hp1",
+    "hp",
     library.make_harp_exchange_rhythm(2),
 )
 
@@ -167,33 +167,33 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-# cl1
+# cl
 
 commands(
-    "cl1",
+    "cl",
     library.margin_markup("Cl. 1"),
     baca.pitch("Eb5"),
     baca.hairpin("mp <", right_broken=True),
     library.parts("Clarinet", 1),
 )
 
-# bcl1
+# bcl
 
 commands(
-    ("bcl1", (5, 6)),
+    ("bcl", (5, 6)),
     baca.pitch("Ab2"),
     baca.hairpin("o<", right_broken=True),
 )
 
 commands(
-    "bcl1",
+    "bcl",
     library.parts("Bass_Clarinet"),
 )
 
-# pf1, hp1
+# pf, hp
 
 commands(
-    "pf1",
+    "pf",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -201,7 +201,7 @@ commands(
 )
 
 commands(
-    "hp1",
+    "hp",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

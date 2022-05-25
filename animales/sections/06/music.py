@@ -74,7 +74,7 @@ commands(
 # WINDS
 
 commands(
-    "cl1",
+    "cl",
     baca.make_repeat_tied_notes(),
 )
 
@@ -140,10 +140,10 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-# cl1
+# cl
 
 commands(
-    "cl1",
+    "cl",
     library.margin_markup("Cl. 3"),
     baca.pitch("C#5"),
     baca.edition("solo (cl. 3)", "solo"),
