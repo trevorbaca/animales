@@ -4,47 +4,41 @@ import abjad
 import baca
 from abjadext import rmakers
 
-instruments = dict(
-    [
-        ("BassClarinet", abjad.BassClarinet()),
-        ("Bassoon", abjad.Bassoon()),
-        ("Cello", abjad.Cello()),
-        ("Clarinet", abjad.ClarinetInBFlat()),
-        ("Contrabass", abjad.Contrabass(pitch_range="[E1, D6]")),
-        ("EnglishHorn", abjad.EnglishHorn()),
-        ("Flute", abjad.Flute()),
-        ("Harp", abjad.Harp()),
-        ("Horn", abjad.FrenchHorn()),
-        ("Oboe", abjad.Oboe()),
-        ("Percussion", abjad.Percussion()),
-        ("Piano", abjad.Piano()),
-        ("Trombone", abjad.TenorTrombone()),
-        ("Trumpet", abjad.Trumpet()),
-        ("Tuba", abjad.Tuba()),
-        ("Vibraphone", abjad.Vibraphone()),
-        ("Viola", abjad.Viola()),
-        ("Violin", abjad.Violin()),
-    ]
-)
+
+def _group_families(*families):
+    """
+    Groups ``families`` only when more than one family is passed in.
+    """
+    families_ = []
+    for family in families:
+        if family is not None:
+            assert isinstance(family, tuple), repr(family)
+            if any(_ for _ in family[1:] if _ is not None):
+                families_.append(family)
+    families = tuple(families_)
+    contexts = []
+    if len(families) == 0:
+        pass
+    elif len(families) == 1:
+        family = families[0]
+        contexts.extend([_ for _ in family[1:] if _ is not None])
+    else:
+        for family in families:
+            if not isinstance(family, tuple):
+                assert isinstance(family, abjad.Context)
+                contexts.append(family)
+                continue
+            square_staff_group = _make_square_staff_group(*family)
+            assert square_staff_group is not None
+            contexts.append(square_staff_group)
+    return contexts
 
 
-def instrument(key):
-    return baca.instrument(instruments[key])
-
-
-def margin_markup(
-    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
-):
-    margin_markup = margin_markups[key]
-    command = baca.margin_markup(
-        margin_markup,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    command_ = baca.not_parts(command)
-    command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
-    return command_
+def _instrument_name_to_voice_count(instrument_name):
+    triples = _instrument_voice_counts()
+    for _, instrument_name_, voice_count in triples:
+        if instrument_name_ == instrument_name:
+            return voice_count
 
 
 def _instrument_voice_counts():
@@ -85,204 +79,6 @@ def _make_margin_markup(name):
     return abjad.MarginMarkup(markup=string)
 
 
-margin_markups = dict(
-    [
-        ("B. cl.", _make_margin_markup("B. cl.")),
-        ("Bsn.", _make_margin_markup("Bsn.")),
-        ("Cb.", _make_margin_markup("Cb.")),
-        ("Cb. (2-6)", _make_margin_markup(["Cb.", "(2-6)"])),
-        ("Cl.", _make_margin_markup("Cl.")),
-        ("Eng. hn.", _make_margin_markup("Eng. hn.")),
-        ("Fl.", _make_margin_markup("Fl.")),
-        ("Fl. (1+3)", _make_margin_markup(["Fl.", "(1+3)"])),
-        ("Fl. (2+4)", _make_margin_markup(["Fl.", "(2+4)"])),
-        ("Hn.", _make_margin_markup("Hn.")),
-        ("Hn. (1+3)", _make_margin_markup(["Hn.", "(1+3)"])),
-        ("Hn. (2+4)", _make_margin_markup(["Hn.", "(2+4)"])),
-        ("Hp.", _make_margin_markup("Hp.")),
-        ("Ob.", _make_margin_markup("Ob.")),
-        ("Perc.", _make_margin_markup("Perc.")),
-        ("Perc. 1 (tri.)", _make_margin_markup(["Perc. 1", "(tri.)"])),
-        ("Perc. 2 (cym.)", _make_margin_markup(["Perc. 2", "(cym.)"])),
-        ("Perc. 3 (vib.)", _make_margin_markup(["Perc. 3", "(vib.)"])),
-        ("Perc. 3 (BD)", _make_margin_markup(["Perc. 3", "(BD)"])),
-        ("Perc. 4 (tam.)", _make_margin_markup(["Perc. 4", "(tam.)"])),
-        ("Perc. 4 (slate)", _make_margin_markup(["Perc. 4", "(slate)"])),
-        ("Pf.", _make_margin_markup("Pf.")),
-        ("Tp.", _make_margin_markup("Tp.")),
-        ("Tp. (1+3)", _make_margin_markup(["Tp.", "(1+3)"])),
-        ("Tp. (2+4)", _make_margin_markup(["Tp.", "(2+4)"])),
-        ("Trb.", _make_margin_markup("Trb.")),
-        ("Trb. (1+3)", _make_margin_markup(["Trb.", "(1+3)"])),
-        ("Trb. (2+4)", _make_margin_markup(["Trb.", "(2+4)"])),
-        ("Tub.", _make_margin_markup("Tub.")),
-        ("Vc.", _make_margin_markup("Vc.")),
-        ("Vc. (1-8)", _make_margin_markup(["Vc.", "(1-8)"])),
-        ("Vc. (1-8) (9-14)", _make_margin_markup(["Vc.", "(1-8)", "(9-14)"])),
-        ("Vc. (9-14)", _make_margin_markup(["Vc.", "(9-14)"])),
-        ("Vle.", _make_margin_markup("Vle.")),
-        ("Vle. (1-10)", _make_margin_markup(["Vle.", "(1-10)"])),
-        ("Vle. (11-18)", _make_margin_markup(["Vle.", "(11-18)"])),
-        ("Vle. (1-4) (5-8)", _make_margin_markup(["Vle.", "(1-4)", "(5-8)"])),
-        (
-            "Vle. (9-12) (13-18)",
-            _make_margin_markup(["Vle.", "(9-12)", "(13-18)"]),
-        ),
-        ("Vni.", _make_margin_markup("Vni.")),
-        ("Vni. I", _make_margin_markup("Vni. I")),
-        ("Vni. I (1-10)", _make_margin_markup(["Vni. I", "(1-10)"])),
-        ("Vni. I (11-18)", _make_margin_markup(["Vni. I", "(11-18)"])),
-        ("Vni. I (2-18)", _make_margin_markup(["Vni. I", "(2-18)"])),
-        (
-            "Vni. I (1-4) (5-8)",
-            _make_margin_markup(["Vni. I", "(1-4)", "(5-8)"]),
-        ),
-        (
-            "Vni. I (9-12) (13-17)",
-            _make_margin_markup(["Vni. I", "(9-12)", "(13-17)"]),
-        ),
-        ("Vni. II", _make_margin_markup("Vni. II")),
-        ("Vni. II (1-10)", _make_margin_markup(["Vni. II", "(1-10)"])),
-        ("Vni. II (11-18)", _make_margin_markup(["Vni. II", "(11-18)"])),
-        (
-            "Vni. II (1-4) (5-8)",
-            _make_margin_markup(["Vni. II", "(1-4)", "(5-8)"]),
-        ),
-        (
-            "Vni. II (9-12) (13-18)",
-            _make_margin_markup(["Vni. II", "(9-12)", "(13-18)"]),
-        ),
-    ]
-)
-
-
-def _populate_margin_markups():
-    for section, count in [
-        ("Fl.", 4),
-        ("Ob.", 3),
-        ("Cl.", 3),
-        ("Bsn.", 2),
-        ("Hn.", 4),
-        ("Tp.", 4),
-        ("Trb.", 4),
-        ("Perc.", 4),
-        ("Vni. I", 18),
-        ("Vni. II", 18),
-        ("Vle.", 18),
-        ("Vc.", 14),
-        ("Cb.", 6),
-    ]:
-        for member in range(1, count + 1):
-            key = f"{section} {member}"
-            value = _make_margin_markup([section, str(member)])
-            margin_markups[key] = value
-
-    for section, count in [
-        ("Vni. I", 18),
-        ("Vni. II", 18),
-        ("Vle.", 18),
-        ("Vc.", 14),
-        ("Cb.", 6),
-    ]:
-        for member in range(1, count + 1):
-            if member % 2 == 0:
-                continue
-            members = f"({member}-{member+1})"
-            key = f"{section} {members}"
-            value = _make_margin_markup([section, members])
-            margin_markups[key] = value
-
-
-_populate_margin_markups()
-
-
-metronome_marks = dict(
-    [
-        ("48", abjad.MetronomeMark((1, 4), 48)),
-        ("60", abjad.MetronomeMark((1, 4), 60)),
-        ("76", abjad.MetronomeMark((1, 4), 76)),
-        ("84", abjad.MetronomeMark((1, 4), 84)),
-        ("96", abjad.MetronomeMark((1, 4), 96)),
-        ("114", abjad.MetronomeMark((1, 4), 114)),
-        ("120", abjad.MetronomeMark((1, 4), 120)),
-        ("132", abjad.MetronomeMark((1, 4), 132)),
-    ]
-)
-
-
-def _make_time_signatures():
-    pairs = [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
-    pairs = baca.sequence.helianthate(pairs, -1, -1)
-    pairs = abjad.sequence.flatten(pairs)
-    pairs = [abjad.TimeSignature(_) for _ in pairs]
-    time_signatures = abjad.CyclicTuple(pairs)
-    return time_signatures
-
-
-time_signatures = _make_time_signatures()
-
-
-part_manifest = baca.PartManifest(
-    baca.Section(abbreviation="FL", count=4, name="Flute"),
-    baca.Section(abbreviation="OB", count=3, name="Oboe"),
-    baca.Part(section="English_Horn", section_abbreviation="EH"),
-    baca.Section(abbreviation="CL", count=3, name="Clarinet"),
-    baca.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
-    baca.Section(abbreviation="BSN", count=2, name="Bassoon"),
-    baca.Section(abbreviation="HN", count=4, name="Horn"),
-    baca.Section(abbreviation="TP", count=4, name="Trumpet"),
-    baca.Section(abbreviation="TBN", count=4, name="Trombone"),
-    baca.Part(section="Tuba", section_abbreviation="TUB"),
-    baca.Part(section="Harp", section_abbreviation="HP"),
-    baca.Part(section="Piano", section_abbreviation="PF"),
-    baca.Section(abbreviation="PERC", count=4, name="Percussion"),
-    baca.Section(
-        abbreviation="VN-1",
-        count=18,
-        instrument="Violin",
-        name="First_Violin",
-    ),
-    baca.Section(
-        abbreviation="VN-2",
-        count=18,
-        instrument="Violin",
-        name="Second_Violin",
-    ),
-    baca.Section(abbreviation="VA", count=18, name="Viola"),
-    baca.Section(abbreviation="VC", count=14, name="Cello"),
-    baca.Section(abbreviation="CB", count=6, name="Contrabass"),
-)
-
-
-def _group_families(*families):
-    """
-    Groups ``families`` only when more than one family is passed in.
-    """
-    families_ = []
-    for family in families:
-        if family is not None:
-            assert isinstance(family, tuple), repr(family)
-            if any(_ for _ in family[1:] if _ is not None):
-                families_.append(family)
-    families = tuple(families_)
-    contexts = []
-    if len(families) == 0:
-        pass
-    elif len(families) == 1:
-        family = families[0]
-        contexts.extend([_ for _ in family[1:] if _ is not None])
-    else:
-        for family in families:
-            if not isinstance(family, tuple):
-                assert isinstance(family, abjad.Context)
-                contexts.append(family)
-                continue
-            square_staff_group = _make_square_staff_group(*family)
-            assert square_staff_group is not None
-            contexts.append(square_staff_group)
-    return contexts
-
-
 def _make_piano_staff(stem, *contexts):
     if not isinstance(stem, str):
         raise Exception(f"stem must be string: {stem!r}.")
@@ -309,13 +105,6 @@ def _make_square_staff_group(stem, *contexts):
         abjad.setting(staff_group).system_start_delimiter = "#'SystemStartSquare"
         result = staff_group
     return result
-
-
-def _instrument_name_to_voice_count(instrument_name):
-    triples = _instrument_voice_counts()
-    for _, instrument_name_, voice_count in triples:
-        if instrument_name_ == instrument_name:
-            return voice_count
 
 
 def _make_staves(
@@ -370,53 +159,55 @@ def allows_instrument(staff_name, instrument):
     ..  container:: example
 
         >>> import animales
+        >>> instruments = animales.library.instruments()
         >>> animales.library.allows_instrument(
         ...     "First_Violin.Staff.1",
-        ...     animales.library.instruments["Violin"],
+        ...     instruments["Violin"],
         ... )
         True
 
         >>> animales.library.allows_instrument(
         ...     "Percussion.Staff.1",
-        ...     animales.library.instruments["Percussion"],
+        ...     instruments["Percussion"],
         ... )
         True
 
         >>> animales.library.allows_instrument(
         ...     "Percussion.Staff.1",
-        ...     animales.library.instruments["Vibraphone"],
+        ...     instruments["Vibraphone"],
         ... )
         False
 
         >>> animales.library.allows_instrument(
         ...     "Percussion.Staff.3",
-        ...     animales.library.instruments["Vibraphone"],
+        ...     instruments["Vibraphone"],
         ... )
         True
 
     """
+    _instruments = instruments()
     dictionary = dict(
         [
-            ("Flute", [instruments["Flute"]]),
-            ("Oboe", [instruments["Oboe"]]),
-            ("English_Horn", [instruments["EnglishHorn"]]),
-            ("Clarinet", [instruments["Clarinet"]]),
-            ("Bass_Clarinet", [instruments["BassClarinet"]]),
-            ("Horn", [instruments["Horn"]]),
-            ("Trumpet", [instruments["Trumpet"]]),
-            ("Trombone", [instruments["Trombone"]]),
-            ("Tuba", [instruments["Tuba"]]),
-            ("Harp", [instruments["Harp"]]),
-            ("Piano", [instruments["Piano"]]),
-            ("Percussion.Staff.1", [instruments["Percussion"]]),
-            ("Percussion.Staff.2", [instruments["Percussion"]]),
-            ("Percussion.Staff.3", [instruments["Vibraphone"]]),
-            ("Percussion.Staff.4", [instruments["Percussion"]]),
-            ("First_Violin", [instruments["Violin"]]),
-            ("Second_Violin", [instruments["Violin"]]),
-            ("Viola", [instruments["Viola"]]),
-            ("Cello", [instruments["Cello"]]),
-            ("Contrabass", [instruments["Contrabass"]]),
+            ("Flute", [_instruments["Flute"]]),
+            ("Oboe", [_instruments["Oboe"]]),
+            ("English_Horn", [_instruments["EnglishHorn"]]),
+            ("Clarinet", [_instruments["Clarinet"]]),
+            ("Bass_Clarinet", [_instruments["BassClarinet"]]),
+            ("Horn", [_instruments["Horn"]]),
+            ("Trumpet", [_instruments["Trumpet"]]),
+            ("Trombone", [_instruments["Trombone"]]),
+            ("Tuba", [_instruments["Tuba"]]),
+            ("Harp", [_instruments["Harp"]]),
+            ("Piano", [_instruments["Piano"]]),
+            ("Percussion.Staff.1", [_instruments["Percussion"]]),
+            ("Percussion.Staff.2", [_instruments["Percussion"]]),
+            ("Percussion.Staff.3", [_instruments["Vibraphone"]]),
+            ("Percussion.Staff.4", [_instruments["Percussion"]]),
+            ("First_Violin", [_instruments["Violin"]]),
+            ("Second_Violin", [_instruments["Violin"]]),
+            ("Viola", [_instruments["Viola"]]),
+            ("Cello", [_instruments["Cello"]]),
+            ("Contrabass", [_instruments["Contrabass"]]),
         ]
     )
     staff_name_words = abjad.string.delimit_words(staff_name)
@@ -524,9 +315,11 @@ def assign_trill_parts(commands, *, exclude_first_violin=False):
         )
 
 
-# attaches grand pause fermatas in parts because voices alive in section
-# do not receive GlobalRests variables.
 def attach_grand_pause_fermatas(commands, score, *, measure=-1):
+    """
+    Attaches grand pause fermatas in parts because voices alive in section
+    do not receive GlobalRests variables.
+    """
     assert isinstance(commands, baca.CommandAccumulator)
     for voice in abjad.iterate.components(score, abjad.Voice):
         markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
@@ -553,6 +346,36 @@ def glissando_positions(*, reverse=False, rotate=0, transpose=0):
         positions_.reverse()
     positions = abjad.sequence.rotate(positions_, rotate)
     return baca.staff_positions(positions)
+
+
+def instrument(key):
+    _instruments = instruments()
+    return baca.instrument(_instruments[key])
+
+
+def instruments():
+    return dict(
+        [
+            ("BassClarinet", abjad.BassClarinet()),
+            ("Bassoon", abjad.Bassoon()),
+            ("Cello", abjad.Cello()),
+            ("Clarinet", abjad.ClarinetInBFlat()),
+            ("Contrabass", abjad.Contrabass(pitch_range="[E1, D6]")),
+            ("EnglishHorn", abjad.EnglishHorn()),
+            ("Flute", abjad.Flute()),
+            ("Harp", abjad.Harp()),
+            ("Horn", abjad.FrenchHorn()),
+            ("Oboe", abjad.Oboe()),
+            ("Percussion", abjad.Percussion()),
+            ("Piano", abjad.Piano()),
+            ("Trombone", abjad.TenorTrombone()),
+            ("Trumpet", abjad.Trumpet()),
+            ("Tuba", abjad.Tuba()),
+            ("Vibraphone", abjad.Vibraphone()),
+            ("Viola", abjad.Viola()),
+            ("Violin", abjad.Violin()),
+        ]
+    )
 
 
 def leaves_in_measure(n, lleak=False, rleak=False):
@@ -853,131 +676,133 @@ def make_empty_score(
     contrabasses=0,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
+    _instruments = instruments()
+    _margin_markups = margin_markups()
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
         "Flute",
         flutes,
-        instruments["Flute"],
-        margin_markups["Fl."],
+        _instruments["Flute"],
+        _margin_markups["Fl."],
         abjad.Clef("treble"),
     )
     oboe_staves = _make_staves(
         "Oboe",
         oboes,
-        instruments["Oboe"],
-        margin_markups["Ob."],
+        _instruments["Oboe"],
+        _margin_markups["Ob."],
         abjad.Clef("treble"),
     )
     english_horn_staves = _make_staves(
         "English_Horn",
         english_horn,
-        instruments["EnglishHorn"],
-        margin_markups["Eng. hn."],
+        _instruments["EnglishHorn"],
+        _margin_markups["Eng. hn."],
         abjad.Clef("treble"),
     )
     clarinet_staves = _make_staves(
         "Clarinet",
         clarinets,
-        instruments["Clarinet"],
-        margin_markups["Cl."],
+        _instruments["Clarinet"],
+        _margin_markups["Cl."],
         abjad.Clef("treble"),
     )
     bass_clarinet_staves = _make_staves(
         "Bass_Clarinet",
         bass_clarinet,
-        instruments["BassClarinet"],
-        margin_markups["B. cl."],
+        _instruments["BassClarinet"],
+        _margin_markups["B. cl."],
         abjad.Clef("treble"),
     )
     bassoon_staves = _make_staves(
         "Bassoon",
         bassoons,
-        instruments["Bassoon"],
-        margin_markups["Bsn."],
+        _instruments["Bassoon"],
+        _margin_markups["Bsn."],
         abjad.Clef("bass"),
     )
     horn_staves = _make_staves(
         "Horn",
         horns,
-        instruments["Horn"],
-        margin_markups["Hn."],
+        _instruments["Horn"],
+        _margin_markups["Hn."],
         abjad.Clef("bass"),
     )
     trumpet_staves = _make_staves(
         "Trumpet",
         trumpets,
-        instruments["Trumpet"],
-        margin_markups["Tp."],
+        _instruments["Trumpet"],
+        _margin_markups["Tp."],
         abjad.Clef("treble"),
     )
     trombone_staves = _make_staves(
         "Trombone",
         trombones,
-        instruments["Trombone"],
-        margin_markups["Trb."],
+        _instruments["Trombone"],
+        _margin_markups["Trb."],
         abjad.Clef("tenor"),
     )
     tuba_staves = _make_staves(
         "Tuba",
         tuba,
-        instruments["Tuba"],
-        margin_markups["Tub."],
+        _instruments["Tuba"],
+        _margin_markups["Tub."],
         abjad.Clef("bass"),
     )
     harp_staves = _make_staves(
         "Harp",
         harp,
-        instruments["Harp"],
-        margin_markups["Hp."],
+        _instruments["Harp"],
+        _margin_markups["Hp."],
         abjad.Clef("treble"),
     )
     piano_staves = _make_staves(
         "Piano",
         piano,
-        instruments["Piano"],
-        margin_markups["Pf."],
+        _instruments["Piano"],
+        _margin_markups["Pf."],
         abjad.Clef("treble"),
     )
     percussion_staves = _make_staves(
         "Percussion",
         percussion,
-        instruments["Percussion"],
-        margin_markups["Perc."],
+        _instruments["Percussion"],
+        _margin_markups["Perc."],
         abjad.Clef("percussion"),
     )
     first_violin_staves = _make_staves(
         "First_Violin",
         first_violins,
-        instruments["Violin"],
-        margin_markups["Vni. I"],
+        _instruments["Violin"],
+        _margin_markups["Vni. I"],
         abjad.Clef("treble"),
     )
     second_violin_staves = _make_staves(
         "Second_Violin",
         second_violins,
-        instruments["Violin"],
-        margin_markups["Vni. II"],
+        _instruments["Violin"],
+        _margin_markups["Vni. II"],
         abjad.Clef("treble"),
     )
     viola_staves = _make_staves(
         "Viola",
         violas,
-        instruments["Viola"],
-        margin_markups["Vle."],
+        _instruments["Viola"],
+        _margin_markups["Vle."],
         abjad.Clef("alto"),
     )
     cello_staves = _make_staves(
         "Cello",
         cellos,
-        instruments["Cello"],
-        margin_markups["Vc."],
+        _instruments["Cello"],
+        _margin_markups["Vc."],
         abjad.Clef("bass"),
     )
     contrabass_staves = _make_staves(
         "Contrabass",
         contrabasses,
-        instruments["Contrabass"],
-        margin_markups["Cb."],
+        _instruments["Contrabass"],
+        _margin_markups["Cb."],
         abjad.Clef("bass"),
     )
     music_context = baca.score.make_music_context(
@@ -1238,6 +1063,176 @@ def make_trill_rhythm(commands, measures=(1, -1)):
         )
 
 
+def margin_markup(
+    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
+):
+    _margin_markups = margin_markups()
+    margin_markup = _margin_markups[key]
+    command = baca.margin_markup(
+        margin_markup,
+        alert=alert,
+        context=context,
+        selector=selector,
+    )
+    command_ = baca.not_parts(command)
+    command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
+    return command_
+
+
+def margin_markups():
+    result = dict(
+        [
+            ("B. cl.", _make_margin_markup("B. cl.")),
+            ("Bsn.", _make_margin_markup("Bsn.")),
+            ("Cb.", _make_margin_markup("Cb.")),
+            ("Cb. (2-6)", _make_margin_markup(["Cb.", "(2-6)"])),
+            ("Cl.", _make_margin_markup("Cl.")),
+            ("Eng. hn.", _make_margin_markup("Eng. hn.")),
+            ("Fl.", _make_margin_markup("Fl.")),
+            ("Fl. (1+3)", _make_margin_markup(["Fl.", "(1+3)"])),
+            ("Fl. (2+4)", _make_margin_markup(["Fl.", "(2+4)"])),
+            ("Hn.", _make_margin_markup("Hn.")),
+            ("Hn. (1+3)", _make_margin_markup(["Hn.", "(1+3)"])),
+            ("Hn. (2+4)", _make_margin_markup(["Hn.", "(2+4)"])),
+            ("Hp.", _make_margin_markup("Hp.")),
+            ("Ob.", _make_margin_markup("Ob.")),
+            ("Perc.", _make_margin_markup("Perc.")),
+            ("Perc. 1 (tri.)", _make_margin_markup(["Perc. 1", "(tri.)"])),
+            ("Perc. 2 (cym.)", _make_margin_markup(["Perc. 2", "(cym.)"])),
+            ("Perc. 3 (vib.)", _make_margin_markup(["Perc. 3", "(vib.)"])),
+            ("Perc. 3 (BD)", _make_margin_markup(["Perc. 3", "(BD)"])),
+            ("Perc. 4 (tam.)", _make_margin_markup(["Perc. 4", "(tam.)"])),
+            ("Perc. 4 (slate)", _make_margin_markup(["Perc. 4", "(slate)"])),
+            ("Pf.", _make_margin_markup("Pf.")),
+            ("Tp.", _make_margin_markup("Tp.")),
+            ("Tp. (1+3)", _make_margin_markup(["Tp.", "(1+3)"])),
+            ("Tp. (2+4)", _make_margin_markup(["Tp.", "(2+4)"])),
+            ("Trb.", _make_margin_markup("Trb.")),
+            ("Trb. (1+3)", _make_margin_markup(["Trb.", "(1+3)"])),
+            ("Trb. (2+4)", _make_margin_markup(["Trb.", "(2+4)"])),
+            ("Tub.", _make_margin_markup("Tub.")),
+            ("Vc.", _make_margin_markup("Vc.")),
+            ("Vc. (1-8)", _make_margin_markup(["Vc.", "(1-8)"])),
+            ("Vc. (1-8) (9-14)", _make_margin_markup(["Vc.", "(1-8)", "(9-14)"])),
+            ("Vc. (9-14)", _make_margin_markup(["Vc.", "(9-14)"])),
+            ("Vle.", _make_margin_markup("Vle.")),
+            ("Vle. (1-10)", _make_margin_markup(["Vle.", "(1-10)"])),
+            ("Vle. (11-18)", _make_margin_markup(["Vle.", "(11-18)"])),
+            ("Vle. (1-4) (5-8)", _make_margin_markup(["Vle.", "(1-4)", "(5-8)"])),
+            (
+                "Vle. (9-12) (13-18)",
+                _make_margin_markup(["Vle.", "(9-12)", "(13-18)"]),
+            ),
+            ("Vni.", _make_margin_markup("Vni.")),
+            ("Vni. I", _make_margin_markup("Vni. I")),
+            ("Vni. I (1-10)", _make_margin_markup(["Vni. I", "(1-10)"])),
+            ("Vni. I (11-18)", _make_margin_markup(["Vni. I", "(11-18)"])),
+            ("Vni. I (2-18)", _make_margin_markup(["Vni. I", "(2-18)"])),
+            (
+                "Vni. I (1-4) (5-8)",
+                _make_margin_markup(["Vni. I", "(1-4)", "(5-8)"]),
+            ),
+            (
+                "Vni. I (9-12) (13-17)",
+                _make_margin_markup(["Vni. I", "(9-12)", "(13-17)"]),
+            ),
+            ("Vni. II", _make_margin_markup("Vni. II")),
+            ("Vni. II (1-10)", _make_margin_markup(["Vni. II", "(1-10)"])),
+            ("Vni. II (11-18)", _make_margin_markup(["Vni. II", "(11-18)"])),
+            (
+                "Vni. II (1-4) (5-8)",
+                _make_margin_markup(["Vni. II", "(1-4)", "(5-8)"]),
+            ),
+            (
+                "Vni. II (9-12) (13-18)",
+                _make_margin_markup(["Vni. II", "(9-12)", "(13-18)"]),
+            ),
+        ]
+    )
+    for section, count in [
+        ("Fl.", 4),
+        ("Ob.", 3),
+        ("Cl.", 3),
+        ("Bsn.", 2),
+        ("Hn.", 4),
+        ("Tp.", 4),
+        ("Trb.", 4),
+        ("Perc.", 4),
+        ("Vni. I", 18),
+        ("Vni. II", 18),
+        ("Vle.", 18),
+        ("Vc.", 14),
+        ("Cb.", 6),
+    ]:
+        for member in range(1, count + 1):
+            key = f"{section} {member}"
+            value = _make_margin_markup([section, str(member)])
+            result[key] = value
+    for section, count in [
+        ("Vni. I", 18),
+        ("Vni. II", 18),
+        ("Vle.", 18),
+        ("Vc.", 14),
+        ("Cb.", 6),
+    ]:
+        for member in range(1, count + 1):
+            if member % 2 == 0:
+                continue
+            members = f"({member}-{member+1})"
+            key = f"{section} {members}"
+            value = _make_margin_markup([section, members])
+            result[key] = value
+    return result
+
+
+def metronome_marks():
+    return dict(
+        [
+            ("48", abjad.MetronomeMark((1, 4), 48)),
+            ("60", abjad.MetronomeMark((1, 4), 60)),
+            ("76", abjad.MetronomeMark((1, 4), 76)),
+            ("84", abjad.MetronomeMark((1, 4), 84)),
+            ("96", abjad.MetronomeMark((1, 4), 96)),
+            ("114", abjad.MetronomeMark((1, 4), 114)),
+            ("120", abjad.MetronomeMark((1, 4), 120)),
+            ("132", abjad.MetronomeMark((1, 4), 132)),
+        ]
+    )
+
+
+def part_manifest():
+    return baca.PartManifest(
+        baca.Section(abbreviation="FL", count=4, name="Flute"),
+        baca.Section(abbreviation="OB", count=3, name="Oboe"),
+        baca.Part(section="English_Horn", section_abbreviation="EH"),
+        baca.Section(abbreviation="CL", count=3, name="Clarinet"),
+        baca.Part(section="Bass_Clarinet", section_abbreviation="BCL"),
+        baca.Section(abbreviation="BSN", count=2, name="Bassoon"),
+        baca.Section(abbreviation="HN", count=4, name="Horn"),
+        baca.Section(abbreviation="TP", count=4, name="Trumpet"),
+        baca.Section(abbreviation="TBN", count=4, name="Trombone"),
+        baca.Part(section="Tuba", section_abbreviation="TUB"),
+        baca.Part(section="Harp", section_abbreviation="HP"),
+        baca.Part(section="Piano", section_abbreviation="PF"),
+        baca.Section(abbreviation="PERC", count=4, name="Percussion"),
+        baca.Section(
+            abbreviation="VN-1",
+            count=18,
+            instrument="Violin",
+            name="First_Violin",
+        ),
+        baca.Section(
+            abbreviation="VN-2",
+            count=18,
+            instrument="Violin",
+            name="Second_Violin",
+        ),
+        baca.Section(abbreviation="VA", count=18, name="Viola"),
+        baca.Section(abbreviation="VC", count=14, name="Cello"),
+        baca.Section(abbreviation="CB", count=6, name="Contrabass"),
+    )
+
+
 def parts(section, token=None):
     """
     Designates parts.
@@ -1269,10 +1264,11 @@ def parts(section, token=None):
         Exception: no Part(instrument='Horn', member=5, number=None, section='Horn', section_abbreviation=None, zfill=None) in part manifest.
 
     """
+    _part_manifest = part_manifest()
     part_assignment = baca.PartAssignment(section=section, token=token)
     if part_assignment.token is not None:
         for part in part_assignment:
-            if part not in part_manifest.parts:
+            if part not in _part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
     return baca.assign_parts(part_assignment)
 
@@ -1285,6 +1281,15 @@ def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
         intervals_ = [-_ for _ in intervals_]
     pitch_numbers = [_ + start_pitch for _ in intervals_]
     return baca.loop(pitch_numbers, intervals)
+
+
+def time_signatures():
+    pairs = [[(4, 4), (4, 4), (4, 4)], [(3, 4), (3, 4)], [(4, 4), (4, 4), (2, 4)]]
+    pairs = baca.sequence.helianthate(pairs, -1, -1)
+    pairs = abjad.sequence.flatten(pairs)
+    pairs = [abjad.TimeSignature(_) for _ in pairs]
+    time_signatures = abjad.CyclicTuple(pairs)
+    return time_signatures
 
 
 def voice_abbreviations():

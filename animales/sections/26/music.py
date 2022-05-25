@@ -10,7 +10,7 @@ from animales import library
 metadata = baca.previous_metadata(__file__)
 start = 133
 
-time_signatures = library.time_signatures[start : start + 3]
+time_signatures = library.time_signatures()[start : start + 3]
 
 score = library.make_empty_score(
     horns=[
@@ -84,9 +84,9 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
+    metronome_marks=library.metronome_marks(),
     time_signatures=time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
