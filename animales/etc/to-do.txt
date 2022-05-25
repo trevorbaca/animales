@@ -8,9 +8,9 @@ TO-DO
 3.  Model staff / part / instrument / margin markup relationships.
     Constrain margin markup by staff, part, instrument.
 
-4.  Eventually implement cross-segment broken spanner checks.
+4.  Eventually implement cross-section broken spanner checks.
 
-5.  Eventually color cross-segment broken spanners.
+5.  Eventually color cross-section broken spanners.
 
 6.  Reset fermata measure spacing to 1/4.
 
@@ -26,11 +26,10 @@ TO-DO
 
 10. Change (st) to work on current tree like (diff).
 
-11. Allow SegmentMaker to retrieve manifests from segment directory.
+11. Allow SegmentMaker to retrieve manifests from section directory.
     Preserve SegmentMaker manifest initializer keywords for tests.
 
-12. Do segment-maker tag to-dos.
-    Command.get_tag() -> Command.tag() segment-maker to-dos.
+12. Change Command.get_tag() to Command.tag().
 
 13. Figure out what file metadata Preview is looking at for file open size.
 

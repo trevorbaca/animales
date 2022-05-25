@@ -488,7 +488,7 @@ def assign_trill_parts(commands, *, exclude_first_violin=False):
         )
 
 
-# attaches grand pause fermatas in parts because voices alive in segment
+# attaches grand pause fermatas in parts because voices alive in section
 # do not receive GlobalRests variables.
 def attach_grand_pause_fermatas(commands, score, *, measure=-1):
     assert isinstance(commands, baca.CommandAccumulator)
