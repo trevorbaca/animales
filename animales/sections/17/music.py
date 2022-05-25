@@ -58,10 +58,10 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
-    instruments=library.instruments,
-    margin_markups=library.margin_markups,
-    metronome_marks=library.metronome_marks,
-    time_signatures=library.time_signatures[start : start + 10],
+    instruments=library.instruments(),
+    margin_markups=library.margin_markups(),
+    metronome_marks=library.metronome_marks(),
+    time_signatures=library.time_signatures()[start : start + 10],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
 )
