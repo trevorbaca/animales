@@ -88,7 +88,7 @@ commands(
 # WINDS
 
 commands(
-    "cl1",
+    "cl",
     baca.make_repeat_tied_notes(),
 )
 
@@ -157,12 +157,12 @@ commands(
 # PIANO, HARP
 
 commands(
-    "pf1",
+    "pf",
     library.make_harp_exchange_rhythm(3),
 )
 
 commands(
-    "hp1",
+    "hp",
     library.make_harp_exchange_rhythm(2),
 )
 
@@ -220,10 +220,10 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-# cl1
+# cl
 
 commands(
-    "cl1",
+    "cl",
     library.margin_markup("Cl. 2"),
     baca.pitch("Bb4"),
     baca.hairpin("mp < mf"),
@@ -355,7 +355,7 @@ commands(
 # harp
 
 commands(
-    "hp1",
+    "hp",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -365,7 +365,7 @@ commands(
 # piano
 
 commands(
-    "pf1",
+    "pf",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

@@ -78,12 +78,12 @@ commands(
 # CL
 
 commands(
-    ("cl1", (1, 2)),
+    ("cl", (1, 2)),
     baca.make_mmrests_flat(),
 )
 
 commands(
-    ("cl1", (3, 6)),
+    ("cl", (3, 6)),
     baca.make_repeat_tied_notes(),
 )
 
@@ -124,7 +124,7 @@ brass_voice_names = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "tub1",
+    "tub",
 ]
 
 commands(
@@ -181,21 +181,21 @@ commands(
 )
 
 commands(
-    ["cl1", "hn1", "hn2", "tp1", "tp2", "tbn1", "tbn2", "tub1", "cb3"],
+    ["cl", "hn1", "hn2", "tp1", "tp2", "tbn1", "tbn2", "tub", "cb3"],
     baca.attach_first_appearance_default_indicators(),
 )
 
-# cl1
+# cl
 
 commands(
-    ("cl1", (3, 6)),
+    ("cl", (3, 6)),
     baca.pitch("C5"),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
 )
 
 commands(
-    "cl1",
+    "cl",
     library.margin_markup("Cl. 3"),
     library.parts("Clarinet", 3),
 )

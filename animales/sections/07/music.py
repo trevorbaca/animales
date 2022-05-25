@@ -80,24 +80,24 @@ commands(
 # WINDS
 
 commands(
-    ("cl1", (1, 4)),
+    ("cl", (1, 4)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("cl1", (5, 8)),
+    ("cl", (5, 8)),
     baca.make_repeat_tied_notes(),
 )
 
 # PIANO, HARP
 
 commands(
-    "pf1",
+    "pf",
     library.make_harp_exchange_rhythm(3, silence_first=True),
 )
 
 commands(
-    "hp1",
+    "hp",
     library.make_harp_exchange_rhythm(2, silence_first=True),
 )
 
@@ -169,14 +169,14 @@ commands(
 )
 
 commands(
-    ["pf1", "hp1", "cb1"],
+    ["pf", "hp", "cb1"],
     baca.attach_first_appearance_default_indicators(),
 )
 
-# cl1
+# cl
 
 commands(
-    ("cl1", (1, 4)),
+    ("cl", (1, 4)),
     library.margin_markup("Cl. 1"),
     baca.pitch("D5"),
     baca.edition("solo (cl. 1)", "solo"),
@@ -195,7 +195,7 @@ commands(
 )
 
 commands(
-    ("cl1", (5, 8)),
+    ("cl", (5, 8)),
     library.margin_markup("Cl. 2"),
     baca.pitch("Db5"),
     baca.edition("solo (cl. 2)", "solo"),
@@ -203,10 +203,10 @@ commands(
     library.parts("Clarinet", 2),
 )
 
-# pf1
+# pf
 
 commands(
-    "pf1",
+    "pf",
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
@@ -215,10 +215,10 @@ commands(
     library.parts("Piano"),
 )
 
-# hp1
+# hp
 
 commands(
-    "hp1",
+    "hp",
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

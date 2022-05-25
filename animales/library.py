@@ -47,6 +47,29 @@ def margin_markup(
     return command_
 
 
+def _instrument_voice_counts():
+    return (
+        ("fl", "Flute", 4),
+        ("ob", "Oboe", 1),
+        ("eh", "English_Horn", 1),
+        ("cl", "Clarinet", 1),
+        ("bcl", "Bass_Clarinet", 1),
+        ("bsn", "Bassoon", 2),
+        ("hn", "Horn", 4),
+        ("tp", "Trumpet", 4),
+        ("tbn", "Trombone", 4),
+        ("tub", "Tuba", 1),
+        ("hp", "Harp", 1),
+        ("pf", "Piano", 1),
+        ("perc", "Percussion", 4),
+        ("1vn", "First_Violin", 18),
+        ("2vn", "Second_Violin", 18),
+        ("va", "Viola", 18),
+        ("vc", "Cello", 14),
+        ("cb", "Contrabass", 6),
+    )
+
+
 def _make_margin_markup(name):
     if isinstance(name, str):
         string = rf'\markup \hcenter-in #16 "{name}"'
@@ -288,6 +311,13 @@ def _make_square_staff_group(stem, *contexts):
     return result
 
 
+def _instrument_name_to_voice_count(instrument_name):
+    triples = _instrument_voice_counts()
+    for _, instrument_name_, voice_count in triples:
+        if instrument_name_ == instrument_name:
+            return voice_count
+
+
 def _make_staves(
     name,
     staff_specifiers,
@@ -301,6 +331,7 @@ def _make_staves(
     if not bool(staff_specifiers):
         return staves
     assert isinstance(staff_specifiers, list), repr(staff_specifiers)
+    voice_count = _instrument_name_to_voice_count(name)
     for staff_specifier in staff_specifiers:
         assert isinstance(staff_specifier, tuple), repr(staff_specifier)
         assert len(staff_specifier) == 2, repr(staff_specifier)
@@ -316,9 +347,14 @@ def _make_staves(
             name=f"{name}.Staff.{staff_number}",
             tag=tag,
         )
-        for voice_number in voices:
-            voice = abjad.Voice(name=f"{name}.Music_Voice.{voice_number}", tag=tag)
+        if voice_count == 1:
+            assert voices == [1], repr(voices)
+            voice = abjad.Voice(name=f"{name}.Music_Voice", tag=tag)
             staff.append(voice)
+        else:
+            for voice_number in voices:
+                voice = abjad.Voice(name=f"{name}.Music_Voice.{voice_number}", tag=tag)
+                staff.append(voice)
         abjad.annotate(staff, "default_instrument", default_instrument)
         abjad.annotate(staff, "default_margin_markup", default_margin_markup)
         if default_clef is not None:
@@ -458,7 +494,7 @@ def assign_brass_sforzando_parts(commands, omit_tuba=False):
     )
     if not omit_tuba:
         commands(
-            "Tuba.Music_Voice.1",
+            "Tuba.Music_Voice",
             parts("Tuba"),
         )
 
@@ -691,7 +727,7 @@ def make_brass_sforzando_material(
         "Trombone.Music_Voice.2": "Db4",
         "Trombone.Music_Voice.3": "C4",
         "Trombone.Music_Voice.4": "B3",
-        "Tuba.Music_Voice.1": "C2",
+        "Tuba.Music_Voice": "C2",
     }
 
     for voice, pitch in voice_to_pitch.items():
@@ -708,8 +744,11 @@ def make_brass_sforzando_material(
                 make_downbeat_attack(),
                 baca.marcato(),
             )
-        words = abjad.string.delimit_words(voice)
-        member = int(words[-1])
+        if voice[-1].isdigit():
+            words = abjad.string.delimit_words(voice)
+            member = int(words[-1])
+        else:
+            member = 1
         if member in (1, 2):
             commands(
                 (voice, range_),
@@ -1260,10 +1299,10 @@ def voice_abbreviations():
         ('fl2', 'Flute.Music_Voice.2')
         ('fl3', 'Flute.Music_Voice.3')
         ('fl4', 'Flute.Music_Voice.4')
-        ('ob1', 'Oboe.Music_Voice.1')
-        ('eh1', 'English_Horn.Music_Voice.1')
-        ('cl1', 'Clarinet.Music_Voice.1')
-        ('bcl1', 'Bass_Clarinet.Music_Voice.1')
+        ('ob', 'Oboe.Music_Voice')
+        ('eh', 'English_Horn.Music_Voice')
+        ('cl', 'Clarinet.Music_Voice')
+        ('bcl', 'Bass_Clarinet.Music_Voice')
         ('bsn1', 'Bassoon.Music_Voice.1')
         ('bsn2', 'Bassoon.Music_Voice.2')
         ('hn1', 'Horn.Music_Voice.1')
@@ -1278,9 +1317,9 @@ def voice_abbreviations():
         ('tbn2', 'Trombone.Music_Voice.2')
         ('tbn3', 'Trombone.Music_Voice.3')
         ('tbn4', 'Trombone.Music_Voice.4')
-        ('tub1', 'Tuba.Music_Voice.1')
-        ('hp1', 'Harp.Music_Voice.1')
-        ('pf1', 'Piano.Music_Voice.1')
+        ('tub', 'Tuba.Music_Voice')
+        ('hp', 'Harp.Music_Voice')
+        ('pf', 'Piano.Music_Voice')
         ('perc1', 'Percussion.Music_Voice.1')
         ('perc2', 'Percussion.Music_Voice.2')
         ('perc3', 'Percussion.Music_Voice.3')
@@ -1361,34 +1400,19 @@ def voice_abbreviations():
         ('cb6', 'Contrabass.Music_Voice.6')
 
     """
-    result = {}
-    for instrument_abbreviation, instrument, count in (
-        ("fl", "Flute", 4),
-        ("ob", "Oboe", 1),
-        ("eh", "EnglishHorn", 1),
-        ("cl", "Clarinet", 1),
-        ("bcl", "BassClarinet", 1),
-        ("bsn", "Bassoon", 2),
-        ("hn", "Horn", 4),
-        ("tp", "Trumpet", 4),
-        ("tbn", "Trombone", 4),
-        ("tub", "Tuba", 1),
-        ("hp", "Harp", 1),
-        ("pf", "Piano", 1),
-        ("perc", "Percussion", 4),
-        ("1vn", "FirstViolin", 18),
-        ("2vn", "SecondViolin", 18),
-        ("va", "Viola", 18),
-        ("vc", "Cello", 14),
-        ("cb", "Contrabass", 6),
-    ):
-        for n in range(1, count + 1):
-            voice_abbreviation = instrument_abbreviation + str(n)
-            words = abjad.string.delimit_words(instrument)
-            instrument = "_".join(words)
-            voice_name = f"{instrument}.Music_Voice.{n}"
-            result[voice_abbreviation] = voice_name
-    return result
+    voice_abbreviation_to_voice_name = {}
+    triples = _instrument_voice_counts()
+    for instrument_abbreviation, instrument, count in triples:
+        if count == 1:
+            voice_abbreviation = instrument_abbreviation
+            voice_name = f"{instrument}.Music_Voice"
+            voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
+        else:
+            for n in range(1, count + 1):
+                voice_abbreviation = instrument_abbreviation + str(n)
+                voice_name = f"{instrument}.Music_Voice.{n}"
+                voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
+    return voice_abbreviation_to_voice_name
 
 
 def voice_to_section(voice):

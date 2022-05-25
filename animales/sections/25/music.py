@@ -122,7 +122,7 @@ brass_voice_names = [
     "tbn2",
     "tbn3",
     "tbn4",
-    "tub1",
+    "tub",
 ]
 
 commands(

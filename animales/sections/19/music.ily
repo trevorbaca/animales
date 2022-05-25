@@ -2918,12 +2918,12 @@ section_number.19.Trombone.Staff.2 = <<
 
 
   %! baca.path.extern()
-section_number.19.Tuba.Music_Voice.1 = {
+section_number.19.Tuba.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Tuba.Music_Voice.1 measure 1]
+    % [Tuba.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -2998,7 +2998,7 @@ section_number.19.Tuba.Music_Voice.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Tuba.Music_Voice.1 measure 2]
+    % [Tuba.Music_Voice measure 2]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -3010,7 +3010,7 @@ section_number.19.Tuba.Music_Voice.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Tuba.Music_Voice.1 measure 3]
+    % [Tuba.Music_Voice measure 3]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3031,7 +3031,7 @@ section_number.19.Tuba.Music_Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Tuba.Music_Voice.1"
+        \context Voice = "Tuba.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -3041,7 +3041,7 @@ section_number.19.Tuba.Music_Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Tuba.Music_Voice.1 measure 4]
+            % [Tuba.Music_Voice measure 4]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -3083,7 +3083,7 @@ section_number.19.Tuba.Music_Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Tuba.Rest_Voice.1"
+        \context Voice = "Tuba.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -3093,7 +3093,7 @@ section_number.19.Tuba.Music_Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Tuba.Rest_Voice.1 measure 4]
+            % [Tuba.Rest_Voice measure 4]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -3155,10 +3155,10 @@ section_number.19.Tuba.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Tuba.Music_Voice.1"
+    \context Voice = "Tuba.Music_Voice"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \section_number.19.Tuba.Music_Voice.1 }
+    { \section_number.19.Tuba.Music_Voice }
     % CLOSING:
     % COMMANDS:
 
@@ -3169,12 +3169,12 @@ section_number.19.Tuba.Staff.1 = {
 
 
   %! baca.path.extern()
-section_number.19.Piano.Music_Voice.1 = {
+section_number.19.Piano.Music_Voice = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.Music_Voice.1 measure 1]
+    % [Piano.Music_Voice measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -3249,7 +3249,7 @@ section_number.19.Piano.Music_Voice.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.Music_Voice.1 measure 2]
+    % [Piano.Music_Voice measure 2]
       %! baca._make_mmrests_flat()
     R1 * 1/2
     % AFTER:
@@ -3261,7 +3261,7 @@ section_number.19.Piano.Music_Voice.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Piano.Music_Voice.1 measure 3]
+    % [Piano.Music_Voice measure 3]
       %! baca._make_mmrests_flat()
     R1 * 1
     % AFTER:
@@ -3282,7 +3282,7 @@ section_number.19.Piano.Music_Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Piano.Music_Voice.1"
+        \context Voice = "Piano.Music_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(4)
         {
@@ -3292,7 +3292,7 @@ section_number.19.Piano.Music_Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Piano.Music_Voice.1 measure 4]
+            % [Piano.Music_Voice measure 4]
             % BEFORE:
             % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
@@ -3334,7 +3334,7 @@ section_number.19.Piano.Music_Voice.1 = {
         % OPEN_BRACKETS:
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Piano.Rest_Voice.1"
+        \context Voice = "Piano.Rest_Voice"
           %! PHANTOM
           %! baca._make_multimeasure_rest_container(6)
         {
@@ -3344,7 +3344,7 @@ section_number.19.Piano.Music_Voice.1 = {
               %! PHANTOM
               %! baca._comment_measure_numbers()
               %! baca._style_phantom_measures(5)
-            % [Piano.Rest_Voice.1 measure 4]
+            % [Piano.Rest_Voice measure 4]
             % OPENING:
             % COMMANDS:
               %! PHANTOM
@@ -3406,10 +3406,10 @@ section_number.19.Piano.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Piano.Music_Voice.1"
+    \context Voice = "Piano.Music_Voice"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \section_number.19.Piano.Music_Voice.1 }
+    { \section_number.19.Piano.Music_Voice }
     % CLOSING:
     % COMMANDS:
 

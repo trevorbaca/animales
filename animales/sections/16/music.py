@@ -77,22 +77,22 @@ def swell(peak):
 # WINDS
 
 commands(
-    ("ob1", (1, 5)),
+    ("ob", (1, 5)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("ob1", (6, 14)),
+    ("ob", (6, 14)),
     baca.make_mmrests_flat(),
 )
 
 commands(
-    ("eh1", (1, 5)),
+    ("eh", (1, 5)),
     baca.make_repeat_tied_notes(),
 )
 
 commands(
-    ("eh1", (6, 14)),
+    ("eh", (6, 14)),
     baca.make_mmrests_flat(),
 )
 
@@ -228,41 +228,41 @@ commands(
 )
 
 commands(
-    ["ob1", "eh1", "bsn1", "1vn5"],
+    ["ob", "eh", "bsn1", "1vn5"],
     baca.attach_first_appearance_default_indicators(),
 )
 
-# ob1
+# ob
 
 commands(
-    "ob1",
+    "ob",
     library.parts("Oboe"),
 )
 
 commands(
-    ("ob1", (1, 5)),
+    ("ob", (1, 5)),
     baca.pitch("A4"),
 )
 
 commands(
-    ("ob1", (1, 6)),
+    ("ob", (1, 6)),
     swell("f"),
 )
 
-# eh1
+# eh
 
 commands(
-    ("eh1", (1, 5)),
+    ("eh", (1, 5)),
     baca.pitch("G3"),
 )
 
 commands(
-    ("eh1", (1, 6)),
+    ("eh", (1, 6)),
     swell("f"),
 )
 
 commands(
-    "eh1",
+    "eh",
     library.parts("English_Horn"),
 )
 
