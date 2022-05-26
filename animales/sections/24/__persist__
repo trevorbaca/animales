@@ -1627,9 +1627,9 @@
                 value=1,
             ),
         ],
-        "Flute.Music_Voice.1": [
+        "Flutes.Music_Voice.1": [
             baca.Memento(
-                context="Flute.Music_Voice.1",
+                context="Flutes.Music_Voice.1",
                 edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -1637,9 +1637,9 @@
                 value="ff",
             )
         ],
-        "Flute.Music_Voice.2": [
+        "Flutes.Music_Voice.2": [
             baca.Memento(
-                context="Flute.Music_Voice.2",
+                context="Flutes.Music_Voice.2",
                 edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -1647,9 +1647,9 @@
                 value="ff",
             )
         ],
-        "Flute.Music_Voice.3": [
+        "Flutes.Music_Voice.3": [
             baca.Memento(
-                context="Flute.Music_Voice.3",
+                context="Flutes.Music_Voice.3",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -1657,9 +1657,9 @@
                 value="ff",
             )
         ],
-        "Flute.Music_Voice.4": [
+        "Flutes.Music_Voice.4": [
             baca.Memento(
-                context="Flute.Music_Voice.4",
+                context="Flutes.Music_Voice.4",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -1667,17 +1667,17 @@
                 value="ff",
             )
         ],
-        "Flute.Staff.1": [
+        "Flutes.Staff.1": [
             baca.Memento(
-                context="Flute.Music_Voice.1",
+                context="Flutes.Music_Voice.1",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="Flute",
+                value="Flutes",
             ),
             baca.Memento(
-                context="Flute.Music_Voice.1",
+                context="Flutes.Music_Voice.1",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -1685,7 +1685,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Flute.Music_Voice.1",
+                context="Flutes.Music_Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -1693,17 +1693,17 @@
                 value="Fl. (1+3)",
             ),
         ],
-        "Flute.Staff.2": [
+        "Flutes.Staff.2": [
             baca.Memento(
-                context="Flute.Music_Voice.2",
+                context="Flutes.Music_Voice.2",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="Flute",
+                value="Flutes",
             ),
             baca.Memento(
-                context="Flute.Music_Voice.2",
+                context="Flutes.Music_Voice.2",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -1711,7 +1711,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Flute.Music_Voice.2",
+                context="Flutes.Music_Voice.2",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,

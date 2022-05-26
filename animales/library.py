@@ -43,7 +43,7 @@ def _instrument_name_to_voice_count(instrument_name):
 
 def _instrument_voice_counts():
     return (
-        ("fl", "Flute", 4),
+        ("fl", "Flutes", 4),
         ("ob", "Oboe", 1),
         ("eh", "English_Horn", 1),
         ("cl", "Clarinet", 1),
@@ -188,7 +188,7 @@ def allows_instrument(staff_name, instrument):
     _instruments = instruments()
     dictionary = dict(
         [
-            ("Flute", [_instruments["Flute"]]),
+            ("Flutes", [_instruments["Flutes"]]),
             ("Oboe", [_instruments["Oboe"]]),
             ("English_Horn", [_instruments["EnglishHorn"]]),
             ("Clarinet", [_instruments["Clarinet"]]),
@@ -362,7 +362,7 @@ def instruments():
             ("Clarinet", abjad.ClarinetInBFlat()),
             ("Contrabass", abjad.Contrabass(pitch_range="[E1, D6]")),
             ("EnglishHorn", abjad.EnglishHorn()),
-            ("Flute", abjad.Flute()),
+            ("Flutes", abjad.Flute()),
             ("Harp", abjad.Harp()),
             ("Horn", abjad.FrenchHorn()),
             ("Oboe", abjad.Oboe()),
@@ -676,9 +676,9 @@ def make_empty_score(
     _margin_markups = margin_markups()
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
-        "Flute",
+        "Flutes",
         flutes,
-        _instruments["Flute"],
+        _instruments["Flutes"],
         _margin_markups["Fl."],
         abjad.Clef("treble"),
     )
@@ -807,7 +807,7 @@ def make_empty_score(
             *_group_families(
                 (
                     "FluteFamily",
-                    _make_square_staff_group("Flute", *flute_staves),
+                    _make_square_staff_group("Flutes", *flute_staves),
                 ),
                 (
                     "OboeFamily",
@@ -1198,7 +1198,7 @@ def metronome_marks():
 
 def part_manifest():
     return baca.PartManifest(
-        baca.Section(abbreviation="FL", count=4, name="Flute"),
+        baca.Section(abbreviation="FL", count=4, name="Flutes"),
         baca.Section(abbreviation="OB", count=3, name="Oboe"),
         baca.Part(section="English_Horn", section_abbreviation="EH"),
         baca.Section(abbreviation="CL", count=3, name="Clarinet"),
@@ -1296,10 +1296,10 @@ def voice_abbreviations():
 
         >>> dictionary = animales.library.voice_abbreviations()
         >>> for item in dictionary.items(): item
-        ('fl1', 'Flute.Music_Voice.1')
-        ('fl2', 'Flute.Music_Voice.2')
-        ('fl3', 'Flute.Music_Voice.3')
-        ('fl4', 'Flute.Music_Voice.4')
+        ('fl1', 'Flutes.Music_Voice.1')
+        ('fl2', 'Flutes.Music_Voice.2')
+        ('fl3', 'Flutes.Music_Voice.3')
+        ('fl4', 'Flutes.Music_Voice.4')
         ('ob', 'Oboe.Music_Voice')
         ('eh', 'English_Horn.Music_Voice')
         ('cl', 'Clarinet.Music_Voice')

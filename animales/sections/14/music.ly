@@ -91,7 +91,7 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_square_staff_group()
-                    \context StaffGroup = "Flute_Square_Staff_Group"
+                    \context StaffGroup = "Flutes_Square_Staff_Group"
                       %! animales._make_square_staff_group()
                     \with
                       %! animales._make_square_staff_group()
@@ -107,19 +107,19 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Flute.Staff.1"
+                        \context Staff = "Flutes.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \section_number.14.Flute.Staff.1 }
+                        { \section_number.14.Flutes.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Flute.Staff.2"
+                        \context Staff = "Flutes.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \section_number.14.Flute.Staff.2 }
+                        { \section_number.14.Flutes.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 

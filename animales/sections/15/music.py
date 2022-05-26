@@ -294,22 +294,22 @@ commands(
 
 commands(
     "fl1",
-    library.parts("Flute", 1),
+    library.parts("Flutes", 1),
 )
 
 commands(
     "fl3",
-    library.parts("Flute", 3),
+    library.parts("Flutes", 3),
 )
 
 commands(
     "fl2",
-    library.parts("Flute", 2),
+    library.parts("Flutes", 2),
 )
 
 commands(
     "fl4",
-    library.parts("Flute", 4),
+    library.parts("Flutes", 4),
 )
 
 # bcl
