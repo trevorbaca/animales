@@ -234,7 +234,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("First_Violin"),
+    library.parts("First_Violins"),
 )
 
 commands(

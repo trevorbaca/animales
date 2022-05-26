@@ -55,14 +55,14 @@
         "Percussion.Rest_Voice.2",
         "String_Staff_Group",
         "FirstViolin_Square_Staff_Group",
-        "First_Violin.Staff.1",
-        "First_Violin.Music_Voice.2",
-        "First_Violin.Rest_Voice.2",
-        "First_Violin.Music_Voice.1",
-        "First_Violin.Rest_Voice.1",
-        "First_Violin.Staff.2",
-        "First_Violin.Music_Voice.3",
-        "First_Violin.Rest_Voice.3",
+        "First_Violins.Staff.1",
+        "First_Violins.Music_Voice.2",
+        "First_Violins.Rest_Voice.2",
+        "First_Violins.Music_Voice.1",
+        "First_Violins.Rest_Voice.1",
+        "First_Violins.Staff.2",
+        "First_Violins.Music_Voice.3",
+        "First_Violins.Rest_Voice.3",
         "SecondViolin_Square_Staff_Group",
         "Second_Violin.Staff.1",
         "Second_Violin.Music_Voice.1",
@@ -97,20 +97,20 @@
             baca.PartAssignment("Contrabass"),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "section_number.04.First_Violin.Music_Voice.1.part.1": (
-            baca.PartAssignment("First_Violin", (1, 10)),
+        "section_number.04.First_Violins.Music_Voice.1.part.1": (
+            baca.PartAssignment("First_Violins", (1, 10)),
             Timespan(Offset((0, 1)), Offset((2, 1))),
         ),
-        "section_number.04.First_Violin.Music_Voice.1.part.2": (
-            baca.PartAssignment("First_Violin", (2, 10)),
+        "section_number.04.First_Violins.Music_Voice.1.part.2": (
+            baca.PartAssignment("First_Violins", (2, 10)),
             Timespan(Offset((2, 1)), Offset((23, 4))),
         ),
-        "section_number.04.First_Violin.Music_Voice.2.part.1": (
-            baca.PartAssignment("First_Violin", 1),
+        "section_number.04.First_Violins.Music_Voice.2.part.1": (
+            baca.PartAssignment("First_Violins", 1),
             Timespan(Offset((2, 1)), Offset((23, 4))),
         ),
-        "section_number.04.First_Violin.Music_Voice.3.part.1": (
-            baca.PartAssignment("First_Violin", (11, 18)),
+        "section_number.04.First_Violins.Music_Voice.3.part.1": (
+            baca.PartAssignment("First_Violins", (11, 18)),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
         "section_number.04.Horn.Music_Voice.1.part.1": (
@@ -299,9 +299,9 @@
                 value="Cb.",
             ),
         ],
-        "First_Violin.Music_Voice.1": [
+        "First_Violins.Music_Voice.1": [
             baca.Memento(
-                context="First_Violin.Music_Voice.1",
+                context="First_Violins.Music_Voice.1",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -309,9 +309,9 @@
                 value="\\baca-p-sub",
             )
         ],
-        "First_Violin.Music_Voice.2": [
+        "First_Violins.Music_Voice.2": [
             baca.Memento(
-                context="First_Violin.Music_Voice.2",
+                context="First_Violins.Music_Voice.2",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -319,9 +319,9 @@
                 value="p",
             )
         ],
-        "First_Violin.Music_Voice.3": [
+        "First_Violins.Music_Voice.3": [
             baca.Memento(
-                context="First_Violin.Music_Voice.3",
+                context="First_Violins.Music_Voice.3",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -329,9 +329,9 @@
                 value="\\baca-p-sub",
             )
         ],
-        "First_Violin.Staff.1": [
+        "First_Violins.Staff.1": [
             baca.Memento(
-                context="First_Violin.Music_Voice.1",
+                context="First_Violins.Music_Voice.1",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -339,7 +339,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="First_Violin.Music_Voice.1",
+                context="First_Violins.Music_Voice.1",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -347,7 +347,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="First_Violin.Music_Voice.1",
+                context="First_Violins.Music_Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -355,9 +355,9 @@
                 value="Vni. I (1-10)",
             ),
         ],
-        "First_Violin.Staff.2": [
+        "First_Violins.Staff.2": [
             baca.Memento(
-                context="First_Violin.Music_Voice.3",
+                context="First_Violins.Music_Voice.3",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -365,7 +365,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="First_Violin.Music_Voice.3",
+                context="First_Violins.Music_Voice.3",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -373,7 +373,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="First_Violin.Music_Voice.3",
+                context="First_Violins.Music_Voice.3",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -1012,7 +1012,7 @@
                 "talea_weight_consumed": 396,
             }
         },
-        "First_Violin.Music_Voice.1": {
+        "First_Violins.Music_Voice.1": {
             "RHYTHM": {
                 "divisions_consumed": 66,
                 "incomplete_last_note": True,
@@ -1021,7 +1021,7 @@
                 "talea_weight_consumed": 396,
             }
         },
-        "First_Violin.Music_Voice.3": {
+        "First_Violins.Music_Voice.3": {
             "RHYTHM": {
                 "divisions_consumed": 66,
                 "incomplete_last_note": True,
