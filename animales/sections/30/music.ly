@@ -54,7 +54,7 @@
                 \context GlobalRests = "Global_Rests"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \section_number.30.Global_Rests }
+                { \number.30.Global_Rests }
                 % ABSOLUTE_BEFORE:
                 % COMMANDS:
 
@@ -63,7 +63,7 @@
                 \context GlobalSkips = "Global_Skips"
                   %! baca.make_global_context()
                   %! baca.path.extern()
-                { \section_number.30.Global_Skips }
+                { \number.30.Global_Skips }
                 % CLOSING:
                 % COMMANDS:
 
@@ -92,7 +92,7 @@
                     \context Staff = "Piano.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \section_number.30.Piano.Staff.1 }
+                    { \number.30.Piano.Staff.1 }
                     % CLOSING:
                     % COMMANDS:
 
@@ -114,7 +114,7 @@
                     \context Staff = "Percussion.Staff.4"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \section_number.30.Percussion.Staff.4 }
+                    { \number.30.Percussion.Staff.4 }
                     % CLOSING:
                     % COMMANDS:
 
