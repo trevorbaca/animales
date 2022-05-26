@@ -440,7 +440,7 @@ commands(
 
 commands(
     "1vn2",
-    library.parts("First_Violin", 1),
+    library.parts("First_Violins", 1),
 )
 
 commands(
@@ -453,7 +453,7 @@ commands(
 commands(
     "1vn1",
     baca.not_parts(baca.voice_two()),
-    library.parts("First_Violin", (2, 18)),
+    library.parts("First_Violins", (2, 18)),
 )
 
 commands(
@@ -479,7 +479,7 @@ most_strings = [
 ]
 
 commands(
-    ("First_Violin.Rest_Voice.1", 4),
+    ("First_Violins.Rest_Voice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),

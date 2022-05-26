@@ -349,7 +349,7 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.dynamic("f"),
-    library.parts("First_Violin", 18),
+    library.parts("First_Violins", 18),
 )
 
 for voice_name, members in voice_to_members.items():
