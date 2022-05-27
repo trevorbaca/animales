@@ -58,7 +58,7 @@ strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 # phantom & reapply
 
-music_voice_names = [_ for _ in voice_names if "Music_Voice" in _]
+music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
