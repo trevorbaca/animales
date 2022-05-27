@@ -47,69 +47,69 @@
             <<
                 \context GlobalRests = "GlobalRests"
                 {
-                    \section_number.01.Global_Rests
-                    \section_number.02.Global_Rests
-                    \section_number.03.Global_Rests
-                    \section_number.04.Global_Rests
-                    \section_number.05.Global_Rests
-                    \section_number.06.Global_Rests
-                    \section_number.07.Global_Rests
-                    \section_number.08.Global_Rests
-                    \section_number.09.Global_Rests
-                    \section_number.10.Global_Rests
-                    \section_number.11.Global_Rests
-                    \section_number.12.Global_Rests
-                    \section_number.13.Global_Rests
-                    \section_number.14.Global_Rests
-                    \section_number.15.Global_Rests
-                    \section_number.16.Global_Rests
-                    \section_number.17.Global_Rests
-                    \section_number.18.Global_Rests
-                    \section_number.19.Global_Rests
-                    \section_number.20.Global_Rests
-                    \section_number.21.Global_Rests
-                    \section_number.22.Global_Rests
-                    \section_number.23.Global_Rests
-                    \section_number.24.Global_Rests
-                    \section_number.25.Global_Rests
-                    \section_number.26.Global_Rests
-                    \section_number.27.Global_Rests
-                    \section_number.28.Global_Rests
-                    \section_number.29.Global_Rests
-                    \section_number.30.Global_Rests
+                    \number.01.GlobalRests
+                    \number.02.GlobalRests
+                    \number.03.GlobalRests
+                    \number.04.GlobalRests
+                    \number.05.GlobalRests
+                    \number.06.GlobalRests
+                    \number.07.GlobalRests
+                    \number.08.GlobalRests
+                    \number.09.GlobalRests
+                    \number.10.GlobalRests
+                    \number.11.GlobalRests
+                    \number.12.GlobalRests
+                    \number.13.GlobalRests
+                    \number.14.GlobalRests
+                    \number.15.GlobalRests
+                    \number.16.GlobalRests
+                    \number.17.GlobalRests
+                    \number.18.GlobalRests
+                    \number.19.GlobalRests
+                    \number.20.GlobalRests
+                    \number.21.GlobalRests
+                    \number.22.GlobalRests
+                    \number.23.GlobalRests
+                    \number.24.GlobalRests
+                    \number.25.GlobalRests
+                    \number.26.GlobalRests
+                    \number.27.GlobalRests
+                    \number.28.GlobalRests
+                    \number.29.GlobalRests
+                    \number.30.GlobalRests
                 }
                 \context GlobalSkips = "GlobalSkips"
                 {
-                    \section_number.01.Global_Skips
-                    \section_number.02.Global_Skips
-                    \section_number.03.Global_Skips
-                    \section_number.04.Global_Skips
-                    \section_number.05.Global_Skips
-                    \section_number.06.Global_Skips
-                    \section_number.07.Global_Skips
-                    \section_number.08.Global_Skips
-                    \section_number.09.Global_Skips
-                    \section_number.10.Global_Skips
-                    \section_number.11.Global_Skips
-                    \section_number.12.Global_Skips
-                    \section_number.13.Global_Skips
-                    \section_number.14.Global_Skips
-                    \section_number.15.Global_Skips
-                    \section_number.16.Global_Skips
-                    \section_number.17.Global_Skips
-                    \section_number.18.Global_Skips
-                    \section_number.19.Global_Skips
-                    \section_number.20.Global_Skips
-                    \section_number.21.Global_Skips
-                    \section_number.22.Global_Skips
-                    \section_number.23.Global_Skips
-                    \section_number.24.Global_Skips
-                    \section_number.25.Global_Skips
-                    \section_number.26.Global_Skips
-                    \section_number.27.Global_Skips
-                    \section_number.28.Global_Skips
-                    \section_number.29.Global_Skips
-                    \section_number.30.Global_Skips
+                    \number.01.GlobalSkips
+                    \number.02.GlobalSkips
+                    \number.03.GlobalSkips
+                    \number.04.GlobalSkips
+                    \number.05.GlobalSkips
+                    \number.06.GlobalSkips
+                    \number.07.GlobalSkips
+                    \number.08.GlobalSkips
+                    \number.09.GlobalSkips
+                    \number.10.GlobalSkips
+                    \number.11.GlobalSkips
+                    \number.12.GlobalSkips
+                    \number.13.GlobalSkips
+                    \number.14.GlobalSkips
+                    \number.15.GlobalSkips
+                    \number.16.GlobalSkips
+                    \number.17.GlobalSkips
+                    \number.18.GlobalSkips
+                    \number.19.GlobalSkips
+                    \number.20.GlobalSkips
+                    \number.21.GlobalSkips
+                    \number.22.GlobalSkips
+                    \number.23.GlobalSkips
+                    \number.24.GlobalSkips
+                    \number.25.GlobalSkips
+                    \number.26.GlobalSkips
+                    \number.27.GlobalSkips
+                    \number.28.GlobalSkips
+                    \number.29.GlobalSkips
+                    \number.30.GlobalSkips
                 }
             >>
             \context MusicContext = "MusicContext"
@@ -123,7 +123,7 @@
                     }
                     <<
                         {
-                            \context Staff = "Flute.Staff.1"
+                            \context Staff = "Flutes.Staff.1"
                             \with
                             {
                                 shortInstrumentName =
@@ -138,68 +138,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.14.Flute.Staff.1 }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.15.Flute.Staff.1 }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.19.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.20.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.21.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.22.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.23.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.24.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.25.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.26.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.27.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.28.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.29.Global_Rests }
-                            \context Staff = "Flute.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.02.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.03.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.04.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.05.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.06.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.07.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.08.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.09.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.10.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.11.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.12.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.13.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.14.Flutes.Staff.1 }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.15.Flutes.Staff.1 }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.16.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.17.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.18.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.19.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.20.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.21.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.22.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.23.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.24.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.25.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.26.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.27.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.28.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.29.GlobalRests }
+                            \context Staff = "Flutes.Staff.1"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "Flute.Staff.2"
+                            \context Staff = "Flutes.Staff.2"
                             \with
                             {
                                 shortInstrumentName =
@@ -214,65 +214,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.14.Flute.Staff.2 }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.15.Flute.Staff.2 }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.19.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.20.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.21.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.22.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.23.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.24.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.25.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.26.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.27.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.28.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.29.Global_Rests }
-                            \context Staff = "Flute.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.02.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.03.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.04.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.05.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.06.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.07.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.08.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.09.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.10.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.11.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.12.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.13.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.14.Flutes.Staff.2 }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.15.Flutes.Staff.2 }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.16.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.17.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.18.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.19.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.20.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.21.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.22.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.23.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.24.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.25.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.26.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.27.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.28.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.29.GlobalRests }
+                            \context Staff = "Flutes.Staff.2"
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "OboeFamilySquareStaffGroup"
@@ -299,65 +299,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \section_number.01.Global_Rests
+                                \number.01.GlobalRests
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.02.Global_Rests }
+                                { \number.02.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.03.Global_Rests }
+                                { \number.03.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.04.Global_Rests }
+                                { \number.04.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.05.Global_Rests }
+                                { \number.05.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.06.Global_Rests }
+                                { \number.06.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.07.Global_Rests }
+                                { \number.07.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.08.Global_Rests }
+                                { \number.08.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.09.Global_Rests }
+                                { \number.09.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.10.Global_Rests }
+                                { \number.10.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.11.Global_Rests }
+                                { \number.11.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.12.Global_Rests }
+                                { \number.12.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.13.Global_Rests }
+                                { \number.13.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.14.Global_Rests }
+                                { \number.14.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.15.Global_Rests }
+                                { \number.15.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.16.Oboe.Staff.1 }
+                                { \number.16.Oboe.Staff.1 }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.17.Oboe.Staff.1 }
+                                { \number.17.Oboe.Staff.1 }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.18.Global_Rests }
+                                { \number.18.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.19.Global_Rests }
+                                { \number.19.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.20.Global_Rests }
+                                { \number.20.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.21.Global_Rests }
+                                { \number.21.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.22.Global_Rests }
+                                { \number.22.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.23.Global_Rests }
+                                { \number.23.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.24.Global_Rests }
+                                { \number.24.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.25.Global_Rests }
+                                { \number.25.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.26.Global_Rests }
+                                { \number.26.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.27.Global_Rests }
+                                { \number.27.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.28.Global_Rests }
+                                { \number.28.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.29.Global_Rests }
+                                { \number.29.GlobalRests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \section_number.30.Global_Rests }
+                                { \number.30.GlobalRests }
                             }
                         >>
                         \context StaffGroup = "English_HornSquareStaffGroup"
@@ -378,65 +378,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \section_number.01.Global_Rests
+                                \number.01.GlobalRests
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.02.Global_Rests }
+                                { \number.02.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.03.Global_Rests }
+                                { \number.03.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.04.Global_Rests }
+                                { \number.04.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.05.Global_Rests }
+                                { \number.05.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.06.Global_Rests }
+                                { \number.06.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.07.Global_Rests }
+                                { \number.07.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.08.Global_Rests }
+                                { \number.08.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.09.Global_Rests }
+                                { \number.09.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.10.Global_Rests }
+                                { \number.10.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.11.Global_Rests }
+                                { \number.11.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.12.Global_Rests }
+                                { \number.12.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.13.Global_Rests }
+                                { \number.13.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.14.Global_Rests }
+                                { \number.14.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.15.Global_Rests }
+                                { \number.15.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.16.English_Horn.Staff.1 }
+                                { \number.16.English_Horn.Staff.1 }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.17.English_Horn.Staff.1 }
+                                { \number.17.English_Horn.Staff.1 }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.18.Global_Rests }
+                                { \number.18.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.19.Global_Rests }
+                                { \number.19.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.20.Global_Rests }
+                                { \number.20.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.21.Global_Rests }
+                                { \number.21.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.22.Global_Rests }
+                                { \number.22.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.23.Global_Rests }
+                                { \number.23.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.24.Global_Rests }
+                                { \number.24.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.25.Global_Rests }
+                                { \number.25.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.26.Global_Rests }
+                                { \number.26.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.27.Global_Rests }
+                                { \number.27.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.28.Global_Rests }
+                                { \number.28.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.29.Global_Rests }
+                                { \number.29.GlobalRests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \section_number.30.Global_Rests }
+                                { \number.30.GlobalRests }
                             }
                         >>
                     >>
@@ -468,65 +468,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \section_number.01.Global_Rests
+                                \number.01.GlobalRests
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.02.Global_Rests }
+                                { \number.02.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.03.Global_Rests }
+                                { \number.03.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.04.Clarinet.Staff.1 }
+                                { \number.04.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.05.Clarinet.Staff.1 }
+                                { \number.05.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.06.Clarinet.Staff.1 }
+                                { \number.06.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.07.Clarinet.Staff.1 }
+                                { \number.07.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.08.Clarinet.Staff.1 }
+                                { \number.08.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.09.Clarinet.Staff.1 }
+                                { \number.09.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.10.Clarinet.Staff.1 }
+                                { \number.10.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.11.Clarinet.Staff.1 }
+                                { \number.11.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.12.Clarinet.Staff.1 }
+                                { \number.12.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.13.Clarinet.Staff.1 }
+                                { \number.13.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.14.Clarinet.Staff.1 }
+                                { \number.14.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.15.Global_Rests }
+                                { \number.15.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.16.Global_Rests }
+                                { \number.16.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.17.Global_Rests }
+                                { \number.17.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.18.Global_Rests }
+                                { \number.18.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.19.Global_Rests }
+                                { \number.19.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.20.Global_Rests }
+                                { \number.20.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.21.Global_Rests }
+                                { \number.21.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.22.Global_Rests }
+                                { \number.22.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.23.Global_Rests }
+                                { \number.23.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.24.Global_Rests }
+                                { \number.24.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.25.Global_Rests }
+                                { \number.25.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.26.Global_Rests }
+                                { \number.26.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.27.Global_Rests }
+                                { \number.27.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.28.Global_Rests }
+                                { \number.28.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.29.Global_Rests }
+                                { \number.29.GlobalRests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \section_number.30.Global_Rests }
+                                { \number.30.GlobalRests }
                             }
                         >>
                         \context StaffGroup = "Bass_ClarinetSquareStaffGroup"
@@ -547,65 +547,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \section_number.01.Global_Rests
+                                \number.01.GlobalRests
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.02.Global_Rests }
+                                { \number.02.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.03.Global_Rests }
+                                { \number.03.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.04.Global_Rests }
+                                { \number.04.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.05.Global_Rests }
+                                { \number.05.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.06.Global_Rests }
+                                { \number.06.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.07.Global_Rests }
+                                { \number.07.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.08.Bass_Clarinet.Staff.1 }
+                                { \number.08.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.09.Bass_Clarinet.Staff.1 }
+                                { \number.09.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.10.Bass_Clarinet.Staff.1 }
+                                { \number.10.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.11.Global_Rests }
+                                { \number.11.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.12.Global_Rests }
+                                { \number.12.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.13.Bass_Clarinet.Staff.1 }
+                                { \number.13.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.14.Bass_Clarinet.Staff.1 }
+                                { \number.14.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.15.Bass_Clarinet.Staff.1 }
+                                { \number.15.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.16.Global_Rests }
+                                { \number.16.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.17.Global_Rests }
+                                { \number.17.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.18.Global_Rests }
+                                { \number.18.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.19.Global_Rests }
+                                { \number.19.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.20.Global_Rests }
+                                { \number.20.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.21.Global_Rests }
+                                { \number.21.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.22.Global_Rests }
+                                { \number.22.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.23.Global_Rests }
+                                { \number.23.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.24.Global_Rests }
+                                { \number.24.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.25.Global_Rests }
+                                { \number.25.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.26.Global_Rests }
+                                { \number.26.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.27.Global_Rests }
+                                { \number.27.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.28.Global_Rests }
+                                { \number.28.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.29.Global_Rests }
+                                { \number.29.GlobalRests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \section_number.30.Global_Rests }
+                                { \number.30.GlobalRests }
                             }
                         >>
                     >>
@@ -627,65 +627,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.16.Bassoon.Staff.1 }
+                            { \number.16.Bassoon.Staff.1 }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.17.Bassoon.Staff.1 }
+                            { \number.17.Bassoon.Staff.1 }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.19.Global_Rests }
+                            { \number.19.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.23.Global_Rests }
+                            { \number.23.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.24.Global_Rests }
+                            { \number.24.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.25.Global_Rests }
+                            { \number.25.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.26.Global_Rests }
+                            { \number.26.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                 >>
@@ -713,65 +713,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.04.Horn.Staff.1 }
+                            { \number.04.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.10.Horn.Staff.1 }
+                            { \number.10.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.11.Horn.Staff.1 }
+                            { \number.11.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.12.Horn.Staff.1 }
+                            { \number.12.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.17.Horn.Staff.1 }
+                            { \number.17.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.18.Horn.Staff.1 }
+                            { \number.18.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.19.Horn.Staff.1 }
+                            { \number.19.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.23.Horn.Staff.1 }
+                            { \number.23.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.24.Horn.Staff.1 }
+                            { \number.24.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.25.Horn.Staff.1 }
+                            { \number.25.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.26.Horn.Staff.1 }
+                            { \number.26.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Horn.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Horn.Staff.2"
@@ -789,65 +789,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.04.Horn.Staff.2 }
+                            { \number.04.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.10.Horn.Staff.2 }
+                            { \number.10.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.11.Horn.Staff.2 }
+                            { \number.11.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.12.Horn.Staff.2 }
+                            { \number.12.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.17.Horn.Staff.2 }
+                            { \number.17.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.18.Horn.Staff.2 }
+                            { \number.18.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.19.Horn.Staff.2 }
+                            { \number.19.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.23.Horn.Staff.2 }
+                            { \number.23.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.24.Horn.Staff.2 }
+                            { \number.24.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.25.Horn.Staff.2 }
+                            { \number.25.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.26.Horn.Staff.2 }
+                            { \number.26.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Horn.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -872,65 +872,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.04.Trumpet.Staff.1 }
+                            { \number.04.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.10.Trumpet.Staff.1 }
+                            { \number.10.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.11.Trumpet.Staff.1 }
+                            { \number.11.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.12.Trumpet.Staff.1 }
+                            { \number.12.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.17.Trumpet.Staff.1 }
+                            { \number.17.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.18.Trumpet.Staff.1 }
+                            { \number.18.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.19.Trumpet.Staff.1 }
+                            { \number.19.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.23.Trumpet.Staff.1 }
+                            { \number.23.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.24.Trumpet.Staff.1 }
+                            { \number.24.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.25.Trumpet.Staff.1 }
+                            { \number.25.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.26.Trumpet.Staff.1 }
+                            { \number.26.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Trumpet.Staff.2"
@@ -948,65 +948,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.04.Trumpet.Staff.2 }
+                            { \number.04.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.10.Trumpet.Staff.2 }
+                            { \number.10.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.11.Trumpet.Staff.2 }
+                            { \number.11.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.12.Trumpet.Staff.2 }
+                            { \number.12.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.17.Trumpet.Staff.2 }
+                            { \number.17.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.18.Trumpet.Staff.2 }
+                            { \number.18.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.19.Trumpet.Staff.2 }
+                            { \number.19.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.23.Trumpet.Staff.2 }
+                            { \number.23.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.24.Trumpet.Staff.2 }
+                            { \number.24.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.25.Trumpet.Staff.2 }
+                            { \number.25.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.26.Trumpet.Staff.2 }
+                            { \number.26.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -1031,65 +1031,65 @@
                                     }
                             }
                             \clef "tenor"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.04.Trombone.Staff.1 }
+                            { \number.04.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.10.Trombone.Staff.1 }
+                            { \number.10.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.11.Trombone.Staff.1 }
+                            { \number.11.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.12.Trombone.Staff.1 }
+                            { \number.12.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.17.Trombone.Staff.1 }
+                            { \number.17.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.18.Trombone.Staff.1 }
+                            { \number.18.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.19.Trombone.Staff.1 }
+                            { \number.19.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.23.Trombone.Staff.1 }
+                            { \number.23.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.24.Trombone.Staff.1 }
+                            { \number.24.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.25.Trombone.Staff.1 }
+                            { \number.25.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.26.Trombone.Staff.1 }
+                            { \number.26.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Trombone.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Trombone.Staff.2"
@@ -1107,65 +1107,65 @@
                                     }
                             }
                             \clef "tenor"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.04.Trombone.Staff.2 }
+                            { \number.04.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.10.Trombone.Staff.2 }
+                            { \number.10.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.11.Trombone.Staff.2 }
+                            { \number.11.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.12.Trombone.Staff.2 }
+                            { \number.12.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.17.Trombone.Staff.2 }
+                            { \number.17.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.18.Trombone.Staff.2 }
+                            { \number.18.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.19.Trombone.Staff.2 }
+                            { \number.19.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.23.Trombone.Staff.2 }
+                            { \number.23.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.24.Trombone.Staff.2 }
+                            { \number.24.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.25.Trombone.Staff.2 }
+                            { \number.25.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.26.Trombone.Staff.2 }
+                            { \number.26.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Trombone.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
@@ -1186,65 +1186,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.04.Tuba.Staff.1 }
+                            { \number.04.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.19.Tuba.Staff.1 }
+                            { \number.19.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.20.Global_Rests }
+                            { \number.20.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.21.Global_Rests }
+                            { \number.21.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.22.Global_Rests }
+                            { \number.22.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.23.Tuba.Staff.1 }
+                            { \number.23.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.24.Tuba.Staff.1 }
+                            { \number.24.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.25.Tuba.Staff.1 }
+                            { \number.25.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.26.Tuba.Staff.1 }
+                            { \number.26.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Tuba.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                 >>
@@ -1262,65 +1262,65 @@
                                 }
                         }
                         \clef "treble"
-                        \section_number.01.Global_Rests
+                        \number.01.GlobalRests
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.04.Global_Rests }
+                        { \number.04.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.05.Global_Rests }
+                        { \number.05.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.06.Global_Rests }
+                        { \number.06.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.07.Piano.Staff.1 }
+                        { \number.07.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.08.Piano.Staff.1 }
+                        { \number.08.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.09.Piano.Staff.1 }
+                        { \number.09.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.10.Piano.Staff.1 }
+                        { \number.10.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.11.Piano.Staff.1 }
+                        { \number.11.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.12.Piano.Staff.1 }
+                        { \number.12.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.13.Piano.Staff.1 }
+                        { \number.13.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.14.Piano.Staff.1 }
+                        { \number.14.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.15.Piano.Staff.1 }
+                        { \number.15.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.19.Piano.Staff.1 }
+                        { \number.19.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.23.Global_Rests }
+                        { \number.23.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.25.Global_Rests }
+                        { \number.25.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.26.Global_Rests }
+                        { \number.26.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.27.Global_Rests }
+                        { \number.27.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.28.Global_Rests }
+                        { \number.28.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.29.Global_Rests }
+                        { \number.29.GlobalRests }
                         \context Staff = "Piano.Staff.1"
-                        { \section_number.30.Piano.Staff.1 }
+                        { \number.30.Piano.Staff.1 }
                     }
                 >>
                 \context StaffGroup = "HarpPianoStaff"
@@ -1337,65 +1337,65 @@
                                 }
                         }
                         \clef "treble"
-                        \section_number.01.Global_Rests
+                        \number.01.GlobalRests
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.04.Global_Rests }
+                        { \number.04.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.05.Global_Rests }
+                        { \number.05.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.06.Global_Rests }
+                        { \number.06.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.07.Harp.Staff.1 }
+                        { \number.07.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.08.Harp.Staff.1 }
+                        { \number.08.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.09.Harp.Staff.1 }
+                        { \number.09.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.10.Harp.Staff.1 }
+                        { \number.10.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.11.Harp.Staff.1 }
+                        { \number.11.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.12.Harp.Staff.1 }
+                        { \number.12.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.13.Harp.Staff.1 }
+                        { \number.13.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.14.Harp.Staff.1 }
+                        { \number.14.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.15.Harp.Staff.1 }
+                        { \number.15.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.19.Global_Rests }
+                        { \number.19.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.23.Global_Rests }
+                        { \number.23.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.25.Global_Rests }
+                        { \number.25.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.26.Global_Rests }
+                        { \number.26.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.27.Global_Rests }
+                        { \number.27.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.28.Global_Rests }
+                        { \number.28.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.29.Global_Rests }
+                        { \number.29.GlobalRests }
                         \context Staff = "Harp.Staff.1"
-                        { \section_number.30.Global_Rests }
+                        { \number.30.GlobalRests }
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
@@ -1403,128 +1403,128 @@
                     {
                         \context Staff = "Percussion.Staff.1"
                         \clef "percussion"
-                        \section_number.01.Percussion.Staff.1
+                        \number.01.Percussion.Staff.1
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.04.Percussion.Staff.1 }
+                        { \number.04.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.05.Percussion.Staff.1 }
+                        { \number.05.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.06.Percussion.Staff.1 }
+                        { \number.06.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.07.Percussion.Staff.1 }
+                        { \number.07.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.08.Global_Rests }
+                        { \number.08.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.09.Global_Rests }
+                        { \number.09.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.10.Global_Rests }
+                        { \number.10.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.11.Global_Rests }
+                        { \number.11.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.12.Global_Rests }
+                        { \number.12.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.13.Percussion.Staff.1 }
+                        { \number.13.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.14.Percussion.Staff.1 }
+                        { \number.14.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.15.Percussion.Staff.1 }
+                        { \number.15.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.19.Percussion.Staff.1 }
+                        { \number.19.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.23.Global_Rests }
+                        { \number.23.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.25.Global_Rests }
+                        { \number.25.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.26.Global_Rests }
+                        { \number.26.GlobalRests }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.27.Percussion.Staff.1 }
+                        { \number.27.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.28.Percussion.Staff.1 }
+                        { \number.28.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.29.Percussion.Staff.1 }
+                        { \number.29.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \section_number.30.Global_Rests }
+                        { \number.30.GlobalRests }
                     }
                     {
                         \context Staff = "Percussion.Staff.2"
                         \clef "percussion"
-                        \section_number.01.Percussion.Staff.2
+                        \number.01.Percussion.Staff.2
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.04.Percussion.Staff.2 }
+                        { \number.04.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.05.Percussion.Staff.2 }
+                        { \number.05.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.06.Percussion.Staff.2 }
+                        { \number.06.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.07.Percussion.Staff.2 }
+                        { \number.07.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.08.Percussion.Staff.2 }
+                        { \number.08.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.09.Percussion.Staff.2 }
+                        { \number.09.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.10.Percussion.Staff.2 }
+                        { \number.10.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.11.Percussion.Staff.2 }
+                        { \number.11.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.12.Percussion.Staff.2 }
+                        { \number.12.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.13.Percussion.Staff.2 }
+                        { \number.13.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.14.Percussion.Staff.2 }
+                        { \number.14.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.15.Percussion.Staff.2 }
+                        { \number.15.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.19.Percussion.Staff.2 }
+                        { \number.19.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.23.Percussion.Staff.2 }
+                        { \number.23.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.25.Percussion.Staff.2 }
+                        { \number.25.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.26.Percussion.Staff.2 }
+                        { \number.26.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.27.Percussion.Staff.2 }
+                        { \number.27.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.28.Percussion.Staff.2 }
+                        { \number.28.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.29.Global_Rests }
+                        { \number.29.GlobalRests }
                         \context Staff = "Percussion.Staff.2"
-                        { \section_number.30.Global_Rests }
+                        { \number.30.GlobalRests }
                     }
                     {
                         \context Staff = "Percussion.Staff.3"
@@ -1542,65 +1542,65 @@
                                 }
                         }
                         \clef "percussion"
-                        \section_number.01.Global_Rests
+                        \number.01.GlobalRests
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.04.Global_Rests }
+                        { \number.04.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.05.Global_Rests }
+                        { \number.05.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.06.Global_Rests }
+                        { \number.06.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.07.Percussion.Staff.3 }
+                        { \number.07.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.08.Percussion.Staff.3 }
+                        { \number.08.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.09.Percussion.Staff.3 }
+                        { \number.09.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.10.Percussion.Staff.3 }
+                        { \number.10.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.11.Percussion.Staff.3 }
+                        { \number.11.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.12.Percussion.Staff.3 }
+                        { \number.12.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.13.Percussion.Staff.3 }
+                        { \number.13.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.14.Percussion.Staff.3 }
+                        { \number.14.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.15.Percussion.Staff.3 }
+                        { \number.15.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.19.Percussion.Staff.3 }
+                        { \number.19.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.23.Global_Rests }
+                        { \number.23.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.25.Percussion.Staff.3 }
+                        { \number.25.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.26.Percussion.Staff.3 }
+                        { \number.26.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.27.Percussion.Staff.3 }
+                        { \number.27.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.28.Percussion.Staff.3 }
+                        { \number.28.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.29.Global_Rests }
+                        { \number.29.GlobalRests }
                         \context Staff = "Percussion.Staff.3"
-                        { \section_number.30.Global_Rests }
+                        { \number.30.GlobalRests }
                     }
                     {
                         \context Staff = "Percussion.Staff.4"
@@ -1618,203 +1618,203 @@
                                 }
                         }
                         \clef "percussion"
-                        \section_number.01.Percussion.Staff.4
+                        \number.01.Percussion.Staff.4
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.02.Global_Rests }
+                        { \number.02.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.03.Global_Rests }
+                        { \number.03.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.04.Global_Rests }
+                        { \number.04.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.05.Global_Rests }
+                        { \number.05.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.06.Global_Rests }
+                        { \number.06.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.07.Global_Rests }
+                        { \number.07.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.08.Global_Rests }
+                        { \number.08.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.09.Global_Rests }
+                        { \number.09.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.10.Global_Rests }
+                        { \number.10.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.11.Global_Rests }
+                        { \number.11.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.12.Global_Rests }
+                        { \number.12.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.13.Global_Rests }
+                        { \number.13.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.14.Global_Rests }
+                        { \number.14.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.15.Global_Rests }
+                        { \number.15.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.16.Global_Rests }
+                        { \number.16.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.17.Global_Rests }
+                        { \number.17.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.18.Global_Rests }
+                        { \number.18.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.19.Percussion.Staff.4 }
+                        { \number.19.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.20.Global_Rests }
+                        { \number.20.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.21.Global_Rests }
+                        { \number.21.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.22.Global_Rests }
+                        { \number.22.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.23.Global_Rests }
+                        { \number.23.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.24.Global_Rests }
+                        { \number.24.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.25.Percussion.Staff.4 }
+                        { \number.25.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.26.Percussion.Staff.4 }
+                        { \number.26.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.27.Percussion.Staff.4 }
+                        { \number.27.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.28.Percussion.Staff.4 }
+                        { \number.28.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.29.Global_Rests }
+                        { \number.29.GlobalRests }
                         \context Staff = "Percussion.Staff.4"
-                        { \section_number.30.Percussion.Staff.4 }
+                        { \number.30.Percussion.Staff.4 }
                     }
                 >>
                 \context StaffGroup = "StringStaffGroup"
                 <<
-                    \context StaffGroup = "First_ViolinSquareStaffGroup"
+                    \context StaffGroup = "First_ViolinsSquareStaffGroup"
                     \with
                     {
                         systemStartDelimiter = #'SystemStartSquare
                     }
                     <<
                         {
-                            \context Staff = "First_Violin.Staff.1"
+                            \context Staff = "First_Violins.Staff.1"
                             \clef "treble"
-                            \section_number.01.First_Violin.Staff.1
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.02.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.03.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.04.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.05.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.06.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.07.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.08.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.09.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.10.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.11.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.12.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.13.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.14.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.15.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.16.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.17.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.18.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.19.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.20.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.21.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.22.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.23.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.24.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.25.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.26.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.27.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.28.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.29.First_Violin.Staff.1 }
-                            \context Staff = "First_Violin.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            \number.01.First_Violins.Staff.1
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.02.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.03.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.04.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.05.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.06.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.07.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.08.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.09.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.10.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.11.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.12.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.13.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.14.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.15.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.16.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.17.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.18.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.19.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.20.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.21.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.22.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.23.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.24.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.25.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.26.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.27.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.28.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.29.First_Violins.Staff.1 }
+                            \context Staff = "First_Violins.Staff.1"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.2"
+                            \context Staff = "First_Violins.Staff.2"
                             \clef "treble"
-                            \section_number.01.First_Violin.Staff.2
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.02.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.03.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.04.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.05.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.06.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.16.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.17.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.18.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.19.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.20.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.21.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.22.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.23.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.24.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.25.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.26.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.27.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.28.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.29.First_Violin.Staff.2 }
-                            \context Staff = "First_Violin.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            \number.01.First_Violins.Staff.2
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.02.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.03.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.04.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.05.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.06.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.16.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.17.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.18.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.19.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.20.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.21.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.22.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.23.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.24.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.25.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.26.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.27.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.28.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.29.First_Violins.Staff.2 }
+                            \context Staff = "First_Violins.Staff.2"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.3"
+                            \context Staff = "First_Violins.Staff.3"
                             \with
                             {
                                 shortInstrumentName =
@@ -1829,68 +1829,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.16.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.17.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.18.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.19.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.20.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.21.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.22.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.23.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.24.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.25.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.26.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.27.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.28.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.29.First_Violin.Staff.3 }
-                            \context Staff = "First_Violin.Staff.3"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.16.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.17.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.18.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.19.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.20.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.21.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.22.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.23.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.24.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.25.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.26.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.27.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.28.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.29.First_Violins.Staff.3 }
+                            \context Staff = "First_Violins.Staff.3"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.4"
+                            \context Staff = "First_Violins.Staff.4"
                             \with
                             {
                                 shortInstrumentName =
@@ -1905,68 +1905,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.19.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.20.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.21.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.22.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.23.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.24.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.25.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.26.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.27.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.28.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.29.First_Violin.Staff.4 }
-                            \context Staff = "First_Violin.Staff.4"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.19.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.20.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.21.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.22.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.23.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.24.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.25.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.26.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.27.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.28.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.29.First_Violins.Staff.4 }
+                            \context Staff = "First_Violins.Staff.4"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.5"
+                            \context Staff = "First_Violins.Staff.5"
                             \with
                             {
                                 shortInstrumentName =
@@ -1981,68 +1981,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.19.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.20.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.21.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.22.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.23.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.24.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.25.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.26.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.27.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.28.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.29.First_Violin.Staff.5 }
-                            \context Staff = "First_Violin.Staff.5"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.19.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.20.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.21.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.22.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.23.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.24.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.25.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.26.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.27.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.28.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.29.First_Violins.Staff.5 }
+                            \context Staff = "First_Violins.Staff.5"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.6"
+                            \context Staff = "First_Violins.Staff.6"
                             \with
                             {
                                 shortInstrumentName =
@@ -2057,68 +2057,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.19.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.20.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.21.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.22.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.23.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.24.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.25.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.26.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.27.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.28.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.29.First_Violin.Staff.6 }
-                            \context Staff = "First_Violin.Staff.6"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.19.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.20.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.21.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.22.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.23.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.24.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.25.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.26.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.27.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.28.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.29.First_Violins.Staff.6 }
+                            \context Staff = "First_Violins.Staff.6"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.7"
+                            \context Staff = "First_Violins.Staff.7"
                             \with
                             {
                                 shortInstrumentName =
@@ -2133,68 +2133,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.19.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.20.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.21.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.22.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.23.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.24.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.25.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.26.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.27.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.28.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.29.First_Violin.Staff.7 }
-                            \context Staff = "First_Violin.Staff.7"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.19.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.20.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.21.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.22.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.23.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.24.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.25.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.26.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.27.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.28.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.29.First_Violins.Staff.7 }
+                            \context Staff = "First_Violins.Staff.7"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.8"
+                            \context Staff = "First_Violins.Staff.8"
                             \with
                             {
                                 shortInstrumentName =
@@ -2209,68 +2209,68 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.19.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.20.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.21.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.22.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.23.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.24.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.25.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.26.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.27.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.28.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.29.First_Violin.Staff.8 }
-                            \context Staff = "First_Violin.Staff.8"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.19.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.20.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.21.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.22.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.23.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.24.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.25.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.26.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.27.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.28.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.29.First_Violins.Staff.8 }
+                            \context Staff = "First_Violins.Staff.8"
+                            { \number.30.GlobalRests }
                         }
                         {
-                            \context Staff = "First_Violin.Staff.9"
+                            \context Staff = "First_Violins.Staff.9"
                             \with
                             {
                                 shortInstrumentName =
@@ -2285,65 +2285,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.02.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.03.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.04.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.05.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.06.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.07.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.08.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.09.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.10.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.11.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.12.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.13.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.14.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.15.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.16.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.17.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.18.Global_Rests }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.19.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.20.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.21.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.22.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.23.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.24.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.25.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.26.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.27.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.28.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.29.First_Violin.Staff.9 }
-                            \context Staff = "First_Violin.Staff.9"
-                            { \section_number.30.Global_Rests }
+                            \number.01.GlobalRests
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.02.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.03.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.04.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.05.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.06.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.07.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.08.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.09.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.10.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.11.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.12.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.13.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.14.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.15.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.16.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.17.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.18.GlobalRests }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.19.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.20.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.21.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.22.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.23.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.24.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.25.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.26.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.27.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.28.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.29.First_Violins.Staff.9 }
+                            \context Staff = "First_Violins.Staff.9"
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "Second_ViolinSquareStaffGroup"
@@ -2355,128 +2355,128 @@
                         {
                             \context Staff = "Second_Violin.Staff.1"
                             \clef "treble"
-                            \section_number.01.Second_Violin.Staff.1
+                            \number.01.Second_Violin.Staff.1
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.02.Second_Violin.Staff.1 }
+                            { \number.02.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.03.Second_Violin.Staff.1 }
+                            { \number.03.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.04.Second_Violin.Staff.1 }
+                            { \number.04.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.05.Second_Violin.Staff.1 }
+                            { \number.05.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.06.Second_Violin.Staff.1 }
+                            { \number.06.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.07.Second_Violin.Staff.1 }
+                            { \number.07.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.08.Second_Violin.Staff.1 }
+                            { \number.08.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.09.Second_Violin.Staff.1 }
+                            { \number.09.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.10.Second_Violin.Staff.1 }
+                            { \number.10.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.11.Second_Violin.Staff.1 }
+                            { \number.11.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.12.Second_Violin.Staff.1 }
+                            { \number.12.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.13.Second_Violin.Staff.1 }
+                            { \number.13.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.14.Second_Violin.Staff.1 }
+                            { \number.14.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.15.Second_Violin.Staff.1 }
+                            { \number.15.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.16.Second_Violin.Staff.1 }
+                            { \number.16.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.17.Second_Violin.Staff.1 }
+                            { \number.17.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.18.Second_Violin.Staff.1 }
+                            { \number.18.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.19.Second_Violin.Staff.1 }
+                            { \number.19.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.20.Second_Violin.Staff.1 }
+                            { \number.20.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.21.Second_Violin.Staff.1 }
+                            { \number.21.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.22.Second_Violin.Staff.1 }
+                            { \number.22.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.23.Second_Violin.Staff.1 }
+                            { \number.23.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.24.Second_Violin.Staff.1 }
+                            { \number.24.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.25.Second_Violin.Staff.1 }
+                            { \number.25.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.26.Second_Violin.Staff.1 }
+                            { \number.26.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.27.Second_Violin.Staff.1 }
+                            { \number.27.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.28.Second_Violin.Staff.1 }
+                            { \number.28.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.29.Second_Violin.Staff.1 }
+                            { \number.29.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.2"
                             \clef "treble"
-                            \section_number.01.Second_Violin.Staff.2
+                            \number.01.Second_Violin.Staff.2
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.02.Second_Violin.Staff.2 }
+                            { \number.02.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.03.Second_Violin.Staff.2 }
+                            { \number.03.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.04.Second_Violin.Staff.2 }
+                            { \number.04.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.05.Second_Violin.Staff.2 }
+                            { \number.05.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.06.Second_Violin.Staff.2 }
+                            { \number.06.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.16.Second_Violin.Staff.2 }
+                            { \number.16.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.17.Second_Violin.Staff.2 }
+                            { \number.17.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.18.Second_Violin.Staff.2 }
+                            { \number.18.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.19.Second_Violin.Staff.2 }
+                            { \number.19.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.20.Second_Violin.Staff.2 }
+                            { \number.20.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.21.Second_Violin.Staff.2 }
+                            { \number.21.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.22.Second_Violin.Staff.2 }
+                            { \number.22.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.23.Second_Violin.Staff.2 }
+                            { \number.23.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.24.Second_Violin.Staff.2 }
+                            { \number.24.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.25.Second_Violin.Staff.2 }
+                            { \number.25.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.26.Second_Violin.Staff.2 }
+                            { \number.26.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.27.Second_Violin.Staff.2 }
+                            { \number.27.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.28.Second_Violin.Staff.2 }
+                            { \number.28.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.29.Second_Violin.Staff.2 }
+                            { \number.29.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.3"
@@ -2494,65 +2494,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.19.Second_Violin.Staff.3 }
+                            { \number.19.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.20.Second_Violin.Staff.3 }
+                            { \number.20.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.21.Second_Violin.Staff.3 }
+                            { \number.21.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.22.Second_Violin.Staff.3 }
+                            { \number.22.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.23.Second_Violin.Staff.3 }
+                            { \number.23.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.24.Second_Violin.Staff.3 }
+                            { \number.24.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.25.Second_Violin.Staff.3 }
+                            { \number.25.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.26.Second_Violin.Staff.3 }
+                            { \number.26.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.27.Second_Violin.Staff.3 }
+                            { \number.27.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.28.Second_Violin.Staff.3 }
+                            { \number.28.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.29.Second_Violin.Staff.3 }
+                            { \number.29.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.4"
@@ -2570,65 +2570,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.19.Second_Violin.Staff.4 }
+                            { \number.19.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.20.Second_Violin.Staff.4 }
+                            { \number.20.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.21.Second_Violin.Staff.4 }
+                            { \number.21.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.22.Second_Violin.Staff.4 }
+                            { \number.22.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.23.Second_Violin.Staff.4 }
+                            { \number.23.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.24.Second_Violin.Staff.4 }
+                            { \number.24.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.25.Second_Violin.Staff.4 }
+                            { \number.25.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.26.Second_Violin.Staff.4 }
+                            { \number.26.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.27.Second_Violin.Staff.4 }
+                            { \number.27.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.28.Second_Violin.Staff.4 }
+                            { \number.28.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.29.Second_Violin.Staff.4 }
+                            { \number.29.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.5"
@@ -2646,65 +2646,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.19.Second_Violin.Staff.5 }
+                            { \number.19.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.20.Second_Violin.Staff.5 }
+                            { \number.20.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.21.Second_Violin.Staff.5 }
+                            { \number.21.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.22.Second_Violin.Staff.5 }
+                            { \number.22.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.23.Second_Violin.Staff.5 }
+                            { \number.23.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.24.Second_Violin.Staff.5 }
+                            { \number.24.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.25.Second_Violin.Staff.5 }
+                            { \number.25.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.26.Second_Violin.Staff.5 }
+                            { \number.26.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.27.Second_Violin.Staff.5 }
+                            { \number.27.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.28.Second_Violin.Staff.5 }
+                            { \number.28.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.29.Second_Violin.Staff.5 }
+                            { \number.29.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.6"
@@ -2722,65 +2722,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.19.Second_Violin.Staff.6 }
+                            { \number.19.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.20.Second_Violin.Staff.6 }
+                            { \number.20.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.21.Second_Violin.Staff.6 }
+                            { \number.21.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.22.Second_Violin.Staff.6 }
+                            { \number.22.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.23.Second_Violin.Staff.6 }
+                            { \number.23.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.24.Second_Violin.Staff.6 }
+                            { \number.24.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.25.Second_Violin.Staff.6 }
+                            { \number.25.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.26.Second_Violin.Staff.6 }
+                            { \number.26.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.27.Second_Violin.Staff.6 }
+                            { \number.27.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.28.Second_Violin.Staff.6 }
+                            { \number.28.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.29.Second_Violin.Staff.6 }
+                            { \number.29.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.7"
@@ -2798,65 +2798,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.19.Second_Violin.Staff.7 }
+                            { \number.19.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.20.Second_Violin.Staff.7 }
+                            { \number.20.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.21.Second_Violin.Staff.7 }
+                            { \number.21.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.22.Second_Violin.Staff.7 }
+                            { \number.22.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.23.Second_Violin.Staff.7 }
+                            { \number.23.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.24.Second_Violin.Staff.7 }
+                            { \number.24.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.25.Second_Violin.Staff.7 }
+                            { \number.25.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.26.Second_Violin.Staff.7 }
+                            { \number.26.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.27.Second_Violin.Staff.7 }
+                            { \number.27.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.28.Second_Violin.Staff.7 }
+                            { \number.28.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.29.Second_Violin.Staff.7 }
+                            { \number.29.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.8"
@@ -2874,65 +2874,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.19.Second_Violin.Staff.8 }
+                            { \number.19.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.20.Second_Violin.Staff.8 }
+                            { \number.20.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.21.Second_Violin.Staff.8 }
+                            { \number.21.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.22.Second_Violin.Staff.8 }
+                            { \number.22.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.23.Second_Violin.Staff.8 }
+                            { \number.23.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.24.Second_Violin.Staff.8 }
+                            { \number.24.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.25.Second_Violin.Staff.8 }
+                            { \number.25.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.26.Second_Violin.Staff.8 }
+                            { \number.26.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.27.Second_Violin.Staff.8 }
+                            { \number.27.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.28.Second_Violin.Staff.8 }
+                            { \number.28.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.29.Second_Violin.Staff.8 }
+                            { \number.29.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.9"
@@ -2950,65 +2950,65 @@
                                     }
                             }
                             \clef "treble"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.19.Second_Violin.Staff.9 }
+                            { \number.19.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.20.Second_Violin.Staff.9 }
+                            { \number.20.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.21.Second_Violin.Staff.9 }
+                            { \number.21.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.22.Second_Violin.Staff.9 }
+                            { \number.22.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.23.Second_Violin.Staff.9 }
+                            { \number.23.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.24.Second_Violin.Staff.9 }
+                            { \number.24.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.25.Second_Violin.Staff.9 }
+                            { \number.25.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.26.Second_Violin.Staff.9 }
+                            { \number.26.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.27.Second_Violin.Staff.9 }
+                            { \number.27.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.28.Second_Violin.Staff.9 }
+                            { \number.28.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.29.Second_Violin.Staff.9 }
+                            { \number.29.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -3020,128 +3020,128 @@
                         {
                             \context Staff = "Viola.Staff.1"
                             \clef "alto"
-                            \section_number.01.Viola.Staff.1
+                            \number.01.Viola.Staff.1
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.02.Viola.Staff.1 }
+                            { \number.02.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.03.Viola.Staff.1 }
+                            { \number.03.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.04.Viola.Staff.1 }
+                            { \number.04.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.05.Viola.Staff.1 }
+                            { \number.05.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.06.Viola.Staff.1 }
+                            { \number.06.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.07.Viola.Staff.1 }
+                            { \number.07.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.08.Viola.Staff.1 }
+                            { \number.08.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.09.Viola.Staff.1 }
+                            { \number.09.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.10.Viola.Staff.1 }
+                            { \number.10.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.11.Viola.Staff.1 }
+                            { \number.11.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.12.Viola.Staff.1 }
+                            { \number.12.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.13.Viola.Staff.1 }
+                            { \number.13.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.14.Viola.Staff.1 }
+                            { \number.14.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.15.Viola.Staff.1 }
+                            { \number.15.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.16.Viola.Staff.1 }
+                            { \number.16.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.17.Viola.Staff.1 }
+                            { \number.17.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.18.Viola.Staff.1 }
+                            { \number.18.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.19.Viola.Staff.1 }
+                            { \number.19.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.20.Viola.Staff.1 }
+                            { \number.20.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.21.Viola.Staff.1 }
+                            { \number.21.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.22.Viola.Staff.1 }
+                            { \number.22.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.23.Viola.Staff.1 }
+                            { \number.23.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.24.Viola.Staff.1 }
+                            { \number.24.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.25.Viola.Staff.1 }
+                            { \number.25.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.26.Viola.Staff.1 }
+                            { \number.26.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.27.Viola.Staff.1 }
+                            { \number.27.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.28.Viola.Staff.1 }
+                            { \number.28.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.29.Viola.Staff.1 }
+                            { \number.29.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.2"
                             \clef "alto"
-                            \section_number.01.Viola.Staff.2
+                            \number.01.Viola.Staff.2
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.02.Viola.Staff.2 }
+                            { \number.02.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.03.Viola.Staff.2 }
+                            { \number.03.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.04.Viola.Staff.2 }
+                            { \number.04.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.05.Viola.Staff.2 }
+                            { \number.05.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.06.Viola.Staff.2 }
+                            { \number.06.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.16.Viola.Staff.2 }
+                            { \number.16.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.17.Viola.Staff.2 }
+                            { \number.17.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.18.Viola.Staff.2 }
+                            { \number.18.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.19.Viola.Staff.2 }
+                            { \number.19.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.20.Viola.Staff.2 }
+                            { \number.20.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.21.Viola.Staff.2 }
+                            { \number.21.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.22.Viola.Staff.2 }
+                            { \number.22.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.23.Viola.Staff.2 }
+                            { \number.23.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.24.Viola.Staff.2 }
+                            { \number.24.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.25.Viola.Staff.2 }
+                            { \number.25.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.26.Viola.Staff.2 }
+                            { \number.26.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.27.Viola.Staff.2 }
+                            { \number.27.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.28.Viola.Staff.2 }
+                            { \number.28.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.29.Viola.Staff.2 }
+                            { \number.29.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.3"
@@ -3159,65 +3159,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.19.Viola.Staff.3 }
+                            { \number.19.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.20.Viola.Staff.3 }
+                            { \number.20.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.21.Viola.Staff.3 }
+                            { \number.21.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.22.Viola.Staff.3 }
+                            { \number.22.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.23.Viola.Staff.3 }
+                            { \number.23.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.24.Viola.Staff.3 }
+                            { \number.24.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.25.Viola.Staff.3 }
+                            { \number.25.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.26.Viola.Staff.3 }
+                            { \number.26.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.27.Viola.Staff.3 }
+                            { \number.27.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.28.Viola.Staff.3 }
+                            { \number.28.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.29.Viola.Staff.3 }
+                            { \number.29.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.4"
@@ -3235,65 +3235,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.19.Viola.Staff.4 }
+                            { \number.19.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.20.Viola.Staff.4 }
+                            { \number.20.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.21.Viola.Staff.4 }
+                            { \number.21.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.22.Viola.Staff.4 }
+                            { \number.22.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.23.Viola.Staff.4 }
+                            { \number.23.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.24.Viola.Staff.4 }
+                            { \number.24.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.25.Viola.Staff.4 }
+                            { \number.25.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.26.Viola.Staff.4 }
+                            { \number.26.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.27.Viola.Staff.4 }
+                            { \number.27.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.28.Viola.Staff.4 }
+                            { \number.28.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.29.Viola.Staff.4 }
+                            { \number.29.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.5"
@@ -3311,65 +3311,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.19.Viola.Staff.5 }
+                            { \number.19.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.20.Viola.Staff.5 }
+                            { \number.20.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.21.Viola.Staff.5 }
+                            { \number.21.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.22.Viola.Staff.5 }
+                            { \number.22.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.23.Viola.Staff.5 }
+                            { \number.23.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.24.Viola.Staff.5 }
+                            { \number.24.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.25.Viola.Staff.5 }
+                            { \number.25.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.26.Viola.Staff.5 }
+                            { \number.26.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.27.Viola.Staff.5 }
+                            { \number.27.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.28.Viola.Staff.5 }
+                            { \number.28.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.29.Viola.Staff.5 }
+                            { \number.29.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.6"
@@ -3387,65 +3387,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.19.Viola.Staff.6 }
+                            { \number.19.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.20.Viola.Staff.6 }
+                            { \number.20.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.21.Viola.Staff.6 }
+                            { \number.21.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.22.Viola.Staff.6 }
+                            { \number.22.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.23.Viola.Staff.6 }
+                            { \number.23.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.24.Viola.Staff.6 }
+                            { \number.24.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.25.Viola.Staff.6 }
+                            { \number.25.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.26.Viola.Staff.6 }
+                            { \number.26.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.27.Viola.Staff.6 }
+                            { \number.27.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.28.Viola.Staff.6 }
+                            { \number.28.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.29.Viola.Staff.6 }
+                            { \number.29.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.7"
@@ -3463,65 +3463,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.19.Viola.Staff.7 }
+                            { \number.19.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.20.Viola.Staff.7 }
+                            { \number.20.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.21.Viola.Staff.7 }
+                            { \number.21.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.22.Viola.Staff.7 }
+                            { \number.22.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.23.Viola.Staff.7 }
+                            { \number.23.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.24.Viola.Staff.7 }
+                            { \number.24.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.25.Viola.Staff.7 }
+                            { \number.25.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.26.Viola.Staff.7 }
+                            { \number.26.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.27.Viola.Staff.7 }
+                            { \number.27.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.28.Viola.Staff.7 }
+                            { \number.28.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.29.Viola.Staff.7 }
+                            { \number.29.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.8"
@@ -3539,65 +3539,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.19.Viola.Staff.8 }
+                            { \number.19.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.20.Viola.Staff.8 }
+                            { \number.20.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.21.Viola.Staff.8 }
+                            { \number.21.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.22.Viola.Staff.8 }
+                            { \number.22.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.23.Viola.Staff.8 }
+                            { \number.23.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.24.Viola.Staff.8 }
+                            { \number.24.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.25.Viola.Staff.8 }
+                            { \number.25.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.26.Viola.Staff.8 }
+                            { \number.26.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.27.Viola.Staff.8 }
+                            { \number.27.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.28.Viola.Staff.8 }
+                            { \number.28.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.29.Viola.Staff.8 }
+                            { \number.29.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Viola.Staff.9"
@@ -3615,65 +3615,65 @@
                                     }
                             }
                             \clef "alto"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.19.Viola.Staff.9 }
+                            { \number.19.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.20.Viola.Staff.9 }
+                            { \number.20.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.21.Viola.Staff.9 }
+                            { \number.21.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.22.Viola.Staff.9 }
+                            { \number.22.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.23.Viola.Staff.9 }
+                            { \number.23.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.24.Viola.Staff.9 }
+                            { \number.24.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.25.Viola.Staff.9 }
+                            { \number.25.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.26.Viola.Staff.9 }
+                            { \number.26.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.27.Viola.Staff.9 }
+                            { \number.27.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.28.Viola.Staff.9 }
+                            { \number.28.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.29.Viola.Staff.9 }
+                            { \number.29.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
@@ -3685,65 +3685,65 @@
                         {
                             \context Staff = "Cello.Staff.1"
                             \clef "bass"
-                            \section_number.01.Cello.Staff.1
+                            \number.01.Cello.Staff.1
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.02.Cello.Staff.1 }
+                            { \number.02.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.03.Cello.Staff.1 }
+                            { \number.03.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.04.Cello.Staff.1 }
+                            { \number.04.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.05.Cello.Staff.1 }
+                            { \number.05.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.06.Cello.Staff.1 }
+                            { \number.06.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.07.Cello.Staff.1 }
+                            { \number.07.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.08.Cello.Staff.1 }
+                            { \number.08.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.09.Cello.Staff.1 }
+                            { \number.09.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.10.Cello.Staff.1 }
+                            { \number.10.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.11.Cello.Staff.1 }
+                            { \number.11.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.12.Cello.Staff.1 }
+                            { \number.12.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.13.Cello.Staff.1 }
+                            { \number.13.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.14.Cello.Staff.1 }
+                            { \number.14.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.15.Cello.Staff.1 }
+                            { \number.15.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.16.Cello.Staff.1 }
+                            { \number.16.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.17.Cello.Staff.1 }
+                            { \number.17.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.18.Cello.Staff.1 }
+                            { \number.18.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.19.Cello.Staff.1 }
+                            { \number.19.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.20.Cello.Staff.1 }
+                            { \number.20.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.21.Cello.Staff.1 }
+                            { \number.21.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.22.Cello.Staff.1 }
+                            { \number.22.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.23.Cello.Staff.1 }
+                            { \number.23.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.24.Cello.Staff.1 }
+                            { \number.24.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.25.Cello.Staff.1 }
+                            { \number.25.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.26.Cello.Staff.1 }
+                            { \number.26.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.27.Cello.Staff.1 }
+                            { \number.27.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.28.Cello.Staff.1 }
+                            { \number.28.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.29.Cello.Staff.1 }
+                            { \number.29.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.2"
@@ -3761,65 +3761,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.19.Cello.Staff.2 }
+                            { \number.19.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.20.Cello.Staff.2 }
+                            { \number.20.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.21.Cello.Staff.2 }
+                            { \number.21.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.22.Cello.Staff.2 }
+                            { \number.22.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.23.Cello.Staff.2 }
+                            { \number.23.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.24.Cello.Staff.2 }
+                            { \number.24.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.25.Cello.Staff.2 }
+                            { \number.25.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.26.Cello.Staff.2 }
+                            { \number.26.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.27.Cello.Staff.2 }
+                            { \number.27.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.28.Cello.Staff.2 }
+                            { \number.28.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.29.Cello.Staff.2 }
+                            { \number.29.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.3"
@@ -3837,65 +3837,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.19.Cello.Staff.3 }
+                            { \number.19.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.20.Cello.Staff.3 }
+                            { \number.20.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.21.Cello.Staff.3 }
+                            { \number.21.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.22.Cello.Staff.3 }
+                            { \number.22.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.23.Cello.Staff.3 }
+                            { \number.23.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.24.Cello.Staff.3 }
+                            { \number.24.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.25.Cello.Staff.3 }
+                            { \number.25.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.26.Cello.Staff.3 }
+                            { \number.26.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.27.Cello.Staff.3 }
+                            { \number.27.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.28.Cello.Staff.3 }
+                            { \number.28.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.29.Cello.Staff.3 }
+                            { \number.29.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.4"
@@ -3913,65 +3913,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.19.Cello.Staff.4 }
+                            { \number.19.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.20.Cello.Staff.4 }
+                            { \number.20.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.21.Cello.Staff.4 }
+                            { \number.21.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.22.Cello.Staff.4 }
+                            { \number.22.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.23.Cello.Staff.4 }
+                            { \number.23.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.24.Cello.Staff.4 }
+                            { \number.24.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.25.Cello.Staff.4 }
+                            { \number.25.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.26.Cello.Staff.4 }
+                            { \number.26.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.27.Cello.Staff.4 }
+                            { \number.27.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.28.Cello.Staff.4 }
+                            { \number.28.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.29.Cello.Staff.4 }
+                            { \number.29.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.5"
@@ -3989,65 +3989,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.19.Cello.Staff.5 }
+                            { \number.19.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.20.Cello.Staff.5 }
+                            { \number.20.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.21.Cello.Staff.5 }
+                            { \number.21.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.22.Cello.Staff.5 }
+                            { \number.22.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.23.Cello.Staff.5 }
+                            { \number.23.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.24.Cello.Staff.5 }
+                            { \number.24.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.25.Cello.Staff.5 }
+                            { \number.25.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.26.Cello.Staff.5 }
+                            { \number.26.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.27.Cello.Staff.5 }
+                            { \number.27.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.28.Cello.Staff.5 }
+                            { \number.28.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.29.Cello.Staff.5 }
+                            { \number.29.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.6"
@@ -4065,65 +4065,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.19.Cello.Staff.6 }
+                            { \number.19.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.20.Cello.Staff.6 }
+                            { \number.20.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.21.Cello.Staff.6 }
+                            { \number.21.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.22.Cello.Staff.6 }
+                            { \number.22.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.23.Cello.Staff.6 }
+                            { \number.23.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.24.Cello.Staff.6 }
+                            { \number.24.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.25.Cello.Staff.6 }
+                            { \number.25.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.26.Cello.Staff.6 }
+                            { \number.26.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.27.Cello.Staff.6 }
+                            { \number.27.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.28.Cello.Staff.6 }
+                            { \number.28.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.29.Cello.Staff.6 }
+                            { \number.29.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Cello.Staff.7"
@@ -4141,65 +4141,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.19.Cello.Staff.7 }
+                            { \number.19.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.20.Cello.Staff.7 }
+                            { \number.20.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.21.Cello.Staff.7 }
+                            { \number.21.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.22.Cello.Staff.7 }
+                            { \number.22.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.23.Cello.Staff.7 }
+                            { \number.23.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.24.Cello.Staff.7 }
+                            { \number.24.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.25.Cello.Staff.7 }
+                            { \number.25.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.26.Cello.Staff.7 }
+                            { \number.26.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.27.Cello.Staff.7 }
+                            { \number.27.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.28.Cello.Staff.7 }
+                            { \number.28.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.29.Cello.Staff.7 }
+                            { \number.29.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                     \context StaffGroup = "ContrabassSquareStaffGroup"
@@ -4224,65 +4224,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.07.Contrabass.Staff.1 }
+                            { \number.07.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.08.Contrabass.Staff.1 }
+                            { \number.08.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.09.Contrabass.Staff.1 }
+                            { \number.09.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.10.Contrabass.Staff.1 }
+                            { \number.10.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.11.Contrabass.Staff.1 }
+                            { \number.11.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.12.Contrabass.Staff.1 }
+                            { \number.12.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.13.Contrabass.Staff.1 }
+                            { \number.13.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.14.Contrabass.Staff.1 }
+                            { \number.14.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.15.Contrabass.Staff.1 }
+                            { \number.15.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.19.Contrabass.Staff.1 }
+                            { \number.19.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.20.Contrabass.Staff.1 }
+                            { \number.20.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.21.Contrabass.Staff.1 }
+                            { \number.21.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.22.Contrabass.Staff.1 }
+                            { \number.22.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.23.Contrabass.Staff.1 }
+                            { \number.23.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.24.Contrabass.Staff.1 }
+                            { \number.24.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.25.Contrabass.Staff.1 }
+                            { \number.25.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.26.Global_Rests }
+                            { \number.26.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Contrabass.Staff.2"
@@ -4296,65 +4296,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.04.Contrabass.Staff.2 }
+                            { \number.04.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.05.Contrabass.Staff.2 }
+                            { \number.05.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.06.Contrabass.Staff.2 }
+                            { \number.06.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.07.Contrabass.Staff.2 }
+                            { \number.07.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.08.Contrabass.Staff.2 }
+                            { \number.08.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.09.Contrabass.Staff.2 }
+                            { \number.09.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.10.Contrabass.Staff.2 }
+                            { \number.10.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.11.Contrabass.Staff.2 }
+                            { \number.11.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.12.Contrabass.Staff.2 }
+                            { \number.12.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.13.Contrabass.Staff.2 }
+                            { \number.13.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.14.Contrabass.Staff.2 }
+                            { \number.14.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.15.Contrabass.Staff.2 }
+                            { \number.15.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.16.Contrabass.Staff.2 }
+                            { \number.16.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.17.Contrabass.Staff.2 }
+                            { \number.17.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.18.Contrabass.Staff.2 }
+                            { \number.18.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.19.Contrabass.Staff.2 }
+                            { \number.19.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.20.Contrabass.Staff.2 }
+                            { \number.20.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.21.Contrabass.Staff.2 }
+                            { \number.21.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.22.Contrabass.Staff.2 }
+                            { \number.22.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.23.Contrabass.Staff.2 }
+                            { \number.23.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.24.Contrabass.Staff.2 }
+                            { \number.24.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.25.Contrabass.Staff.2 }
+                            { \number.25.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.26.Contrabass.Staff.2 }
+                            { \number.26.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.27.Contrabass.Staff.2 }
+                            { \number.27.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                         {
                             \context Staff = "Contrabass.Staff.3"
@@ -4372,65 +4372,65 @@
                                     }
                             }
                             \clef "bass"
-                            \section_number.01.Global_Rests
+                            \number.01.GlobalRests
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.02.Global_Rests }
+                            { \number.02.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.03.Global_Rests }
+                            { \number.03.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.04.Global_Rests }
+                            { \number.04.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.05.Global_Rests }
+                            { \number.05.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.06.Global_Rests }
+                            { \number.06.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.07.Global_Rests }
+                            { \number.07.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.08.Global_Rests }
+                            { \number.08.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.09.Global_Rests }
+                            { \number.09.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.10.Global_Rests }
+                            { \number.10.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.11.Global_Rests }
+                            { \number.11.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.12.Global_Rests }
+                            { \number.12.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.13.Global_Rests }
+                            { \number.13.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.14.Global_Rests }
+                            { \number.14.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.15.Global_Rests }
+                            { \number.15.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.16.Global_Rests }
+                            { \number.16.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.17.Global_Rests }
+                            { \number.17.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.18.Global_Rests }
+                            { \number.18.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.19.Contrabass.Staff.3 }
+                            { \number.19.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.20.Contrabass.Staff.3 }
+                            { \number.20.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.21.Contrabass.Staff.3 }
+                            { \number.21.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.22.Contrabass.Staff.3 }
+                            { \number.22.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.23.Contrabass.Staff.3 }
+                            { \number.23.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.24.Contrabass.Staff.3 }
+                            { \number.24.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.25.Contrabass.Staff.3 }
+                            { \number.25.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.26.Global_Rests }
+                            { \number.26.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.27.Global_Rests }
+                            { \number.27.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.28.Global_Rests }
+                            { \number.28.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.29.Global_Rests }
+                            { \number.29.GlobalRests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \section_number.30.Global_Rests }
+                            { \number.30.GlobalRests }
                         }
                     >>
                 >>

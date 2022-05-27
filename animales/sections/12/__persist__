@@ -1,9 +1,9 @@
 {
     "alive_during_section": [
         "Score",
-        "Global_Context",
-        "Global_Rests",
-        "Global_Skips",
+        "GlobalContext",
+        "GlobalRests",
+        "GlobalSkips",
         "Music_Context",
         "Wind_Staff_Group",
         "Clarinet.Staff.1",
@@ -104,11 +104,11 @@
             baca.PartAssignment("First_Violins"),
             Timespan(Offset((0, 1)), Offset((15, 2))),
         ),
-        "number.12.Global_Rests.part.1": (
+        "number.12.GlobalRests.part.1": (
             baca.PartAssignment("Clarinet", 2),
             Timespan(Offset((0, 1)), Offset((15, 4))),
         ),
-        "number.12.Global_Rests.part.2": (
+        "number.12.GlobalRests.part.2": (
             baca.PartAssignment("Clarinet", 1),
             Timespan(Offset((15, 4)), Offset((15, 2))),
         ),
@@ -800,7 +800,7 @@
         ],
         "Score": [
             baca.Memento(
-                context="Global_Skips",
+                context="GlobalSkips",
                 edition=None,
                 manifest="metronome_marks",
                 prototype=None,
@@ -808,7 +808,7 @@
                 value="76",
             ),
             baca.Memento(
-                context="Global_Skips",
+                context="GlobalSkips",
                 edition=None,
                 manifest=None,
                 prototype="abjad.TimeSignature",

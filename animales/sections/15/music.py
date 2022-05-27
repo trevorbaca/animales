@@ -63,7 +63,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "Global_Skips",
+    "GlobalSkips",
     baca.rehearsal_mark(
         "N",
         lambda _: baca.select.skip(_, 1 - 1),
@@ -74,7 +74,7 @@ commands(
 )
 
 commands(
-    "Global_Rests",
+    "GlobalRests",
     baca.new(
         baca.global_fermata("fermata"),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
