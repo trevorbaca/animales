@@ -155,7 +155,7 @@ commands(
 )
 
 commands(
-    ("Clarinet.Rest_Voice", 4),
+    ("Clarinet.RestVoice", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-explanation-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -255,11 +255,11 @@ commands(
 
 
 most_strings = [
-    "First_Violins.Rest_Voice.1",
-    "Second_Violin.Rest_Voice.1",
-    "Viola.Rest_Voice.1",
-    "Cello.Rest_Voice.1",
-    "Contrabass.Rest_Voice.3",
+    "First_Violins.RestVoice.1",
+    "Second_Violin.RestVoice.1",
+    "Viola.RestVoice.1",
+    "Cello.RestVoice.1",
+    "Contrabass.RestVoice.3",
 ]
 
 commands(
@@ -273,7 +273,7 @@ commands(
 )
 
 commands(
-    ("First_Violins.Rest_Voice.1", 4),
+    ("First_Violins.RestVoice.1", 4),
     baca.not_parts(
         baca.markup(
             r"\animales-strings-suddenly-ripped-off-markup",

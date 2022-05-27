@@ -472,14 +472,14 @@ commands(
 )
 
 most_strings = [
-    "Second_Violin.Rest_Voice.1",
-    "Viola.Rest_Voice.1",
-    "Cello.Rest_Voice.1",
-    "Contrabass.Rest_Voice.3",
+    "Second_Violin.RestVoice.1",
+    "Viola.RestVoice.1",
+    "Cello.RestVoice.1",
+    "Contrabass.RestVoice.3",
 ]
 
 commands(
-    ("First_Violins.Rest_Voice.1", 4),
+    ("First_Violins.RestVoice.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
