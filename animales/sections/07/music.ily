@@ -1066,12 +1066,12 @@ number.7.Piano.MusicVoice.part.1 = {
     r2
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Piano”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Pf.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Piano”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -1466,12 +1466,12 @@ number.7.Harp.MusicVoice.part.1 = {
     r2
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Harp”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Hp.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Harp”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -4455,9 +4455,9 @@ number.7.Contrabass.MusicVoice.1.part.1 = {
       %! baca.dynamic()
     \p
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Contrabass”)"
+    ^ \baca-explicit-indicator-markup "(“Contrabass”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. 1”]"

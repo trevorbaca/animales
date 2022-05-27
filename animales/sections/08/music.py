@@ -47,6 +47,7 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -157,6 +158,7 @@ commands(
 commands(
     "bcl",
     baca.attach_first_appearance_default_indicators(),
+    baca.instrument(instruments["BassClarinet"]),
 )
 # cl
 

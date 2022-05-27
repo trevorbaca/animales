@@ -52,6 +52,7 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -229,6 +230,7 @@ commands(
 
 commands(
     ("fl1", (1, 3)),
+    baca.instrument(instruments["Flutes"]),
     library.margin_markup("Fl. (1+3)"),
     library.pennant_pitches("G5", [6]),
     baca.not_parts(baca.voice_one()),
@@ -258,6 +260,7 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
+    baca.instrument(instruments["Flutes"]),
     library.margin_markup("Fl. (2+4)"),
     library.pennant_pitches("Eb5", [6]),
     baca.not_parts(baca.voice_one()),

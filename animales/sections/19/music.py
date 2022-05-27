@@ -88,6 +88,7 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -167,6 +168,31 @@ music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 commands(
     music_voice_names,
     baca.append_phantom_measure(),
+)
+
+commands(
+    "1vn18",
+    baca.instrument(instruments["Violin"]),
+)
+
+commands(
+    ["2vn6", "2vn12"],
+    baca.instrument(instruments["Violin"]),
+)
+
+commands(
+    ["va6", "va12", "va15", "va18"],
+    baca.instrument(instruments["Viola"]),
+)
+
+commands(
+    ["vc5", "vc11"],
+    baca.instrument(instruments["Cello"]),
+)
+
+commands(
+    ["cb6"],
+    baca.instrument(instruments["Contrabass"]),
 )
 
 if __name__ == "__main__":
