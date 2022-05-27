@@ -2058,9 +2058,9 @@ number.20.First_Violins.MusicVoice.8.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
+      %! REDUNDANT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2358,12 +2358,12 @@ number.20.First_Violins.MusicVoice.9.part.1 = {
     r8
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -3082,9 +3082,9 @@ number.20.First_Violins.MusicVoice.12.part.1 = {
     r4
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
+      %! REDUNDANT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3388,12 +3388,12 @@ number.20.First_Violins.MusicVoice.13.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (13-14)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -3905,12 +3905,12 @@ number.20.First_Violins.MusicVoice.15.part.1 = {
     r4..
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -6437,12 +6437,12 @@ number.20.Second_Violin.MusicVoice.7.part.1 = {
     r2
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (7-8)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -7006,12 +7006,12 @@ number.20.Second_Violin.MusicVoice.9.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -7964,12 +7964,12 @@ number.20.Second_Violin.MusicVoice.13.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -8518,12 +8518,12 @@ number.20.Second_Violin.MusicVoice.15.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -8986,12 +8986,12 @@ number.20.Second_Violin.MusicVoice.17.part.1 = {
     r4
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -11086,12 +11086,12 @@ number.20.Viola.MusicVoice.7.part.1 = {
     r2
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle. (7-8)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -11605,12 +11605,12 @@ number.20.Viola.MusicVoice.9.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -12611,12 +12611,12 @@ number.20.Viola.MusicVoice.13.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -14883,9 +14883,9 @@ number.20.Cello.MusicVoice.4.part.1 = {
     r4
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
+      %! REDUNDANT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
+    ^ \baca-redundant-indicator-markup "(“Cello”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -15682,12 +15682,12 @@ number.20.Cello.MusicVoice.7.part.1 = {
     r2
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc. (7-8)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Cello”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -16240,12 +16240,12 @@ number.20.Cello.MusicVoice.9.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! REAPPLIED_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"
+      %! REDUNDANT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "(“Cello”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
@@ -17494,9 +17494,9 @@ number.20.Cello.MusicVoice.14.part.1 = {
     r1
     % AFTER:
     % MARKUP:
-      %! EXPLICIT_INSTRUMENT_ALERT
+      %! REDUNDANT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "(“Cello”)"
+    ^ \baca-redundant-indicator-markup "(“Cello”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR

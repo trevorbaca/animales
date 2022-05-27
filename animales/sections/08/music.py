@@ -157,7 +157,9 @@ commands(
 
 commands(
     "bcl",
-    baca.attach_first_appearance_default_indicators(),
+    baca.attach_first_appearance_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
     baca.instrument(instruments["BassClarinet"]),
 )
 # cl

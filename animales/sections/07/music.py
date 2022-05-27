@@ -171,7 +171,9 @@ commands(
 
 commands(
     ["pf", "hp", "cb1"],
-    baca.attach_first_appearance_default_indicators(),
+    baca.attach_first_appearance_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # cl
