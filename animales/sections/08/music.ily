@@ -797,15 +797,15 @@ number.8.Bass_Clarinet.MusicVoice.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“BassClarinet”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“B. cl.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“BassClarinet”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR

@@ -55,6 +55,7 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -80,6 +81,7 @@ commands(
 commands(
     ("cl", (1, 2)),
     baca.make_mmrests_flat(),
+    baca.instrument(instruments["Clarinet"]),
 )
 
 commands(
@@ -238,31 +240,43 @@ library.assign_brass_sforzando_parts(commands)
 commands(
     "hn1",
     library.margin_markup("Hn. (1+3)"),
+    baca.instrument(instruments["Horn"]),
 )
 
 commands(
     "hn2",
     library.margin_markup("Hn. (2+4)"),
+    baca.instrument(instruments["Horn"]),
 )
 
 commands(
     "tp1",
     library.margin_markup("Tp. (1+3)"),
+    baca.instrument(instruments["Trumpet"]),
 )
 
 commands(
     "tp2",
     library.margin_markup("Tp. (2+4)"),
+    baca.instrument(instruments["Trumpet"]),
 )
 
 commands(
     "tbn1",
     library.margin_markup("Trb. (1+3)"),
+    baca.instrument(instruments["Trombone"]),
 )
 
 commands(
     "tbn2",
     library.margin_markup("Trb. (2+4)"),
+    baca.instrument(instruments["Trombone"]),
+)
+
+commands(
+    "tub",
+    library.margin_markup("Tub."),
+    baca.instrument(instruments["Tuba"]),
 )
 
 # strings
@@ -392,6 +406,7 @@ commands(
 commands(
     "cb3",
     library.parts("Contrabass"),
+    baca.instrument(instruments["Contrabass"]),
 )
 
 if __name__ == "__main__":

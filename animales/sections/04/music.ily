@@ -430,12 +430,12 @@ number.4.Clarinet.MusicVoice.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Clarinet”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Clarinet”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cl. 3”]"
@@ -789,12 +789,12 @@ number.4.Horn.MusicVoice.1.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Horn”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Horn”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Hn. (1+3)”]"
@@ -1358,12 +1358,12 @@ number.4.Horn.MusicVoice.2.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Horn”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Horn”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Hn. (2+4)”]"
@@ -1927,12 +1927,12 @@ number.4.Trumpet.MusicVoice.1.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Trumpet”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Trumpet”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Tp. (1+3)”]"
@@ -2496,12 +2496,12 @@ number.4.Trumpet.MusicVoice.2.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Trumpet”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Trumpet”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Tp. (2+4)”]"
@@ -3065,12 +3065,12 @@ number.4.Trombone.MusicVoice.1.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Trombone”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Trombone”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Trb. (1+3)”]"
@@ -3634,12 +3634,12 @@ number.4.Trombone.MusicVoice.2.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Trombone”)"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Trombone”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Trb. (2+4)”]"
@@ -4169,9 +4169,11 @@ number.4.Tuba.MusicVoice.part.1 = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
       %! -PARTS
-      %! DEFAULT_MARGIN_MARKUP
-      %! baca._attach_default_indicators(2)
+      %! ANIMALES
+      %! REDUNDANT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.margin_markup()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
     % OPENING:
     % COMMANDS:
@@ -4182,9 +4184,9 @@ number.4.Tuba.MusicVoice.part.1 = {
       %! DEFAULT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
-      %! DEFAULT_MARGIN_MARKUP_COLOR
+      %! REDUNDANT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)
+    \once \override Staff.InstrumentName.color = #(x11-color 'DeepPink1)
       %! DEFAULT_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
@@ -4197,27 +4199,29 @@ number.4.Tuba.MusicVoice.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Tuba”)"
-      %! DEFAULT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "[“Tub.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Tuba”)"
+      %! REDUNDANT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-redundant-indicator-markup "[“Tub.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'violet)
-      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_REDUNDANT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \override Staff.InstrumentName.color = #(x11-color 'violet)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepPink4)
       %! -PARTS
-      %! REDRAWN_DEFAULT_MARGIN_MARKUP
-      %! baca._attach_default_indicators(2)
+      %! ANIMALES
+      %! REDRAWN_REDUNDANT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.margin_markup()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
     % ABSOLUTE_BEFORE:
@@ -8296,15 +8300,15 @@ number.4.Contrabass.MusicVoice.3.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Contrabass”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Cb.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Contrabass”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR

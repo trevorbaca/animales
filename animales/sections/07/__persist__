@@ -351,14 +351,6 @@
             baca.Memento(
                 context="Harp.MusicVoice",
                 edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Harp",
-            ),
-            baca.Memento(
-                context="Harp.MusicVoice",
-                edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
                 synthetic_offset=None,
@@ -372,6 +364,16 @@
                 synthetic_offset=None,
                 value="Hp.",
             ),
+        ],
+        "Harp_Piano_Staff": [
+            baca.Memento(
+                context="Harp.MusicVoice",
+                edition=None,
+                manifest="instruments",
+                prototype=None,
+                synthetic_offset=None,
+                value="Harp",
+            )
         ],
         "Horn.MusicVoice.1": [
             baca.Memento(
@@ -661,14 +663,6 @@
             baca.Memento(
                 context="Piano.MusicVoice",
                 edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Piano",
-            ),
-            baca.Memento(
-                context="Piano.MusicVoice",
-                edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
                 synthetic_offset=None,
@@ -682,6 +676,16 @@
                 synthetic_offset=None,
                 value="Pf.",
             ),
+        ],
+        "Piano_Piano_Staff": [
+            baca.Memento(
+                context="Piano.MusicVoice",
+                edition=None,
+                manifest="instruments",
+                prototype=None,
+                synthetic_offset=None,
+                value="Piano",
+            )
         ],
         "Score": [
             baca.Memento(

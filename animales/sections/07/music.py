@@ -46,6 +46,7 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
+instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     **baca.section_accumulation_defaults(),
@@ -207,6 +208,7 @@ commands(
 
 commands(
     "pf",
+    baca.instrument(instruments["Piano"]),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
@@ -219,6 +221,7 @@ commands(
 
 commands(
     "hp",
+    baca.instrument(instruments["Harp"]),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -353,6 +356,7 @@ commands(
 
 commands(
     "cb1",
+    baca.instrument(instruments["Contrabass"]),
     library.margin_markup("Cb. 1"),
     baca.dynamic("p"),
     library.parts("Contrabass", 1),

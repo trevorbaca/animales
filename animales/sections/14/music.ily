@@ -461,9 +461,9 @@ number.14.Flutes.MusicVoice.1.part.1 = {
     r2.
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Flutes”)"
+    ^ \baca-explicit-indicator-markup "(“Flutes”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Fl. (1+3)”]"
@@ -1480,9 +1480,9 @@ number.14.Flutes.MusicVoice.2.part.1 = {
     r4
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Flutes”)"
+    ^ \baca-explicit-indicator-markup "(“Flutes”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Fl. (2+4)”]"

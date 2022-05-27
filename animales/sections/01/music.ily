@@ -443,15 +443,15 @@ number.1.Percussion.MusicVoice.1.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Percussion”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Perc.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Percussion”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -627,15 +627,15 @@ number.1.Percussion.MusicVoice.2.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Percussion”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Perc.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Percussion”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -816,15 +816,15 @@ number.1.Percussion.MusicVoice.4.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Percussion”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Perc.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Percussion”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! DEFAULT_CLEF_REDRAW_COLOR
@@ -1012,9 +1012,9 @@ number.1.First_Violins.MusicVoice.1.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (1-10)”]"
@@ -1326,9 +1326,9 @@ number.1.First_Violins.MusicVoice.3.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (11-18)”]"
@@ -1695,9 +1695,9 @@ number.1.Second_Violin.MusicVoice.1.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (1-10)”]"
@@ -2058,9 +2058,9 @@ number.1.Second_Violin.MusicVoice.3.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (11-18)”]"
@@ -2455,9 +2455,9 @@ number.1.Viola.MusicVoice.1.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (1-10)”]"
@@ -2798,9 +2798,9 @@ number.1.Viola.MusicVoice.3.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (11-18)”]"
@@ -3116,12 +3116,12 @@ number.1.Cello.MusicVoice.1.part.1 = {
       %! baca.dynamic()
     \baca-f-but-accents-sffz
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Vc.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Cello”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f

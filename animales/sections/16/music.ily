@@ -849,12 +849,12 @@ number.16.Oboe.MusicVoice.part.1 = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Oboe”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Ob.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Oboe”)"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1335,12 +1335,12 @@ number.16.English_Horn.MusicVoice.part.1 = {
       %! baca.hairpin()
     \!
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“EnglishHorn”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Eng. hn.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“EnglishHorn”)"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1828,12 +1828,12 @@ number.16.Bassoon.MusicVoice.1.part.1 = {
       %! baca.hairpin()
 %%% \!
     % MARKUP:
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Bassoon”)"
       %! DEFAULT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-default-indicator-markup "[“Bsn.”]"
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Bassoon”)"
     % SPANNER_STARTS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5099,9 +5099,9 @@ number.16.First_Violins.MusicVoice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-appear-as-if-by-magic-markup
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I 18”]"

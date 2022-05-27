@@ -6250,9 +6250,6 @@ number.19.First_Violins.MusicVoice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (7-8)”]"
@@ -6787,9 +6784,6 @@ number.19.First_Violins.MusicVoice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (9-10)”]"
@@ -7324,9 +7318,6 @@ number.19.First_Violins.MusicVoice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (11-12)”]"
@@ -7861,9 +7852,6 @@ number.19.First_Violins.MusicVoice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (13-14)”]"
@@ -8398,9 +8386,6 @@ number.19.First_Violins.MusicVoice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (15-16)”]"
@@ -8940,9 +8925,6 @@ number.19.First_Violins.MusicVoice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. I (17-18)”]"
@@ -9200,6 +9182,9 @@ number.19.First_Violins.MusicVoice.18.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -10654,9 +10639,6 @@ number.19.Second_Violin.MusicVoice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (5-6)”]"
@@ -10909,6 +10891,9 @@ number.19.Second_Violin.MusicVoice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -11196,9 +11181,6 @@ number.19.Second_Violin.MusicVoice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (7-8)”]"
@@ -11733,9 +11715,6 @@ number.19.Second_Violin.MusicVoice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (9-10)”]"
@@ -12270,9 +12249,6 @@ number.19.Second_Violin.MusicVoice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (11-12)”]"
@@ -12525,6 +12501,9 @@ number.19.Second_Violin.MusicVoice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Violin”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -12855,9 +12834,6 @@ number.19.Second_Violin.MusicVoice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (13-14)”]"
@@ -13392,9 +13368,6 @@ number.19.Second_Violin.MusicVoice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (15-16)”]"
@@ -13934,9 +13907,6 @@ number.19.Second_Violin.MusicVoice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Violin”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vni. II (17-18)”]"
@@ -15604,9 +15574,6 @@ number.19.Viola.MusicVoice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (5-6)”]"
@@ -15859,6 +15826,9 @@ number.19.Viola.MusicVoice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -16169,9 +16139,6 @@ number.19.Viola.MusicVoice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (7-8)”]"
@@ -16706,9 +16673,6 @@ number.19.Viola.MusicVoice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (9-10)”]"
@@ -17243,9 +17207,6 @@ number.19.Viola.MusicVoice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (11-12)”]"
@@ -17498,6 +17459,9 @@ number.19.Viola.MusicVoice.12.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -17809,9 +17773,6 @@ number.19.Viola.MusicVoice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (13-14)”]"
@@ -18346,9 +18307,9 @@ number.19.Viola.MusicVoice.15.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (15-16)”]"
@@ -18903,9 +18864,6 @@ number.19.Viola.MusicVoice.17.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Viola”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vle. (17-18)”]"
@@ -19163,6 +19121,9 @@ number.19.Viola.MusicVoice.18.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Viola”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -20029,9 +19990,6 @@ number.19.Cello.MusicVoice.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (3-4)”]"
@@ -20566,9 +20524,9 @@ number.19.Cello.MusicVoice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
+    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (5-6)”]"
@@ -21108,9 +21066,6 @@ number.19.Cello.MusicVoice.7.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (7-8)”]"
@@ -21645,9 +21600,6 @@ number.19.Cello.MusicVoice.9.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (9-10)”]"
@@ -22182,9 +22134,9 @@ number.19.Cello.MusicVoice.11.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
+      %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
+    ^ \baca-explicit-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (11-12)”]"
@@ -22734,9 +22686,6 @@ number.19.Cello.MusicVoice.13.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Cello”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Vc. (13-14)”]"
@@ -24387,9 +24336,6 @@ number.19.Contrabass.MusicVoice.5.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
-      %! DEFAULT_INSTRUMENT_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "(“Contrabass”)"
       %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "[“Cb. (5-6)”]"
@@ -24647,6 +24593,9 @@ number.19.Contrabass.MusicVoice.6.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-col-legno-battuti-explanation
+      %! EXPLICIT_INSTRUMENT_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "(“Contrabass”)"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
