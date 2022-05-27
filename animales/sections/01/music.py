@@ -83,7 +83,9 @@ commands(
 
 commands(
     music_voice_names,
-    baca.attach_first_section_default_indicators(),
+    baca.attach_first_section_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # percussion

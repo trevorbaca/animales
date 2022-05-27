@@ -184,7 +184,9 @@ commands(
 
 commands(
     ["cl", "hn1", "hn2", "tp1", "tp2", "tbn1", "tbn2", "tub", "cb3"],
-    baca.attach_first_appearance_default_indicators(),
+    baca.attach_first_appearance_default_indicators(
+        attach_instruments_by_hand=True,
+    ),
 )
 
 # cl
