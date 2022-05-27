@@ -697,14 +697,6 @@
         "Cello.Staff.2": [
             baca.Memento(
                 context="Cello.MusicVoice.3",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Cello",
-            ),
-            baca.Memento(
-                context="Cello.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -781,14 +773,6 @@
         "Cello.Staff.4": [
             baca.Memento(
                 context="Cello.MusicVoice.7",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Cello",
-            ),
-            baca.Memento(
-                context="Cello.MusicVoice.7",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -847,14 +831,6 @@
             ),
             baca.Memento(
                 context="Cello.MusicVoice.9",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Cello",
-            ),
-            baca.Memento(
-                context="Cello.MusicVoice.9",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -905,14 +881,6 @@
             ),
         ],
         "Cello.Staff.7": [
-            baca.Memento(
-                context="Cello.MusicVoice.13",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Cello",
-            ),
             baca.Memento(
                 context="Cello.MusicVoice.13",
                 edition=Tag(string="-PARTS"),
@@ -1343,14 +1311,6 @@
         "First_Violins.Staff.4": [
             baca.Memento(
                 context="First_Violins.MusicVoice.7",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="First_Violins.MusicVoice.7",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -1409,14 +1369,6 @@
             ),
             baca.Memento(
                 context="First_Violins.MusicVoice.9",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="First_Violins.MusicVoice.9",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -1425,14 +1377,6 @@
             ),
         ],
         "First_Violins.Staff.6": [
-            baca.Memento(
-                context="First_Violins.MusicVoice.11",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
             baca.Memento(
                 context="First_Violins.MusicVoice.11",
                 edition=Tag(string="-PARTS"),
@@ -1469,14 +1413,6 @@
         "First_Violins.Staff.7": [
             baca.Memento(
                 context="First_Violins.MusicVoice.13",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="First_Violins.MusicVoice.13",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -1509,14 +1445,6 @@
             ),
         ],
         "First_Violins.Staff.8": [
-            baca.Memento(
-                context="First_Violins.MusicVoice.15",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
             baca.Memento(
                 context="First_Violins.MusicVoice.15",
                 edition=Tag(string="-PARTS"),
@@ -2257,14 +2185,6 @@
         "Second_Violin.Staff.4": [
             baca.Memento(
                 context="Second_Violin.MusicVoice.7",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="Second_Violin.MusicVoice.7",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -2323,14 +2243,6 @@
             ),
             baca.Memento(
                 context="Second_Violin.MusicVoice.9",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="Second_Violin.MusicVoice.9",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -2383,14 +2295,6 @@
         "Second_Violin.Staff.7": [
             baca.Memento(
                 context="Second_Violin.MusicVoice.13",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="Second_Violin.MusicVoice.13",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -2425,14 +2329,6 @@
         "Second_Violin.Staff.8": [
             baca.Memento(
                 context="Second_Violin.MusicVoice.15",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
-            baca.Memento(
-                context="Second_Violin.MusicVoice.15",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -2465,14 +2361,6 @@
             ),
         ],
         "Second_Violin.Staff.9": [
-            baca.Memento(
-                context="Second_Violin.MusicVoice.17",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Violin",
-            ),
             baca.Memento(
                 context="Second_Violin.MusicVoice.17",
                 edition=Tag(string="-PARTS"),
@@ -2895,14 +2783,6 @@
         "Viola.Staff.4": [
             baca.Memento(
                 context="Viola.MusicVoice.7",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Viola",
-            ),
-            baca.Memento(
-                context="Viola.MusicVoice.7",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -2961,14 +2841,6 @@
             ),
             baca.Memento(
                 context="Viola.MusicVoice.9",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Viola",
-            ),
-            baca.Memento(
-                context="Viola.MusicVoice.9",
                 edition=Tag(string="-PARTS"),
                 manifest="margin_markups",
                 prototype=None,
@@ -3019,14 +2891,6 @@
             ),
         ],
         "Viola.Staff.7": [
-            baca.Memento(
-                context="Viola.MusicVoice.13",
-                edition=None,
-                manifest="instruments",
-                prototype=None,
-                synthetic_offset=None,
-                value="Viola",
-            ),
             baca.Memento(
                 context="Viola.MusicVoice.13",
                 edition=Tag(string="-PARTS"),

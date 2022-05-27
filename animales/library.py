@@ -144,7 +144,6 @@ def _make_staves(
             for voice_number in voices:
                 voice = abjad.Voice(name=f"{name}.MusicVoice.{voice_number}", tag=tag)
                 staff.append(voice)
-        abjad.annotate(staff, "default_instrument", default_instrument)
         abjad.annotate(staff, "default_margin_markup", default_margin_markup)
         if default_clef is not None:
             abjad.annotate(staff, "default_clef", default_clef)
