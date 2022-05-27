@@ -8,11 +8,11 @@
         "Piano_Piano_Staff",
         "Piano.Staff.1",
         "Piano.Music_Voice",
-        "Piano.Rest_Voice",
+        "Piano.RestVoice",
         "Percussion_Staff_Group",
         "Percussion.Staff.4",
         "Percussion.Music_Voice.4",
-        "Percussion.Rest_Voice.4",
+        "Percussion.RestVoice.4",
     ],
     "container_to_part_assignment": {
         "number.30.Percussion.Music_Voice.4.part.1": (
