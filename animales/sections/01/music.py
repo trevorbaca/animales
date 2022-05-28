@@ -92,18 +92,21 @@ commands(
 
 commands(
     "perc1",
+    baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 1),
 )
 
 commands(
     "perc2",
+    baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 2),
 )
 
 commands(
     "perc4",
+    baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 4),
 )
@@ -118,35 +121,42 @@ voice_to_start_markup = {
         library.margin_markup("Vni. I (1-10)"),
         baca.start_markup(["Violins I", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
     ],
     "1vn3": [
         library.margin_markup("Vni. I (11-18)"),
         baca.start_markup(["Violins I", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
     ],
     "2vn1": [
         library.margin_markup("Vni. II (1-10)"),
         baca.start_markup(["Violins II", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
     ],
     "2vn3": [
         library.margin_markup("Vni. II (11-18)"),
         baca.start_markup(["Violins II", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
     ],
     "va1": [
         library.margin_markup("Vle. (1-10)"),
         baca.start_markup(["Violas", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Viola"]),
+        baca.clef("alto"),
     ],
     "va3": [
         library.margin_markup("Vle. (11-18)"),
         baca.start_markup(["Violas", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Viola"]),
+        baca.clef("alto"),
     ],
     "vc1": [
         baca.start_markup("Cellos", hcenter_in=16),
         baca.instrument(instruments["Cello"]),
+        baca.clef("tenor"),
     ],
 }
 

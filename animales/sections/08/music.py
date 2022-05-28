@@ -155,14 +155,16 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
+# cl
+
 commands(
     "bcl",
     baca.attach_first_appearance_default_indicators(
         attach_instruments_by_hand=True,
     ),
     baca.instrument(instruments["BassClarinet"]),
+    baca.clef("treble"),
 )
-# cl
 
 commands(
     ("cl", (1, 6)),

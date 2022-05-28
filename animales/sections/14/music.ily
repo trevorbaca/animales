@@ -424,6 +424,18 @@ number.14.Flutes.MusicVoice.1.part.1 = {
     % [Flutes.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! MEASURE_82
+      %! SHIFTED_CLEF
+      %! baca.OverrideCommand._call(1)
+      %! baca.clef_shift()
+      %! baca.clef_x_extent_false()
+%%% \once \override Staff.Clef.X-extent = ##f
+      %! MEASURE_82
+      %! SHIFTED_CLEF
+      %! baca.OverrideCommand._call(1)
+      %! baca.clef_extra_offset()
+      %! baca.clef_shift()
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
       %! -PARTS
@@ -435,22 +447,24 @@ number.14.Flutes.MusicVoice.1.part.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
     % OPENING:
     % COMMANDS:
-      %! DEFAULT_CLEF
-      %! baca._attach_default_indicators(3)
+      %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.clef()
     \clef "treble"
-      %! DEFAULT_CLEF_COLOR
+      %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! DEFAULT_CLEF_COLOR_CANCELLATION
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
-      %! DEFAULT_CLEF
-      %! baca._attach_default_indicators(3)
+      %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
@@ -469,9 +483,9 @@ number.14.Flutes.MusicVoice.1.part.1 = {
     ^ \baca-explicit-indicator-markup "[“Fl. (1+3)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
-      %! DEFAULT_CLEF_REDRAW_COLOR
+      %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'violet)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
@@ -1443,6 +1457,18 @@ number.14.Flutes.MusicVoice.2.part.1 = {
     % [Flutes.MusicVoice.2 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! MEASURE_82
+      %! SHIFTED_CLEF
+      %! baca.OverrideCommand._call(1)
+      %! baca.clef_shift()
+      %! baca.clef_x_extent_false()
+%%% \once \override Staff.Clef.X-extent = ##f
+      %! MEASURE_82
+      %! SHIFTED_CLEF
+      %! baca.OverrideCommand._call(1)
+      %! baca.clef_extra_offset()
+      %! baca.clef_shift()
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
       %! -PARTS
@@ -1454,22 +1480,24 @@ number.14.Flutes.MusicVoice.2.part.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
     % OPENING:
     % COMMANDS:
-      %! DEFAULT_CLEF
-      %! baca._attach_default_indicators(3)
+      %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.clef()
     \clef "treble"
-      %! DEFAULT_CLEF_COLOR
+      %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'DarkViolet)
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! DEFAULT_CLEF_COLOR_CANCELLATION
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
-      %! DEFAULT_CLEF
-      %! baca._attach_default_indicators(3)
+      %! EXPLICIT_CLEF
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
@@ -1488,9 +1516,9 @@ number.14.Flutes.MusicVoice.2.part.1 = {
     ^ \baca-explicit-indicator-markup "[“Fl. (2+4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
-      %! DEFAULT_CLEF_REDRAW_COLOR
+      %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'violet)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
       %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)

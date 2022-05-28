@@ -82,6 +82,7 @@ commands(
     ("cl", (1, 2)),
     baca.make_mmrests_flat(),
     baca.instrument(instruments["Clarinet"]),
+    baca.clef("treble"),
 )
 
 commands(
@@ -243,42 +244,50 @@ commands(
     "hn1",
     library.margin_markup("Hn. (1+3)"),
     baca.instrument(instruments["Horn"]),
+    baca.clef("bass"),
 )
 
 commands(
     "hn2",
     library.margin_markup("Hn. (2+4)"),
     baca.instrument(instruments["Horn"]),
+    baca.clef("bass"),
 )
 
 commands(
     "tp1",
     library.margin_markup("Tp. (1+3)"),
     baca.instrument(instruments["Trumpet"]),
+    baca.clef("treble"),
 )
 
 commands(
     "tp2",
     library.margin_markup("Tp. (2+4)"),
     baca.instrument(instruments["Trumpet"]),
+    baca.clef("treble"),
 )
+
 
 commands(
     "tbn1",
     library.margin_markup("Trb. (1+3)"),
     baca.instrument(instruments["Trombone"]),
+    baca.clef("tenor"),
 )
 
 commands(
     "tbn2",
     library.margin_markup("Trb. (2+4)"),
     baca.instrument(instruments["Trombone"]),
+    baca.clef("tenor"),
 )
 
 commands(
     "tub",
     library.margin_markup("Tub."),
     baca.instrument(instruments["Tuba"]),
+    baca.clef("bass"),
 )
 
 # strings
@@ -409,6 +418,7 @@ commands(
     "cb3",
     library.parts("Contrabass"),
     baca.instrument(instruments["Contrabass"]),
+    baca.clef("bass"),
 )
 
 if __name__ == "__main__":

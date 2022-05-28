@@ -240,6 +240,7 @@ commands(
 commands(
     "ob",
     baca.instrument(instruments["Oboe"]),
+    baca.clef("treble"),
     library.parts("Oboe"),
 )
 
@@ -258,6 +259,7 @@ commands(
 commands(
     ("eh", (1, 5)),
     baca.instrument(instruments["EnglishHorn"]),
+    baca.clef("treble"),
     baca.pitch("G3"),
 )
 
@@ -276,6 +278,7 @@ commands(
 commands(
     "bsn1",
     baca.instrument(instruments["Bassoon"]),
+    baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
     library.parts("Bassoon", 1),
 )
@@ -351,6 +354,7 @@ def _lower_voice_suite(n=5):
 commands(
     "1vn5",
     baca.instrument(instruments["Violin"]),
+    baca.clef("treble"),
     library.margin_markup("Vni. I 18"),
     baca.pitch("C#4"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),

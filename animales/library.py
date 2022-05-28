@@ -112,7 +112,6 @@ def _make_staves(
     staff_specifiers,
     default_instrument,
     default_margin_markup,
-    default_clef=None,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     assert default_margin_markup is not None
@@ -145,8 +144,6 @@ def _make_staves(
                 voice = abjad.Voice(name=f"{name}.MusicVoice.{voice_number}", tag=tag)
                 staff.append(voice)
         abjad.annotate(staff, "default_margin_markup", default_margin_markup)
-        if default_clef is not None:
-            abjad.annotate(staff, "default_clef", default_clef)
         staves.append(staff)
     return staves
 
@@ -679,126 +676,126 @@ def make_empty_score(
         flutes,
         _instruments["Flutes"],
         _margin_markups["Fl."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     oboe_staves = _make_staves(
         "Oboe",
         oboes,
         _instruments["Oboe"],
         _margin_markups["Ob."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     english_horn_staves = _make_staves(
         "English_Horn",
         english_horn,
         _instruments["EnglishHorn"],
         _margin_markups["Eng. hn."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     clarinet_staves = _make_staves(
         "Clarinet",
         clarinets,
         _instruments["Clarinet"],
         _margin_markups["Cl."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     bass_clarinet_staves = _make_staves(
         "Bass_Clarinet",
         bass_clarinet,
         _instruments["BassClarinet"],
         _margin_markups["B. cl."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     bassoon_staves = _make_staves(
         "Bassoon",
         bassoons,
         _instruments["Bassoon"],
         _margin_markups["Bsn."],
-        abjad.Clef("bass"),
+        # abjad.Clef("bass"),
     )
     horn_staves = _make_staves(
         "Horn",
         horns,
         _instruments["Horn"],
         _margin_markups["Hn."],
-        abjad.Clef("bass"),
+        # abjad.Clef("bass"),
     )
     trumpet_staves = _make_staves(
         "Trumpet",
         trumpets,
         _instruments["Trumpet"],
         _margin_markups["Tp."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     trombone_staves = _make_staves(
         "Trombone",
         trombones,
         _instruments["Trombone"],
         _margin_markups["Trb."],
-        abjad.Clef("tenor"),
+        # abjad.Clef("tenor"),
     )
     tuba_staves = _make_staves(
         "Tuba",
         tuba,
         _instruments["Tuba"],
         _margin_markups["Tub."],
-        abjad.Clef("bass"),
+        # abjad.Clef("bass"),
     )
     harp_staves = _make_staves(
         "Harp",
         harp,
         _instruments["Harp"],
         _margin_markups["Hp."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     piano_staves = _make_staves(
         "Piano",
         piano,
         _instruments["Piano"],
         _margin_markups["Pf."],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     percussion_staves = _make_staves(
         "Percussion",
         percussion,
         _instruments["Percussion"],
         _margin_markups["Perc."],
-        abjad.Clef("percussion"),
+        # abjad.Clef("percussion"),
     )
     first_violin_staves = _make_staves(
         "First_Violins",
         first_violins,
         _instruments["Violin"],
         _margin_markups["Vni. I"],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     second_violin_staves = _make_staves(
         "Second_Violin",
         second_violins,
         _instruments["Violin"],
         _margin_markups["Vni. II"],
-        abjad.Clef("treble"),
+        # abjad.Clef("treble"),
     )
     viola_staves = _make_staves(
         "Viola",
         violas,
         _instruments["Viola"],
         _margin_markups["Vle."],
-        abjad.Clef("alto"),
+        # abjad.Clef("alto"),
     )
     cello_staves = _make_staves(
         "Cello",
         cellos,
         _instruments["Cello"],
         _margin_markups["Vc."],
-        abjad.Clef("bass"),
+        # abjad.Clef("bass"),
     )
     contrabass_staves = _make_staves(
         "Contrabass",
         contrabasses,
         _instruments["Contrabass"],
         _margin_markups["Cb."],
-        abjad.Clef("bass"),
+        # abjad.Clef("bass"),
     )
     music_context = baca.score.make_music_context(
         baca.score.make_staff_group(

@@ -211,6 +211,7 @@ commands(
 commands(
     "pf",
     baca.instrument(instruments["Piano"]),
+    baca.clef("treble"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
@@ -224,6 +225,7 @@ commands(
 commands(
     "hp",
     baca.instrument(instruments["Harp"]),
+    baca.clef("treble"),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -359,6 +361,7 @@ commands(
 commands(
     "cb1",
     baca.instrument(instruments["Contrabass"]),
+    baca.clef("bass"),
     library.margin_markup("Cb. 1"),
     baca.dynamic("p"),
     library.parts("Contrabass", 1),
