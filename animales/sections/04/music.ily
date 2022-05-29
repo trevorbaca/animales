@@ -4280,7 +4280,7 @@ number.4.Tuba.MusicVoice.part.1 = {
     \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
       %! -PARTS
       %! ANIMALES
-      %! REDUNDANT_MARGIN_MARKUP
+      %! EXPLICIT_MARGIN_MARKUP
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.margin_markup()
@@ -4295,9 +4295,9 @@ number.4.Tuba.MusicVoice.part.1 = {
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! REDUNDANT_MARGIN_MARKUP_COLOR
+      %! EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.InstrumentName.color = #(x11-color 'DeepPink1)
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
@@ -4317,20 +4317,20 @@ number.4.Tuba.MusicVoice.part.1 = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“Tuba”)"
-      %! REDUNDANT_MARGIN_MARKUP_ALERT
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-redundant-indicator-markup "[“Tub.”]"
+    ^ \baca-explicit-indicator-markup "[“Tub.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-      %! REDRAWN_REDUNDANT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \override Staff.InstrumentName.color = #(x11-color 'DeepPink4)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! ANIMALES
-      %! REDRAWN_REDUNDANT_MARGIN_MARKUP
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
       %! baca.margin_markup()
@@ -8396,9 +8396,11 @@ number.4.Contrabass.MusicVoice.3.part.1 = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
       %! -PARTS
-      %! DEFAULT_MARGIN_MARKUP
-      %! baca._attach_default_indicators(2)
+      %! ANIMALES
+      %! EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.margin_markup()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     % OPENING:
     % COMMANDS:
@@ -8410,9 +8412,9 @@ number.4.Contrabass.MusicVoice.3.part.1 = {
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! DEFAULT_MARGIN_MARKUP_COLOR
+      %! EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \once \override Staff.InstrumentName.color = #(x11-color 'DarkViolet)
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
       %! baca._attach_color_literal(1)
     %@% \override Staff.Clef.color = ##f
@@ -8426,27 +8428,29 @@ number.4.Contrabass.MusicVoice.3.part.1 = {
     R1 * 1
     % AFTER:
     % MARKUP:
-      %! DEFAULT_MARGIN_MARKUP_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-default-indicator-markup "[“Cb.”]"
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"1"
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-indicator-markup "(“Contrabass”)"
+      %! EXPLICIT_MARGIN_MARKUP_ALERT
+      %! baca._attach_latent_indicator_alert()
+    ^ \baca-explicit-indicator-markup "[“Cb.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
-      %! REDRAWN_DEFAULT_MARGIN_MARKUP_COLOR
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
-    \override Staff.InstrumentName.color = #(x11-color 'violet)
+    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! REDRAWN_DEFAULT_MARGIN_MARKUP
-      %! baca._attach_default_indicators(2)
+      %! ANIMALES
+      %! REDRAWN_EXPLICIT_MARGIN_MARKUP
+      %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.margin_markup()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     % ABSOLUTE_BEFORE:

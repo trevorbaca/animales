@@ -183,13 +183,6 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ["cl", "hn1", "hn2", "tp1", "tp2", "tbn1", "tbn2", "tub", "cb3"],
-    baca.attach_first_appearance_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
-)
-
 # cl
 
 commands(
@@ -418,6 +411,7 @@ commands(
     "cb3",
     library.parts("Contrabass"),
     baca.instrument(instruments["Contrabass"]),
+    library.margin_markup("Cb."),
     baca.clef("bass"),
 )
 

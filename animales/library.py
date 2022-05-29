@@ -110,10 +110,10 @@ def _make_square_staff_group(stem, *contexts):
 def _make_staves(
     name,
     staff_specifiers,
-    default_margin_markup,
+    # default_margin_markup,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    assert default_margin_markup is not None
+    # assert default_margin_markup is not None
     staves = []
     if not bool(staff_specifiers):
         return staves
@@ -142,7 +142,7 @@ def _make_staves(
             for voice_number in voices:
                 voice = abjad.Voice(name=f"{name}.MusicVoice.{voice_number}", tag=tag)
                 staff.append(voice)
-        abjad.annotate(staff, "default_margin_markup", default_margin_markup)
+        # abjad.annotate(staff, "default_margin_markup", default_margin_markup)
         staves.append(staff)
     return staves
 
@@ -442,11 +442,6 @@ def make_battuti_material(
                     (voice, fermata_measure),
                     baca.make_mmrests(),
                 )
-            if first:
-                commands(
-                    voice,
-                    baca.attach_first_appearance_default_indicators(),
-                )
     for section, members in section_to_members.items():
         if omit_contrabasses and section == "Contrabass":
             continue
@@ -667,97 +662,78 @@ def make_empty_score(
     contrabasses=0,
 ):
     tag = baca.tags.function_name(inspect.currentframe())
-    _margin_markups = margin_markups()
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
         "Flutes",
         flutes,
-        _margin_markups["Fl."],
     )
     oboe_staves = _make_staves(
         "Oboe",
         oboes,
-        _margin_markups["Ob."],
     )
     english_horn_staves = _make_staves(
         "English_Horn",
         english_horn,
-        _margin_markups["Eng. hn."],
     )
     clarinet_staves = _make_staves(
         "Clarinet",
         clarinets,
-        _margin_markups["Cl."],
     )
     bass_clarinet_staves = _make_staves(
         "Bass_Clarinet",
         bass_clarinet,
-        _margin_markups["B. cl."],
     )
     bassoon_staves = _make_staves(
         "Bassoon",
         bassoons,
-        _margin_markups["Bsn."],
     )
     horn_staves = _make_staves(
         "Horn",
         horns,
-        _margin_markups["Hn."],
     )
     trumpet_staves = _make_staves(
         "Trumpet",
         trumpets,
-        _margin_markups["Tp."],
     )
     trombone_staves = _make_staves(
         "Trombone",
         trombones,
-        _margin_markups["Trb."],
     )
     tuba_staves = _make_staves(
         "Tuba",
         tuba,
-        _margin_markups["Tub."],
     )
     harp_staves = _make_staves(
         "Harp",
         harp,
-        _margin_markups["Hp."],
     )
     piano_staves = _make_staves(
         "Piano",
         piano,
-        _margin_markups["Pf."],
     )
     percussion_staves = _make_staves(
         "Percussion",
         percussion,
-        _margin_markups["Perc."],
     )
     first_violin_staves = _make_staves(
         "First_Violins",
         first_violins,
-        _margin_markups["Vni. I"],
     )
     second_violin_staves = _make_staves(
         "Second_Violin",
         second_violins,
-        _margin_markups["Vni. II"],
     )
     viola_staves = _make_staves(
         "Viola",
         violas,
-        _margin_markups["Vle."],
     )
     cello_staves = _make_staves(
         "Cello",
         cellos,
-        _margin_markups["Vc."],
     )
     contrabass_staves = _make_staves(
         "Contrabass",
         contrabasses,
-        _margin_markups["Cb."],
     )
     music_context = baca.score.make_music_context(
         baca.score.make_staff_group(

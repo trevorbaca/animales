@@ -158,15 +158,6 @@ commands(
 # cl
 
 commands(
-    "bcl",
-    baca.attach_first_appearance_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
-    baca.instrument(instruments["BassClarinet"]),
-    baca.clef("treble"),
-)
-
-commands(
     ("cl", (1, 6)),
     library.margin_markup("Cl. 1"),
     library.parts("Clarinet", 1),
@@ -178,14 +169,17 @@ commands(
 # bcl
 
 commands(
-    ("bcl", (5, 6)),
-    baca.hairpin("o<", right_broken=True),
-    baca.pitch("A2"),
+    "bcl",
+    baca.instrument(instruments["BassClarinet"]),
+    library.margin_markup("B. cl."),
+    baca.clef("treble"),
+    library.parts("Bass_Clarinet"),
 )
 
 commands(
-    "bcl",
-    library.parts("Bass_Clarinet"),
+    ("bcl", (5, 6)),
+    baca.hairpin("o<", right_broken=True),
+    baca.pitch("A2"),
 )
 
 # pf

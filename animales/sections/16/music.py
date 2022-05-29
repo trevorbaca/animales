@@ -228,18 +228,12 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-commands(
-    ["ob", "eh", "bsn1", "1vn5"],
-    baca.attach_first_appearance_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
-)
-
 # ob
 
 commands(
     "ob",
     baca.instrument(instruments["Oboe"]),
+    library.margin_markup("Ob."),
     baca.clef("treble"),
     library.parts("Oboe"),
 )
@@ -259,6 +253,7 @@ commands(
 commands(
     ("eh", (1, 5)),
     baca.instrument(instruments["EnglishHorn"]),
+    library.margin_markup("Eng. hn."),
     baca.clef("treble"),
     baca.pitch("G3"),
 )
@@ -278,6 +273,7 @@ commands(
 commands(
     "bsn1",
     baca.instrument(instruments["Bassoon"]),
+    library.margin_markup("Bsn."),
     baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
     library.parts("Bassoon", 1),
