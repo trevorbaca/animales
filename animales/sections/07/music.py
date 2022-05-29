@@ -171,9 +171,6 @@ commands(
 
 commands(
     ["pf", "hp", "cb1"],
-    baca.attach_first_appearance_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
 )
 
 # cl
@@ -211,6 +208,7 @@ commands(
 commands(
     "pf",
     baca.instrument(instruments["Piano"]),
+    library.margin_markup("Pf."),
     baca.clef("treble"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -225,6 +223,7 @@ commands(
 commands(
     "hp",
     baca.instrument(instruments["Harp"]),
+    library.margin_markup("Hp."),
     baca.clef("treble"),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -361,6 +360,7 @@ commands(
 commands(
     "cb1",
     baca.instrument(instruments["Contrabass"]),
+    library.margin_markup("Cb. 1"),
     baca.clef("bass"),
     library.margin_markup("Cb. 1"),
     baca.dynamic("p"),

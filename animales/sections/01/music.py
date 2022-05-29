@@ -52,19 +52,16 @@ commands(
 commands(
     "perc1",
     baca.make_mmrests_flat(),
-    baca.instrument(instruments["Percussion"]),
 )
 
 commands(
     "perc2",
     baca.make_mmrests_flat(),
-    baca.instrument(instruments["Percussion"]),
 )
 
 commands(
     "perc4",
     baca.make_mmrests_flat(),
-    baca.instrument(instruments["Percussion"]),
 )
 
 # STRINGS
@@ -81,17 +78,13 @@ commands(
     baca.append_anchor_note(),
 )
 
-commands(
-    music_voice_names,
-    baca.attach_first_section_default_indicators(
-        attach_instruments_by_hand=True,
-    ),
-)
-
 # percussion
 
 commands(
     "perc1",
+    baca.instrument(instruments["Percussion"]),
+    baca.start_markup("Percussion I"),
+    library.margin_markup("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 1),
@@ -99,6 +92,9 @@ commands(
 
 commands(
     "perc2",
+    baca.instrument(instruments["Percussion"]),
+    baca.start_markup("Percussion II"),
+    library.margin_markup("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 2),
@@ -106,6 +102,9 @@ commands(
 
 commands(
     "perc4",
+    baca.instrument(instruments["Percussion"]),
+    baca.start_markup("Percussion IV"),
+    library.margin_markup("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
     library.parts("Percussion", 4),
@@ -154,6 +153,7 @@ voice_to_start_markup = {
         baca.clef("alto"),
     ],
     "vc1": [
+        library.margin_markup("Vc."),
         baca.start_markup("Cellos", hcenter_in=16),
         baca.instrument(instruments["Cello"]),
         baca.clef("tenor"),
