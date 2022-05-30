@@ -93,13 +93,19 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-# phantom
+# anchor notes
+
+commands(
+    ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1", "cb3"],
+    baca.append_anchor_note(),
+)
+
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 

@@ -68,7 +68,7 @@ commands(
 
 library.make_trill_rhythm(commands)
 
-# phantom & reapply
+# anchor notes
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 nonpercussion_voices = [_ for _ in music_voice_names if "Percussion" not in _]

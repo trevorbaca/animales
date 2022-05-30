@@ -88,15 +88,6 @@ commands(
 
 library.make_battuti_material(commands, [[1, 1, -5], [1, 1, -5], [1, -8]])
 
-# phantom
-
-music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
-
-commands(
-    music_voice_names,
-    baca.append_phantom_measure(),
-)
-
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(
         score,

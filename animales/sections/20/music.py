@@ -89,15 +89,6 @@ commands(
 
 library.make_battuti_material(commands, [[1, -55], [1, -17], [1, -17]])
 
-# phantom
-
-music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
-
-commands(
-    music_voice_names,
-    baca.append_phantom_measure(),
-)
-
 commands(
     ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
     baca.instrument(instruments["Violin"]),

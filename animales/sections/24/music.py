@@ -129,15 +129,6 @@ commands(
 
 library.make_battuti_material(commands, [[1, -55], [1, -17], [1, -17]])
 
-# phantom & reapply
-
-music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
-
-commands(
-    music_voice_names,
-    baca.append_phantom_measure(),
-)
-
 # brass
 
 library.assign_brass_sforzando_parts(commands)
