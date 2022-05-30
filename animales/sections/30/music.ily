@@ -833,127 +833,6 @@ number.30.Piano.MusicVoice = {
     % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.30.Piano.MusicVoice.part.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Piano.MusicVoice"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Piano.MusicVoice measure 11]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-              %! HIDDEN
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Piano.RestVoice"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Piano.RestVoice measure 11]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
     % CLOSING:
     % COMMANDS:
 
@@ -1486,10 +1365,24 @@ number.30.Percussion.MusicVoice.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
+      %! baca.OverrideCommand._call(1)
+      %! baca.rehearsal_mark_down()
+    \once \override Score.RehearsalMark.direction = #down
+      %! baca.OverrideCommand._call(1)
+      %! baca.rehearsal_mark_padding()
+    \once \override Score.RehearsalMark.padding = 6
+      %! baca.OverrideCommand._call(1)
+      %! baca.rehearsal_mark_self_alignment_x()
+    \once \override Score.RehearsalMark.self-alignment-X = #right
       %! +PARTS
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
+    % OPENING:
+    % COMMANDS:
+      %! baca.IndicatorCommand._call()
+      %! baca.mark()
+    \mark \animales-colophon-markup
       %! baca._make_mmrests_flat()
     R1 * 1/4
     % AFTER:
@@ -1517,149 +1410,6 @@ number.30.Percussion.MusicVoice.4 = {
     % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.30.Percussion.MusicVoice.4.part.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-    % OPEN_BRACKETS:
-      %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        \context Voice = "Percussion.MusicVoice.4"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Percussion.MusicVoice.4 measure 11]
-            % BEFORE:
-            % COMMANDS:
-              %! INVISIBLE_MUSIC_COMMAND
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(3)
-              %! baca._style_phantom_measures(5)
-            %@% \abjad-invisible-music
-              %! INVISIBLE_MUSIC_COLORING
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(2)
-              %! baca._style_phantom_measures(5)
-            \abjad-invisible-music-coloring
-              %! PHANTOM
-              %! baca.OverrideCommand._call(1)
-              %! baca._style_phantom_measures(5)
-              %! baca.rehearsal_mark_down()
-            \once \override Score.RehearsalMark.direction = #down
-              %! PHANTOM
-              %! baca.OverrideCommand._call(1)
-              %! baca._style_phantom_measures(5)
-              %! baca.rehearsal_mark_padding()
-            \once \override Score.RehearsalMark.padding = 6
-              %! PHANTOM
-              %! baca.OverrideCommand._call(1)
-              %! baca._style_phantom_measures(5)
-              %! baca.rehearsal_mark_self_alignment_x()
-            \once \override Score.RehearsalMark.self-alignment-X = #right
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca.IndicatorCommand._call()
-              %! baca._style_phantom_measures(5)
-              %! baca.mark()
-            \mark \animales-colophon-markup
-              %! HIDDEN
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._make_multimeasure_rest_container(1)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! HIDDEN
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(4)
-        }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
-
-        % OPEN_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        \context Voice = "Percussion.RestVoice.4"
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
-
-              %! PHANTOM
-              %! baca._comment_measure_numbers()
-              %! baca._style_phantom_measures(5)
-            % [Percussion.RestVoice.4 measure 11]
-            % OPENING:
-            % COMMANDS:
-              %! PHANTOM
-              %! baca._style_phantom_measures(7)
-            \once \override MultiMeasureRest.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(6)
-            \once \override Score.TimeSignature.X-extent = ##f
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \stopStaff
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \once \override Staff.StaffSymbol.transparent = ##t
-              %! PHANTOM
-              %! baca._style_phantom_measures(8)
-            \startStaff
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._make_multimeasure_rest_container(5)
-            R1 * 1/4
-            % AFTER:
-            % MARKUP:
-              %! DURATION_MULTIPLIER
-              %! MULTIMEASURE_REST
-              %! PHANTOM
-              %! REST_VOICE
-              %! baca._label_duration_multipliers()
-              %! baca._style_phantom_measures(5)
-            %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
-
-        % CLOSE_BRACKETS:
-          %! PHANTOM
-          %! baca._make_multimeasure_rest_container(6)
-        }
-        % CLOSING:
-        % COMMANDS:
-
-    % CLOSE_BRACKETS:
-      %! PHANTOM
-      %! baca._make_multimeasure_rest_container(7)
-    >>
     % CLOSING:
     % COMMANDS:
 

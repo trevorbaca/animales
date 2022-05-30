@@ -204,13 +204,21 @@ commands(
     library.make_harp_exchange_rhythm(1),
 )
 
-# phantom & reapply
+# anchor notes
+
+strings = []
+
+commands(
+    ["1vn1", "2vn1", "va1", "vc1"],
+    baca.append_anchor_note(),
+)
+
+# reapply
 
 music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
 
 commands(
     music_voice_names,
-    baca.append_phantom_measure(),
     baca.reapply_persistent_indicators(),
 )
 
