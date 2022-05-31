@@ -88,16 +88,6 @@ number.7.GlobalRests = {
     % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.7.GlobalRests.part.2 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! PHANTOM
-      %! baca._comment_measure_numbers()
-      %! baca._style_phantom_measures(4)
-    % [GlobalRests measure 9]
-      %! PHANTOM
-      %! baca._make_global_rests(2)
-    R1 * 1/4
     % CLOSING:
     % COMMANDS:
 
