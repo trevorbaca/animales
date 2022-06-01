@@ -9,6 +9,7 @@
         "OboeStaffI": "Ob.",
     },
     "first_measure_number": 109,
+    "has_anchor_skip": True,
     "start_clock_time": "3'45''",
     "stop_clock_time": "4'03''",
     "time_signatures": [
