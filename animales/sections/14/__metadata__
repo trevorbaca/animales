@@ -7,6 +7,7 @@
         "Flute_Staff_II": "Fl. (2+4)",
     },
     "first_measure_number": 82,
+    "has_anchor_skip": True,
     "start_clock_time": "2'56''",
     "stop_clock_time": "3'07''",
     "time_signatures": ["3/4", "4/4", "2/4", "4/4", "4/4", "4/4"],

@@ -4,6 +4,7 @@
     "final_measure_number": 151,
     "first_appearance_margin_markup": {"PercussionStaffIV": "Perc. 4 (tam.)"},
     "first_measure_number": 149,
+    "has_anchor_skip": True,
     "start_clock_time": "5'28''",
     "stop_clock_time": "5'36''",
     "time_signatures": ["4/4", "2/4", "4/4"],
