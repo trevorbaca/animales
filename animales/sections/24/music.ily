@@ -183,59 +183,49 @@ number.24.GlobalSkips = {
     % COMMANDS:
 
       %! ANCHOR_SKIP
-      %! PHANTOM
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
     % [GlobalSkips measure 4]
     % OPENING:
     % COMMANDS:
       %! ANCHOR_SKIP
-      %! PHANTOM
       %! baca._style_anchor_skip(2)
     \baca-time-signature-transparent
       %! ANCHOR_SKIP
       %! EXPLICIT_TIME_SIGNATURE
-      %! PHANTOM
       %! baca._set_status_tag()
       %! baca._style_anchor_skip(1)
     \time 1/4
       %! ANCHOR_SKIP
-      %! PHANTOM
       %! baca._make_global_skips(3)
     s1 * 1/4
     % AFTER:
     % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
-      %! PHANTOM
       %! baca._label_clock_time()
       %! baca._style_anchor_skip(1)
     %@% \bacaStopTextSpanCT
       %! ANCHOR_SKIP
       %! LOCAL_MEASURE_NUMBER
-      %! PHANTOM
       %! baca._label_measure_numbers()
       %! baca._style_anchor_skip(1)
     \bacaStopTextSpanLMN
       %! ANCHOR_SKIP
       %! EOS_STOP_MM_SPANNER
-      %! PHANTOM
       %! baca._attach_metronome_marks(4)
       %! baca._style_anchor_skip(1)
     \bacaStopTextSpanMM
       %! ANCHOR_SKIP
       %! MEASURE_NUMBER
-      %! PHANTOM
       %! baca._label_measure_numbers()
       %! baca._style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
     % COMMANDS:
       %! ANCHOR_SKIP
-      %! PHANTOM
       %! baca._style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
-      %! PHANTOM
       %! baca._style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
     % CLOSING:
@@ -1918,6 +1908,12 @@ number.24.First_Violins.MusicVoice.1.part.1 = {
     % [First_Violins.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
       %! -PARTS
@@ -1925,11 +1921,41 @@ number.24.First_Violins.MusicVoice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -1957,6 +1983,9 @@ number.24.First_Violins.MusicVoice.1.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (1-2)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2017,46 +2046,8 @@ number.24.First_Violins.MusicVoice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -2075,11 +2066,6 @@ number.24.First_Violins.MusicVoice.2.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2194,11 +2180,41 @@ number.24.First_Violins.MusicVoice.3.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -2226,6 +2242,9 @@ number.24.First_Violins.MusicVoice.3.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (3-4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2344,40 +2363,8 @@ number.24.First_Violins.MusicVoice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -2396,11 +2383,6 @@ number.24.First_Violins.MusicVoice.4.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2485,11 +2467,41 @@ number.24.First_Violins.MusicVoice.5.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -2517,6 +2529,9 @@ number.24.First_Violins.MusicVoice.5.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (5-6)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2592,51 +2607,14 @@ number.24.First_Violins.MusicVoice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.6 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2736,11 +2714,41 @@ number.24.First_Violins.MusicVoice.7.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -2754,6 +2762,9 @@ number.24.First_Violins.MusicVoice.7.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (7-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -2809,40 +2820,8 @@ number.24.First_Violins.MusicVoice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.8 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -2854,11 +2833,6 @@ number.24.First_Violins.MusicVoice.8.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3014,11 +2988,41 @@ number.24.First_Violins.MusicVoice.9.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -3035,6 +3039,9 @@ number.24.First_Violins.MusicVoice.9.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (9-10)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3120,51 +3127,14 @@ number.24.First_Violins.MusicVoice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.10 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3264,11 +3234,41 @@ number.24.First_Violins.MusicVoice.11.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -3282,6 +3282,9 @@ number.24.First_Violins.MusicVoice.11.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (11-12)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3337,40 +3340,8 @@ number.24.First_Violins.MusicVoice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.12 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -3382,11 +3353,6 @@ number.24.First_Violins.MusicVoice.12.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3548,11 +3514,41 @@ number.24.First_Violins.MusicVoice.13.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -3569,6 +3565,9 @@ number.24.First_Violins.MusicVoice.13.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (13-14)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3653,51 +3652,14 @@ number.24.First_Violins.MusicVoice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.14 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3817,11 +3779,41 @@ number.24.First_Violins.MusicVoice.15.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -3838,6 +3830,9 @@ number.24.First_Violins.MusicVoice.15.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (15-16)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -3903,51 +3898,14 @@ number.24.First_Violins.MusicVoice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.16 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4096,6 +4054,12 @@ number.24.First_Violins.MusicVoice.17.part.1 = {
     % [First_Violins.MusicVoice.17 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
       %! -PARTS
@@ -4103,11 +4067,41 @@ number.24.First_Violins.MusicVoice.17.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -4121,6 +4115,9 @@ number.24.First_Violins.MusicVoice.17.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. I (17-18)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4176,46 +4173,8 @@ number.24.First_Violins.MusicVoice.18.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.MusicVoice.18 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -4227,11 +4186,6 @@ number.24.First_Violins.MusicVoice.18.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4309,6 +4263,12 @@ number.24.Second_Violin.MusicVoice.1.part.1 = {
     % [Second_Violin.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
       %! -PARTS
@@ -4316,11 +4276,41 @@ number.24.Second_Violin.MusicVoice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -4348,6 +4338,9 @@ number.24.Second_Violin.MusicVoice.1.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (1-2)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4433,46 +4426,8 @@ number.24.Second_Violin.MusicVoice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -4491,11 +4446,6 @@ number.24.Second_Violin.MusicVoice.2.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4625,11 +4575,41 @@ number.24.Second_Violin.MusicVoice.3.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -4657,6 +4637,9 @@ number.24.Second_Violin.MusicVoice.3.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (3-4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4712,40 +4695,8 @@ number.24.Second_Violin.MusicVoice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -4764,11 +4715,6 @@ number.24.Second_Violin.MusicVoice.4.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4877,11 +4823,41 @@ number.24.Second_Violin.MusicVoice.5.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -4895,6 +4871,9 @@ number.24.Second_Violin.MusicVoice.5.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (5-6)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -4970,40 +4949,8 @@ number.24.Second_Violin.MusicVoice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.6 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -5015,11 +4962,6 @@ number.24.Second_Violin.MusicVoice.6.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5109,11 +5051,41 @@ number.24.Second_Violin.MusicVoice.7.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -5130,6 +5102,9 @@ number.24.Second_Violin.MusicVoice.7.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (7-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5238,51 +5213,14 @@ number.24.Second_Violin.MusicVoice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.8 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5430,11 +5368,41 @@ number.24.Second_Violin.MusicVoice.9.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -5451,6 +5419,9 @@ number.24.Second_Violin.MusicVoice.9.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (9-10)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5521,51 +5492,14 @@ number.24.Second_Violin.MusicVoice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.10 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5670,11 +5604,41 @@ number.24.Second_Violin.MusicVoice.11.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -5688,6 +5652,9 @@ number.24.Second_Violin.MusicVoice.11.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (11-12)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -5758,40 +5725,8 @@ number.24.Second_Violin.MusicVoice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.12 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -5803,11 +5738,6 @@ number.24.Second_Violin.MusicVoice.12.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5892,11 +5822,41 @@ number.24.Second_Violin.MusicVoice.13.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -5913,6 +5873,9 @@ number.24.Second_Violin.MusicVoice.13.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (13-14)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6039,51 +6002,14 @@ number.24.Second_Violin.MusicVoice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.14 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6198,11 +6124,41 @@ number.24.Second_Violin.MusicVoice.15.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -6219,6 +6175,9 @@ number.24.Second_Violin.MusicVoice.15.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (15-16)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6289,51 +6248,14 @@ number.24.Second_Violin.MusicVoice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.16 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6411,6 +6333,12 @@ number.24.Second_Violin.MusicVoice.17.part.1 = {
     % [Second_Violin.MusicVoice.17 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
       %! -PARTS
@@ -6418,11 +6346,41 @@ number.24.Second_Violin.MusicVoice.17.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -6439,6 +6397,9 @@ number.24.Second_Violin.MusicVoice.17.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vni. II (17-18)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6571,57 +6532,14 @@ number.24.Second_Violin.MusicVoice.18.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.MusicVoice.18 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6704,6 +6622,12 @@ number.24.Viola.MusicVoice.1.part.1 = {
     % [Viola.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
       %! -PARTS
@@ -6711,11 +6635,41 @@ number.24.Viola.MusicVoice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -6743,6 +6697,9 @@ number.24.Viola.MusicVoice.1.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (1-2)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -6833,46 +6790,8 @@ number.24.Viola.MusicVoice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -6891,11 +6810,6 @@ number.24.Viola.MusicVoice.2.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6990,11 +6904,41 @@ number.24.Viola.MusicVoice.3.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -7022,6 +6966,9 @@ number.24.Viola.MusicVoice.3.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (3-4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7148,40 +7095,8 @@ number.24.Viola.MusicVoice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -7200,11 +7115,6 @@ number.24.Viola.MusicVoice.4.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7289,11 +7199,41 @@ number.24.Viola.MusicVoice.5.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -7307,6 +7247,9 @@ number.24.Viola.MusicVoice.5.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (5-6)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7362,40 +7305,8 @@ number.24.Viola.MusicVoice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.6 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -7407,11 +7318,6 @@ number.24.Viola.MusicVoice.6.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7526,11 +7432,41 @@ number.24.Viola.MusicVoice.7.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -7547,6 +7483,9 @@ number.24.Viola.MusicVoice.7.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (7-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7668,51 +7607,14 @@ number.24.Viola.MusicVoice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.8 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7797,11 +7699,41 @@ number.24.Viola.MusicVoice.9.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -7818,6 +7750,9 @@ number.24.Viola.MusicVoice.9.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (9-10)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -7893,51 +7828,14 @@ number.24.Viola.MusicVoice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.10 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8042,11 +7940,41 @@ number.24.Viola.MusicVoice.11.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -8060,6 +7988,9 @@ number.24.Viola.MusicVoice.11.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (11-12)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8120,40 +8051,8 @@ number.24.Viola.MusicVoice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.12 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -8165,11 +8064,6 @@ number.24.Viola.MusicVoice.12.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8307,11 +8201,41 @@ number.24.Viola.MusicVoice.13.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -8328,6 +8252,9 @@ number.24.Viola.MusicVoice.13.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (13-14)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8446,51 +8373,14 @@ number.24.Viola.MusicVoice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.14 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8590,11 +8480,41 @@ number.24.Viola.MusicVoice.15.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -8611,6 +8531,9 @@ number.24.Viola.MusicVoice.15.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (15-16)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8686,51 +8609,14 @@ number.24.Viola.MusicVoice.16.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.16 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8837,6 +8723,12 @@ number.24.Viola.MusicVoice.17.part.1 = {
     % [Viola.MusicVoice.17 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
       %! -PARTS
@@ -8844,11 +8736,41 @@ number.24.Viola.MusicVoice.17.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -8862,6 +8784,9 @@ number.24.Viola.MusicVoice.17.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vle. (17-18)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -8917,46 +8842,8 @@ number.24.Viola.MusicVoice.18.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.MusicVoice.18 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -8968,11 +8855,6 @@ number.24.Viola.MusicVoice.18.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9075,6 +8957,12 @@ number.24.Cello.MusicVoice.1.part.1 = {
     % [Cello.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
       %! -PARTS
@@ -9082,11 +8970,41 @@ number.24.Cello.MusicVoice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -9114,6 +9032,9 @@ number.24.Cello.MusicVoice.1.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (1-2)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9199,46 +9120,8 @@ number.24.Cello.MusicVoice.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(-2 . 0)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -9257,11 +9140,6 @@ number.24.Cello.MusicVoice.2.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9361,11 +9239,41 @@ number.24.Cello.MusicVoice.3.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -9379,6 +9287,9 @@ number.24.Cello.MusicVoice.3.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (3-4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9434,40 +9345,8 @@ number.24.Cello.MusicVoice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -9479,11 +9358,6 @@ number.24.Cello.MusicVoice.4.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9645,11 +9519,41 @@ number.24.Cello.MusicVoice.5.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -9666,6 +9570,9 @@ number.24.Cello.MusicVoice.5.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (5-6)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -9726,51 +9633,14 @@ number.24.Cello.MusicVoice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.6 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9890,11 +9760,41 @@ number.24.Cello.MusicVoice.7.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -9911,6 +9811,9 @@ number.24.Cello.MusicVoice.7.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (7-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10000,51 +9903,14 @@ number.24.Cello.MusicVoice.8.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.8 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10200,11 +10066,41 @@ number.24.Cello.MusicVoice.9.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -10221,6 +10117,9 @@ number.24.Cello.MusicVoice.9.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (9-10)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10296,51 +10195,14 @@ number.24.Cello.MusicVoice.10.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.10 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10425,11 +10287,41 @@ number.24.Cello.MusicVoice.11.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -10446,6 +10338,9 @@ number.24.Cello.MusicVoice.11.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (11-12)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10531,51 +10426,14 @@ number.24.Cello.MusicVoice.12.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.12 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10719,6 +10577,12 @@ number.24.Cello.MusicVoice.13.part.1 = {
     % [Cello.MusicVoice.13 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
       %! -PARTS
@@ -10726,11 +10590,41 @@ number.24.Cello.MusicVoice.13.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -10744,6 +10638,9 @@ number.24.Cello.MusicVoice.13.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Vc. (13-14)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -10799,46 +10696,8 @@ number.24.Cello.MusicVoice.14.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.MusicVoice.14 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -10850,11 +10709,6 @@ number.24.Cello.MusicVoice.14.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10952,6 +10806,12 @@ number.24.Contrabass.MusicVoice.1.part.1 = {
     % [Contrabass.MusicVoice.1 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
       %! -PARTS
@@ -10959,11 +10819,41 @@ number.24.Contrabass.MusicVoice.1.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -10991,6 +10881,9 @@ number.24.Contrabass.MusicVoice.1.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Cb. (1-2)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11074,57 +10967,14 @@ number.24.Contrabass.MusicVoice.2.part.1 = {
 
           %! baca._comment_measure_numbers()
         % [Contrabass.MusicVoice.2 measure 1]
-        % BEFORE:
-        % COMMANDS:
-          %! -PARTS
-          %! EXPLICIT_BAR_EXTENT
-          %! REAPPLIED_BAR_EXTENT
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-        \override Staff.BarLine.bar-extent = #'(-2 . 0)
-          %! REAPPLIED_STAFF_LINES
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-        \stopStaff
-          %! REAPPLIED_STAFF_LINES
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-        \once \override Staff.StaffSymbol.line-count = 1
-          %! REAPPLIED_STAFF_LINES
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-        \startStaff
         % OPENING:
         % COMMANDS:
-          %! REAPPLIED_CLEF
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-        \clef "percussion"
-          %! REAPPLIED_CLEF_COLOR
-          %! baca._attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'green4)
-          %! REAPPLIED_STAFF_LINES_COLOR
-          %! baca._attach_color_literal(2)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-          %! REAPPLIED_CLEF_COLOR_CANCELLATION
-          %! baca._attach_color_literal(1)
-        %@% \override Staff.Clef.color = ##f
-          %! REAPPLIED_CLEF
-          %! baca._reapply_persistent_indicators(3)
-          %! baca._set_status_tag()
-          %! baca.treat_persistent_wrapper(2)
-        \set Staff.forceClef = ##t
           %! -PARTS
           %! baca.IndicatorCommand._call()
           %! baca.voice_two()
         \voiceTwo
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
-          %! REAPPLIED_CLEF_REDRAW_COLOR
-          %! baca._attach_color_literal(2)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
@@ -11225,11 +11075,41 @@ number.24.Contrabass.MusicVoice.3.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -11257,6 +11137,9 @@ number.24.Contrabass.MusicVoice.3.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Cb. (3-4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11365,51 +11248,14 @@ number.24.Contrabass.MusicVoice.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.MusicVoice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -11507,6 +11353,12 @@ number.24.Contrabass.MusicVoice.5.part.1 = {
     % [Contrabass.MusicVoice.5 measure 1]
     % BEFORE:
     % COMMANDS:
+      %! -PARTS
+      %! EXPLICIT_BAR_EXTENT
+      %! REAPPLIED_BAR_EXTENT
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
       %! -PARTS
@@ -11514,11 +11366,41 @@ number.24.Contrabass.MusicVoice.5.part.1 = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \startStaff
     % OPENING:
     % COMMANDS:
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+    \clef "percussion"
+      %! REAPPLIED_CLEF_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+      %! baca._attach_color_literal(2)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+      %! baca._attach_color_literal(1)
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+      %! baca._reapply_persistent_indicators(3)
+      %! baca._set_status_tag()
+      %! baca.treat_persistent_wrapper(2)
+    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_one()
@@ -11532,6 +11414,9 @@ number.24.Contrabass.MusicVoice.5.part.1 = {
     ^ \baca-reapplied-indicator-markup "[“Cb. (5-6)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
+      %! REAPPLIED_CLEF_REDRAW_COLOR
+      %! baca._attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
@@ -11602,46 +11487,8 @@ number.24.Contrabass.MusicVoice.6.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.MusicVoice.6 measure 1]
-    % BEFORE:
-    % COMMANDS:
-      %! -PARTS
-      %! EXPLICIT_BAR_EXTENT
-      %! REAPPLIED_BAR_EXTENT
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \override Staff.BarLine.bar-extent = #'(0 . 2)
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \startStaff
     % OPENING:
     % COMMANDS:
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-    \clef "percussion"
-      %! REAPPLIED_CLEF_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-      %! baca._attach_color_literal(2)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-      %! baca._attach_color_literal(1)
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-      %! baca._reapply_persistent_indicators(3)
-      %! baca._set_status_tag()
-      %! baca.treat_persistent_wrapper(2)
-    \set Staff.forceClef = ##t
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.voice_two()
@@ -11653,11 +11500,6 @@ number.24.Contrabass.MusicVoice.6.part.1 = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
-      %! REAPPLIED_CLEF_REDRAW_COLOR
-      %! baca._attach_color_literal(2)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
