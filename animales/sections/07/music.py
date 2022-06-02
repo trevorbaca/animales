@@ -50,7 +50,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 8],
     voice_abbreviations=library.voice_abbreviations(),
@@ -175,7 +175,7 @@ commands(
 
 commands(
     ("cl", (1, 4)),
-    library.margin_markup("Cl. 1"),
+    library.short_instrument_name("Cl. 1"),
     baca.pitch("D5"),
     baca.edition("solo (cl. 1)", "solo"),
     baca.hairpin("mp < mf"),
@@ -194,7 +194,7 @@ commands(
 
 commands(
     ("cl", (5, 8)),
-    library.margin_markup("Cl. 2"),
+    library.short_instrument_name("Cl. 2"),
     baca.pitch("Db5"),
     baca.edition("solo (cl. 2)", "solo"),
     baca.hairpin("mp < mf"),
@@ -206,7 +206,7 @@ commands(
 commands(
     "pf",
     baca.instrument(instruments["Piano"]),
-    library.margin_markup("Pf."),
+    library.short_instrument_name("Pf."),
     baca.clef("treble"),
     baca.dynamic("mf"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -221,7 +221,7 @@ commands(
 commands(
     "hp",
     baca.instrument(instruments["Harp"]),
-    library.margin_markup("Hp."),
+    library.short_instrument_name("Hp."),
     baca.clef("treble"),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -258,7 +258,7 @@ commands(
 
 commands(
     "perc3",
-    library.margin_markup("Perc. 3 (vib.)"),
+    library.short_instrument_name("Perc. 3 (vib.)"),
     library.instrument("Vibraphone"),
     baca.clef("treble"),
     baca.pitch("D5"),
@@ -301,7 +301,7 @@ commands(
 
 commands(
     "cb3",
-    library.margin_markup(
+    library.short_instrument_name(
         "Cb. (2-6)",
         alert=baca.markup(r"\animales-cb-two-to-six-markup"),
     ),
@@ -358,9 +358,9 @@ commands(
 commands(
     "cb1",
     baca.instrument(instruments["Contrabass"]),
-    library.margin_markup("Cb. 1"),
+    library.short_instrument_name("Cb. 1"),
     baca.clef("bass"),
-    library.margin_markup("Cb. 1"),
+    library.short_instrument_name("Cb. 1"),
     baca.dynamic("p"),
     library.parts("Contrabass", 1),
 )

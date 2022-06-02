@@ -25,7 +25,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
@@ -114,7 +114,7 @@ commands(
 
 commands(
     ("perc4", (1, 8)),
-    library.margin_markup("Perc. 4 (slate)"),
+    library.short_instrument_name("Perc. 4 (slate)"),
     baca.staff_position(0),
     baca.markup(r"\animales-stonecircle-markup"),
     baca.only_parts(baca.text_script_x_offset(3)),

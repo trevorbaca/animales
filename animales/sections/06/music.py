@@ -43,7 +43,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 6],
     voice_abbreviations=library.voice_abbreviations(),
@@ -142,7 +142,7 @@ commands(
 
 commands(
     "cl",
-    library.margin_markup("Cl. 3"),
+    library.short_instrument_name("Cl. 3"),
     baca.pitch("C#5"),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
@@ -170,20 +170,20 @@ commands(
 
 commands(
     "1vn1",
-    library.margin_markup("Vni. I"),
+    library.short_instrument_name("Vni. I"),
     baca.not_parts(baca.one_voice()),
     library.parts("First_Violins"),
 )
 
 commands(
     "2vn1",
-    library.margin_markup("Vni. II"),
+    library.short_instrument_name("Vni. II"),
     library.parts("Second_Violin"),
 )
 
 commands(
     "va1",
-    library.margin_markup("Vle."),
+    library.short_instrument_name("Vle."),
     library.parts("Viola"),
 )
 

@@ -51,7 +51,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 6],
     voice_abbreviations=library.voice_abbreviations(),
@@ -157,7 +157,7 @@ commands(
 
 commands(
     ("cl", (1, 6)),
-    library.margin_markup("Cl. 1"),
+    library.short_instrument_name("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp <", right_broken=True),
     baca.edition("solo (cl. 1)", "solo"),
@@ -169,7 +169,7 @@ commands(
 commands(
     "bcl",
     baca.instrument(instruments["BassClarinet"]),
-    library.margin_markup("B. cl."),
+    library.short_instrument_name("B. cl."),
     baca.clef("treble"),
     library.parts("Bass_Clarinet"),
 )

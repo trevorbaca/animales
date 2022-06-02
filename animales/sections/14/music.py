@@ -56,7 +56,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 6],
     voice_abbreviations=library.voice_abbreviations(),
@@ -225,7 +225,7 @@ commands(
     ("fl1", (1, 3)),
     baca.instrument(instruments["Flutes"]),
     baca.clef("treble"),
-    library.margin_markup("Fl. (1+3)"),
+    library.short_instrument_name("Fl. (1+3)"),
     library.pennant_pitches("G5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.slur(),
@@ -256,7 +256,7 @@ commands(
     ("fl2", (1, 3)),
     baca.instrument(instruments["Flutes"]),
     baca.clef("treble"),
-    library.margin_markup("Fl. (2+4)"),
+    library.short_instrument_name("Fl. (2+4)"),
     library.pennant_pitches("Eb5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.slur(),

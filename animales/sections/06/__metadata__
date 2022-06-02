@@ -2,7 +2,6 @@
     "bol_measure_numbers": [30],
     "duration": "0'13''",
     "final_measure_number": 35,
-    "first_appearance_margin_markup": {"ContrabassStaffIII": "Cb."},
     "first_measure_number": 30,
     "first_metronome_mark": False,
     "has_anchor_skip": True,

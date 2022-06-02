@@ -3,12 +3,6 @@
     "duration": "0'31''",
     "fermata_measure_numbers": [121, 126],
     "final_measure_number": 130,
-    "first_appearance_margin_markup": {
-        "BassoonStaffI": "Bsn.",
-        "EnglishHornStaffI": "Eng. hn.",
-        "FirstViolinStaffIII": "Vni. I 18",
-        "OboeStaffI": "Ob.",
-    },
     "first_measure_number": 119,
     "has_anchor_skip": True,
     "start_clock_time": "4'03''",

@@ -47,7 +47,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 14],
     voice_abbreviations=library.voice_abbreviations(),
@@ -231,7 +231,7 @@ commands(
 commands(
     "ob",
     baca.instrument(instruments["Oboe"]),
-    library.margin_markup("Ob."),
+    library.short_instrument_name("Ob."),
     baca.clef("treble"),
     library.parts("Oboe"),
 )
@@ -251,7 +251,7 @@ commands(
 commands(
     ("eh", (1, 5)),
     baca.instrument(instruments["EnglishHorn"]),
-    library.margin_markup("Eng. hn."),
+    library.short_instrument_name("Eng. hn."),
     baca.clef("treble"),
     baca.pitch("G3"),
 )
@@ -271,7 +271,7 @@ commands(
 commands(
     "bsn1",
     baca.instrument(instruments["Bassoon"]),
-    library.margin_markup("Bsn."),
+    library.short_instrument_name("Bsn."),
     baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
     library.parts("Bassoon", 1),
@@ -349,7 +349,7 @@ commands(
     "1vn5",
     baca.instrument(instruments["Violin"]),
     baca.clef("treble"),
-    library.margin_markup("Vni. I 18"),
+    library.short_instrument_name("Vni. I 18"),
     baca.pitch("C#4"),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
@@ -366,7 +366,7 @@ for voice_name, members in voice_to_members.items():
 
 commands(
     ("1vn1", (1, 10)),
-    library.margin_markup("Vni. I (1-4) (5-8)"),
+    library.short_instrument_name("Vni. I (1-4) (5-8)"),
     baca.pitch("A5"),
     baca.not_parts(
         baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
@@ -387,7 +387,7 @@ commands(
 
 commands(
     ("1vn3", (1, 10)),
-    library.margin_markup("Vni. I (9-12) (13-17)"),
+    library.short_instrument_name("Vni. I (9-12) (13-17)"),
     baca.pitch("G5"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
@@ -405,7 +405,7 @@ commands(
 
 commands(
     ("2vn1", (1, 10)),
-    library.margin_markup("Vni. II (1-4) (5-8)"),
+    library.short_instrument_name("Vni. II (1-4) (5-8)"),
     baca.pitch("B4"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -423,7 +423,7 @@ commands(
 
 commands(
     ("2vn3", (1, 10)),
-    library.margin_markup("Vni. II (9-12) (13-18)"),
+    library.short_instrument_name("Vni. II (9-12) (13-18)"),
     baca.pitch("A4"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -441,7 +441,7 @@ commands(
 
 commands(
     ("va1", (1, 10)),
-    library.margin_markup("Vle. (1-4) (5-8)"),
+    library.short_instrument_name("Vle. (1-4) (5-8)"),
     baca.pitch("D4"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
@@ -459,7 +459,7 @@ commands(
 
 commands(
     ("va3", (1, 10)),
-    library.margin_markup("Vle. (9-12) (13-18)"),
+    library.short_instrument_name("Vle. (9-12) (13-18)"),
     baca.pitch("B3"),
     baca.not_parts(
         baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
@@ -477,7 +477,7 @@ commands(
 
 commands(
     ("vc1", (1, 10)),
-    library.margin_markup("Vc. (1-8) (9-14)"),
+    library.short_instrument_name("Vc. (1-8) (9-14)"),
     baca.pitch("D3"),
     baca.not_parts(
         baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
@@ -495,7 +495,7 @@ commands(
 
 commands(
     ("cb3", (1, 10)),
-    library.margin_markup("Cb."),
+    library.short_instrument_name("Cb."),
     baca.pitch("G1"),
     baca.not_parts(
         baca.markup(r"\animales-cb-tutti-markup"),

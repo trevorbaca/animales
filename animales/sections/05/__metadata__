@@ -2,10 +2,6 @@
     "bol_measure_numbers": [24],
     "duration": "0'11''",
     "final_measure_number": 29,
-    "first_appearance_margin_markup": {
-        "Clarinet_Staff_I": "Cl. 2",
-        "Contrabass_Staff_II": "Cb.",
-    },
     "first_measure_number": 24,
     "has_anchor_skip": True,
     "start_clock_time": "0'44''",
