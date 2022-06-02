@@ -59,7 +59,7 @@ instruments = library.instruments()
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 6],
     voice_abbreviations=library.voice_abbreviations(),
@@ -192,7 +192,7 @@ commands(
 
 commands(
     "cl",
-    library.margin_markup("Cl. 3"),
+    library.short_instrument_name("Cl. 3"),
     library.parts("Clarinet", 3),
 )
 
@@ -217,13 +217,13 @@ commands(
 
 commands(
     "perc1",
-    library.margin_markup("Perc. 1 (tri.)"),
+    library.short_instrument_name("Perc. 1 (tri.)"),
     library.parts("Percussion", 1),
 )
 
 commands(
     "perc2",
-    library.margin_markup("Perc. 2 (cym.)"),
+    library.short_instrument_name("Perc. 2 (cym.)"),
     library.parts("Percussion", 2),
 )
 
@@ -233,28 +233,28 @@ library.assign_brass_sforzando_parts(commands)
 
 commands(
     "hn1",
-    library.margin_markup("Hn. (1+3)"),
+    library.short_instrument_name("Hn. (1+3)"),
     baca.instrument(instruments["Horn"]),
     baca.clef("bass"),
 )
 
 commands(
     "hn2",
-    library.margin_markup("Hn. (2+4)"),
+    library.short_instrument_name("Hn. (2+4)"),
     baca.instrument(instruments["Horn"]),
     baca.clef("bass"),
 )
 
 commands(
     "tp1",
-    library.margin_markup("Tp. (1+3)"),
+    library.short_instrument_name("Tp. (1+3)"),
     baca.instrument(instruments["Trumpet"]),
     baca.clef("treble"),
 )
 
 commands(
     "tp2",
-    library.margin_markup("Tp. (2+4)"),
+    library.short_instrument_name("Tp. (2+4)"),
     baca.instrument(instruments["Trumpet"]),
     baca.clef("treble"),
 )
@@ -262,21 +262,21 @@ commands(
 
 commands(
     "tbn1",
-    library.margin_markup("Trb. (1+3)"),
+    library.short_instrument_name("Trb. (1+3)"),
     baca.instrument(instruments["Trombone"]),
     baca.clef("tenor"),
 )
 
 commands(
     "tbn2",
-    library.margin_markup("Trb. (2+4)"),
+    library.short_instrument_name("Trb. (2+4)"),
     baca.instrument(instruments["Trombone"]),
     baca.clef("tenor"),
 )
 
 commands(
     "tub",
-    library.margin_markup("Tub."),
+    library.short_instrument_name("Tub."),
     baca.instrument(instruments["Tuba"]),
     baca.clef("bass"),
 )
@@ -409,7 +409,7 @@ commands(
     "cb3",
     library.parts("Contrabass"),
     baca.instrument(instruments["Contrabass"]),
-    library.margin_markup("Cb."),
+    library.short_instrument_name("Cb."),
     baca.clef("bass"),
 )
 

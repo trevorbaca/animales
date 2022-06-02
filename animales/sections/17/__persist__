@@ -227,7 +227,7 @@
             baca.Memento(
                 context="Bass_Clarinet.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="B. cl.",
@@ -273,7 +273,7 @@
             baca.Memento(
                 context="Bassoon.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Bsn.",
@@ -319,7 +319,7 @@
             baca.Memento(
                 context="Cello.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vc. (1-8) (9-14)",
@@ -355,7 +355,7 @@
             baca.Memento(
                 context="Clarinet.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Cl. 1",
@@ -401,7 +401,7 @@
             baca.Memento(
                 context="Contrabass.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Cb. 1",
@@ -427,7 +427,7 @@
             baca.Memento(
                 context="Contrabass.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Cb.",
@@ -463,7 +463,7 @@
             baca.Memento(
                 context="English_Horn.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Eng. hn.",
@@ -539,7 +539,7 @@
             baca.Memento(
                 context="First_Violins.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. I (1-4) (5-8)",
@@ -565,7 +565,7 @@
             baca.Memento(
                 context="First_Violins.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. I (9-12) (13-17)",
@@ -591,7 +591,7 @@
             baca.Memento(
                 context="First_Violins.MusicVoice.5",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. I 18",
@@ -657,7 +657,7 @@
             baca.Memento(
                 context="Flutes.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Fl. (1+3)",
@@ -683,7 +683,7 @@
             baca.Memento(
                 context="Flutes.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Fl. (2+4)",
@@ -711,7 +711,7 @@
             baca.Memento(
                 context="Harp.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Hp.",
@@ -787,7 +787,7 @@
             baca.Memento(
                 context="Horn.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Hn. (1+3)",
@@ -813,7 +813,7 @@
             baca.Memento(
                 context="Horn.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Hn. (2+4)",
@@ -849,7 +849,7 @@
             baca.Memento(
                 context="Oboe.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Ob.",
@@ -913,7 +913,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc. 1 (tri.)",
@@ -955,7 +955,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc. 2 (cym.)",
@@ -989,7 +989,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc. 3 (vib.)",
@@ -1023,7 +1023,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.4",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc.",
@@ -1059,7 +1059,7 @@
             baca.Memento(
                 context="Piano.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Pf.",
@@ -1153,7 +1153,7 @@
             baca.Memento(
                 context="Second_Violin.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. II (1-4) (5-8)",
@@ -1179,7 +1179,7 @@
             baca.Memento(
                 context="Second_Violin.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. II (9-12) (13-18)",
@@ -1245,7 +1245,7 @@
             baca.Memento(
                 context="Trombone.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Trb. (1+3)",
@@ -1271,7 +1271,7 @@
             baca.Memento(
                 context="Trombone.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Trb. (2+4)",
@@ -1337,7 +1337,7 @@
             baca.Memento(
                 context="Trumpet.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Tp. (1+3)",
@@ -1363,7 +1363,7 @@
             baca.Memento(
                 context="Trumpet.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Tp. (2+4)",
@@ -1399,7 +1399,7 @@
             baca.Memento(
                 context="Tuba.MusicVoice",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Tub.",
@@ -1465,7 +1465,7 @@
             baca.Memento(
                 context="Viola.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vle. (1-4) (5-8)",
@@ -1491,7 +1491,7 @@
             baca.Memento(
                 context="Viola.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vle. (9-12) (13-18)",

@@ -2,12 +2,6 @@
     "bol_measure_numbers": [95],
     "duration": "0'24''",
     "final_measure_number": 108,
-    "first_appearance_margin_markup": {
-        "Bassoon_Staff_I": "Bsn.",
-        "English_Horn_Staff_I": "Eng. hn.",
-        "First_Violin_Staff_III": "Vni. I 18",
-        "Oboe_Staff_I": "Ob.",
-    },
     "first_measure_number": 95,
     "has_anchor_skip": True,
     "start_clock_time": "3'21''",

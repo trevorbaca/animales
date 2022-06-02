@@ -85,7 +85,7 @@
             baca.Memento(
                 context="Cello.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vc.",
@@ -131,7 +131,7 @@
             baca.Memento(
                 context="First_Violins.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. I (1-10)",
@@ -157,7 +157,7 @@
             baca.Memento(
                 context="First_Violins.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. I (11-18)",
@@ -191,7 +191,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc.",
@@ -233,7 +233,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.2",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc.",
@@ -275,7 +275,7 @@
             baca.Memento(
                 context="Percussion.MusicVoice.4",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Perc.",
@@ -347,7 +347,7 @@
             baca.Memento(
                 context="Second_Violin.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. II (1-10)",
@@ -373,7 +373,7 @@
             baca.Memento(
                 context="Second_Violin.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vni. II (11-18)",
@@ -419,7 +419,7 @@
             baca.Memento(
                 context="Viola.MusicVoice.1",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vle. (1-10)",
@@ -445,7 +445,7 @@
             baca.Memento(
                 context="Viola.MusicVoice.3",
                 edition=Tag(string="-PARTS"),
-                manifest="margin_markups",
+                manifest="short_instrument_names",
                 prototype=None,
                 synthetic_offset=None,
                 value="Vle. (11-18)",

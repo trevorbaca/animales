@@ -2,10 +2,6 @@
     "bol_measure_numbers": [82],
     "duration": "0'11''",
     "final_measure_number": 87,
-    "first_appearance_margin_markup": {
-        "Flute_Staff_I": "Fl. (1+3)",
-        "Flute_Staff_II": "Fl. (2+4)",
-    },
     "first_measure_number": 82,
     "has_anchor_skip": True,
     "start_clock_time": "2'56''",

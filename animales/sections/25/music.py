@@ -86,7 +86,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=time_signatures,
     voice_abbreviations=library.voice_abbreviations(),
@@ -176,7 +176,7 @@ commands(
 
 commands(
     "perc3",
-    library.margin_markup("Perc. 3 (BD)"),
+    library.short_instrument_name("Perc. 3 (BD)"),
     baca.clef("percussion"),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -191,7 +191,7 @@ commands(
 
 commands(
     "perc4",
-    library.margin_markup("Perc. 4 (tam.)"),
+    library.short_instrument_name("Perc. 4 (tam.)"),
     baca.staff_lines(1),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),

@@ -59,7 +59,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
     instruments=library.instruments(),
-    margin_markups=library.margin_markups(),
+    short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
     time_signatures=library.time_signatures()[start : start + 8],
     voice_abbreviations=library.voice_abbreviations(),
@@ -248,7 +248,7 @@ commands(
 commands(
     ("cl", (1, 4)),
     baca.pitch("C5"),
-    library.margin_markup("Cl. 1"),
+    library.short_instrument_name("Cl. 1"),
     library.parts("Clarinet", 1),
     baca.hairpin("mp < mf"),
 )
@@ -266,7 +266,7 @@ commands(
 commands(
     ("cl", (5, 8)),
     baca.pitch("Cb5"),
-    library.margin_markup("Cl. 2"),
+    library.short_instrument_name("Cl. 2"),
     library.parts("Clarinet", 2),
     baca.hairpin("mp < mf"),
 )
