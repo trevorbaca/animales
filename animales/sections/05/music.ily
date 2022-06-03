@@ -388,12 +388,12 @@ number.5.GlobalSkips = {
 
 
   %! baca.path.extern()
-number.5.Clarinet.MusicVoice.part.1 = {
+number.5.Clarinet.Music.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 1]
+    % [Clarinet.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -497,7 +497,7 @@ number.5.Clarinet.MusicVoice.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 2]
+    % [Clarinet.Music measure 2]
       %! baca.make_repeat_tied_notes()
     ds''1
     % AFTER:
@@ -512,7 +512,7 @@ number.5.Clarinet.MusicVoice.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 3]
+    % [Clarinet.Music measure 3]
       %! baca.make_repeat_tied_notes()
     ds''1
     % AFTER:
@@ -527,7 +527,7 @@ number.5.Clarinet.MusicVoice.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 4]
+    % [Clarinet.Music measure 4]
       %! baca.make_repeat_tied_notes()
     ds''1
     % AFTER:
@@ -542,7 +542,7 @@ number.5.Clarinet.MusicVoice.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 5]
+    % [Clarinet.Music measure 5]
       %! baca.make_repeat_tied_notes()
     ds''2.
     % AFTER:
@@ -557,7 +557,7 @@ number.5.Clarinet.MusicVoice.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.MusicVoice measure 6]
+    % [Clarinet.Music measure 6]
       %! baca.make_repeat_tied_notes()
     ds''2.
     % AFTER:
@@ -588,13 +588,13 @@ number.5.Clarinet.MusicVoice.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Clarinet.MusicVoice = {
+number.5.Clarinet.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Clarinet.MusicVoice.part.1 }
+    { \number.5.Clarinet.Music.part.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -611,10 +611,10 @@ number.5.Clarinet.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Clarinet.MusicVoice"
+    \context Voice = "Clarinet.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Clarinet.MusicVoice }
+    { \number.5.Clarinet.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -625,12 +625,12 @@ number.5.Clarinet.Staff.1 = {
 
 
   %! baca.path.extern()
-number.5.Percussion.MusicVoice.1.part.1 = {
+number.5.Percussion.Music.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 1]
+    % [Percussion.Music.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -732,7 +732,7 @@ number.5.Percussion.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 2]
+    % [Percussion.Music.1 measure 2]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -753,7 +753,7 @@ number.5.Percussion.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 3]
+    % [Percussion.Music.1 measure 3]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -774,7 +774,7 @@ number.5.Percussion.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 4]
+    % [Percussion.Music.1 measure 4]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -795,7 +795,7 @@ number.5.Percussion.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 5]
+    % [Percussion.Music.1 measure 5]
       %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
@@ -814,7 +814,7 @@ number.5.Percussion.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.1 measure 6]
+    % [Percussion.Music.1 measure 6]
       %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
@@ -834,13 +834,13 @@ number.5.Percussion.MusicVoice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Percussion.MusicVoice.1 = {
+number.5.Percussion.Music.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Percussion.MusicVoice.1.part.1 }
+    { \number.5.Percussion.Music.1.part.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -857,10 +857,10 @@ number.5.Percussion.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.MusicVoice.1"
+    \context Voice = "Percussion.Music.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Percussion.MusicVoice.1 }
+    { \number.5.Percussion.Music.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -871,12 +871,12 @@ number.5.Percussion.Staff.1 = {
 
 
   %! baca.path.extern()
-number.5.Percussion.MusicVoice.2.part.1 = {
+number.5.Percussion.Music.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 1]
+    % [Percussion.Music.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -978,7 +978,7 @@ number.5.Percussion.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 2]
+    % [Percussion.Music.2 measure 2]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -999,7 +999,7 @@ number.5.Percussion.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 3]
+    % [Percussion.Music.2 measure 3]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1020,7 +1020,7 @@ number.5.Percussion.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 4]
+    % [Percussion.Music.2 measure 4]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1041,7 +1041,7 @@ number.5.Percussion.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 5]
+    % [Percussion.Music.2 measure 5]
       %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
@@ -1060,7 +1060,7 @@ number.5.Percussion.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.MusicVoice.2 measure 6]
+    % [Percussion.Music.2 measure 6]
       %! baca.make_repeat_tied_notes()
     c'2.
     % AFTER:
@@ -1080,13 +1080,13 @@ number.5.Percussion.MusicVoice.2.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Percussion.MusicVoice.2 = {
+number.5.Percussion.Music.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Percussion.MusicVoice.2.part.1 }
+    { \number.5.Percussion.Music.2.part.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -1103,10 +1103,10 @@ number.5.Percussion.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.MusicVoice.2"
+    \context Voice = "Percussion.Music.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Percussion.MusicVoice.2 }
+    { \number.5.Percussion.Music.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -1117,12 +1117,12 @@ number.5.Percussion.Staff.2 = {
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.2.part.1 = {
+number.5.First_Violins.Music.2.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 1]
+    % [First_Violins.Music.2 measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -1209,7 +1209,7 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 2]
+    % [First_Violins.Music.2 measure 2]
       %! animales.make_glissando_rhythm()
     a'''4
     % AFTER:
@@ -1270,7 +1270,7 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 3]
+    % [First_Violins.Music.2 measure 3]
       %! animales.make_glissando_rhythm()
     f'''8
     % AFTER:
@@ -1332,7 +1332,7 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 4]
+    % [First_Violins.Music.2 measure 4]
       %! animales.make_glissando_rhythm()
     g'8
     % AFTER:
@@ -1390,7 +1390,7 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 5]
+    % [First_Violins.Music.2 measure 5]
       %! animales.make_glissando_rhythm()
     g'''4
     % AFTER:
@@ -1481,7 +1481,7 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.2 measure 6]
+    % [First_Violins.Music.2 measure 6]
       %! animales.make_glissando_rhythm()
     b''2
     % AFTER:
@@ -1540,13 +1540,13 @@ number.5.First_Violins.MusicVoice.2.part.1 = {
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.2 = {
+number.5.First_Violins.Music.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.2.part.1 }
+    { \number.5.First_Violins.Music.2.part.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -1557,12 +1557,12 @@ number.5.First_Violins.MusicVoice.2 = {
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.1.part.1 = {
+number.5.First_Violins.Music.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 1]
+    % [First_Violins.Music.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -1652,7 +1652,7 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 2]
+    % [First_Violins.Music.1 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -1677,7 +1677,7 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 3]
+    % [First_Violins.Music.1 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -1691,7 +1691,7 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 4]
+    % [First_Violins.Music.1 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b4
     % AFTER:
@@ -1716,7 +1716,7 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 5]
+    % [First_Violins.Music.1 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -1730,7 +1730,7 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.1 measure 6]
+    % [First_Violins.Music.1 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -1745,20 +1745,20 @@ number.5.First_Violins.MusicVoice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.1 = {
+number.5.First_Violins.Music.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.1.part.1 }
+    { \number.5.First_Violins.Music.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [First_Violins.MusicVoice.1 measure 7]
+    % [First_Violins.Music.1 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -1836,19 +1836,19 @@ number.5.First_Violins.Staff.1 = <<
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First_Violins.MusicVoice.2"
+    \context Voice = "First_Violins.Music.2"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.2 }
+    { \number.5.First_Violins.Music.2 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First_Violins.MusicVoice.1"
+    \context Voice = "First_Violins.Music.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.1 }
+    { \number.5.First_Violins.Music.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -1859,12 +1859,12 @@ number.5.First_Violins.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.3.part.1 = {
+number.5.First_Violins.Music.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 1]
+    % [First_Violins.Music.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -1950,7 +1950,7 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 2]
+    % [First_Violins.Music.3 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -1960,7 +1960,7 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 3]
+    % [First_Violins.Music.3 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -1977,7 +1977,7 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 4]
+    % [First_Violins.Music.3 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b4
     % AFTER:
@@ -2040,7 +2040,7 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 5]
+    % [First_Violins.Music.3 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2054,7 +2054,7 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [First_Violins.MusicVoice.3 measure 6]
+    % [First_Violins.Music.3 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2069,20 +2069,20 @@ number.5.First_Violins.MusicVoice.3.part.1 = {
 
 
   %! baca.path.extern()
-number.5.First_Violins.MusicVoice.3 = {
+number.5.First_Violins.Music.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.3.part.1 }
+    { \number.5.First_Violins.Music.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [First_Violins.MusicVoice.3 measure 7]
+    % [First_Violins.Music.3 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -2160,10 +2160,10 @@ number.5.First_Violins.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "First_Violins.MusicVoice.3"
+    \context Voice = "First_Violins.Music.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.First_Violins.MusicVoice.3 }
+    { \number.5.First_Violins.Music.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -2174,12 +2174,12 @@ number.5.First_Violins.Staff.2 = {
 
 
   %! baca.path.extern()
-number.5.Second_Violin.MusicVoice.1.part.1 = {
+number.5.Second_Violin.Music.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 1]
+    % [Second_Violin.Music.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -2265,7 +2265,7 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 2]
+    % [Second_Violin.Music.1 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -2279,7 +2279,7 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 3]
+    % [Second_Violin.Music.1 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b4.
     % AFTER:
@@ -2316,7 +2316,7 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 4]
+    % [Second_Violin.Music.1 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b2..
     % AFTER:
@@ -2341,7 +2341,7 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 5]
+    % [Second_Violin.Music.1 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2355,7 +2355,7 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.1 measure 6]
+    % [Second_Violin.Music.1 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2370,20 +2370,20 @@ number.5.Second_Violin.MusicVoice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Second_Violin.MusicVoice.1 = {
+number.5.Second_Violin.Music.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Second_Violin.MusicVoice.1.part.1 }
+    { \number.5.Second_Violin.Music.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Second_Violin.MusicVoice.1 measure 7]
+    % [Second_Violin.Music.1 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -2461,10 +2461,10 @@ number.5.Second_Violin.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second_Violin.MusicVoice.1"
+    \context Voice = "Second_Violin.Music.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Second_Violin.MusicVoice.1 }
+    { \number.5.Second_Violin.Music.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -2475,7 +2475,7 @@ number.5.Second_Violin.Staff.1 = {
 
 
   %! baca.path.extern()
-number.5.Second_Violin.MusicVoice.3.part.1 = {
+number.5.Second_Violin.Music.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2488,7 +2488,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Second_Violin.MusicVoice.3 measure 1]
+        % [Second_Violin.Music.3 measure 1]
         % BEFORE:
         % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
@@ -2602,7 +2602,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.3 measure 2]
+    % [Second_Violin.Music.3 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -2616,7 +2616,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.3 measure 3]
+    % [Second_Violin.Music.3 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b4
     % AFTER:
@@ -2679,7 +2679,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.3 measure 4]
+    % [Second_Violin.Music.3 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -2689,7 +2689,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.3 measure 5]
+    % [Second_Violin.Music.3 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2706,7 +2706,7 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Second_Violin.MusicVoice.3 measure 6]
+    % [Second_Violin.Music.3 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -2721,20 +2721,20 @@ number.5.Second_Violin.MusicVoice.3.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Second_Violin.MusicVoice.3 = {
+number.5.Second_Violin.Music.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Second_Violin.MusicVoice.3.part.1 }
+    { \number.5.Second_Violin.Music.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Second_Violin.MusicVoice.3 measure 7]
+    % [Second_Violin.Music.3 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -2812,10 +2812,10 @@ number.5.Second_Violin.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Second_Violin.MusicVoice.3"
+    \context Voice = "Second_Violin.Music.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Second_Violin.MusicVoice.3 }
+    { \number.5.Second_Violin.Music.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -2826,12 +2826,12 @@ number.5.Second_Violin.Staff.2 = {
 
 
   %! baca.path.extern()
-number.5.Viola.MusicVoice.1.part.1 = {
+number.5.Viola.Music.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 1]
+    % [Viola.Music.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -2946,7 +2946,7 @@ number.5.Viola.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 2]
+    % [Viola.Music.1 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -2960,7 +2960,7 @@ number.5.Viola.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 3]
+    % [Viola.Music.1 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b2
     % AFTER:
@@ -2985,7 +2985,7 @@ number.5.Viola.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 4]
+    % [Viola.Music.1 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -2999,7 +2999,7 @@ number.5.Viola.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 5]
+    % [Viola.Music.1 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2
     % AFTER:
@@ -3042,7 +3042,7 @@ number.5.Viola.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.1 measure 6]
+    % [Viola.Music.1 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -3057,20 +3057,20 @@ number.5.Viola.MusicVoice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Viola.MusicVoice.1 = {
+number.5.Viola.Music.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Viola.MusicVoice.1.part.1 }
+    { \number.5.Viola.Music.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Viola.MusicVoice.1 measure 7]
+    % [Viola.Music.1 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -3148,10 +3148,10 @@ number.5.Viola.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.MusicVoice.1"
+    \context Voice = "Viola.Music.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Viola.MusicVoice.1 }
+    { \number.5.Viola.Music.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -3162,12 +3162,12 @@ number.5.Viola.Staff.1 = {
 
 
   %! baca.path.extern()
-number.5.Viola.MusicVoice.3.part.1 = {
+number.5.Viola.Music.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 1]
+    % [Viola.Music.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -3248,7 +3248,7 @@ number.5.Viola.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 2]
+    % [Viola.Music.3 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -3265,7 +3265,7 @@ number.5.Viola.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 3]
+    % [Viola.Music.3 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -3290,7 +3290,7 @@ number.5.Viola.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 4]
+    % [Viola.Music.3 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -3304,7 +3304,7 @@ number.5.Viola.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 5]
+    % [Viola.Music.3 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -3314,7 +3314,7 @@ number.5.Viola.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Viola.MusicVoice.3 measure 6]
+    % [Viola.Music.3 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -3331,20 +3331,20 @@ number.5.Viola.MusicVoice.3.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Viola.MusicVoice.3 = {
+number.5.Viola.Music.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Viola.MusicVoice.3.part.1 }
+    { \number.5.Viola.Music.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Viola.MusicVoice.3 measure 7]
+    % [Viola.Music.3 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -3422,10 +3422,10 @@ number.5.Viola.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Viola.MusicVoice.3"
+    \context Voice = "Viola.Music.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Viola.MusicVoice.3 }
+    { \number.5.Viola.Music.3 }
     % CLOSING:
     % COMMANDS:
 
@@ -3436,12 +3436,12 @@ number.5.Viola.Staff.2 = {
 
 
   %! baca.path.extern()
-number.5.Cello.MusicVoice.1.part.1 = {
+number.5.Cello.Music.1.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 1]
+    % [Cello.Music.1 measure 1]
     % BEFORE:
     % COMMANDS:
       %! MEASURE_24
@@ -3541,7 +3541,7 @@ number.5.Cello.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 2]
+    % [Cello.Music.1 measure 2]
       %! animales.make_sforzando_exchange_rhythm()
     b2
     % AFTER:
@@ -3578,7 +3578,7 @@ number.5.Cello.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 3]
+    % [Cello.Music.1 measure 3]
       %! animales.make_sforzando_exchange_rhythm()
     b1
     % AFTER:
@@ -3592,7 +3592,7 @@ number.5.Cello.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 4]
+    % [Cello.Music.1 measure 4]
       %! animales.make_sforzando_exchange_rhythm()
     b8
     % AFTER:
@@ -3617,7 +3617,7 @@ number.5.Cello.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 5]
+    % [Cello.Music.1 measure 5]
       %! animales.make_sforzando_exchange_rhythm()
     b2.
     % AFTER:
@@ -3631,7 +3631,7 @@ number.5.Cello.MusicVoice.1.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Cello.MusicVoice.1 measure 6]
+    % [Cello.Music.1 measure 6]
       %! animales.make_sforzando_exchange_rhythm()
     b2
     % AFTER:
@@ -3674,20 +3674,20 @@ number.5.Cello.MusicVoice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Cello.MusicVoice.1 = {
+number.5.Cello.Music.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Cello.MusicVoice.1.part.1 }
+    { \number.5.Cello.Music.1.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Cello.MusicVoice.1 measure 7]
+    % [Cello.Music.1 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -3765,10 +3765,10 @@ number.5.Cello.Staff.1 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Cello.MusicVoice.1"
+    \context Voice = "Cello.Music.1"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Cello.MusicVoice.1 }
+    { \number.5.Cello.Music.1 }
     % CLOSING:
     % COMMANDS:
 
@@ -3779,12 +3779,12 @@ number.5.Cello.Staff.1 = {
 
 
   %! baca.path.extern()
-number.5.Contrabass.MusicVoice.3.part.1 = {
+number.5.Contrabass.Music.3.part.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 1]
+    % [Contrabass.Music.3 measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -3863,7 +3863,7 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 2]
+    % [Contrabass.Music.3 measure 2]
       %! baca.make_repeat_tied_notes()
     b,1
     % AFTER:
@@ -3878,7 +3878,7 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 3]
+    % [Contrabass.Music.3 measure 3]
       %! baca.make_repeat_tied_notes()
     b,1
     % AFTER:
@@ -3893,7 +3893,7 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 4]
+    % [Contrabass.Music.3 measure 4]
       %! baca.make_repeat_tied_notes()
     b,1
     % AFTER:
@@ -3923,7 +3923,7 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 5]
+    % [Contrabass.Music.3 measure 5]
       %! baca.make_repeat_tied_notes()
     b,2.
     % AFTER:
@@ -3938,7 +3938,7 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Contrabass.MusicVoice.3 measure 6]
+    % [Contrabass.Music.3 measure 6]
       %! baca.make_repeat_tied_notes()
     b,2.
     % AFTER:
@@ -3954,20 +3954,20 @@ number.5.Contrabass.MusicVoice.3.part.1 = {
 
 
   %! baca.path.extern()
-number.5.Contrabass.MusicVoice.3 = {
+number.5.Contrabass.Music.3 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.5.Contrabass.MusicVoice.3.part.1 }
+    { \number.5.Contrabass.Music.3.part.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! ANCHOR_NOTE
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_notes()
-    % [Contrabass.MusicVoice.3 measure 7]
+    % [Contrabass.Music.3 measure 7]
     % BEFORE:
     % COMMANDS:
       %! ANCHOR_NOTE
@@ -4037,10 +4037,10 @@ number.5.Contrabass.Staff.2 = {
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Contrabass.MusicVoice.3"
+    \context Voice = "Contrabass.Music.3"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.5.Contrabass.MusicVoice.3 }
+    { \number.5.Contrabass.Music.3 }
     % CLOSING:
     % COMMANDS:
 

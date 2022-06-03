@@ -212,7 +212,7 @@ commands(
 
 # reapply
 
-music_voice_names = [_ for _ in voice_names if "MusicVoice" in _]
+music_voice_names = [_ for _ in voice_names if "Music" in _]
 
 commands(
     music_voice_names,
@@ -312,7 +312,7 @@ commands(
 )
 
 commands(
-    ("Clarinet.RestVoice", 4),
+    ("Clarinet.Rests", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
@@ -472,14 +472,14 @@ commands(
 )
 
 most_strings = [
-    "Second_Violin.RestVoice.1",
-    "Viola.RestVoice.1",
-    "Cello.RestVoice.1",
-    "Contrabass.RestVoice.3",
+    "Second_Violin.Rests.1",
+    "Viola.Rests.1",
+    "Cello.Rests.1",
+    "Contrabass.Rests.3",
 ]
 
 commands(
-    ("First_Violins.RestVoice.1", 4),
+    ("First_Violins.Rests.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
