@@ -924,7 +924,7 @@ number.12.Horn.Music.1.part.1 = {
 %%% fs'!8
       %! -PARTS
       %! baca.AccidentalAdjustmentCommand._call()
-        fs'!8 %@%
+    fs'!8 %@%
     % AFTER:
     % ARTICULATIONS:
       %! +PARTS
@@ -2239,7 +2239,7 @@ number.12.Trumpet.Music.4.part.1 = {
 %%% g'8
       %! -PARTS
       %! baca.AccidentalAdjustmentCommand._call()
-        g'!8 %@%
+    g'!8 %@%
     % AFTER:
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3005,7 +3005,7 @@ number.12.Trombone.Music.4.part.1 = {
 %%% g8
       %! -PARTS
       %! baca.AccidentalAdjustmentCommand._call()
-        g!8 %@%
+    g!8 %@%
     % AFTER:
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
