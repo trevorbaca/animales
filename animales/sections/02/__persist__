@@ -4,7 +4,7 @@
         "GlobalContext",
         "GlobalRests",
         "GlobalSkips",
-        "Music_Context",
+        "MusicContext",
         "String_Staff_Group",
         "FirstViolin_Square_Staff_Group",
         "First_Violins.Staff.1",

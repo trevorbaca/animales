@@ -4,7 +4,7 @@
         "GlobalContext",
         "GlobalRests",
         "GlobalSkips",
-        "Music_Context",
+        "MusicContext",
         "Brass_Staff_Group",
         "Horn_Square_Staff_Group",
         "Horn.Staff.1",
