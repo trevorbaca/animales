@@ -58,7 +58,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.metronome_mark("76"),
     baca.rehearsal_mark(
         "F",
@@ -183,12 +183,12 @@ commands(
 )
 
 commands(
-    ("GlobalRests", (5, -1)),
+    ("Rests", (5, -1)),
     library.parts("Clarinet", 1),
 )
 
 commands(
-    ("GlobalRests", (1, 4)),
+    ("Rests", (1, 4)),
     library.parts("Clarinet", 2),
 )
 

@@ -67,7 +67,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    ("GlobalSkips", 3),
+    ("Skips", 3),
     baca.rehearsal_mark(
         "C",
         lambda _: baca.select.skip(_, 1 - 1),
