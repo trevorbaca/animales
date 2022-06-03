@@ -1,45 +1,45 @@
   %! baca.path.extern()
-number.14.GlobalRests = {
+number.14.Rests = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 1]
+    % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 3/4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 2]
+    % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 3]
+    % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 1/2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 4]
+    % [Rests measure 4]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 5]
+    % [Rests measure 5]
       %! baca._make_global_rests(1)
     R1 * 1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalRests measure 6]
+    % [Rests measure 6]
       %! baca._make_global_rests(1)
     R1 * 1
     % CLOSING:
@@ -52,12 +52,12 @@ number.14.GlobalRests = {
 
 
   %! baca.path.extern()
-number.14.GlobalSkips = {
+number.14.Skips = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 1]
+    % [Skips measure 1]
     % BEFORE:
     % COMMANDS:
       %! +TABLOID_SCORE
@@ -133,7 +133,7 @@ number.14.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 2]
+    % [Skips measure 2]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -179,7 +179,7 @@ number.14.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 3]
+    % [Skips measure 3]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -225,7 +225,7 @@ number.14.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 4]
+    % [Skips measure 4]
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -271,7 +271,7 @@ number.14.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 5]
+    % [Skips measure 5]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -308,7 +308,7 @@ number.14.GlobalSkips = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [GlobalSkips measure 6]
+    % [Skips measure 6]
       %! baca._make_global_skips(1)
     s1 * 1
     % AFTER:
@@ -352,7 +352,7 @@ number.14.GlobalSkips = {
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca._style_anchor_skip(1)
-    % [GlobalSkips measure 7]
+    % [Skips measure 7]
     % OPENING:
     % COMMANDS:
       %! ANCHOR_SKIP

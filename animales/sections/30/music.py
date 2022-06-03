@@ -33,7 +33,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.rehearsal_mark(
         "CC",
         lambda _: baca.select.skip(_, 1 - 1),
@@ -45,7 +45,7 @@ commands(
 )
 
 commands(
-    "GlobalRests",
+    "Rests",
     baca.global_fermata(
         "fermata",
         selector=lambda _: abjad.select.leaf(_, 10 - 1),

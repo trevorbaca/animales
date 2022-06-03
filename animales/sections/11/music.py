@@ -67,7 +67,7 @@ commands = baca.CommandAccumulator(
 )
 
 commands(
-    "GlobalSkips",
+    "Skips",
     baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark(
         "J",
