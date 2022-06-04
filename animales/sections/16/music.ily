@@ -857,9 +857,6 @@ number.16.Oboe.Music.part.1 = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Oboe”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Ob.”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1240,9 +1237,6 @@ number.16.English_Horn.Music.part.1 = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“EnglishHorn”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Eng. hn.”]"
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1630,9 +1624,6 @@ number.16.Bassoon.Music.1.part.1 = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Bassoon”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Bsn.”]"
     % SPANNER_STARTS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2362,9 +2353,6 @@ number.16.First_Violins.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-tutti-ext-ponticello-like-acid-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vni. I (1-4) (5-8)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3284,9 +3272,6 @@ number.16.First_Violins.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-nine-to-twelve-plus-thirteen-to-seventeen-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vni. I (9-12) (13-17)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -4191,9 +4176,6 @@ number.16.First_Violins.Music.5.part.1 = {
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Violin”)"
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vni. I 18”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -4597,9 +4579,6 @@ number.16.Second_Violin.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-one-to-four-plus-five-to-eight-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vni. II (1-4) (5-8)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -5529,9 +5508,6 @@ number.16.Second_Violin.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-nine-to-twelve-plus-thirteen-to-eighteen-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vni. II (9-12) (13-18)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -6451,9 +6427,6 @@ number.16.Viola.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-one-to-four-plus-five-to-eight-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vle. (1-4) (5-8)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -7373,9 +7346,6 @@ number.16.Viola.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-nine-to-twelve-plus-thirteen-to-eighteen-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vle. (9-12) (13-18)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -8295,9 +8265,6 @@ number.16.Cello.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
     ^ \animales-one-to-eight-plus-nine-to-fourteen-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Vc. (1-8) (9-14)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -9203,9 +9170,6 @@ number.16.Contrabass.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
-      %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-short-instrument-name-markup "[“Cb.”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
