@@ -400,7 +400,7 @@ number.1.Percussion.Music.1.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion I"
+    \set Staff.instrumentName = \animales-percussion-i-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -603,7 +603,7 @@ number.1.Percussion.Music.2.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion II"
+    \set Staff.instrumentName = \animales-percussion-ii-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -811,7 +811,7 @@ number.1.Percussion.Music.4.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Percussion IV"
+    \set Staff.instrumentName = \animales-percussion-iv-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1017,7 +1017,7 @@ number.1.First_Violins.Music.1.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins I" \hcenter-in #16 "(1-10)" }
+    \set Staff.instrumentName = \animales-violins-i-one-ten-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1349,7 +1349,7 @@ number.1.First_Violins.Music.3.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins I" \hcenter-in #16 "(11-18)" }
+    \set Staff.instrumentName = \animales-violins-i-eleven-eighteen-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1733,7 +1733,7 @@ number.1.Second_Violin.Music.1.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins II" \hcenter-in #16 "(1-10)" }
+    \set Staff.instrumentName = \animales-violins-ii-one-ten-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2111,7 +2111,7 @@ number.1.Second_Violin.Music.3.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violins II" \hcenter-in #16 "(11-18)" }
+    \set Staff.instrumentName = \animales-violins-ii-eleven-eighteen-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2523,7 +2523,7 @@ number.1.Viola.Music.1.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violas" \hcenter-in #16 "(1-10)" }
+    \set Staff.instrumentName = \animales-violas-one-ten-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2881,7 +2881,7 @@ number.1.Viola.Music.3.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Violas" \hcenter-in #16 "(11-18)" }
+    \set Staff.instrumentName = \animales-violas-eleven-eighteen-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3202,7 +3202,7 @@ number.1.Cello.Music.1.part.1 = {
       %! -PARTS
       %! baca.IndicatorCommand._call()
       %! baca.instrument_name()
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Cellos"
+    \set Staff.instrumentName = \animales-cellos-markup
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
