@@ -82,7 +82,7 @@ commands(
 commands(
     "perc1",
     baca.instrument(instruments["Percussion"]),
-    baca.instrument_name("Percussion I"),
+    baca.instrument_name(r"\animales-percussion-i-markup"),
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
@@ -92,7 +92,7 @@ commands(
 commands(
     "perc2",
     baca.instrument(instruments["Percussion"]),
-    baca.instrument_name("Percussion II"),
+    baca.instrument_name(r"\animales-percussion-ii-markup"),
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
@@ -102,7 +102,7 @@ commands(
 commands(
     "perc4",
     baca.instrument(instruments["Percussion"]),
-    baca.instrument_name("Percussion IV"),
+    baca.instrument_name(r"\animales-percussion-iv-markup"),
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
@@ -116,45 +116,45 @@ strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 voice_to_start_markup = {
     "1vn1": [
-        library.short_instrument_name("Vni. I (1-10)"),
-        baca.instrument_name(["Violins I", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
+        library.short_instrument_name("Vni. I (1-10)"),
         baca.clef("treble"),
     ],
     "1vn3": [
-        library.short_instrument_name("Vni. I (11-18)"),
-        baca.instrument_name(["Violins I", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
+        library.short_instrument_name("Vni. I (11-18)"),
         baca.clef("treble"),
     ],
     "2vn1": [
-        library.short_instrument_name("Vni. II (1-10)"),
-        baca.instrument_name(["Violins II", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
+        library.short_instrument_name("Vni. II (1-10)"),
         baca.clef("treble"),
     ],
     "2vn3": [
-        library.short_instrument_name("Vni. II (11-18)"),
-        baca.instrument_name(["Violins II", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
+        library.short_instrument_name("Vni. II (11-18)"),
         baca.clef("treble"),
     ],
     "va1": [
-        library.short_instrument_name("Vle. (1-10)"),
-        baca.instrument_name(["Violas", "(1-10)"], hcenter_in=16),
         baca.instrument(instruments["Viola"]),
+        baca.instrument_name(r"\animales-violas-one-ten-markup"),
+        library.short_instrument_name("Vle. (1-10)"),
         baca.clef("alto"),
     ],
     "va3": [
-        library.short_instrument_name("Vle. (11-18)"),
-        baca.instrument_name(["Violas", "(11-18)"], hcenter_in=16),
         baca.instrument(instruments["Viola"]),
+        baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
+        library.short_instrument_name("Vle. (11-18)"),
         baca.clef("alto"),
     ],
     "vc1": [
-        library.short_instrument_name("Vc."),
-        baca.instrument_name("Cellos", hcenter_in=16),
         baca.instrument(instruments["Cello"]),
+        baca.instrument_name(r"\animales-cellos-markup"),
+        library.short_instrument_name("Vc."),
         baca.clef("tenor"),
     ],
 }

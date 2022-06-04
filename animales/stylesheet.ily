@@ -255,6 +255,50 @@
     }
 }
 
+% INSTRUMENT NAME MARKUP
+
+animales-percussion-i-markup = \markup \hcenter-in #16 "Percussion I"
+animales-percussion-ii-markup = \markup \hcenter-in #16 "Percussion II"
+animales-percussion-iv-markup = \markup \hcenter-in #16 "Percussion IV"
+
+animales-violins-i-one-ten-markup = \markup
+  \column {
+  \hcenter-in #16 "Violins I"
+  \hcenter-in #16 "(1-10)"
+  }
+
+animales-violins-i-eleven-eighteen-markup = \markup
+  \column {
+  \hcenter-in #16 "Violins I"
+  \hcenter-in #16 "(11-18)"
+  }
+
+animales-violins-ii-one-ten-markup = \markup
+  \column {
+  \hcenter-in #16 "Violins I"
+  \hcenter-in #16 "(1-10)"
+  }
+
+animales-violins-ii-eleven-eighteen-markup = \markup
+  \column {
+  \hcenter-in #16 "Violins I"
+  \hcenter-in #16 "(11-18)"
+  }
+
+animales-violas-one-ten-markup = \markup
+  \column {
+  \hcenter-in #16 Violas
+  \hcenter-in #16 "(1-10)"
+  }
+
+animales-violas-eleven-eighteen-markup = \markup
+  \column {
+  \hcenter-in #16 Violas
+  \hcenter-in #16 "(11-18)"
+  }
+
+animales-cellos-markup = \markup \hcenter-in #16 Cellos
+
 %%% COLOPHON %%%
 
 animales-colophon-markup = \markup
