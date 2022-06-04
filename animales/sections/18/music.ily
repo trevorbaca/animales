@@ -782,10 +782,10 @@ number.18.Horn.Music.1.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Horn”)"
+    ^ \baca-reapplied-instrument-markup "(“Horn”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Hn. (1+3)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Hn. (1+3)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1322,10 +1322,10 @@ number.18.Horn.Music.2.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Horn”)"
+    ^ \baca-reapplied-instrument-markup "(“Horn”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Hn. (2+4)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Hn. (2+4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1862,10 +1862,10 @@ number.18.Trumpet.Music.1.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
+    ^ \baca-reapplied-instrument-markup "(“Trumpet”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Tp. (1+3)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Tp. (1+3)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2402,10 +2402,10 @@ number.18.Trumpet.Music.2.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trumpet”)"
+    ^ \baca-reapplied-instrument-markup "(“Trumpet”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Tp. (2+4)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Tp. (2+4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2942,10 +2942,10 @@ number.18.Trombone.Music.1.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trombone”)"
+    ^ \baca-reapplied-instrument-markup "(“Trombone”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Trb. (1+3)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Trb. (1+3)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3482,10 +3482,10 @@ number.18.Trombone.Music.2.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Trombone”)"
+    ^ \baca-reapplied-instrument-markup "(“Trombone”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Trb. (2+4)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Trb. (2+4)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4028,10 +4028,10 @@ number.18.First_Violins.Music.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (1-4) (5-8)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vni. I (1-4) (5-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -5188,10 +5188,10 @@ number.18.First_Violins.Music.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I (9-12) (13-17)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vni. I (9-12) (13-17)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -6329,10 +6329,10 @@ number.18.First_Violins.Music.5.part.1 = {
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. I 18”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vni. I 18”]"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6683,10 +6683,10 @@ number.18.Second_Violin.Music.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (1-4) (5-8)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vni. II (1-4) (5-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -7851,10 +7851,10 @@ number.18.Second_Violin.Music.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Violin”)"
+    ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vni. II (9-12) (13-18)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vni. II (9-12) (13-18)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -9011,10 +9011,10 @@ number.18.Viola.Music.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (1-4) (5-8)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vle. (1-4) (5-8)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -10171,10 +10171,10 @@ number.18.Viola.Music.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Viola”)"
+    ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vle. (9-12) (13-18)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vle. (9-12) (13-18)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -11331,10 +11331,10 @@ number.18.Cello.Music.1.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Cello”)"
+    ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Vc. (1-8) (9-14)”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Vc. (1-8) (9-14)”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -12479,10 +12479,10 @@ number.18.Contrabass.Music.3.part.1 = {
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Contrabass”)"
+    ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Cb.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Cb.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR

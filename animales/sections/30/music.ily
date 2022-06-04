@@ -659,10 +659,10 @@ number.30.Piano.Music.part.1 = {
     ^ \animales-harmonic-touch-lowest-string-of-piano-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Piano”)"
+    ^ \baca-reapplied-instrument-markup "(“Piano”)"
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "[“Pf.”]"
+    ^ \baca-reapplied-short-instrument-name-markup "[“Pf.”]"
     % ABSOLUTE_AFTER:
     % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -941,10 +941,10 @@ number.30.Percussion.Music.4.part.1 = {
     ^ \animales-stonecircle-markup
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-explicit-indicator-markup "[“Perc. 4 (slate)”]"
+    ^ \baca-explicit-short-instrument-name-markup "[“Perc. 4 (slate)”]"
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"
+    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
