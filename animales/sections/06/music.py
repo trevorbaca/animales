@@ -59,9 +59,13 @@ baca.interpret.set_up_score(
     attach_nonfirst_empty_start_bar=True,
 )
 
+skips = score["Skips"]
+manifests = commands.manifests()
+
+baca.commands._metronome_mark(skips[1 - 1], baca.Ritardando(), manifests)
+
 commands(
     "Skips",
-    baca.metronome_mark(baca.Ritardando()),
     baca.rehearsal_mark(
         "E",
         lambda _: baca.select.skip(_, 1 - 1),

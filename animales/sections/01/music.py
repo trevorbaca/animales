@@ -50,10 +50,10 @@ baca.interpret.set_up_score(
     attach_nonfirst_empty_start_bar=True,
 )
 
-commands(
-    "Skips",
-    baca.metronome_mark("114"),
-)
+skips = score["Skips"]
+manifests = commands.manifests()
+
+baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], manifests)
 
 # PERCUSSION
 
