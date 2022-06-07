@@ -53,7 +53,7 @@ commands(
     ),
 )
 
-baca.commands._bar_line(score["Skips"][10 - 1], "|.")
+baca.bar_line(score["Skips"][10 - 1], "|.")
 
 commands(
     "Rests",
