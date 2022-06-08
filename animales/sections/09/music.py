@@ -92,7 +92,7 @@ commands(
 
 commands(
     ("cl", (4, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -116,7 +116,7 @@ commands(
 
 commands(
     "perc2",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -133,7 +133,7 @@ commands(
 
 commands(
     (["1vn1", "2vn1", "va1", "vc1"], (4, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(
@@ -143,7 +143,7 @@ commands(
 
 commands(
     ("cb3", (4, 6)),
-    baca.make_mmrests(),
+    baca.make_mmrests(head=True),
 )
 
 commands(

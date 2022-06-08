@@ -88,7 +88,7 @@ baca.rehearsal_mark_function(
 
 commands(
     ("cl", (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
     baca.instrument(instruments["Clarinet"]),
     baca.clef("treble"),
 )
@@ -102,12 +102,12 @@ commands(
 
 commands(
     ("perc1", (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
     ("perc2", (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -140,21 +140,21 @@ brass_voice_names = [
 
 commands(
     (brass_voice_names, (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 library.make_brass_sforzando_material(commands, 3)
 
 commands(
     (brass_voice_names, (4, 6)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # STRINGS
 
 commands(
     ("1vn2", (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -173,7 +173,7 @@ commands(
 
 commands(
     ("cb3", (1, 2)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(

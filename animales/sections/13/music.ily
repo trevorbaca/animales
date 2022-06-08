@@ -661,7 +661,7 @@ number.13.Bass_Clarinet.Music.part.1 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % ARTICULATIONS:
@@ -701,7 +701,7 @@ number.13.Bass_Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass_Clarinet.Music measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -713,7 +713,7 @@ number.13.Bass_Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass_Clarinet.Music measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -725,7 +725,7 @@ number.13.Bass_Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass_Clarinet.Music measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:

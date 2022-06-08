@@ -168,7 +168,7 @@ brass_voice_names = [
 
 commands(
     (brass_voice_names, (2, 12)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # STRINGS
@@ -236,7 +236,7 @@ commands(
 
 commands(
     ("1vn5", 3),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -246,7 +246,7 @@ commands(
 
 commands(
     ("1vn5", 8),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -263,7 +263,7 @@ for voice, items in string_parts.items():
     if voice != "First_Violins.Music.5":
         commands(
             (voice, (1, 3)),
-            baca.make_mmrests_flat(),
+            baca.make_mmrests(),
         )
         commands(
             (voice, (4, 6)),
@@ -271,7 +271,7 @@ for voice, items in string_parts.items():
         )
         commands(
             (voice, (7, 8)),
-            baca.make_mmrests_flat(),
+            baca.make_mmrests(),
         )
         commands(
             (voice, (9, 11)),
@@ -279,7 +279,7 @@ for voice, items in string_parts.items():
         )
         commands(
             (voice, 12),
-            baca.make_mmrests_flat(),
+            baca.make_mmrests(),
         )
     section = ".".join(voice.split(".")[:-2])
     members = items[0]

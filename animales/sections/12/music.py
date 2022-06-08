@@ -190,7 +190,7 @@ brass_voice_names = [
 
 commands(
     (brass_voice_names, (2, 8)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # PIANO, HARP
