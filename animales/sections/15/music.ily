@@ -50,8 +50,7 @@ number.15.Rests = {
     % BEFORE:
     % COMMANDS:
       %! -PARTS
-      %! baca.OverrideCommand._call(1)
-      %! baca.mmrest_text_extra_offset()
+      %! baca.mmrest_text_extra_offset_function(1)
     \once \override MultiMeasureRestText.extra-offset = #'(0 . -4)
     % OPENING:
     % COMMANDS:

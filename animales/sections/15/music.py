@@ -79,17 +79,16 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-commands(
-    "Rests",
-    baca.new(
-        baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
-        selector=lambda _: abjad.select.leaf(_, 7 - 1),
-    ),
-)
-
 rests = score["Rests"]
+
 for index, string in ((7 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
+
+baca.mmrest_text_extra_offset_function(
+    rests[7 - 1],
+    (0, -4),
+    tags=[baca.tags.NOT_PARTS],
+)
 
 # WINDS
 
