@@ -92,13 +92,11 @@ commands(
     ),
 )
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 4 - 1),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (4 - 1, "fermata"),
+):
+    baca.global_fermata(rests[index], string)
 
 # PERCUSSION
 

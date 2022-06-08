@@ -85,11 +85,16 @@ commands(
 commands(
     "Rests",
     baca.new(
-        baca.global_fermata("fermata"),
         baca.not_parts(baca.mmrest_text_extra_offset((0, -4))),
         selector=lambda _: abjad.select.leaf(_, 7 - 1),
     ),
 )
+
+rests = score["Rests"]
+for index, string in (
+    (7 - 1, "fermata"),
+):
+    baca.global_fermata(rests[index], string)
 
 # WINDS
 

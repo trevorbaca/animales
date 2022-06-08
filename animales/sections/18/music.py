@@ -87,17 +87,12 @@ commands(
     ),
 )
 
-commands(
-    "Rests",
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 2),
-    ),
-    baca.global_fermata(
-        "fermata",
-        selector=lambda _: abjad.select.leaf(_, 7),
-    ),
-)
+rests = score["Rests"]
+for index, string in (
+    (3 - 1, "fermata"),
+    (8 - 1, "fermata"),
+):
+    baca.global_fermata(rests[index], string)
 
 # BRASS
 
