@@ -811,7 +811,7 @@ number.15.Flutes.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.1 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -823,7 +823,7 @@ number.15.Flutes.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.1 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -835,7 +835,7 @@ number.15.Flutes.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.1 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -857,7 +857,7 @@ number.15.Flutes.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1243,7 +1243,7 @@ number.15.Flutes.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.3 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1255,7 +1255,7 @@ number.15.Flutes.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.3 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1267,7 +1267,7 @@ number.15.Flutes.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.3 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1289,7 +1289,7 @@ number.15.Flutes.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1798,7 +1798,7 @@ number.15.Flutes.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.2 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1810,7 +1810,7 @@ number.15.Flutes.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.2 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1822,7 +1822,7 @@ number.15.Flutes.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.2 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1844,7 +1844,7 @@ number.15.Flutes.Music.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2269,7 +2269,7 @@ number.15.Flutes.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.4 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2281,7 +2281,7 @@ number.15.Flutes.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.4 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2293,7 +2293,7 @@ number.15.Flutes.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Music.4 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2315,7 +2315,7 @@ number.15.Flutes.Music.4.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2489,7 +2489,7 @@ number.15.Bass_Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bass_Clarinet.Music measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % ARTICULATIONS:
@@ -2630,7 +2630,7 @@ number.15.Bass_Clarinet.Music.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -2888,7 +2888,7 @@ number.15.Piano.Music.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3126,7 +3126,7 @@ number.15.Harp.Music.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3360,7 +3360,7 @@ number.15.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3372,7 +3372,7 @@ number.15.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3384,7 +3384,7 @@ number.15.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3406,7 +3406,7 @@ number.15.Percussion.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3634,7 +3634,7 @@ number.15.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3646,7 +3646,7 @@ number.15.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3658,7 +3658,7 @@ number.15.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3680,7 +3680,7 @@ number.15.Percussion.Music.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -3917,7 +3917,7 @@ number.15.Percussion.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4320,7 +4320,7 @@ number.15.First_Violins.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.2 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4332,7 +4332,7 @@ number.15.First_Violins.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.2 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4354,7 +4354,7 @@ number.15.First_Violins.Music.2.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4634,7 +4634,7 @@ number.15.First_Violins.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4646,7 +4646,7 @@ number.15.First_Violins.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4668,7 +4668,7 @@ number.15.First_Violins.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -4974,7 +4974,7 @@ number.15.Second_Violin.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -4986,7 +4986,7 @@ number.15.Second_Violin.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -5008,7 +5008,7 @@ number.15.Second_Violin.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5305,7 +5305,7 @@ number.15.Viola.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -5317,7 +5317,7 @@ number.15.Viola.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -5339,7 +5339,7 @@ number.15.Viola.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5636,7 +5636,7 @@ number.15.Cello.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -5648,7 +5648,7 @@ number.15.Cello.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -5670,7 +5670,7 @@ number.15.Cello.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -5912,7 +5912,7 @@ number.15.Contrabass.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -6194,7 +6194,7 @@ number.15.Contrabass.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music.3 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -6206,7 +6206,7 @@ number.15.Contrabass.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music.3 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -6228,7 +6228,7 @@ number.15.Contrabass.Music.3.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:

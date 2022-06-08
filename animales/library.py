@@ -437,7 +437,7 @@ def make_battuti_material(
                 fermata_measure = stop_measure + 1
                 commands(
                     (voice, fermata_measure),
-                    baca.make_mmrests(),
+                    baca.make_mmrests(head=True),
                 )
     for section, members in section_to_members.items():
         if omit_contrabasses and section == "Contrabass":

@@ -606,7 +606,7 @@ number.9.Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -618,7 +618,7 @@ number.9.Clarinet.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Clarinet.Music measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1387,7 +1387,7 @@ number.9.Percussion.Music.2.part.1 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % ARTICULATIONS:
@@ -1429,7 +1429,7 @@ number.9.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1441,7 +1441,7 @@ number.9.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1453,7 +1453,7 @@ number.9.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1465,7 +1465,7 @@ number.9.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1477,7 +1477,7 @@ number.9.Percussion.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.2 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1972,7 +1972,7 @@ number.9.First_Violins.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1984,7 +1984,7 @@ number.9.First_Violins.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [First_Violins.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2264,7 +2264,7 @@ number.9.Second_Violin.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2276,7 +2276,7 @@ number.9.Second_Violin.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Second_Violin.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2556,7 +2556,7 @@ number.9.Viola.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2568,7 +2568,7 @@ number.9.Viola.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Viola.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2848,7 +2848,7 @@ number.9.Cello.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music.1 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2860,7 +2860,7 @@ number.9.Cello.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Cello.Music.1 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3354,7 +3354,7 @@ number.9.Contrabass.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music.3 measure 5]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3366,7 +3366,7 @@ number.9.Contrabass.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Contrabass.Music.3 measure 6]
-      %! baca._make_mmrests()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:

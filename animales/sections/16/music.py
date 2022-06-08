@@ -90,7 +90,7 @@ commands(
 
 commands(
     ("ob", (6, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -100,7 +100,7 @@ commands(
 
 commands(
     ("eh", (6, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
@@ -115,7 +115,7 @@ commands(
 
 commands(
     (["bsn1", "bsn2"], (6, 14)),
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # STRINGS
@@ -221,7 +221,7 @@ voice_to_members = {
 for voice_name in voice_to_members:
     commands(
         (voice_name, (11, 14)),
-        baca.make_mmrests_flat(),
+        baca.make_mmrests(),
     )
 
 # reapply

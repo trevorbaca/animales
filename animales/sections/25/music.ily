@@ -340,7 +340,7 @@ number.25.Horn.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.1 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -352,7 +352,7 @@ number.25.Horn.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.1 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -429,7 +429,7 @@ number.25.Horn.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.3 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -441,7 +441,7 @@ number.25.Horn.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.3 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -589,7 +589,7 @@ number.25.Horn.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.2 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -601,7 +601,7 @@ number.25.Horn.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.2 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -678,7 +678,7 @@ number.25.Horn.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.4 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -690,7 +690,7 @@ number.25.Horn.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Horn.Music.4 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -838,7 +838,7 @@ number.25.Trumpet.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.1 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -850,7 +850,7 @@ number.25.Trumpet.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.1 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -927,7 +927,7 @@ number.25.Trumpet.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.3 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -939,7 +939,7 @@ number.25.Trumpet.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.3 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1087,7 +1087,7 @@ number.25.Trumpet.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.2 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1099,7 +1099,7 @@ number.25.Trumpet.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.2 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1176,7 +1176,7 @@ number.25.Trumpet.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.4 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1188,7 +1188,7 @@ number.25.Trumpet.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trumpet.Music.4 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1336,7 +1336,7 @@ number.25.Trombone.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.1 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1348,7 +1348,7 @@ number.25.Trombone.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.1 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1425,7 +1425,7 @@ number.25.Trombone.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.3 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1437,7 +1437,7 @@ number.25.Trombone.Music.3.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.3 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1585,7 +1585,7 @@ number.25.Trombone.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.2 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1597,7 +1597,7 @@ number.25.Trombone.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.2 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1674,7 +1674,7 @@ number.25.Trombone.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.4 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1686,7 +1686,7 @@ number.25.Trombone.Music.4.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Trombone.Music.4 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1830,7 +1830,7 @@ number.25.Tuba.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Tuba.Music measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1842,7 +1842,7 @@ number.25.Tuba.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Tuba.Music measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:

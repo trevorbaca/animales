@@ -448,7 +448,7 @@ number.29.Percussion.Music.1.part.1 = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 1/4
     % AFTER:
     % MARKUP:

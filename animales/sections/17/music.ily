@@ -777,7 +777,7 @@ number.17.Oboe.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % ARTICULATIONS:
@@ -804,7 +804,7 @@ number.17.Oboe.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 7]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -816,7 +816,7 @@ number.17.Oboe.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 8]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -828,7 +828,7 @@ number.17.Oboe.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 9]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -840,7 +840,7 @@ number.17.Oboe.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 10]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1091,7 +1091,7 @@ number.17.English_Horn.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [English_Horn.Music measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % ARTICULATIONS:
@@ -1118,7 +1118,7 @@ number.17.English_Horn.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [English_Horn.Music measure 7]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1130,7 +1130,7 @@ number.17.English_Horn.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [English_Horn.Music measure 8]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1142,7 +1142,7 @@ number.17.English_Horn.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [English_Horn.Music measure 9]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1154,7 +1154,7 @@ number.17.English_Horn.Music.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [English_Horn.Music measure 10]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1424,7 +1424,7 @@ number.17.Bassoon.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.1 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % ARTICULATIONS:
@@ -1454,7 +1454,7 @@ number.17.Bassoon.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.1 measure 7]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1466,7 +1466,7 @@ number.17.Bassoon.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.1 measure 8]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1478,7 +1478,7 @@ number.17.Bassoon.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.1 measure 9]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1490,7 +1490,7 @@ number.17.Bassoon.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.1 measure 10]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1680,7 +1680,7 @@ number.17.Bassoon.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.2 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % ARTICULATIONS:
@@ -1707,7 +1707,7 @@ number.17.Bassoon.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.2 measure 7]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1719,7 +1719,7 @@ number.17.Bassoon.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.2 measure 8]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1731,7 +1731,7 @@ number.17.Bassoon.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.2 measure 9]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1743,7 +1743,7 @@ number.17.Bassoon.Music.2.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Bassoon.Music.2 measure 10]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:

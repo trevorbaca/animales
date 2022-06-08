@@ -60,17 +60,17 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], man
 
 commands(
     "perc1",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
     "perc2",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 commands(
     "perc4",
-    baca.make_mmrests_flat(),
+    baca.make_mmrests(),
 )
 
 # STRINGS

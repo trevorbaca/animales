@@ -1518,7 +1518,7 @@ number.7.Percussion.Music.1.part.1 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % ARTICULATIONS:
@@ -1560,7 +1560,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 2]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1572,7 +1572,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 3]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1584,7 +1584,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 4]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1596,7 +1596,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 5]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1608,7 +1608,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 6]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1620,7 +1620,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 7]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1632,7 +1632,7 @@ number.7.Percussion.Music.1.part.1 = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.Music.1 measure 8]
-      %! baca._make_mmrests_flat()
+      %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
     % MARKUP:
