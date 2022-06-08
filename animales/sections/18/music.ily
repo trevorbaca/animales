@@ -134,11 +134,9 @@ number.18.Skips = {
     % AFTER:
     % MARKUP:
       %! +TABLOID_SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . 12)
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "Q" #10
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR

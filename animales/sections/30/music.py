@@ -42,18 +42,15 @@ baca.interpret.set_up_score(
     attach_nonfirst_empty_start_bar=True,
 )
 
-commands(
-    "Skips",
-    baca.rehearsal_mark(
-        "CC",
-        lambda _: baca.select.skip(_, 1 - 1),
-        abjad.Tweak(
-            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
-        ),
-    ),
+skips = score["Skips"]
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "CC",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-baca.bar_line(score["Skips"][10 - 1], "|.")
+baca.bar_line(skips[10 - 1], "|.")
 
 rests = score["Rests"]
 for index, string in ((10 - 1, "fermata"),):

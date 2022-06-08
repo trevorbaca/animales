@@ -164,11 +164,9 @@ number.4.Skips = {
     % AFTER:
     % MARKUP:
       %! +SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . -2)
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "C" #10
     % SPANNER_STOPS:
       %! CLOCK_TIME

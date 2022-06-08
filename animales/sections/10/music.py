@@ -79,13 +79,12 @@ baca.interpret.set_up_score(
     attach_nonfirst_empty_start_bar=True,
 )
 
-commands(
-    "Skips",
-    baca.rehearsal_mark(
-        "I",
-        lambda _: baca.select.skip(_, 1 - 1),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
-    ),
+skips = score["Skips"]
+
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "I",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
 )
 
 # WINDS

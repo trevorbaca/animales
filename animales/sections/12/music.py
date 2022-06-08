@@ -81,21 +81,22 @@ manifests = commands.manifests()
 
 baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["76"], manifests)
 
-commands(
-    "Skips",
-    baca.rehearsal_mark(
-        "K",
-        lambda _: baca.select.skip(_, 1 - 1),
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
-    ),
-    baca.tag(
-        abjad.Tag("+TABLOID_SCORE"),
-        baca.text_spanner_left_padding(-8),
-    ),
-    baca.tag(
-        abjad.Tag("+TABLOID_SCORE"),
-        baca.text_spanner_y_offset(8),
-    ),
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "K",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
+)
+
+baca.text_spanner_left_padding_function(
+    skips[:-1],
+    -8,
+    tags=[abjad.Tag("+TABLOID_SCORE")],
+)
+
+baca.text_spanner_y_offset_function(
+    skips[:-1],
+    8,
+    tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
 # WINDS

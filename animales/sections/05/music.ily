@@ -77,11 +77,9 @@ number.5.Skips = {
     % AFTER:
     % MARKUP:
       %! +SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . -2)
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "D" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
