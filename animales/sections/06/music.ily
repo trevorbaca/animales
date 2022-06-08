@@ -61,12 +61,10 @@ number.6.Skips = {
     % BEFORE:
     % COMMANDS:
       %! +TABLOID_SCORE
-      %! baca.OverrideCommand._call(1)
-      %! baca.text_spanner_y_offset()
+      %! baca.text_spanner_y_offset_function(1)
 %%% \override TextSpanner.Y-offset = 8
       %! +TABLOID_SCORE
-      %! baca.OverrideCommand._call(1)
-      %! baca.text_spanner_left_padding()
+      %! baca.text_spanner_left_padding_function(1)
 %%% \override TextSpanner.bound-details.left.padding = 1
     % OPENING:
     % COMMANDS:
@@ -86,11 +84,9 @@ number.6.Skips = {
     % AFTER:
     % MARKUP:
       %! +TABLOID_SCORE
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
 %%% - \tweak extra-offset #'(0 . 6)
-      %! baca.IndicatorCommand._call()
-      %! baca.rehearsal_mark()
+      %! baca.rehearsal_mark_function()
     - \baca-rehearsal-mark-markup "E" #10
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
@@ -346,12 +342,10 @@ number.6.Skips = {
     %@% \bacaStartTextSpanMN
     % COMMANDS:
       %! +TABLOID_SCORE
-      %! baca.OverrideCommand._call(2)
-      %! baca.text_spanner_y_offset()
+      %! baca.text_spanner_y_offset_function(2)
 %%% \revert TextSpanner.Y-offset
       %! +TABLOID_SCORE
-      %! baca.OverrideCommand._call(2)
-      %! baca.text_spanner_left_padding()
+      %! baca.text_spanner_left_padding_function(2)
 %%% \revert TextSpanner.bound-details.left.padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:

@@ -73,13 +73,15 @@ manifests = commands.manifests()
 
 baca.commands._metronome_mark(skips[1 - 1], baca.Accelerando(), manifests)
 
-commands(
-    "Skips",
-    baca.rehearsal_mark("G"),
-    baca.tag(
-        abjad.Tag("+TABLOID_SCORE"),
-        baca.text_spanner_left_padding(3),
-    ),
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "G",
+)
+
+baca.text_spanner_left_padding_function(
+    skips[:-1],
+    3,
+    tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
 # WINDS

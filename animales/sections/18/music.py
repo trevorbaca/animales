@@ -76,15 +76,10 @@ manifests = commands.manifests()
 
 baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["76"], manifests)
 
-commands(
-    "Skips",
-    baca.rehearsal_mark(
-        "Q",
-        lambda _: baca.select.skip(_, 1 - 1),
-        abjad.Tweak(
-            r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
-        ),
-    ),
+baca.rehearsal_mark_function(
+    skips[1 - 1],
+    "Q",
+    abjad.Tweak(r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
 rests = score["Rests"]
