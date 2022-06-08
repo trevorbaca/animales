@@ -56,9 +56,7 @@ commands(
 baca.bar_line(score["Skips"][10 - 1], "|.")
 
 rests = score["Rests"]
-for index, string in (
-    (10 - 1, "fermata"),
-):
+for index, string in ((10 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
 # PIANO
