@@ -45,71 +45,71 @@
         <<
             \context GlobalContext = "GlobalContext"
             <<
-                \context GlobalRests = "GlobalRests"
+                \context GlobalRests = "Rests"
                 {
-                    \number.01.GlobalRests
-                    \number.02.GlobalRests
-                    \number.03.GlobalRests
-                    \number.04.GlobalRests
-                    \number.05.GlobalRests
-                    \number.06.GlobalRests
-                    \number.07.GlobalRests
-                    \number.08.GlobalRests
-                    \number.09.GlobalRests
-                    \number.10.GlobalRests
-                    \number.11.GlobalRests
-                    \number.12.GlobalRests
-                    \number.13.GlobalRests
-                    \number.14.GlobalRests
-                    \number.15.GlobalRests
-                    \number.16.GlobalRests
-                    \number.17.GlobalRests
-                    \number.18.GlobalRests
-                    \number.19.GlobalRests
-                    \number.20.GlobalRests
-                    \number.21.GlobalRests
-                    \number.22.GlobalRests
-                    \number.23.GlobalRests
-                    \number.24.GlobalRests
-                    \number.25.GlobalRests
-                    \number.26.GlobalRests
-                    \number.27.GlobalRests
-                    \number.28.GlobalRests
-                    \number.29.GlobalRests
-                    \number.30.GlobalRests
+                    \number.01.Rests
+                    \number.02.Rests
+                    \number.03.Rests
+                    \number.04.Rests
+                    \number.05.Rests
+                    \number.06.Rests
+                    \number.07.Rests
+                    \number.08.Rests
+                    \number.09.Rests
+                    \number.10.Rests
+                    \number.11.Rests
+                    \number.12.Rests
+                    \number.13.Rests
+                    \number.14.Rests
+                    \number.15.Rests
+                    \number.16.Rests
+                    \number.17.Rests
+                    \number.18.Rests
+                    \number.19.Rests
+                    \number.20.Rests
+                    \number.21.Rests
+                    \number.22.Rests
+                    \number.23.Rests
+                    \number.24.Rests
+                    \number.25.Rests
+                    \number.26.Rests
+                    \number.27.Rests
+                    \number.28.Rests
+                    \number.29.Rests
+                    \number.30.Rests
                 }
-                \context GlobalSkips = "GlobalSkips"
+                \context GlobalSkips = "Skips"
                 {
-                    \number.01.GlobalSkips
-                    \number.02.GlobalSkips
-                    \number.03.GlobalSkips
-                    \number.04.GlobalSkips
-                    \number.05.GlobalSkips
-                    \number.06.GlobalSkips
-                    \number.07.GlobalSkips
-                    \number.08.GlobalSkips
-                    \number.09.GlobalSkips
-                    \number.10.GlobalSkips
-                    \number.11.GlobalSkips
-                    \number.12.GlobalSkips
-                    \number.13.GlobalSkips
-                    \number.14.GlobalSkips
-                    \number.15.GlobalSkips
-                    \number.16.GlobalSkips
-                    \number.17.GlobalSkips
-                    \number.18.GlobalSkips
-                    \number.19.GlobalSkips
-                    \number.20.GlobalSkips
-                    \number.21.GlobalSkips
-                    \number.22.GlobalSkips
-                    \number.23.GlobalSkips
-                    \number.24.GlobalSkips
-                    \number.25.GlobalSkips
-                    \number.26.GlobalSkips
-                    \number.27.GlobalSkips
-                    \number.28.GlobalSkips
-                    \number.29.GlobalSkips
-                    \number.30.GlobalSkips
+                    \number.01.Skips
+                    \number.02.Skips
+                    \number.03.Skips
+                    \number.04.Skips
+                    \number.05.Skips
+                    \number.06.Skips
+                    \number.07.Skips
+                    \number.08.Skips
+                    \number.09.Skips
+                    \number.10.Skips
+                    \number.11.Skips
+                    \number.12.Skips
+                    \number.13.Skips
+                    \number.14.Skips
+                    \number.15.Skips
+                    \number.16.Skips
+                    \number.17.Skips
+                    \number.18.Skips
+                    \number.19.Skips
+                    \number.20.Skips
+                    \number.21.Skips
+                    \number.22.Skips
+                    \number.23.Skips
+                    \number.24.Skips
+                    \number.25.Skips
+                    \number.26.Skips
+                    \number.27.Skips
+                    \number.28.Skips
+                    \number.29.Skips
+                    \number.30.Skips
                 }
             >>
             \context MusicContext = "MusicContext"
@@ -138,65 +138,65 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Flutes.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Flutes.Staff.1"
                             { \number.14.Flutes.Staff.1 }
                             \context Staff = "Flutes.Staff.1"
                             { \number.15.Flutes.Staff.1 }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.19.GlobalRests }
+                            { \number.19.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.23.GlobalRests }
+                            { \number.23.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.24.GlobalRests }
+                            { \number.24.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.25.GlobalRests }
+                            { \number.25.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.26.GlobalRests }
+                            { \number.26.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Flutes.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Flutes.Staff.2"
@@ -214,65 +214,65 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Flutes.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Flutes.Staff.2"
                             { \number.14.Flutes.Staff.2 }
                             \context Staff = "Flutes.Staff.2"
                             { \number.15.Flutes.Staff.2 }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.19.GlobalRests }
+                            { \number.19.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.23.GlobalRests }
+                            { \number.23.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.24.GlobalRests }
+                            { \number.24.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.25.GlobalRests }
+                            { \number.25.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.26.GlobalRests }
+                            { \number.26.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Flutes.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "OboeFamilySquareStaffGroup"
@@ -299,65 +299,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \number.01.GlobalRests
+                                \number.01.Rests
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.02.GlobalRests }
+                                { \number.02.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.03.GlobalRests }
+                                { \number.03.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.04.GlobalRests }
+                                { \number.04.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.05.GlobalRests }
+                                { \number.05.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.06.GlobalRests }
+                                { \number.06.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.07.GlobalRests }
+                                { \number.07.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.08.GlobalRests }
+                                { \number.08.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.09.GlobalRests }
+                                { \number.09.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.10.GlobalRests }
+                                { \number.10.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.11.GlobalRests }
+                                { \number.11.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.12.GlobalRests }
+                                { \number.12.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.13.GlobalRests }
+                                { \number.13.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.14.GlobalRests }
+                                { \number.14.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.15.GlobalRests }
+                                { \number.15.Rests }
                                 \context Staff = "Oboe.Staff.1"
                                 { \number.16.Oboe.Staff.1 }
                                 \context Staff = "Oboe.Staff.1"
                                 { \number.17.Oboe.Staff.1 }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.18.GlobalRests }
+                                { \number.18.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.19.GlobalRests }
+                                { \number.19.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.20.GlobalRests }
+                                { \number.20.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.21.GlobalRests }
+                                { \number.21.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.22.GlobalRests }
+                                { \number.22.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.23.GlobalRests }
+                                { \number.23.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.24.GlobalRests }
+                                { \number.24.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.25.GlobalRests }
+                                { \number.25.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.26.GlobalRests }
+                                { \number.26.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.27.GlobalRests }
+                                { \number.27.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.28.GlobalRests }
+                                { \number.28.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.29.GlobalRests }
+                                { \number.29.Rests }
                                 \context Staff = "Oboe.Staff.1"
-                                { \number.30.GlobalRests }
+                                { \number.30.Rests }
                             }
                         >>
                         \context StaffGroup = "English_HornSquareStaffGroup"
@@ -378,65 +378,65 @@
                                         }
                                 }
                                 \clef "treble"
-                                \number.01.GlobalRests
+                                \number.01.Rests
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.02.GlobalRests }
+                                { \number.02.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.03.GlobalRests }
+                                { \number.03.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.04.GlobalRests }
+                                { \number.04.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.05.GlobalRests }
+                                { \number.05.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.06.GlobalRests }
+                                { \number.06.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.07.GlobalRests }
+                                { \number.07.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.08.GlobalRests }
+                                { \number.08.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.09.GlobalRests }
+                                { \number.09.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.10.GlobalRests }
+                                { \number.10.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.11.GlobalRests }
+                                { \number.11.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.12.GlobalRests }
+                                { \number.12.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.13.GlobalRests }
+                                { \number.13.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.14.GlobalRests }
+                                { \number.14.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.15.GlobalRests }
+                                { \number.15.Rests }
                                 \context Staff = "English_Horn.Staff.1"
                                 { \number.16.English_Horn.Staff.1 }
                                 \context Staff = "English_Horn.Staff.1"
                                 { \number.17.English_Horn.Staff.1 }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.18.GlobalRests }
+                                { \number.18.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.19.GlobalRests }
+                                { \number.19.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.20.GlobalRests }
+                                { \number.20.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.21.GlobalRests }
+                                { \number.21.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.22.GlobalRests }
+                                { \number.22.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.23.GlobalRests }
+                                { \number.23.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.24.GlobalRests }
+                                { \number.24.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.25.GlobalRests }
+                                { \number.25.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.26.GlobalRests }
+                                { \number.26.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.27.GlobalRests }
+                                { \number.27.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.28.GlobalRests }
+                                { \number.28.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.29.GlobalRests }
+                                { \number.29.Rests }
                                 \context Staff = "English_Horn.Staff.1"
-                                { \number.30.GlobalRests }
+                                { \number.30.Rests }
                             }
                         >>
                     >>
@@ -468,11 +468,11 @@
                                         }
                                 }
                                 \clef "treble"
-                                \number.01.GlobalRests
+                                \number.01.Rests
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.02.GlobalRests }
+                                { \number.02.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.03.GlobalRests }
+                                { \number.03.Rests }
                                 \context Staff = "Clarinet.Staff.1"
                                 { \number.04.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
@@ -496,37 +496,37 @@
                                 \context Staff = "Clarinet.Staff.1"
                                 { \number.14.Clarinet.Staff.1 }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.15.GlobalRests }
+                                { \number.15.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.16.GlobalRests }
+                                { \number.16.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.17.GlobalRests }
+                                { \number.17.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.18.GlobalRests }
+                                { \number.18.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.19.GlobalRests }
+                                { \number.19.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.20.GlobalRests }
+                                { \number.20.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.21.GlobalRests }
+                                { \number.21.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.22.GlobalRests }
+                                { \number.22.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.23.GlobalRests }
+                                { \number.23.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.24.GlobalRests }
+                                { \number.24.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.25.GlobalRests }
+                                { \number.25.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.26.GlobalRests }
+                                { \number.26.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.27.GlobalRests }
+                                { \number.27.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.28.GlobalRests }
+                                { \number.28.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.29.GlobalRests }
+                                { \number.29.Rests }
                                 \context Staff = "Clarinet.Staff.1"
-                                { \number.30.GlobalRests }
+                                { \number.30.Rests }
                             }
                         >>
                         \context StaffGroup = "Bass_ClarinetSquareStaffGroup"
@@ -547,19 +547,19 @@
                                         }
                                 }
                                 \clef "treble"
-                                \number.01.GlobalRests
+                                \number.01.Rests
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.02.GlobalRests }
+                                { \number.02.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.03.GlobalRests }
+                                { \number.03.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.04.GlobalRests }
+                                { \number.04.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.05.GlobalRests }
+                                { \number.05.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.06.GlobalRests }
+                                { \number.06.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.07.GlobalRests }
+                                { \number.07.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
                                 { \number.08.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
@@ -567,9 +567,9 @@
                                 \context Staff = "Bass_Clarinet.Staff.1"
                                 { \number.10.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.11.GlobalRests }
+                                { \number.11.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.12.GlobalRests }
+                                { \number.12.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
                                 { \number.13.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
@@ -577,35 +577,35 @@
                                 \context Staff = "Bass_Clarinet.Staff.1"
                                 { \number.15.Bass_Clarinet.Staff.1 }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.16.GlobalRests }
+                                { \number.16.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.17.GlobalRests }
+                                { \number.17.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.18.GlobalRests }
+                                { \number.18.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.19.GlobalRests }
+                                { \number.19.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.20.GlobalRests }
+                                { \number.20.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.21.GlobalRests }
+                                { \number.21.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.22.GlobalRests }
+                                { \number.22.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.23.GlobalRests }
+                                { \number.23.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.24.GlobalRests }
+                                { \number.24.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.25.GlobalRests }
+                                { \number.25.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.26.GlobalRests }
+                                { \number.26.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.27.GlobalRests }
+                                { \number.27.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.28.GlobalRests }
+                                { \number.28.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.29.GlobalRests }
+                                { \number.29.Rests }
                                 \context Staff = "Bass_Clarinet.Staff.1"
-                                { \number.30.GlobalRests }
+                                { \number.30.Rests }
                             }
                         >>
                     >>
@@ -627,65 +627,65 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Bassoon.Staff.1"
                             { \number.16.Bassoon.Staff.1 }
                             \context Staff = "Bassoon.Staff.1"
                             { \number.17.Bassoon.Staff.1 }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.19.GlobalRests }
+                            { \number.19.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.23.GlobalRests }
+                            { \number.23.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.24.GlobalRests }
+                            { \number.24.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.25.GlobalRests }
+                            { \number.25.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.26.GlobalRests }
+                            { \number.26.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Bassoon.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                 >>
@@ -713,23 +713,23 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Horn.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Horn.Staff.1"
                             { \number.04.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Horn.Staff.1"
                             { \number.10.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
@@ -737,13 +737,13 @@
                             \context Staff = "Horn.Staff.1"
                             { \number.12.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Horn.Staff.1"
                             { \number.17.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
@@ -751,11 +751,11 @@
                             \context Staff = "Horn.Staff.1"
                             { \number.19.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Horn.Staff.1"
                             { \number.23.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
@@ -765,13 +765,13 @@
                             \context Staff = "Horn.Staff.1"
                             { \number.26.Horn.Staff.1 }
                             \context Staff = "Horn.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Horn.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Horn.Staff.2"
@@ -789,23 +789,23 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Horn.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Horn.Staff.2"
                             { \number.04.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Horn.Staff.2"
                             { \number.10.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
@@ -813,13 +813,13 @@
                             \context Staff = "Horn.Staff.2"
                             { \number.12.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Horn.Staff.2"
                             { \number.17.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
@@ -827,11 +827,11 @@
                             \context Staff = "Horn.Staff.2"
                             { \number.19.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Horn.Staff.2"
                             { \number.23.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
@@ -841,13 +841,13 @@
                             \context Staff = "Horn.Staff.2"
                             { \number.26.Horn.Staff.2 }
                             \context Staff = "Horn.Staff.2"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Horn.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "TrumpetSquareStaffGroup"
@@ -872,23 +872,23 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Trumpet.Staff.1"
                             { \number.04.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Trumpet.Staff.1"
                             { \number.10.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
@@ -896,13 +896,13 @@
                             \context Staff = "Trumpet.Staff.1"
                             { \number.12.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Trumpet.Staff.1"
                             { \number.17.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
@@ -910,11 +910,11 @@
                             \context Staff = "Trumpet.Staff.1"
                             { \number.19.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Trumpet.Staff.1"
                             { \number.23.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
@@ -924,13 +924,13 @@
                             \context Staff = "Trumpet.Staff.1"
                             { \number.26.Trumpet.Staff.1 }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Trumpet.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Trumpet.Staff.2"
@@ -948,23 +948,23 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Trumpet.Staff.2"
                             { \number.04.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Trumpet.Staff.2"
                             { \number.10.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
@@ -972,13 +972,13 @@
                             \context Staff = "Trumpet.Staff.2"
                             { \number.12.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Trumpet.Staff.2"
                             { \number.17.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
@@ -986,11 +986,11 @@
                             \context Staff = "Trumpet.Staff.2"
                             { \number.19.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Trumpet.Staff.2"
                             { \number.23.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
@@ -1000,13 +1000,13 @@
                             \context Staff = "Trumpet.Staff.2"
                             { \number.26.Trumpet.Staff.2 }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Trumpet.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "TromboneSquareStaffGroup"
@@ -1031,23 +1031,23 @@
                                     }
                             }
                             \clef "tenor"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Trombone.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Trombone.Staff.1"
                             { \number.04.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Trombone.Staff.1"
                             { \number.10.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
@@ -1055,13 +1055,13 @@
                             \context Staff = "Trombone.Staff.1"
                             { \number.12.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Trombone.Staff.1"
                             { \number.17.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
@@ -1069,11 +1069,11 @@
                             \context Staff = "Trombone.Staff.1"
                             { \number.19.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Trombone.Staff.1"
                             { \number.23.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
@@ -1083,13 +1083,13 @@
                             \context Staff = "Trombone.Staff.1"
                             { \number.26.Trombone.Staff.1 }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Trombone.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Trombone.Staff.2"
@@ -1107,23 +1107,23 @@
                                     }
                             }
                             \clef "tenor"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Trombone.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Trombone.Staff.2"
                             { \number.04.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Trombone.Staff.2"
                             { \number.10.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
@@ -1131,13 +1131,13 @@
                             \context Staff = "Trombone.Staff.2"
                             { \number.12.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Trombone.Staff.2"
                             { \number.17.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
@@ -1145,11 +1145,11 @@
                             \context Staff = "Trombone.Staff.2"
                             { \number.19.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Trombone.Staff.2"
                             { \number.23.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
@@ -1159,13 +1159,13 @@
                             \context Staff = "Trombone.Staff.2"
                             { \number.26.Trombone.Staff.2 }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Trombone.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "TubaSquareStaffGroup"
@@ -1186,49 +1186,49 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Tuba.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Tuba.Staff.1"
                             { \number.04.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Tuba.Staff.1"
                             { \number.19.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.20.GlobalRests }
+                            { \number.20.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.21.GlobalRests }
+                            { \number.21.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.22.GlobalRests }
+                            { \number.22.Rests }
                             \context Staff = "Tuba.Staff.1"
                             { \number.23.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
@@ -1238,13 +1238,13 @@
                             \context Staff = "Tuba.Staff.1"
                             { \number.26.Tuba.Staff.1 }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Tuba.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                 >>
@@ -1262,17 +1262,17 @@
                                 }
                         }
                         \clef "treble"
-                        \number.01.GlobalRests
+                        \number.01.Rests
                         \context Staff = "Piano.Staff.1"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.04.GlobalRests }
+                        { \number.04.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.05.GlobalRests }
+                        { \number.05.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.06.GlobalRests }
+                        { \number.06.Rests }
                         \context Staff = "Piano.Staff.1"
                         { \number.07.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
@@ -1292,33 +1292,33 @@
                         \context Staff = "Piano.Staff.1"
                         { \number.15.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Piano.Staff.1"
                         { \number.19.Piano.Staff.1 }
                         \context Staff = "Piano.Staff.1"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.23.GlobalRests }
+                        { \number.23.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.25.GlobalRests }
+                        { \number.25.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.26.GlobalRests }
+                        { \number.26.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.27.GlobalRests }
+                        { \number.27.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.28.GlobalRests }
+                        { \number.28.Rests }
                         \context Staff = "Piano.Staff.1"
-                        { \number.29.GlobalRests }
+                        { \number.29.Rests }
                         \context Staff = "Piano.Staff.1"
                         { \number.30.Piano.Staff.1 }
                     }
@@ -1337,17 +1337,17 @@
                                 }
                         }
                         \clef "treble"
-                        \number.01.GlobalRests
+                        \number.01.Rests
                         \context Staff = "Harp.Staff.1"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.04.GlobalRests }
+                        { \number.04.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.05.GlobalRests }
+                        { \number.05.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.06.GlobalRests }
+                        { \number.06.Rests }
                         \context Staff = "Harp.Staff.1"
                         { \number.07.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
@@ -1367,35 +1367,35 @@
                         \context Staff = "Harp.Staff.1"
                         { \number.15.Harp.Staff.1 }
                         \context Staff = "Harp.Staff.1"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.19.GlobalRests }
+                        { \number.19.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.23.GlobalRests }
+                        { \number.23.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.25.GlobalRests }
+                        { \number.25.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.26.GlobalRests }
+                        { \number.26.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.27.GlobalRests }
+                        { \number.27.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.28.GlobalRests }
+                        { \number.28.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.29.GlobalRests }
+                        { \number.29.Rests }
                         \context Staff = "Harp.Staff.1"
-                        { \number.30.GlobalRests }
+                        { \number.30.Rests }
                     }
                 >>
                 \context StaffGroup = "PercussionStaffGroup"
@@ -1405,9 +1405,9 @@
                         \clef "percussion"
                         \number.01.Percussion.Staff.1
                         \context Staff = "Percussion.Staff.1"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Percussion.Staff.1"
                         { \number.04.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
@@ -1417,15 +1417,15 @@
                         \context Staff = "Percussion.Staff.1"
                         { \number.07.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.08.GlobalRests }
+                        { \number.08.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.09.GlobalRests }
+                        { \number.09.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.10.GlobalRests }
+                        { \number.10.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.11.GlobalRests }
+                        { \number.11.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.12.GlobalRests }
+                        { \number.12.Rests }
                         \context Staff = "Percussion.Staff.1"
                         { \number.13.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
@@ -1433,27 +1433,27 @@
                         \context Staff = "Percussion.Staff.1"
                         { \number.15.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Percussion.Staff.1"
                         { \number.19.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.23.GlobalRests }
+                        { \number.23.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.25.GlobalRests }
+                        { \number.25.Rests }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.26.GlobalRests }
+                        { \number.26.Rests }
                         \context Staff = "Percussion.Staff.1"
                         { \number.27.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
@@ -1461,16 +1461,16 @@
                         \context Staff = "Percussion.Staff.1"
                         { \number.29.Percussion.Staff.1 }
                         \context Staff = "Percussion.Staff.1"
-                        { \number.30.GlobalRests }
+                        { \number.30.Rests }
                     }
                     {
                         \context Staff = "Percussion.Staff.2"
                         \clef "percussion"
                         \number.01.Percussion.Staff.2
                         \context Staff = "Percussion.Staff.2"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Percussion.Staff.2"
                         { \number.04.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
@@ -1496,23 +1496,23 @@
                         \context Staff = "Percussion.Staff.2"
                         { \number.15.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Percussion.Staff.2"
                         { \number.19.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Percussion.Staff.2"
                         { \number.23.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Percussion.Staff.2"
                         { \number.25.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
@@ -1522,9 +1522,9 @@
                         \context Staff = "Percussion.Staff.2"
                         { \number.28.Percussion.Staff.2 }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.29.GlobalRests }
+                        { \number.29.Rests }
                         \context Staff = "Percussion.Staff.2"
-                        { \number.30.GlobalRests }
+                        { \number.30.Rests }
                     }
                     {
                         \context Staff = "Percussion.Staff.3"
@@ -1542,17 +1542,17 @@
                                 }
                         }
                         \clef "percussion"
-                        \number.01.GlobalRests
+                        \number.01.Rests
                         \context Staff = "Percussion.Staff.3"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.04.GlobalRests }
+                        { \number.04.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.05.GlobalRests }
+                        { \number.05.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.06.GlobalRests }
+                        { \number.06.Rests }
                         \context Staff = "Percussion.Staff.3"
                         { \number.07.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
@@ -1572,23 +1572,23 @@
                         \context Staff = "Percussion.Staff.3"
                         { \number.15.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Percussion.Staff.3"
                         { \number.19.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.23.GlobalRests }
+                        { \number.23.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Percussion.Staff.3"
                         { \number.25.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
@@ -1598,9 +1598,9 @@
                         \context Staff = "Percussion.Staff.3"
                         { \number.28.Percussion.Staff.3 }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.29.GlobalRests }
+                        { \number.29.Rests }
                         \context Staff = "Percussion.Staff.3"
-                        { \number.30.GlobalRests }
+                        { \number.30.Rests }
                     }
                     {
                         \context Staff = "Percussion.Staff.4"
@@ -1620,51 +1620,51 @@
                         \clef "percussion"
                         \number.01.Percussion.Staff.4
                         \context Staff = "Percussion.Staff.4"
-                        { \number.02.GlobalRests }
+                        { \number.02.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.03.GlobalRests }
+                        { \number.03.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.04.GlobalRests }
+                        { \number.04.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.05.GlobalRests }
+                        { \number.05.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.06.GlobalRests }
+                        { \number.06.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.07.GlobalRests }
+                        { \number.07.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.08.GlobalRests }
+                        { \number.08.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.09.GlobalRests }
+                        { \number.09.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.10.GlobalRests }
+                        { \number.10.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.11.GlobalRests }
+                        { \number.11.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.12.GlobalRests }
+                        { \number.12.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.13.GlobalRests }
+                        { \number.13.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.14.GlobalRests }
+                        { \number.14.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.15.GlobalRests }
+                        { \number.15.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.16.GlobalRests }
+                        { \number.16.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.17.GlobalRests }
+                        { \number.17.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.18.GlobalRests }
+                        { \number.18.Rests }
                         \context Staff = "Percussion.Staff.4"
                         { \number.19.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.20.GlobalRests }
+                        { \number.20.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.21.GlobalRests }
+                        { \number.21.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.22.GlobalRests }
+                        { \number.22.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.23.GlobalRests }
+                        { \number.23.Rests }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.24.GlobalRests }
+                        { \number.24.Rests }
                         \context Staff = "Percussion.Staff.4"
                         { \number.25.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
@@ -1674,7 +1674,7 @@
                         \context Staff = "Percussion.Staff.4"
                         { \number.28.Percussion.Staff.4 }
                         \context Staff = "Percussion.Staff.4"
-                        { \number.29.GlobalRests }
+                        { \number.29.Rests }
                         \context Staff = "Percussion.Staff.4"
                         { \number.30.Percussion.Staff.4 }
                     }
@@ -1748,7 +1748,7 @@
                             \context Staff = "First_Violins.Staff.1"
                             { \number.29.First_Violins.Staff.1 }
                             \context Staff = "First_Violins.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.2"
@@ -1765,23 +1765,23 @@
                             \context Staff = "First_Violins.Staff.2"
                             { \number.06.First_Violins.Staff.2 }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.2"
                             { \number.16.First_Violins.Staff.2 }
                             \context Staff = "First_Violins.Staff.2"
@@ -1811,7 +1811,7 @@
                             \context Staff = "First_Violins.Staff.2"
                             { \number.29.First_Violins.Staff.2 }
                             \context Staff = "First_Violins.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.3"
@@ -1829,35 +1829,35 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.3"
                             { \number.16.First_Violins.Staff.3 }
                             \context Staff = "First_Violins.Staff.3"
@@ -1887,7 +1887,7 @@
                             \context Staff = "First_Violins.Staff.3"
                             { \number.29.First_Violins.Staff.3 }
                             \context Staff = "First_Violins.Staff.3"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.4"
@@ -1905,41 +1905,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.4"
                             { \number.19.First_Violins.Staff.4 }
                             \context Staff = "First_Violins.Staff.4"
@@ -1963,7 +1963,7 @@
                             \context Staff = "First_Violins.Staff.4"
                             { \number.29.First_Violins.Staff.4 }
                             \context Staff = "First_Violins.Staff.4"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.5"
@@ -1981,41 +1981,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.5"
                             { \number.19.First_Violins.Staff.5 }
                             \context Staff = "First_Violins.Staff.5"
@@ -2039,7 +2039,7 @@
                             \context Staff = "First_Violins.Staff.5"
                             { \number.29.First_Violins.Staff.5 }
                             \context Staff = "First_Violins.Staff.5"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.6"
@@ -2057,41 +2057,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.6"
                             { \number.19.First_Violins.Staff.6 }
                             \context Staff = "First_Violins.Staff.6"
@@ -2115,7 +2115,7 @@
                             \context Staff = "First_Violins.Staff.6"
                             { \number.29.First_Violins.Staff.6 }
                             \context Staff = "First_Violins.Staff.6"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.7"
@@ -2133,41 +2133,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.7"
                             { \number.19.First_Violins.Staff.7 }
                             \context Staff = "First_Violins.Staff.7"
@@ -2191,7 +2191,7 @@
                             \context Staff = "First_Violins.Staff.7"
                             { \number.29.First_Violins.Staff.7 }
                             \context Staff = "First_Violins.Staff.7"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.8"
@@ -2209,41 +2209,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.8"
                             { \number.19.First_Violins.Staff.8 }
                             \context Staff = "First_Violins.Staff.8"
@@ -2267,7 +2267,7 @@
                             \context Staff = "First_Violins.Staff.8"
                             { \number.29.First_Violins.Staff.8 }
                             \context Staff = "First_Violins.Staff.8"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "First_Violins.Staff.9"
@@ -2285,41 +2285,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "First_Violins.Staff.9"
                             { \number.19.First_Violins.Staff.9 }
                             \context Staff = "First_Violins.Staff.9"
@@ -2343,7 +2343,7 @@
                             \context Staff = "First_Violins.Staff.9"
                             { \number.29.First_Violins.Staff.9 }
                             \context Staff = "First_Violins.Staff.9"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "Second_ViolinSquareStaffGroup"
@@ -2413,7 +2413,7 @@
                             \context Staff = "Second_Violin.Staff.1"
                             { \number.29.Second_Violin.Staff.1 }
                             \context Staff = "Second_Violin.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.2"
@@ -2430,23 +2430,23 @@
                             \context Staff = "Second_Violin.Staff.2"
                             { \number.06.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.2"
                             { \number.16.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
@@ -2476,7 +2476,7 @@
                             \context Staff = "Second_Violin.Staff.2"
                             { \number.29.Second_Violin.Staff.2 }
                             \context Staff = "Second_Violin.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.3"
@@ -2494,41 +2494,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.3"
                             { \number.19.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
@@ -2552,7 +2552,7 @@
                             \context Staff = "Second_Violin.Staff.3"
                             { \number.29.Second_Violin.Staff.3 }
                             \context Staff = "Second_Violin.Staff.3"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.4"
@@ -2570,41 +2570,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.4"
                             { \number.19.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
@@ -2628,7 +2628,7 @@
                             \context Staff = "Second_Violin.Staff.4"
                             { \number.29.Second_Violin.Staff.4 }
                             \context Staff = "Second_Violin.Staff.4"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.5"
@@ -2646,41 +2646,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.5"
                             { \number.19.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
@@ -2704,7 +2704,7 @@
                             \context Staff = "Second_Violin.Staff.5"
                             { \number.29.Second_Violin.Staff.5 }
                             \context Staff = "Second_Violin.Staff.5"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.6"
@@ -2722,41 +2722,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.6"
                             { \number.19.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
@@ -2780,7 +2780,7 @@
                             \context Staff = "Second_Violin.Staff.6"
                             { \number.29.Second_Violin.Staff.6 }
                             \context Staff = "Second_Violin.Staff.6"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.7"
@@ -2798,41 +2798,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.7"
                             { \number.19.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
@@ -2856,7 +2856,7 @@
                             \context Staff = "Second_Violin.Staff.7"
                             { \number.29.Second_Violin.Staff.7 }
                             \context Staff = "Second_Violin.Staff.7"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.8"
@@ -2874,41 +2874,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.8"
                             { \number.19.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
@@ -2932,7 +2932,7 @@
                             \context Staff = "Second_Violin.Staff.8"
                             { \number.29.Second_Violin.Staff.8 }
                             \context Staff = "Second_Violin.Staff.8"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Second_Violin.Staff.9"
@@ -2950,41 +2950,41 @@
                                     }
                             }
                             \clef "treble"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Second_Violin.Staff.9"
                             { \number.19.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
@@ -3008,7 +3008,7 @@
                             \context Staff = "Second_Violin.Staff.9"
                             { \number.29.Second_Violin.Staff.9 }
                             \context Staff = "Second_Violin.Staff.9"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "ViolaSquareStaffGroup"
@@ -3078,7 +3078,7 @@
                             \context Staff = "Viola.Staff.1"
                             { \number.29.Viola.Staff.1 }
                             \context Staff = "Viola.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.2"
@@ -3095,23 +3095,23 @@
                             \context Staff = "Viola.Staff.2"
                             { \number.06.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.2"
                             { \number.16.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
@@ -3141,7 +3141,7 @@
                             \context Staff = "Viola.Staff.2"
                             { \number.29.Viola.Staff.2 }
                             \context Staff = "Viola.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.3"
@@ -3159,41 +3159,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.3"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.3"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.3"
                             { \number.19.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
@@ -3217,7 +3217,7 @@
                             \context Staff = "Viola.Staff.3"
                             { \number.29.Viola.Staff.3 }
                             \context Staff = "Viola.Staff.3"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.4"
@@ -3235,41 +3235,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.4"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.4"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.4"
                             { \number.19.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
@@ -3293,7 +3293,7 @@
                             \context Staff = "Viola.Staff.4"
                             { \number.29.Viola.Staff.4 }
                             \context Staff = "Viola.Staff.4"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.5"
@@ -3311,41 +3311,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.5"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.5"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.5"
                             { \number.19.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
@@ -3369,7 +3369,7 @@
                             \context Staff = "Viola.Staff.5"
                             { \number.29.Viola.Staff.5 }
                             \context Staff = "Viola.Staff.5"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.6"
@@ -3387,41 +3387,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.6"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.6"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.6"
                             { \number.19.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
@@ -3445,7 +3445,7 @@
                             \context Staff = "Viola.Staff.6"
                             { \number.29.Viola.Staff.6 }
                             \context Staff = "Viola.Staff.6"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.7"
@@ -3463,41 +3463,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.7"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.7"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.7"
                             { \number.19.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
@@ -3521,7 +3521,7 @@
                             \context Staff = "Viola.Staff.7"
                             { \number.29.Viola.Staff.7 }
                             \context Staff = "Viola.Staff.7"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.8"
@@ -3539,41 +3539,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.8"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.8"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.8"
                             { \number.19.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
@@ -3597,7 +3597,7 @@
                             \context Staff = "Viola.Staff.8"
                             { \number.29.Viola.Staff.8 }
                             \context Staff = "Viola.Staff.8"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Viola.Staff.9"
@@ -3615,41 +3615,41 @@
                                     }
                             }
                             \clef "alto"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Viola.Staff.9"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Viola.Staff.9"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Viola.Staff.9"
                             { \number.19.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
@@ -3673,7 +3673,7 @@
                             \context Staff = "Viola.Staff.9"
                             { \number.29.Viola.Staff.9 }
                             \context Staff = "Viola.Staff.9"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "CelloSquareStaffGroup"
@@ -3743,7 +3743,7 @@
                             \context Staff = "Cello.Staff.1"
                             { \number.29.Cello.Staff.1 }
                             \context Staff = "Cello.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.2"
@@ -3761,41 +3761,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.2"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.2"
                             { \number.19.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
@@ -3819,7 +3819,7 @@
                             \context Staff = "Cello.Staff.2"
                             { \number.29.Cello.Staff.2 }
                             \context Staff = "Cello.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.3"
@@ -3837,41 +3837,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.3"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.3"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.3"
                             { \number.19.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
@@ -3895,7 +3895,7 @@
                             \context Staff = "Cello.Staff.3"
                             { \number.29.Cello.Staff.3 }
                             \context Staff = "Cello.Staff.3"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.4"
@@ -3913,41 +3913,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.4"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.4"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.4"
                             { \number.19.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
@@ -3971,7 +3971,7 @@
                             \context Staff = "Cello.Staff.4"
                             { \number.29.Cello.Staff.4 }
                             \context Staff = "Cello.Staff.4"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.5"
@@ -3989,41 +3989,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.5"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.5"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.5"
                             { \number.19.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
@@ -4047,7 +4047,7 @@
                             \context Staff = "Cello.Staff.5"
                             { \number.29.Cello.Staff.5 }
                             \context Staff = "Cello.Staff.5"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.6"
@@ -4065,41 +4065,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.6"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.6"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.6"
                             { \number.19.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
@@ -4123,7 +4123,7 @@
                             \context Staff = "Cello.Staff.6"
                             { \number.29.Cello.Staff.6 }
                             \context Staff = "Cello.Staff.6"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Cello.Staff.7"
@@ -4141,41 +4141,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Cello.Staff.7"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Cello.Staff.7"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Cello.Staff.7"
                             { \number.19.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
@@ -4199,7 +4199,7 @@
                             \context Staff = "Cello.Staff.7"
                             { \number.29.Cello.Staff.7 }
                             \context Staff = "Cello.Staff.7"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                     \context StaffGroup = "ContrabassSquareStaffGroup"
@@ -4224,17 +4224,17 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Contrabass.Staff.1"
                             { \number.07.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
@@ -4254,11 +4254,11 @@
                             \context Staff = "Contrabass.Staff.1"
                             { \number.15.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Contrabass.Staff.1"
                             { \number.19.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
@@ -4274,15 +4274,15 @@
                             \context Staff = "Contrabass.Staff.1"
                             { \number.25.Contrabass.Staff.1 }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.26.GlobalRests }
+                            { \number.26.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Contrabass.Staff.1"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Contrabass.Staff.2"
@@ -4296,11 +4296,11 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Contrabass.Staff.2"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Contrabass.Staff.2"
                             { \number.04.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
@@ -4350,11 +4350,11 @@
                             \context Staff = "Contrabass.Staff.2"
                             { \number.27.Contrabass.Staff.2 }
                             \context Staff = "Contrabass.Staff.2"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Contrabass.Staff.2"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                         {
                             \context Staff = "Contrabass.Staff.3"
@@ -4372,41 +4372,41 @@
                                     }
                             }
                             \clef "bass"
-                            \number.01.GlobalRests
+                            \number.01.Rests
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.02.GlobalRests }
+                            { \number.02.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.03.GlobalRests }
+                            { \number.03.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.04.GlobalRests }
+                            { \number.04.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.05.GlobalRests }
+                            { \number.05.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.06.GlobalRests }
+                            { \number.06.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.07.GlobalRests }
+                            { \number.07.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.08.GlobalRests }
+                            { \number.08.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.09.GlobalRests }
+                            { \number.09.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.10.GlobalRests }
+                            { \number.10.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.11.GlobalRests }
+                            { \number.11.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.12.GlobalRests }
+                            { \number.12.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.13.GlobalRests }
+                            { \number.13.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.14.GlobalRests }
+                            { \number.14.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.15.GlobalRests }
+                            { \number.15.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.16.GlobalRests }
+                            { \number.16.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.17.GlobalRests }
+                            { \number.17.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.18.GlobalRests }
+                            { \number.18.Rests }
                             \context Staff = "Contrabass.Staff.3"
                             { \number.19.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
@@ -4422,15 +4422,15 @@
                             \context Staff = "Contrabass.Staff.3"
                             { \number.25.Contrabass.Staff.3 }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.26.GlobalRests }
+                            { \number.26.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.27.GlobalRests }
+                            { \number.27.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.28.GlobalRests }
+                            { \number.28.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.29.GlobalRests }
+                            { \number.29.Rests }
                             \context Staff = "Contrabass.Staff.3"
-                            { \number.30.GlobalRests }
+                            { \number.30.Rests }
                         }
                     >>
                 >>
