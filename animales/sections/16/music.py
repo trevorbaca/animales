@@ -270,7 +270,7 @@ commands(
 
 commands(
     "eh",
-    library.parts("English_Horn"),
+    library.parts("EnglishHorn"),
 )
 
 # bsn1, bsn2
@@ -361,7 +361,7 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.dynamic("f"),
-    library.parts("First_Violins", 18),
+    library.parts("FirstViolins", 18),
 )
 
 for voice_name, members in voice_to_members.items():

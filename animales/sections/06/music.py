@@ -185,13 +185,13 @@ commands(
     "1vn1",
     library.short_instrument_name("Vni. I"),
     baca.not_parts(baca.one_voice()),
-    library.parts("First_Violins"),
+    library.parts("FirstViolins"),
 )
 
 commands(
     "2vn1",
     library.short_instrument_name("Vni. II"),
-    library.parts("Second_Violin"),
+    library.parts("SecondViolin"),
 )
 
 commands(

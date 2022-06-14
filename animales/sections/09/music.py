@@ -191,7 +191,7 @@ commands(
     ),
     baca.pitch("A2"),
     baca.dynamic("p"),
-    library.parts("Bass_Clarinet"),
+    library.parts("BassClarinet"),
 )
 
 # pf
@@ -249,12 +249,12 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("First_Violins"),
+    library.parts("FirstViolins"),
 )
 
 commands(
     "2vn1",
-    library.parts("Second_Violin"),
+    library.parts("SecondViolin"),
 )
 
 commands(
@@ -269,8 +269,8 @@ commands(
 
 
 most_strings = [
-    "First_Violins.Rests.1",
-    "Second_Violin.Rests.1",
+    "FirstViolins.Rests.1",
+    "SecondViolin.Rests.1",
     "Viola.Rests.1",
     "Cello.Rests.1",
     "Contrabass.Rests.3",
@@ -287,7 +287,7 @@ commands(
 )
 
 commands(
-    ("First_Violins.Rests.1", 4),
+    ("FirstViolins.Rests.1", 4),
     baca.not_parts(
         baca.markup(
             r"\animales-strings-suddenly-ripped-off-markup",

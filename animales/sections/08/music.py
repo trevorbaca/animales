@@ -187,7 +187,7 @@ commands(
     baca.instrument(instruments["BassClarinet"]),
     library.short_instrument_name("B. cl."),
     baca.clef("treble"),
-    library.parts("Bass_Clarinet"),
+    library.parts("BassClarinet"),
 )
 
 commands(
@@ -248,7 +248,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("First_Violins"),
+    library.parts("FirstViolins"),
 )
 
 commands(
@@ -262,7 +262,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("Second_Violin"),
+    library.parts("SecondViolin"),
 )
 
 commands(

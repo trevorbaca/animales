@@ -182,7 +182,7 @@ commands(
         "f > p",
         selector=library.leaves_in_measure(-1, lleak=True),
     ),
-    library.parts("First_Violins", 1),
+    library.parts("FirstViolins", 1),
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)

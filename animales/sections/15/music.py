@@ -335,7 +335,7 @@ commands(
         "niente o< p",
         selector=lambda _: baca.select.leaves(_)[2:4],
     ),
-    library.parts("Bass_Clarinet"),
+    library.parts("BassClarinet"),
 )
 
 # pf
@@ -447,7 +447,7 @@ commands(
 
 commands(
     "1vn2",
-    library.parts("First_Violins", 1),
+    library.parts("FirstViolins", 1),
 )
 
 commands(
@@ -460,12 +460,12 @@ commands(
 commands(
     "1vn1",
     baca.not_parts(baca.voice_two()),
-    library.parts("First_Violins", (2, 18)),
+    library.parts("FirstViolins", (2, 18)),
 )
 
 commands(
     "2vn1",
-    library.parts("Second_Violin"),
+    library.parts("SecondViolin"),
 )
 
 commands(
@@ -479,14 +479,14 @@ commands(
 )
 
 most_strings = [
-    "Second_Violin.Rests.1",
+    "SecondViolin.Rests.1",
     "Viola.Rests.1",
     "Cello.Rests.1",
     "Contrabass.Rests.3",
 ]
 
 commands(
-    ("First_Violins.Rests.1", 4),
+    ("FirstViolins.Rests.1", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
