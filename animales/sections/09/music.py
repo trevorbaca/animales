@@ -269,11 +269,11 @@ commands(
 
 
 most_strings = [
-    "FirstViolins.Rests.1",
-    "SecondViolin.Rests.1",
-    "Viola.Rests.1",
-    "Cello.Rests.1",
-    "Contrabass.Rests.3",
+    "FirstViolins.1.Rests",
+    "SecondViolin.1.Rests",
+    "Viola.1.Rests",
+    "Cello.1.Rests",
+    "Contrabass.3.Rests",
 ]
 
 commands(
@@ -287,7 +287,7 @@ commands(
 )
 
 commands(
-    ("FirstViolins.Rests.1", 4),
+    ("FirstViolins.1.Rests", 4),
     baca.not_parts(
         baca.markup(
             r"\animales-strings-suddenly-ripped-off-markup",
