@@ -107,19 +107,19 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "First_Violins.Staff.1"
+                        \context Staff = "FirstViolins.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.3.First_Violins.Staff.1 }
+                        { \number.3.FirstViolins.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "First_Violins.Staff.2"
+                        \context Staff = "FirstViolins.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.3.First_Violins.Staff.2 }
+                        { \number.3.FirstViolins.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 
@@ -147,19 +147,19 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Second_Violin.Staff.1"
+                        \context Staff = "SecondViolin.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.3.Second_Violin.Staff.1 }
+                        { \number.3.SecondViolin.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Second_Violin.Staff.2"
+                        \context Staff = "SecondViolin.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.3.Second_Violin.Staff.2 }
+                        { \number.3.SecondViolin.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 

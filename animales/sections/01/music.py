@@ -58,20 +58,17 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], man
 
 # PERCUSSION
 
-commands(
-    "perc1",
-    baca.make_mmrests(),
-)
+voice = score["Percussion.Music.1"]
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
-commands(
-    "perc2",
-    baca.make_mmrests(),
-)
+voice = score["Percussion.Music.2"]
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
-commands(
-    "perc4",
-    baca.make_mmrests(),
-)
+voice = score["Percussion.Music.4"]
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # STRINGS
 
