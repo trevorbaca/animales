@@ -138,7 +138,7 @@ def _make_staves(
             staff.append(voice)
         else:
             for voice_number in voices:
-                voice = abjad.Voice(name=f"{name}.Music.{voice_number}", tag=tag)
+                voice = abjad.Voice(name=f"{name}.{voice_number}.Music", tag=tag)
                 staff.append(voice)
         staves.append(staff)
     return staves
@@ -216,62 +216,62 @@ def allows_instrument(staff_name, instrument):
 
 def assign_brass_sforzando_parts(commands, omit_tuba=False):
     commands(
-        "Horn.Music.1",
+        "Horn.1.Music",
         parts("Horn", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Horn.Music.3",
+        "Horn.3.Music",
         parts("Horn", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Horn.Music.2",
+        "Horn.2.Music",
         parts("Horn", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Horn.Music.4",
+        "Horn.4.Music",
         parts("Horn", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trumpet.Music.1",
+        "Trumpet.1.Music",
         parts("Trumpet", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trumpet.Music.3",
+        "Trumpet.3.Music",
         parts("Trumpet", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trumpet.Music.2",
+        "Trumpet.2.Music",
         parts("Trumpet", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trumpet.Music.4",
+        "Trumpet.4.Music",
         parts("Trumpet", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trombone.Music.1",
+        "Trombone.1.Music",
         parts("Trombone", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trombone.Music.3",
+        "Trombone.3.Music",
         parts("Trombone", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trombone.Music.2",
+        "Trombone.2.Music",
         parts("Trombone", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trombone.Music.4",
+        "Trombone.4.Music",
         parts("Trombone", 4),
         baca.not_parts(baca.voice_two()),
     )
@@ -284,17 +284,17 @@ def assign_brass_sforzando_parts(commands, omit_tuba=False):
 
 def assign_trill_parts(commands, *, exclude_first_violin=False):
     voice_to_members = {
-        "FirstViolins.Music.1": (1, 10),
-        "FirstViolins.Music.3": (11, 18),
-        "SecondViolin.Music.1": (1, 10),
-        "SecondViolin.Music.3": (11, 18),
-        "Viola.Music.1": (1, 10),
-        "Viola.Music.3": (11, 18),
-        "Cello.Music.1": "all",
+        "FirstViolins.1.Music": (1, 10),
+        "FirstViolins.3.Music": (11, 18),
+        "SecondViolin.1.Music": (1, 10),
+        "SecondViolin.3.Music": (11, 18),
+        "Viola.1.Music": (1, 10),
+        "Viola.3.Music": (11, 18),
+        "Cello.1.Music": "all",
     }
     for voice, members in voice_to_members.items():
         section = voice_to_section(voice)
-        if voice == "FirstViolins.Music.1" and exclude_first_violin:
+        if voice == "FirstViolins.1.Music" and exclude_first_violin:
             command = parts(section, (2, 10))
         elif members == "all":
             command = parts(section)
@@ -426,7 +426,7 @@ def make_battuti_material(
         if omit_contrabasses and section == "Contrabass":
             continue
         for member in range(1, members + 1):
-            voice = f"{section}.Music.{member}"
+            voice = f"{section}.{member}.Music"
             rhythm = make_clb_rhythm(section, member, counts, wrap)
             commands(
                 (voice, range_),
@@ -443,7 +443,7 @@ def make_battuti_material(
         if omit_contrabasses and section == "Contrabass":
             continue
         for member in range(1, members + 1):
-            voice = f"{section}.Music.{member}"
+            voice = f"{section}.{member}.Music"
             commands(
                 voice,
                 baca.reapply_persistent_indicators(),
@@ -525,18 +525,18 @@ def make_brass_sforzando_material(
     commands, range_=(1, -1), *, reapply_persistent_indicators=False
 ):
     voice_to_pitch = {
-        "Horn.Music.1": "C4",
-        "Horn.Music.2": "Gb3",
-        "Horn.Music.3": "F3",
-        "Horn.Music.4": "E3",
-        "Trumpet.Music.1": "D5",
-        "Trumpet.Music.2": "Ab4",
-        "Trumpet.Music.3": "G4",
-        "Trumpet.Music.4": "F4",
-        "Trombone.Music.1": "G4",
-        "Trombone.Music.2": "Db4",
-        "Trombone.Music.3": "C4",
-        "Trombone.Music.4": "B3",
+        "Horn.1.Music": "C4",
+        "Horn.2.Music": "Gb3",
+        "Horn.3.Music": "F3",
+        "Horn.4.Music": "E3",
+        "Trumpet.1.Music": "D5",
+        "Trumpet.2.Music": "Ab4",
+        "Trumpet.3.Music": "G4",
+        "Trumpet.4.Music": "F4",
+        "Trombone.1.Music": "G4",
+        "Trombone.2.Music": "Db4",
+        "Trombone.3.Music": "C4",
+        "Trombone.4.Music": "B3",
         "Tuba.Music": "C2",
     }
 
@@ -975,13 +975,13 @@ def make_sforzando_exchange_rhythm(this_part):
 
 def make_trill_rhythm(commands, measures=(1, -1)):
     voice_to_part = {
-        "FirstViolins.Music.1": 0,
-        "FirstViolins.Music.3": 1,
-        "SecondViolin.Music.1": 2,
-        "SecondViolin.Music.3": 3,
-        "Viola.Music.1": 4,
-        "Viola.Music.3": 5,
-        "Cello.Music.1": 6,
+        "FirstViolins.1.Music": 0,
+        "FirstViolins.3.Music": 1,
+        "SecondViolin.1.Music": 2,
+        "SecondViolin.3.Music": 3,
+        "Viola.1.Music": 4,
+        "Viola.3.Music": 5,
+        "Cello.1.Music": 6,
     }
     for voice, part in voice_to_part.items():
         commands(
@@ -1233,109 +1233,109 @@ def voice_abbreviations():
 
         >>> dictionary = animales.library.voice_abbreviations()
         >>> for item in dictionary.items(): item
-        ('fl1', 'Flutes.Music.1')
-        ('fl2', 'Flutes.Music.2')
-        ('fl3', 'Flutes.Music.3')
-        ('fl4', 'Flutes.Music.4')
+        ('fl1', 'Flutes.1.Music')
+        ('fl2', 'Flutes.2.Music')
+        ('fl3', 'Flutes.3.Music')
+        ('fl4', 'Flutes.4.Music')
         ('ob', 'Oboe.Music')
         ('eh', 'EnglishHorn.Music')
         ('cl', 'Clarinet.Music')
         ('bcl', 'BassClarinet.Music')
-        ('bsn1', 'Bassoon.Music.1')
-        ('bsn2', 'Bassoon.Music.2')
-        ('hn1', 'Horn.Music.1')
-        ('hn2', 'Horn.Music.2')
-        ('hn3', 'Horn.Music.3')
-        ('hn4', 'Horn.Music.4')
-        ('tp1', 'Trumpet.Music.1')
-        ('tp2', 'Trumpet.Music.2')
-        ('tp3', 'Trumpet.Music.3')
-        ('tp4', 'Trumpet.Music.4')
-        ('tbn1', 'Trombone.Music.1')
-        ('tbn2', 'Trombone.Music.2')
-        ('tbn3', 'Trombone.Music.3')
-        ('tbn4', 'Trombone.Music.4')
+        ('bsn1', 'Bassoon.1.Music')
+        ('bsn2', 'Bassoon.2.Music')
+        ('hn1', 'Horn.1.Music')
+        ('hn2', 'Horn.2.Music')
+        ('hn3', 'Horn.3.Music')
+        ('hn4', 'Horn.4.Music')
+        ('tp1', 'Trumpet.1.Music')
+        ('tp2', 'Trumpet.2.Music')
+        ('tp3', 'Trumpet.3.Music')
+        ('tp4', 'Trumpet.4.Music')
+        ('tbn1', 'Trombone.1.Music')
+        ('tbn2', 'Trombone.2.Music')
+        ('tbn3', 'Trombone.3.Music')
+        ('tbn4', 'Trombone.4.Music')
         ('tub', 'Tuba.Music')
         ('hp', 'Harp.Music')
         ('pf', 'Piano.Music')
-        ('perc1', 'Percussion.Music.1')
-        ('perc2', 'Percussion.Music.2')
-        ('perc3', 'Percussion.Music.3')
-        ('perc4', 'Percussion.Music.4')
-        ('1vn1', 'FirstViolins.Music.1')
-        ('1vn2', 'FirstViolins.Music.2')
-        ('1vn3', 'FirstViolins.Music.3')
-        ('1vn4', 'FirstViolins.Music.4')
-        ('1vn5', 'FirstViolins.Music.5')
-        ('1vn6', 'FirstViolins.Music.6')
-        ('1vn7', 'FirstViolins.Music.7')
-        ('1vn8', 'FirstViolins.Music.8')
-        ('1vn9', 'FirstViolins.Music.9')
-        ('1vn10', 'FirstViolins.Music.10')
-        ('1vn11', 'FirstViolins.Music.11')
-        ('1vn12', 'FirstViolins.Music.12')
-        ('1vn13', 'FirstViolins.Music.13')
-        ('1vn14', 'FirstViolins.Music.14')
-        ('1vn15', 'FirstViolins.Music.15')
-        ('1vn16', 'FirstViolins.Music.16')
-        ('1vn17', 'FirstViolins.Music.17')
-        ('1vn18', 'FirstViolins.Music.18')
-        ('2vn1', 'SecondViolin.Music.1')
-        ('2vn2', 'SecondViolin.Music.2')
-        ('2vn3', 'SecondViolin.Music.3')
-        ('2vn4', 'SecondViolin.Music.4')
-        ('2vn5', 'SecondViolin.Music.5')
-        ('2vn6', 'SecondViolin.Music.6')
-        ('2vn7', 'SecondViolin.Music.7')
-        ('2vn8', 'SecondViolin.Music.8')
-        ('2vn9', 'SecondViolin.Music.9')
-        ('2vn10', 'SecondViolin.Music.10')
-        ('2vn11', 'SecondViolin.Music.11')
-        ('2vn12', 'SecondViolin.Music.12')
-        ('2vn13', 'SecondViolin.Music.13')
-        ('2vn14', 'SecondViolin.Music.14')
-        ('2vn15', 'SecondViolin.Music.15')
-        ('2vn16', 'SecondViolin.Music.16')
-        ('2vn17', 'SecondViolin.Music.17')
-        ('2vn18', 'SecondViolin.Music.18')
-        ('va1', 'Viola.Music.1')
-        ('va2', 'Viola.Music.2')
-        ('va3', 'Viola.Music.3')
-        ('va4', 'Viola.Music.4')
-        ('va5', 'Viola.Music.5')
-        ('va6', 'Viola.Music.6')
-        ('va7', 'Viola.Music.7')
-        ('va8', 'Viola.Music.8')
-        ('va9', 'Viola.Music.9')
-        ('va10', 'Viola.Music.10')
-        ('va11', 'Viola.Music.11')
-        ('va12', 'Viola.Music.12')
-        ('va13', 'Viola.Music.13')
-        ('va14', 'Viola.Music.14')
-        ('va15', 'Viola.Music.15')
-        ('va16', 'Viola.Music.16')
-        ('va17', 'Viola.Music.17')
-        ('va18', 'Viola.Music.18')
-        ('vc1', 'Cello.Music.1')
-        ('vc2', 'Cello.Music.2')
-        ('vc3', 'Cello.Music.3')
-        ('vc4', 'Cello.Music.4')
-        ('vc5', 'Cello.Music.5')
-        ('vc6', 'Cello.Music.6')
-        ('vc7', 'Cello.Music.7')
-        ('vc8', 'Cello.Music.8')
-        ('vc9', 'Cello.Music.9')
-        ('vc10', 'Cello.Music.10')
-        ('vc11', 'Cello.Music.11')
-        ('vc12', 'Cello.Music.12')
-        ('vc13', 'Cello.Music.13')
-        ('vc14', 'Cello.Music.14')
-        ('cb1', 'Contrabass.Music.1')
-        ('cb2', 'Contrabass.Music.2')
-        ('cb3', 'Contrabass.Music.3')
-        ('cb4', 'Contrabass.Music.4')
-        ('cb5', 'Contrabass.Music.5')
-        ('cb6', 'Contrabass.Music.6')
+        ('perc1', 'Percussion.1.Music')
+        ('perc2', 'Percussion.2.Music')
+        ('perc3', 'Percussion.3.Music')
+        ('perc4', 'Percussion.4.Music')
+        ('1vn1', 'FirstViolins.1.Music')
+        ('1vn2', 'FirstViolins.2.Music')
+        ('1vn3', 'FirstViolins.3.Music')
+        ('1vn4', 'FirstViolins.4.Music')
+        ('1vn5', 'FirstViolins.5.Music')
+        ('1vn6', 'FirstViolins.6.Music')
+        ('1vn7', 'FirstViolins.7.Music')
+        ('1vn8', 'FirstViolins.8.Music')
+        ('1vn9', 'FirstViolins.9.Music')
+        ('1vn10', 'FirstViolins.10.Music')
+        ('1vn11', 'FirstViolins.11.Music')
+        ('1vn12', 'FirstViolins.12.Music')
+        ('1vn13', 'FirstViolins.13.Music')
+        ('1vn14', 'FirstViolins.14.Music')
+        ('1vn15', 'FirstViolins.15.Music')
+        ('1vn16', 'FirstViolins.16.Music')
+        ('1vn17', 'FirstViolins.17.Music')
+        ('1vn18', 'FirstViolins.18.Music')
+        ('2vn1', 'SecondViolin.1.Music')
+        ('2vn2', 'SecondViolin.2.Music')
+        ('2vn3', 'SecondViolin.3.Music')
+        ('2vn4', 'SecondViolin.4.Music')
+        ('2vn5', 'SecondViolin.5.Music')
+        ('2vn6', 'SecondViolin.6.Music')
+        ('2vn7', 'SecondViolin.7.Music')
+        ('2vn8', 'SecondViolin.8.Music')
+        ('2vn9', 'SecondViolin.9.Music')
+        ('2vn10', 'SecondViolin.10.Music')
+        ('2vn11', 'SecondViolin.11.Music')
+        ('2vn12', 'SecondViolin.12.Music')
+        ('2vn13', 'SecondViolin.13.Music')
+        ('2vn14', 'SecondViolin.14.Music')
+        ('2vn15', 'SecondViolin.15.Music')
+        ('2vn16', 'SecondViolin.16.Music')
+        ('2vn17', 'SecondViolin.17.Music')
+        ('2vn18', 'SecondViolin.18.Music')
+        ('va1', 'Viola.1.Music')
+        ('va2', 'Viola.2.Music')
+        ('va3', 'Viola.3.Music')
+        ('va4', 'Viola.4.Music')
+        ('va5', 'Viola.5.Music')
+        ('va6', 'Viola.6.Music')
+        ('va7', 'Viola.7.Music')
+        ('va8', 'Viola.8.Music')
+        ('va9', 'Viola.9.Music')
+        ('va10', 'Viola.10.Music')
+        ('va11', 'Viola.11.Music')
+        ('va12', 'Viola.12.Music')
+        ('va13', 'Viola.13.Music')
+        ('va14', 'Viola.14.Music')
+        ('va15', 'Viola.15.Music')
+        ('va16', 'Viola.16.Music')
+        ('va17', 'Viola.17.Music')
+        ('va18', 'Viola.18.Music')
+        ('vc1', 'Cello.1.Music')
+        ('vc2', 'Cello.2.Music')
+        ('vc3', 'Cello.3.Music')
+        ('vc4', 'Cello.4.Music')
+        ('vc5', 'Cello.5.Music')
+        ('vc6', 'Cello.6.Music')
+        ('vc7', 'Cello.7.Music')
+        ('vc8', 'Cello.8.Music')
+        ('vc9', 'Cello.9.Music')
+        ('vc10', 'Cello.10.Music')
+        ('vc11', 'Cello.11.Music')
+        ('vc12', 'Cello.12.Music')
+        ('vc13', 'Cello.13.Music')
+        ('vc14', 'Cello.14.Music')
+        ('cb1', 'Contrabass.1.Music')
+        ('cb2', 'Contrabass.2.Music')
+        ('cb3', 'Contrabass.3.Music')
+        ('cb4', 'Contrabass.4.Music')
+        ('cb5', 'Contrabass.5.Music')
+        ('cb6', 'Contrabass.6.Music')
 
     """
     voice_abbreviation_to_voice_name = {}
@@ -1348,7 +1348,7 @@ def voice_abbreviations():
         else:
             for n in range(1, count + 1):
                 voice_abbreviation = instrument_abbreviation + str(n)
-                voice_name = f"{instrument}.Music.{n}"
+                voice_name = f"{instrument}.{n}.Music"
                 voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
     return voice_abbreviation_to_voice_name
 
@@ -1359,19 +1359,19 @@ def voice_to_section(voice):
 
     ..  container:: example
 
-        >>> string = "EnglishHorn.Music.1"
+        >>> string = "EnglishHorn.1.Music"
         >>> animales.library.voice_to_section(string)
         'EnglishHorn'
 
-        >>> string = "FirstViolins.Music.1"
+        >>> string = "FirstViolins.1.Music"
         >>> animales.library.voice_to_section(string)
         'FirstViolins'
 
-        >>> string = "SecondViolin.Music.1"
+        >>> string = "SecondViolin.1.Music"
         >>> animales.library.voice_to_section(string)
         'SecondViolin'
 
-        >>> string = "Viola.Music.1"
+        >>> string = "Viola.1.Music"
         >>> animales.library.voice_to_section(string)
         'Viola'
 
@@ -1380,6 +1380,6 @@ def voice_to_section(voice):
     voice = voice_abbreviations().get(voice, voice)
     words = voice.split(".")
     assert "Music" in words, repr(words)
-    index = words.index("Music")
-    section = ".".join(words[:index])
+    assert len(words) == 3, repr(words)
+    section = words[0]
     return section

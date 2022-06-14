@@ -479,14 +479,14 @@ commands(
 )
 
 most_strings = [
-    "SecondViolin.Rests.1",
-    "Viola.Rests.1",
-    "Cello.Rests.1",
-    "Contrabass.Rests.3",
+    "SecondViolin.1.Rests",
+    "Viola.1.Rests",
+    "Cello.1.Rests",
+    "Contrabass.3.Rests",
 ]
 
 commands(
-    ("FirstViolins.Rests.1", 4),
+    ("FirstViolins.1.Rests", 4),
     baca.markup(
         r"\animales-suddenly-ripped-off-markup",
         selector=lambda _: abjad.select.leaf(_, 0),
