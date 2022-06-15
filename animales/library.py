@@ -1167,16 +1167,16 @@ def part_manifest():
     return baca.PartManifest(
         baca.Section(abbreviation="FL", count=4, name="Flutes"),
         baca.Section(abbreviation="OB", count=3, name="Oboe"),
-        baca.Part(section="EnglishHorn", section_abbreviation="EH"),
+        baca.Part(section="EnglishHorn"),
         baca.Section(abbreviation="CL", count=3, name="Clarinet"),
-        baca.Part(section="BassClarinet", section_abbreviation="BCL"),
+        baca.Part(section="BassClarinet"),
         baca.Section(abbreviation="BSN", count=2, name="Bassoons"),
         baca.Section(abbreviation="HN", count=4, name="Horns"),
         baca.Section(abbreviation="TP", count=4, name="Trumpets"),
         baca.Section(abbreviation="TBN", count=4, name="Trombones"),
-        baca.Part(section="Tuba", section_abbreviation="TUB"),
-        baca.Part(section="Harp", section_abbreviation="HP"),
-        baca.Part(section="Piano", section_abbreviation="PF"),
+        baca.Part(section="Tuba"),
+        baca.Part(section="Harp"),
+        baca.Part(section="Piano"),
         baca.Section(abbreviation="PERC", count=4, name="Percussion"),
         baca.Section(
             abbreviation="VN-1",
@@ -1216,7 +1216,7 @@ def part_manifest():
 # >>> animales.library.parts("Horn", 5)
 # Traceback (most recent call last):
 #    ...
-# Exception: no Part(member=5, section='Horn', section_abbreviation=None) in part manifest.
+# Exception: no Part(member=5, section='Horn') in part manifest.
 
 
 def parts(section, token=None):
