@@ -114,7 +114,7 @@
                 % COMMANDS:
 
                 % OPEN_BRACKETS:
-                \context StaffGroup = "Piano_Piano_Staff"
+                \context StaffGroup = "PianoPianoStaff"
                 <<
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
@@ -134,7 +134,7 @@
                 % COMMANDS:
 
                 % OPEN_BRACKETS:
-                \context StaffGroup = "Harp_Piano_Staff"
+                \context StaffGroup = "HarpPianoStaff"
                 <<
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
@@ -204,34 +204,34 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "SecondViolin.Staff.1"
+                    \context Staff = "SecondViolins.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \number.8.SecondViolin.Staff.1 }
+                    { \number.8.SecondViolins.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Viola.Staff.1"
+                    \context Staff = "Violas.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \number.8.Viola.Staff.1 }
+                    { \number.8.Violas.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Cello.Staff.1"
+                    \context Staff = "Cellos.Staff.1"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \number.8.Cello.Staff.1 }
+                    { \number.8.Cellos.Staff.1 }
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:
 
                     % OPEN_BRACKETS:
                       %! animales._make_square_staff_group()
-                    \context StaffGroup = "Contrabass_Square_Staff_Group"
+                    \context StaffGroup = "ContrabassSquareStaffGroup"
                       %! animales._make_square_staff_group()
                     \with
                       %! animales._make_square_staff_group()
@@ -247,19 +247,19 @@
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Contrabass.Staff.1"
+                        \context Staff = "Contrabasses.Staff.1"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.8.Contrabass.Staff.1 }
+                        { \number.8.Contrabasses.Staff.1 }
                         % ABSOLUTE_BEFORE:
                         % COMMANDS:
 
                         % OPEN_BRACKETS:
                           %! animales._make_staves()
-                        \context Staff = "Contrabass.Staff.2"
+                        \context Staff = "Contrabasses.Staff.2"
                           %! animales._make_staves()
                           %! baca.path.extern()
-                        { \number.8.Contrabass.Staff.2 }
+                        { \number.8.Contrabasses.Staff.2 }
                         % CLOSING:
                         % COMMANDS:
 

@@ -82,7 +82,7 @@
                 % COMMANDS:
 
                 % OPEN_BRACKETS:
-                \context StaffGroup = "Piano_Piano_Staff"
+                \context StaffGroup = "PianoPianoStaff"
                 <<
                     % ABSOLUTE_BEFORE:
                     % COMMANDS:

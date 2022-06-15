@@ -383,27 +383,27 @@ commands(
 
 commands(
     "2vn1",
-    library.parts("SecondViolin", (1, 10)),
+    library.parts("SecondViolins", (1, 10)),
 )
 
 commands(
     "2vn3",
-    library.parts("SecondViolin", (11, 18)),
+    library.parts("SecondViolins", (11, 18)),
 )
 
 commands(
     "va1",
-    library.parts("Viola", (1, 10)),
+    library.parts("Violas", (1, 10)),
 )
 
 commands(
     "va3",
-    library.parts("Viola", (11, 18)),
+    library.parts("Violas", (11, 18)),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
+    library.parts("Cellos"),
 )
 
 # cb3
@@ -416,7 +416,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabass"),
+    library.parts("Contrabasses"),
     baca.instrument(instruments["Contrabass"]),
     library.short_instrument_name("Cb."),
     baca.clef("bass"),

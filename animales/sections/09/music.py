@@ -254,26 +254,26 @@ commands(
 
 commands(
     "2vn1",
-    library.parts("SecondViolin"),
+    library.parts("SecondViolins"),
 )
 
 commands(
     "va1",
-    library.parts("Viola"),
+    library.parts("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
+    library.parts("Cellos"),
 )
 
 
 most_strings = [
     "FirstViolins.1.Rests",
-    "SecondViolin.1.Rests",
-    "Viola.1.Rests",
-    "Cello.1.Rests",
-    "Contrabass.3.Rests",
+    "SecondViolins.1.Rests",
+    "Violas.1.Rests",
+    "Cellos.1.Rests",
+    "Contrabasses.3.Rests",
 ]
 
 commands(
@@ -308,7 +308,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabass", (2, 6)),
+    library.parts("Contrabasses", (2, 6)),
 )
 
 # cb1 (solo)
@@ -319,7 +319,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-seventh-partial-of-d-markup"),
-    library.parts("Contrabass", 1),
+    library.parts("Contrabasses", 1),
 )
 
 if __name__ == "__main__":

@@ -191,23 +191,23 @@ commands(
 commands(
     "2vn1",
     library.short_instrument_name("Vni. II"),
-    library.parts("SecondViolin"),
+    library.parts("SecondViolins"),
 )
 
 commands(
     "va1",
     library.short_instrument_name("Vle."),
-    library.parts("Viola"),
+    library.parts("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
+    library.parts("Cellos"),
 )
 
 commands(
     "cb3",
-    library.parts("Contrabass"),
+    library.parts("Contrabasses"),
 )
 
 left_broken = ["1vn1", "2vn1", "va1", "vc1"]
