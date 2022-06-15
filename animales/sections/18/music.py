@@ -260,7 +260,7 @@ for voice, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
     voice = voice_abbreviations.get(voice, voice)
-    if voice != "FirstViolins.5.Music":
+    if voice != "FirstViolins.Voice.5.Music":
         commands(
             (voice, (1, 3)),
             baca.make_mmrests(),
@@ -281,7 +281,8 @@ for voice, items in string_parts.items():
             (voice, 12),
             baca.make_mmrests(),
         )
-    section = ".".join(voice.split(".")[:-2])
+    # section = ".".join(voice.split(".")[:-2])
+    section = voice.split(".")[0]
     members = items[0]
     commands_.append(library.parts(section, members))
     if items[1] is True:
@@ -298,7 +299,7 @@ for voice, items in string_parts.items():
         voice,
         *commands_,
     )
-    if voice == "FirstViolins.5.Music":
+    if voice == "FirstViolins.Voice.5.Music":
         continue
     commands(
         (voice, (4, 7)),
