@@ -1174,13 +1174,11 @@ def part_manifest():
         baca.Section(
             abbreviation="VN-1",
             count=18,
-            instrument="Violin",
             name="FirstViolins",
         ),
         baca.Section(
             abbreviation="VN-2",
             count=18,
-            instrument="Violin",
             name="SecondViolin",
         ),
         baca.Section(abbreviation="VA", count=18, name="Viola"),
