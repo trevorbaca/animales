@@ -265,7 +265,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Horn", 1),
+    library.parts("Horns", 1),
 )
 
 commands(
@@ -273,7 +273,7 @@ commands(
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Horn", 3),
+    library.parts("Horns", 3),
 )
 
 commands(
@@ -282,7 +282,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Horn", 2),
+    library.parts("Horns", 2),
 )
 
 commands(
@@ -290,7 +290,7 @@ commands(
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Horn", 4),
+    library.parts("Horns", 4),
 )
 
 # trumpets
@@ -301,7 +301,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Trumpet", 1),
+    library.parts("Trumpets", 1),
 )
 
 commands(
@@ -309,7 +309,7 @@ commands(
     baca.pitches("G4 A4", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Trumpet", 3),
+    library.parts("Trumpets", 3),
 )
 
 commands(
@@ -318,7 +318,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Trumpet", 2),
+    library.parts("Trumpets", 2),
 )
 
 commands(
@@ -326,7 +326,7 @@ commands(
     baca.pitches("G4 A4", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Trumpet", 4),
+    library.parts("Trumpets", 4),
 )
 
 # trombones
@@ -337,7 +337,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Trombone", 1),
+    library.parts("Trombones", 1),
 )
 
 commands(
@@ -345,7 +345,7 @@ commands(
     baca.pitches("G3 A3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Trombone", 3),
+    library.parts("Trombones", 3),
 )
 
 commands(
@@ -354,7 +354,7 @@ commands(
     baca.not_parts(baca.voice_one()),
     baca.not_parts(baca.dynamic_up()),
     crescendi,
-    library.parts("Trombone", 2),
+    library.parts("Trombones", 2),
 )
 
 commands(
@@ -362,7 +362,7 @@ commands(
     baca.pitches("G3 A3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
     crescendi,
-    library.parts("Trombone", 4),
+    library.parts("Trombones", 4),
 )
 
 # harp
