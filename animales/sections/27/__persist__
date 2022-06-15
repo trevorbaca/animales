@@ -15,7 +15,7 @@
         "Percussion.Staff.4",
         "Percussion.4.Music",
         "String_Staff_Group",
-        "FirstViolin_Square_Staff_Group",
+        "FirstViolinSquareStaffGroup",
         "FirstViolins.Staff.1",
         "FirstViolins.1.Music",
         "FirstViolins.2.Music",
@@ -43,146 +43,146 @@
         "FirstViolins.Staff.9",
         "FirstViolins.17.Music",
         "FirstViolins.18.Music",
-        "SecondViolin_Square_Staff_Group",
-        "SecondViolin.Staff.1",
-        "SecondViolin.1.Music",
-        "SecondViolin.2.Music",
-        "SecondViolin.Staff.2",
-        "SecondViolin.3.Music",
-        "SecondViolin.4.Music",
-        "SecondViolin.Staff.3",
-        "SecondViolin.5.Music",
-        "SecondViolin.6.Music",
-        "SecondViolin.Staff.4",
-        "SecondViolin.7.Music",
-        "SecondViolin.8.Music",
-        "SecondViolin.Staff.5",
-        "SecondViolin.9.Music",
-        "SecondViolin.10.Music",
-        "SecondViolin.Staff.6",
-        "SecondViolin.11.Music",
-        "SecondViolin.12.Music",
-        "SecondViolin.Staff.7",
-        "SecondViolin.13.Music",
-        "SecondViolin.14.Music",
-        "SecondViolin.Staff.8",
-        "SecondViolin.15.Music",
-        "SecondViolin.16.Music",
-        "SecondViolin.Staff.9",
-        "SecondViolin.17.Music",
-        "SecondViolin.18.Music",
-        "Viola_Square_Staff_Group",
-        "Viola.Staff.1",
-        "Viola.1.Music",
-        "Viola.2.Music",
-        "Viola.Staff.2",
-        "Viola.3.Music",
-        "Viola.4.Music",
-        "Viola.Staff.3",
-        "Viola.5.Music",
-        "Viola.6.Music",
-        "Viola.Staff.4",
-        "Viola.7.Music",
-        "Viola.8.Music",
-        "Viola.Staff.5",
-        "Viola.9.Music",
-        "Viola.10.Music",
-        "Viola.Staff.6",
-        "Viola.11.Music",
-        "Viola.12.Music",
-        "Viola.Staff.7",
-        "Viola.13.Music",
-        "Viola.14.Music",
-        "Viola.Staff.8",
-        "Viola.15.Music",
-        "Viola.16.Music",
-        "Viola.Staff.9",
-        "Viola.17.Music",
-        "Viola.18.Music",
-        "Cello_Square_Staff_Group",
-        "Cello.Staff.1",
-        "Cello.1.Music",
-        "Cello.2.Music",
-        "Cello.Staff.2",
-        "Cello.3.Music",
-        "Cello.4.Music",
-        "Cello.Staff.3",
-        "Cello.5.Music",
-        "Cello.6.Music",
-        "Cello.Staff.4",
-        "Cello.7.Music",
-        "Cello.8.Music",
-        "Cello.Staff.5",
-        "Cello.9.Music",
-        "Cello.10.Music",
-        "Cello.Staff.6",
-        "Cello.11.Music",
-        "Cello.12.Music",
-        "Cello.Staff.7",
-        "Cello.13.Music",
-        "Cello.14.Music",
-        "Contrabass.Staff.2",
-        "Contrabass.3.Music",
+        "SecondViolinSquareStaffGroup",
+        "SecondViolins.Staff.1",
+        "SecondViolins.1.Music",
+        "SecondViolins.2.Music",
+        "SecondViolins.Staff.2",
+        "SecondViolins.3.Music",
+        "SecondViolins.4.Music",
+        "SecondViolins.Staff.3",
+        "SecondViolins.5.Music",
+        "SecondViolins.6.Music",
+        "SecondViolins.Staff.4",
+        "SecondViolins.7.Music",
+        "SecondViolins.8.Music",
+        "SecondViolins.Staff.5",
+        "SecondViolins.9.Music",
+        "SecondViolins.10.Music",
+        "SecondViolins.Staff.6",
+        "SecondViolins.11.Music",
+        "SecondViolins.12.Music",
+        "SecondViolins.Staff.7",
+        "SecondViolins.13.Music",
+        "SecondViolins.14.Music",
+        "SecondViolins.Staff.8",
+        "SecondViolins.15.Music",
+        "SecondViolins.16.Music",
+        "SecondViolins.Staff.9",
+        "SecondViolins.17.Music",
+        "SecondViolins.18.Music",
+        "ViolaSquareStaffGroup",
+        "Violas.Staff.1",
+        "Violas.1.Music",
+        "Violas.2.Music",
+        "Violas.Staff.2",
+        "Violas.3.Music",
+        "Violas.4.Music",
+        "Violas.Staff.3",
+        "Violas.5.Music",
+        "Violas.6.Music",
+        "Violas.Staff.4",
+        "Violas.7.Music",
+        "Violas.8.Music",
+        "Violas.Staff.5",
+        "Violas.9.Music",
+        "Violas.10.Music",
+        "Violas.Staff.6",
+        "Violas.11.Music",
+        "Violas.12.Music",
+        "Violas.Staff.7",
+        "Violas.13.Music",
+        "Violas.14.Music",
+        "Violas.Staff.8",
+        "Violas.15.Music",
+        "Violas.16.Music",
+        "Violas.Staff.9",
+        "Violas.17.Music",
+        "Violas.18.Music",
+        "CelloSquareStaffGroup",
+        "Cellos.Staff.1",
+        "Cellos.1.Music",
+        "Cellos.2.Music",
+        "Cellos.Staff.2",
+        "Cellos.3.Music",
+        "Cellos.4.Music",
+        "Cellos.Staff.3",
+        "Cellos.5.Music",
+        "Cellos.6.Music",
+        "Cellos.Staff.4",
+        "Cellos.7.Music",
+        "Cellos.8.Music",
+        "Cellos.Staff.5",
+        "Cellos.9.Music",
+        "Cellos.10.Music",
+        "Cellos.Staff.6",
+        "Cellos.11.Music",
+        "Cellos.12.Music",
+        "Cellos.Staff.7",
+        "Cellos.13.Music",
+        "Cellos.14.Music",
+        "Contrabasses.Staff.2",
+        "Contrabasses.3.Music",
     ],
     "container_to_part_assignment": {
-        "number.27.Cello.1.Music.part.1": (
-            baca.PartAssignment("Cello", 1),
+        "number.27.Cellos.1.Music.part.1": (
+            baca.PartAssignment("Cellos", 1),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.10.Music.part.1": (
-            baca.PartAssignment("Cello", 10),
+        "number.27.Cellos.10.Music.part.1": (
+            baca.PartAssignment("Cellos", 10),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.11.Music.part.1": (
-            baca.PartAssignment("Cello", 11),
+        "number.27.Cellos.11.Music.part.1": (
+            baca.PartAssignment("Cellos", 11),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.12.Music.part.1": (
-            baca.PartAssignment("Cello", 12),
+        "number.27.Cellos.12.Music.part.1": (
+            baca.PartAssignment("Cellos", 12),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.13.Music.part.1": (
-            baca.PartAssignment("Cello", 13),
+        "number.27.Cellos.13.Music.part.1": (
+            baca.PartAssignment("Cellos", 13),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.14.Music.part.1": (
-            baca.PartAssignment("Cello", 14),
+        "number.27.Cellos.14.Music.part.1": (
+            baca.PartAssignment("Cellos", 14),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.2.Music.part.1": (
-            baca.PartAssignment("Cello", 2),
+        "number.27.Cellos.2.Music.part.1": (
+            baca.PartAssignment("Cellos", 2),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.3.Music.part.1": (
-            baca.PartAssignment("Cello", 3),
+        "number.27.Cellos.3.Music.part.1": (
+            baca.PartAssignment("Cellos", 3),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.4.Music.part.1": (
-            baca.PartAssignment("Cello", 4),
+        "number.27.Cellos.4.Music.part.1": (
+            baca.PartAssignment("Cellos", 4),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.5.Music.part.1": (
-            baca.PartAssignment("Cello", 5),
+        "number.27.Cellos.5.Music.part.1": (
+            baca.PartAssignment("Cellos", 5),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.6.Music.part.1": (
-            baca.PartAssignment("Cello", 6),
+        "number.27.Cellos.6.Music.part.1": (
+            baca.PartAssignment("Cellos", 6),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.7.Music.part.1": (
-            baca.PartAssignment("Cello", 7),
+        "number.27.Cellos.7.Music.part.1": (
+            baca.PartAssignment("Cellos", 7),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.8.Music.part.1": (
-            baca.PartAssignment("Cello", 8),
+        "number.27.Cellos.8.Music.part.1": (
+            baca.PartAssignment("Cellos", 8),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Cello.9.Music.part.1": (
-            baca.PartAssignment("Cello", 9),
+        "number.27.Cellos.9.Music.part.1": (
+            baca.PartAssignment("Cellos", 9),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Contrabass.3.Music.part.1": (
-            baca.PartAssignment("Contrabass"),
+        "number.27.Contrabasses.3.Music.part.1": (
+            baca.PartAssignment("Contrabasses"),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
         "number.27.FirstViolins.1.Music.part.1": (
@@ -273,148 +273,148 @@
             baca.PartAssignment("Percussion", 4),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.1.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 1),
+        "number.27.SecondViolins.1.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 1),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.10.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 10),
+        "number.27.SecondViolins.10.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 10),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.11.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 11),
+        "number.27.SecondViolins.11.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 11),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.12.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 12),
+        "number.27.SecondViolins.12.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 12),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.13.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 13),
+        "number.27.SecondViolins.13.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 13),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.14.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 14),
+        "number.27.SecondViolins.14.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 14),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.15.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 15),
+        "number.27.SecondViolins.15.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 15),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.16.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 16),
+        "number.27.SecondViolins.16.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 16),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.17.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 17),
+        "number.27.SecondViolins.17.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 17),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.18.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 18),
+        "number.27.SecondViolins.18.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 18),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.2.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 2),
+        "number.27.SecondViolins.2.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 2),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.3.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 3),
+        "number.27.SecondViolins.3.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 3),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.4.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 4),
+        "number.27.SecondViolins.4.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 4),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.5.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 5),
+        "number.27.SecondViolins.5.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 5),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.6.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 6),
+        "number.27.SecondViolins.6.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 6),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.7.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 7),
+        "number.27.SecondViolins.7.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 7),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.8.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 8),
+        "number.27.SecondViolins.8.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 8),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.SecondViolin.9.Music.part.1": (
-            baca.PartAssignment("SecondViolin", 9),
+        "number.27.SecondViolins.9.Music.part.1": (
+            baca.PartAssignment("SecondViolins", 9),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.1.Music.part.1": (
-            baca.PartAssignment("Viola", 1),
+        "number.27.Violas.1.Music.part.1": (
+            baca.PartAssignment("Violas", 1),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.10.Music.part.1": (
-            baca.PartAssignment("Viola", 10),
+        "number.27.Violas.10.Music.part.1": (
+            baca.PartAssignment("Violas", 10),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.11.Music.part.1": (
-            baca.PartAssignment("Viola", 11),
+        "number.27.Violas.11.Music.part.1": (
+            baca.PartAssignment("Violas", 11),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.12.Music.part.1": (
-            baca.PartAssignment("Viola", 12),
+        "number.27.Violas.12.Music.part.1": (
+            baca.PartAssignment("Violas", 12),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.13.Music.part.1": (
-            baca.PartAssignment("Viola", 13),
+        "number.27.Violas.13.Music.part.1": (
+            baca.PartAssignment("Violas", 13),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.14.Music.part.1": (
-            baca.PartAssignment("Viola", 14),
+        "number.27.Violas.14.Music.part.1": (
+            baca.PartAssignment("Violas", 14),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.15.Music.part.1": (
-            baca.PartAssignment("Viola", 15),
+        "number.27.Violas.15.Music.part.1": (
+            baca.PartAssignment("Violas", 15),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.16.Music.part.1": (
-            baca.PartAssignment("Viola", 16),
+        "number.27.Violas.16.Music.part.1": (
+            baca.PartAssignment("Violas", 16),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.17.Music.part.1": (
-            baca.PartAssignment("Viola", 17),
+        "number.27.Violas.17.Music.part.1": (
+            baca.PartAssignment("Violas", 17),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.18.Music.part.1": (
-            baca.PartAssignment("Viola", 18),
+        "number.27.Violas.18.Music.part.1": (
+            baca.PartAssignment("Violas", 18),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.2.Music.part.1": (
-            baca.PartAssignment("Viola", 2),
+        "number.27.Violas.2.Music.part.1": (
+            baca.PartAssignment("Violas", 2),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.3.Music.part.1": (
-            baca.PartAssignment("Viola", 3),
+        "number.27.Violas.3.Music.part.1": (
+            baca.PartAssignment("Violas", 3),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.4.Music.part.1": (
-            baca.PartAssignment("Viola", 4),
+        "number.27.Violas.4.Music.part.1": (
+            baca.PartAssignment("Violas", 4),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.5.Music.part.1": (
-            baca.PartAssignment("Viola", 5),
+        "number.27.Violas.5.Music.part.1": (
+            baca.PartAssignment("Violas", 5),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.6.Music.part.1": (
-            baca.PartAssignment("Viola", 6),
+        "number.27.Violas.6.Music.part.1": (
+            baca.PartAssignment("Violas", 6),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.7.Music.part.1": (
-            baca.PartAssignment("Viola", 7),
+        "number.27.Violas.7.Music.part.1": (
+            baca.PartAssignment("Violas", 7),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.8.Music.part.1": (
-            baca.PartAssignment("Viola", 8),
+        "number.27.Violas.8.Music.part.1": (
+            baca.PartAssignment("Violas", 8),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
-        "number.27.Viola.9.Music.part.1": (
-            baca.PartAssignment("Viola", 9),
+        "number.27.Violas.9.Music.part.1": (
+            baca.PartAssignment("Violas", 9),
             Timespan(Offset((0, 1)), Offset((5, 2))),
         ),
     },
@@ -455,9 +455,9 @@
                 value="B. cl.",
             ),
         ],
-        "Bassoon.1.Music": [
+        "Bassoons.1.Music": [
             baca.Memento(
-                context="Bassoon.1.Music",
+                context="Bassoons.1.Music",
                 edition=Tag(string="+PARTS"),
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -465,9 +465,9 @@
                 value="niente",
             )
         ],
-        "Bassoon.2.Music": [
+        "Bassoons.2.Music": [
             baca.Memento(
-                context="Bassoon.2.Music",
+                context="Bassoons.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -475,9 +475,9 @@
                 value="niente",
             )
         ],
-        "Bassoon.Staff.1": [
+        "Bassoons.Staff.1": [
             baca.Memento(
-                context="Bassoon.1.Music",
+                context="Bassoons.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -485,7 +485,7 @@
                 value="Bassoon",
             ),
             baca.Memento(
-                context="Bassoon.1.Music",
+                context="Bassoons.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -493,7 +493,7 @@
                 value="bass",
             ),
             baca.Memento(
-                context="Bassoon.1.Music",
+                context="Bassoons.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -501,9 +501,9 @@
                 value="Bsn.",
             ),
         ],
-        "Cello.1.Music": [
+        "Cellos.1.Music": [
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -511,9 +511,9 @@
                 value="niente",
             )
         ],
-        "Cello.2.Music": [
+        "Cellos.2.Music": [
             baca.Memento(
-                context="Cello.2.Music",
+                context="Cellos.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -521,9 +521,9 @@
                 value="niente",
             )
         ],
-        "Cello.Staff.1": [
+        "Cellos.Staff.1": [
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -531,7 +531,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -539,7 +539,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -547,7 +547,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -555,7 +555,7 @@
                 value="Vc. (1-2)",
             ),
             baca.Memento(
-                context="Cello.1.Music",
+                context="Cellos.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -563,9 +563,9 @@
                 value=1,
             ),
         ],
-        "Cello.Staff.2": [
+        "Cellos.Staff.2": [
             baca.Memento(
-                context="Cello.3.Music",
+                context="Cellos.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -573,7 +573,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.3.Music",
+                context="Cellos.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -581,7 +581,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.3.Music",
+                context="Cellos.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -589,7 +589,7 @@
                 value="Vc. (3-4)",
             ),
             baca.Memento(
-                context="Cello.3.Music",
+                context="Cellos.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -597,7 +597,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.4.Music",
+                context="Cellos.4.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -605,9 +605,9 @@
                 value="Cello",
             ),
         ],
-        "Cello.Staff.3": [
+        "Cellos.Staff.3": [
             baca.Memento(
-                context="Cello.5.Music",
+                context="Cellos.5.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -615,7 +615,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.5.Music",
+                context="Cellos.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -623,7 +623,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.5.Music",
+                context="Cellos.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -631,7 +631,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.5.Music",
+                context="Cellos.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -639,7 +639,7 @@
                 value="Vc. (5-6)",
             ),
             baca.Memento(
-                context="Cello.5.Music",
+                context="Cellos.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -647,9 +647,9 @@
                 value=1,
             ),
         ],
-        "Cello.Staff.4": [
+        "Cellos.Staff.4": [
             baca.Memento(
-                context="Cello.7.Music",
+                context="Cellos.7.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -657,7 +657,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.7.Music",
+                context="Cellos.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -665,7 +665,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.7.Music",
+                context="Cellos.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -673,7 +673,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.7.Music",
+                context="Cellos.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -681,7 +681,7 @@
                 value="Vc. (7-8)",
             ),
             baca.Memento(
-                context="Cello.7.Music",
+                context="Cellos.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -689,9 +689,9 @@
                 value=1,
             ),
         ],
-        "Cello.Staff.5": [
+        "Cellos.Staff.5": [
             baca.Memento(
-                context="Cello.9.Music",
+                context="Cellos.9.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -699,7 +699,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.9.Music",
+                context="Cellos.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -707,7 +707,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.9.Music",
+                context="Cellos.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -715,7 +715,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.9.Music",
+                context="Cellos.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -723,7 +723,7 @@
                 value="Vc. (9-10)",
             ),
             baca.Memento(
-                context="Cello.9.Music",
+                context="Cellos.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -731,9 +731,9 @@
                 value=1,
             ),
         ],
-        "Cello.Staff.6": [
+        "Cellos.Staff.6": [
             baca.Memento(
-                context="Cello.11.Music",
+                context="Cellos.11.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -741,7 +741,7 @@
                 value="Cello",
             ),
             baca.Memento(
-                context="Cello.11.Music",
+                context="Cellos.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -749,7 +749,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.11.Music",
+                context="Cellos.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -757,7 +757,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.11.Music",
+                context="Cellos.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -765,7 +765,7 @@
                 value="Vc. (11-12)",
             ),
             baca.Memento(
-                context="Cello.11.Music",
+                context="Cellos.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -773,9 +773,9 @@
                 value=1,
             ),
         ],
-        "Cello.Staff.7": [
+        "Cellos.Staff.7": [
             baca.Memento(
-                context="Cello.13.Music",
+                context="Cellos.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -783,7 +783,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Cello.13.Music",
+                context="Cellos.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -791,7 +791,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.13.Music",
+                context="Cellos.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -799,7 +799,7 @@
                 value="Vc. (13-14)",
             ),
             baca.Memento(
-                context="Cello.13.Music",
+                context="Cellos.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -807,7 +807,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Cello.14.Music",
+                context="Cellos.14.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -851,9 +851,9 @@
                 value="Cl. 1",
             ),
         ],
-        "Contrabass.1.Music": [
+        "Contrabasses.1.Music": [
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -861,9 +861,9 @@
                 value="mf",
             )
         ],
-        "Contrabass.3.Music": [
+        "Contrabasses.3.Music": [
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -871,9 +871,9 @@
                 value="fff",
             )
         ],
-        "Contrabass.Staff.1": [
+        "Contrabasses.Staff.1": [
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -881,7 +881,7 @@
                 value="Contrabass",
             ),
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -889,7 +889,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -897,7 +897,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -905,7 +905,7 @@
                 value="Cb. (1-2)",
             ),
             baca.Memento(
-                context="Contrabass.1.Music",
+                context="Contrabasses.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -913,9 +913,9 @@
                 value=1,
             ),
         ],
-        "Contrabass.Staff.2": [
+        "Contrabasses.Staff.2": [
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -923,7 +923,7 @@
                 value="Contrabass",
             ),
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -931,7 +931,7 @@
                 value="bass",
             ),
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -939,7 +939,7 @@
                 value=5,
             ),
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -947,7 +947,7 @@
                 value="Cb. (3-4)",
             ),
             baca.Memento(
-                context="Contrabass.3.Music",
+                context="Contrabasses.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -955,9 +955,9 @@
                 value=5,
             ),
         ],
-        "Contrabass.Staff.3": [
+        "Contrabasses.Staff.3": [
             baca.Memento(
-                context="Contrabass.5.Music",
+                context="Contrabasses.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -965,7 +965,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Contrabass.5.Music",
+                context="Contrabasses.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -973,7 +973,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Contrabass.5.Music",
+                context="Contrabasses.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -981,7 +981,7 @@
                 value="Cb. (5-6)",
             ),
             baca.Memento(
-                context="Contrabass.5.Music",
+                context="Contrabasses.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -989,7 +989,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Contrabass.6.Music",
+                context="Contrabasses.6.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -1508,7 +1508,7 @@
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="Flutes",
+                value="Flute",
             ),
             baca.Memento(
                 context="Flutes.1.Music",
@@ -1534,7 +1534,7 @@
                 manifest="instruments",
                 prototype=None,
                 synthetic_offset=None,
-                value="Flutes",
+                value="Flute",
             ),
             baca.Memento(
                 context="Flutes.2.Music",
@@ -1581,7 +1581,7 @@
                 value="Hp.",
             ),
         ],
-        "Harp_Piano_Staff": [
+        "HarpPianoStaff": [
             baca.Memento(
                 context="Harp.Music",
                 edition=None,
@@ -1955,7 +1955,7 @@
                 value="Pf.",
             ),
         ],
-        "Piano_Piano_Staff": [
+        "PianoPianoStaff": [
             baca.Memento(
                 context="Piano.Music",
                 edition=None,
@@ -1983,9 +1983,9 @@
                 value="4/4",
             ),
         ],
-        "SecondViolin.1.Music": [
+        "SecondViolins.1.Music": [
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -1993,9 +1993,9 @@
                 value="niente",
             )
         ],
-        "SecondViolin.2.Music": [
+        "SecondViolins.2.Music": [
             baca.Memento(
-                context="SecondViolin.2.Music",
+                context="SecondViolins.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2003,9 +2003,9 @@
                 value="niente",
             )
         ],
-        "SecondViolin.3.Music": [
+        "SecondViolins.3.Music": [
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2013,9 +2013,9 @@
                 value="niente",
             )
         ],
-        "SecondViolin.4.Music": [
+        "SecondViolins.4.Music": [
             baca.Memento(
-                context="SecondViolin.4.Music",
+                context="SecondViolins.4.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2023,9 +2023,9 @@
                 value="niente",
             )
         ],
-        "SecondViolin.Staff.1": [
+        "SecondViolins.Staff.1": [
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2033,7 +2033,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2041,7 +2041,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2049,7 +2049,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2057,7 +2057,7 @@
                 value="Vni. II (1-2)",
             ),
             baca.Memento(
-                context="SecondViolin.1.Music",
+                context="SecondViolins.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2065,9 +2065,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.2": [
+        "SecondViolins.Staff.2": [
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2075,7 +2075,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2083,7 +2083,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2091,7 +2091,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2099,7 +2099,7 @@
                 value="Vni. II (3-4)",
             ),
             baca.Memento(
-                context="SecondViolin.3.Music",
+                context="SecondViolins.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2107,9 +2107,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.3": [
+        "SecondViolins.Staff.3": [
             baca.Memento(
-                context="SecondViolin.5.Music",
+                context="SecondViolins.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2117,7 +2117,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.5.Music",
+                context="SecondViolins.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2125,7 +2125,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.5.Music",
+                context="SecondViolins.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2133,7 +2133,7 @@
                 value="Vni. II (5-6)",
             ),
             baca.Memento(
-                context="SecondViolin.5.Music",
+                context="SecondViolins.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2141,7 +2141,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.6.Music",
+                context="SecondViolins.6.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2149,9 +2149,9 @@
                 value="Violin",
             ),
         ],
-        "SecondViolin.Staff.4": [
+        "SecondViolins.Staff.4": [
             baca.Memento(
-                context="SecondViolin.7.Music",
+                context="SecondViolins.7.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2159,7 +2159,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.7.Music",
+                context="SecondViolins.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2167,7 +2167,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.7.Music",
+                context="SecondViolins.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2175,7 +2175,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.7.Music",
+                context="SecondViolins.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2183,7 +2183,7 @@
                 value="Vni. II (7-8)",
             ),
             baca.Memento(
-                context="SecondViolin.7.Music",
+                context="SecondViolins.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2191,9 +2191,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.5": [
+        "SecondViolins.Staff.5": [
             baca.Memento(
-                context="SecondViolin.9.Music",
+                context="SecondViolins.9.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2201,7 +2201,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.9.Music",
+                context="SecondViolins.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2209,7 +2209,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.9.Music",
+                context="SecondViolins.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2217,7 +2217,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.9.Music",
+                context="SecondViolins.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2225,7 +2225,7 @@
                 value="Vni. II (9-10)",
             ),
             baca.Memento(
-                context="SecondViolin.9.Music",
+                context="SecondViolins.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2233,9 +2233,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.6": [
+        "SecondViolins.Staff.6": [
             baca.Memento(
-                context="SecondViolin.11.Music",
+                context="SecondViolins.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2243,7 +2243,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.11.Music",
+                context="SecondViolins.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2251,7 +2251,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.11.Music",
+                context="SecondViolins.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2259,7 +2259,7 @@
                 value="Vni. II (11-12)",
             ),
             baca.Memento(
-                context="SecondViolin.11.Music",
+                context="SecondViolins.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2267,7 +2267,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.12.Music",
+                context="SecondViolins.12.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2275,9 +2275,9 @@
                 value="Violin",
             ),
         ],
-        "SecondViolin.Staff.7": [
+        "SecondViolins.Staff.7": [
             baca.Memento(
-                context="SecondViolin.13.Music",
+                context="SecondViolins.13.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2285,7 +2285,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.13.Music",
+                context="SecondViolins.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2293,7 +2293,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.13.Music",
+                context="SecondViolins.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2301,7 +2301,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.13.Music",
+                context="SecondViolins.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2309,7 +2309,7 @@
                 value="Vni. II (13-14)",
             ),
             baca.Memento(
-                context="SecondViolin.13.Music",
+                context="SecondViolins.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2317,9 +2317,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.8": [
+        "SecondViolins.Staff.8": [
             baca.Memento(
-                context="SecondViolin.15.Music",
+                context="SecondViolins.15.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2327,7 +2327,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.15.Music",
+                context="SecondViolins.15.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2335,7 +2335,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.15.Music",
+                context="SecondViolins.15.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2343,7 +2343,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.15.Music",
+                context="SecondViolins.15.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2351,7 +2351,7 @@
                 value="Vni. II (15-16)",
             ),
             baca.Memento(
-                context="SecondViolin.15.Music",
+                context="SecondViolins.15.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2359,9 +2359,9 @@
                 value=1,
             ),
         ],
-        "SecondViolin.Staff.9": [
+        "SecondViolins.Staff.9": [
             baca.Memento(
-                context="SecondViolin.17.Music",
+                context="SecondViolins.17.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2369,7 +2369,7 @@
                 value="Violin",
             ),
             baca.Memento(
-                context="SecondViolin.17.Music",
+                context="SecondViolins.17.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2377,7 +2377,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="SecondViolin.17.Music",
+                context="SecondViolins.17.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2385,7 +2385,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="SecondViolin.17.Music",
+                context="SecondViolins.17.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2393,7 +2393,7 @@
                 value="Vni. II (17-18)",
             ),
             baca.Memento(
-                context="SecondViolin.17.Music",
+                context="SecondViolins.17.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2621,9 +2621,9 @@
                 value="Tub.",
             ),
         ],
-        "Viola.1.Music": [
+        "Violas.1.Music": [
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2631,9 +2631,9 @@
                 value="niente",
             )
         ],
-        "Viola.2.Music": [
+        "Violas.2.Music": [
             baca.Memento(
-                context="Viola.2.Music",
+                context="Violas.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2641,9 +2641,9 @@
                 value="niente",
             )
         ],
-        "Viola.3.Music": [
+        "Violas.3.Music": [
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2651,9 +2651,9 @@
                 value="niente",
             )
         ],
-        "Viola.4.Music": [
+        "Violas.4.Music": [
             baca.Memento(
-                context="Viola.4.Music",
+                context="Violas.4.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -2661,9 +2661,9 @@
                 value="niente",
             )
         ],
-        "Viola.Staff.1": [
+        "Violas.Staff.1": [
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2671,7 +2671,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2679,7 +2679,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2687,7 +2687,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2695,7 +2695,7 @@
                 value="Vle. (1-2)",
             ),
             baca.Memento(
-                context="Viola.1.Music",
+                context="Violas.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2703,9 +2703,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.2": [
+        "Violas.Staff.2": [
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2713,7 +2713,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2721,7 +2721,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2729,7 +2729,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2737,7 +2737,7 @@
                 value="Vle. (3-4)",
             ),
             baca.Memento(
-                context="Viola.3.Music",
+                context="Violas.3.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2745,9 +2745,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.3": [
+        "Violas.Staff.3": [
             baca.Memento(
-                context="Viola.5.Music",
+                context="Violas.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2755,7 +2755,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.5.Music",
+                context="Violas.5.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2763,7 +2763,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.5.Music",
+                context="Violas.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2771,7 +2771,7 @@
                 value="Vle. (5-6)",
             ),
             baca.Memento(
-                context="Viola.5.Music",
+                context="Violas.5.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2779,7 +2779,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.6.Music",
+                context="Violas.6.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2787,9 +2787,9 @@
                 value="Viola",
             ),
         ],
-        "Viola.Staff.4": [
+        "Violas.Staff.4": [
             baca.Memento(
-                context="Viola.7.Music",
+                context="Violas.7.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2797,7 +2797,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.7.Music",
+                context="Violas.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2805,7 +2805,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.7.Music",
+                context="Violas.7.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2813,7 +2813,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.7.Music",
+                context="Violas.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2821,7 +2821,7 @@
                 value="Vle. (7-8)",
             ),
             baca.Memento(
-                context="Viola.7.Music",
+                context="Violas.7.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2829,9 +2829,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.5": [
+        "Violas.Staff.5": [
             baca.Memento(
-                context="Viola.9.Music",
+                context="Violas.9.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2839,7 +2839,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.9.Music",
+                context="Violas.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2847,7 +2847,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.9.Music",
+                context="Violas.9.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2855,7 +2855,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.9.Music",
+                context="Violas.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2863,7 +2863,7 @@
                 value="Vle. (9-10)",
             ),
             baca.Memento(
-                context="Viola.9.Music",
+                context="Violas.9.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2871,9 +2871,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.6": [
+        "Violas.Staff.6": [
             baca.Memento(
-                context="Viola.11.Music",
+                context="Violas.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2881,7 +2881,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.11.Music",
+                context="Violas.11.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2889,7 +2889,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.11.Music",
+                context="Violas.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2897,7 +2897,7 @@
                 value="Vle. (11-12)",
             ),
             baca.Memento(
-                context="Viola.11.Music",
+                context="Violas.11.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2905,7 +2905,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.12.Music",
+                context="Violas.12.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2913,9 +2913,9 @@
                 value="Viola",
             ),
         ],
-        "Viola.Staff.7": [
+        "Violas.Staff.7": [
             baca.Memento(
-                context="Viola.13.Music",
+                context="Violas.13.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2923,7 +2923,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.13.Music",
+                context="Violas.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2931,7 +2931,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.13.Music",
+                context="Violas.13.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2939,7 +2939,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.13.Music",
+                context="Violas.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2947,7 +2947,7 @@
                 value="Vle. (13-14)",
             ),
             baca.Memento(
-                context="Viola.13.Music",
+                context="Violas.13.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2955,9 +2955,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.8": [
+        "Violas.Staff.8": [
             baca.Memento(
-                context="Viola.15.Music",
+                context="Violas.15.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -2965,7 +2965,7 @@
                 value="Viola",
             ),
             baca.Memento(
-                context="Viola.15.Music",
+                context="Violas.15.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -2973,7 +2973,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.15.Music",
+                context="Violas.15.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -2981,7 +2981,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.15.Music",
+                context="Violas.15.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -2989,7 +2989,7 @@
                 value="Vle. (15-16)",
             ),
             baca.Memento(
-                context="Viola.15.Music",
+                context="Violas.15.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -2997,9 +2997,9 @@
                 value=1,
             ),
         ],
-        "Viola.Staff.9": [
+        "Violas.Staff.9": [
             baca.Memento(
-                context="Viola.17.Music",
+                context="Violas.17.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -3007,7 +3007,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Viola.17.Music",
+                context="Violas.17.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -3015,7 +3015,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.17.Music",
+                context="Violas.17.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -3023,7 +3023,7 @@
                 value="Vle. (17-18)",
             ),
             baca.Memento(
-                context="Viola.17.Music",
+                context="Violas.17.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -3031,7 +3031,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Viola.18.Music",
+                context="Violas.18.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,

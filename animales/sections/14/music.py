@@ -234,7 +234,7 @@ commands(
 
 commands(
     ("fl1", (1, 3)),
-    baca.instrument(instruments["Flutes"]),
+    baca.instrument(instruments["Flute"]),
     baca.clef("treble"),
     library.short_instrument_name("Fl. (1+3)"),
     library.pennant_pitches("G5", [6]),
@@ -265,7 +265,7 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
-    baca.instrument(instruments["Flutes"]),
+    baca.instrument(instruments["Flute"]),
     baca.clef("treble"),
     library.short_instrument_name("Fl. (2+4)"),
     library.pennant_pitches("Eb5", [6]),
@@ -469,24 +469,24 @@ commands(
 
 commands(
     "2vn1",
-    library.parts("SecondViolin"),
+    library.parts("SecondViolins"),
 )
 
 commands(
     "va1",
-    library.parts("Viola"),
+    library.parts("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cello"),
+    library.parts("Cellos"),
 )
 
 most_strings = [
-    "SecondViolin.1.Rests",
-    "Viola.1.Rests",
-    "Cello.1.Rests",
-    "Contrabass.3.Rests",
+    "SecondViolins.1.Rests",
+    "Violas.1.Rests",
+    "Cellos.1.Rests",
+    "Contrabasses.3.Rests",
 ]
 
 commands(
@@ -519,7 +519,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabass", (2, 6)),
+    library.parts("Contrabasses", (2, 6)),
 )
 
 # cb1 (solo)
@@ -529,7 +529,7 @@ commands(
     baca.pitch("Bb4", do_not_transpose=True),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-as-bell-like-as-possible-markup"),
-    library.parts("Contrabass", 1),
+    library.parts("Contrabasses", 1),
 )
 
 if __name__ == "__main__":

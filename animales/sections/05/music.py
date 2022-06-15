@@ -220,7 +220,7 @@ commands(
         selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
-    library.parts("Contrabass"),
+    library.parts("Contrabasses"),
 )
 
 if __name__ == "__main__":

@@ -296,19 +296,19 @@ commands(
 commands(
     "2vn1",
     baca.pitch("Bb5"),
-    library.parts("SecondViolin"),
+    library.parts("SecondViolins"),
 )
 
 commands(
     "va1",
     baca.pitch("Bb4"),
-    library.parts("Viola"),
+    library.parts("Violas"),
 )
 
 commands(
     "vc1",
     baca.pitch("Bb2"),
-    library.parts("Cello"),
+    library.parts("Cellos"),
 )
 
 
@@ -318,7 +318,7 @@ commands(
         "Cb. (2-6)",
         alert=baca.markup(r"\animales-cb-two-to-six-markup"),
     ),
-    library.parts("Contrabass", (2, 6)),
+    library.parts("Contrabasses", (2, 6)),
 )
 
 commands(
@@ -375,7 +375,7 @@ commands(
     baca.clef("bass"),
     library.short_instrument_name("Cb. 1"),
     baca.dynamic("p"),
-    library.parts("Contrabass", 1),
+    library.parts("Contrabasses", 1),
 )
 
 commands(

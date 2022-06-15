@@ -331,7 +331,7 @@ commands(
 commands(
     "bsn1",
     baca.not_parts(baca.voice_one()),
-    library.parts("Bassoon", 1),
+    library.parts("Bassoons", 1),
 )
 
 commands(
@@ -347,7 +347,7 @@ commands(
 commands(
     "bsn2",
     baca.not_parts(baca.voice_two()),
-    library.parts("Bassoon", 2),
+    library.parts("Bassoons", 2),
 )
 
 # brass
@@ -572,7 +572,7 @@ commands(
     baca.pitch("B4"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("SecondViolin", (1, 4)),
+    library.parts("SecondViolins", (1, 4)),
 )
 
 commands(
@@ -580,7 +580,7 @@ commands(
     baca.pitch("G4"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("SecondViolin", (5, 8)),
+    library.parts("SecondViolins", (5, 8)),
 )
 
 commands(
@@ -588,7 +588,7 @@ commands(
     baca.pitch("A4"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("SecondViolin", (9, 12)),
+    library.parts("SecondViolins", (9, 12)),
 )
 
 commands(
@@ -596,7 +596,7 @@ commands(
     baca.pitch("F4"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("SecondViolin", (13, 18)),
+    library.parts("SecondViolins", (13, 18)),
 )
 
 commands(
@@ -604,7 +604,7 @@ commands(
     baca.pitch("D4"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("Viola", (1, 4)),
+    library.parts("Violas", (1, 4)),
 )
 
 commands(
@@ -612,7 +612,7 @@ commands(
     baca.pitch("A3"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("Viola", (5, 8)),
+    library.parts("Violas", (5, 8)),
 )
 
 commands(
@@ -620,7 +620,7 @@ commands(
     baca.pitch("B3"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("Viola", (9, 12)),
+    library.parts("Violas", (9, 12)),
 )
 
 commands(
@@ -628,7 +628,7 @@ commands(
     baca.pitch("G3"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("Viola", (13, 18)),
+    library.parts("Violas", (13, 18)),
 )
 
 commands(
@@ -636,7 +636,7 @@ commands(
     baca.pitch("D3"),
     _tremolo_suite(),
     _upper_voice_suite(),
-    library.parts("Cello", (1, 8)),
+    library.parts("Cellos", (1, 8)),
 )
 
 commands(
@@ -644,14 +644,14 @@ commands(
     baca.pitch("G2"),
     _lower_voice_suite(),
     _tremolo_suite(),
-    library.parts("Cello", (9, 14)),
+    library.parts("Cellos", (9, 14)),
 )
 
 commands(
     "cb3",
     baca.pitch("G1"),
     _tremolo_suite(),
-    library.parts("Contrabass"),
+    library.parts("Contrabasses"),
 )
 
 if __name__ == "__main__":

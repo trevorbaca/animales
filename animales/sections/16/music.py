@@ -281,13 +281,13 @@ commands(
     library.short_instrument_name("Bsn."),
     baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
-    library.parts("Bassoon", 1),
+    library.parts("Bassoons", 1),
 )
 
 commands(
     "bsn2",
     baca.not_parts(baca.voice_two()),
-    library.parts("Bassoon", 2),
+    library.parts("Bassoons", 2),
 )
 
 commands(
