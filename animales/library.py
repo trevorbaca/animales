@@ -50,9 +50,9 @@ def _section_member_counts():
         ("cl", "Clarinet", 1),
         ("bcl", "BassClarinet", 1),
         ("bsn", "Bassoons", 2),
-        ("hn", "Horn", 4),
-        ("tp", "Trumpet", 4),
-        ("tbn", "Trombone", 4),
+        ("hn", "Horns", 4),
+        ("tp", "Trumpets", 4),
+        ("tbn", "Trombones", 4),
         ("tub", "Tuba", 1),
         ("hp", "Harp", 1),
         ("pf", "Piano", 1),
@@ -215,9 +215,9 @@ def allows_instrument(staff_name, instrument):
             ("EnglishHorn", [_instruments["EnglishHorn"]]),
             ("Clarinet", [_instruments["Clarinet"]]),
             ("BassClarinet", [_instruments["BassClarinet"]]),
-            ("Horn", [_instruments["Horn"]]),
-            ("Trumpet", [_instruments["Trumpet"]]),
-            ("Trombone", [_instruments["Trombone"]]),
+            ("Horns", [_instruments["Horn"]]),
+            ("Trumpets", [_instruments["Trumpet"]]),
+            ("Trombones", [_instruments["Trombone"]]),
             ("Tuba", [_instruments["Tuba"]]),
             ("Harp", [_instruments["Harp"]]),
             ("Piano", [_instruments["Piano"]]),
@@ -246,63 +246,63 @@ def allows_instrument(staff_name, instrument):
 
 def assign_brass_sforzando_parts(commands, omit_tuba=False):
     commands(
-        "Horn.1.Music",
-        parts("Horn", 1),
+        "Horns.1.Music",
+        parts("Horns", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Horn.3.Music",
-        parts("Horn", 3),
+        "Horns.3.Music",
+        parts("Horns", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Horn.2.Music",
-        parts("Horn", 2),
+        "Horns.2.Music",
+        parts("Horns", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Horn.4.Music",
-        parts("Horn", 4),
+        "Horns.4.Music",
+        parts("Horns", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trumpet.1.Music",
-        parts("Trumpet", 1),
+        "Trumpets.1.Music",
+        parts("Trumpets", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trumpet.3.Music",
-        parts("Trumpet", 3),
+        "Trumpets.3.Music",
+        parts("Trumpets", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trumpet.2.Music",
-        parts("Trumpet", 2),
+        "Trumpets.2.Music",
+        parts("Trumpets", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trumpet.4.Music",
-        parts("Trumpet", 4),
+        "Trumpets.4.Music",
+        parts("Trumpets", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trombone.1.Music",
-        parts("Trombone", 1),
+        "Trombones.1.Music",
+        parts("Trombones", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trombone.3.Music",
-        parts("Trombone", 3),
+        "Trombones.3.Music",
+        parts("Trombones", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
-        "Trombone.2.Music",
-        parts("Trombone", 2),
+        "Trombones.2.Music",
+        parts("Trombones", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
-        "Trombone.4.Music",
-        parts("Trombone", 4),
+        "Trombones.4.Music",
+        parts("Trombones", 4),
         baca.not_parts(baca.voice_two()),
     )
     if not omit_tuba:
@@ -555,18 +555,18 @@ def make_brass_sforzando_material(
     commands, range_=(1, -1), *, reapply_persistent_indicators=False
 ):
     voice_to_pitch = {
-        "Horn.1.Music": "C4",
-        "Horn.2.Music": "Gb3",
-        "Horn.3.Music": "F3",
-        "Horn.4.Music": "E3",
-        "Trumpet.1.Music": "D5",
-        "Trumpet.2.Music": "Ab4",
-        "Trumpet.3.Music": "G4",
-        "Trumpet.4.Music": "F4",
-        "Trombone.1.Music": "G4",
-        "Trombone.2.Music": "Db4",
-        "Trombone.3.Music": "C4",
-        "Trombone.4.Music": "B3",
+        "Horns.1.Music": "C4",
+        "Horns.2.Music": "Gb3",
+        "Horns.3.Music": "F3",
+        "Horns.4.Music": "E3",
+        "Trumpets.1.Music": "D5",
+        "Trumpets.2.Music": "Ab4",
+        "Trumpets.3.Music": "G4",
+        "Trumpets.4.Music": "F4",
+        "Trombones.1.Music": "G4",
+        "Trombones.2.Music": "Db4",
+        "Trombones.3.Music": "C4",
+        "Trombones.4.Music": "B3",
         "Tuba.Music": "C2",
     }
 
@@ -716,15 +716,15 @@ def make_empty_score(
     )
     horn_staves = _make_staves(
         horns,
-        section_name="Horn",
+        section_name="Horns",
     )
     trumpet_staves = _make_staves(
         trumpets,
-        section_name="Trumpet",
+        section_name="Trumpets",
     )
     trombone_staves = _make_staves(
         trombones,
-        section_name="Trombone",
+        section_name="Trombones",
     )
     tuba_staves = _make_staves(
         tuba,
@@ -1171,9 +1171,9 @@ def part_manifest():
         baca.Section(abbreviation="CL", count=3, name="Clarinet"),
         baca.Part(section="BassClarinet", section_abbreviation="BCL"),
         baca.Section(abbreviation="BSN", count=2, name="Bassoons"),
-        baca.Section(abbreviation="HN", count=4, name="Horn"),
-        baca.Section(abbreviation="TP", count=4, name="Trumpet"),
-        baca.Section(abbreviation="TBN", count=4, name="Trombone"),
+        baca.Section(abbreviation="HN", count=4, name="Horns"),
+        baca.Section(abbreviation="TP", count=4, name="Trumpets"),
+        baca.Section(abbreviation="TBN", count=4, name="Trombones"),
         baca.Part(section="Tuba", section_abbreviation="TUB"),
         baca.Part(section="Harp", section_abbreviation="HP"),
         baca.Part(section="Piano", section_abbreviation="PF"),
@@ -1194,37 +1194,32 @@ def part_manifest():
     )
 
 
+# >>> animales.library.parts("Horn")
+# PartAssignmentCommand(scope=None)
+#
+# >>> animales.library.parts("Horn", 1)
+# PartAssignmentCommand(scope=None)
+#
+# >>> animales.library.parts("Horn", 2)
+# PartAssignmentCommand(scope=None)
+#
+# >>> animales.library.parts("Horn", (3, 4))
+# PartAssignmentCommand(scope=None)
+#
+# >>> animales.library.parts("Horn", [1, 3])
+# PartAssignmentCommand(scope=None)
+#
+# ..  container:: example exception
+#
+# Raises exception on nonexistent part:
+#
+# >>> animales.library.parts("Horn", 5)
+# Traceback (most recent call last):
+#    ...
+# Exception: no Part(member=5, section='Horn', section_abbreviation=None) in part manifest.
+
+
 def parts(section, token=None):
-    """
-    Designates parts.
-
-    ..  container:: example
-
-        >>> animales.library.parts("Horn")
-        PartAssignmentCommand(scope=None)
-
-        >>> animales.library.parts("Horn", 1)
-        PartAssignmentCommand(scope=None)
-
-        >>> animales.library.parts("Horn", 2)
-        PartAssignmentCommand(scope=None)
-
-        >>> animales.library.parts("Horn", (3, 4))
-        PartAssignmentCommand(scope=None)
-
-        >>> animales.library.parts("Horn", [1, 3])
-        PartAssignmentCommand(scope=None)
-
-    ..  container:: example exception
-
-        Raises exception on nonexistent part:
-
-        >>> animales.library.parts("Horn", 5)
-        Traceback (most recent call last):
-            ...
-        Exception: no Part(member=5, section='Horn', section_abbreviation=None) in part manifest.
-
-    """
     _part_manifest = part_manifest()
     part_assignment = baca.PartAssignment(section=section, token=token)
     if part_assignment.token is not None:
@@ -1271,18 +1266,18 @@ def voice_abbreviations():
         ('bcl', 'BassClarinet.Music')
         ('bsn1', 'Bassoons.1.Music')
         ('bsn2', 'Bassoons.2.Music')
-        ('hn1', 'Horn.1.Music')
-        ('hn2', 'Horn.2.Music')
-        ('hn3', 'Horn.3.Music')
-        ('hn4', 'Horn.4.Music')
-        ('tp1', 'Trumpet.1.Music')
-        ('tp2', 'Trumpet.2.Music')
-        ('tp3', 'Trumpet.3.Music')
-        ('tp4', 'Trumpet.4.Music')
-        ('tbn1', 'Trombone.1.Music')
-        ('tbn2', 'Trombone.2.Music')
-        ('tbn3', 'Trombone.3.Music')
-        ('tbn4', 'Trombone.4.Music')
+        ('hn1', 'Horns.1.Music')
+        ('hn2', 'Horns.2.Music')
+        ('hn3', 'Horns.3.Music')
+        ('hn4', 'Horns.4.Music')
+        ('tp1', 'Trumpets.1.Music')
+        ('tp2', 'Trumpets.2.Music')
+        ('tp3', 'Trumpets.3.Music')
+        ('tp4', 'Trumpets.4.Music')
+        ('tbn1', 'Trombones.1.Music')
+        ('tbn2', 'Trombones.2.Music')
+        ('tbn3', 'Trombones.3.Music')
+        ('tbn4', 'Trombones.4.Music')
         ('tub', 'Tuba.Music')
         ('hp', 'Harp.Music')
         ('pf', 'Piano.Music')
