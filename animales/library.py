@@ -144,6 +144,29 @@ def _make_staves(
     return staves
 
 
+def _section_names():
+    return (
+        "Flutes",
+        "Oboe",
+        "EnglishHorn",
+        "Clarinet",
+        "BassClarinet",
+        "Bassoons",
+        "Horns",
+        "Trumpets",
+        "Trombones",
+        "Tuba",
+        "Harp",
+        "Piano",
+        "Percussion",
+        "FirstViolins",
+        "SecondViolins",
+        "Violas",
+        "Cellos",
+        "Contrabasses",
+    )
+
+
 def allows_instrument(staff_name, instrument):
     """
     Is true when ``staff_name`` allows ``instrument``.
