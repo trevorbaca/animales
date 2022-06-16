@@ -83,7 +83,7 @@
 
                 % OPEN_BRACKETS:
                   %! baca.make_staff_group()
-                \context StaffGroup = "Wind_Staff_Group"
+                \context StaffGroup = "WindStaffGroup"
                   %! baca.make_staff_group()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -106,7 +106,7 @@
 
                 % OPEN_BRACKETS:
                   %! baca.make_staff_group()
-                \context StaffGroup = "Percussion_Staff_Group"
+                \context StaffGroup = "PercussionStaffGroup"
                   %! baca.make_staff_group()
                 <<
                     % ABSOLUTE_BEFORE:
@@ -138,7 +138,7 @@
 
                 % OPEN_BRACKETS:
                   %! baca.make_staff_group()
-                \context StaffGroup = "String_Staff_Group"
+                \context StaffGroup = "StringStaffGroup"
                   %! baca.make_staff_group()
                 <<
                     % ABSOLUTE_BEFORE:
