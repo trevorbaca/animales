@@ -34,35 +34,27 @@ def _group_families(*families):
     return contexts
 
 
-def _section_name_to_member_count(section_name):
-    triples = _section_member_counts()
-    for _, section_name_, member_count in triples:
-        if section_name_ == section_name:
-            return member_count
-
-
-# TODO: remove abbreviation
-def _section_member_counts():
-    return (
-        ("fl", "Flutes", 4),
-        ("ob", "Oboe", 1),
-        ("eh", "EnglishHorn", 1),
-        ("cl", "Clarinet", 1),
-        ("bcl", "BassClarinet", 1),
-        ("bsn", "Bassoons", 2),
-        ("hn", "Horns", 4),
-        ("tp", "Trumpets", 4),
-        ("tbn", "Trombones", 4),
-        ("tub", "Tuba", 1),
-        ("hp", "Harp", 1),
-        ("pf", "Piano", 1),
-        ("perc", "Percussion", 4),
-        ("1vn", "FirstViolins", 18),
-        ("2vn", "SecondViolins", 18),
-        ("va", "Violas", 18),
-        ("vc", "Cellos", 14),
-        ("cb", "Contrabasses", 6),
-    )
+def _section_name_to_member_count():
+    return {
+        "Flutes": 4,
+        "Oboe": 1,
+        "EnglishHorn": 1,
+        "Clarinet": 1,
+        "BassClarinet": 1,
+        "Bassoons": 2,
+        "Horns": 4,
+        "Trumpets": 4,
+        "Trombones": 4,
+        "Tuba": 1,
+        "Harp": 1,
+        "Piano": 1,
+        "Percussion": 4,
+        "FirstViolins": 18,
+        "SecondViolins": 18,
+        "Violas": 18,
+        "Cellos": 14,
+        "Contrabasses": 6,
+    }
 
 
 def _make_short_instrument_name(name):
@@ -121,7 +113,7 @@ def _make_staves(
     staves = []
     if not bool(staff_specifiers):
         return staves
-    member_count = _section_name_to_member_count(section_name)
+    member_count = _section_name_to_member_count()[section_name]
     for staff_specifier in staff_specifiers:
         assert isinstance(staff_specifier, tuple), repr(staff_specifier)
         assert len(staff_specifier) == 2, repr(staff_specifier)
@@ -1219,128 +1211,108 @@ def time_signatures():
 
 
 def voice_abbreviations():
-    """
-    Gets voice abbreviations.
-
-    ..  container:: example
-
-        >>> dictionary = animales.library.voice_abbreviations()
-        >>> for item in dictionary.items(): item
-        ('fl1', 'Flutes.Voice.1')
-        ('fl2', 'Flutes.Voice.2')
-        ('fl3', 'Flutes.Voice.3')
-        ('fl4', 'Flutes.Voice.4')
-        ('ob', 'Oboe.Music')
-        ('eh', 'EnglishHorn.Music')
-        ('cl', 'Clarinet.Music')
-        ('bcl', 'BassClarinet.Music')
-        ('bsn1', 'Bassoons.Voice.1')
-        ('bsn2', 'Bassoons.Voice.2')
-        ('hn1', 'Horns.Voice.1')
-        ('hn2', 'Horns.Voice.2')
-        ('hn3', 'Horns.Voice.3')
-        ('hn4', 'Horns.Voice.4')
-        ('tp1', 'Trumpets.Voice.1')
-        ('tp2', 'Trumpets.Voice.2')
-        ('tp3', 'Trumpets.Voice.3')
-        ('tp4', 'Trumpets.Voice.4')
-        ('tbn1', 'Trombones.Voice.1')
-        ('tbn2', 'Trombones.Voice.2')
-        ('tbn3', 'Trombones.Voice.3')
-        ('tbn4', 'Trombones.Voice.4')
-        ('tub', 'Tuba.Music')
-        ('hp', 'Harp.Music')
-        ('pf', 'Piano.Music')
-        ('perc1', 'Percussion.Voice.1')
-        ('perc2', 'Percussion.Voice.2')
-        ('perc3', 'Percussion.Voice.3')
-        ('perc4', 'Percussion.Voice.4')
-        ('1vn1', 'FirstViolins.Voice.1')
-        ('1vn2', 'FirstViolins.Voice.2')
-        ('1vn3', 'FirstViolins.Voice.3')
-        ('1vn4', 'FirstViolins.Voice.4')
-        ('1vn5', 'FirstViolins.Voice.5')
-        ('1vn6', 'FirstViolins.Voice.6')
-        ('1vn7', 'FirstViolins.Voice.7')
-        ('1vn8', 'FirstViolins.Voice.8')
-        ('1vn9', 'FirstViolins.Voice.9')
-        ('1vn10', 'FirstViolins.Voice.10')
-        ('1vn11', 'FirstViolins.Voice.11')
-        ('1vn12', 'FirstViolins.Voice.12')
-        ('1vn13', 'FirstViolins.Voice.13')
-        ('1vn14', 'FirstViolins.Voice.14')
-        ('1vn15', 'FirstViolins.Voice.15')
-        ('1vn16', 'FirstViolins.Voice.16')
-        ('1vn17', 'FirstViolins.Voice.17')
-        ('1vn18', 'FirstViolins.Voice.18')
-        ('2vn1', 'SecondViolins.Voice.1')
-        ('2vn2', 'SecondViolins.Voice.2')
-        ('2vn3', 'SecondViolins.Voice.3')
-        ('2vn4', 'SecondViolins.Voice.4')
-        ('2vn5', 'SecondViolins.Voice.5')
-        ('2vn6', 'SecondViolins.Voice.6')
-        ('2vn7', 'SecondViolins.Voice.7')
-        ('2vn8', 'SecondViolins.Voice.8')
-        ('2vn9', 'SecondViolins.Voice.9')
-        ('2vn10', 'SecondViolins.Voice.10')
-        ('2vn11', 'SecondViolins.Voice.11')
-        ('2vn12', 'SecondViolins.Voice.12')
-        ('2vn13', 'SecondViolins.Voice.13')
-        ('2vn14', 'SecondViolins.Voice.14')
-        ('2vn15', 'SecondViolins.Voice.15')
-        ('2vn16', 'SecondViolins.Voice.16')
-        ('2vn17', 'SecondViolins.Voice.17')
-        ('2vn18', 'SecondViolins.Voice.18')
-        ('va1', 'Violas.Voice.1')
-        ('va2', 'Violas.Voice.2')
-        ('va3', 'Violas.Voice.3')
-        ('va4', 'Violas.Voice.4')
-        ('va5', 'Violas.Voice.5')
-        ('va6', 'Violas.Voice.6')
-        ('va7', 'Violas.Voice.7')
-        ('va8', 'Violas.Voice.8')
-        ('va9', 'Violas.Voice.9')
-        ('va10', 'Violas.Voice.10')
-        ('va11', 'Violas.Voice.11')
-        ('va12', 'Violas.Voice.12')
-        ('va13', 'Violas.Voice.13')
-        ('va14', 'Violas.Voice.14')
-        ('va15', 'Violas.Voice.15')
-        ('va16', 'Violas.Voice.16')
-        ('va17', 'Violas.Voice.17')
-        ('va18', 'Violas.Voice.18')
-        ('vc1', 'Cellos.Voice.1')
-        ('vc2', 'Cellos.Voice.2')
-        ('vc3', 'Cellos.Voice.3')
-        ('vc4', 'Cellos.Voice.4')
-        ('vc5', 'Cellos.Voice.5')
-        ('vc6', 'Cellos.Voice.6')
-        ('vc7', 'Cellos.Voice.7')
-        ('vc8', 'Cellos.Voice.8')
-        ('vc9', 'Cellos.Voice.9')
-        ('vc10', 'Cellos.Voice.10')
-        ('vc11', 'Cellos.Voice.11')
-        ('vc12', 'Cellos.Voice.12')
-        ('vc13', 'Cellos.Voice.13')
-        ('vc14', 'Cellos.Voice.14')
-        ('cb1', 'Contrabasses.Voice.1')
-        ('cb2', 'Contrabasses.Voice.2')
-        ('cb3', 'Contrabasses.Voice.3')
-        ('cb4', 'Contrabasses.Voice.4')
-        ('cb5', 'Contrabasses.Voice.5')
-        ('cb6', 'Contrabasses.Voice.6')
-
-    """
-    voice_abbreviation_to_voice_name = {}
-    triples = _section_member_counts()
-    for section_abbreviation, section_name, member_count in triples:
-        if member_count == 1:
-            voice_abbreviation = section_abbreviation
-            voice_name = f"{section_name}.Music"
-            voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
-        else:
-            for n in range(1, member_count + 1):
-                voice_abbreviation = section_abbreviation + str(n)
-                voice_name = f"{section_name}.Voice.{n}"
-                voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
-    return voice_abbreviation_to_voice_name
+    return {
+        "fl1": "Flutes.Voice.1",
+        "fl2": "Flutes.Voice.2",
+        "fl3": "Flutes.Voice.3",
+        "fl4": "Flutes.Voice.4",
+        "ob": "Oboe.Music",
+        "eh": "EnglishHorn.Music",
+        "cl": "Clarinet.Music",
+        "bcl": "BassClarinet.Music",
+        "bsn1": "Bassoons.Voice.1",
+        "bsn2": "Bassoons.Voice.2",
+        "hn1": "Horns.Voice.1",
+        "hn2": "Horns.Voice.2",
+        "hn3": "Horns.Voice.3",
+        "hn4": "Horns.Voice.4",
+        "tp1": "Trumpets.Voice.1",
+        "tp2": "Trumpets.Voice.2",
+        "tp3": "Trumpets.Voice.3",
+        "tp4": "Trumpets.Voice.4",
+        "tbn1": "Trombones.Voice.1",
+        "tbn2": "Trombones.Voice.2",
+        "tbn3": "Trombones.Voice.3",
+        "tbn4": "Trombones.Voice.4",
+        "tub": "Tuba.Music",
+        "hp": "Harp.Music",
+        "pf": "Piano.Music",
+        "perc1": "Percussion.Voice.1",
+        "perc2": "Percussion.Voice.2",
+        "perc3": "Percussion.Voice.3",
+        "perc4": "Percussion.Voice.4",
+        "1vn1": "FirstViolins.Voice.1",
+        "1vn2": "FirstViolins.Voice.2",
+        "1vn3": "FirstViolins.Voice.3",
+        "1vn4": "FirstViolins.Voice.4",
+        "1vn5": "FirstViolins.Voice.5",
+        "1vn6": "FirstViolins.Voice.6",
+        "1vn7": "FirstViolins.Voice.7",
+        "1vn8": "FirstViolins.Voice.8",
+        "1vn9": "FirstViolins.Voice.9",
+        "1vn10": "FirstViolins.Voice.10",
+        "1vn11": "FirstViolins.Voice.11",
+        "1vn12": "FirstViolins.Voice.12",
+        "1vn13": "FirstViolins.Voice.13",
+        "1vn14": "FirstViolins.Voice.14",
+        "1vn15": "FirstViolins.Voice.15",
+        "1vn16": "FirstViolins.Voice.16",
+        "1vn17": "FirstViolins.Voice.17",
+        "1vn18": "FirstViolins.Voice.18",
+        "2vn1": "SecondViolins.Voice.1",
+        "2vn2": "SecondViolins.Voice.2",
+        "2vn3": "SecondViolins.Voice.3",
+        "2vn4": "SecondViolins.Voice.4",
+        "2vn5": "SecondViolins.Voice.5",
+        "2vn6": "SecondViolins.Voice.6",
+        "2vn7": "SecondViolins.Voice.7",
+        "2vn8": "SecondViolins.Voice.8",
+        "2vn9": "SecondViolins.Voice.9",
+        "2vn10": "SecondViolins.Voice.10",
+        "2vn11": "SecondViolins.Voice.11",
+        "2vn12": "SecondViolins.Voice.12",
+        "2vn13": "SecondViolins.Voice.13",
+        "2vn14": "SecondViolins.Voice.14",
+        "2vn15": "SecondViolins.Voice.15",
+        "2vn16": "SecondViolins.Voice.16",
+        "2vn17": "SecondViolins.Voice.17",
+        "2vn18": "SecondViolins.Voice.18",
+        "va1": "Violas.Voice.1",
+        "va2": "Violas.Voice.2",
+        "va3": "Violas.Voice.3",
+        "va4": "Violas.Voice.4",
+        "va5": "Violas.Voice.5",
+        "va6": "Violas.Voice.6",
+        "va7": "Violas.Voice.7",
+        "va8": "Violas.Voice.8",
+        "va9": "Violas.Voice.9",
+        "va10": "Violas.Voice.10",
+        "va11": "Violas.Voice.11",
+        "va12": "Violas.Voice.12",
+        "va13": "Violas.Voice.13",
+        "va14": "Violas.Voice.14",
+        "va15": "Violas.Voice.15",
+        "va16": "Violas.Voice.16",
+        "va17": "Violas.Voice.17",
+        "va18": "Violas.Voice.18",
+        "vc1": "Cellos.Voice.1",
+        "vc2": "Cellos.Voice.2",
+        "vc3": "Cellos.Voice.3",
+        "vc4": "Cellos.Voice.4",
+        "vc5": "Cellos.Voice.5",
+        "vc6": "Cellos.Voice.6",
+        "vc7": "Cellos.Voice.7",
+        "vc8": "Cellos.Voice.8",
+        "vc9": "Cellos.Voice.9",
+        "vc10": "Cellos.Voice.10",
+        "vc11": "Cellos.Voice.11",
+        "vc12": "Cellos.Voice.12",
+        "vc13": "Cellos.Voice.13",
+        "vc14": "Cellos.Voice.14",
+        "cb1": "Contrabasses.Voice.1",
+        "cb2": "Contrabasses.Voice.2",
+        "cb3": "Contrabasses.Voice.3",
+        "cb4": "Contrabasses.Voice.4",
+        "cb5": "Contrabasses.Voice.5",
+        "cb6": "Contrabasses.Voice.6",
+    }
