@@ -526,12 +526,12 @@ number.7.Skips = {
 
 
   %! baca.path.extern()
-number.7.Clarinet.Music.container.1 = {
+number.7.Clarinets.Music.container.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 1]
+    % [Clarinets.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -632,7 +632,7 @@ number.7.Clarinet.Music.container.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 2]
+    % [Clarinets.Music measure 2]
       %! baca.make_repeat_tied_notes()
     e''1
     % AFTER:
@@ -647,7 +647,7 @@ number.7.Clarinet.Music.container.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 3]
+    % [Clarinets.Music measure 3]
       %! baca.make_repeat_tied_notes()
     e''1
     % AFTER:
@@ -662,7 +662,7 @@ number.7.Clarinet.Music.container.1 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 4]
+    % [Clarinets.Music measure 4]
       %! baca.make_repeat_tied_notes()
     e''1
     % AFTER:
@@ -693,12 +693,12 @@ number.7.Clarinet.Music.container.1 = {
 
 
   %! baca.path.extern()
-number.7.Clarinet.Music.container.2 = {
+number.7.Clarinets.Music.container.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 5]
+    % [Clarinets.Music measure 5]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -776,7 +776,7 @@ number.7.Clarinet.Music.container.2 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 6]
+    % [Clarinets.Music measure 6]
       %! baca.make_repeat_tied_notes()
     ef''2
     % AFTER:
@@ -791,7 +791,7 @@ number.7.Clarinet.Music.container.2 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 7]
+    % [Clarinets.Music measure 7]
       %! baca.make_repeat_tied_notes()
     ef''1
     % AFTER:
@@ -806,7 +806,7 @@ number.7.Clarinet.Music.container.2 = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 8]
+    % [Clarinets.Music measure 8]
       %! baca.make_repeat_tied_notes()
     ef''1
     % AFTER:
@@ -837,19 +837,19 @@ number.7.Clarinet.Music.container.2 = {
 
 
   %! baca.path.extern()
-number.7.Clarinet.Music = {
+number.7.Clarinets.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.7.Clarinet.Music.container.1 }
+    { \number.7.Clarinets.Music.container.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.7.Clarinet.Music.container.2 }
+    { \number.7.Clarinets.Music.container.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -860,16 +860,16 @@ number.7.Clarinet.Music = {
 
 
   %! baca.path.extern()
-number.7.Clarinet.Staff.1 = {
+number.7.Clarinets.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Clarinet.Music"
+    \context Voice = "Clarinets.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.7.Clarinet.Music }
+    { \number.7.Clarinets.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1151,7 +1151,7 @@ number.7.Piano.Music = {
 
 
   %! baca.path.extern()
-number.7.Piano.Staff.1 = {
+number.7.Piano.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1442,7 +1442,7 @@ number.7.Harp.Music = {
 
 
   %! baca.path.extern()
-number.7.Harp.Staff.1 = {
+number.7.Harp.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

@@ -13,16 +13,16 @@ assert start == 49
 
 score = library.make_empty_score(
     clarinets=[
-        (1, [1]),
+        (None, None),
     ],
     bass_clarinet=[
-        (1, [1]),
+        (None, [1]),
     ],
     harp=[
-        (1, [1]),
+        (None, [1]),
     ],
     piano=[
-        (1, [1]),
+        (None, [1]),
     ],
     percussion=[
         (2, [2]),
@@ -169,7 +169,7 @@ commands(
 )
 
 commands(
-    ("Clarinet.Rests", 4),
+    ("Clarinets.Rests", 4),
     baca.markup(
         r"\animales-choke-sound-suddenly-explanation-markup",
         selector=lambda _: abjad.select.leaf(_, 0),

@@ -6,8 +6,8 @@
         "Skips",
         "MusicContext",
         "WindStaffGroup",
-        "Clarinet.Staff.1",
-        "Clarinet.Music",
+        "Clarinets.Staff",
+        "Clarinets.Music",
         "PercussionStaffGroup",
         "Percussion.Staff.1",
         "Percussion.Voice.1",
@@ -39,7 +39,7 @@
             PartAssignment(name="Cello", token=(1, 14)),
             Timespan(Offset((0, 1)), Offset((5, 1))),
         ),
-        "number.6.Clarinet.Music.container": (
+        "number.6.Clarinets.Music.container": (
             PartAssignment(name="Clarinet", token=3),
             Timespan(Offset((0, 1)), Offset((5, 1))),
         ),
@@ -105,9 +105,9 @@
                 value=">",
             )
         ],
-        "Clarinet.Music": [
+        "Clarinets.Music": [
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -115,9 +115,9 @@
                 value="mf",
             )
         ],
-        "Clarinet.Staff.1": [
+        "Clarinets.Staff": [
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -125,7 +125,7 @@
                 value="Clarinet",
             ),
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -133,7 +133,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -781,7 +781,7 @@
                 value="\\baca-sffz",
             )
         ],
-        "Tuba.Staff.1": [
+        "Tuba.Staff": [
             baca.Memento(
                 context="Tuba.Music",
                 edition=None,

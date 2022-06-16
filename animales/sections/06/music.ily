@@ -406,12 +406,12 @@ number.6.Skips = {
 
 
   %! baca.path.extern()
-number.6.Clarinet.Music.container = {
+number.6.Clarinets.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 1]
+    % [Clarinets.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -512,7 +512,7 @@ number.6.Clarinet.Music.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 2]
+    % [Clarinets.Music measure 2]
       %! baca.make_repeat_tied_notes()
     ds''1
     % AFTER:
@@ -527,7 +527,7 @@ number.6.Clarinet.Music.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 3]
+    % [Clarinets.Music measure 3]
       %! baca.make_repeat_tied_notes()
     ds''2
     % AFTER:
@@ -542,7 +542,7 @@ number.6.Clarinet.Music.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 4]
+    % [Clarinets.Music measure 4]
       %! baca.make_repeat_tied_notes()
     ds''2.
     % AFTER:
@@ -557,7 +557,7 @@ number.6.Clarinet.Music.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 5]
+    % [Clarinets.Music measure 5]
       %! baca.make_repeat_tied_notes()
     ds''2.
     % AFTER:
@@ -572,7 +572,7 @@ number.6.Clarinet.Music.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Clarinet.Music measure 6]
+    % [Clarinets.Music measure 6]
       %! baca.make_repeat_tied_notes()
     ds''1
     % AFTER:
@@ -603,13 +603,13 @@ number.6.Clarinet.Music.container = {
 
 
   %! baca.path.extern()
-number.6.Clarinet.Music = {
+number.6.Clarinets.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.6.Clarinet.Music.container }
+    { \number.6.Clarinets.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -620,16 +620,16 @@ number.6.Clarinet.Music = {
 
 
   %! baca.path.extern()
-number.6.Clarinet.Staff.1 = {
+number.6.Clarinets.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Clarinet.Music"
+    \context Voice = "Clarinets.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.6.Clarinet.Music }
+    { \number.6.Clarinets.Music }
     % CLOSING:
     % COMMANDS:
 

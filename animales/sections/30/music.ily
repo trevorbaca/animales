@@ -820,7 +820,7 @@ number.30.Piano.Music = {
 
 
   %! baca.path.extern()
-number.30.Piano.Staff.1 = {
+number.30.Piano.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

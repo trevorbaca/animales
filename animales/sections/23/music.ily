@@ -1865,7 +1865,7 @@ number.23.Tuba.Music = {
 
 
   %! baca.path.extern()
-number.23.Tuba.Staff.1 = {
+number.23.Tuba.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
