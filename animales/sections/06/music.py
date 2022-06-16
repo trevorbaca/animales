@@ -159,7 +159,7 @@ commands(
     baca.pitch("C#5"),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
-    library.parts("Clarinet", 3),
+    library.assign_part("Clarinet", 3),
 )
 
 # perc1, perc2
@@ -169,14 +169,14 @@ commands(
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.hairpin("p >o", right_broken=True),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 commands(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # strings
@@ -185,29 +185,29 @@ commands(
     "1vn1",
     library.short_instrument_name("Vni. I"),
     baca.not_parts(baca.one_voice()),
-    library.parts("FirstViolins"),
+    library.assign_part("FirstViolins"),
 )
 
 commands(
     "2vn1",
     library.short_instrument_name("Vni. II"),
-    library.parts("SecondViolins"),
+    library.assign_part("SecondViolins"),
 )
 
 commands(
     "va1",
     library.short_instrument_name("Vle."),
-    library.parts("Violas"),
+    library.assign_part("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 commands(
     "cb3",
-    library.parts("Contrabasses"),
+    library.assign_part("Contrabasses"),
 )
 
 left_broken = ["1vn1", "2vn1", "va1", "vc1"]

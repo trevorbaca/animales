@@ -179,7 +179,7 @@ commands(
 
 commands(
     "cl",
-    library.parts("Clarinet", 1),
+    library.assign_part("Clarinet", 1),
 )
 
 # bcl
@@ -191,7 +191,7 @@ commands(
     ),
     baca.pitch("A2"),
     baca.dynamic("p"),
-    library.parts("BassClarinet"),
+    library.assign_part("BassClarinet"),
 )
 
 # pf
@@ -201,7 +201,7 @@ commands(
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Piano"),
+    library.assign_part("Piano"),
 )
 
 # hp
@@ -211,7 +211,7 @@ commands(
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Harp"),
+    library.assign_part("Harp"),
 )
 
 # perc2 (cymbal)
@@ -222,7 +222,7 @@ commands(
         "niente",
         selector=lambda _: abjad.select.leaf(_, 0),
     ),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (vibraphone)
@@ -231,7 +231,7 @@ commands(
     "perc3",
     baca.pitch("C5"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # strings
@@ -249,22 +249,22 @@ commands(
 
 commands(
     "1vn1",
-    library.parts("FirstViolins"),
+    library.assign_part("FirstViolins"),
 )
 
 commands(
     "2vn1",
-    library.parts("SecondViolins"),
+    library.assign_part("SecondViolins"),
 )
 
 commands(
     "va1",
-    library.parts("Violas"),
+    library.assign_part("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 
@@ -308,7 +308,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabasses", (2, 6)),
+    library.assign_part("Contrabasses", (2, 6)),
 )
 
 # cb1 (solo)
@@ -319,7 +319,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-seventh-partial-of-d-markup"),
-    library.parts("Contrabasses", 1),
+    library.assign_part("Contrabasses", 1),
 )
 
 if __name__ == "__main__":

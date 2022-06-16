@@ -192,7 +192,7 @@ commands(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (BD)
@@ -201,7 +201,7 @@ commands(
     "perc3",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # perc4 (tam-tam)
@@ -210,7 +210,7 @@ commands(
     "perc4",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 4),
+    library.assign_part("Percussion", 4),
 )
 
 # cb3
@@ -222,7 +222,7 @@ commands(
     baca.pitch("C#2"),
     baca.markup(r"\baca-arco-markup"),
     baca.hairpin("p <", right_broken=True),
-    library.parts("Contrabasses"),
+    library.assign_part("Contrabasses"),
 )
 
 if __name__ == "__main__":

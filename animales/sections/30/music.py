@@ -106,14 +106,14 @@ commands(
 
 commands(
     "pf",
-    library.parts("Piano"),
+    library.assign_part("Piano"),
 )
 
 # perc4 (slate)
 
 commands(
     "perc4",
-    library.parts("Percussion", 4),
+    library.assign_part("Percussion", 4),
 )
 
 commands(

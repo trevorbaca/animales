@@ -93,7 +93,7 @@ commands(
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 commands(
@@ -103,7 +103,7 @@ commands(
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 commands(
@@ -113,7 +113,7 @@ commands(
     library.short_instrument_name("Perc."),
     baca.clef("percussion"),
     baca.staff_lines(1),
-    library.parts("Percussion", 4),
+    library.assign_part("Percussion", 4),
 )
 
 # strings

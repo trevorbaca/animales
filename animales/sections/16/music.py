@@ -200,7 +200,7 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-voice_to_members = {
+voice_abbreviation_to_members = {
     "1vn1": (1, 4),
     "1vn2": (5, 8),
     "1vn3": (9, 12),
@@ -218,7 +218,7 @@ voice_to_members = {
     "cb3": None,
 }
 
-for voice_name in voice_to_members:
+for voice_name in voice_abbreviation_to_members:
     commands(
         (voice_name, (11, 14)),
         baca.make_mmrests(),
@@ -240,7 +240,7 @@ commands(
     baca.instrument(instruments["Oboe"]),
     library.short_instrument_name("Ob."),
     baca.clef("treble"),
-    library.parts("Oboe"),
+    library.assign_part("Oboe"),
 )
 
 commands(
@@ -270,7 +270,7 @@ commands(
 
 commands(
     "eh",
-    library.parts("EnglishHorn"),
+    library.assign_part("EnglishHorn"),
 )
 
 # bsn1, bsn2
@@ -281,13 +281,13 @@ commands(
     library.short_instrument_name("Bsn."),
     baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
-    library.parts("Bassoons", 1),
+    library.assign_part("Bassoons", 1),
 )
 
 commands(
     "bsn2",
     baca.not_parts(baca.voice_two()),
-    library.parts("Bassoons", 2),
+    library.assign_part("Bassoons", 2),
 )
 
 commands(
@@ -361,14 +361,16 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.dynamic("f"),
-    library.parts("FirstViolins", 18),
+    library.assign_part("FirstViolins", 18),
 )
 
-for voice_name, members in voice_to_members.items():
-    section = library.voice_to_section(voice_name)
+voice_abbreviation_to_voice_name = library.voice_abbreviations()
+for voice_abbreviation, members in voice_abbreviation_to_members.items():
+    voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
+    name = voice_name.split(".")[0]
     commands(
-        voice_name,
-        library.parts(section, members),
+        voice_abbreviation,
+        library.assign_part(name, number_token=members),
     )
 
 commands(

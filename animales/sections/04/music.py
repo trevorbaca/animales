@@ -202,7 +202,7 @@ commands(
 commands(
     "cl",
     library.short_instrument_name("Cl. 3"),
-    library.parts("Clarinet", 3),
+    library.assign_part("Clarinet", 3),
 )
 
 # perc1, perc2
@@ -227,13 +227,13 @@ commands(
 commands(
     "perc1",
     library.short_instrument_name("Perc. 1 (tri.)"),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 commands(
     "perc2",
     library.short_instrument_name("Perc. 2 (cym.)"),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # brass
@@ -310,7 +310,7 @@ commands(
         baca.tie(lambda _: baca.select.ptail(_, -2)),
         baca.glissando(),
     ),
-    library.parts("FirstViolins", 1),
+    library.assign_part("FirstViolins", 1),
     baca.edition("solo (first violin)", "solo"),
     baca.not_parts(baca.dls_up()),
     baca.not_parts(baca.voice_one()),
@@ -360,13 +360,13 @@ commands(
 
 commands(
     ("1vn1", (1, 2)),
-    library.parts("FirstViolins", (1, 10)),
+    library.assign_part("FirstViolins", (1, 10)),
     baca.not_parts(baca.voice_two()),
 )
 
 commands(
     ("1vn1", (3, 6)),
-    library.parts("FirstViolins", (2, 10)),
+    library.assign_part("FirstViolins", (2, 10)),
     baca.not_parts(
         baca.markup(
             r"\animales-all-other-strings-still-markup",
@@ -378,32 +378,32 @@ commands(
 
 commands(
     "1vn3",
-    library.parts("FirstViolins", (11, 18)),
+    library.assign_part("FirstViolins", (11, 18)),
 )
 
 commands(
     "2vn1",
-    library.parts("SecondViolins", (1, 10)),
+    library.assign_part("SecondViolins", (1, 10)),
 )
 
 commands(
     "2vn3",
-    library.parts("SecondViolins", (11, 18)),
+    library.assign_part("SecondViolins", (11, 18)),
 )
 
 commands(
     "va1",
-    library.parts("Violas", (1, 10)),
+    library.assign_part("Violas", (1, 10)),
 )
 
 commands(
     "va3",
-    library.parts("Violas", (11, 18)),
+    library.assign_part("Violas", (11, 18)),
 )
 
 commands(
     "vc1",
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 # cb3
@@ -416,7 +416,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabasses"),
+    library.assign_part("Contrabasses"),
     baca.instrument(instruments["Contrabass"]),
     library.short_instrument_name("Cb."),
     baca.clef("bass"),

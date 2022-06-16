@@ -161,7 +161,7 @@ commands(
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.dynamic("p"),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 if __name__ == "__main__":
