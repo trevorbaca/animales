@@ -195,7 +195,7 @@ commands(
     baca.pitch("C#2"),
     baca.text_spanner("ord. => ext. pont."),
     baca.dynamic("fff"),
-    library.assign_part("Contrabasses"),
+    library.assign_part("Contrabass"),
 )
 
 if __name__ == "__main__":

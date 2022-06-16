@@ -266,7 +266,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("FirstViolins"),
+    library.assign_part("FirstViolin"),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("SecondViolins"),
+    library.assign_part("SecondViolin"),
 )
 
 commands(
@@ -294,7 +294,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("Violas"),
+    library.assign_part("Viola"),
 )
 
 commands(
@@ -308,7 +308,7 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.articulation("trill"),
-    library.assign_part("Cellos"),
+    library.assign_part("Cello"),
 )
 
 commands(
@@ -321,7 +321,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("Contrabasses", (2, 6)),
+    library.assign_part("Contrabass", (2, 6)),
 )
 
 # cb1 (solo)
@@ -331,7 +331,7 @@ commands(
     baca.pitch("Cqf5", do_not_transpose=True),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.assign_part("Contrabasses", 1),
+    library.assign_part("Contrabass", 1),
 )
 
 if __name__ == "__main__":

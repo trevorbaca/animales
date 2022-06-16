@@ -247,62 +247,62 @@ def allows_instrument(staff_name, instrument):
 def assign_brass_sforzando_parts(commands, omit_tuba=False):
     commands(
         "Horns.Voice.1",
-        assign_part("Horns", 1),
+        assign_part("Horn", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Horns.Voice.3",
-        assign_part("Horns", 3),
+        assign_part("Horn", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Horns.Voice.2",
-        assign_part("Horns", 2),
+        assign_part("Horn", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Horns.Voice.4",
-        assign_part("Horns", 4),
+        assign_part("Horn", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trumpets.Voice.1",
-        assign_part("Trumpets", 1),
+        assign_part("Trumpet", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trumpets.Voice.3",
-        assign_part("Trumpets", 3),
+        assign_part("Trumpet", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trumpets.Voice.2",
-        assign_part("Trumpets", 2),
+        assign_part("Trumpet", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trumpets.Voice.4",
-        assign_part("Trumpets", 4),
+        assign_part("Trumpet", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trombones.Voice.1",
-        assign_part("Trombones", 1),
+        assign_part("Trombone", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trombones.Voice.3",
-        assign_part("Trombones", 3),
+        assign_part("Trombone", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trombones.Voice.2",
-        assign_part("Trombones", 2),
+        assign_part("Trombone", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trombones.Voice.4",
-        assign_part("Trombones", 4),
+        assign_part("Trombone", 4),
         baca.not_parts(baca.voice_two()),
     )
     if not omit_tuba:
@@ -322,7 +322,7 @@ def assign_trill_parts(commands, *, exclude_first_violin=False):
         ("Violas.Voice.3", (11, 18)),
         ("Cellos.Voice.1", "all"),
     ):
-        part_name = voice_name.split(".")[0]
+        part_name = voice_name.split(".")[0].removesuffix("s")
         if voice_name == "FirstViolins.Voice.1" and exclude_first_violin:
             command = assign_part(part_name, (2, 10))
         elif part_number_token == "all":
@@ -486,9 +486,10 @@ def make_battuti_material(
                 voice,
                 baca.reapply_persistent_indicators(),
             )
+            part_name = section.removesuffix("s").removesuffix("e")
             commands(
                 voice,
-                assign_part(section, member),
+                assign_part(part_name, member),
             )
             stack = []
             if first:
@@ -1173,24 +1174,34 @@ def metronome_marks():
 
 def part_manifest():
     return baca.PartManifest(
-        baca.Section("Flutes", 4),
+        *[baca.Part("Flute", _) for _ in (1, 2, 3, 4)],
         baca.Section("Oboe", 3),
         baca.Part("EnglishHorn"),
-        baca.Section("Clarinet", 3),
+        *[baca.Part("Clarinet", _) for _ in (1, 2, 3)],
         baca.Part("BassClarinet"),
-        baca.Section("Bassoons", 2),
-        baca.Section("Horns", 4),
-        baca.Section("Trumpets", 4),
-        baca.Section("Trombones", 4),
+        # baca.Section("Bassoons", 2),
+        *[baca.Part("Bassoon", _) for _ in (1, 2)],
+        # baca.Section("Horns", 4),
+        *[baca.Part("Horn", _) for _ in (1, 2, 3, 4)],
+        # baca.Section("Trumpets", 4),
+        *[baca.Part("Trumpet", _) for _ in (1, 2, 3, 4)],
+        # baca.Section("Trombones", 4),
+        *[baca.Part("Trombone", _) for _ in (1, 2, 3, 4)],
         baca.Part("Tuba"),
         baca.Part("Harp"),
         baca.Part("Piano"),
-        baca.Section("Percussion", 4),
-        baca.Section("FirstViolins", 18),
-        baca.Section("SecondViolins", 18),
-        baca.Section("Violas", 18),
-        baca.Section("Cellos", 14),
-        baca.Section("Contrabasses", 6),
+        # baca.Section("Percussion", 4),
+        *[baca.Part("Percussion", _) for _ in (1, 2, 3, 4)],
+        # baca.Section("FirstViolins", 18),
+        *[baca.Part("FirstViolin", _) for _ in range(1, 18 + 1)],
+        # baca.Section("SecondViolins", 18),
+        *[baca.Part("SecondViolin", _) for _ in range(1, 18 + 1)],
+        # baca.Section("Violas", 18),
+        *[baca.Part("Viola", _) for _ in range(1, 18 + 1)],
+        # baca.Section("Cellos", 14),
+        *[baca.Part("Cello", _) for _ in range(1, 14 + 1)],
+        # baca.Section("Contrabasses", 6),
+        *[baca.Part("Contrabass", _) for _ in range(1, 6 + 1)],
     )
 
 
@@ -1200,7 +1211,7 @@ def assign_part(name, number_token=None):
     if part_assignment.number is not None:
         for part in part_assignment.parts():
             if part not in _part_manifest.parts:
-                raise Exception(f"no {part!r} in part manifest.")
+                raise Exception(f"{part!r} not in part manifest.")
     return baca.assign_part(part_assignment)
 
 

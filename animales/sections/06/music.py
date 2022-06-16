@@ -185,29 +185,29 @@ commands(
     "1vn1",
     library.short_instrument_name("Vni. I"),
     baca.not_parts(baca.one_voice()),
-    library.assign_part("FirstViolins"),
+    library.assign_part("FirstViolin"),
 )
 
 commands(
     "2vn1",
     library.short_instrument_name("Vni. II"),
-    library.assign_part("SecondViolins"),
+    library.assign_part("SecondViolin"),
 )
 
 commands(
     "va1",
     library.short_instrument_name("Vle."),
-    library.assign_part("Violas"),
+    library.assign_part("Viola"),
 )
 
 commands(
     "vc1",
-    library.assign_part("Cellos"),
+    library.assign_part("Cello"),
 )
 
 commands(
     "cb3",
-    library.assign_part("Contrabasses"),
+    library.assign_part("Contrabass"),
 )
 
 left_broken = ["1vn1", "2vn1", "va1", "vc1"]

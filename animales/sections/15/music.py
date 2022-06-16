@@ -301,22 +301,22 @@ commands(
 
 commands(
     "fl1",
-    library.assign_part("Flutes", 1),
+    library.assign_part("Flute", 1),
 )
 
 commands(
     "fl3",
-    library.assign_part("Flutes", 3),
+    library.assign_part("Flute", 3),
 )
 
 commands(
     "fl2",
-    library.assign_part("Flutes", 2),
+    library.assign_part("Flute", 2),
 )
 
 commands(
     "fl4",
-    library.assign_part("Flutes", 4),
+    library.assign_part("Flute", 4),
 )
 
 # bcl
@@ -447,7 +447,7 @@ commands(
 
 commands(
     "1vn2",
-    library.assign_part("FirstViolins", 1),
+    library.assign_part("FirstViolin", 1),
 )
 
 commands(
@@ -460,22 +460,22 @@ commands(
 commands(
     "1vn1",
     baca.not_parts(baca.voice_two()),
-    library.assign_part("FirstViolins", (2, 18)),
+    library.assign_part("FirstViolin", (2, 18)),
 )
 
 commands(
     "2vn1",
-    library.assign_part("SecondViolins"),
+    library.assign_part("SecondViolin"),
 )
 
 commands(
     "va1",
-    library.assign_part("Violas"),
+    library.assign_part("Viola"),
 )
 
 commands(
     "vc1",
-    library.assign_part("Cellos"),
+    library.assign_part("Cello"),
 )
 
 most_strings = [
@@ -511,7 +511,7 @@ commands(
 
 commands(
     "cb3",
-    library.assign_part("Contrabasses", (2, 6)),
+    library.assign_part("Contrabass", (2, 6)),
 )
 
 # cb1 (solo)
@@ -524,7 +524,7 @@ commands(
 
 commands(
     "cb1",
-    library.assign_part("Contrabasses", 1),
+    library.assign_part("Contrabass", 1),
 )
 
 if __name__ == "__main__":

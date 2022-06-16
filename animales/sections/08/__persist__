@@ -42,7 +42,7 @@
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Cellos.Voice.1.part.1": (
-            baca.PartAssignment("Cellos"),
+            baca.PartAssignment("Cello"),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Clarinet.Music.part.1": (
@@ -50,15 +50,15 @@
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Contrabasses.Voice.1.part.1": (
-            baca.PartAssignment("Contrabasses", 1),
+            baca.PartAssignment("Contrabass", 1),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Contrabasses.Voice.3.part.1": (
-            baca.PartAssignment("Contrabasses", (2, 6)),
+            baca.PartAssignment("Contrabass", (2, 6)),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.FirstViolins.Voice.1.part.1": (
-            baca.PartAssignment("FirstViolins"),
+            baca.PartAssignment("FirstViolin"),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Harp.Music.part.1": (
@@ -78,11 +78,11 @@
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.SecondViolins.Voice.1.part.1": (
-            baca.PartAssignment("SecondViolins"),
+            baca.PartAssignment("SecondViolin"),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
         "number.8.Violas.Voice.1.part.1": (
-            baca.PartAssignment("Violas"),
+            baca.PartAssignment("Viola"),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
     },
