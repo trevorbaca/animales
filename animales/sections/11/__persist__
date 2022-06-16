@@ -6,8 +6,8 @@
         "Skips",
         "MusicContext",
         "WindStaffGroup",
-        "Clarinet.Staff.1",
-        "Clarinet.Music",
+        "Clarinets.Staff",
+        "Clarinets.Music",
         "BrassStaffGroup",
         "HornSquareStaffGroup",
         "Horns.Staff.1",
@@ -31,10 +31,10 @@
         "Trombones.Voice.2",
         "Trombones.Voice.4",
         "PianoPianoStaff",
-        "Piano.Staff.1",
+        "Piano.Staff",
         "Piano.Music",
         "HarpPianoStaff",
-        "Harp.Staff.1",
+        "Harp.Staff",
         "Harp.Music",
         "PercussionStaffGroup",
         "Percussion.Staff.2",
@@ -61,7 +61,7 @@
             PartAssignment(name="Cello", token=(1, 14)),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
-        "number.11.Clarinet.Music.container": (
+        "number.11.Clarinets.Music.container": (
             PartAssignment(name="Clarinet", token=2),
             Timespan(Offset((0, 1)), Offset((11, 2))),
         ),
@@ -161,7 +161,7 @@
                 value="niente",
             )
         ],
-        "BassClarinet.Staff.1": [
+        "BassClarinet.Staff": [
             baca.Memento(
                 context="BassClarinet.Music",
                 edition=None,
@@ -223,9 +223,9 @@
                 value=">",
             )
         ],
-        "Clarinet.Music": [
+        "Clarinets.Music": [
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Dynamic",
@@ -233,9 +233,9 @@
                 value="mf",
             )
         ],
-        "Clarinet.Staff.1": [
+        "Clarinets.Staff": [
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -243,7 +243,7 @@
                 value="Clarinet",
             ),
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -251,7 +251,7 @@
                 value="treble",
             ),
             baca.Memento(
-                context="Clarinet.Music",
+                context="Clarinets.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -423,7 +423,7 @@
                 value="mf",
             )
         ],
-        "Harp.Staff.1": [
+        "Harp.Staff": [
             baca.Memento(
                 context="Harp.Music",
                 edition=None,
@@ -735,7 +735,7 @@
                 value="mf",
             )
         ],
-        "Piano.Staff.1": [
+        "Piano.Staff": [
             baca.Memento(
                 context="Piano.Music",
                 edition=None,
@@ -1047,7 +1047,7 @@
                 value="\\baca-sffz",
             )
         ],
-        "Tuba.Staff.1": [
+        "Tuba.Staff": [
             baca.Memento(
                 context="Tuba.Music",
                 edition=None,

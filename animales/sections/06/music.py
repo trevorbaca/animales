@@ -13,7 +13,7 @@ assert start == 29
 
 score = library.make_empty_score(
     clarinets=[
-        (1, [1]),
+        (None, None),
     ],
     percussion=[
         (1, [1]),

@@ -6,9 +6,6 @@ from abjadext import rmakers
 
 
 def _group_families(*families):
-    """
-    Groups ``families`` only when more than one family is passed in.
-    """
     families_ = []
     for family in families:
         if family is not None:
@@ -34,27 +31,18 @@ def _group_families(*families):
     return contexts
 
 
-def _section_name_to_member_count():
-    return {
-        "Flutes": 4,
-        "Oboe": 1,
-        "EnglishHorn": 1,
-        "Clarinet": 1,
-        "BassClarinet": 1,
-        "Bassoons": 2,
-        "Horns": 4,
-        "Trumpets": 4,
-        "Trombones": 4,
-        "Tuba": 1,
-        "Harp": 1,
-        "Piano": 1,
-        "Percussion": 4,
-        "FirstViolins": 18,
-        "SecondViolins": 18,
-        "Violas": 18,
-        "Cellos": 14,
-        "Contrabasses": 6,
-    }
+def _lone_players():
+    return [_[0] for _ in _orchestra_inventory().items() if _[1] == 1]
+
+
+def _make_piano_staff(stem, *contexts):
+    if not isinstance(stem, str):
+        raise Exception(f"stem must be string: {stem!r}.")
+    contexts = tuple(_ for _ in contexts if _ is not None)
+    if contexts:
+        return abjad.StaffGroup(contexts, name=f"{stem}PianoStaff")
+    else:
+        return None
 
 
 def _make_short_instrument_name(name):
@@ -70,16 +58,6 @@ def _make_short_instrument_name(name):
         line_3 = rf'\hcenter-in #16 "{name[2]}"'
         string = rf"\markup \column {{ {line_1} {line_2} {line_3} }}"
     return abjad.ShortInstrumentName(string)
-
-
-def _make_piano_staff(stem, *contexts):
-    if not isinstance(stem, str):
-        raise Exception(f"stem must be string: {stem!r}.")
-    contexts = tuple(_ for _ in contexts if _ is not None)
-    if contexts:
-        return abjad.StaffGroup(contexts, name=f"{stem}PianoStaff")
-    else:
-        return None
 
 
 def _make_square_staff_group(stem, *contexts):
@@ -100,70 +78,74 @@ def _make_square_staff_group(stem, *contexts):
     return result
 
 
-def _make_staves(
-    staff_specifiers,
-    *,
-    section_name,
-):
+def _make_staves(staff_specifiers, *, base_name):
     if staff_specifiers == 0:
         staff_specifiers = []
     assert isinstance(staff_specifiers, list), repr(staff_specifiers)
-    assert section_name in _section_names(), repr(section_name)
+    assert base_name in list(_section_name_to_member_count().keys()) + _lone_players()
     tag = baca.tags.function_name(inspect.currentframe())
     staves = []
-    if not bool(staff_specifiers):
-        return staves
-    member_count = _section_name_to_member_count()[section_name]
+    member_count = _section_name_to_member_count().get(base_name, 1)
     for staff_specifier in staff_specifiers:
         assert isinstance(staff_specifier, tuple), repr(staff_specifier)
         assert len(staff_specifier) == 2, repr(staff_specifier)
         staff_number, voices = staff_specifier
-        assert isinstance(staff_number, int), repr(staff_number)
-        assert isinstance(voices, list), repr(voices)
-        if len(voices) == 1:
+        if staff_number is not None:
+            assert isinstance(staff_number, int), repr(staff_number)
+        if voices is None:
             simultaneous = False
         else:
-            simultaneous = True
-        staff = abjad.Staff(
-            simultaneous=simultaneous,
-            name=f"{section_name}.Staff.{staff_number}",
-            tag=tag,
-        )
+            assert isinstance(voices, list), repr(voices)
+            if len(voices) == 1:
+                simultaneous = False
+            else:
+                simultaneous = True
+        if isinstance(staff_number, int):
+            name = f"{base_name}.Staff.{staff_number}"
+        else:
+            assert staff_number is None
+            name = f"{base_name}.Staff"
+        staff = abjad.Staff(simultaneous=simultaneous, name=name, tag=tag)
         if member_count == 1:
             assert voices == [1], repr(voices)
-            voice = abjad.Voice(name=f"{section_name}.Music", tag=tag)
+            voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
+            staff.append(voice)
+        elif voices is None:
+            voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
         else:
             for voice_number in voices:
-                voice = abjad.Voice(
-                    name=f"{section_name}.Voice.{voice_number}", tag=tag
-                )
+                voice = abjad.Voice(name=f"{base_name}.Voice.{voice_number}", tag=tag)
                 staff.append(voice)
         staves.append(staff)
     return staves
 
 
-def _section_names():
-    return (
-        "Flutes",
-        "Oboe",
-        "EnglishHorn",
-        "Clarinet",
-        "BassClarinet",
-        "Bassoons",
-        "Horns",
-        "Trumpets",
-        "Trombones",
-        "Tuba",
-        "Harp",
-        "Piano",
-        "Percussion",
-        "FirstViolins",
-        "SecondViolins",
-        "Violas",
-        "Cellos",
-        "Contrabasses",
-    )
+def _orchestra_inventory():
+    return {
+        "Flutes": 4,
+        "Oboe": 1,
+        "EnglishHorn": 1,
+        "Clarinets": 3,
+        "BassClarinet": 1,
+        "Bassoons": 2,
+        "Horns": 4,
+        "Trumpets": 4,
+        "Trombones": 4,
+        "Tuba": 1,
+        "Harp": 1,
+        "Piano": 1,
+        "Percussion": 4,
+        "FirstViolins": 18,
+        "SecondViolins": 18,
+        "Violas": 18,
+        "Cellos": 14,
+        "Contrabasses": 6,
+    }
+
+
+def _section_name_to_member_count():
+    return dict([_ for _ in _orchestra_inventory().items() if 1 < _[1]])
 
 
 def allows_instrument(staff_name, instrument):
@@ -205,7 +187,7 @@ def allows_instrument(staff_name, instrument):
             ("Flutes", [_instruments["Flute"]]),
             ("Oboe", [_instruments["Oboe"]]),
             ("EnglishHorn", [_instruments["EnglishHorn"]]),
-            ("Clarinet", [_instruments["Clarinet"]]),
+            ("Clarinets", [_instruments["Clarinet"]]),
             ("BassClarinet", [_instruments["BassClarinet"]]),
             ("Horns", [_instruments["Horn"]]),
             ("Trumpets", [_instruments["Trumpet"]]),
@@ -302,6 +284,14 @@ def assign_brass_sforzando_parts(commands, omit_tuba=False):
             "Tuba.Music",
             assign_part("Tuba"),
         )
+
+
+def assign_part(name, token=None):
+    _part_manifest = part_manifest()
+    part_assignment = baca.PartAssignment(name, token)
+    for part in part_assignment.make_parts():
+        assert part in _part_manifest, repr(part)
+    return baca.assign_part(part_assignment)
 
 
 def assign_trill_parts(commands, *, exclude_first_violin=False):
@@ -691,75 +681,75 @@ def make_empty_score(
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves(
         flutes,
-        section_name="Flutes",
+        base_name="Flutes",
     )
     oboe_staves = _make_staves(
         oboes,
-        section_name="Oboe",
+        base_name="Oboe",
     )
     english_horn_staves = _make_staves(
         english_horn,
-        section_name="EnglishHorn",
+        base_name="EnglishHorn",
     )
     clarinet_staves = _make_staves(
         clarinets,
-        section_name="Clarinet",
+        base_name="Clarinets",
     )
     bass_clarinet_staves = _make_staves(
         bass_clarinet,
-        section_name="BassClarinet",
+        base_name="BassClarinet",
     )
     bassoon_staves = _make_staves(
         bassoons,
-        section_name="Bassoons",
+        base_name="Bassoons",
     )
     horn_staves = _make_staves(
         horns,
-        section_name="Horns",
+        base_name="Horns",
     )
     trumpet_staves = _make_staves(
         trumpets,
-        section_name="Trumpets",
+        base_name="Trumpets",
     )
     trombone_staves = _make_staves(
         trombones,
-        section_name="Trombones",
+        base_name="Trombones",
     )
     tuba_staves = _make_staves(
         tuba,
-        section_name="Tuba",
+        base_name="Tuba",
     )
     harp_staves = _make_staves(
         harp,
-        section_name="Harp",
+        base_name="Harp",
     )
     piano_staves = _make_staves(
         piano,
-        section_name="Piano",
+        base_name="Piano",
     )
     percussion_staves = _make_staves(
         percussion,
-        section_name="Percussion",
+        base_name="Percussion",
     )
     first_violin_staves = _make_staves(
         first_violins,
-        section_name="FirstViolins",
+        base_name="FirstViolins",
     )
     second_violin_staves = _make_staves(
         second_violins,
-        section_name="SecondViolins",
+        base_name="SecondViolins",
     )
     viola_staves = _make_staves(
         violas,
-        section_name="Violas",
+        base_name="Violas",
     )
     cello_staves = _make_staves(
         cellos,
-        section_name="Cellos",
+        base_name="Cellos",
     )
     contrabass_staves = _make_staves(
         contrabasses,
-        section_name="Contrabasses",
+        base_name="Contrabasses",
     )
     music_context = baca.score.make_music_context(
         baca.score.make_staff_group(
@@ -1183,14 +1173,6 @@ def part_manifest():
     )
 
 
-def assign_part(name, token=None):
-    _part_manifest = part_manifest()
-    part_assignment = baca.PartAssignment(name, token)
-    for part in part_assignment.make_parts():
-        assert part in _part_manifest, repr(part)
-    return baca.assign_part(part_assignment)
-
-
 def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
     start_pitch_ = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch_.number
@@ -1218,7 +1200,7 @@ def voice_abbreviations():
         "fl4": "Flutes.Voice.4",
         "ob": "Oboe.Music",
         "eh": "EnglishHorn.Music",
-        "cl": "Clarinet.Music",
+        "cl": "Clarinets.Music",
         "bcl": "BassClarinet.Music",
         "bsn1": "Bassoons.Voice.1",
         "bsn2": "Bassoons.Voice.2",

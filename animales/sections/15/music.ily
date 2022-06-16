@@ -2667,7 +2667,7 @@ number.15.BassClarinet.Music = {
 
 
   %! baca.path.extern()
-number.15.BassClarinet.Staff.1 = {
+number.15.BassClarinet.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2925,7 +2925,7 @@ number.15.Piano.Music = {
 
 
   %! baca.path.extern()
-number.15.Piano.Staff.1 = {
+number.15.Piano.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3163,7 +3163,7 @@ number.15.Harp.Music = {
 
 
   %! baca.path.extern()
-number.15.Harp.Staff.1 = {
+number.15.Harp.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

@@ -26,7 +26,7 @@ score = library.make_empty_score(
         (2, [2, 4]),
     ],
     tuba=[
-        (1, [1]),
+        (None, [1]),
     ],
     percussion=[
         (2, [2]),

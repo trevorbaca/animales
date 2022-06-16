@@ -873,7 +873,7 @@ number.17.Oboe.Music = {
 
 
   %! baca.path.extern()
-number.17.Oboe.Staff.1 = {
+number.17.Oboe.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1187,7 +1187,7 @@ number.17.EnglishHorn.Music = {
 
 
   %! baca.path.extern()
-number.17.EnglishHorn.Staff.1 = {
+number.17.EnglishHorn.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1776,7 +1776,7 @@ number.17.Bassoons.Voice.2 = {
 
 
   %! baca.path.extern()
-number.17.Bassoons.Staff.1 = <<
+number.17.Bassoons.Staff = <<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 

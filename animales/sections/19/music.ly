@@ -211,10 +211,10 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Tuba.Staff.1"
+                    \context Staff = "Tuba.Staff"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \number.19.Tuba.Staff.1 }
+                    { \number.19.Tuba.Staff }
                     % CLOSING:
                     % COMMANDS:
 
@@ -232,10 +232,10 @@
 
                     % OPEN_BRACKETS:
                       %! animales._make_staves()
-                    \context Staff = "Piano.Staff.1"
+                    \context Staff = "Piano.Staff"
                       %! animales._make_staves()
                       %! baca.path.extern()
-                    { \number.19.Piano.Staff.1 }
+                    { \number.19.Piano.Staff }
                     % CLOSING:
                     % COMMANDS:
 

@@ -14,13 +14,13 @@ assert start == 35
 
 score = library.make_empty_score(
     clarinets=[
-        (1, [1]),
+        (None, None),
     ],
     harp=[
-        (1, [1]),
+        (None, [1]),
     ],
     piano=[
-        (1, [1]),
+        (None, [1]),
     ],
     percussion=[
         (1, [1]),
