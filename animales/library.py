@@ -1169,7 +1169,7 @@ def metronome_marks():
 
 
 def part_manifest():
-    return baca.PartManifest(
+    return (
         *[baca.Part("Flute", _) for _ in (1, 2, 3, 4)],
         *[baca.Part("Oboe", _) for _ in (1, 2, 3)],
         baca.Part("EnglishHorn"),
@@ -1194,8 +1194,8 @@ def part_manifest():
 def assign_part(name, token=None):
     _part_manifest = part_manifest()
     part_assignment = baca.PartAssignment(name, token)
-    for part in part_assignment.parts():
-        assert part in _part_manifest.parts, repr(part)
+    for part in part_assignment.make_parts():
+        assert part in _part_manifest, repr(part)
     return baca.assign_part(part_assignment)
 
 
