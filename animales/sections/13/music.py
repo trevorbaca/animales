@@ -185,7 +185,7 @@ commands(
     library.short_instrument_name("Cl. 1"),
     baca.pitch("Eb5"),
     baca.hairpin("mp <", right_broken=True),
-    library.parts("Clarinet", 1),
+    library.assign_part("Clarinet", 1),
 )
 
 # bcl
@@ -198,7 +198,7 @@ commands(
 
 commands(
     "bcl",
-    library.parts("BassClarinet"),
+    library.assign_part("BassClarinet"),
 )
 
 # pf, hp
@@ -208,7 +208,7 @@ commands(
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Piano"),
+    library.assign_part("Piano"),
 )
 
 commands(
@@ -216,7 +216,7 @@ commands(
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Harp"),
+    library.assign_part("Harp"),
 )
 
 # perc1 (triangle)
@@ -229,7 +229,7 @@ commands(
         "niente o< mp",
         selector=lambda _: baca.select.pleaves(_)[:4],
     ),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 # perc2 (cymbal)
@@ -241,7 +241,7 @@ commands(
     ),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (vibraphone)
@@ -250,7 +250,7 @@ commands(
     "perc3",
     baca.pitch("C5"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # strings
@@ -266,7 +266,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("FirstViolins"),
+    library.assign_part("FirstViolins"),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("SecondViolins"),
+    library.assign_part("SecondViolins"),
 )
 
 commands(
@@ -294,7 +294,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("Violas"),
+    library.assign_part("Violas"),
 )
 
 commands(
@@ -308,7 +308,7 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.articulation("trill"),
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 commands(
@@ -321,7 +321,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.parts("Contrabasses", (2, 6)),
+    library.assign_part("Contrabasses", (2, 6)),
 )
 
 # cb1 (solo)
@@ -331,7 +331,7 @@ commands(
     baca.pitch("Cqf5", do_not_transpose=True),
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Contrabasses", 1),
+    library.assign_part("Contrabasses", 1),
 )
 
 if __name__ == "__main__":

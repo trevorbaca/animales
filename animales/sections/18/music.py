@@ -284,7 +284,7 @@ for voice, items in string_parts.items():
     # section = ".".join(voice.split(".")[:-2])
     section = voice.split(".")[0]
     members = items[0]
-    commands_.append(library.parts(section, members))
+    commands_.append(library.assign_part(section, members))
     if items[1] is True:
         commands_.append(_upper_voice())
     elif items[1] is False:

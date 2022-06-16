@@ -176,7 +176,7 @@ commands(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (BD)
@@ -191,7 +191,7 @@ commands(
     baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.dynamic("p"),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # perc4 (tam-tam)
@@ -205,7 +205,7 @@ commands(
     baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),
     baca.only_parts(baca.text_script_extra_offset((0, 4))),
     baca.dynamic("p"),
-    library.parts("Percussion", 4),
+    library.assign_part("Percussion", 4),
 )
 
 if __name__ == "__main__":

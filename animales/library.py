@@ -247,92 +247,90 @@ def allows_instrument(staff_name, instrument):
 def assign_brass_sforzando_parts(commands, omit_tuba=False):
     commands(
         "Horns.Voice.1.Music",
-        parts("Horns", 1),
+        assign_part("Horns", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Horns.Voice.3.Music",
-        parts("Horns", 3),
+        assign_part("Horns", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Horns.Voice.2.Music",
-        parts("Horns", 2),
+        assign_part("Horns", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Horns.Voice.4.Music",
-        parts("Horns", 4),
+        assign_part("Horns", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trumpets.Voice.1.Music",
-        parts("Trumpets", 1),
+        assign_part("Trumpets", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trumpets.Voice.3.Music",
-        parts("Trumpets", 3),
+        assign_part("Trumpets", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trumpets.Voice.2.Music",
-        parts("Trumpets", 2),
+        assign_part("Trumpets", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trumpets.Voice.4.Music",
-        parts("Trumpets", 4),
+        assign_part("Trumpets", 4),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trombones.Voice.1.Music",
-        parts("Trombones", 1),
+        assign_part("Trombones", 1),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trombones.Voice.3.Music",
-        parts("Trombones", 3),
+        assign_part("Trombones", 3),
         baca.not_parts(baca.voice_two()),
     )
     commands(
         "Trombones.Voice.2.Music",
-        parts("Trombones", 2),
+        assign_part("Trombones", 2),
         baca.not_parts(baca.voice_one()),
     )
     commands(
         "Trombones.Voice.4.Music",
-        parts("Trombones", 4),
+        assign_part("Trombones", 4),
         baca.not_parts(baca.voice_two()),
     )
     if not omit_tuba:
         commands(
             "Tuba.Music",
-            parts("Tuba"),
+            assign_part("Tuba"),
         )
 
 
 def assign_trill_parts(commands, *, exclude_first_violin=False):
-    voice_to_members = {
-        "FirstViolins.Voice.1.Music": (1, 10),
-        "FirstViolins.Voice.3.Music": (11, 18),
-        "SecondViolins.Voice.1.Music": (1, 10),
-        "SecondViolins.Voice.3.Music": (11, 18),
-        "Violas.Voice.1.Music": (1, 10),
-        "Violas.Voice.3.Music": (11, 18),
-        "Cellos.Voice.1.Music": "all",
-    }
-    for voice, members in voice_to_members.items():
-        section = voice_to_section(voice)
-        if voice == "FirstViolins.Voice.1.Music" and exclude_first_violin:
-            command = parts(section, (2, 10))
-        elif members == "all":
-            command = parts(section)
+    for voice_name, part_number_token in (
+        ("FirstViolins.Voice.1.Music", (1, 10)),
+        ("FirstViolins.Voice.3.Music", (11, 18)),
+        ("SecondViolins.Voice.1.Music", (1, 10)),
+        ("SecondViolins.Voice.3.Music", (11, 18)),
+        ("Violas.Voice.1.Music", (1, 10)),
+        ("Violas.Voice.3.Music", (11, 18)),
+        ("Cellos.Voice.1.Music", "all"),
+    ):
+        part_name = voice_name.split(".")[0]
+        if voice_name == "FirstViolins.Voice.1.Music" and exclude_first_violin:
+            command = assign_part(part_name, (2, 10))
+        elif part_number_token == "all":
+            command = assign_part(part_name)
         else:
-            assert not isinstance(members, str)
-            command = parts(section, members)
+            command = assign_part(part_name, part_number_token)
         commands(
-            voice,
+            voice_name,
             command,
         )
 
@@ -480,7 +478,7 @@ def make_battuti_material(
             )
             commands(
                 voice,
-                parts(section, member),
+                assign_part(section, member),
             )
             stack = []
             if first:
@@ -1194,39 +1192,14 @@ def part_manifest():
     )
 
 
-# >>> animales.library.parts("Horn")
-# PartAssignmentCommand(scope=None)
-#
-# >>> animales.library.parts("Horn", 1)
-# PartAssignmentCommand(scope=None)
-#
-# >>> animales.library.parts("Horn", 2)
-# PartAssignmentCommand(scope=None)
-#
-# >>> animales.library.parts("Horn", (3, 4))
-# PartAssignmentCommand(scope=None)
-#
-# >>> animales.library.parts("Horn", [1, 3])
-# PartAssignmentCommand(scope=None)
-#
-# ..  container:: example exception
-#
-# Raises exception on nonexistent part:
-#
-# >>> animales.library.parts("Horn", 5)
-# Traceback (most recent call last):
-#    ...
-# Exception: no Part(member=5, section='Horn') in part manifest.
-
-
-def parts(section, token=None):
+def assign_part(name, number_token=None):
     _part_manifest = part_manifest()
-    part_assignment = baca.PartAssignment(section=section, token=token)
+    part_assignment = baca.PartAssignment(section=name, token=number_token)
     if part_assignment.token is not None:
         for part in part_assignment.parts():
             if part not in _part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
-    return baca.assign_parts(part_assignment)
+    return baca.assign_part(part_assignment)
 
 
 def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
@@ -1374,34 +1347,3 @@ def voice_abbreviations():
                 voice_name = f"{section_name}.Voice.{n}.Music"
                 voice_abbreviation_to_voice_name[voice_abbreviation] = voice_name
     return voice_abbreviation_to_voice_name
-
-
-def voice_to_section(voice):
-    """
-    Changes ``voice`` to section string.
-
-    ..  container:: example
-
-        >>> string = "EnglishHorn.1.Music"
-        >>> animales.library.voice_to_section(string)
-        'EnglishHorn'
-
-        >>> string = "FirstViolins.1.Music"
-        >>> animales.library.voice_to_section(string)
-        'FirstViolins'
-
-        >>> string = "SecondViolins.1.Music"
-        >>> animales.library.voice_to_section(string)
-        'SecondViolins'
-
-        >>> string = "Violas.1.Music"
-        >>> animales.library.voice_to_section(string)
-        'Violas'
-
-    """
-    assert isinstance(voice, str), repr(voice)
-    voice = voice_abbreviations().get(voice, voice)
-    words = voice.split(".")
-    assert "Music" in words, repr(words)
-    section = words[0]
-    return section

@@ -296,22 +296,22 @@ commands(
 
 commands(
     "fl1",
-    library.parts("Flutes", 1),
+    library.assign_part("Flutes", 1),
 )
 
 commands(
     "fl3",
-    library.parts("Flutes", 3),
+    library.assign_part("Flutes", 3),
 )
 
 commands(
     "fl2",
-    library.parts("Flutes", 2),
+    library.assign_part("Flutes", 2),
 )
 
 commands(
     "fl4",
-    library.parts("Flutes", 4),
+    library.assign_part("Flutes", 4),
 )
 
 # cl
@@ -332,7 +332,7 @@ commands(
 
 commands(
     "cl",
-    library.parts("Clarinet", 1),
+    library.assign_part("Clarinet", 1),
 )
 
 # bcl
@@ -344,7 +344,7 @@ commands(
     ),
     baca.pitch("Ab2"),
     baca.dynamic("p"),
-    library.parts("BassClarinet"),
+    library.assign_part("BassClarinet"),
 )
 
 # pf, hp, perc3
@@ -365,14 +365,14 @@ commands(
     "pf",
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Piano"),
+    library.assign_part("Piano"),
 )
 
 commands(
     "hp",
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Harp"),
+    library.assign_part("Harp"),
 )
 
 # perc1 (triangle)
@@ -388,7 +388,7 @@ commands(
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 # perc2 (cymbal)
@@ -401,7 +401,7 @@ commands(
 
 commands(
     "perc2",
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (vibraphone)
@@ -409,7 +409,7 @@ commands(
 commands(
     "perc3",
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # strings
@@ -447,7 +447,7 @@ commands(
 
 commands(
     "1vn3",
-    library.parts("FirstViolins", 1),
+    library.assign_part("FirstViolins", 1),
 )
 
 commands(
@@ -464,22 +464,22 @@ commands(
 commands(
     "1vn1",
     baca.not_parts(baca.voice_two()),
-    library.parts("FirstViolins", (2, 18)),
+    library.assign_part("FirstViolins", (2, 18)),
 )
 
 commands(
     "2vn1",
-    library.parts("SecondViolins"),
+    library.assign_part("SecondViolins"),
 )
 
 commands(
     "va1",
-    library.parts("Violas"),
+    library.assign_part("Violas"),
 )
 
 commands(
     "vc1",
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 most_strings = [
@@ -519,7 +519,7 @@ commands(
 
 commands(
     "cb3",
-    library.parts("Contrabasses", (2, 6)),
+    library.assign_part("Contrabasses", (2, 6)),
 )
 
 # cb1 (solo)
@@ -529,7 +529,7 @@ commands(
     baca.pitch("Bb4", do_not_transpose=True),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-as-bell-like-as-possible-markup"),
-    library.parts("Contrabasses", 1),
+    library.assign_part("Contrabasses", 1),
 )
 
 if __name__ == "__main__":

@@ -125,7 +125,7 @@ commands(
     library.short_instrument_name("Cl. 2"),
     baca.edition("solo (cl. 2)", "solo"),
     baca.hairpin("mp < mf"),
-    library.parts("Clarinet", 2),
+    library.assign_part("Clarinet", 2),
 )
 
 # perc1 (triangle)
@@ -137,7 +137,7 @@ commands(
     ),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 # perc2 (cymbal)
@@ -149,7 +149,7 @@ commands(
     ),
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # strings
@@ -182,7 +182,7 @@ commands(
         "f > p",
         selector=library.leaves_in_measure(-1, lleak=True),
     ),
-    library.parts("FirstViolins", 1),
+    library.assign_part("FirstViolins", 1),
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)
@@ -220,7 +220,7 @@ commands(
         selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
-    library.parts("Contrabasses"),
+    library.assign_part("Contrabasses"),
 )
 
 if __name__ == "__main__":

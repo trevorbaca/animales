@@ -192,17 +192,17 @@ commands(
     baca.pitch("D5"),
     baca.edition("solo (cl. 1)", "solo"),
     baca.hairpin("mp < mf"),
-    library.parts("Clarinet", 1),
+    library.assign_part("Clarinet", 1),
 )
 
 commands(
     ("Rests", (5, -1)),
-    library.parts("Clarinet", 1),
+    library.assign_part("Clarinet", 1),
 )
 
 commands(
     ("Rests", (1, 4)),
-    library.parts("Clarinet", 2),
+    library.assign_part("Clarinet", 2),
 )
 
 commands(
@@ -211,7 +211,7 @@ commands(
     baca.pitch("Db5"),
     baca.edition("solo (cl. 2)", "solo"),
     baca.hairpin("mp < mf"),
-    library.parts("Clarinet", 2),
+    library.assign_part("Clarinet", 2),
 )
 
 # pf
@@ -226,7 +226,7 @@ commands(
     baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
     baca.pitch("D5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
-    library.parts("Piano"),
+    library.assign_part("Piano"),
 )
 
 # hp
@@ -244,7 +244,7 @@ commands(
         baca.markup(r"\animales-lh-damped-pdlt-explanation-markup"),
     ),
     baca.dynamic("mf"),
-    library.parts("Harp"),
+    library.assign_part("Harp"),
 )
 
 # perc1 (triangle)
@@ -255,7 +255,7 @@ commands(
         "niente",
         selector=lambda _: abjad.select.leaf(_, 0),
     ),
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 # perc2 (cymbal)
@@ -264,7 +264,7 @@ commands(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.parts("Percussion", 2),
+    library.assign_part("Percussion", 2),
 )
 
 # perc3 (vibraphone)
@@ -279,7 +279,7 @@ commands(
     baca.markup(r"\animales-vibraphone-markup"),
     baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
     baca.dynamic("mp"),
-    library.parts("Percussion", 3),
+    library.assign_part("Percussion", 3),
 )
 
 # strings
@@ -290,25 +290,25 @@ commands(
     baca.not_parts(
         baca.markup(r"\animales-strings-still-non-vib-markup"),
     ),
-    library.parts("FirstViolins"),
+    library.assign_part("FirstViolins"),
 )
 
 commands(
     "2vn1",
     baca.pitch("Bb5"),
-    library.parts("SecondViolins"),
+    library.assign_part("SecondViolins"),
 )
 
 commands(
     "va1",
     baca.pitch("Bb4"),
-    library.parts("Violas"),
+    library.assign_part("Violas"),
 )
 
 commands(
     "vc1",
     baca.pitch("Bb2"),
-    library.parts("Cellos"),
+    library.assign_part("Cellos"),
 )
 
 
@@ -318,7 +318,7 @@ commands(
         "Cb. (2-6)",
         alert=baca.markup(r"\animales-cb-two-to-six-markup"),
     ),
-    library.parts("Contrabasses", (2, 6)),
+    library.assign_part("Contrabasses", (2, 6)),
 )
 
 commands(
@@ -375,7 +375,7 @@ commands(
     baca.clef("bass"),
     library.short_instrument_name("Cb. 1"),
     baca.dynamic("p"),
-    library.parts("Contrabasses", 1),
+    library.assign_part("Contrabasses", 1),
 )
 
 commands(

@@ -141,7 +141,7 @@ commands(
 
 commands(
     "perc1",
-    library.parts("Percussion", 1),
+    library.assign_part("Percussion", 1),
 )
 
 if __name__ == "__main__":
