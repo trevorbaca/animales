@@ -103,7 +103,7 @@
 
                 % OPEN_BRACKETS:
                   %! baca.make_staff_group()
-                \context StaffGroup = "Percussion_Staff_Group"
+                \context StaffGroup = "PercussionStaffGroup"
                   %! baca.make_staff_group()
                 <<
                     % ABSOLUTE_BEFORE:

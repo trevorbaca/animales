@@ -8,7 +8,7 @@
         "PianoPianoStaff",
         "Piano.Staff.1",
         "Piano.Music",
-        "Percussion_Staff_Group",
+        "PercussionStaffGroup",
         "Percussion.Staff.4",
         "Percussion.Voice.4",
     ],
