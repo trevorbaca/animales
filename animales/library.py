@@ -1194,8 +1194,8 @@ def part_manifest():
 
 def assign_part(name, number_token=None):
     _part_manifest = part_manifest()
-    part_assignment = baca.PartAssignment(section=name, token=number_token)
-    if part_assignment.token is not None:
+    part_assignment = baca.PartAssignment(name, number_token)
+    if part_assignment.number is not None:
         for part in part_assignment.parts():
             if part not in _part_manifest.parts:
                 raise Exception(f"no {part!r} in part manifest.")
