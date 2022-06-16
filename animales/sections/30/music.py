@@ -14,7 +14,7 @@ time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
 
 score = library.make_empty_score(
     piano=[
-        (None, [1]),
+        (None, None),
     ],
     percussion=[
         (4, [4]),
