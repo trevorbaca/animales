@@ -58,15 +58,15 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], man
 
 # PERCUSSION
 
-voice = score["Percussion.Voice.1.Music"]
+voice = score["Percussion.Voice.1"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 
-voice = score["Percussion.Voice.2.Music"]
+voice = score["Percussion.Voice.2"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 
-voice = score["Percussion.Voice.4.Music"]
+voice = score["Percussion.Voice.4"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 
@@ -76,7 +76,7 @@ library.make_trill_rhythm(commands)
 
 # anchor notes
 
-music_voice_names = [_ for _ in voice_names if "Music" in _]
+music_voice_names = library.get_music_voice_names(voice_names)
 nonpercussion_voices = [_ for _ in music_voice_names if "Percussion" not in _]
 
 commands(
