@@ -19,13 +19,13 @@ score = library.make_empty_score(
         (2, [2, 4]),
     ],
     bass_clarinet=[
-        (None, [1]),
+        (None, None),
     ],
     harp=[
-        (None, [1]),
+        (None, None),
     ],
     piano=[
-        (None, [1]),
+        (None, None),
     ],
     percussion=[
         (1, [1]),

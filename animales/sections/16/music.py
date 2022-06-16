@@ -13,10 +13,10 @@ assert start == 94
 
 score = library.make_empty_score(
     oboes=[
-        (None, [1]),
+        (None, None),
     ],
     english_horn=[
-        (None, [1]),
+        (None, None),
     ],
     bassoons=[
         (None, [1, 2]),

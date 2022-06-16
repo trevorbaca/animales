@@ -78,7 +78,7 @@ def _make_square_staff_group(stem, *contexts):
     return result
 
 
-def _make_staves(staff_specifiers, *, base_name):
+def _make_staves(base_name, staff_specifiers):
     if staff_specifiers == 0:
         staff_specifiers = []
     assert isinstance(staff_specifiers, list), repr(staff_specifiers)
@@ -92,6 +92,8 @@ def _make_staves(staff_specifiers, *, base_name):
         staff_number, voices = staff_specifier
         if staff_number is not None:
             assert isinstance(staff_number, int), repr(staff_number)
+        if member_count == 1:
+            assert voices is None, repr(voices)
         if voices is None:
             simultaneous = False
         else:
@@ -106,11 +108,11 @@ def _make_staves(staff_specifiers, *, base_name):
             assert staff_number is None
             name = f"{base_name}.Staff"
         staff = abjad.Staff(simultaneous=simultaneous, name=name, tag=tag)
-        if member_count == 1:
-            assert voices == [1], repr(voices)
+        if voices is None:
             voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
-        elif voices is None:
+        elif member_count == 1:
+            assert voices == [1], repr(voices)
             voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
         else:
@@ -679,78 +681,24 @@ def make_empty_score(
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
-    flute_staves = _make_staves(
-        flutes,
-        base_name="Flutes",
-    )
-    oboe_staves = _make_staves(
-        oboes,
-        base_name="Oboe",
-    )
-    english_horn_staves = _make_staves(
-        english_horn,
-        base_name="EnglishHorn",
-    )
-    clarinet_staves = _make_staves(
-        clarinets,
-        base_name="Clarinets",
-    )
-    bass_clarinet_staves = _make_staves(
-        bass_clarinet,
-        base_name="BassClarinet",
-    )
-    bassoon_staves = _make_staves(
-        bassoons,
-        base_name="Bassoons",
-    )
-    horn_staves = _make_staves(
-        horns,
-        base_name="Horns",
-    )
-    trumpet_staves = _make_staves(
-        trumpets,
-        base_name="Trumpets",
-    )
-    trombone_staves = _make_staves(
-        trombones,
-        base_name="Trombones",
-    )
-    tuba_staves = _make_staves(
-        tuba,
-        base_name="Tuba",
-    )
-    harp_staves = _make_staves(
-        harp,
-        base_name="Harp",
-    )
-    piano_staves = _make_staves(
-        piano,
-        base_name="Piano",
-    )
-    percussion_staves = _make_staves(
-        percussion,
-        base_name="Percussion",
-    )
-    first_violin_staves = _make_staves(
-        first_violins,
-        base_name="FirstViolins",
-    )
-    second_violin_staves = _make_staves(
-        second_violins,
-        base_name="SecondViolins",
-    )
-    viola_staves = _make_staves(
-        violas,
-        base_name="Violas",
-    )
-    cello_staves = _make_staves(
-        cellos,
-        base_name="Cellos",
-    )
-    contrabass_staves = _make_staves(
-        contrabasses,
-        base_name="Contrabasses",
-    )
+    flute_staves = _make_staves("Flutes", flutes)
+    oboe_staves = _make_staves("Oboe", oboes)
+    english_horn_staves = _make_staves("EnglishHorn", english_horn)
+    clarinet_staves = _make_staves("Clarinets", clarinets)
+    bass_clarinet_staves = _make_staves("BassClarinet", bass_clarinet)
+    bassoon_staves = _make_staves("Bassoons", bassoons)
+    horn_staves = _make_staves("Horns", horns)
+    trumpet_staves = _make_staves("Trumpets", trumpets)
+    trombone_staves = _make_staves("Trombones", trombones)
+    tuba_staves = _make_staves("Tuba", tuba)
+    harp_staves = _make_staves("Harp", harp)
+    piano_staves = _make_staves("Piano", piano)
+    percussion_staves = _make_staves("Percussion", percussion)
+    first_violin_staves = _make_staves("FirstViolins", first_violins)
+    second_violin_staves = _make_staves("SecondViolins", second_violins)
+    viola_staves = _make_staves("Violas", violas)
+    cello_staves = _make_staves("Cellos", cellos)
+    contrabass_staves = _make_staves("Contrabasses", contrabasses)
     music_context = baca.score.make_music_context(
         baca.score.make_staff_group(
             "Wind",
