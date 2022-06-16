@@ -68,23 +68,23 @@
     ],
     "container_to_part_assignment": {
         "number.17.Bassoons.Voice.1.part.1": (
-            baca.PartAssignment("Bassoons", 1),
+            baca.PartAssignment("Bassoon", 1),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Bassoons.Voice.2.part.1": (
-            baca.PartAssignment("Bassoons", 2),
+            baca.PartAssignment("Bassoon", 2),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Cellos.Voice.1.part.1": (
-            baca.PartAssignment("Cellos", (1, 8)),
+            baca.PartAssignment("Cello", (1, 8)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Cellos.Voice.2.part.1": (
-            baca.PartAssignment("Cellos", (9, 14)),
+            baca.PartAssignment("Cello", (9, 14)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Contrabasses.Voice.3.part.1": (
-            baca.PartAssignment("Contrabasses"),
+            baca.PartAssignment("Contrabass"),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.EnglishHorn.Music.part.1": (
@@ -92,39 +92,39 @@
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.FirstViolins.Voice.1.part.1": (
-            baca.PartAssignment("FirstViolins", (1, 4)),
+            baca.PartAssignment("FirstViolin", (1, 4)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.FirstViolins.Voice.2.part.1": (
-            baca.PartAssignment("FirstViolins", (5, 8)),
+            baca.PartAssignment("FirstViolin", (5, 8)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.FirstViolins.Voice.3.part.1": (
-            baca.PartAssignment("FirstViolins", (9, 12)),
+            baca.PartAssignment("FirstViolin", (9, 12)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.FirstViolins.Voice.4.part.1": (
-            baca.PartAssignment("FirstViolins", (13, 17)),
+            baca.PartAssignment("FirstViolin", (13, 17)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.FirstViolins.Voice.5.part.1": (
-            baca.PartAssignment("FirstViolins", 18),
+            baca.PartAssignment("FirstViolin", 18),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Horns.Voice.1.part.1": (
-            baca.PartAssignment("Horns", 1),
+            baca.PartAssignment("Horn", 1),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Horns.Voice.2.part.1": (
-            baca.PartAssignment("Horns", 2),
+            baca.PartAssignment("Horn", 2),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Horns.Voice.3.part.1": (
-            baca.PartAssignment("Horns", 3),
+            baca.PartAssignment("Horn", 3),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Horns.Voice.4.part.1": (
-            baca.PartAssignment("Horns", 4),
+            baca.PartAssignment("Horn", 4),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Oboe.Music.part.1": (
@@ -132,67 +132,67 @@
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.SecondViolins.Voice.1.part.1": (
-            baca.PartAssignment("SecondViolins", (1, 4)),
+            baca.PartAssignment("SecondViolin", (1, 4)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.SecondViolins.Voice.2.part.1": (
-            baca.PartAssignment("SecondViolins", (5, 8)),
+            baca.PartAssignment("SecondViolin", (5, 8)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.SecondViolins.Voice.3.part.1": (
-            baca.PartAssignment("SecondViolins", (9, 12)),
+            baca.PartAssignment("SecondViolin", (9, 12)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.SecondViolins.Voice.4.part.1": (
-            baca.PartAssignment("SecondViolins", (13, 18)),
+            baca.PartAssignment("SecondViolin", (13, 18)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trombones.Voice.1.part.1": (
-            baca.PartAssignment("Trombones", 1),
+            baca.PartAssignment("Trombone", 1),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trombones.Voice.2.part.1": (
-            baca.PartAssignment("Trombones", 2),
+            baca.PartAssignment("Trombone", 2),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trombones.Voice.3.part.1": (
-            baca.PartAssignment("Trombones", 3),
+            baca.PartAssignment("Trombone", 3),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trombones.Voice.4.part.1": (
-            baca.PartAssignment("Trombones", 4),
+            baca.PartAssignment("Trombone", 4),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trumpets.Voice.1.part.1": (
-            baca.PartAssignment("Trumpets", 1),
+            baca.PartAssignment("Trumpet", 1),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trumpets.Voice.2.part.1": (
-            baca.PartAssignment("Trumpets", 2),
+            baca.PartAssignment("Trumpet", 2),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trumpets.Voice.3.part.1": (
-            baca.PartAssignment("Trumpets", 3),
+            baca.PartAssignment("Trumpet", 3),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Trumpets.Voice.4.part.1": (
-            baca.PartAssignment("Trumpets", 4),
+            baca.PartAssignment("Trumpet", 4),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Violas.Voice.1.part.1": (
-            baca.PartAssignment("Violas", (1, 4)),
+            baca.PartAssignment("Viola", (1, 4)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Violas.Voice.2.part.1": (
-            baca.PartAssignment("Violas", (5, 8)),
+            baca.PartAssignment("Viola", (5, 8)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Violas.Voice.3.part.1": (
-            baca.PartAssignment("Violas", (9, 12)),
+            baca.PartAssignment("Viola", (9, 12)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
         "number.17.Violas.Voice.4.part.1": (
-            baca.PartAssignment("Violas", (13, 18)),
+            baca.PartAssignment("Viola", (13, 18)),
             Timespan(Offset((0, 1)), Offset((17, 2))),
         ),
     },

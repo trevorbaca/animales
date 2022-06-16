@@ -281,13 +281,13 @@ commands(
     library.short_instrument_name("Bsn."),
     baca.clef("bass"),
     baca.not_parts(baca.voice_one()),
-    library.assign_part("Bassoons", 1),
+    library.assign_part("Bassoon", 1),
 )
 
 commands(
     "bsn2",
     baca.not_parts(baca.voice_two()),
-    library.assign_part("Bassoons", 2),
+    library.assign_part("Bassoon", 2),
 )
 
 commands(
@@ -361,16 +361,16 @@ commands(
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     baca.markup(r"\animales-appear-as-if-by-magic-markup"),
     baca.dynamic("f"),
-    library.assign_part("FirstViolins", 18),
+    library.assign_part("FirstViolin", 18),
 )
 
 voice_abbreviation_to_voice_name = library.voice_abbreviations()
 for voice_abbreviation, members in voice_abbreviation_to_members.items():
     voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
-    name = voice_name.split(".")[0]
+    part_name = voice_name.split(".")[0].removesuffix("s")
     commands(
         voice_abbreviation,
-        library.assign_part(name, number_token=members),
+        library.assign_part(part_name, number_token=members),
     )
 
 commands(

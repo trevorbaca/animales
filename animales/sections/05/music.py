@@ -182,7 +182,7 @@ commands(
         "f > p",
         selector=library.leaves_in_measure(-1, lleak=True),
     ),
-    library.assign_part("FirstViolins", 1),
+    library.assign_part("FirstViolin", 1),
 )
 
 library.assign_trill_parts(commands, exclude_first_violin=True)
@@ -220,7 +220,7 @@ commands(
         selector=lambda _: baca.select.pleaves(_)[:4],
         left_broken=True,
     ),
-    library.assign_part("Contrabasses"),
+    library.assign_part("Contrabass"),
 )
 
 if __name__ == "__main__":

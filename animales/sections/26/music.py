@@ -222,7 +222,7 @@ commands(
     baca.pitch("C#2"),
     baca.markup(r"\baca-arco-markup"),
     baca.hairpin("p <", right_broken=True),
-    library.assign_part("Contrabasses"),
+    library.assign_part("Contrabass"),
 )
 
 if __name__ == "__main__":

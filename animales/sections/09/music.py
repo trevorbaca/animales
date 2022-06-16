@@ -249,22 +249,22 @@ commands(
 
 commands(
     "1vn1",
-    library.assign_part("FirstViolins"),
+    library.assign_part("FirstViolin"),
 )
 
 commands(
     "2vn1",
-    library.assign_part("SecondViolins"),
+    library.assign_part("SecondViolin"),
 )
 
 commands(
     "va1",
-    library.assign_part("Violas"),
+    library.assign_part("Viola"),
 )
 
 commands(
     "vc1",
-    library.assign_part("Cellos"),
+    library.assign_part("Cello"),
 )
 
 
@@ -308,7 +308,7 @@ commands(
 
 commands(
     "cb3",
-    library.assign_part("Contrabasses", (2, 6)),
+    library.assign_part("Contrabass", (2, 6)),
 )
 
 # cb1 (solo)
@@ -319,7 +319,7 @@ commands(
     baca.note_head_style_harmonic(),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     baca.markup(r"\animales-seventh-partial-of-d-markup"),
-    library.assign_part("Contrabasses", 1),
+    library.assign_part("Contrabass", 1),
 )
 
 if __name__ == "__main__":
