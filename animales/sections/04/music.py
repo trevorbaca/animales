@@ -403,7 +403,7 @@ commands(
 
 commands(
     "vc1",
-    library.assign_part("Cello"),
+    library.assign_part("Cello", (1, 14)),
 )
 
 # cb3
@@ -416,7 +416,7 @@ commands(
 
 commands(
     "cb3",
-    library.assign_part("Contrabass"),
+    library.assign_part("Contrabass", (1, 6)),
     baca.instrument(instruments["Contrabass"]),
     library.short_instrument_name("Cb."),
     baca.clef("bass"),

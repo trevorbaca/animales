@@ -26,7 +26,7 @@
     ],
     "container_to_part_assignment": {
         "number.3.Cellos.Voice.1.container": (
-            baca.PartAssignment("Cello"),
+            baca.PartAssignment("Cello", (1, 14)),
             Timespan(Offset((0, 1)), Offset((9, 2))),
         ),
         "number.3.FirstViolins.Voice.1.container": (

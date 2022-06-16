@@ -296,7 +296,7 @@ commands(
 
 commands(
     "ob",
-    library.assign_part("Oboe"),
+    library.assign_part("Oboe", (1, 3)),
 )
 
 # eh
@@ -651,7 +651,7 @@ commands(
     "cb3",
     baca.pitch("G1"),
     _tremolo_suite(),
-    library.assign_part("Contrabass"),
+    library.assign_part("Contrabass", (1, 6)),
 )
 
 if __name__ == "__main__":

@@ -435,25 +435,25 @@ commands(
 commands(
     "1vn1",
     baca.pitch("Ab6"),
-    library.assign_part("FirstViolin"),
+    library.assign_part("FirstViolin", (1, 18)),
 )
 
 commands(
     "2vn1",
     baca.pitch("Ab5"),
-    library.assign_part("SecondViolin"),
+    library.assign_part("SecondViolin", (1, 18)),
 )
 
 commands(
     "va1",
     baca.pitch("Ab4"),
-    library.assign_part("Viola"),
+    library.assign_part("Viola", (1, 18)),
 )
 
 commands(
     "vc1",
     baca.pitch("Ab2"),
-    library.assign_part("Cello"),
+    library.assign_part("Cello", (1, 14)),
 )
 
 
