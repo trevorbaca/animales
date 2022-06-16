@@ -290,25 +290,25 @@ commands(
     baca.not_parts(
         baca.markup(r"\animales-strings-still-non-vib-markup"),
     ),
-    library.assign_part("FirstViolin"),
+    library.assign_part("FirstViolin", (1, 18)),
 )
 
 commands(
     "2vn1",
     baca.pitch("Bb5"),
-    library.assign_part("SecondViolin"),
+    library.assign_part("SecondViolin", (1, 18)),
 )
 
 commands(
     "va1",
     baca.pitch("Bb4"),
-    library.assign_part("Viola"),
+    library.assign_part("Viola", (1, 18)),
 )
 
 commands(
     "vc1",
     baca.pitch("Bb2"),
-    library.assign_part("Cello"),
+    library.assign_part("Cello", (1, 14)),
 )
 
 

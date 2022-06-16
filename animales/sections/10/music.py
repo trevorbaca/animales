@@ -421,22 +421,22 @@ commands(
 
 commands(
     "1vn1",
-    library.assign_part("FirstViolin"),
+    library.assign_part("FirstViolin", (1, 18)),
 )
 
 commands(
     "2vn1",
-    library.assign_part("SecondViolin"),
+    library.assign_part("SecondViolin", (1, 18)),
 )
 
 commands(
     "va1",
-    library.assign_part("Viola"),
+    library.assign_part("Viola", (1, 18)),
 )
 
 commands(
     "vc1",
-    library.assign_part("Cello"),
+    library.assign_part("Cello", (1, 14)),
 )
 
 commands(

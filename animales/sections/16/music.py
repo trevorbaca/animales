@@ -215,7 +215,7 @@ voice_abbreviation_to_members = {
     "va4": (13, 18),
     "vc1": (1, 8),
     "vc2": (9, 14),
-    "cb3": None,
+    "cb3": (1, 6),
 }
 
 for voice_name in voice_abbreviation_to_members:
@@ -240,7 +240,7 @@ commands(
     baca.instrument(instruments["Oboe"]),
     library.short_instrument_name("Ob."),
     baca.clef("treble"),
-    library.assign_part("Oboe"),
+    library.assign_part("Oboe", (1, 3)),
 )
 
 commands(
@@ -367,10 +367,10 @@ commands(
 voice_abbreviation_to_voice_name = library.voice_abbreviations()
 for voice_abbreviation, members in voice_abbreviation_to_members.items():
     voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
-    part_name = voice_name.split(".")[0].removesuffix("s")
+    part_name = voice_name.split(".")[0].removesuffix("s").removesuffix("e")
     commands(
         voice_abbreviation,
-        library.assign_part(part_name, number_token=members),
+        library.assign_part(part_name, token=members),
     )
 
 commands(

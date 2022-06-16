@@ -204,7 +204,7 @@
             Timespan(Offset((0, 1)), Offset((3, 1))),
         ),
         "number.26.Contrabasses.Voice.3.container": (
-            baca.PartAssignment("Contrabass"),
+            baca.PartAssignment("Contrabass", (1, 6)),
             Timespan(Offset((0, 1)), Offset((3, 1))),
         ),
         "number.26.FirstViolins.Voice.1.container": (

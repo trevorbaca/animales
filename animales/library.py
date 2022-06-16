@@ -320,13 +320,11 @@ def assign_trill_parts(commands, *, exclude_first_violin=False):
         ("SecondViolins.Voice.3", (11, 18)),
         ("Violas.Voice.1", (1, 10)),
         ("Violas.Voice.3", (11, 18)),
-        ("Cellos.Voice.1", "all"),
+        ("Cellos.Voice.1", (1, 14)),
     ):
         part_name = voice_name.split(".")[0].removesuffix("s")
         if voice_name == "FirstViolins.Voice.1" and exclude_first_violin:
             command = assign_part(part_name, (2, 10))
-        elif part_number_token == "all":
-            command = assign_part(part_name)
         else:
             command = assign_part(part_name, part_number_token)
         commands(
@@ -1158,60 +1156,46 @@ def short_instrument_names():
 
 
 def metronome_marks():
-    return dict(
-        [
-            ("48", abjad.MetronomeMark((1, 4), 48)),
-            ("60", abjad.MetronomeMark((1, 4), 60)),
-            ("76", abjad.MetronomeMark((1, 4), 76)),
-            ("84", abjad.MetronomeMark((1, 4), 84)),
-            ("96", abjad.MetronomeMark((1, 4), 96)),
-            ("114", abjad.MetronomeMark((1, 4), 114)),
-            ("120", abjad.MetronomeMark((1, 4), 120)),
-            ("132", abjad.MetronomeMark((1, 4), 132)),
-        ]
-    )
+    return {
+        "48": abjad.MetronomeMark((1, 4), 48),
+        "60": abjad.MetronomeMark((1, 4), 60),
+        "76": abjad.MetronomeMark((1, 4), 76),
+        "84": abjad.MetronomeMark((1, 4), 84),
+        "96": abjad.MetronomeMark((1, 4), 96),
+        "114": abjad.MetronomeMark((1, 4), 114),
+        "120": abjad.MetronomeMark((1, 4), 120),
+        "132": abjad.MetronomeMark((1, 4), 132),
+    }
 
 
 def part_manifest():
     return baca.PartManifest(
         *[baca.Part("Flute", _) for _ in (1, 2, 3, 4)],
-        baca.Section("Oboe", 3),
+        *[baca.Part("Oboe", _) for _ in (1, 2, 3)],
         baca.Part("EnglishHorn"),
         *[baca.Part("Clarinet", _) for _ in (1, 2, 3)],
         baca.Part("BassClarinet"),
-        # baca.Section("Bassoons", 2),
         *[baca.Part("Bassoon", _) for _ in (1, 2)],
-        # baca.Section("Horns", 4),
         *[baca.Part("Horn", _) for _ in (1, 2, 3, 4)],
-        # baca.Section("Trumpets", 4),
         *[baca.Part("Trumpet", _) for _ in (1, 2, 3, 4)],
-        # baca.Section("Trombones", 4),
         *[baca.Part("Trombone", _) for _ in (1, 2, 3, 4)],
         baca.Part("Tuba"),
         baca.Part("Harp"),
         baca.Part("Piano"),
-        # baca.Section("Percussion", 4),
         *[baca.Part("Percussion", _) for _ in (1, 2, 3, 4)],
-        # baca.Section("FirstViolins", 18),
         *[baca.Part("FirstViolin", _) for _ in range(1, 18 + 1)],
-        # baca.Section("SecondViolins", 18),
         *[baca.Part("SecondViolin", _) for _ in range(1, 18 + 1)],
-        # baca.Section("Violas", 18),
         *[baca.Part("Viola", _) for _ in range(1, 18 + 1)],
-        # baca.Section("Cellos", 14),
         *[baca.Part("Cello", _) for _ in range(1, 14 + 1)],
-        # baca.Section("Contrabasses", 6),
         *[baca.Part("Contrabass", _) for _ in range(1, 6 + 1)],
     )
 
 
-def assign_part(name, number_token=None):
+def assign_part(name, token=None):
     _part_manifest = part_manifest()
-    part_assignment = baca.PartAssignment(name, number_token)
-    if part_assignment.number is not None:
-        for part in part_assignment.parts():
-            if part not in _part_manifest.parts:
-                raise Exception(f"{part!r} not in part manifest.")
+    part_assignment = baca.PartAssignment(name, token)
+    for part in part_assignment.parts():
+        assert part in _part_manifest.parts, repr(part)
     return baca.assign_part(part_assignment)
 
 

@@ -62,7 +62,7 @@
             Timespan(Offset((0, 1)), Offset((23, 2))),
         ),
         "number.16.Contrabasses.Voice.3.container": (
-            baca.PartAssignment("Contrabasse"),
+            baca.PartAssignment("Contrabass", (1, 6)),
             Timespan(Offset((0, 1)), Offset((23, 2))),
         ),
         "number.16.EnglishHorn.Music.container": (
@@ -90,7 +90,7 @@
             Timespan(Offset((0, 1)), Offset((23, 2))),
         ),
         "number.16.Oboe.Music.container": (
-            baca.PartAssignment("Oboe"),
+            baca.PartAssignment("Oboe", (1, 3)),
             Timespan(Offset((0, 1)), Offset((23, 2))),
         ),
         "number.16.SecondViolins.Voice.1.container": (

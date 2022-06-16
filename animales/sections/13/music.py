@@ -266,7 +266,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("FirstViolin"),
+    library.assign_part("FirstViolin", (1, 18)),
 )
 
 commands(
@@ -280,7 +280,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("SecondViolin"),
+    library.assign_part("SecondViolin", (1, 18)),
 )
 
 commands(
@@ -294,7 +294,7 @@ commands(
     ),
     baca.articulation("trill"),
     baca.hairpin("pp <", right_broken=True),
-    library.assign_part("Viola"),
+    library.assign_part("Viola", (1, 18)),
 )
 
 commands(
@@ -308,7 +308,7 @@ commands(
     ),
     baca.hairpin("pp <", right_broken=True),
     baca.articulation("trill"),
-    library.assign_part("Cello"),
+    library.assign_part("Cello", (1, 14)),
 )
 
 commands(

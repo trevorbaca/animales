@@ -60,7 +60,7 @@
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
         "number.14.Cellos.Voice.1.container": (
-            baca.PartAssignment("Cello"),
+            baca.PartAssignment("Cello", (1, 14)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
         "number.14.Clarinet.Music.container": (
@@ -120,11 +120,11 @@
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
         "number.14.SecondViolins.Voice.1.container": (
-            baca.PartAssignment("SecondViolin"),
+            baca.PartAssignment("SecondViolin", (1, 18)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
         "number.14.Violas.Voice.1.container": (
-            baca.PartAssignment("Viola"),
+            baca.PartAssignment("Viola", (1, 18)),
             Timespan(Offset((0, 1)), Offset((21, 4))),
         ),
     },
