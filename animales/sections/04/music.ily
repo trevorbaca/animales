@@ -376,7 +376,7 @@ number.4.Skips = {
 
 
   %! baca.path.extern()
-number.4.Clarinet.Music.part.1 = {
+number.4.Clarinet.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -587,7 +587,7 @@ number.4.Clarinet.Music = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Clarinet.Music.part.1 }
+    { \number.4.Clarinet.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -618,7 +618,7 @@ number.4.Clarinet.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.Horns.Voice.1.part.1 = {
+number.4.Horns.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -791,7 +791,7 @@ number.4.Horns.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Horns.Voice.1.part.1 }
+    { \number.4.Horns.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -802,7 +802,7 @@ number.4.Horns.Voice.1 = {
 
 
   %! baca.path.extern()
-number.4.Horns.Voice.3.part.1 = {
+number.4.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -916,7 +916,7 @@ number.4.Horns.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Horns.Voice.3.part.1 }
+    { \number.4.Horns.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -956,7 +956,7 @@ number.4.Horns.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.4.Horns.Voice.2.part.1 = {
+number.4.Horns.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1129,7 +1129,7 @@ number.4.Horns.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Horns.Voice.2.part.1 }
+    { \number.4.Horns.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1140,7 +1140,7 @@ number.4.Horns.Voice.2 = {
 
 
   %! baca.path.extern()
-number.4.Horns.Voice.4.part.1 = {
+number.4.Horns.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1254,7 +1254,7 @@ number.4.Horns.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Horns.Voice.4.part.1 }
+    { \number.4.Horns.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1294,7 +1294,7 @@ number.4.Horns.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.4.Trumpets.Voice.1.part.1 = {
+number.4.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1467,7 +1467,7 @@ number.4.Trumpets.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trumpets.Voice.1.part.1 }
+    { \number.4.Trumpets.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1478,7 +1478,7 @@ number.4.Trumpets.Voice.1 = {
 
 
   %! baca.path.extern()
-number.4.Trumpets.Voice.3.part.1 = {
+number.4.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1592,7 +1592,7 @@ number.4.Trumpets.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trumpets.Voice.3.part.1 }
+    { \number.4.Trumpets.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1632,7 +1632,7 @@ number.4.Trumpets.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.4.Trumpets.Voice.2.part.1 = {
+number.4.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1805,7 +1805,7 @@ number.4.Trumpets.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trumpets.Voice.2.part.1 }
+    { \number.4.Trumpets.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1816,7 +1816,7 @@ number.4.Trumpets.Voice.2 = {
 
 
   %! baca.path.extern()
-number.4.Trumpets.Voice.4.part.1 = {
+number.4.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1930,7 +1930,7 @@ number.4.Trumpets.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trumpets.Voice.4.part.1 }
+    { \number.4.Trumpets.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1970,7 +1970,7 @@ number.4.Trumpets.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.4.Trombones.Voice.1.part.1 = {
+number.4.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2143,7 +2143,7 @@ number.4.Trombones.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trombones.Voice.1.part.1 }
+    { \number.4.Trombones.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2154,7 +2154,7 @@ number.4.Trombones.Voice.1 = {
 
 
   %! baca.path.extern()
-number.4.Trombones.Voice.3.part.1 = {
+number.4.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2268,7 +2268,7 @@ number.4.Trombones.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trombones.Voice.3.part.1 }
+    { \number.4.Trombones.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2308,7 +2308,7 @@ number.4.Trombones.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.4.Trombones.Voice.2.part.1 = {
+number.4.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2481,7 +2481,7 @@ number.4.Trombones.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trombones.Voice.2.part.1 }
+    { \number.4.Trombones.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2492,7 +2492,7 @@ number.4.Trombones.Voice.2 = {
 
 
   %! baca.path.extern()
-number.4.Trombones.Voice.4.part.1 = {
+number.4.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2606,7 +2606,7 @@ number.4.Trombones.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Trombones.Voice.4.part.1 }
+    { \number.4.Trombones.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2646,7 +2646,7 @@ number.4.Trombones.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.4.Tuba.Music.part.1 = {
+number.4.Tuba.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2815,7 +2815,7 @@ number.4.Tuba.Music = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Tuba.Music.part.1 }
+    { \number.4.Tuba.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2846,7 +2846,7 @@ number.4.Tuba.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.Percussion.Voice.1.part.1 = {
+number.4.Percussion.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3048,7 +3048,7 @@ number.4.Percussion.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Percussion.Voice.1.part.1 }
+    { \number.4.Percussion.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3079,7 +3079,7 @@ number.4.Percussion.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.Percussion.Voice.2.part.1 = {
+number.4.Percussion.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3281,7 +3281,7 @@ number.4.Percussion.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Percussion.Voice.2.part.1 }
+    { \number.4.Percussion.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3312,7 +3312,7 @@ number.4.Percussion.Staff.2 = {
 
 
   %! baca.path.extern()
-number.4.FirstViolins.Voice.2.part.1 = {
+number.4.FirstViolins.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3674,7 +3674,7 @@ number.4.FirstViolins.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.FirstViolins.Voice.2.part.1 }
+    { \number.4.FirstViolins.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3685,7 +3685,7 @@ number.4.FirstViolins.Voice.2 = {
 
 
   %! baca.path.extern()
-number.4.FirstViolins.Voice.1.part.1 = {
+number.4.FirstViolins.Voice.1.container.1 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3809,7 +3809,7 @@ number.4.FirstViolins.Voice.1.part.1 = {
 
 
   %! baca.path.extern()
-number.4.FirstViolins.Voice.1.part.2 = {
+number.4.FirstViolins.Voice.1.container.2 = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3912,13 +3912,13 @@ number.4.FirstViolins.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.FirstViolins.Voice.1.part.1 }
+    { \number.4.FirstViolins.Voice.1.container.1 }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.FirstViolins.Voice.1.part.2 }
+    { \number.4.FirstViolins.Voice.1.container.2 }
     % CLOSING:
     % COMMANDS:
 
@@ -3958,7 +3958,7 @@ number.4.FirstViolins.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.4.FirstViolins.Voice.3.part.1 = {
+number.4.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4161,7 +4161,7 @@ number.4.FirstViolins.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.FirstViolins.Voice.3.part.1 }
+    { \number.4.FirstViolins.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4192,7 +4192,7 @@ number.4.FirstViolins.Staff.2 = {
 
 
   %! baca.path.extern()
-number.4.SecondViolins.Voice.1.part.1 = {
+number.4.SecondViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4395,7 +4395,7 @@ number.4.SecondViolins.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.SecondViolins.Voice.1.part.1 }
+    { \number.4.SecondViolins.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4426,7 +4426,7 @@ number.4.SecondViolins.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.SecondViolins.Voice.3.part.1 = {
+number.4.SecondViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4619,7 +4619,7 @@ number.4.SecondViolins.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.SecondViolins.Voice.3.part.1 }
+    { \number.4.SecondViolins.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4650,7 +4650,7 @@ number.4.SecondViolins.Staff.2 = {
 
 
   %! baca.path.extern()
-number.4.Violas.Voice.1.part.1 = {
+number.4.Violas.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4869,7 +4869,7 @@ number.4.Violas.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Violas.Voice.1.part.1 }
+    { \number.4.Violas.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4900,7 +4900,7 @@ number.4.Violas.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.Violas.Voice.3.part.1 = {
+number.4.Violas.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5107,7 +5107,7 @@ number.4.Violas.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Violas.Voice.3.part.1 }
+    { \number.4.Violas.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5138,7 +5138,7 @@ number.4.Violas.Staff.2 = {
 
 
   %! baca.path.extern()
-number.4.Cellos.Voice.1.part.1 = {
+number.4.Cellos.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5341,7 +5341,7 @@ number.4.Cellos.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Cellos.Voice.1.part.1 }
+    { \number.4.Cellos.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5372,7 +5372,7 @@ number.4.Cellos.Staff.1 = {
 
 
   %! baca.path.extern()
-number.4.Contrabasses.Voice.3.part.1 = {
+number.4.Contrabasses.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5568,7 +5568,7 @@ number.4.Contrabasses.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.4.Contrabasses.Voice.3.part.1 }
+    { \number.4.Contrabasses.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 

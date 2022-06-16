@@ -37,63 +37,63 @@
         "Contrabasses.Voice.3",
     ],
     "container_to_part_assignment": {
-        "number.7.Cellos.Voice.1.part.1": (
+        "number.7.Cellos.Voice.1.container": (
             baca.PartAssignment("Cello"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Clarinet.Music.part.1": (
+        "number.7.Clarinet.Music.container.1": (
             baca.PartAssignment("Clarinet", 1),
             Timespan(Offset((0, 1)), Offset((7, 2))),
         ),
-        "number.7.Clarinet.Music.part.2": (
+        "number.7.Clarinet.Music.container.2": (
             baca.PartAssignment("Clarinet", 2),
             Timespan(Offset((7, 2)), Offset((7, 1))),
         ),
-        "number.7.Contrabasses.Voice.1.part.1": (
+        "number.7.Contrabasses.Voice.1.container": (
             baca.PartAssignment("Contrabass", 1),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Contrabasses.Voice.3.part.1": (
+        "number.7.Contrabasses.Voice.3.container": (
             baca.PartAssignment("Contrabass", (2, 6)),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.FirstViolins.Voice.1.part.1": (
+        "number.7.FirstViolins.Voice.1.container": (
             baca.PartAssignment("FirstViolin"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Harp.Music.part.1": (
+        "number.7.Harp.Music.container": (
             baca.PartAssignment("Harp"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Percussion.Voice.1.part.1": (
+        "number.7.Percussion.Voice.1.container": (
             baca.PartAssignment("Percussion", 1),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Percussion.Voice.2.part.1": (
+        "number.7.Percussion.Voice.2.container": (
             baca.PartAssignment("Percussion", 2),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Percussion.Voice.3.part.1": (
+        "number.7.Percussion.Voice.3.container": (
             baca.PartAssignment("Percussion", 3),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Piano.Music.part.1": (
+        "number.7.Piano.Music.container": (
             baca.PartAssignment("Piano"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Rests.part.1": (
+        "number.7.Rests.container.1": (
             baca.PartAssignment("Clarinet", 2),
             Timespan(Offset((0, 1)), Offset((7, 2))),
         ),
-        "number.7.Rests.part.2": (
+        "number.7.Rests.container.2": (
             baca.PartAssignment("Clarinet", 1),
             Timespan(Offset((7, 2)), Offset((7, 1))),
         ),
-        "number.7.SecondViolins.Voice.1.part.1": (
+        "number.7.SecondViolins.Voice.1.container": (
             baca.PartAssignment("SecondViolin"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),
-        "number.7.Violas.Voice.1.part.1": (
+        "number.7.Violas.Voice.1.container": (
             baca.PartAssignment("Viola"),
             Timespan(Offset((0, 1)), Offset((7, 1))),
         ),

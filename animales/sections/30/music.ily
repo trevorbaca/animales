@@ -580,7 +580,7 @@ number.30.Skips = {
 
 
   %! baca.path.extern()
-number.30.Piano.Music.part.1 = {
+number.30.Piano.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -809,7 +809,7 @@ number.30.Piano.Music = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.30.Piano.Music.part.1 }
+    { \number.30.Piano.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -840,7 +840,7 @@ number.30.Piano.Staff.1 = {
 
 
   %! baca.path.extern()
-number.30.Percussion.Voice.4.part.1 = {
+number.30.Percussion.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1383,7 +1383,7 @@ number.30.Percussion.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.30.Percussion.Voice.4.part.1 }
+    { \number.30.Percussion.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
