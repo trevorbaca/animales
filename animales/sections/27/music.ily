@@ -244,7 +244,7 @@ number.27.Skips = {
 
 
   %! baca.path.extern()
-number.27.Percussion.Voice.1.part.1 = {
+number.27.Percussion.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -396,7 +396,7 @@ number.27.Percussion.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Percussion.Voice.1.part.1 }
+    { \number.27.Percussion.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -427,7 +427,7 @@ number.27.Percussion.Staff.1 = {
 
 
   %! baca.path.extern()
-number.27.Percussion.Voice.2.part.1 = {
+number.27.Percussion.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -574,7 +574,7 @@ number.27.Percussion.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Percussion.Voice.2.part.1 }
+    { \number.27.Percussion.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -605,7 +605,7 @@ number.27.Percussion.Staff.2 = {
 
 
   %! baca.path.extern()
-number.27.Percussion.Voice.3.part.1 = {
+number.27.Percussion.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -752,7 +752,7 @@ number.27.Percussion.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Percussion.Voice.3.part.1 }
+    { \number.27.Percussion.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -783,7 +783,7 @@ number.27.Percussion.Staff.3 = {
 
 
   %! baca.path.extern()
-number.27.Percussion.Voice.4.part.1 = {
+number.27.Percussion.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -936,7 +936,7 @@ number.27.Percussion.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Percussion.Voice.4.part.1 }
+    { \number.27.Percussion.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -967,7 +967,7 @@ number.27.Percussion.Staff.4 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.1.part.1 = {
+number.27.FirstViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1123,7 +1123,7 @@ number.27.FirstViolins.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.1.part.1 }
+    { \number.27.FirstViolins.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1134,7 +1134,7 @@ number.27.FirstViolins.Voice.1 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.2.part.1 = {
+number.27.FirstViolins.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1199,7 +1199,7 @@ number.27.FirstViolins.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.2.part.1 }
+    { \number.27.FirstViolins.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1239,7 +1239,7 @@ number.27.FirstViolins.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.3.part.1 = {
+number.27.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1420,7 +1420,7 @@ number.27.FirstViolins.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.3.part.1 }
+    { \number.27.FirstViolins.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1431,7 +1431,7 @@ number.27.FirstViolins.Voice.3 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.4.part.1 = {
+number.27.FirstViolins.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1539,7 +1539,7 @@ number.27.FirstViolins.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.4.part.1 }
+    { \number.27.FirstViolins.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1579,7 +1579,7 @@ number.27.FirstViolins.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.5.part.1 = {
+number.27.FirstViolins.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1724,7 +1724,7 @@ number.27.FirstViolins.Voice.5 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.5.part.1 }
+    { \number.27.FirstViolins.Voice.5.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1735,7 +1735,7 @@ number.27.FirstViolins.Voice.5 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.6.part.1 = {
+number.27.FirstViolins.Voice.6.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1813,7 +1813,7 @@ number.27.FirstViolins.Voice.6 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.6.part.1 }
+    { \number.27.FirstViolins.Voice.6.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1853,7 +1853,7 @@ number.27.FirstViolins.Staff.3 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.7.part.1 = {
+number.27.FirstViolins.Voice.7.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1981,7 +1981,7 @@ number.27.FirstViolins.Voice.7 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.7.part.1 }
+    { \number.27.FirstViolins.Voice.7.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1992,7 +1992,7 @@ number.27.FirstViolins.Voice.7 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.8.part.1 = {
+number.27.FirstViolins.Voice.8.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2103,7 +2103,7 @@ number.27.FirstViolins.Voice.8 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.8.part.1 }
+    { \number.27.FirstViolins.Voice.8.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2143,7 +2143,7 @@ number.27.FirstViolins.Staff.4 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.9.part.1 = {
+number.27.FirstViolins.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2272,7 +2272,7 @@ number.27.FirstViolins.Voice.9 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.9.part.1 }
+    { \number.27.FirstViolins.Voice.9.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2283,7 +2283,7 @@ number.27.FirstViolins.Voice.9 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.10.part.1 = {
+number.27.FirstViolins.Voice.10.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2346,7 +2346,7 @@ number.27.FirstViolins.Voice.10 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.10.part.1 }
+    { \number.27.FirstViolins.Voice.10.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2386,7 +2386,7 @@ number.27.FirstViolins.Staff.5 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.11.part.1 = {
+number.27.FirstViolins.Voice.11.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2520,7 +2520,7 @@ number.27.FirstViolins.Voice.11 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.11.part.1 }
+    { \number.27.FirstViolins.Voice.11.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2531,7 +2531,7 @@ number.27.FirstViolins.Voice.11 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.12.part.1 = {
+number.27.FirstViolins.Voice.12.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2642,7 +2642,7 @@ number.27.FirstViolins.Voice.12 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.12.part.1 }
+    { \number.27.FirstViolins.Voice.12.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2682,7 +2682,7 @@ number.27.FirstViolins.Staff.6 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.13.part.1 = {
+number.27.FirstViolins.Voice.13.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2815,7 +2815,7 @@ number.27.FirstViolins.Voice.13 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.13.part.1 }
+    { \number.27.FirstViolins.Voice.13.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2826,7 +2826,7 @@ number.27.FirstViolins.Voice.13 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.14.part.1 = {
+number.27.FirstViolins.Voice.14.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -2909,7 +2909,7 @@ number.27.FirstViolins.Voice.14 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.14.part.1 }
+    { \number.27.FirstViolins.Voice.14.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2949,7 +2949,7 @@ number.27.FirstViolins.Staff.7 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.15.part.1 = {
+number.27.FirstViolins.Voice.15.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3063,7 +3063,7 @@ number.27.FirstViolins.Voice.15 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.15.part.1 }
+    { \number.27.FirstViolins.Voice.15.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3074,7 +3074,7 @@ number.27.FirstViolins.Voice.15 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.16.part.1 = {
+number.27.FirstViolins.Voice.16.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3170,7 +3170,7 @@ number.27.FirstViolins.Voice.16 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.16.part.1 }
+    { \number.27.FirstViolins.Voice.16.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3210,7 +3210,7 @@ number.27.FirstViolins.Staff.8 = <<
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.17.part.1 = {
+number.27.FirstViolins.Voice.17.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3381,7 +3381,7 @@ number.27.FirstViolins.Voice.17 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.17.part.1 }
+    { \number.27.FirstViolins.Voice.17.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3392,7 +3392,7 @@ number.27.FirstViolins.Voice.17 = {
 
 
   %! baca.path.extern()
-number.27.FirstViolins.Voice.18.part.1 = {
+number.27.FirstViolins.Voice.18.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3455,7 +3455,7 @@ number.27.FirstViolins.Voice.18 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.FirstViolins.Voice.18.part.1 }
+    { \number.27.FirstViolins.Voice.18.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3495,7 +3495,7 @@ number.27.FirstViolins.Staff.9 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.1.part.1 = {
+number.27.SecondViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3651,7 +3651,7 @@ number.27.SecondViolins.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.1.part.1 }
+    { \number.27.SecondViolins.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3662,7 +3662,7 @@ number.27.SecondViolins.Voice.1 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.2.part.1 = {
+number.27.SecondViolins.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3742,7 +3742,7 @@ number.27.SecondViolins.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.2.part.1 }
+    { \number.27.SecondViolins.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3782,7 +3782,7 @@ number.27.SecondViolins.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.3.part.1 = {
+number.27.SecondViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -3921,7 +3921,7 @@ number.27.SecondViolins.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.3.part.1 }
+    { \number.27.SecondViolins.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -3932,7 +3932,7 @@ number.27.SecondViolins.Voice.3 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.4.part.1 = {
+number.27.SecondViolins.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4064,7 +4064,7 @@ number.27.SecondViolins.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.4.part.1 }
+    { \number.27.SecondViolins.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4104,7 +4104,7 @@ number.27.SecondViolins.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.5.part.1 = {
+number.27.SecondViolins.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4228,7 +4228,7 @@ number.27.SecondViolins.Voice.5 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.5.part.1 }
+    { \number.27.SecondViolins.Voice.5.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4239,7 +4239,7 @@ number.27.SecondViolins.Voice.5 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.6.part.1 = {
+number.27.SecondViolins.Voice.6.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4312,7 +4312,7 @@ number.27.SecondViolins.Voice.6 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.6.part.1 }
+    { \number.27.SecondViolins.Voice.6.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4352,7 +4352,7 @@ number.27.SecondViolins.Staff.3 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.7.part.1 = {
+number.27.SecondViolins.Voice.7.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4509,7 +4509,7 @@ number.27.SecondViolins.Voice.7 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.7.part.1 }
+    { \number.27.SecondViolins.Voice.7.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4520,7 +4520,7 @@ number.27.SecondViolins.Voice.7 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.8.part.1 = {
+number.27.SecondViolins.Voice.8.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4587,7 +4587,7 @@ number.27.SecondViolins.Voice.8 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.8.part.1 }
+    { \number.27.SecondViolins.Voice.8.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4627,7 +4627,7 @@ number.27.SecondViolins.Staff.4 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.9.part.1 = {
+number.27.SecondViolins.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4761,7 +4761,7 @@ number.27.SecondViolins.Voice.9 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.9.part.1 }
+    { \number.27.SecondViolins.Voice.9.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4772,7 +4772,7 @@ number.27.SecondViolins.Voice.9 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.10.part.1 = {
+number.27.SecondViolins.Voice.10.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4850,7 +4850,7 @@ number.27.SecondViolins.Voice.10 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.10.part.1 }
+    { \number.27.SecondViolins.Voice.10.container }
     % CLOSING:
     % COMMANDS:
 
@@ -4890,7 +4890,7 @@ number.27.SecondViolins.Staff.5 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.11.part.1 = {
+number.27.SecondViolins.Voice.11.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -4999,7 +4999,7 @@ number.27.SecondViolins.Voice.11 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.11.part.1 }
+    { \number.27.SecondViolins.Voice.11.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5010,7 +5010,7 @@ number.27.SecondViolins.Voice.11 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.12.part.1 = {
+number.27.SecondViolins.Voice.12.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5124,7 +5124,7 @@ number.27.SecondViolins.Voice.12 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.12.part.1 }
+    { \number.27.SecondViolins.Voice.12.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5164,7 +5164,7 @@ number.27.SecondViolins.Staff.6 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.13.part.1 = {
+number.27.SecondViolins.Voice.13.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5321,7 +5321,7 @@ number.27.SecondViolins.Voice.13 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.13.part.1 }
+    { \number.27.SecondViolins.Voice.13.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5332,7 +5332,7 @@ number.27.SecondViolins.Voice.13 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.14.part.1 = {
+number.27.SecondViolins.Voice.14.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5405,7 +5405,7 @@ number.27.SecondViolins.Voice.14 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.14.part.1 }
+    { \number.27.SecondViolins.Voice.14.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5445,7 +5445,7 @@ number.27.SecondViolins.Staff.7 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.15.part.1 = {
+number.27.SecondViolins.Voice.15.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5584,7 +5584,7 @@ number.27.SecondViolins.Voice.15 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.15.part.1 }
+    { \number.27.SecondViolins.Voice.15.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5595,7 +5595,7 @@ number.27.SecondViolins.Voice.15 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.16.part.1 = {
+number.27.SecondViolins.Voice.16.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5667,7 +5667,7 @@ number.27.SecondViolins.Voice.16 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.16.part.1 }
+    { \number.27.SecondViolins.Voice.16.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5707,7 +5707,7 @@ number.27.SecondViolins.Staff.8 = <<
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.17.part.1 = {
+number.27.SecondViolins.Voice.17.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5880,7 +5880,7 @@ number.27.SecondViolins.Voice.17 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.17.part.1 }
+    { \number.27.SecondViolins.Voice.17.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5891,7 +5891,7 @@ number.27.SecondViolins.Voice.17 = {
 
 
   %! baca.path.extern()
-number.27.SecondViolins.Voice.18.part.1 = {
+number.27.SecondViolins.Voice.18.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -5959,7 +5959,7 @@ number.27.SecondViolins.Voice.18 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.SecondViolins.Voice.18.part.1 }
+    { \number.27.SecondViolins.Voice.18.container }
     % CLOSING:
     % COMMANDS:
 
@@ -5999,7 +5999,7 @@ number.27.SecondViolins.Staff.9 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.1.part.1 = {
+number.27.Violas.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6140,7 +6140,7 @@ number.27.Violas.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.1.part.1 }
+    { \number.27.Violas.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6151,7 +6151,7 @@ number.27.Violas.Voice.1 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.2.part.1 = {
+number.27.Violas.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6241,7 +6241,7 @@ number.27.Violas.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.2.part.1 }
+    { \number.27.Violas.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6281,7 +6281,7 @@ number.27.Violas.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.3.part.1 = {
+number.27.Violas.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6459,7 +6459,7 @@ number.27.Violas.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.3.part.1 }
+    { \number.27.Violas.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6470,7 +6470,7 @@ number.27.Violas.Voice.3 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.4.part.1 = {
+number.27.Violas.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6554,7 +6554,7 @@ number.27.Violas.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.4.part.1 }
+    { \number.27.Violas.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6594,7 +6594,7 @@ number.27.Violas.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.5.part.1 = {
+number.27.Violas.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6733,7 +6733,7 @@ number.27.Violas.Voice.5 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.5.part.1 }
+    { \number.27.Violas.Voice.5.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6744,7 +6744,7 @@ number.27.Violas.Voice.5 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.6.part.1 = {
+number.27.Violas.Voice.6.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6802,7 +6802,7 @@ number.27.Violas.Voice.6 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.6.part.1 }
+    { \number.27.Violas.Voice.6.container }
     % CLOSING:
     % COMMANDS:
 
@@ -6842,7 +6842,7 @@ number.27.Violas.Staff.3 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.7.part.1 = {
+number.27.Violas.Voice.7.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -6999,7 +6999,7 @@ number.27.Violas.Voice.7 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.7.part.1 }
+    { \number.27.Violas.Voice.7.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7010,7 +7010,7 @@ number.27.Violas.Voice.7 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.8.part.1 = {
+number.27.Violas.Voice.8.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7119,7 +7119,7 @@ number.27.Violas.Voice.8 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.8.part.1 }
+    { \number.27.Violas.Voice.8.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7159,7 +7159,7 @@ number.27.Violas.Staff.4 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.9.part.1 = {
+number.27.Violas.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7278,7 +7278,7 @@ number.27.Violas.Voice.9 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.9.part.1 }
+    { \number.27.Violas.Voice.9.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7289,7 +7289,7 @@ number.27.Violas.Voice.9 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.10.part.1 = {
+number.27.Violas.Voice.10.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7367,7 +7367,7 @@ number.27.Violas.Voice.10 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.10.part.1 }
+    { \number.27.Violas.Voice.10.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7407,7 +7407,7 @@ number.27.Violas.Staff.5 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.11.part.1 = {
+number.27.Violas.Voice.11.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7531,7 +7531,7 @@ number.27.Violas.Voice.11 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.11.part.1 }
+    { \number.27.Violas.Voice.11.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7542,7 +7542,7 @@ number.27.Violas.Voice.11 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.12.part.1 = {
+number.27.Violas.Voice.12.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7614,7 +7614,7 @@ number.27.Violas.Voice.12 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.12.part.1 }
+    { \number.27.Violas.Voice.12.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7654,7 +7654,7 @@ number.27.Violas.Staff.6 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.13.part.1 = {
+number.27.Violas.Voice.13.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7835,7 +7835,7 @@ number.27.Violas.Voice.13 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.13.part.1 }
+    { \number.27.Violas.Voice.13.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7846,7 +7846,7 @@ number.27.Violas.Voice.13 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.14.part.1 = {
+number.27.Violas.Voice.14.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -7914,7 +7914,7 @@ number.27.Violas.Voice.14 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.14.part.1 }
+    { \number.27.Violas.Voice.14.container }
     % CLOSING:
     % COMMANDS:
 
@@ -7954,7 +7954,7 @@ number.27.Violas.Staff.7 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.15.part.1 = {
+number.27.Violas.Voice.15.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8083,7 +8083,7 @@ number.27.Violas.Voice.15 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.15.part.1 }
+    { \number.27.Violas.Voice.15.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8094,7 +8094,7 @@ number.27.Violas.Voice.15 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.16.part.1 = {
+number.27.Violas.Voice.16.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8190,7 +8190,7 @@ number.27.Violas.Voice.16 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.16.part.1 }
+    { \number.27.Violas.Voice.16.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8230,7 +8230,7 @@ number.27.Violas.Staff.8 = <<
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.17.part.1 = {
+number.27.Violas.Voice.17.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8359,7 +8359,7 @@ number.27.Violas.Voice.17 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.17.part.1 }
+    { \number.27.Violas.Voice.17.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8370,7 +8370,7 @@ number.27.Violas.Voice.17 = {
 
 
   %! baca.path.extern()
-number.27.Violas.Voice.18.part.1 = {
+number.27.Violas.Voice.18.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8448,7 +8448,7 @@ number.27.Violas.Voice.18 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Violas.Voice.18.part.1 }
+    { \number.27.Violas.Voice.18.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8488,7 +8488,7 @@ number.27.Violas.Staff.9 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.1.part.1 = {
+number.27.Cellos.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8644,7 +8644,7 @@ number.27.Cellos.Voice.1 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.1.part.1 }
+    { \number.27.Cellos.Voice.1.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8655,7 +8655,7 @@ number.27.Cellos.Voice.1 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.2.part.1 = {
+number.27.Cellos.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8720,7 +8720,7 @@ number.27.Cellos.Voice.2 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.2.part.1 }
+    { \number.27.Cellos.Voice.2.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8760,7 +8760,7 @@ number.27.Cellos.Staff.1 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.3.part.1 = {
+number.27.Cellos.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -8925,7 +8925,7 @@ number.27.Cellos.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.3.part.1 }
+    { \number.27.Cellos.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
@@ -8936,7 +8936,7 @@ number.27.Cellos.Voice.3 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.4.part.1 = {
+number.27.Cellos.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9037,7 +9037,7 @@ number.27.Cellos.Voice.4 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.4.part.1 }
+    { \number.27.Cellos.Voice.4.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9077,7 +9077,7 @@ number.27.Cellos.Staff.2 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.5.part.1 = {
+number.27.Cellos.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9211,7 +9211,7 @@ number.27.Cellos.Voice.5 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.5.part.1 }
+    { \number.27.Cellos.Voice.5.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9222,7 +9222,7 @@ number.27.Cellos.Voice.5 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.6.part.1 = {
+number.27.Cellos.Voice.6.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9300,7 +9300,7 @@ number.27.Cellos.Voice.6 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.6.part.1 }
+    { \number.27.Cellos.Voice.6.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9340,7 +9340,7 @@ number.27.Cellos.Staff.3 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.7.part.1 = {
+number.27.Cellos.Voice.7.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9473,7 +9473,7 @@ number.27.Cellos.Voice.7 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.7.part.1 }
+    { \number.27.Cellos.Voice.7.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9484,7 +9484,7 @@ number.27.Cellos.Voice.7 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.8.part.1 = {
+number.27.Cellos.Voice.8.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9590,7 +9590,7 @@ number.27.Cellos.Voice.8 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.8.part.1 }
+    { \number.27.Cellos.Voice.8.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9630,7 +9630,7 @@ number.27.Cellos.Staff.4 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.9.part.1 = {
+number.27.Cellos.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9759,7 +9759,7 @@ number.27.Cellos.Voice.9 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.9.part.1 }
+    { \number.27.Cellos.Voice.9.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9770,7 +9770,7 @@ number.27.Cellos.Voice.9 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.10.part.1 = {
+number.27.Cellos.Voice.10.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -9833,7 +9833,7 @@ number.27.Cellos.Voice.10 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.10.part.1 }
+    { \number.27.Cellos.Voice.10.container }
     % CLOSING:
     % COMMANDS:
 
@@ -9873,7 +9873,7 @@ number.27.Cellos.Staff.5 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.11.part.1 = {
+number.27.Cellos.Voice.11.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10012,7 +10012,7 @@ number.27.Cellos.Voice.11 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.11.part.1 }
+    { \number.27.Cellos.Voice.11.container }
     % CLOSING:
     % COMMANDS:
 
@@ -10023,7 +10023,7 @@ number.27.Cellos.Voice.11 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.12.part.1 = {
+number.27.Cellos.Voice.12.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10129,7 +10129,7 @@ number.27.Cellos.Voice.12 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.12.part.1 }
+    { \number.27.Cellos.Voice.12.container }
     % CLOSING:
     % COMMANDS:
 
@@ -10169,7 +10169,7 @@ number.27.Cellos.Staff.6 = <<
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.13.part.1 = {
+number.27.Cellos.Voice.13.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10303,7 +10303,7 @@ number.27.Cellos.Voice.13 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.13.part.1 }
+    { \number.27.Cellos.Voice.13.container }
     % CLOSING:
     % COMMANDS:
 
@@ -10314,7 +10314,7 @@ number.27.Cellos.Voice.13 = {
 
 
   %! baca.path.extern()
-number.27.Cellos.Voice.14.part.1 = {
+number.27.Cellos.Voice.14.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10402,7 +10402,7 @@ number.27.Cellos.Voice.14 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Cellos.Voice.14.part.1 }
+    { \number.27.Cellos.Voice.14.container }
     % CLOSING:
     % COMMANDS:
 
@@ -10442,7 +10442,7 @@ number.27.Cellos.Staff.7 = <<
 
 
   %! baca.path.extern()
-number.27.Contrabasses.Voice.3.part.1 = {
+number.27.Contrabasses.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -10610,7 +10610,7 @@ number.27.Contrabasses.Voice.3 = {
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.27.Contrabasses.Voice.3.part.1 }
+    { \number.27.Contrabasses.Voice.3.container }
     % CLOSING:
     % COMMANDS:
 
