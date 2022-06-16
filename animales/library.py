@@ -1163,32 +1163,24 @@ def metronome_marks():
 
 def part_manifest():
     return baca.PartManifest(
-        baca.Section(abbreviation="FL", count=4, name="Flutes"),
-        baca.Section(abbreviation="OB", count=3, name="Oboe"),
+        baca.Section("Flutes", 4),
+        baca.Section("Oboe", 3),
         baca.Part("EnglishHorn"),
-        baca.Section(abbreviation="CL", count=3, name="Clarinet"),
+        baca.Section("Clarinet", 3),
         baca.Part("BassClarinet"),
-        baca.Section(abbreviation="BSN", count=2, name="Bassoons"),
-        baca.Section(abbreviation="HN", count=4, name="Horns"),
-        baca.Section(abbreviation="TP", count=4, name="Trumpets"),
-        baca.Section(abbreviation="TBN", count=4, name="Trombones"),
+        baca.Section("Bassoons", 2),
+        baca.Section("Horns", 4),
+        baca.Section("Trumpets", 4),
+        baca.Section("Trombones", 4),
         baca.Part("Tuba"),
         baca.Part("Harp"),
         baca.Part("Piano"),
-        baca.Section(abbreviation="PERC", count=4, name="Percussion"),
-        baca.Section(
-            abbreviation="VN-1",
-            count=18,
-            name="FirstViolins",
-        ),
-        baca.Section(
-            abbreviation="VN-2",
-            count=18,
-            name="SecondViolins",
-        ),
-        baca.Section(abbreviation="VA", count=18, name="Violas"),
-        baca.Section(abbreviation="VC", count=14, name="Cellos"),
-        baca.Section(abbreviation="CB", count=6, name="Contrabasses"),
+        baca.Section("Percussion", 4),
+        baca.Section("FirstViolins", 18),
+        baca.Section("SecondViolins", 18),
+        baca.Section("Violas", 18),
+        baca.Section("Cellos", 14),
+        baca.Section("Contrabasses", 6),
     )
 
 
