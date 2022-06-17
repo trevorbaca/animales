@@ -74,13 +74,12 @@ voice.extend(music)
 
 library.make_trill_rhythm(commands)
 
+strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+
 # anchor notes
 
-music_voice_names = library.get_music_voice_names(voice_names)
-nonpercussion_voices = [_ for _ in music_voice_names if "Percussion" not in _]
-
 commands(
-    nonpercussion_voices,
+    strings,
     baca.append_anchor_note(),
 )
 
@@ -118,70 +117,66 @@ commands(
 
 # strings
 
-strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+commands(
+    "1vn1",
+    baca.instrument(instruments["Violin"]),
+    baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
+    library.short_instrument_name("Vni. I (1-10)"),
+    baca.clef("treble"),
+)
 
+commands(
+    "1vn3",
+    baca.instrument(instruments["Violin"]),
+    baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
+    library.short_instrument_name("Vni. I (11-18)"),
+    baca.clef("treble"),
+)
 
-voice_to_start_markup = {
-    "1vn1": [
-        baca.instrument(instruments["Violin"]),
-        baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
-        library.short_instrument_name("Vni. I (1-10)"),
-        baca.clef("treble"),
-    ],
-    "1vn3": [
-        baca.instrument(instruments["Violin"]),
-        baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
-        library.short_instrument_name("Vni. I (11-18)"),
-        baca.clef("treble"),
-    ],
-    "2vn1": [
-        baca.instrument(instruments["Violin"]),
-        baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
-        library.short_instrument_name("Vni. II (1-10)"),
-        baca.clef("treble"),
-    ],
-    "2vn3": [
-        baca.instrument(instruments["Violin"]),
-        baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
-        library.short_instrument_name("Vni. II (11-18)"),
-        baca.clef("treble"),
-    ],
-    "va1": [
-        baca.instrument(instruments["Viola"]),
-        baca.instrument_name(r"\animales-violas-one-ten-markup"),
-        library.short_instrument_name("Vle. (1-10)"),
-        baca.clef("alto"),
-    ],
-    "va3": [
-        baca.instrument(instruments["Viola"]),
-        baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
-        library.short_instrument_name("Vle. (11-18)"),
-        baca.clef("alto"),
-    ],
-    "vc1": [
-        baca.instrument(instruments["Cello"]),
-        baca.instrument_name(r"\animales-cellos-markup"),
-        library.short_instrument_name("Vc."),
-        baca.clef("tenor"),
-    ],
-}
+commands(
+    "2vn1",
+    baca.instrument(instruments["Violin"]),
+    baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
+    library.short_instrument_name("Vni. II (1-10)"),
+    baca.clef("treble"),
+)
 
-for voice, commands_ in voice_to_start_markup.items():
-    assert isinstance(commands_, list)
-    commands(
-        (voice, 1),
-        *commands_,
-    )
+commands(
+    "2vn3",
+    baca.instrument(instruments["Violin"]),
+    baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
+    library.short_instrument_name("Vni. II (11-18)"),
+    baca.clef("treble"),
+)
+
+commands(
+    "va1",
+    baca.instrument(instruments["Viola"]),
+    baca.instrument_name(r"\animales-violas-one-ten-markup"),
+    library.short_instrument_name("Vle. (1-10)"),
+    baca.clef("alto"),
+)
+
+commands(
+    "va3",
+    baca.instrument(instruments["Viola"]),
+    baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
+    library.short_instrument_name("Vle. (11-18)"),
+    baca.clef("alto"),
+)
+
+commands(
+    "vc1",
+    baca.instrument(instruments["Cello"]),
+    baca.instrument_name(r"\animales-cellos-markup"),
+    library.short_instrument_name("Vc."),
+    baca.clef("tenor"),
+)
 
 library.assign_trill_parts(commands)
 
 commands(
-    ("vc1", 1),
-    baca.clef("tenor"),
-)
-
-# first accents ...
-commands(
+    # first accents ...
     ("1vn1", 1),
     baca.accent(selector=lambda _: baca.select.phead(_, 0)),
 )
@@ -193,16 +188,16 @@ commands(
     ),
 )
 
-# then untie ...
 commands(
+    # then untie ...
     (strings, (5, 6)),
     baca.untie(
         lambda _: baca.select.pleaf(_, 0),
     ),
 )
 
-# ... then pitch
 commands(
+    # ... then pitch
     (strings, (1, 4)),
     baca.pitch("A4"),
     baca.trill_spanner(alteration="B4"),
