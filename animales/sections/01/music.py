@@ -29,6 +29,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments()
 
@@ -72,7 +73,7 @@ voice.extend(music)
 
 # STRINGS
 
-library.make_trill_rhythm(commands)
+library.make_trill_rhythm(score, commands.get(), voice_metadata)
 
 strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
@@ -239,6 +240,7 @@ if __name__ == "__main__":
         part_manifest=library.part_manifest(),
         transpose_score=True,
     )
+    persist["voice_metadata"] = voice_metadata
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,
