@@ -93,7 +93,7 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-library.make_battuti_material(commands, [[1, -55], [1, -17], [1, -17]])
+library.make_battuti_material(score, commands, [[1, -55], [1, -17], [1, -17]], (1, 3))
 
 commands(
     ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],

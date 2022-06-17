@@ -178,7 +178,7 @@ commands(
 # STRINGS
 
 voice = score[commands.voice_abbreviations["1vn3"]]
-music = library.make_glissando_rhythm(rotate=-2, function=commands.get(1, 3))
+music = library.make_glissando_rhythm(commands.get(1, 3), rotate=-2)
 voice.extend(music)
 
 for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:

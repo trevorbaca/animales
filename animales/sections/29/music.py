@@ -111,11 +111,12 @@ commands(
 # STRINGS
 
 library.make_battuti_material(
+    score,
     commands,
     [[1, -17], [1, -17], [1, -17]],
+    (1, 3),
     append_fermata_measure=True,
     omit_contrabasses=True,
-    range_=(1, 3),
 )
 
 # reapply

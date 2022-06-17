@@ -411,13 +411,14 @@ def leaves_in_measure(n, lleak=False, rleak=False):
 
 
 def make_battuti_material(
+    score,
     commands,
     counts,
+    range_,
     *,
     append_fermata_measure=False,
     first=False,
     omit_contrabasses=False,
-    range_=(1, -1),
 ):
     section_name_to_member_count = {
         "FirstViolins": 18,
@@ -453,31 +454,30 @@ def make_battuti_material(
         if omit_contrabasses and section == "Contrabasses":
             continue
         for member in range(1, members + 1):
-            voice = f"{section}.Voice.{member}"
-            rhythm = make_clb_rhythm(section, member, counts, wrap)
-            commands(
-                (voice, range_),
-                rhythm,
-            )
+            voice_name = f"{section}.Voice.{member}"
+            voice = score[voice_name]
+            time_signatures = commands.get(*range_)
+            music = make_clb_rhythm(time_signatures, section, member, counts, wrap)
+            voice.extend(music)
             if append_fermata_measure is True:
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
                 commands(
-                    (voice, fermata_measure),
+                    (voice_name, fermata_measure),
                     baca.make_mmrests(head=True),
                 )
     for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
             continue
         for member in range(1, members + 1):
-            voice = f"{section}.Voice.{member}"
+            voice_name = f"{section}.Voice.{member}"
             commands(
-                voice,
+                voice_name,
                 baca.reapply_persistent_indicators(),
             )
             part_name = section.removesuffix("s").removesuffix("e")
             commands(
-                voice,
+                voice_name,
                 assign_part(part_name, member),
             )
             stack = []
@@ -504,12 +504,12 @@ def make_battuti_material(
                 polyphony = upper_voice()
             stack.append(polyphony)
             commands(
-                (voice, range_),
+                (voice_name, range_),
                 *stack,
             )
 
 
-def make_brass_manifest_rhythm(part):
+def make_brass_manifest_rhythm(part, *, function=None):
     assert part in range(1, 12 + 1), repr(part)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
@@ -536,7 +536,7 @@ def make_brass_manifest_rhythm(part):
         result = baca.sequence.quarters(divisions)
         return result
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -547,6 +547,10 @@ def make_brass_manifest_rhythm(part):
         persist="brass_manifest_rhythm",
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function is not None:
+        music = command.rhythm_maker(function)
+        return music
+    return command
 
 
 def make_brass_sforzando_material(
@@ -605,7 +609,7 @@ def make_brass_sforzando_material(
         )
 
 
-def make_clb_rhythm(section, member, counts, wrap):
+def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     if section in ("FirstViolins", "SecondViolins", "Violas"):
         assert member in range(1, 18 + 1), repr(member)
     elif section == "Cellos":
@@ -639,7 +643,7 @@ def make_clb_rhythm(section, member, counts, wrap):
         result = baca.sequence.quarters(result)
         return result
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea(counts_, 16, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -650,10 +654,12 @@ def make_clb_rhythm(section, member, counts, wrap):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    music = command.rhythm_maker(time_signatures)
+    return music
 
 
-def make_downbeat_attack(count=1, denominator=8):
-    return baca.rhythm(
+def make_downbeat_attack(count=1, denominator=8, *, function=None):
+    command = baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
             lambda _: baca.select.lts(_)[1:],
@@ -664,6 +670,10 @@ def make_downbeat_attack(count=1, denominator=8):
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function is not None:
+        music = command.rhythm_maker(function)
+        return music
+    return command
 
 
 def make_empty_score(
@@ -760,7 +770,7 @@ def make_empty_score(
     return score
 
 
-def make_glissando_rhythm(rotate=0, function=None):
+def make_glissando_rhythm(time_signatures, rotate=0):
     command = baca.rhythm(
         rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
         rmakers.beam(),
@@ -768,13 +778,11 @@ def make_glissando_rhythm(rotate=0, function=None):
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    if function is not None:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = command.rhythm_maker(time_signatures)
+    return music
 
 
-def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
+def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=None):
     part_to_pattern = dict(
         [
             (0, abjad.index([0, 30], period=36)),
@@ -839,7 +847,7 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
         result = baca.sequence.quarters(result)
         return result
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *stack,
         rmakers.cache_state(),
@@ -853,6 +861,10 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
         persist="harp_exchange_rhythm",
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function is not None:
+        music = command.rhythm_maker(function)
+        return music
+    return command
 
 
 def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):

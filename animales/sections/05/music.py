@@ -91,10 +91,9 @@ commands(
 
 # STRINGS
 
-commands(
-    "1vn2",
-    library.make_glissando_rhythm(),
-)
+voice = score[commands.voice_abbreviations["1vn2"]]
+music = library.make_glissando_rhythm(commands.get())
+voice.extend(music)
 
 library.make_trill_rhythm(score, commands.get(), voice_metadata, previous_persist)
 
