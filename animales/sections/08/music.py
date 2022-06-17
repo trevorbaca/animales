@@ -13,36 +13,36 @@ assert start == 43
 
 score = library.make_empty_score(
     clarinets=[
-        (None, None),
+        (None, ["cl"]),
     ],
     bass_clarinet=[
-        (None, None),
+        (None, ["bcl"]),
     ],
     harp=[
-        (None, None),
+        (None, ["hp"]),
     ],
     piano=[
-        (None, None),
+        (None, ["pf"]),
     ],
     percussion=[
         (2, ["perc2"]),
         (3, ["perc3"]),
     ],
     first_violins=[
-        (1, [1]),
+        (1, ["1vn1"]),
     ],
     second_violins=[
-        (1, [1]),
+        (1, ["2vn1"]),
     ],
     violas=[
-        (1, [1]),
+        (1, ["va1"]),
     ],
     cellos=[
-        (1, [1]),
+        (1, ["vc1"]),
     ],
     contrabasses=[
-        (1, [1]),
-        (2, [3]),
+        (1, ["cb1"]),
+        (2, ["cb3"]),
     ],
 )
 

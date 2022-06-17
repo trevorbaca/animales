@@ -15,17 +15,17 @@ time_signatures = library.time_signatures()[start : start + 6] + ((1, 4),)
 
 score = library.make_empty_score(
     flutes=[
-        (1, [1, 3]),
-        (2, [2, 4]),
+        (1, ["fl1", "fl3"]),
+        (2, ["fl2", "fl4"]),
     ],
     bass_clarinet=[
-        (None, None),
+        (None, ["bcl"]),
     ],
     harp=[
-        (None, None),
+        (None, ["hp"]),
     ],
     piano=[
-        (None, None),
+        (None, ["pf"]),
     ],
     percussion=[
         (1, ["perc1"]),
@@ -33,20 +33,20 @@ score = library.make_empty_score(
         (3, ["perc3"]),
     ],
     first_violins=[
-        (1, [2, 1]),
+        (1, ["1vn2", "1vn1"]),
     ],
     second_violins=[
-        (1, [1]),
+        (1, ["2vn1"]),
     ],
     violas=[
-        (1, [1]),
+        (1, ["va1"]),
     ],
     cellos=[
-        (1, [1]),
+        (1, ["vc1"]),
     ],
     contrabasses=[
-        (1, [1]),
-        (2, [3]),
+        (1, ["cb1"]),
+        (2, ["cb3"]),
     ],
 )
 

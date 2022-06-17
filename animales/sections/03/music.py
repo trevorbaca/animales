@@ -13,19 +13,19 @@ assert start == 12
 
 score = library.make_empty_score(
     first_violins=[
-        (1, [1]),
-        (2, [3]),
+        (1, ["1vn1"]),
+        (2, ["1vn3"]),
     ],
     second_violins=[
-        (1, [1]),
-        (2, [3]),
+        (1, ["2vn1"]),
+        (2, ["2vn3"]),
     ],
     violas=[
-        (1, [1]),
-        (2, [3]),
+        (1, ["va1"]),
+        (2, ["va3"]),
     ],
     cellos=[
-        (1, [1]),
+        (1, ["vc1"]),
     ],
 )
 
