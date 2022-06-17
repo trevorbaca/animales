@@ -329,6 +329,9 @@ def attach_grand_pause_fermatas(commands, score, *, measure=-1):
     """
     assert isinstance(commands, baca.CommandAccumulator)
     for voice in abjad.iterate.components(score, abjad.Voice):
+        parent = abjad.get.parentage(voice).parent
+        if type(parent) is abjad.Container:
+            continue
         markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
         markup_command = baca.markup(
             markup,
@@ -757,14 +760,18 @@ def make_empty_score(
     return score
 
 
-def make_glissando_rhythm(rotate=0):
-    return baca.rhythm(
+def make_glissando_rhythm(rotate=0, function=None):
+    command = baca.rhythm(
         rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    if function is not None:
+        music = command.rhythm_maker(function)
+        return music
+    return command
 
 
 def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
@@ -848,7 +855,7 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False):
     )
 
 
-def make_pennant_rhythm(extra_counts=None, silences=None):
+def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
     stack = []
     if silences is not None:
         specifier = rmakers.force_rest(
@@ -864,7 +871,7 @@ def make_pennant_rhythm(extra_counts=None, silences=None):
         result = baca.sequence.quarters(divisions)
         return result
 
-    return baca.rhythm(
+    command = baca.rhythm(
         rmakers.talea([1], 16, extra_counts=extra_counts),
         *stack,
         rmakers.beam(),
@@ -876,6 +883,8 @@ def make_pennant_rhythm(extra_counts=None, silences=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    music = command.rhythm_maker(time_signatures)
+    return music
 
 
 def make_sforzando_exchange_rhythm(

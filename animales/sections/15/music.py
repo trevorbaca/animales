@@ -90,52 +90,49 @@ baca.mmrest_text_extra_offset_function(
     tags=[baca.tags.NOT_PARTS],
 )
 
-# WINDS
+# FL1
 
-commands(
-    ("fl1", (1, 3)),
-    library.make_pennant_rhythm([0, 0, -1, -1, 0], [0, 1, 2]),
-)
+voice = score[commands.voice_abbreviations["fl1"]]
+music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2])
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("fl3", (1, 3)),
-    library.make_pennant_rhythm([0, 0, 0, -1, -1], [0, 1]),
-)
+# FL3
 
-commands(
-    ("fl2", (1, 3)),
-    library.make_pennant_rhythm([0, -1, -1, 0], [0]),
-)
+voice = score[commands.voice_abbreviations["fl3"]]
+music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, 0, -1, -1], [0, 1])
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("fl4", (1, 3)),
-    library.make_pennant_rhythm([0, 0, -1, -1]),
-)
+# FL2
 
-commands(
-    (["fl1", "fl2", "fl3", "fl4"], (4, 7)),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["fl2"]]
+music = library.make_pennant_rhythm(commands.get(1, 3), [0, -1, -1, 0], [0])
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("bcl", 1),
-    baca.make_repeat_tied_notes(),
-)
+# FL4
 
-commands(
-    ("bcl", 2),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["fl4"]]
+music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, -1, -1])
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("bcl", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
+# BCL
 
-commands(
-    ("bcl", 7),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["bcl"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(2))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(7))
+voice.extend(music)
 
 # PIANO, HARP
 
@@ -159,27 +156,23 @@ commands(
     baca.make_mmrests(),
 )
 
-# PERCUSSION
+# PERC1
 
-commands(
-    ("perc1", (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("perc1", (4, 7)),
-    baca.make_mmrests(),
-)
+# PERC2
 
-commands(
-    ("perc2", (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7))
+voice.extend(music)
 
-commands(
-    ("perc2", (4, 7)),
-    baca.make_mmrests(),
-)
+# PERC3
 
 commands(
     ("perc3", (1, 6)),
@@ -193,30 +186,29 @@ commands(
 
 # STRINGS
 
-commands(
-    ("1vn2", (1, 3)),
-    library.make_glissando_rhythm(rotate=-2),
-)
+voice = score[commands.voice_abbreviations["1vn2"]]
+music = library.make_glissando_rhythm(rotate=-2, function=commands.get(1, 3))
+voice.extend(music)
 
-commands(
-    (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
+for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
+    voice = score[commands.voice_abbreviations[voice_name]]
+    music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+    voice.extend(music)
 
-commands(
-    (["1vn1", "1vn2", "2vn1", "va1", "vc1"], (4, 7)),
-    baca.make_mmrests(head=True),
-)
+for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
+    voice = score[commands.voice_abbreviations[name]]
+    music = baca.make_mmrests_function(commands.get(4, 7), head=voice.name)
+    voice.extend(music)
 
-commands(
-    ("cb3", (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
+# CB3
 
-commands(
-    ("cb3", (4, 7)),
-    baca.make_mmrests(head=True),
-)
+voice = score[commands.voice_abbreviations["cb3"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 7), head=voice.name)
+voice.extend(music)
+
+# CB1
 
 commands(
     ("cb1", (1, 6)),
