@@ -13,44 +13,44 @@ start = 94
 
 score = library.make_empty_score(
     oboes=[
-        (None, None),
+        (None, ["ob"]),
     ],
     english_horn=[
-        (None, None),
+        (None, ["eh"]),
     ],
     bassoons=[
-        (None, [1, 2]),
+        (None, ["bsn1", "bsn2"]),
     ],
     horns=[
-        (1, [1, 3]),
-        (2, [2, 4]),
+        (1, ["hn1", "hn3"]),
+        (2, ["hn2", "hn4"]),
     ],
     trumpets=[
-        (1, [1, 3]),
-        (2, [2, 4]),
+        (1, ["tp1", "tp3"]),
+        (2, ["tp2", "tp4"]),
     ],
     trombones=[
-        (1, [1, 3]),
-        (2, [2, 4]),
+        (1, ["tbn1", "tbn3"]),
+        (2, ["tbn2", "tbn4"]),
     ],
     first_violins=[
-        (1, [1, 2]),
-        (2, [3, 4]),
-        (3, [5]),
+        (1, ["1vn1", "1vn2"]),
+        (2, ["1vn3", "1vn4"]),
+        (3, ["1vn5"]),
     ],
     second_violins=[
-        (1, [1, 2]),
-        (2, [3, 4]),
+        (1, ["2vn1", "2vn2"]),
+        (2, ["2vn3", "2vn4"]),
     ],
     violas=[
-        (1, [1, 2]),
-        (2, [3, 4]),
+        (1, ["va1", "va2"]),
+        (2, ["va3", "va4"]),
     ],
     cellos=[
-        (1, [1, 2]),
+        (1, ["vc1", "vc2"]),
     ],
     contrabasses=[
-        (2, [3]),
+        (2, ["cb3"]),
     ],
 )
 

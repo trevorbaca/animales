@@ -13,32 +13,32 @@ assert start == 94
 
 score = library.make_empty_score(
     oboes=[
-        (None, None),
+        (None, ["ob"]),
     ],
     english_horn=[
-        (None, None),
+        (None, ["eh"]),
     ],
     bassoons=[
-        (None, [1, 2]),
+        (None, ["bsn1", "bsn2"]),
     ],
     first_violins=[
-        (1, [1, 2]),
-        (2, [3, 4]),
-        (3, [5]),
+        (1, ["1vn1", "1vn2"]),
+        (2, ["1vn3", "1vn4"]),
+        (3, ["1vn5"]),
     ],
     second_violins=[
-        (1, [1, 2]),
-        (2, [3, 4]),
+        (1, ["2vn1", "2vn2"]),
+        (2, ["2vn3", "2vn4"]),
     ],
     violas=[
-        (1, [1, 2]),
-        (2, [3, 4]),
+        (1, ["va1", "va2"]),
+        (2, ["va3", "va4"]),
     ],
     cellos=[
-        (1, [1, 2]),
+        (1, ["vc1", "vc2"]),
     ],
     contrabasses=[
-        (2, [3]),
+        (2, ["cb3"]),
     ],
 )
 

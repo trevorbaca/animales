@@ -115,18 +115,15 @@ def _make_staves(base_name, staff_specifiers):
             assert staff_number is None
             name = f"{base_name}.Staff"
         staff = abjad.Staff(simultaneous=simultaneous, name=name, tag=tag)
-        if base_name.startswith("Percussion"):
+        if isinstance(voices, list):
             for voice_abbreviation in voices:
                 voice_name = _voice_abbreviations[voice_abbreviation]
-            voice = abjad.Voice(name=voice_name, tag=tag)
-            staff.append(voice)
-        elif voices is None:
+                voice = abjad.Voice(name=voice_name, tag=tag)
+                staff.append(voice)
+        else:
+            assert voices is None
             voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
-        else:
-            for voice_number in voices:
-                voice = abjad.Voice(name=f"{base_name}.Voice.{voice_number}", tag=tag)
-                staff.append(voice)
         staves.append(staff)
     return staves
 
@@ -1151,12 +1148,14 @@ def time_signatures():
     return time_signatures
 
 
+# TODO: make plural abbreviations plural
 def voice_abbreviations():
     return {
         "fl1": "Flutes.Voice.1",
         "fl2": "Flutes.Voice.2",
         "fl3": "Flutes.Voice.3",
         "fl4": "Flutes.Voice.4",
+        # TODO: change to Oboes.Music
         "ob": "Oboe.Music",
         "eh": "EnglishHorn.Music",
         "cl": "Clarinets.Music",
