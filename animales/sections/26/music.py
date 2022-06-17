@@ -163,8 +163,10 @@ commands(
 # STRINGS
 
 library.make_battuti_material(
+    score,
     commands,
     [[1, -55], [1, -17], [1, -17]],
+    (1, 3),
     omit_contrabasses=True,
 )
 

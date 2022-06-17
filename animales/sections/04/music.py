@@ -154,15 +154,11 @@ commands(
 
 # STRINGS
 
-commands(
-    ("1vn2", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("1vn2", (3, 6)),
-    library.make_glissando_rhythm(),
-)
+voice = score[commands.voice_abbreviations["1vn2"]]
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
+music = library.make_glissando_rhythm(commands.get(3, 6))
+voice.extend(music)
 
 library.make_trill_rhythm(score, commands.get(1, 2), voice_metadata, previous_persist)
 

@@ -165,7 +165,9 @@ commands(
     baca.reapply_persistent_indicators(),
 )
 
-library.make_battuti_material(commands, [[1, -117, -117], [1, -118]], first=True)
+library.make_battuti_material(
+    score, commands, [[1, -117, -117], [1, -118]], (1, 3), first=True
+)
 
 commands(
     "1vn18",

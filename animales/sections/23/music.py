@@ -139,7 +139,7 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-library.make_battuti_material(commands, [[1, -17], [1, -17], [1, -17]])
+library.make_battuti_material(score, commands, [[1, -17], [1, -17], [1, -17]], (1, 3))
 
 # reapply
 

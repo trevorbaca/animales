@@ -92,7 +92,7 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-library.make_battuti_material(commands, [[1, -17], [1, -17], [1, -17]])
+library.make_battuti_material(score, commands, [[1, -17], [1, -17], [1, -17]], (1, 3))
 
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(

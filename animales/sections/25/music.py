@@ -155,7 +155,7 @@ commands(
 
 # STRINGS
 
-library.make_battuti_material(commands, [[1, -117, -117], [1, -118]])
+library.make_battuti_material(score, commands, [[1, -117, -117], [1, -118]], (1, 3))
 
 # reapply
 
