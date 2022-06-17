@@ -33,10 +33,10 @@
         "Tuba.Staff",
         "Tuba.Music",
         "PercussionStaffGroup",
-        "Percussion.Staff.1",
-        "Percussion.Voice.1",
-        "Percussion.Staff.2",
-        "Percussion.Voice.2",
+        "Percussion.1.Staff",
+        "Percussion.1.Music",
+        "Percussion.2.Staff",
+        "Percussion.2.Music",
         "StringStaffGroup",
         "FirstViolinSquareStaffGroup",
         "FirstViolins.Staff.1",
@@ -104,11 +104,11 @@
             PartAssignment(name="Horn", token=4),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "number.4.Percussion.Voice.1.container": (
+        "number.4.Percussion.1.Music.container": (
             PartAssignment(name="Percussion", token=1),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
-        "number.4.Percussion.Voice.2.container": (
+        "number.4.Percussion.2.Music.container": (
             PartAssignment(name="Percussion", token=2),
             Timespan(Offset((0, 1)), Offset((23, 4))),
         ),
@@ -448,9 +448,19 @@
                 value="\\baca-sffz",
             )
         ],
-        "Percussion.Staff.1": [
+        "Percussion.1.Music": [
             baca.Memento(
-                context="Percussion.Voice.1",
+                context="Percussion.1.Music",
+                edition=None,
+                manifest=None,
+                prototype="abjad.Dynamic",
+                synthetic_offset=None,
+                value="p",
+            )
+        ],
+        "Percussion.1.Staff": [
+            baca.Memento(
+                context="Percussion.1.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -458,7 +468,7 @@
                 value="Percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.1",
+                context="Percussion.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -466,7 +476,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.1",
+                context="Percussion.1.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -474,7 +484,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Percussion.Voice.1",
+                context="Percussion.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -482,7 +492,7 @@
                 value="Perc. 1 (tri.)",
             ),
             baca.Memento(
-                context="Percussion.Voice.1",
+                context="Percussion.1.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -490,9 +500,19 @@
                 value=1,
             ),
         ],
-        "Percussion.Staff.2": [
+        "Percussion.2.Music": [
             baca.Memento(
-                context="Percussion.Voice.2",
+                context="Percussion.2.Music",
+                edition=None,
+                manifest=None,
+                prototype="abjad.Dynamic",
+                synthetic_offset=None,
+                value="p",
+            )
+        ],
+        "Percussion.2.Staff": [
+            baca.Memento(
+                context="Percussion.2.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -500,7 +520,7 @@
                 value="Percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.2",
+                context="Percussion.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -508,7 +528,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.2",
+                context="Percussion.2.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -516,7 +536,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Percussion.Voice.2",
+                context="Percussion.2.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -524,7 +544,7 @@
                 value="Perc. 2 (cym.)",
             ),
             baca.Memento(
-                context="Percussion.Voice.2",
+                context="Percussion.2.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
@@ -532,9 +552,9 @@
                 value=1,
             ),
         ],
-        "Percussion.Staff.4": [
+        "Percussion.4.Staff": [
             baca.Memento(
-                context="Percussion.Voice.4",
+                context="Percussion.4.Music",
                 edition=None,
                 manifest="instruments",
                 prototype=None,
@@ -542,7 +562,7 @@
                 value="Percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.4",
+                context="Percussion.4.Music",
                 edition=None,
                 manifest=None,
                 prototype="abjad.Clef",
@@ -550,7 +570,7 @@
                 value="percussion",
             ),
             baca.Memento(
-                context="Percussion.Voice.4",
+                context="Percussion.4.Music",
                 edition=None,
                 manifest=None,
                 prototype="baca.StaffLines",
@@ -558,7 +578,7 @@
                 value=1,
             ),
             baca.Memento(
-                context="Percussion.Voice.4",
+                context="Percussion.4.Music",
                 edition=Tag(string="-PARTS"),
                 manifest="short_instrument_names",
                 prototype=None,
@@ -566,33 +586,13 @@
                 value="Perc.",
             ),
             baca.Memento(
-                context="Percussion.Voice.4",
+                context="Percussion.4.Music",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="baca.BarExtent",
                 synthetic_offset=None,
                 value=1,
             ),
-        ],
-        "Percussion.Voice.1": [
-            baca.Memento(
-                context="Percussion.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="p",
-            )
-        ],
-        "Percussion.Voice.2": [
-            baca.Memento(
-                context="Percussion.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="p",
-            )
         ],
         "Score": [
             baca.Memento(

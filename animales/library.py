@@ -32,7 +32,16 @@ def _group_families(*families):
 
 
 def _lone_players():
-    return [_[0] for _ in _orchestra_inventory().items() if _[1] == 1]
+    result = [_[0] for _ in _orchestra_inventory().items() if _[1] == 1]
+    result.extend(
+        [
+            "Percussion.1",
+            "Percussion.2",
+            "Percussion.3",
+            "Percussion.4",
+        ]
+    )
+    return result
 
 
 def _make_piano_staff(stem, *contexts):
@@ -79,7 +88,7 @@ def _make_square_staff_group(stem, *contexts):
 
 
 def _make_staves(base_name, staff_specifiers):
-    if staff_specifiers == 0:
+    if staff_specifiers in (0, ()):
         staff_specifiers = []
     assert isinstance(staff_specifiers, list), repr(staff_specifiers)
     assert base_name in list(_section_name_to_member_count().keys()) + _lone_players()
@@ -108,7 +117,10 @@ def _make_staves(base_name, staff_specifiers):
             assert staff_number is None
             name = f"{base_name}.Staff"
         staff = abjad.Staff(simultaneous=simultaneous, name=name, tag=tag)
-        if voices is None:
+        if base_name.startswith("Percussion"):
+            voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
+            staff.append(voice)
+        elif voices is None:
             voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
         elif member_count == 1:
@@ -660,24 +672,24 @@ def make_downbeat_attack(count=1, denominator=8):
 
 
 def make_empty_score(
-    flutes=0,
-    oboes=0,
-    english_horn=0,
-    clarinets=0,
-    bass_clarinet=0,
-    bassoons=0,
-    horns=0,
-    trumpets=0,
-    trombones=0,
-    tuba=0,
-    harp=0,
-    piano=0,
-    percussion=0,
-    first_violins=0,
-    second_violins=0,
-    violas=0,
-    cellos=0,
-    contrabasses=0,
+    flutes=(),
+    oboes=(),
+    english_horn=(),
+    clarinets=(),
+    bass_clarinet=(),
+    bassoons=(),
+    horns=(),
+    trumpets=(),
+    trombones=(),
+    tuba=(),
+    harp=(),
+    piano=(),
+    percussion=(),
+    first_violins=(),
+    second_violins=(),
+    violas=(),
+    cellos=(),
+    contrabasses=(),
 ):
     tag = baca.tags.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
@@ -693,7 +705,11 @@ def make_empty_score(
     tuba_staves = _make_staves("Tuba", tuba)
     harp_staves = _make_staves("Harp", harp)
     piano_staves = _make_staves("Piano", piano)
-    percussion_staves = _make_staves("Percussion", percussion)
+    percussion_staves = []
+    for specifier in percussion:
+        number, voices = specifier
+        staves_ = _make_staves(f"Percussion.{number}", [(None, None)])
+        percussion_staves.extend(staves_)
     first_violin_staves = _make_staves("FirstViolins", first_violins)
     second_violin_staves = _make_staves("SecondViolins", second_violins)
     viola_staves = _make_staves("Violas", violas)
@@ -1167,10 +1183,10 @@ def voice_abbreviations():
         "tub": "Tuba.Music",
         "hp": "Harp.Music",
         "pf": "Piano.Music",
-        "perc1": "Percussion.Voice.1",
-        "perc2": "Percussion.Voice.2",
-        "perc3": "Percussion.Voice.3",
-        "perc4": "Percussion.Voice.4",
+        "perc1": "Percussion.1.Music",
+        "perc2": "Percussion.2.Music",
+        "perc3": "Percussion.3.Music",
+        "perc4": "Percussion.4.Music",
         "1vn1": "FirstViolins.Voice.1",
         "1vn2": "FirstViolins.Voice.2",
         "1vn3": "FirstViolins.Voice.3",
