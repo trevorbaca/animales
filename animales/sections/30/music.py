@@ -17,7 +17,7 @@ score = library.make_empty_score(
         (None, None),
     ],
     percussion=[
-        (4, None),
+        (4, ["perc4"]),
     ],
 )
 

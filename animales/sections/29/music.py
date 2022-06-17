@@ -14,7 +14,7 @@ time_signatures = library.time_signatures()[start : start + 3] + ((1, 4),)
 
 score = library.make_empty_score(
     percussion=[
-        (1, None),
+        (1, ["perc1"]),
     ],
     first_violins=[
         (1, [1, 2]),
