@@ -8,9 +8,9 @@ from animales import library
 
 score = library.make_empty_score(
     percussion=[
-        (1, [1]),
-        (2, [2]),
-        (4, [4]),
+        (1, None),
+        (2, None),
+        (4, None),
     ],
     first_violins=[
         (1, [1]),
@@ -58,15 +58,15 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], man
 
 # PERCUSSION
 
-voice = score["Percussion.Voice.1"]
+voice = score["Percussion.1.Music"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 
-voice = score["Percussion.Voice.2"]
+voice = score["Percussion.2.Music"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 
-voice = score["Percussion.Voice.4"]
+voice = score["Percussion.4.Music"]
 music = baca.make_mmrests_function(commands.get())
 voice.extend(music)
 

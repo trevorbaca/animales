@@ -840,12 +840,12 @@ number.30.Piano.Staff = {
 
 
   %! baca.path.extern()
-number.30.Percussion.Voice.4.container = {
+number.30.Percussion.4.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 1]
+    % [Percussion.4.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! +TABLOID_SCORE
@@ -980,7 +980,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 2]
+    % [Percussion.4.Music measure 2]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1021,61 +1021,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 3]
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 4]
+    % [Percussion.4.Music measure 3]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1129,7 +1075,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 5]
+    % [Percussion.4.Music measure 4]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1183,7 +1129,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 6]
+    % [Percussion.4.Music measure 5]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1197,34 +1143,6 @@ number.30.Percussion.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca.make_tied_repeated_durations()
-    c'4
-    % AFTER:
-    % SPANNER_STARTS:
-      %! baca._attach_shadow_tie_indicators()
-    - \tweak stencil ##f
-      %! baca._attach_shadow_tie_indicators()
-    ~
-      %! baca.make_tied_repeated_durations()
-    \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
-
-      %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 7]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1265,7 +1183,89 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 8]
+    % [Percussion.4.Music measure 6]
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca._comment_measure_numbers()
+    % [Percussion.4.Music measure 7]
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca.make_tied_repeated_durations()
+    c'4
+    % AFTER:
+    % SPANNER_STARTS:
+      %! baca._attach_shadow_tie_indicators()
+    - \tweak stencil ##f
+      %! baca._attach_shadow_tie_indicators()
+    ~
+      %! baca.make_tied_repeated_durations()
+    \repeatTie
+    % ABSOLUTE_BEFORE:
+    % COMMANDS:
+
+      %! baca._comment_measure_numbers()
+    % [Percussion.4.Music measure 8]
       %! baca.make_tied_repeated_durations()
     c'4
     % AFTER:
@@ -1320,7 +1320,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 9]
+    % [Percussion.4.Music measure 9]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1332,7 +1332,7 @@ number.30.Percussion.Voice.4.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.4 measure 10]
+    % [Percussion.4.Music measure 10]
     % BEFORE:
     % COMMANDS:
       %! +PARTS
@@ -1377,13 +1377,13 @@ number.30.Percussion.Voice.4.container = {
 
 
   %! baca.path.extern()
-number.30.Percussion.Voice.4 = {
+number.30.Percussion.4.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.30.Percussion.Voice.4.container }
+    { \number.30.Percussion.4.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1394,16 +1394,16 @@ number.30.Percussion.Voice.4 = {
 
 
   %! baca.path.extern()
-number.30.Percussion.Staff.4 = {
+number.30.Percussion.4.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.Voice.4"
+    \context Voice = "Percussion.4.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.30.Percussion.Voice.4 }
+    { \number.30.Percussion.4.Music }
     % CLOSING:
     % COMMANDS:
 

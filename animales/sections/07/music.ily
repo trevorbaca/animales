@@ -1462,12 +1462,12 @@ number.7.Harp.Staff = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.1.container = {
+number.7.Percussion.1.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 1]
+    % [Percussion.1.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! -PARTS
@@ -1559,7 +1559,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 2]
+    % [Percussion.1.Music measure 2]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1571,7 +1571,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 3]
+    % [Percussion.1.Music measure 3]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1583,7 +1583,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 4]
+    % [Percussion.1.Music measure 4]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1595,7 +1595,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 5]
+    % [Percussion.1.Music measure 5]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1607,7 +1607,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 6]
+    % [Percussion.1.Music measure 6]
       %! baca.make_mmrests_function()
     R1 * 2/4
     % AFTER:
@@ -1619,7 +1619,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 7]
+    % [Percussion.1.Music measure 7]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1631,7 +1631,7 @@ number.7.Percussion.Voice.1.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.1 measure 8]
+    % [Percussion.1.Music measure 8]
       %! baca.make_mmrests_function()
     R1 * 4/4
     % AFTER:
@@ -1648,13 +1648,13 @@ number.7.Percussion.Voice.1.container = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.1 = {
+number.7.Percussion.1.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.1.container }
+    { \number.7.Percussion.1.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1665,16 +1665,16 @@ number.7.Percussion.Voice.1 = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Staff.1 = {
+number.7.Percussion.1.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.Voice.1"
+    \context Voice = "Percussion.1.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.1 }
+    { \number.7.Percussion.1.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1685,12 +1685,12 @@ number.7.Percussion.Staff.1 = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.2.container = {
+number.7.Percussion.2.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 1]
+    % [Percussion.2.Music measure 1]
     % BEFORE:
     % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
@@ -1783,7 +1783,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 2]
+    % [Percussion.2.Music measure 2]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1804,7 +1804,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 3]
+    % [Percussion.2.Music measure 3]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1825,7 +1825,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 4]
+    % [Percussion.2.Music measure 4]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1846,7 +1846,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 5]
+    % [Percussion.2.Music measure 5]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1867,7 +1867,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 6]
+    % [Percussion.2.Music measure 6]
       %! baca.make_repeat_tied_notes()
     c'2
     % AFTER:
@@ -1886,7 +1886,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 7]
+    % [Percussion.2.Music measure 7]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1907,7 +1907,7 @@ number.7.Percussion.Voice.2.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.2 measure 8]
+    % [Percussion.2.Music measure 8]
       %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
@@ -1929,13 +1929,13 @@ number.7.Percussion.Voice.2.container = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.2 = {
+number.7.Percussion.2.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.2.container }
+    { \number.7.Percussion.2.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -1946,16 +1946,16 @@ number.7.Percussion.Voice.2 = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Staff.2 = {
+number.7.Percussion.2.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.Voice.2"
+    \context Voice = "Percussion.2.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.2 }
+    { \number.7.Percussion.2.Music }
     % CLOSING:
     % COMMANDS:
 
@@ -1966,7 +1966,7 @@ number.7.Percussion.Staff.2 = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.3.container = {
+number.7.Percussion.3.Music.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
@@ -1979,7 +1979,7 @@ number.7.Percussion.Voice.3.container = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 1]
+        % [Percussion.3.Music measure 1]
         % BEFORE:
         % COMMANDS:
           %! MEASURE_36
@@ -2091,7 +2091,7 @@ number.7.Percussion.Voice.3.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 2]
+    % [Percussion.3.Music measure 2]
       %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
@@ -2106,7 +2106,7 @@ number.7.Percussion.Voice.3.container = {
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
-        % [Percussion.Voice.3 measure 3]
+        % [Percussion.3.Music measure 3]
           %! animales.make_harp_exchange_rhythm()
         d''8
         % AFTER:
@@ -2134,14 +2134,14 @@ number.7.Percussion.Voice.3.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 4]
+    % [Percussion.3.Music measure 4]
       %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 5]
+    % [Percussion.3.Music measure 5]
       %! animales.make_harp_exchange_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
@@ -2177,21 +2177,21 @@ number.7.Percussion.Voice.3.container = {
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 6]
+    % [Percussion.3.Music measure 6]
       %! animales.make_harp_exchange_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 7]
+    % [Percussion.3.Music measure 7]
       %! animales.make_harp_exchange_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
-    % [Percussion.Voice.3 measure 8]
+    % [Percussion.3.Music measure 8]
       %! animales.make_harp_exchange_rhythm()
     r1
     % AFTER:
@@ -2209,13 +2209,13 @@ number.7.Percussion.Voice.3.container = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Voice.3 = {
+number.7.Percussion.3.Music = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.3.container }
+    { \number.7.Percussion.3.Music.container }
     % CLOSING:
     % COMMANDS:
 
@@ -2226,16 +2226,16 @@ number.7.Percussion.Voice.3 = {
 
 
   %! baca.path.extern()
-number.7.Percussion.Staff.3 = {
+number.7.Percussion.3.Staff = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
       %! animales._make_staves()
-    \context Voice = "Percussion.Voice.3"
+    \context Voice = "Percussion.3.Music"
       %! animales._make_staves()
       %! baca.path.extern()
-    { \number.7.Percussion.Voice.3 }
+    { \number.7.Percussion.3.Music }
     % CLOSING:
     % COMMANDS:
 

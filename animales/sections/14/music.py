@@ -29,9 +29,9 @@ score = library.make_empty_score(
         (None, None),
     ],
     percussion=[
-        (1, [1]),
-        (2, [2]),
-        (3, [3]),
+        (1, None),
+        (2, None),
+        (3, None),
     ],
     first_violins=[
         (1, [3, 1]),
