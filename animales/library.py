@@ -878,23 +878,22 @@ def make_pennant_rhythm(extra_counts=None, silences=None):
     )
 
 
-def make_sforzando_exchange_rhythm(this_part):
-    part_to_pattern = dict(
-        [
-            (0, abjad.index([0, 15], period=18)),
-            (1, abjad.index([0, 6, 8, 14, 16], period=24)),
-            (2, abjad.index([0, 15], period=18)),
-            (3, abjad.index([0, 6, 8, 14, 16], period=24)),
-            (4, abjad.index([0, 15], period=18)),
-            (5, abjad.index([0, 6, 8, 14, 16], period=24)),
-            (6, abjad.index([0, 15], period=18)),
-        ]
-    )
-
+def make_sforzando_exchange_rhythm(
+    this_part, time_signatures, previous_persist, voice_name
+):
+    assert isinstance(previous_persist, dict), repr(previous_persist)
+    part_to_pattern = {
+        0: abjad.index([0, 15], period=18),
+        1: abjad.index([0, 6, 8, 14, 16], period=24),
+        2: abjad.index([0, 15], period=18),
+        3: abjad.index([0, 6, 8, 14, 16], period=24),
+        4: abjad.index([0, 15], period=18),
+        5: abjad.index([0, 6, 8, 14, 16], period=24),
+        6: abjad.index([0, 15], period=18),
+    }
     part_to_indices = {}
     for part in part_to_pattern:
         part_to_indices[part] = []
-
     sforzando_indices = []
     part = 0
     pattern = part_to_pattern[part]
@@ -913,7 +912,6 @@ def make_sforzando_exchange_rhythm(this_part):
             part = (part + 1) % len(part_to_pattern)
             pattern = part_to_pattern[part]
         index += 1
-
     part_to_preamble = {}
     part_to_counts = {}
     for part, indices in part_to_indices.items():
@@ -926,7 +924,6 @@ def make_sforzando_exchange_rhythm(this_part):
         period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
-
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
 
@@ -935,7 +932,8 @@ def make_sforzando_exchange_rhythm(this_part):
         result = baca.sequence.quarters(divisions)
         return result
 
-    return baca.rhythm(
+    persist = "sforzando_exchange_rhythm"
+    command = baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         rmakers.beam(),
         rmakers.trivialize(),
@@ -943,25 +941,46 @@ def make_sforzando_exchange_rhythm(this_part):
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        persist="sforzando_exchange_rhythm",
+        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
+    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_section_voice_metadata = previous_section_voice_metadata.get(
+        voice_name, {}
+    )
+    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+        previous_section_voice_metadata, persist
+    )
+    music = command.rhythm_maker(
+        time_signatures, previous_state=previous_section_stop_state
+    )
+    state = command.rhythm_maker.state
+    return music, state
 
 
-def make_trill_rhythm(commands, measures=(1, -1)):
+def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=None):
+    previous_persist = previous_persist or {}
     voice_to_part = {
-        "FirstViolins.Voice.1": 0,
-        "FirstViolins.Voice.3": 1,
-        "SecondViolins.Voice.1": 2,
-        "SecondViolins.Voice.3": 3,
-        "Violas.Voice.1": 4,
-        "Violas.Voice.3": 5,
-        "Cellos.Voice.1": 6,
+        "1vn1": 0,
+        "1vn3": 1,
+        "2vn1": 2,
+        "2vn3": 3,
+        "va1": 4,
+        "va3": 5,
+        "vc1": 6,
     }
-    for voice, part in voice_to_part.items():
-        commands(
-            (voice, measures),
-            make_sforzando_exchange_rhythm(part),
+    _voice_abbreviations = voice_abbreviations()
+    persist = "sforzando_exchange_rhythm"
+    parameter = "RHYTHM"
+    for voice_abbreviation, part in voice_to_part.items():
+        voice_name = _voice_abbreviations[voice_abbreviation]
+        voice = score[voice_name]
+        music, state = make_sforzando_exchange_rhythm(
+            part, time_signatures, previous_persist, voice_name
+        )
+        voice.extend(music)
+        baca.update_voice_metadata(
+            voice_metadata, voice_name, parameter, persist, state
         )
 
 
@@ -982,81 +1001,66 @@ def short_instrument_name(
 
 
 def short_instrument_names():
-    result = dict(
-        [
-            ("B. cl.", _make_short_instrument_name("B. cl.")),
-            ("Bsn.", _make_short_instrument_name("Bsn.")),
-            ("Cb.", _make_short_instrument_name("Cb.")),
-            ("Cb. (2-6)", _make_short_instrument_name(["Cb.", "(2-6)"])),
-            ("Cl.", _make_short_instrument_name("Cl.")),
-            ("Eng. hn.", _make_short_instrument_name("Eng. hn.")),
-            ("Fl.", _make_short_instrument_name("Fl.")),
-            ("Fl. (1+3)", _make_short_instrument_name(["Fl.", "(1+3)"])),
-            ("Fl. (2+4)", _make_short_instrument_name(["Fl.", "(2+4)"])),
-            ("Hn.", _make_short_instrument_name("Hn.")),
-            ("Hn. (1+3)", _make_short_instrument_name(["Hn.", "(1+3)"])),
-            ("Hn. (2+4)", _make_short_instrument_name(["Hn.", "(2+4)"])),
-            ("Hp.", _make_short_instrument_name("Hp.")),
-            ("Ob.", _make_short_instrument_name("Ob.")),
-            ("Perc.", _make_short_instrument_name("Perc.")),
-            ("Perc. 1 (tri.)", _make_short_instrument_name(["Perc. 1", "(tri.)"])),
-            ("Perc. 2 (cym.)", _make_short_instrument_name(["Perc. 2", "(cym.)"])),
-            ("Perc. 3 (vib.)", _make_short_instrument_name(["Perc. 3", "(vib.)"])),
-            ("Perc. 3 (BD)", _make_short_instrument_name(["Perc. 3", "(BD)"])),
-            ("Perc. 4 (tam.)", _make_short_instrument_name(["Perc. 4", "(tam.)"])),
-            ("Perc. 4 (slate)", _make_short_instrument_name(["Perc. 4", "(slate)"])),
-            ("Pf.", _make_short_instrument_name("Pf.")),
-            ("Tp.", _make_short_instrument_name("Tp.")),
-            ("Tp. (1+3)", _make_short_instrument_name(["Tp.", "(1+3)"])),
-            ("Tp. (2+4)", _make_short_instrument_name(["Tp.", "(2+4)"])),
-            ("Trb.", _make_short_instrument_name("Trb.")),
-            ("Trb. (1+3)", _make_short_instrument_name(["Trb.", "(1+3)"])),
-            ("Trb. (2+4)", _make_short_instrument_name(["Trb.", "(2+4)"])),
-            ("Tub.", _make_short_instrument_name("Tub.")),
-            ("Vc.", _make_short_instrument_name("Vc.")),
-            ("Vc. (1-8)", _make_short_instrument_name(["Vc.", "(1-8)"])),
-            (
-                "Vc. (1-8) (9-14)",
-                _make_short_instrument_name(["Vc.", "(1-8)", "(9-14)"]),
-            ),
-            ("Vc. (9-14)", _make_short_instrument_name(["Vc.", "(9-14)"])),
-            ("Vle.", _make_short_instrument_name("Vle.")),
-            ("Vle. (1-10)", _make_short_instrument_name(["Vle.", "(1-10)"])),
-            ("Vle. (11-18)", _make_short_instrument_name(["Vle.", "(11-18)"])),
-            (
-                "Vle. (1-4) (5-8)",
-                _make_short_instrument_name(["Vle.", "(1-4)", "(5-8)"]),
-            ),
-            (
-                "Vle. (9-12) (13-18)",
-                _make_short_instrument_name(["Vle.", "(9-12)", "(13-18)"]),
-            ),
-            ("Vni.", _make_short_instrument_name("Vni.")),
-            ("Vni. I", _make_short_instrument_name("Vni. I")),
-            ("Vni. I (1-10)", _make_short_instrument_name(["Vni. I", "(1-10)"])),
-            ("Vni. I (11-18)", _make_short_instrument_name(["Vni. I", "(11-18)"])),
-            ("Vni. I (2-18)", _make_short_instrument_name(["Vni. I", "(2-18)"])),
-            (
-                "Vni. I (1-4) (5-8)",
-                _make_short_instrument_name(["Vni. I", "(1-4)", "(5-8)"]),
-            ),
-            (
-                "Vni. I (9-12) (13-17)",
-                _make_short_instrument_name(["Vni. I", "(9-12)", "(13-17)"]),
-            ),
-            ("Vni. II", _make_short_instrument_name("Vni. II")),
-            ("Vni. II (1-10)", _make_short_instrument_name(["Vni. II", "(1-10)"])),
-            ("Vni. II (11-18)", _make_short_instrument_name(["Vni. II", "(11-18)"])),
-            (
-                "Vni. II (1-4) (5-8)",
-                _make_short_instrument_name(["Vni. II", "(1-4)", "(5-8)"]),
-            ),
-            (
-                "Vni. II (9-12) (13-18)",
-                _make_short_instrument_name(["Vni. II", "(9-12)", "(13-18)"]),
-            ),
-        ]
-    )
+    result = {
+        "B. cl.": _make_short_instrument_name("B. cl."),
+        "Bsn.": _make_short_instrument_name("Bsn."),
+        "Cb.": _make_short_instrument_name("Cb."),
+        "Cb. (2-6)": _make_short_instrument_name(["Cb.", "(2-6)"]),
+        "Cl.": _make_short_instrument_name("Cl."),
+        "Eng. hn.": _make_short_instrument_name("Eng. hn."),
+        "Fl.": _make_short_instrument_name("Fl."),
+        "Fl. (1+3)": _make_short_instrument_name(["Fl.", "(1+3)"]),
+        "Fl. (2+4)": _make_short_instrument_name(["Fl.", "(2+4)"]),
+        "Hn.": _make_short_instrument_name("Hn."),
+        "Hn. (1+3)": _make_short_instrument_name(["Hn.", "(1+3)"]),
+        "Hn. (2+4)": _make_short_instrument_name(["Hn.", "(2+4)"]),
+        "Hp.": _make_short_instrument_name("Hp."),
+        "Ob.": _make_short_instrument_name("Ob."),
+        "Perc.": _make_short_instrument_name("Perc."),
+        "Perc. 1 (tri.)": _make_short_instrument_name(["Perc. 1", "(tri.)"]),
+        "Perc. 2 (cym.)": _make_short_instrument_name(["Perc. 2", "(cym.)"]),
+        "Perc. 3 (vib.)": _make_short_instrument_name(["Perc. 3", "(vib.)"]),
+        "Perc. 3 (BD)": _make_short_instrument_name(["Perc. 3", "(BD)"]),
+        "Perc. 4 (tam.)": _make_short_instrument_name(["Perc. 4", "(tam.)"]),
+        "Perc. 4 (slate)": _make_short_instrument_name(["Perc. 4", "(slate)"]),
+        "Pf.": _make_short_instrument_name("Pf."),
+        "Tp.": _make_short_instrument_name("Tp."),
+        "Tp. (1+3)": _make_short_instrument_name(["Tp.", "(1+3)"]),
+        "Tp. (2+4)": _make_short_instrument_name(["Tp.", "(2+4)"]),
+        "Trb.": _make_short_instrument_name("Trb."),
+        "Trb. (1+3)": _make_short_instrument_name(["Trb.", "(1+3)"]),
+        "Trb. (2+4)": _make_short_instrument_name(["Trb.", "(2+4)"]),
+        "Tub.": _make_short_instrument_name("Tub."),
+        "Vc.": _make_short_instrument_name("Vc."),
+        "Vc. (1-8)": _make_short_instrument_name(["Vc.", "(1-8)"]),
+        "Vc. (1-8) (9-14)": _make_short_instrument_name(["Vc.", "(1-8)", "(9-14)"]),
+        "Vc. (9-14)": _make_short_instrument_name(["Vc.", "(9-14)"]),
+        "Vle.": _make_short_instrument_name("Vle."),
+        "Vle. (1-10)": _make_short_instrument_name(["Vle.", "(1-10)"]),
+        "Vle. (11-18)": _make_short_instrument_name(["Vle.", "(11-18)"]),
+        "Vle. (1-4) (5-8)": _make_short_instrument_name(["Vle.", "(1-4)", "(5-8)"]),
+        "Vle. (9-12) (13-18)": _make_short_instrument_name(
+            ["Vle.", "(9-12)", "(13-18)"]
+        ),
+        "Vni.": _make_short_instrument_name("Vni."),
+        "Vni. I": _make_short_instrument_name("Vni. I"),
+        "Vni. I (1-10)": _make_short_instrument_name(["Vni. I", "(1-10)"]),
+        "Vni. I (11-18)": _make_short_instrument_name(["Vni. I", "(11-18)"]),
+        "Vni. I (2-18)": _make_short_instrument_name(["Vni. I", "(2-18)"]),
+        "Vni. I (1-4) (5-8)": _make_short_instrument_name(["Vni. I", "(1-4)", "(5-8)"]),
+        "Vni. I (9-12) (13-17)": _make_short_instrument_name(
+            ["Vni. I", "(9-12)", "(13-17)"]
+        ),
+        "Vni. II": _make_short_instrument_name("Vni. II"),
+        "Vni. II (1-10)": _make_short_instrument_name(["Vni. II", "(1-10)"]),
+        "Vni. II (11-18)": _make_short_instrument_name(["Vni. II", "(11-18)"]),
+        "Vni. II (1-4) (5-8)": _make_short_instrument_name(
+            ["Vni. II", "(1-4)", "(5-8)"]
+        ),
+        "Vni. II (9-12) (13-18)": _make_short_instrument_name(
+            ["Vni. II", "(9-12)", "(13-18)"]
+        ),
+    }
     for section, count in [
         ("Fl.", 4),
         ("Ob.", 3),

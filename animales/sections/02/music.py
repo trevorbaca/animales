@@ -7,8 +7,9 @@ from animales import library
 ########################################### 02 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+start = previous_metadata.get("final_measure_number")
 assert start == 6
 
 score = library.make_empty_score(
@@ -29,6 +30,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -60,7 +62,7 @@ baca.rehearsal_mark_function(
 
 # STRINGS
 
-library.make_trill_rhythm(commands)
+library.make_trill_rhythm(score, commands.get(), voice_metadata, previous_persist)
 
 # anchor notes & reapply
 
@@ -136,6 +138,7 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    persist["voice_metadata"] = voice_metadata
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,
