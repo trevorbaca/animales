@@ -94,15 +94,13 @@ def _make_staves(base_name, staff_specifiers):
     assert base_name in list(_section_name_to_member_count().keys()) + _lone_players()
     tag = baca.tags.function_name(inspect.currentframe())
     staves = []
-    member_count = _section_name_to_member_count().get(base_name, 1)
+    _voice_abbreviations = voice_abbreviations()
     for staff_specifier in staff_specifiers:
         assert isinstance(staff_specifier, tuple), repr(staff_specifier)
         assert len(staff_specifier) == 2, repr(staff_specifier)
         staff_number, voices = staff_specifier
-        if staff_number is not None:
-            assert isinstance(staff_number, int), repr(staff_number)
-        if member_count == 1:
-            assert voices is None, repr(voices)
+        assert isinstance(staff_number, (int, type(None))), repr(staff_number)
+        assert isinstance(voices, (list, type(None))), repr(voices)
         if voices is None:
             simultaneous = False
         else:
@@ -118,13 +116,11 @@ def _make_staves(base_name, staff_specifiers):
             name = f"{base_name}.Staff"
         staff = abjad.Staff(simultaneous=simultaneous, name=name, tag=tag)
         if base_name.startswith("Percussion"):
-            voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
+            for voice_abbreviation in voices:
+                voice_name = _voice_abbreviations[voice_abbreviation]
+            voice = abjad.Voice(name=voice_name, tag=tag)
             staff.append(voice)
         elif voices is None:
-            voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
-            staff.append(voice)
-        elif member_count == 1:
-            assert voices == [1], repr(voices)
             voice = abjad.Voice(name=f"{base_name}.Music", tag=tag)
             staff.append(voice)
         else:
@@ -423,15 +419,14 @@ def make_battuti_material(
     omit_contrabasses=False,
     range_=(1, -1),
 ):
-    section_to_members = {
+    section_name_to_member_count = {
         "FirstViolins": 18,
         "SecondViolins": 18,
         "Violas": 18,
         "Cellos": 14,
         "Contrabasses": 6,
     }
-
-    section_to_abbreviation = {
+    section_name_to_short_instrument_name = {
         "FirstViolins": "Vni. I",
         "SecondViolins": "Vni. II",
         "Violas": "Vle.",
@@ -454,7 +449,7 @@ def make_battuti_material(
     duration = sum([_.duration for _ in commands.time_signatures])
     assert isinstance(duration, abjad.Duration), repr(duration)
     wrap = duration.with_denominator(16).numerator
-    for section, members in section_to_members.items():
+    for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
             continue
         for member in range(1, members + 1):
@@ -471,7 +466,7 @@ def make_battuti_material(
                     (voice, fermata_measure),
                     baca.make_mmrests(head=True),
                 )
-    for section, members in section_to_members.items():
+    for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
             continue
         for member in range(1, members + 1):
@@ -499,8 +494,8 @@ def make_battuti_material(
                 command = baca.clef("percussion")
                 stack.append(command)
             if first and member % 2 == 1:
-                abbreviation = section_to_abbreviation[section]
-                key = f"{abbreviation} ({member}-{member+1})"
+                short_instrument_name_ = section_name_to_short_instrument_name[section]
+                key = f"{short_instrument_name_} ({member}-{member+1})"
                 short_instrument_name_ = short_instrument_name(key)
                 stack.append(short_instrument_name_)
             if member % 2 == 0:
@@ -707,8 +702,8 @@ def make_empty_score(
     piano_staves = _make_staves("Piano", piano)
     percussion_staves = []
     for specifier in percussion:
-        number, voices = specifier
-        staves_ = _make_staves(f"Percussion.{number}", [(None, None)])
+        staff_number, voices = specifier
+        staves_ = _make_staves(f"Percussion.{staff_number}", [(None, voices)])
         percussion_staves.extend(staves_)
     first_violin_staves = _make_staves("FirstViolins", first_violins)
     second_violin_staves = _make_staves("SecondViolins", second_violins)

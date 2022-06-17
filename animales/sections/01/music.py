@@ -8,9 +8,9 @@ from animales import library
 
 score = library.make_empty_score(
     percussion=[
-        (1, None),
-        (2, None),
-        (4, None),
+        (1, ["perc1"]),
+        (2, ["perc2"]),
+        (4, ["perc4"]),
     ],
     first_violins=[
         (1, [1]),
