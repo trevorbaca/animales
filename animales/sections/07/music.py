@@ -9,6 +9,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
 start = metadata.get("final_measure_number")
 assert start == 35
 
@@ -45,6 +46,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments()
 
@@ -102,24 +104,38 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-# PIANO, HARP
+# HARP EXCHANGE (PF, HP, PERC3, CB1)
 
-commands(
-    "pf",
-    library.make_harp_exchange_rhythm(3, silence_first=True),
-)
+parameter = "RHYTHM"
+persist = "harp_exchange_rhythm"
 
-commands(
-    "hp",
-    library.make_harp_exchange_rhythm(2, silence_first=True),
-)
+for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
+    voice_name = commands.voice_abbreviations[abbreviation]
+    voice = score[voice_name]
+    silence_first = abbreviation in ("pf", "hp")
+    stack = []
+    if abbreviation == "cb1":
+        maker = rmakers.force_rest(lambda _: baca.select.tuplet(_, 1))
+        stack.append(maker)
+    music, state = library.make_harp_exchange_rhythm(
+        commands.get(),
+        part,
+        voice_name,
+        *stack,
+        silence_first=silence_first,
+        previous_persist=previous_persist,
+    )
+    voice.extend(music)
+    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-# PERCUSSION
+# PERC1
 
 commands(
     "perc1",
     baca.make_mmrests(),
 )
+
+# PERC2
 
 commands(
     "perc2",
@@ -127,11 +143,6 @@ commands(
     baca.repeat_tie(
         lambda _: baca.select.pleaf(_, 0),
     ),
-)
-
-commands(
-    "perc3",
-    library.make_harp_exchange_rhythm(0),
 )
 
 # STRINGS
@@ -159,16 +170,6 @@ commands(
 commands(
     "cb3",
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "cb1",
-    library.make_harp_exchange_rhythm(
-        1,
-        rmakers.force_rest(
-            lambda _: baca.select.tuplet(_, 1),
-        ),
-    ),
 )
 
 # reapply
@@ -405,6 +406,13 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    if "voice_metadata" not in persist:
+        persist["voice_metadata"] = {}
+    for voice_name, dictionary in persist["voice_metadata"].items():
+        dictionary.update(voice_metadata.get(voice_name, {}))
+    for voice_name, dictionary in voice_metadata.items():
+        if voice_name not in persist["voice_metadata"]:
+            persist["voice_metadata"][voice_name] = dictionary
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,
