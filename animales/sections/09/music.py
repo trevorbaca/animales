@@ -85,22 +85,19 @@ baca.text_spanner_left_padding_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# WINDS
+# CL
 
-commands(
-    ("cl", (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 6), head=voice.name)
+voice.extend(music)
 
-commands(
-    ("cl", (4, 6)),
-    baca.make_mmrests(head=True),
-)
+# BCL
 
-commands(
-    "bcl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["bcl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # HARP EXCHANGE (PF, HP, PERC3, CB1)
 
@@ -120,34 +117,20 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
     voice.extend(music)
     baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-# PERCUSSION
+# PERC2
 
-commands(
-    "perc2",
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 # STRINGS
 
-commands(
-    (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    (["1vn1", "2vn1", "va1", "vc1"], (4, 6)),
-    baca.make_mmrests(head=True),
-)
-
-commands(
-    ("cb3", (1, 3)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("cb3", (4, 6)),
-    baca.make_mmrests(head=True),
-)
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+    voice.extend(music)
+    music = baca.make_mmrests_function(commands.get(4, 6), head=voice.name)
+    voice.extend(music)
 
 # reapply
 

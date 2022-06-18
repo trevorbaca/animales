@@ -1956,10 +1956,8 @@ number.26.Percussion.2.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
@@ -2137,10 +2135,8 @@ number.26.Percussion.3.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Vibraphone”)"
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
@@ -2324,10 +2320,8 @@ number.26.Percussion.4.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()

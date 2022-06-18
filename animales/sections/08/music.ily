@@ -1377,10 +1377,8 @@ number.8.Percussion.2.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()

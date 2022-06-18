@@ -117,29 +117,29 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-commands(
-    [
-        "hn1",
-        "hn2",
-        "hn3",
-        "hn4",
-        "tp1",
-        "tp2",
-        "tp3",
-        "tp4",
-        "tbn1",
-        "tbn2",
-        "tbn3",
-        "tbn4",
-        "tub",
-        "pf",
-        "perc1",
-        "perc2",
-        "perc3",
-        "perc4",
-    ],
-    baca.make_mmrests(),
-)
+for abbreviation in [
+    "hn1",
+    "hn2",
+    "hn3",
+    "hn4",
+    "tp1",
+    "tp2",
+    "tp3",
+    "tp4",
+    "tbn1",
+    "tbn2",
+    "tbn3",
+    "tbn4",
+    "tub",
+    "pf",
+    "perc1",
+    "perc2",
+    "perc3",
+    "perc4",
+]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get())
+    voice.extend(music)
 
 commands(
     [

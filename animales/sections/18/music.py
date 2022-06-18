@@ -169,59 +169,35 @@ def _tremolo(peak="f"):
     )
 
 
-commands(
-    ("1vn5", (1, 2)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["1vn5"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(3))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(4, 7))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(8))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(9, 12))
+voice.extend(music)
 
-commands(
-    ("1vn5", 3),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("1vn5", (4, 7)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn5", 8),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("1vn5", (9, 12)),
-    baca.make_repeat_tied_notes(),
-)
-
-
-voice_abbreviations = library.voice_abbreviations()
-for voice, items in string_parts.items():
+for abbreviation, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
-    voice = voice_abbreviations.get(voice, voice)
-    if voice != "FirstViolins.Voice.5":
-        commands(
-            (voice, (1, 3)),
-            baca.make_mmrests(),
-        )
-        commands(
-            (voice, (4, 6)),
-            baca.make_repeat_tied_notes(),
-        )
-        commands(
-            (voice, (7, 8)),
-            baca.make_mmrests(),
-        )
-        commands(
-            (voice, (9, 11)),
-            baca.make_repeat_tied_notes(),
-        )
-        commands(
-            (voice, 12),
-            baca.make_mmrests(),
-        )
-    part_name = voice.split(".")[0].removesuffix("s")
+    voice_name = commands.voice_abbreviations[abbreviation]
+    if voice_name != "FirstViolins.Voice.5":
+        voice = score[voice_name]
+        music = baca.make_mmrests_function(commands.get(1, 3))
+        voice.extend(music)
+        music = baca.make_repeat_tied_notes_function(commands.get(4, 6))
+        voice.extend(music)
+        music = baca.make_mmrests_function(commands.get(7, 8))
+        voice.extend(music)
+        music = baca.make_repeat_tied_notes_function(commands.get(9, 11))
+        voice.extend(music)
+        music = baca.make_mmrests_function(commands.get(12))
+        voice.extend(music)
+    part_name = voice_name.split(".")[0].removesuffix("s")
     numbers = items[0]
     commands_.append(library.assign_part(part_name, numbers))
     if items[1] is True:
@@ -235,17 +211,17 @@ for voice, items in string_parts.items():
         ),
     )
     commands(
-        voice,
+        voice_name,
         *commands_,
     )
-    if voice == "FirstViolins.Voice.5":
+    if voice_name == "FirstViolins.Voice.5":
         continue
     commands(
-        (voice, (4, 7)),
+        (voice_name, (4, 7)),
         _tremolo("f"),
     )
     commands(
-        (voice, (9, 12)),
+        (voice_name, (9, 12)),
         _tremolo("mp"),
     )
 

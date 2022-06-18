@@ -152,16 +152,8 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
     )
     voice.extend(music)
     baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
-
-commands(
-    ("pf", 7),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("hp", 7),
-    baca.make_mmrests(),
-)
+    music = baca.make_mmrests_function(commands.get(7))
+    voice.extend(music)
 
 # PERC1
 
@@ -178,11 +170,6 @@ music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 voice.extend(music)
 music = baca.make_mmrests_function(commands.get(4, 7))
 voice.extend(music)
-
-commands(
-    ("perc3", 7),
-    baca.make_mmrests(),
-)
 
 # STRINGS
 
@@ -207,11 +194,6 @@ music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 voice.extend(music)
 music = baca.make_mmrests_function(commands.get(4, 7), head=voice.name)
 voice.extend(music)
-
-commands(
-    ("cb1", 7),
-    baca.make_mmrests(),
-)
 
 # reapply
 

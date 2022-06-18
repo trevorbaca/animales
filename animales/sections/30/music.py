@@ -56,29 +56,21 @@ rests = score["Rests"]
 for index, string in ((10 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-# PIANO
+# PF
 
-commands(
-    ("pf", (1, 9)),
-    baca.make_notes(),
-)
+voice = score[commands.voice_abbreviations["pf"]]
+music = baca.make_notes_function(commands.get(1, 9))
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(10))
+voice.extend(music)
 
-commands(
-    ("pf", 10),
-    baca.make_mmrests(),
-)
+# PERC4
 
-# PERCUSSION
-
-commands(
-    ("perc4", (1, 8)),
-    baca.make_tied_repeated_durations([(1, 4)]),
-)
-
-commands(
-    ("perc4", (9, 10)),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["perc4"]]
+music = baca.make_tied_repeated_durations_function(commands.get(1, 8), [(1, 4)])
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(9, 10))
+voice.extend(music)
 
 # reapply
 

@@ -83,64 +83,41 @@ baca.text_spanner_y_offset_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# WINDS
+# CL
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-# PERCUSSION
+# PERC1
 
-commands(
-    "perc1",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+# PERC2
+
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
 
 # STRINGS
 
-commands(
-    "1vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "2vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "va1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "vc1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "cb3",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    voice.extend(music)
 
 absent_left_broken = ["1vn3", "2vn3", "va3"]
 
-commands(
-    absent_left_broken,
-    baca.make_mmrests(),
-)
+for abbreviation in absent_left_broken:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get())
+    voice.extend(music)
 
 # reapply
 

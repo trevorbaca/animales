@@ -112,7 +112,7 @@ library.make_brass_sforzando_material(
     score, commands, 1, reapply_persistent_indicators=True
 )
 
-brass_voices = [
+for abbreviation in [
     "hn1",
     "hn2",
     "hn3",
@@ -126,12 +126,10 @@ brass_voices = [
     "tbn3",
     "tbn4",
     "tub",
-]
-
-commands(
-    (brass_voices, (2, 3)),
-    baca.make_mmrests(),
-)
+]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get(2, 3))
+    voice.extend(music)
 
 # STRINGS
 

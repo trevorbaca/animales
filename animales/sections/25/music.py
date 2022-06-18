@@ -117,7 +117,7 @@ library.make_brass_sforzando_material(
     score, commands, 1, reapply_persistent_indicators=True
 )
 
-brass_voice_names = [
+for abbreviation in [
     "hn1",
     "hn2",
     "hn3",
@@ -131,29 +131,17 @@ brass_voice_names = [
     "tbn3",
     "tbn4",
     "tub",
-]
+]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get(2, 3))
+    voice.extend(music)
 
-commands(
-    (brass_voice_names, (2, 3)),
-    baca.make_mmrests(),
-)
+# PERC2, PERC3, PERC4
 
-# PERCUSSION
-
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "perc3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "perc4",
-    baca.make_repeat_tied_notes(),
-)
+for abbreviation in ["perc2", "perc3", "perc4"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get())
+    voice.extend(music)
 
 # STRINGS
 
