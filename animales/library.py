@@ -551,7 +551,6 @@ def make_brass_manifest_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     music = command.rhythm_maker(time_signatures)
@@ -874,7 +873,6 @@ def make_harp_exchange_rhythm(
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
@@ -986,7 +984,6 @@ def make_sforzando_exchange_rhythm(
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
