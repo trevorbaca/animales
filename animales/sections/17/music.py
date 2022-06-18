@@ -8,6 +8,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
 assert metadata.get("final_measure_number") == 108
 start = 94
 
@@ -54,6 +55,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -92,186 +94,68 @@ def swell(peak):
     )
 
 
-# WINDS
+# OB, EH, BSN1, BSN2
 
-commands(
-    ("ob", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("ob", (6, 10)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh", (6, 10)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("bsn1", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("bsn2", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    (["bsn1", "bsn2"], (6, 10)),
-    baca.make_mmrests(),
-)
+for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+    voice.extend(music)
+    music = baca.make_mmrests_function(commands.get(6, 10))
+    voice.extend(music)
 
 # BRASS
 
-commands(
-    "hn1",
-    library.make_brass_manifest_rhythm(1),
-)
+parameter = "RHYTHM"
+persist = "brass_manifest_rhythm"
 
-commands(
-    "hn3",
-    library.make_brass_manifest_rhythm(3),
-)
-
-commands(
-    "hn2",
-    library.make_brass_manifest_rhythm(2),
-)
-
-commands(
-    "hn4",
-    library.make_brass_manifest_rhythm(4),
-)
-
-commands(
-    "tp1",
-    library.make_brass_manifest_rhythm(5),
-)
-
-commands(
-    "tp3",
-    library.make_brass_manifest_rhythm(7),
-)
-
-commands(
-    "tp2",
-    library.make_brass_manifest_rhythm(6),
-)
-
-commands(
-    "tp4",
-    library.make_brass_manifest_rhythm(8),
-)
-
-commands(
-    "tbn1",
-    library.make_brass_manifest_rhythm(9),
-)
-
-commands(
-    "tbn3",
-    library.make_brass_manifest_rhythm(11),
-)
-
-commands(
-    "tbn2",
-    library.make_brass_manifest_rhythm(10),
-)
-
-commands(
-    "tbn4",
-    library.make_brass_manifest_rhythm(12),
-)
+for abbreviation, part in (
+    ("hn1", 1),
+    ("hn3", 3),
+    ("hn2", 2),
+    ("hn4", 4),
+    ("tp1", 5),
+    ("tp3", 7),
+    ("tp2", 6),
+    ("tp4", 8),
+    ("tbn1", 9),
+    ("tbn3", 11),
+    ("tbn2", 10),
+    ("tbn4", 12),
+):
+    voice_name = commands.voice_abbreviations[abbreviation]
+    voice = score[voice_name]
+    music, state = library.make_brass_manifest_rhythm(
+        commands.get(),
+        part,
+        voice_name,
+        previous_persist=previous_persist,
+    )
+    voice.extend(music)
+    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
 # STRINGS
 
-commands(
+for abbreviation in [
     "1vn5",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "1vn1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "1vn2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "1vn3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "1vn4",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "2vn1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "2vn2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "2vn3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "2vn4",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "va1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "va2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "va3",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "va4",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "vc1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "vc2",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
     "cb3",
-    baca.make_repeat_tied_notes(),
-)
+]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get())
+    voice.extend(music)
 
 # reapply
 
@@ -665,6 +549,8 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    for voice_name, dictionary in persist["voice_metadata"].items():
+        dictionary.update(voice_metadata.get(voice_name, {}))
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,

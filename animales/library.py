@@ -509,7 +509,13 @@ def make_battuti_material(
             )
 
 
-def make_brass_manifest_rhythm(part, *, function=None):
+def make_brass_manifest_rhythm(
+    # part, *, function=None, previous_persist=None, voice_name=None
+    time_signatures,
+    part,
+    voice_name,
+    previous_persist=None,
+):
     assert part in range(1, 12 + 1), repr(part)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
@@ -536,6 +542,7 @@ def make_brass_manifest_rhythm(part, *, function=None):
         result = baca.sequence.quarters(divisions)
         return result
 
+    persist = "brass_manifest_rhythm"
     command = baca.rhythm(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
@@ -544,13 +551,22 @@ def make_brass_manifest_rhythm(part, *, function=None):
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=preprocessor,
-        persist="brass_manifest_rhythm",
+        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    if function is not None:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = command.rhythm_maker(time_signatures)
+    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_section_voice_metadata = previous_section_voice_metadata.get(
+        voice_name, {}
+    )
+    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+        previous_section_voice_metadata, persist
+    )
+    music = command.rhythm_maker(
+        time_signatures, previous_state=previous_section_stop_state
+    )
+    state = command.rhythm_maker.state
+    return music, state
 
 
 def make_brass_sforzando_material(

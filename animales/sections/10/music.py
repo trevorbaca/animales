@@ -8,6 +8,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
 start = metadata.get("final_measure_number")
 assert start == 55
 
@@ -58,6 +59,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -87,106 +89,71 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
 )
 
-# WINDS
+# CL
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-commands(
-    ("bcl", (1, 3)),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+# BCL
 
-commands(
-    ("bcl", (4, 6)),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["bcl"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4, 6))
+voice.extend(music)
 
 # BRASS
 
-commands(
-    "hn1",
-    library.make_brass_manifest_rhythm(1),
-)
+parameter = "RHYTHM"
+persist = "brass_manifest_rhythm"
 
-commands(
-    "hn3",
-    library.make_brass_manifest_rhythm(3),
-)
+for abbreviation, part in (
+    ("hn1", 1),
+    ("hn3", 3),
+    ("hn2", 2),
+    ("hn4", 4),
+    ("tp1", 5),
+    ("tp3", 7),
+    ("tp2", 6),
+    ("tp4", 8),
+    ("tbn1", 9),
+    ("tbn3", 11),
+    ("tbn2", 10),
+    ("tbn4", 12),
+):
+    voice_name = commands.voice_abbreviations[abbreviation]
+    voice = score[voice_name]
+    music, state = library.make_brass_manifest_rhythm(
+        commands.get(),
+        part,
+        voice_name,
+        previous_persist=previous_persist,
+    )
+    voice.extend(music)
+    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-commands(
-    "hn2",
-    library.make_brass_manifest_rhythm(2),
-)
-
-commands(
-    "hn4",
-    library.make_brass_manifest_rhythm(4),
-)
-
-commands(
-    "tp1",
-    library.make_brass_manifest_rhythm(5),
-)
-
-commands(
-    "tp3",
-    library.make_brass_manifest_rhythm(7),
-)
-
-commands(
-    "tp2",
-    library.make_brass_manifest_rhythm(6),
-)
-
-commands(
-    "tp4",
-    library.make_brass_manifest_rhythm(8),
-)
-
-commands(
-    "tbn1",
-    library.make_brass_manifest_rhythm(9),
-)
-
-commands(
-    "tbn3",
-    library.make_brass_manifest_rhythm(11),
-)
-
-commands(
-    "tbn2",
-    library.make_brass_manifest_rhythm(10),
-)
-
-commands(
-    "tbn4",
-    library.make_brass_manifest_rhythm(12),
-)
+# HP
 
 commands(
     "hp",
     library.make_harp_exchange_rhythm(2),
 )
 
-# PF1
+# PF
 
 commands(
     "pf",
     library.make_harp_exchange_rhythm(3),
 )
 
-# PERCUSSION
+# PERC2
 
-commands(
-    "perc2",
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_mmrests_function(commands.get())
+voice.extend(music)
 
 commands(
     "perc3",
@@ -195,17 +162,18 @@ commands(
 
 # STRINGS
 
-most_strings = ["1vn1", "2vn1", "va1", "vc1"]
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get())
+    voice.extend(music)
 
-commands(
-    most_strings,
-    baca.make_repeat_tied_notes(),
-)
+# CB3
 
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cb3"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
+
+# CB1
 
 commands(
     "cb1",
@@ -413,7 +381,7 @@ commands(
 # strings
 
 commands(
-    most_strings,
+    ["1vn1", "2vn1", "va1", "vc1"],
     baca.pitch("A3"),
     baca.trill_spanner(alteration="Ab3", right_broken=True),
     baca.hairpin("pp <", right_broken=True),
@@ -467,6 +435,8 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    for voice_name, dictionary in persist["voice_metadata"].items():
+        dictionary.update(voice_metadata.get(voice_name, {}))
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,

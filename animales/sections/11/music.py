@@ -8,6 +8,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
 start = metadata.get("final_measure_number")
 assert start == 61
 
@@ -55,6 +56,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -99,93 +101,63 @@ baca.text_spanner_y_offset_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# WINDS
+# CL
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # BRASS
 
-commands(
-    "hn1",
-    library.make_brass_manifest_rhythm(1),
-)
+parameter = "RHYTHM"
+persist = "brass_manifest_rhythm"
 
-commands(
-    "hn3",
-    library.make_brass_manifest_rhythm(3),
-)
+for abbreviation, part in (
+    ("hn1", 1),
+    ("hn3", 3),
+    ("hn2", 2),
+    ("hn4", 4),
+    ("tp1", 5),
+    ("tp3", 7),
+    ("tp2", 6),
+    ("tp4", 8),
+    ("tbn1", 9),
+    ("tbn3", 11),
+    ("tbn2", 10),
+    ("tbn4", 12),
+):
+    voice_name = commands.voice_abbreviations[abbreviation]
+    voice = score[voice_name]
+    music, state = library.make_brass_manifest_rhythm(
+        commands.get(),
+        part,
+        voice_name,
+        previous_persist=previous_persist,
+    )
+    voice.extend(music)
+    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-commands(
-    "hn2",
-    library.make_brass_manifest_rhythm(2),
-)
-
-commands(
-    "hn4",
-    library.make_brass_manifest_rhythm(4),
-)
-
-commands(
-    "tp1",
-    library.make_brass_manifest_rhythm(5),
-)
-
-commands(
-    "tp3",
-    library.make_brass_manifest_rhythm(7),
-)
-
-commands(
-    "tp2",
-    library.make_brass_manifest_rhythm(6),
-)
-
-commands(
-    "tp4",
-    library.make_brass_manifest_rhythm(8),
-)
-
-commands(
-    "tbn1",
-    library.make_brass_manifest_rhythm(9),
-)
-
-commands(
-    "tbn3",
-    library.make_brass_manifest_rhythm(11),
-)
-
-commands(
-    "tbn2",
-    library.make_brass_manifest_rhythm(10),
-)
-
-commands(
-    "tbn4",
-    library.make_brass_manifest_rhythm(12),
-)
-
-# PIANO, HARP
+# PF
 
 commands(
     "pf",
     library.make_harp_exchange_rhythm(3),
 )
 
+# HP
+
 commands(
     "hp",
     library.make_harp_exchange_rhythm(2),
 )
 
-# PERCUSSION
+# PERC2
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
+
+# PERC3
 
 commands(
     "perc3",
@@ -194,30 +166,12 @@ commands(
 
 # STRINGS
 
-commands(
-    "1vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    voice.extend(music)
 
-commands(
-    "2vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "va1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "vc1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "cb3",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
+# CB1
 
 commands(
     "cb1",
@@ -525,6 +479,8 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    for voice_name, dictionary in persist["voice_metadata"].items():
+        dictionary.update(voice_metadata.get(voice_name, {}))
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,
