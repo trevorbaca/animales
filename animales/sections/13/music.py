@@ -8,6 +8,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
+previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
 start = metadata.get("final_measure_number")
 assert start == 75
 
@@ -47,6 +48,7 @@ score = library.make_empty_score(
     ],
 )
 
+voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 commands = baca.CommandAccumulator(
@@ -108,17 +110,22 @@ commands(
     baca.make_repeat_tied_notes(),
 )
 
-# PIANO, HARP
+# HARP EXCHANGE (PF, HP, PERC3, CB1)
 
-commands(
-    "pf",
-    library.make_harp_exchange_rhythm(3),
-)
+parameter = "RHYTHM"
+persist = "harp_exchange_rhythm"
 
-commands(
-    "hp",
-    library.make_harp_exchange_rhythm(2),
-)
+for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
+    voice_name = commands.voice_abbreviations[abbreviation]
+    voice = score[voice_name]
+    music, state = library.make_harp_exchange_rhythm(
+        commands.get(),
+        part,
+        voice_name,
+        previous_persist=previous_persist,
+    )
+    voice.extend(music)
+    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
 # PERCUSSION
 
@@ -130,11 +137,6 @@ commands(
 commands(
     "perc2",
     baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "perc3",
-    library.make_harp_exchange_rhythm(0),
 )
 
 # STRINGS
@@ -162,11 +164,6 @@ commands(
 commands(
     "cb3",
     baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "cb1",
-    library.make_harp_exchange_rhythm(1),
 )
 
 # reapply
@@ -346,6 +343,13 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    if "voice_metadata" not in persist:
+        persist["voice_metadata"] = {}
+    for voice_name, dictionary in persist["voice_metadata"].items():
+        dictionary.update(voice_metadata.get(voice_name, {}))
+    for voice_name, dictionary in voice_metadata.items():
+        if voice_name not in persist["voice_metadata"]:
+            persist["voice_metadata"][voice_name] = dictionary
     lilypond_file = baca.make_lilypond_file(
         score,
         include_layout_ly=True,

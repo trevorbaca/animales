@@ -570,7 +570,7 @@ def make_brass_manifest_rhythm(
 
 
 def make_brass_sforzando_material(
-    commands, range_=(1, -1), *, reapply_persistent_indicators=False
+    score, commands, measure, *, reapply_persistent_indicators=False
 ):
     voice_to_pitch = {
         "Horns.Voice.1": "C4",
@@ -588,39 +588,38 @@ def make_brass_sforzando_material(
         "Tuba.Music": "C2",
     }
 
-    for voice, pitch in voice_to_pitch.items():
+    for voice_name, pitch in voice_to_pitch.items():
+        voice = score[voice_name]
+        music = make_downbeat_attack(commands.get(measure))
+        voice.extend(music)
         if reapply_persistent_indicators:
             commands(
-                (voice, range_),
-                make_downbeat_attack(),
+                (voice_name, measure),
                 baca.reapply_persistent_indicators(),
-                baca.marcato(),
             )
-        else:
-            commands(
-                (voice, range_),
-                make_downbeat_attack(),
-                baca.marcato(),
-            )
-        if voice[-1].isdigit():
-            words = abjad.string.delimit_words(voice)
+        commands(
+            (voice_name, measure),
+            baca.marcato(),
+        )
+        if voice_name[-1].isdigit():
+            words = abjad.string.delimit_words(voice_name)
             member = int(words[-1])
         else:
             member = 1
         if member in (1, 2):
             commands(
-                (voice, range_),
+                (voice_name, measure),
                 baca.dynamic("sffz"),
             )
         elif member in (3, 4):
             commands(
-                (voice, range_),
+                (voice_name, measure),
                 baca.only_parts(baca.dynamic("sffz")),
             )
         else:
             raise ValueError(member)
         commands(
-            (voice, range_),
+            (voice_name, measure),
             baca.pitch(pitch),
         )
 
@@ -674,7 +673,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     return music
 
 
-def make_downbeat_attack(count=1, denominator=8, *, function=None):
+def make_downbeat_attack(time_signatures, count=1, denominator=8):
     command = baca.rhythm(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
@@ -686,10 +685,8 @@ def make_downbeat_attack(count=1, denominator=8, *, function=None):
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    if function is not None:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    music = command.rhythm_maker(time_signatures)
+    return music
 
 
 def make_empty_score(
@@ -798,7 +795,14 @@ def make_glissando_rhythm(time_signatures, rotate=0):
     return music
 
 
-def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=None):
+def make_harp_exchange_rhythm(
+    time_signatures,
+    this_part,
+    voice_name,
+    *stack,
+    silence_first=False,
+    previous_persist=None,
+):
     part_to_pattern = dict(
         [
             (0, abjad.index([0, 30], period=36)),
@@ -807,11 +811,9 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=N
             (3, abjad.index([0, 12, 16, 28, 32], period=48)),
         ]
     )
-
     part_to_indices = {}
     for part in part_to_pattern:
         part_to_indices[part] = []
-
     harp_indices = []
     part = 0
     pattern = part_to_pattern[part]
@@ -832,7 +834,6 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=N
         index += 1
         if 999 < index:
             break
-
     part_to_preamble = {}
     part_to_counts = {}
     for part, indices in part_to_indices.items():
@@ -845,14 +846,12 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=N
         period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
-
     preamble = part_to_preamble[this_part]
     counts = []
     for count in part_to_counts[this_part]:
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-
     silence_first_specifier = []
     if silence_first is True:
         specifier = rmakers.force_rest(lambda _: baca.select.lt(_, 0))
@@ -863,6 +862,7 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=N
         result = baca.sequence.quarters(result)
         return result
 
+    persist = "harp_exchange_rhythm"
     command = baca.rhythm(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *stack,
@@ -874,13 +874,21 @@ def make_harp_exchange_rhythm(this_part, *stack, silence_first=False, function=N
         rmakers.rewrite_meter(),
         rmakers.force_repeat_tie(),
         preprocessor=preprocessor,
-        persist="harp_exchange_rhythm",
+        persist=persist,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    if function is not None:
-        music = command.rhythm_maker(function)
-        return music
-    return command
+    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_section_voice_metadata = previous_section_voice_metadata.get(
+        voice_name, {}
+    )
+    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+        previous_section_voice_metadata, persist
+    )
+    music = command.rhythm_maker(
+        time_signatures, previous_state=previous_section_stop_state
+    )
+    state = command.rhythm_maker.state
+    return music, state
 
 
 def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):

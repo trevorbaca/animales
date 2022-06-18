@@ -111,7 +111,9 @@ baca.rehearsal_mark_function(
 
 # brass
 
-library.make_brass_sforzando_material(commands, 1, reapply_persistent_indicators=True)
+library.make_brass_sforzando_material(
+    score, commands, 1, reapply_persistent_indicators=True
+)
 
 brass_voices = [
     "hn1",

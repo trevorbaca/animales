@@ -91,67 +91,7 @@ for index, string in (
 
 # BRASS
 
-commands(
-    ("hn1", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("hn3", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("hn2", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("hn4", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp1", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp3", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp2", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tp4", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn1", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn3", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn2", 1),
-    library.make_downbeat_attack(),
-)
-
-commands(
-    ("tbn4", 1),
-    library.make_downbeat_attack(),
-)
-
-brass_voice_names = [
+for abbreviation in (
     "hn1",
     "hn2",
     "hn3",
@@ -164,12 +104,12 @@ brass_voice_names = [
     "tbn2",
     "tbn3",
     "tbn4",
-]
-
-commands(
-    (brass_voice_names, (2, 12)),
-    baca.make_mmrests(),
-)
+):
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = library.make_downbeat_attack(commands.get(1))
+    voice.extend(music)
+    music = baca.make_mmrests_function(commands.get(2, 12))
+    voice.extend(music)
 
 # STRINGS
 

@@ -140,17 +140,17 @@ brass_voice_names = [
     "tub",
 ]
 
-commands(
-    (brass_voice_names, (1, 2)),
-    baca.make_mmrests(),
-)
+for abbreviation in brass_voice_names:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get(1, 2))
+    voice.extend(music)
 
-library.make_brass_sforzando_material(commands, 3)
+library.make_brass_sforzando_material(score, commands, 3)
 
-commands(
-    (brass_voice_names, (4, 6)),
-    baca.make_mmrests(),
-)
+for abbreviation in brass_voice_names:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get(4, 6))
+    voice.extend(music)
 
 # STRINGS
 
