@@ -81,124 +81,20 @@ def swell(peak):
     )
 
 
-# WINDS
+# OB
 
-commands(
-    ("ob", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("ob", (6, 14)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("eh", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("eh", (6, 14)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("bsn1", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("bsn2", (1, 5)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    (["bsn1", "bsn2"], (6, 14)),
-    baca.make_mmrests(),
-)
+for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+    voice.extend(music)
+    music = baca.make_mmrests_function(commands.get(6, 14))
+    voice.extend(music)
 
 # STRINGS
 
-commands(
-    "1vn5",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn3", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("1vn4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn3", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("2vn4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va3", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("va4", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc1", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("vc2", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("cb3", (1, 10)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["1vn5"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 voice_abbreviation_to_members = {
     "1vn1": (1, 4),
@@ -218,11 +114,12 @@ voice_abbreviation_to_members = {
     "cb3": (1, 6),
 }
 
-for voice_name in voice_abbreviation_to_members:
-    commands(
-        (voice_name, (11, 14)),
-        baca.make_mmrests(),
-    )
+for abbreviation in voice_abbreviation_to_members:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get(1, 10))
+    voice.extend(music)
+    music = baca.make_mmrests_function(commands.get(11, 14))
+    voice.extend(music)
 
 # reapply
 

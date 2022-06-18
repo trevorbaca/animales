@@ -93,20 +93,15 @@ rests = score["Rests"]
 for index, string in ((4 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-# PERCUSSION
+# PERC1
 
-commands(
-    ("perc1", (1, 3)),
-    baca.make_repeat_tied_notes(),
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
-
-commands(
-    ("perc1", 4),
-    baca.make_mmrests(),
-)
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+pleaf = baca.select.pleaf(music, 0)
+baca.repeat_tie_function(pleaf)
+voice.extend(music)
+music = baca.make_mmrests_function(commands.get(4))
+voice.extend(music)
 
 # STRINGS
 

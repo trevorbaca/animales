@@ -93,22 +93,19 @@ baca.text_spanner_y_offset_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# WINDS
+# CL
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-commands(
-    ("bcl", (1, 4)),
-    baca.make_mmrests(),
-)
+# BCL
 
-commands(
-    ("bcl", (5, 6)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["bcl"]]
+music = baca.make_mmrests_function(commands.get(1, 4))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(5, 6))
+voice.extend(music)
 
 # HARP EXCHANGE (PF, HP, PERC3, CB1)
 
@@ -127,44 +124,24 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
     voice.extend(music)
     baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-# PERCUSSION
+# PERC1
 
-commands(
-    "perc1",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+# PERC2
+
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # STRINGS
 
-commands(
-    "1vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "2vn1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "va1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "vc1",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
-
-commands(
-    "cb3",
-    baca.make_repeated_duration_notes([(1, 4)]),
-)
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    voice.extend(music)
 
 # reapply
 

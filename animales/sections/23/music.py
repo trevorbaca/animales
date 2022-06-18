@@ -109,13 +109,13 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-# brass
+# BRASS
 
 library.make_brass_sforzando_material(
     score, commands, 1, reapply_persistent_indicators=True
 )
 
-brass_voices = [
+for abbreviation in [
     "hn1",
     "hn2",
     "hn3",
@@ -129,17 +129,18 @@ brass_voices = [
     "tbn3",
     "tbn4",
     "tub",
-]
+]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests_function(commands.get(2, 3))
+    voice.extend(music)
 
-commands(
-    (brass_voices, (2, 3)),
-    baca.make_mmrests(),
-)
+# PERC2
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
+
+# STRINGS
 
 library.make_battuti_material(score, commands, [[1, -17], [1, -17], [1, -17]], (1, 3))
 

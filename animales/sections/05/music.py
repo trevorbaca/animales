@@ -70,24 +70,23 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=baca.tags.ONLY_SCORE),
 )
 
-# WINDS
+# CL
 
-commands(
-    "cl",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-# PERCUSSION
+# PERC1
 
-commands(
-    "perc1",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+# PERC2
+
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # STRINGS
 
@@ -97,10 +96,11 @@ voice.extend(music)
 
 library.make_trill_rhythm(score, commands.get(), voice_metadata, previous_persist)
 
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-)
+# CB3
+
+voice = score[commands.voice_abbreviations["cb3"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # anchor notes
 

@@ -101,17 +101,13 @@ baca.text_spanner_y_offset_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# WINDS
+# CL
 
-commands(
-    ("cl", (1, 4)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("cl", (5, 8)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes_function(commands.get(1, 4))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(5, 8))
+voice.extend(music)
 
 # BRASS
 
@@ -154,37 +150,16 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 
 # PERC2
 
-commands(
-    "perc2",
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes_function(commands.get())
+voice.extend(music)
 
 # STRINGS
 
-commands(
-    "1vn1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "2vn1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "va1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "vc1",
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    "cb3",
-    baca.make_repeat_tied_notes(),
-)
+for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get())
+    voice.extend(music)
 
 # reapply
 

@@ -88,39 +88,27 @@ baca.rehearsal_mark_function(
 
 # CL
 
-commands(
-    ("cl", (1, 2)),
-    baca.make_mmrests(),
-    baca.instrument(instruments["Clarinet"]),
-    baca.clef("treble"),
-)
+voice = score[commands.voice_abbreviations["cl"]]
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+voice.extend(music)
 
-commands(
-    ("cl", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
+# PERC1
 
-# PERC
+voice = score[commands.voice_abbreviations["perc1"]]
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+voice.extend(music)
 
-commands(
-    ("perc1", (1, 2)),
-    baca.make_mmrests(),
-)
+# PERC2
 
-commands(
-    ("perc2", (1, 2)),
-    baca.make_mmrests(),
-)
-
-commands(
-    ("perc1", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
-
-commands(
-    ("perc2", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["perc2"]]
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+voice.extend(music)
 
 # BRASS
 
@@ -164,20 +152,18 @@ library.make_trill_rhythm(score, commands.get(1, 2), voice_metadata, previous_pe
 
 strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
-commands(
-    (strings, (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
+for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
+    voice = score[commands.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+    voice.extend(music)
 
-commands(
-    ("cb3", (1, 2)),
-    baca.make_mmrests(),
-)
+# CB3
 
-commands(
-    ("cb3", (3, 6)),
-    baca.make_repeat_tied_notes(),
-)
+voice = score[commands.voice_abbreviations["cb3"]]
+music = baca.make_mmrests_function(commands.get(1, 2))
+voice.extend(music)
+music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+voice.extend(music)
 
 # reapply
 
@@ -191,16 +177,18 @@ commands(
 # cl
 
 commands(
+    "cl",
+    baca.instrument(instruments["Clarinet"]),
+    library.short_instrument_name("Cl. 3"),
+    library.assign_part("Clarinet", 3),
+    baca.clef("treble"),
+)
+
+commands(
     ("cl", (3, 6)),
     baca.pitch("C5"),
     baca.edition("solo (cl. 3)", "solo"),
     baca.hairpin("mp < mf"),
-)
-
-commands(
-    "cl",
-    library.short_instrument_name("Cl. 3"),
-    library.assign_part("Clarinet", 3),
 )
 
 # perc1, perc2

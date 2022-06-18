@@ -757,10 +757,8 @@ number.6.Percussion.1.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
@@ -1006,10 +1004,8 @@ number.6.Percussion.2.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     - \tweak direction #up
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()

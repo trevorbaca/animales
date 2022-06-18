@@ -378,7 +378,6 @@ number.29.Percussion.1.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.IndicatorCommand._call()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
