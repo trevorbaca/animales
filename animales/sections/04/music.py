@@ -91,7 +91,7 @@ baca.rehearsal_mark_function(
 voice = score[commands.voice_abbreviations["cl"]]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+music = baca.make_repeat_tied_notes(commands.get(3, 6))
 voice.extend(music)
 
 # PERC1
@@ -99,7 +99,7 @@ voice.extend(music)
 voice = score[commands.voice_abbreviations["perc1"]]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+music = baca.make_repeat_tied_notes(commands.get(3, 6))
 voice.extend(music)
 
 # PERC2
@@ -107,7 +107,7 @@ voice.extend(music)
 voice = score[commands.voice_abbreviations["perc2"]]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+music = baca.make_repeat_tied_notes(commands.get(3, 6))
 voice.extend(music)
 
 # BRASS
@@ -154,7 +154,7 @@ strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
 for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+    music = baca.make_repeat_tied_notes(commands.get(3, 6))
     voice.extend(music)
 
 # CB3
@@ -162,7 +162,7 @@ for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
 voice = score[commands.voice_abbreviations["cb3"]]
 music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
+music = baca.make_repeat_tied_notes(commands.get(3, 6))
 voice.extend(music)
 
 # reapply

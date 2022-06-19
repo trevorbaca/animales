@@ -104,7 +104,7 @@ baca.text_spanner_y_offset_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # BRASS
@@ -157,14 +157,14 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # STRINGS
 
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    music = baca.make_repeated_duration_notes(commands.get(), [(1, 4)])
     voice.extend(music)
 
 # reapply

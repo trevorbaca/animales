@@ -92,13 +92,13 @@ baca.rehearsal_mark_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # BCL
 
 voice = score[commands.voice_abbreviations["bcl"]]
-music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+music = baca.make_repeat_tied_notes(commands.get(1, 3))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -162,13 +162,13 @@ voice.extend(music)
 
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes_function(commands.get())
+    music = baca.make_repeat_tied_notes(commands.get())
     voice.extend(music)
 
 # CB3
 
 voice = score[commands.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # CB1

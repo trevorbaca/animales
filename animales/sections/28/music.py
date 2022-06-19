@@ -96,7 +96,7 @@ baca.rehearsal_mark_function(
 
 for abbreviation in ["perc1", "perc2", "perc3", "perc4"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes_function(commands.get())
+    music = baca.make_repeat_tied_notes(commands.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
     voice.extend(music)

@@ -98,7 +98,7 @@ def swell(peak):
 
 for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
+    music = baca.make_repeat_tied_notes(commands.get(1, 5))
     voice.extend(music)
     music = baca.make_mmrests(commands.get(6, 10))
     voice.extend(music)
@@ -154,7 +154,7 @@ for abbreviation in [
     "cb3",
 ]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes_function(commands.get())
+    music = baca.make_repeat_tied_notes(commands.get())
     voice.extend(music)
 
 # reapply

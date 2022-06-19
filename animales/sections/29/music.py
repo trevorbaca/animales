@@ -96,7 +96,7 @@ for index, string in ((4 - 1, "fermata"),):
 # PERC1
 
 voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
+music = baca.make_repeat_tied_notes(commands.get(1, 3))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)

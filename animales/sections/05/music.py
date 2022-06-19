@@ -73,19 +73,19 @@ baca.rehearsal_mark_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # PERC1
 
 voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # STRINGS
@@ -99,7 +99,7 @@ library.make_trill_rhythm(score, commands.get(), voice_metadata, previous_persis
 # CB3
 
 voice = score[commands.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # anchor notes
