@@ -543,7 +543,7 @@ def make_brass_manifest_rhythm(
         return result
 
     persist = "brass_manifest_rhythm"
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -553,18 +553,16 @@ def make_brass_manifest_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = command.rhythm_maker(time_signatures)
+    music = rhythm_maker(time_signatures)
     previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
     previous_section_voice_metadata = previous_section_voice_metadata.get(
         voice_name, {}
     )
-    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+    previous_section_stop_state = baca.get_previous_section_stop_state(
         previous_section_voice_metadata, persist
     )
-    music = command.rhythm_maker(
-        time_signatures, previous_state=previous_section_stop_state
-    )
-    state = command.rhythm_maker.state
+    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    state = rhythm_maker.state
     return music, state
 
 
@@ -657,7 +655,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
         result = baca.sequence.quarters(result)
         return result
 
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts_, 16, extra_counts=extra_counts),
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
@@ -668,12 +666,12 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = command.rhythm_maker(time_signatures)
+    music = rhythm_maker(time_signatures)
     return music
 
 
 def make_downbeat_attack(time_signatures, count=1, denominator=8):
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea([count], denominator),
         rmakers.force_rest(
             lambda _: baca.select.lts(_)[1:],
@@ -684,7 +682,7 @@ def make_downbeat_attack(time_signatures, count=1, denominator=8):
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = command.rhythm_maker(time_signatures)
+    music = rhythm_maker(time_signatures)
     return music
 
 
@@ -783,14 +781,14 @@ def make_empty_score(
 
 
 def make_glissando_rhythm(time_signatures, rotate=0):
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(abjad.sequence.rotate([5, 1, 2, 1], n=rotate), 8),
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = command.rhythm_maker(time_signatures)
+    music = rhythm_maker(time_signatures)
     return music
 
 
@@ -862,7 +860,7 @@ def make_harp_exchange_rhythm(
         return result
 
     persist = "harp_exchange_rhythm"
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *stack,
         rmakers.cache_state(),
@@ -879,13 +877,11 @@ def make_harp_exchange_rhythm(
     previous_section_voice_metadata = previous_section_voice_metadata.get(
         voice_name, {}
     )
-    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+    previous_section_stop_state = baca.get_previous_section_stop_state(
         previous_section_voice_metadata, persist
     )
-    music = command.rhythm_maker(
-        time_signatures, previous_state=previous_section_stop_state
-    )
-    state = command.rhythm_maker.state
+    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    state = rhythm_maker.state
     return music, state
 
 
@@ -905,7 +901,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
         result = baca.sequence.quarters(divisions)
         return result
 
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea([1], 16, extra_counts=extra_counts),
         *stack,
         rmakers.beam(),
@@ -917,7 +913,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    music = command.rhythm_maker(time_signatures)
+    music = rhythm_maker(time_signatures)
     return music
 
 
@@ -976,7 +972,7 @@ def make_sforzando_exchange_rhythm(
         return result
 
     persist = "sforzando_exchange_rhythm"
-    command = baca.rhythm(
+    rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         rmakers.beam(),
         rmakers.trivialize(),
@@ -990,13 +986,11 @@ def make_sforzando_exchange_rhythm(
     previous_section_voice_metadata = previous_section_voice_metadata.get(
         voice_name, {}
     )
-    previous_section_stop_state = baca.RhythmCommand._previous_section_stop_state(
+    previous_section_stop_state = baca.get_previous_section_stop_state(
         previous_section_voice_metadata, persist
     )
-    music = command.rhythm_maker(
-        time_signatures, previous_state=previous_section_stop_state
-    )
-    state = command.rhythm_maker.state
+    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    state = rhythm_maker.state
     return music, state
 
 
