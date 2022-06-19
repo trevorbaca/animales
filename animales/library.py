@@ -510,7 +510,6 @@ def make_battuti_material(
 
 
 def make_brass_manifest_rhythm(
-    # part, *, function=None, previous_persist=None, voice_name=None
     time_signatures,
     part,
     voice_name,
@@ -918,7 +917,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
 
 
 def make_sforzando_exchange_rhythm(
-    this_part, time_signatures, previous_persist, voice_name
+    time_signatures, this_part, previous_persist, voice_name
 ):
     assert isinstance(previous_persist, dict), repr(previous_persist)
     part_to_pattern = {
@@ -1012,7 +1011,7 @@ def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=N
         voice_name = _voice_abbreviations[voice_abbreviation]
         voice = score[voice_name]
         music, state = make_sforzando_exchange_rhythm(
-            part, time_signatures, previous_persist, voice_name
+            time_signatures, part, previous_persist, voice_name
         )
         voice.extend(music)
         baca.update_voice_metadata(
