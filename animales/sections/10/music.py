@@ -102,7 +102,7 @@ music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(4, 6))
+music = baca.make_mmrests(commands.get(4, 6))
 voice.extend(music)
 
 # BRASS
@@ -155,7 +155,7 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # STRINGS

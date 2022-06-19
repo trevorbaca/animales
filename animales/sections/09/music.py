@@ -90,7 +90,7 @@ baca.text_spanner_left_padding_function(
 voice = score[commands.voice_abbreviations["cl"]]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(4, 6), head=voice.name)
+music = baca.make_mmrests(commands.get(4, 6), head=voice.name)
 voice.extend(music)
 
 # BCL
@@ -120,7 +120,7 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # STRINGS
@@ -129,7 +129,7 @@ for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
     music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests_function(commands.get(4, 6), head=voice.name)
+    music = baca.make_mmrests(commands.get(4, 6), head=voice.name)
     voice.extend(music)
 
 # reapply

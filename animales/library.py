@@ -462,7 +462,7 @@ def make_battuti_material(
             if append_fermata_measure is True:
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
-                music = baca.make_mmrests_function(
+                music = baca.make_mmrests(
                     commands.get(fermata_measure), head=voice.name
                 )
                 voice.extend(music)

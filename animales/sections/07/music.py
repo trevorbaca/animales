@@ -127,7 +127,7 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 # PERC1
 
 voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # PERC2
@@ -142,7 +142,7 @@ voice.extend(music)
 
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests_function(commands.get())
+    music = baca.make_mmrests(commands.get())
     music = baca.make_repeat_tied_notes_function(commands.get())
     voice.extend(music)
 

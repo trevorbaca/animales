@@ -116,7 +116,7 @@ absent_left_broken = ["1vn3", "2vn3", "va3"]
 
 for abbreviation in absent_left_broken:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests_function(commands.get())
+    music = baca.make_mmrests(commands.get())
     voice.extend(music)
 
 # reapply

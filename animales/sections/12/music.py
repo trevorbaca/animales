@@ -128,7 +128,7 @@ for abbreviation in (
     voice = score[commands.voice_abbreviations[abbreviation]]
     music = library.make_downbeat_attack(commands.get(1))
     voice.extend(music)
-    music = baca.make_mmrests_function(commands.get(2, 8))
+    music = baca.make_mmrests(commands.get(2, 8))
     voice.extend(music)
 
 # HARP EXCHANGE (PF, HP, PERC3, CB1)

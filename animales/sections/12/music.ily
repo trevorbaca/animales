@@ -957,7 +957,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -969,7 +969,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -981,7 +981,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -993,7 +993,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1005,7 +1005,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1017,7 +1017,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1029,7 +1029,7 @@ number.12.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1104,7 +1104,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1116,7 +1116,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1128,7 +1128,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1140,7 +1140,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1152,7 +1152,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1164,7 +1164,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1176,7 +1176,7 @@ number.12.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1332,7 +1332,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1344,7 +1344,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1356,7 +1356,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1368,7 +1368,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1380,7 +1380,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1392,7 +1392,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1404,7 +1404,7 @@ number.12.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1479,7 +1479,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1491,7 +1491,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1503,7 +1503,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1515,7 +1515,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1527,7 +1527,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1539,7 +1539,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1551,7 +1551,7 @@ number.12.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1707,7 +1707,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1719,7 +1719,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1731,7 +1731,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1743,7 +1743,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1755,7 +1755,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1767,7 +1767,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1779,7 +1779,7 @@ number.12.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1854,7 +1854,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1866,7 +1866,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1878,7 +1878,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1890,7 +1890,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1902,7 +1902,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1914,7 +1914,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1926,7 +1926,7 @@ number.12.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2082,7 +2082,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2094,7 +2094,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2106,7 +2106,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2118,7 +2118,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2130,7 +2130,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2142,7 +2142,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2154,7 +2154,7 @@ number.12.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2239,7 +2239,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2251,7 +2251,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2263,7 +2263,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2275,7 +2275,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2287,7 +2287,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2299,7 +2299,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2311,7 +2311,7 @@ number.12.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2467,7 +2467,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2479,7 +2479,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2491,7 +2491,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2503,7 +2503,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2515,7 +2515,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2527,7 +2527,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2539,7 +2539,7 @@ number.12.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2614,7 +2614,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2626,7 +2626,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2638,7 +2638,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2650,7 +2650,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2662,7 +2662,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2674,7 +2674,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2686,7 +2686,7 @@ number.12.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2842,7 +2842,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2854,7 +2854,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2866,7 +2866,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2878,7 +2878,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2890,7 +2890,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2902,7 +2902,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2914,7 +2914,7 @@ number.12.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2999,7 +2999,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3011,7 +3011,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3023,7 +3023,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3035,7 +3035,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -3047,7 +3047,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3059,7 +3059,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 7]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -3071,7 +3071,7 @@ number.12.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 8]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:

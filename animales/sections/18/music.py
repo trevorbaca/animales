@@ -108,7 +108,7 @@ for abbreviation in (
     voice = score[commands.voice_abbreviations[abbreviation]]
     music = library.make_downbeat_attack(commands.get(1))
     voice.extend(music)
-    music = baca.make_mmrests_function(commands.get(2, 12))
+    music = baca.make_mmrests(commands.get(2, 12))
     voice.extend(music)
 
 # STRINGS
@@ -172,11 +172,11 @@ def _tremolo(peak="f"):
 voice = score[commands.voice_abbreviations["1vn5"]]
 music = baca.make_repeat_tied_notes_function(commands.get(1, 2))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(3))
+music = baca.make_mmrests(commands.get(3))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(4, 7))
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(8))
+music = baca.make_mmrests(commands.get(8))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(9, 12))
 voice.extend(music)
@@ -187,15 +187,15 @@ for abbreviation, items in string_parts.items():
     voice_name = commands.voice_abbreviations[abbreviation]
     if voice_name != "FirstViolins.Voice.5":
         voice = score[voice_name]
-        music = baca.make_mmrests_function(commands.get(1, 3))
+        music = baca.make_mmrests(commands.get(1, 3))
         voice.extend(music)
         music = baca.make_repeat_tied_notes_function(commands.get(4, 6))
         voice.extend(music)
-        music = baca.make_mmrests_function(commands.get(7, 8))
+        music = baca.make_mmrests(commands.get(7, 8))
         voice.extend(music)
         music = baca.make_repeat_tied_notes_function(commands.get(9, 11))
         voice.extend(music)
-        music = baca.make_mmrests_function(commands.get(12))
+        music = baca.make_mmrests(commands.get(12))
         voice.extend(music)
     part_name = voice_name.split(".")[0].removesuffix("s")
     numbers = items[0]
