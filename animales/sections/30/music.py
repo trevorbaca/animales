@@ -59,7 +59,7 @@ for index, string in ((10 - 1, "fermata"),):
 # PF
 
 voice = score[commands.voice_abbreviations["pf"]]
-music = baca.make_notes_function(commands.get(1, 9))
+music = baca.make_notes(commands.get(1, 9))
 voice.extend(music)
 music = baca.make_mmrests(commands.get(10))
 voice.extend(music)
@@ -67,7 +67,7 @@ voice.extend(music)
 # PERC4
 
 voice = score[commands.voice_abbreviations["perc4"]]
-music = baca.make_tied_repeated_durations_function(commands.get(1, 8), [(1, 4)])
+music = baca.make_tied_repeated_durations(commands.get(1, 8), [(1, 4)])
 voice.extend(music)
 music = baca.make_mmrests(commands.get(9, 10))
 voice.extend(music)

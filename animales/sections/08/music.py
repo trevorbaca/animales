@@ -89,7 +89,7 @@ baca.text_spanner_left_padding_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes_function(commands.get(1, 6))
+music = baca.make_repeat_tied_notes(commands.get(1, 6))
 voice.extend(music)
 
 # BCL
@@ -97,7 +97,7 @@ voice.extend(music)
 voice = score[commands.voice_abbreviations["bcl"]]
 music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
-music = baca.make_repeat_tied_notes_function(commands.get(5, 6))
+music = baca.make_repeat_tied_notes(commands.get(5, 6))
 voice.extend(music)
 
 # HARP EXCHANGE (PF, HP, PERC3, CB1)
@@ -121,7 +121,7 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -131,7 +131,7 @@ voice.extend(music)
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
     music = baca.make_mmrests(commands.get())
-    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    music = baca.make_repeated_duration_notes(commands.get(), [(1, 4)])
     voice.extend(music)
 
 # reapply

@@ -86,13 +86,13 @@ baca.text_spanner_y_offset_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # PERC1
 
 voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -100,7 +100,7 @@ voice.extend(music)
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -109,7 +109,7 @@ voice.extend(music)
 
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeated_duration_notes_function(commands.get(), [(1, 4)])
+    music = baca.make_repeated_duration_notes(commands.get(), [(1, 4)])
     voice.extend(music)
 
 absent_left_broken = ["1vn3", "2vn3", "va3"]

@@ -137,7 +137,7 @@ for abbreviation in [
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes_function(commands.get())
+music = baca.make_repeat_tied_notes(commands.get())
 voice.extend(music)
 
 # STRINGS
