@@ -783,7 +783,7 @@ number.30.Piano.Music.container = {
       %! baca.IndicatorCommand._call()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
@@ -1321,7 +1321,7 @@ number.30.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 9]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1357,7 +1357,7 @@ number.30.Percussion.4.Music.container = {
       %! baca.IndicatorCommand._call()
       %! baca.mark()
     \mark \animales-colophon-markup
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:

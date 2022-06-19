@@ -102,7 +102,7 @@ voice.extend(music)
 # BCL
 
 voice = score[commands.voice_abbreviations["bcl"]]
-music = baca.make_mmrests_function(commands.get(1, 4))
+music = baca.make_mmrests(commands.get(1, 4))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(5, 6))
 voice.extend(music)

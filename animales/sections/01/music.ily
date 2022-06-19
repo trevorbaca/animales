@@ -448,7 +448,7 @@ number.1.Percussion.1.Music.container = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -479,7 +479,7 @@ number.1.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -491,7 +491,7 @@ number.1.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -503,7 +503,7 @@ number.1.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -515,7 +515,7 @@ number.1.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -527,7 +527,7 @@ number.1.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -651,7 +651,7 @@ number.1.Percussion.2.Music.container = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -682,7 +682,7 @@ number.1.Percussion.2.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.2.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -694,7 +694,7 @@ number.1.Percussion.2.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.2.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -706,7 +706,7 @@ number.1.Percussion.2.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.2.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -718,7 +718,7 @@ number.1.Percussion.2.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.2.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -730,7 +730,7 @@ number.1.Percussion.2.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.2.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -859,7 +859,7 @@ number.1.Percussion.4.Music.container = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -890,7 +890,7 @@ number.1.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -902,7 +902,7 @@ number.1.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -914,7 +914,7 @@ number.1.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -926,7 +926,7 @@ number.1.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -938,7 +938,7 @@ number.1.Percussion.4.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.4.Music measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:

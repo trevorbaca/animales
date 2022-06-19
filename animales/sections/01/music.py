@@ -60,15 +60,15 @@ baca.commands._metronome_mark(skips[1 - 1], commands.metronome_marks["114"], man
 # PERCUSSION
 
 voice = score["Percussion.1.Music"]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 voice = score["Percussion.2.Music"]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 voice = score["Percussion.4.Music"]
-music = baca.make_mmrests_function(commands.get())
+music = baca.make_mmrests(commands.get())
 voice.extend(music)
 
 # STRINGS

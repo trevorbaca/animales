@@ -100,7 +100,7 @@ music = baca.make_repeat_tied_notes_function(commands.get(1, 3))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
-music = baca.make_mmrests_function(commands.get(4))
+music = baca.make_mmrests(commands.get(4))
 voice.extend(music)
 
 # STRINGS

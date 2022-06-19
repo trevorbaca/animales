@@ -330,7 +330,7 @@ number.23.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -342,7 +342,7 @@ number.23.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -419,7 +419,7 @@ number.23.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -431,7 +431,7 @@ number.23.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -579,7 +579,7 @@ number.23.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -591,7 +591,7 @@ number.23.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -668,7 +668,7 @@ number.23.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -680,7 +680,7 @@ number.23.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -828,7 +828,7 @@ number.23.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -840,7 +840,7 @@ number.23.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -917,7 +917,7 @@ number.23.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -929,7 +929,7 @@ number.23.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1077,7 +1077,7 @@ number.23.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1089,7 +1089,7 @@ number.23.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1166,7 +1166,7 @@ number.23.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1178,7 +1178,7 @@ number.23.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1326,7 +1326,7 @@ number.23.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1338,7 +1338,7 @@ number.23.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1415,7 +1415,7 @@ number.23.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1427,7 +1427,7 @@ number.23.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1575,7 +1575,7 @@ number.23.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1587,7 +1587,7 @@ number.23.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1664,7 +1664,7 @@ number.23.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1676,7 +1676,7 @@ number.23.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1820,7 +1820,7 @@ number.23.Tuba.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Tuba.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1832,7 +1832,7 @@ number.23.Tuba.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Tuba.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:

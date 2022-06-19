@@ -89,7 +89,7 @@ baca.rehearsal_mark_function(
 # CL
 
 voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
 voice.extend(music)
@@ -97,7 +97,7 @@ voice.extend(music)
 # PERC1
 
 voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
 voice.extend(music)
@@ -105,7 +105,7 @@ voice.extend(music)
 # PERC2
 
 voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
 voice.extend(music)
@@ -130,20 +130,20 @@ brass_voice_names = [
 
 for abbreviation in brass_voice_names:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests_function(commands.get(1, 2))
+    music = baca.make_mmrests(commands.get(1, 2))
     voice.extend(music)
 
 library.make_brass_sforzando_material(score, commands, 3)
 
 for abbreviation in brass_voice_names:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests_function(commands.get(4, 6))
+    music = baca.make_mmrests(commands.get(4, 6))
     voice.extend(music)
 
 # STRINGS
 
 voice = score[commands.voice_abbreviations["1vn2"]]
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 music = library.make_glissando_rhythm(commands.get(3, 6))
 voice.extend(music)
@@ -160,7 +160,7 @@ for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
 # CB3
 
 voice = score[commands.voice_abbreviations["cb3"]]
-music = baca.make_mmrests_function(commands.get(1, 2))
+music = baca.make_mmrests(commands.get(1, 2))
 voice.extend(music)
 music = baca.make_repeat_tied_notes_function(commands.get(3, 6))
 voice.extend(music)

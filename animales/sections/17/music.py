@@ -100,7 +100,7 @@ for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
     voice = score[commands.voice_abbreviations[abbreviation]]
     music = baca.make_repeat_tied_notes_function(commands.get(1, 5))
     voice.extend(music)
-    music = baca.make_mmrests_function(commands.get(6, 10))
+    music = baca.make_mmrests(commands.get(6, 10))
     voice.extend(music)
 
 # BRASS

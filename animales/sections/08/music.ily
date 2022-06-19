@@ -668,7 +668,7 @@ number.8.BassClarinet.Music.container = {
       %! baca.clef()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -699,7 +699,7 @@ number.8.BassClarinet.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [BassClarinet.Music measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -711,7 +711,7 @@ number.8.BassClarinet.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [BassClarinet.Music measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -723,7 +723,7 @@ number.8.BassClarinet.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [BassClarinet.Music measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:

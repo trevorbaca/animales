@@ -133,7 +133,7 @@ for abbreviation in [
     "tub",
 ]:
     voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests_function(commands.get(2, 3))
+    music = baca.make_mmrests(commands.get(2, 3))
     voice.extend(music)
 
 # PERC2, PERC3, PERC4

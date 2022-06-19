@@ -1516,7 +1516,7 @@ number.6.FirstViolins.Voice.3 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
@@ -1562,7 +1562,7 @@ number.6.FirstViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1574,7 +1574,7 @@ number.6.FirstViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -1586,7 +1586,7 @@ number.6.FirstViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1598,7 +1598,7 @@ number.6.FirstViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -1610,7 +1610,7 @@ number.6.FirstViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -1992,7 +1992,7 @@ number.6.SecondViolins.Voice.3 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
@@ -2038,7 +2038,7 @@ number.6.SecondViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2050,7 +2050,7 @@ number.6.SecondViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -2062,7 +2062,7 @@ number.6.SecondViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2074,7 +2074,7 @@ number.6.SecondViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2086,7 +2086,7 @@ number.6.SecondViolins.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2468,7 +2468,7 @@ number.6.Violas.Voice.3 = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
@@ -2514,7 +2514,7 @@ number.6.Violas.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
@@ -2526,7 +2526,7 @@ number.6.Violas.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 3]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 2/4
     % AFTER:
     % MARKUP:
@@ -2538,7 +2538,7 @@ number.6.Violas.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 4]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2550,7 +2550,7 @@ number.6.Violas.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 5]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 3/4
     % AFTER:
     % MARKUP:
@@ -2562,7 +2562,7 @@ number.6.Violas.Voice.3 = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 6]
-      %! baca.make_mmrests_function()
+      %! baca.make_mmrests(1)
     R1 * 4/4
     % AFTER:
     % MARKUP:
