@@ -2263,6 +2263,7 @@ number.19.FirstViolins.Voice.1.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
@@ -2276,17 +2277,17 @@ number.19.FirstViolins.Voice.1.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -2423,21 +2424,22 @@ number.19.FirstViolins.Voice.2.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -2586,17 +2588,17 @@ number.19.FirstViolins.Voice.3.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -2727,17 +2729,17 @@ number.19.FirstViolins.Voice.4.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -2886,17 +2888,17 @@ number.19.FirstViolins.Voice.5.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3027,17 +3029,17 @@ number.19.FirstViolins.Voice.6.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3190,17 +3192,17 @@ number.19.FirstViolins.Voice.7.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3317,17 +3319,17 @@ number.19.FirstViolins.Voice.8.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3465,17 +3467,17 @@ number.19.FirstViolins.Voice.9.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3592,17 +3594,17 @@ number.19.FirstViolins.Voice.10.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3740,17 +3742,17 @@ number.19.FirstViolins.Voice.11.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -3867,17 +3869,17 @@ number.19.FirstViolins.Voice.12.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4015,17 +4017,17 @@ number.19.FirstViolins.Voice.13.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4142,17 +4144,17 @@ number.19.FirstViolins.Voice.14.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4290,17 +4292,17 @@ number.19.FirstViolins.Voice.15.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4417,17 +4419,17 @@ number.19.FirstViolins.Voice.16.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4557,6 +4559,7 @@ number.19.FirstViolins.Voice.17.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
@@ -4570,17 +4573,17 @@ number.19.FirstViolins.Voice.17.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4698,21 +4701,22 @@ number.19.FirstViolins.Voice.18.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -4855,6 +4859,7 @@ number.19.SecondViolins.Voice.1.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
@@ -4868,17 +4873,17 @@ number.19.SecondViolins.Voice.1.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5010,21 +5015,22 @@ number.19.SecondViolins.Voice.2.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5173,17 +5179,17 @@ number.19.SecondViolins.Voice.3.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5348,17 +5354,17 @@ number.19.SecondViolins.Voice.4.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5507,17 +5513,17 @@ number.19.SecondViolins.Voice.5.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5634,17 +5640,17 @@ number.19.SecondViolins.Voice.6.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5790,17 +5796,17 @@ number.19.SecondViolins.Voice.7.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -5917,17 +5923,17 @@ number.19.SecondViolins.Voice.8.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6065,17 +6071,17 @@ number.19.SecondViolins.Voice.9.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6192,17 +6198,17 @@ number.19.SecondViolins.Voice.10.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6340,17 +6346,17 @@ number.19.SecondViolins.Voice.11.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6467,17 +6473,17 @@ number.19.SecondViolins.Voice.12.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6666,17 +6672,17 @@ number.19.SecondViolins.Voice.13.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6793,17 +6799,17 @@ number.19.SecondViolins.Voice.14.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -6941,17 +6947,17 @@ number.19.SecondViolins.Voice.15.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7068,17 +7074,17 @@ number.19.SecondViolins.Voice.16.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7208,6 +7214,7 @@ number.19.SecondViolins.Voice.17.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
@@ -7221,17 +7228,17 @@ number.19.SecondViolins.Voice.17.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7349,21 +7356,22 @@ number.19.SecondViolins.Voice.18.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7493,6 +7501,7 @@ number.19.Violas.Voice.1.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
@@ -7506,17 +7515,17 @@ number.19.Violas.Voice.1.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7648,21 +7657,22 @@ number.19.Violas.Voice.2.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7811,17 +7821,17 @@ number.19.Violas.Voice.3.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -7952,17 +7962,17 @@ number.19.Violas.Voice.4.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8111,17 +8121,17 @@ number.19.Violas.Voice.5.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8238,17 +8248,17 @@ number.19.Violas.Voice.6.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8417,17 +8427,17 @@ number.19.Violas.Voice.7.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8544,17 +8554,17 @@ number.19.Violas.Voice.8.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8692,17 +8702,17 @@ number.19.Violas.Voice.9.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8819,17 +8829,17 @@ number.19.Violas.Voice.10.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -8967,17 +8977,17 @@ number.19.Violas.Voice.11.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9094,17 +9104,17 @@ number.19.Violas.Voice.12.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9274,17 +9284,17 @@ number.19.Violas.Voice.13.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9401,17 +9411,17 @@ number.19.Violas.Voice.14.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9549,17 +9559,17 @@ number.19.Violas.Voice.15.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9694,17 +9704,17 @@ number.19.Violas.Voice.16.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9834,6 +9844,7 @@ number.19.Violas.Voice.17.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
@@ -9847,17 +9858,17 @@ number.19.Violas.Voice.17.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -9975,21 +9986,22 @@ number.19.Violas.Voice.18.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10137,6 +10149,7 @@ number.19.Cellos.Voice.1.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
@@ -10150,17 +10163,17 @@ number.19.Cellos.Voice.1.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10292,21 +10305,22 @@ number.19.Cellos.Voice.2.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10455,17 +10469,17 @@ number.19.Cellos.Voice.3.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10582,17 +10596,17 @@ number.19.Cellos.Voice.4.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10730,17 +10744,17 @@ number.19.Cellos.Voice.5.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -10865,17 +10879,17 @@ number.19.Cellos.Voice.6.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11013,17 +11027,17 @@ number.19.Cellos.Voice.7.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11140,17 +11154,17 @@ number.19.Cellos.Voice.8.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11288,17 +11302,17 @@ number.19.Cellos.Voice.9.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11415,17 +11429,17 @@ number.19.Cellos.Voice.10.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11563,17 +11577,17 @@ number.19.Cellos.Voice.11.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11703,17 +11717,17 @@ number.19.Cellos.Voice.12.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11843,6 +11857,7 @@ number.19.Cellos.Voice.13.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
@@ -11856,17 +11871,17 @@ number.19.Cellos.Voice.13.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -11984,21 +11999,22 @@ number.19.Cellos.Voice.14.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12128,6 +12144,7 @@ number.19.Contrabasses.Voice.1.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
@@ -12141,17 +12158,17 @@ number.19.Contrabasses.Voice.1.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12283,21 +12300,22 @@ number.19.Contrabasses.Voice.2.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12435,17 +12453,17 @@ number.19.Contrabasses.Voice.3.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12576,17 +12594,17 @@ number.19.Contrabasses.Voice.4.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12716,6 +12734,7 @@ number.19.Contrabasses.Voice.5.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
@@ -12729,17 +12748,17 @@ number.19.Contrabasses.Voice.5.container = {
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
@@ -12857,21 +12876,22 @@ number.19.Contrabasses.Voice.6.container = {
       %! EXPLICIT_BAR_EXTENT
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
+      %! baca.staff_lines(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \stopStaff
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
       %! baca.IndicatorCommand._call()
       %! baca._set_status_tag()
-      %! baca.staff_lines()
+      %! baca.staff_lines(2)
     \startStaff
     % OPENING:
     % COMMANDS:
