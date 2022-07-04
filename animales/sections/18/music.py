@@ -207,7 +207,7 @@ for abbreviation, items in string_parts.items():
     commands_.append(
         baca.pitch(
             items[2],
-            selector=lambda _: baca.select.plts(_, exclude=baca.enums.HIDDEN),
+            selector=lambda _: baca.select.plts(_),
         ),
     )
     commands(
