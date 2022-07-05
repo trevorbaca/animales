@@ -1168,7 +1168,7 @@ def part_manifest():
     )
 
 
-def pennant_pitches(start_pitch, intervals=(0,), *, direction=abjad.UP):
+def pennant_pitches(start_pitch, intervals, *, direction=abjad.UP):
     start_pitch_ = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch_.number
     intervals_ = [0, 1, 0, -1, -2, 0, -1, 0, 1, 3, 2, 1, 0, 2, 3, 4, 3, 5, 6, 4, 5]
