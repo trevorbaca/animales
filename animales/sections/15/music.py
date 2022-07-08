@@ -92,37 +92,40 @@ baca.mmrest_text_extra_offset_function(
     tags=[baca.tags.NOT_PARTS],
 )
 
-# FL1
 
-voice = score[commands.voice_abbreviations["fl1"]]
-music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2])
-voice.extend(music)
-music = baca.make_mmrests(commands.get(4, 7))
-voice.extend(music)
+def FL1():
+    voice = score[commands.voice_abbreviations["fl1"]]
+    music = library.make_pennant_rhythm(
+        commands.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
+    )
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(4, 7))
+    voice.extend(music)
 
-# FL3
 
-voice = score[commands.voice_abbreviations["fl3"]]
-music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, 0, -1, -1], [0, 1])
-voice.extend(music)
-music = baca.make_mmrests(commands.get(4, 7))
-voice.extend(music)
+def FL3():
+    voice = score[commands.voice_abbreviations["fl3"]]
+    music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, 0, -1, -1], [0, 1])
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(4, 7))
+    voice.extend(music)
 
-# FL2
 
-voice = score[commands.voice_abbreviations["fl2"]]
-music = library.make_pennant_rhythm(commands.get(1, 3), [0, -1, -1, 0], [0])
-voice.extend(music)
-music = baca.make_mmrests(commands.get(4, 7))
-voice.extend(music)
+def FL2():
+    voice = score[commands.voice_abbreviations["fl2"]]
+    music = library.make_pennant_rhythm(commands.get(1, 3), [0, -1, -1, 0], [0])
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(4, 7))
+    voice.extend(music)
 
-# FL4
 
-voice = score[commands.voice_abbreviations["fl4"]]
-music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, -1, -1])
-voice.extend(music)
-music = baca.make_mmrests(commands.get(4, 7))
-voice.extend(music)
+def FL4():
+    voice = score[commands.voice_abbreviations["fl4"]]
+    music = library.make_pennant_rhythm(commands.get(1, 3), [0, 0, -1, -1])
+    voice.extend(music)
+    music = baca.make_mmrests(commands.get(4, 7))
+    voice.extend(music)
+
 
 # BCL
 
@@ -210,9 +213,20 @@ library.attach_grand_pause_fermatas(commands, score, measure=-1)
 
 # flutes
 
+
+def flutes(cache):
+    with baca.scope(cache["fl1"][1, 3]) as o:
+        library.pennant_pitches("G5", [6], function=o.leaves)
+    with baca.scope(cache["fl3"][1, 3]) as o:
+        library.pennant_pitches("F5", [6], function=o.leaves)
+    with baca.scope(cache["fl2"][1, 3]) as o:
+        library.pennant_pitches("Eb5", [6], function=o.leaves)
+    with baca.scope(cache["fl4"][1, 3]) as o:
+        library.pennant_pitches("D5", [6], function=o.leaves)
+
+
 commands(
     ("fl1", (1, 3)),
-    library.pennant_pitches("G5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.slur(),
     baca.only_parts(
@@ -227,7 +241,6 @@ commands(
 
 commands(
     ("fl3", (1, 3)),
-    library.pennant_pitches("F5", [6]),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     baca.hairpin(
@@ -240,7 +253,6 @@ commands(
 
 commands(
     ("fl2", (1, 3)),
-    library.pennant_pitches("Eb5", [6]),
     baca.not_parts(baca.voice_one()),
     baca.slur(),
     baca.only_parts(
@@ -255,7 +267,6 @@ commands(
 
 commands(
     ("fl4", (1, 3)),
-    library.pennant_pitches("D5", [6]),
     baca.not_parts(baca.voice_two()),
     baca.slur(),
     baca.hairpin(
@@ -494,7 +505,23 @@ commands(
     library.assign_part("Contrabass", 1),
 )
 
+
+def main():
+    FL1()
+    FL3()
+    FL2()
+    FL4()
+    ...
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(commands.time_signatures),
+        commands.voice_abbreviations,
+    )
+    flutes(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
         commands,

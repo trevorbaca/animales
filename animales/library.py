@@ -1168,14 +1168,16 @@ def part_manifest():
     )
 
 
-def pennant_pitches(start_pitch, intervals, *, direction=abjad.UP):
+def pennant_pitches(start_pitch, intervals, *, direction=abjad.UP, function=None):
+    assert function is not None
     start_pitch_ = abjad.NumberedPitch(start_pitch)
     start_pitch = start_pitch_.number
     intervals_ = [0, 1, 0, -1, -2, 0, -1, 0, 1, 3, 2, 1, 0, 2, 3, 4, 3, 5, 6, 4, 5]
     if direction == abjad.DOWN:
         intervals_ = [-_ for _ in intervals_]
     pitch_numbers = [_ + start_pitch for _ in intervals_]
-    return baca.loop(pitch_numbers, intervals)
+    loop = baca.Loop(pitch_numbers, intervals)
+    baca.pitches_function(function, loop)
 
 
 def time_signatures():
