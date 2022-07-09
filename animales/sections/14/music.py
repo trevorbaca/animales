@@ -214,14 +214,14 @@ commands(
 
 def flutes(cache):
     with baca.scope(cache["fl1"][1, 3]) as o:
-        baca.clef_function(o.leaves[0], "treble")
-        library.pennant_pitches("G5", [6], function=o.leaves)
+        baca.clef_function(o.leaf(0), "treble")
+        library.pennant_pitches("G5", [6], function=o)
     with baca.scope(cache["fl3"][1, 3]) as o:
-        library.pennant_pitches("F5", [6], function=o.leaves)
+        library.pennant_pitches("F5", [6], function=o)
     with baca.scope(cache["fl2"][1, 3]) as o:
-        library.pennant_pitches("Eb5", [6], function=o.leaves)
+        library.pennant_pitches("Eb5", [6], function=o)
     with baca.scope(cache["fl4"][1, 3]) as o:
-        library.pennant_pitches("D5", [6], function=o.leaves)
+        library.pennant_pitches("D5", [6], function=o)
 
 
 commands(
