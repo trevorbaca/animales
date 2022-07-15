@@ -372,11 +372,13 @@ commands(
 if __name__ == "__main__":
     metadata, persist, score, timing = baca.build.interpret_section(
         score,
-        commands,
+        commands.manifests(),
+        commands.time_signatures,
         **baca.score_interpretation_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        commands=commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
