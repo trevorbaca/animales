@@ -106,42 +106,56 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-# BRASS
 
-library.make_brass_sforzando_material(
-    score, accumulator, 1, reapply_persistent_indicators=True
-)
+def BRASS(score):
 
-for abbreviation in [
-    "hn1",
-    "hn2",
-    "hn3",
-    "hn4",
-    "tp1",
-    "tp2",
-    "tp3",
-    "tp4",
-    "tbn1",
-    "tbn2",
-    "tbn3",
-    "tbn4",
-    "tub",
-]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests(accumulator.get(2, 3))
-    voice.extend(music)
+    library.make_brass_sforzando_material(
+        score, accumulator, 1, reapply_persistent_indicators=True
+    )
 
-# STRINGS
+    for abbreviation in [
+        "hn1",
+        "hn2",
+        "hn3",
+        "hn4",
+        "tp1",
+        "tp2",
+        "tp3",
+        "tp4",
+        "tbn1",
+        "tbn2",
+        "tbn3",
+        "tbn4",
+        "tub",
+    ]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_mmrests(accumulator.get(2, 3))
+        voice.extend(music)
 
-library.make_battuti_material(
-    score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
-)
 
-# brass
+def STRINGS(score):
+    library.make_battuti_material(
+        score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
+    )
 
-library.assign_brass_sforzando_parts(accumulator)
+
+def brass(cache):
+    library.assign_brass_sforzando_parts(accumulator)
+
+
+def main():
+    BRASS(score)
+    STRINGS(score)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    brass(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

@@ -93,7 +93,7 @@ baca.mmrest_text_extra_offset_function(
 )
 
 
-def FL1():
+def FL1(voice):
     voice = score[accumulator.voice_abbreviations["fl1"]]
     music = library.make_pennant_rhythm(
         accumulator.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
@@ -103,7 +103,7 @@ def FL1():
     voice.extend(music)
 
 
-def FL3():
+def FL3(voice):
     voice = score[accumulator.voice_abbreviations["fl3"]]
     music = library.make_pennant_rhythm(
         accumulator.get(1, 3), [0, 0, 0, -1, -1], [0, 1]
@@ -113,7 +113,7 @@ def FL3():
     voice.extend(music)
 
 
-def FL2():
+def FL2(voice):
     voice = score[accumulator.voice_abbreviations["fl2"]]
     music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, -1, -1, 0], [0])
     voice.extend(music)
@@ -121,7 +121,7 @@ def FL2():
     voice.extend(music)
 
 
-def FL4():
+def FL4(voice):
     voice = score[accumulator.voice_abbreviations["fl4"]]
     music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, 0, -1, -1])
     voice.extend(music)
@@ -129,91 +129,81 @@ def FL4():
     voice.extend(music)
 
 
-# BCL
-
-voice = score[accumulator.voice_abbreviations["bcl"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(2))
-voice.extend(music)
-music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(7))
-voice.extend(music)
-
-# HARP EXCHANGE (PF, HP, PERC3, CB1)
-
-parameter = "RHYTHM"
-persist = "harp_exchange_rhythm"
-
-for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
-    voice_name = accumulator.voice_abbreviations[abbreviation]
-    voice = score[voice_name]
-    music, state = library.make_harp_exchange_rhythm(
-        accumulator.get(1, 6),
-        part,
-        voice_name,
-        previous_persist=previous_persist,
-    )
+def BCL(voice):
+    voice = score[accumulator.voice_abbreviations["bcl"]]
+    music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
-    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
+    music = baca.make_mmrests(accumulator.get(2))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7))
     voice.extend(music)
 
-# PERC1
 
-voice = score[accumulator.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(4, 7))
-voice.extend(music)
+def PF_HP_PERC3_CB1(score):
+    parameter = "RHYTHM"
+    persist = "harp_exchange_rhythm"
+    for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
+        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice = score[voice_name]
+        music, state = library.make_harp_exchange_rhythm(
+            accumulator.get(1, 6),
+            part,
+            voice_name,
+            previous_persist=previous_persist,
+        )
+        voice.extend(music)
+        baca.update_voice_metadata(
+            voice_metadata, voice_name, parameter, persist, state
+        )
+        music = baca.make_mmrests(accumulator.get(7))
+        voice.extend(music)
 
-# PERC2
 
-voice = score[accumulator.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(4, 7))
-voice.extend(music)
-
-# STRINGS
-
-voice = score[accumulator.voice_abbreviations["1vn2"]]
-music = library.make_glissando_rhythm(accumulator.get(1, 3), rotate=-2)
-voice.extend(music)
-
-for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
-    voice = score[accumulator.voice_abbreviations[voice_name]]
+def PERCUSSION(score):
+    voice = score[accumulator.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(4, 7))
+    voice.extend(music)
+    voice = score[accumulator.voice_abbreviations["perc2"]]
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(4, 7))
+    voice.extend(music)
 
-for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
-    voice = score[accumulator.voice_abbreviations[name]]
+
+def STRINGS(score):
+    voice = score[accumulator.voice_abbreviations["1vn2"]]
+    music = library.make_glissando_rhythm(accumulator.get(1, 3), rotate=-2)
+    voice.extend(music)
+    for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
+        voice = score[accumulator.voice_abbreviations[voice_name]]
+        music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+        voice.extend(music)
+    for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
+        voice = score[accumulator.voice_abbreviations[name]]
+        music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
+        voice.extend(music)
+
+
+def CB3(voice):
+    voice = score[accumulator.voice_abbreviations["cb3"]]
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
     voice.extend(music)
 
-# CB3
 
-voice = score[accumulator.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
-voice.extend(music)
-
-# reapply
-
-music_voice_names = library.get_music_voice_names(voice_names)
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# fermatas
-
-library.attach_grand_pause_fermatas(accumulator, score, measure=-1)
-
-# flutes
+## reapply
+#
+# music_voice_names = library.get_music_voice_names(voice_names)
+#
+# accumulator(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
 
 
 def flutes(cache):
@@ -225,301 +215,311 @@ def flutes(cache):
         library.pennant_pitches("Eb5", [6], function=o)
     with baca.scope(cache["fl4"][1, 3]) as o:
         library.pennant_pitches("D5", [6], function=o)
+    accumulator(
+        ("fl1", (1, 3)),
+        baca.not_parts(baca.voice_one()),
+        baca.slur(),
+        baca.only_parts(
+            baca.hairpin(
+                "mf < ff",
+                selector=lambda _: baca.select.tleaves(
+                    _,
+                ),
+            ),
+        ),
+    )
 
-
-accumulator(
-    ("fl1", (1, 3)),
-    baca.not_parts(baca.voice_one()),
-    baca.slur(),
-    baca.only_parts(
+    accumulator(
+        ("fl3", (1, 3)),
+        baca.not_parts(baca.voice_two()),
+        baca.slur(),
         baca.hairpin(
             "mf < ff",
             selector=lambda _: baca.select.tleaves(
                 _,
             ),
         ),
-    ),
-)
+    )
 
-accumulator(
-    ("fl3", (1, 3)),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-    baca.hairpin(
-        "mf < ff",
-        selector=lambda _: baca.select.tleaves(
-            _,
+    accumulator(
+        ("fl2", (1, 3)),
+        baca.not_parts(baca.voice_one()),
+        baca.slur(),
+        baca.only_parts(
+            baca.hairpin(
+                "mf < ff",
+                selector=lambda _: baca.select.tleaves(
+                    _,
+                ),
+            ),
         ),
-    ),
-)
+    )
 
-accumulator(
-    ("fl2", (1, 3)),
-    baca.not_parts(baca.voice_one()),
-    baca.slur(),
-    baca.only_parts(
+    accumulator(
+        ("fl4", (1, 3)),
+        baca.not_parts(baca.voice_two()),
+        baca.slur(),
         baca.hairpin(
             "mf < ff",
             selector=lambda _: baca.select.tleaves(
                 _,
             ),
         ),
-    ),
-)
+    )
 
-accumulator(
-    ("fl4", (1, 3)),
-    baca.not_parts(baca.voice_two()),
-    baca.slur(),
-    baca.hairpin(
-        "mf < ff",
-        selector=lambda _: baca.select.tleaves(
-            _,
-        ),
-    ),
-)
+    accumulator(
+        "fl1",
+        library.assign_part("Flute", 1),
+    )
 
-accumulator(
-    "fl1",
-    library.assign_part("Flute", 1),
-)
+    accumulator(
+        "fl3",
+        library.assign_part("Flute", 3),
+    )
 
-accumulator(
-    "fl3",
-    library.assign_part("Flute", 3),
-)
+    accumulator(
+        "fl2",
+        library.assign_part("Flute", 2),
+    )
 
-accumulator(
-    "fl2",
-    library.assign_part("Flute", 2),
-)
+    accumulator(
+        "fl4",
+        library.assign_part("Flute", 4),
+    )
 
-accumulator(
-    "fl4",
-    library.assign_part("Flute", 4),
-)
 
-# bcl
-
-accumulator(
-    "bcl",
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.pitch("Ab2"),
-    baca.hairpin(
-        "p >o niente",
-        selector=lambda _: baca.select.leaves(_)[:2],
-    ),
-    baca.hairpin(
-        "niente o< p",
-        selector=lambda _: baca.select.leaves(_)[2:4],
-    ),
-    library.assign_part("BassClarinet"),
-)
-
-# pf
-
-accumulator(
-    ("pf", (1, 6)),
-    baca.pitch("Bb4"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-)
-
-accumulator(
-    "pf",
-    library.assign_part("Piano"),
-)
-
-# hp
-
-accumulator(
-    ("hp", (1, 6)),
-    baca.pitch("Bb4"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-)
-
-accumulator(
-    "hp",
-    library.assign_part("Harp"),
-)
-
-# perc1 (triangle)
-
-accumulator(
-    ("perc1", (1, 3)),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.hairpin(
-        "niente o< mp",
-        selector=lambda _: baca.select.pleaves(_)[:2],
-    ),
-)
-
-accumulator(
-    "perc1",
-    library.assign_part("Percussion", 1),
-)
-
-# perc2 (cymbal)
-
-accumulator(
-    ("perc2", (1, 3)),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.hairpin(
-        "niente o< mp",
-        selector=lambda _: baca.select.pleaves(_)[:2],
-    ),
-)
-
-accumulator(
-    "perc2",
-    library.assign_part("Percussion", 2),
-)
-
-# perc3 (vibraphone)
-
-accumulator(
-    ("perc3", (1, 6)),
-    baca.pitch("Bb4"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-)
-
-accumulator(
-    "perc3",
-    library.assign_part("Percussion", 3),
-)
-
-# strings
-
-accumulator(
-    ("1vn2", (1, 3)),
-    baca.suite(
-        baca.untie(lambda _: baca.select.leaves(_)),
-        library.glissando_positions(transpose=-3),
-        baca.pitch(
-            "G4",
+def bcl(m):
+    accumulator(
+        "bcl",
+        baca.repeat_tie(
             lambda _: baca.select.pleaf(_, 0),
-            allow_repitch=True,
         ),
-        baca.pitch(
-            "G4",
-            lambda _: baca.select.pleaf(_, -1),
-            allow_repitch=True,
+        baca.pitch("Ab2"),
+        baca.hairpin(
+            "p >o niente",
+            selector=lambda _: baca.select.leaves(_)[:2],
         ),
-        baca.glissando(),
-    ),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dls_up()),
-    baca.only_parts(baca.stop_trill()),
-    baca.hairpin(
-        "p < ff",
-        selector=library.leaves_in_measure(1, rleak=True),
-    ),
-    baca.hairpin(
-        "ff > p",
-        selector=library.leaves_in_measure(-1, lleak=True),
-    ),
-)
+        baca.hairpin(
+            "niente o< p",
+            selector=lambda _: baca.select.leaves(_)[2:4],
+        ),
+        library.assign_part("BassClarinet"),
+    )
 
-accumulator(
-    "1vn2",
-    library.assign_part("FirstViolin", 1),
-)
 
-accumulator(
-    (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
-    baca.pitch("G3"),
-    baca.trill_spanner(alteration="Ab3"),
-    baca.hairpin("pp < ff"),
-)
+def pf(m):
+    accumulator(
+        ("pf", (1, 6)),
+        baca.pitch("Bb4"),
+        baca.stopped(selector=lambda _: baca.select.pheads(_)),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    )
+    accumulator(
+        "pf",
+        library.assign_part("Piano"),
+    )
 
-accumulator(
-    "1vn1",
-    baca.not_parts(baca.voice_two()),
-    library.assign_part("FirstViolin", (2, 18)),
-)
 
-accumulator(
-    "2vn1",
-    library.assign_part("SecondViolin", (1, 18)),
-)
+def hp(m):
+    accumulator(
+        ("hp", (1, 6)),
+        baca.pitch("Bb4"),
+        baca.stopped(selector=lambda _: baca.select.pheads(_)),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    )
+    accumulator(
+        "hp",
+        library.assign_part("Harp"),
+    )
 
-accumulator(
-    "va1",
-    library.assign_part("Viola", (1, 18)),
-)
 
-accumulator(
-    "vc1",
-    library.assign_part("Cello", (1, 14)),
-)
+def percussion(cache):
+    # perc1 (triangle)
 
-most_strings = [
-    "SecondViolins.Voice.1.Rests",
-    "Violas.Voice.1.Rests",
-    "Cellos.Voice.1.Rests",
-    "Contrabasses.Voice.3.Rests",
-]
+    accumulator(
+        ("perc1", (1, 3)),
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.hairpin(
+            "niente o< mp",
+            selector=lambda _: baca.select.pleaves(_)[:2],
+        ),
+    )
 
-accumulator(
-    ("FirstViolins.Voice.1.Rests", 4),
-    baca.markup(
-        r"\animales-suddenly-ripped-off-markup",
-        selector=lambda _: abjad.select.leaf(_, 0),
-    ),
-)
+    accumulator(
+        "perc1",
+        library.assign_part("Percussion", 1),
+    )
 
-accumulator(
-    (most_strings, 4),
-    baca.only_parts(
+    # perc2 (cymbal)
+
+    accumulator(
+        ("perc2", (1, 3)),
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.hairpin(
+            "niente o< mp",
+            selector=lambda _: baca.select.pleaves(_)[:2],
+        ),
+    )
+
+    accumulator(
+        "perc2",
+        library.assign_part("Percussion", 2),
+    )
+
+    # perc3 (vibraphone)
+
+    accumulator(
+        ("perc3", (1, 6)),
+        baca.pitch("Bb4"),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    )
+
+    accumulator(
+        "perc3",
+        library.assign_part("Percussion", 3),
+    )
+
+
+def strings(cache):
+    accumulator(
+        ("1vn2", (1, 3)),
+        baca.suite(
+            baca.untie(lambda _: baca.select.leaves(_)),
+            library.glissando_positions(transpose=-3),
+            baca.pitch(
+                "G4",
+                lambda _: baca.select.pleaf(_, 0),
+                allow_repitch=True,
+            ),
+            baca.pitch(
+                "G4",
+                lambda _: baca.select.pleaf(_, -1),
+                allow_repitch=True,
+            ),
+            baca.glissando(),
+        ),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dls_up()),
+        baca.only_parts(baca.stop_trill()),
+        baca.hairpin(
+            "p < ff",
+            selector=library.leaves_in_measure(1, rleak=True),
+        ),
+        baca.hairpin(
+            "ff > p",
+            selector=library.leaves_in_measure(-1, lleak=True),
+        ),
+    )
+
+    accumulator(
+        "1vn2",
+        library.assign_part("FirstViolin", 1),
+    )
+
+    accumulator(
+        (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
+        baca.pitch("G3"),
+        baca.trill_spanner(alteration="Ab3"),
+        baca.hairpin("pp < ff"),
+    )
+
+    accumulator(
+        "1vn1",
+        baca.not_parts(baca.voice_two()),
+        library.assign_part("FirstViolin", (2, 18)),
+    )
+
+    accumulator(
+        "2vn1",
+        library.assign_part("SecondViolin", (1, 18)),
+    )
+
+    accumulator(
+        "va1",
+        library.assign_part("Viola", (1, 18)),
+    )
+
+    accumulator(
+        "vc1",
+        library.assign_part("Cello", (1, 14)),
+    )
+
+    most_strings = [
+        "SecondViolins.Voice.1.Rests",
+        "Violas.Voice.1.Rests",
+        "Cellos.Voice.1.Rests",
+        "Contrabasses.Voice.3.Rests",
+    ]
+
+    accumulator(
+        ("FirstViolins.Voice.1.Rests", 4),
         baca.markup(
             r"\animales-suddenly-ripped-off-markup",
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
-    ),
-)
+    )
 
-accumulator(
-    ("cb3", (1, 3)),
-    baca.pitch("G1"),
-    baca.hairpin("p < ff"),
-)
+    accumulator(
+        (most_strings, 4),
+        baca.only_parts(
+            baca.markup(
+                r"\animales-suddenly-ripped-off-markup",
+                selector=lambda _: abjad.select.leaf(_, 0),
+            ),
+        ),
+    )
 
-accumulator(
-    "cb3",
-    library.assign_part("Contrabass", (2, 6)),
-)
+    accumulator(
+        ("cb3", (1, 3)),
+        baca.pitch("G1"),
+        baca.hairpin("p < ff"),
+    )
 
-# cb1 (solo)
+    accumulator(
+        "cb3",
+        library.assign_part("Contrabass", (2, 6)),
+    )
 
-accumulator(
-    ("cb1", (1, 6)),
-    baca.pitch("Bb4", do_not_transpose=True),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-)
 
-accumulator(
-    "cb1",
-    library.assign_part("Contrabass", 1),
-)
+def cb1(m):
+    accumulator(
+        ("cb1", (1, 6)),
+        baca.pitch("Bb4", do_not_transpose=True),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+    )
+    accumulator(
+        "cb1",
+        library.assign_part("Contrabass", 1),
+    )
 
 
 def main():
-    FL1()
-    FL3()
-    FL2()
-    FL4()
-    ...
+    FL1(accumulator.voice("fl1"))
+    FL3(accumulator.voice("fl1"))
+    FL2(accumulator.voice("fl1"))
+    FL4(accumulator.voice("fl1"))
+    BCL(accumulator.voice("fl1"))
+    PF_HP_PERC3_CB1(score)
+    PERCUSSION(score)
+    STRINGS(score)
+    CB3(accumulator.voice("cb3"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
         accumulator.voice_abbreviations,
     )
+    library.attach_grand_pause_fermatas(accumulator, score, measure=-1)
     flutes(cache)
+    bcl(cache["bcl"])
+    pf(cache["pf"])
+    hp(cache["hp"])
+    percussion(cache)
+    strings(cache)
+    cb1(cache["cb1"])
 
 
 if __name__ == "__main__":

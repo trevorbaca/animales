@@ -94,451 +94,469 @@ def swell(peak):
     )
 
 
-# OB, EH, BSN1, BSN2
+def REEDS(score):
+    for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
+        voice.extend(music)
+        music = baca.make_mmrests(accumulator.get(6, 10))
+        voice.extend(music)
 
-for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
-    voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(6, 10))
-    voice.extend(music)
 
-# BRASS
+def BRASS(score):
+    parameter = "RHYTHM"
+    persist = "brass_manifest_rhythm"
+    for abbreviation, part in (
+        ("hn1", 1),
+        ("hn3", 3),
+        ("hn2", 2),
+        ("hn4", 4),
+        ("tp1", 5),
+        ("tp3", 7),
+        ("tp2", 6),
+        ("tp4", 8),
+        ("tbn1", 9),
+        ("tbn3", 11),
+        ("tbn2", 10),
+        ("tbn4", 12),
+    ):
+        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice = score[voice_name]
+        music, state = library.make_brass_manifest_rhythm(
+            accumulator.get(),
+            part,
+            voice_name,
+            previous_persist=previous_persist,
+        )
+        voice.extend(music)
+        baca.update_voice_metadata(
+            voice_metadata, voice_name, parameter, persist, state
+        )
 
-parameter = "RHYTHM"
-persist = "brass_manifest_rhythm"
 
-for abbreviation, part in (
-    ("hn1", 1),
-    ("hn3", 3),
-    ("hn2", 2),
-    ("hn4", 4),
-    ("tp1", 5),
-    ("tp3", 7),
-    ("tp2", 6),
-    ("tp4", 8),
-    ("tbn1", 9),
-    ("tbn3", 11),
-    ("tbn2", 10),
-    ("tbn4", 12),
-):
-    voice_name = accumulator.voice_abbreviations[abbreviation]
-    voice = score[voice_name]
-    music, state = library.make_brass_manifest_rhythm(
-        accumulator.get(),
-        part,
-        voice_name,
-        previous_persist=previous_persist,
+def STRINGS(score):
+    for abbreviation in [
+        "1vn5",
+        "1vn1",
+        "1vn2",
+        "1vn3",
+        "1vn4",
+        "2vn1",
+        "2vn2",
+        "2vn3",
+        "2vn4",
+        "va1",
+        "va2",
+        "va3",
+        "va4",
+        "vc1",
+        "vc2",
+        "cb3",
+    ]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeat_tied_notes(accumulator.get())
+        voice.extend(music)
+
+
+## reapply
+#
+# music_voice_names = library.get_music_voice_names(voice_names)
+#
+# accumulator(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
+
+
+def ob(m):
+    accumulator(
+        ("ob", (1, 5)),
+        baca.pitch("A4"),
     )
-    voice.extend(music)
-    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-# STRINGS
+    accumulator(
+        ("ob", (1, 6)),
+        swell("f"),
+    )
 
-for abbreviation in [
-    "1vn5",
-    "1vn1",
-    "1vn2",
-    "1vn3",
-    "1vn4",
-    "2vn1",
-    "2vn2",
-    "2vn3",
-    "2vn4",
-    "va1",
-    "va2",
-    "va3",
-    "va4",
-    "vc1",
-    "vc2",
-    "cb3",
-]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(accumulator.get())
-    voice.extend(music)
-
-# reapply
-
-music_voice_names = library.get_music_voice_names(voice_names)
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# ob
-
-accumulator(
-    ("ob", (1, 5)),
-    baca.pitch("A4"),
-)
-
-accumulator(
-    ("ob", (1, 6)),
-    swell("f"),
-)
-
-accumulator(
-    "ob",
-    library.assign_part("Oboe", (1, 3)),
-)
-
-# eh
-
-accumulator(
-    ("eh", (1, 5)),
-    baca.pitch("G3"),
-)
-
-accumulator(
-    ("eh", (1, 6)),
-    swell("f"),
-)
-
-accumulator(
-    "eh",
-    library.assign_part("EnglishHorn"),
-)
-
-# bsn1, bsn2
-
-accumulator(
-    ("bsn1", (1, 5)),
-    baca.pitch("B3"),
-)
-
-accumulator(
-    ("bsn1", (1, 6)),
-    baca.only_parts(swell("f")),
-)
-
-accumulator(
-    "bsn1",
-    baca.not_parts(baca.voice_one()),
-    library.assign_part("Bassoon", 1),
-)
-
-accumulator(
-    ("bsn2", (1, 5)),
-    baca.pitch("G2"),
-)
-
-accumulator(
-    ("bsn2", (1, 6)),
-    swell("f"),
-)
-
-accumulator(
-    "bsn2",
-    baca.not_parts(baca.voice_two()),
-    library.assign_part("Bassoon", 2),
-)
-
-# brass
-
-
-def _crescendi():
-    return baca.suite(
-        baca.hairpin(
-            "mp < mf",
-            selector=lambda _: abjad.select.run(_, 0),
-        ),
-        baca.hairpin(
-            "mp < f",
-            selector=lambda _: abjad.select.run(_, 1),
-        ),
-        baca.hairpin(
-            "mp < ff",
-            selector=lambda _: abjad.select.run(_, 2),
-        ),
+    accumulator(
+        "ob",
+        library.assign_part("Oboe", (1, 3)),
     )
 
 
-# horns
+def eh(m):
+    accumulator(
+        ("eh", (1, 5)),
+        baca.pitch("G3"),
+    )
 
-accumulator(
-    "hn1",
-    baca.pitches("G3 A3", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Horn", 1),
-)
+    accumulator(
+        ("eh", (1, 6)),
+        swell("f"),
+    )
 
-accumulator(
-    "hn3",
-    baca.pitches("Gb3 Ab3", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Horn", 3),
-)
-
-accumulator(
-    "hn2",
-    baca.pitches("G3 A3", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Horn", 2),
-)
-
-accumulator(
-    "hn4",
-    baca.pitches("Gb3 Ab3", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Horn", 4),
-)
-
-# trumpets
-
-accumulator(
-    "tp1",
-    baca.pitches("Gb4 Ab4", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Trumpet", 1),
-)
-
-accumulator(
-    "tp3",
-    baca.pitches("F4 G4", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Trumpet", 3),
-)
-
-accumulator(
-    "tp2",
-    baca.pitches("Gb4 Ab4", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Trumpet", 2),
-)
-
-accumulator(
-    "tp4",
-    baca.pitches("F4 G4", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Trumpet", 4),
-)
-
-# trombones
-
-accumulator(
-    "tbn1",
-    baca.pitches("Gb3 Ab3", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Trombone", 1),
-)
-
-accumulator(
-    "tbn3",
-    baca.pitches("F3 G3", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Trombone", 3),
-)
-
-accumulator(
-    "tbn2",
-    baca.pitches("Gb3 Ab3", persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    _crescendi(),
-    library.assign_part("Trombone", 2),
-)
-
-accumulator(
-    "tbn4",
-    baca.pitches("F3 G3", persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    _crescendi(),
-    library.assign_part("Trombone", 4),
-)
-
-# strings
-
-
-def _tremolo_suite():
-    return baca.suite(
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.accent(selector=lambda _: baca.select.pleaves(_)),
-        baca.text_spanner(
-            "ext. pont. => tasto",
-            selector=lambda _: baca.select.pleaves(_)[2:-2],
-        ),
-        baca.dynamic("ff"),
-        baca.hairpin(
-            "ff > pp",
-            selector=lambda _: baca.select.pleaves(_)[2:-2],
-        ),
-        baca.only_parts(
-            baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
-        ),
+    accumulator(
+        "eh",
+        library.assign_part("EnglishHorn"),
     )
 
 
-def _upper_voice_suite():
-    return baca.suite(
-        baca.only_parts(baca.text_script_extra_offset((1, 3))),
-        baca.only_parts(baca.text_spanner_staff_padding(5)),
-        baca.not_parts(
-            baca.dynamic_text_stencil_false(selector=lambda _: baca.select.leaves(_))
-        ),
-        baca.not_parts(baca.hairpin_stencil_false()),
-        baca.not_parts(baca.text_spanner_stencil_false()),
+def bsns(cache):
+
+    accumulator(
+        ("bsn1", (1, 5)),
+        baca.pitch("B3"),
+    )
+
+    accumulator(
+        ("bsn1", (1, 6)),
+        baca.only_parts(swell("f")),
+    )
+
+    accumulator(
+        "bsn1",
         baca.not_parts(baca.voice_one()),
+        library.assign_part("Bassoon", 1),
     )
 
+    accumulator(
+        ("bsn2", (1, 5)),
+        baca.pitch("G2"),
+    )
 
-def _lower_voice_suite(n=5):
-    return baca.suite(
+    accumulator(
+        ("bsn2", (1, 6)),
+        swell("f"),
+    )
+
+    accumulator(
+        "bsn2",
         baca.not_parts(baca.voice_two()),
-        baca.not_parts(baca.text_spanner_staff_padding(n)),
+        library.assign_part("Bassoon", 2),
     )
 
 
-# solo violin
+def brass(cache):
+    def _crescendi():
+        return baca.suite(
+            baca.hairpin(
+                "mp < mf",
+                selector=lambda _: abjad.select.run(_, 0),
+            ),
+            baca.hairpin(
+                "mp < f",
+                selector=lambda _: abjad.select.run(_, 1),
+            ),
+            baca.hairpin(
+                "mp < ff",
+                selector=lambda _: abjad.select.run(_, 2),
+            ),
+        )
 
-accumulator(
-    "1vn5",
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.pitch("C#4"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.assign_part("FirstViolin", 18),
-)
+    # horns
 
-accumulator(
-    "1vn1",
-    baca.pitch("A5"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    baca.not_parts(
-        baca.markup(r"\animales-tutti-sim-markup"),
-    ),
-    library.assign_part("FirstViolin", (1, 4)),
-)
+    accumulator(
+        "hn1",
+        baca.pitches("G3 A3", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Horn", 1),
+    )
 
-accumulator(
-    "1vn2",
-    baca.pitch("F5"),
-    _lower_voice_suite(8),
-    _tremolo_suite(),
-    library.assign_part("FirstViolin", (5, 8)),
-)
+    accumulator(
+        "hn3",
+        baca.pitches("Gb3 Ab3", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Horn", 3),
+    )
 
-accumulator(
-    "1vn3",
-    baca.pitch("G5"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("FirstViolin", (9, 12)),
-)
+    accumulator(
+        "hn2",
+        baca.pitches("G3 A3", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Horn", 2),
+    )
 
-accumulator(
-    "1vn4",
-    baca.pitch("D5"),
-    _lower_voice_suite(8),
-    _tremolo_suite(),
-    library.assign_part("FirstViolin", (13, 17)),
-)
+    accumulator(
+        "hn4",
+        baca.pitches("Gb3 Ab3", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Horn", 4),
+    )
 
-accumulator(
-    "2vn1",
-    baca.pitch("B4"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("SecondViolin", (1, 4)),
-)
+    # trumpets
 
-accumulator(
-    "2vn2",
-    baca.pitch("G4"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-    library.assign_part("SecondViolin", (5, 8)),
-)
+    accumulator(
+        "tp1",
+        baca.pitches("Gb4 Ab4", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Trumpet", 1),
+    )
 
-accumulator(
-    "2vn3",
-    baca.pitch("A4"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("SecondViolin", (9, 12)),
-)
+    accumulator(
+        "tp3",
+        baca.pitches("F4 G4", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Trumpet", 3),
+    )
 
-accumulator(
-    "2vn4",
-    baca.pitch("F4"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-    library.assign_part("SecondViolin", (13, 18)),
-)
+    accumulator(
+        "tp2",
+        baca.pitches("Gb4 Ab4", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Trumpet", 2),
+    )
 
-accumulator(
-    "va1",
-    baca.pitch("D4"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("Viola", (1, 4)),
-)
+    accumulator(
+        "tp4",
+        baca.pitches("F4 G4", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Trumpet", 4),
+    )
 
-accumulator(
-    "va2",
-    baca.pitch("A3"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-    library.assign_part("Viola", (5, 8)),
-)
+    # trombones
 
-accumulator(
-    "va3",
-    baca.pitch("B3"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("Viola", (9, 12)),
-)
+    accumulator(
+        "tbn1",
+        baca.pitches("Gb3 Ab3", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Trombone", 1),
+    )
 
-accumulator(
-    "va4",
-    baca.pitch("G3"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-    library.assign_part("Viola", (13, 18)),
-)
+    accumulator(
+        "tbn3",
+        baca.pitches("F3 G3", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Trombone", 3),
+    )
 
-accumulator(
-    "vc1",
-    baca.pitch("D3"),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-    library.assign_part("Cello", (1, 8)),
-)
+    accumulator(
+        "tbn2",
+        baca.pitches("Gb3 Ab3", persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        _crescendi(),
+        library.assign_part("Trombone", 2),
+    )
 
-accumulator(
-    "vc2",
-    baca.pitch("G2"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-    library.assign_part("Cello", (9, 14)),
-)
+    accumulator(
+        "tbn4",
+        baca.pitches("F3 G3", persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        _crescendi(),
+        library.assign_part("Trombone", 4),
+    )
 
-accumulator(
-    "cb3",
-    baca.pitch("G1"),
-    _tremolo_suite(),
-    library.assign_part("Contrabass", (1, 6)),
-)
+
+def strings(cache):
+    def _tremolo_suite():
+        return baca.suite(
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+            baca.accent(selector=lambda _: baca.select.pleaves(_)),
+            baca.text_spanner(
+                "ext. pont. => tasto",
+                selector=lambda _: baca.select.pleaves(_)[2:-2],
+            ),
+            baca.dynamic("ff"),
+            baca.hairpin(
+                "ff > pp",
+                selector=lambda _: baca.select.pleaves(_)[2:-2],
+            ),
+            baca.only_parts(
+                baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
+            ),
+        )
+
+    def _upper_voice_suite():
+        return baca.suite(
+            baca.only_parts(baca.text_script_extra_offset((1, 3))),
+            baca.only_parts(baca.text_spanner_staff_padding(5)),
+            baca.not_parts(
+                baca.dynamic_text_stencil_false(
+                    selector=lambda _: baca.select.leaves(_)
+                )
+            ),
+            baca.not_parts(baca.hairpin_stencil_false()),
+            baca.not_parts(baca.text_spanner_stencil_false()),
+            baca.not_parts(baca.voice_one()),
+        )
+
+    def _lower_voice_suite(n=5):
+        return baca.suite(
+            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.text_spanner_staff_padding(n)),
+        )
+
+    # solo violin
+
+    accumulator(
+        "1vn5",
+        baca.repeat_tie(
+            lambda _: baca.select.pleaf(_, 0),
+        ),
+        baca.pitch("C#4"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        library.assign_part("FirstViolin", 18),
+    )
+
+    accumulator(
+        "1vn1",
+        baca.pitch("A5"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        baca.not_parts(
+            baca.markup(r"\animales-tutti-sim-markup"),
+        ),
+        library.assign_part("FirstViolin", (1, 4)),
+    )
+
+    accumulator(
+        "1vn2",
+        baca.pitch("F5"),
+        _lower_voice_suite(8),
+        _tremolo_suite(),
+        library.assign_part("FirstViolin", (5, 8)),
+    )
+
+    accumulator(
+        "1vn3",
+        baca.pitch("G5"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("FirstViolin", (9, 12)),
+    )
+
+    accumulator(
+        "1vn4",
+        baca.pitch("D5"),
+        _lower_voice_suite(8),
+        _tremolo_suite(),
+        library.assign_part("FirstViolin", (13, 17)),
+    )
+
+    accumulator(
+        "2vn1",
+        baca.pitch("B4"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("SecondViolin", (1, 4)),
+    )
+
+    accumulator(
+        "2vn2",
+        baca.pitch("G4"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+        library.assign_part("SecondViolin", (5, 8)),
+    )
+
+    accumulator(
+        "2vn3",
+        baca.pitch("A4"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("SecondViolin", (9, 12)),
+    )
+
+    accumulator(
+        "2vn4",
+        baca.pitch("F4"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+        library.assign_part("SecondViolin", (13, 18)),
+    )
+
+    accumulator(
+        "va1",
+        baca.pitch("D4"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("Viola", (1, 4)),
+    )
+
+    accumulator(
+        "va2",
+        baca.pitch("A3"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+        library.assign_part("Viola", (5, 8)),
+    )
+
+    accumulator(
+        "va3",
+        baca.pitch("B3"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("Viola", (9, 12)),
+    )
+
+    accumulator(
+        "va4",
+        baca.pitch("G3"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+        library.assign_part("Viola", (13, 18)),
+    )
+
+    accumulator(
+        "vc1",
+        baca.pitch("D3"),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+        library.assign_part("Cello", (1, 8)),
+    )
+
+    accumulator(
+        "vc2",
+        baca.pitch("G2"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+        library.assign_part("Cello", (9, 14)),
+    )
+
+    accumulator(
+        "cb3",
+        baca.pitch("G1"),
+        _tremolo_suite(),
+        library.assign_part("Contrabass", (1, 6)),
+    )
+
+
+def main():
+    REEDS(score)
+    BRASS(score)
+    STRINGS(score)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    ob(cache["ob"])
+    eh(cache["eh"])
+    bsns(cache)
+    brass(cache)
+    strings(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

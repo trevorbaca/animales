@@ -57,178 +57,189 @@ manifests = accumulator.manifests()
 
 baca.metronome_mark(skips[1 - 1], accumulator.metronome_marks["114"], manifests)
 
-# PERCUSSION
 
-voice = score["Percussion.1.Music"]
-music = baca.make_mmrests(accumulator.get())
-voice.extend(music)
+def PERCUSSION(score):
+    voice = score["Percussion.1.Music"]
+    music = baca.make_mmrests(accumulator.get())
+    voice.extend(music)
 
-voice = score["Percussion.2.Music"]
-music = baca.make_mmrests(accumulator.get())
-voice.extend(music)
+    voice = score["Percussion.2.Music"]
+    music = baca.make_mmrests(accumulator.get())
+    voice.extend(music)
 
-voice = score["Percussion.4.Music"]
-music = baca.make_mmrests(accumulator.get())
-voice.extend(music)
+    voice = score["Percussion.4.Music"]
+    music = baca.make_mmrests(accumulator.get())
+    voice.extend(music)
 
-# STRINGS
 
-library.make_trill_rhythm(score, accumulator.get(), voice_metadata)
+def STRINGS(score, string_abbreviations):
 
-strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    library.make_trill_rhythm(score, accumulator.get(), voice_metadata)
 
-# anchor notes
+    # anchor notes
 
-accumulator(
-    strings,
-    baca.append_anchor_note(),
-)
+    accumulator(
+        string_abbreviations,
+        baca.append_anchor_note(),
+    )
 
-# percussion
 
-accumulator(
-    "perc1",
-    baca.instrument(instruments["Percussion"]),
-    baca.instrument_name(r"\animales-percussion-i-markup"),
-    library.short_instrument_name("Perc."),
-    baca.clef("percussion"),
-    baca.staff_lines(1),
-    library.assign_part("Percussion", 1),
-)
+def percussion(score):
 
-accumulator(
-    "perc2",
-    baca.instrument(instruments["Percussion"]),
-    baca.instrument_name(r"\animales-percussion-ii-markup"),
-    library.short_instrument_name("Perc."),
-    baca.clef("percussion"),
-    baca.staff_lines(1),
-    library.assign_part("Percussion", 2),
-)
+    accumulator(
+        "perc1",
+        baca.instrument(instruments["Percussion"]),
+        baca.instrument_name(r"\animales-percussion-i-markup"),
+        library.short_instrument_name("Perc."),
+        baca.clef("percussion"),
+        baca.staff_lines(1),
+        library.assign_part("Percussion", 1),
+    )
 
-accumulator(
-    "perc4",
-    baca.instrument(instruments["Percussion"]),
-    baca.instrument_name(r"\animales-percussion-iv-markup"),
-    library.short_instrument_name("Perc."),
-    baca.clef("percussion"),
-    baca.staff_lines(1),
-    library.assign_part("Percussion", 4),
-)
+    accumulator(
+        "perc2",
+        baca.instrument(instruments["Percussion"]),
+        baca.instrument_name(r"\animales-percussion-ii-markup"),
+        library.short_instrument_name("Perc."),
+        baca.clef("percussion"),
+        baca.staff_lines(1),
+        library.assign_part("Percussion", 2),
+    )
 
-# strings
+    accumulator(
+        "perc4",
+        baca.instrument(instruments["Percussion"]),
+        baca.instrument_name(r"\animales-percussion-iv-markup"),
+        library.short_instrument_name("Perc."),
+        baca.clef("percussion"),
+        baca.staff_lines(1),
+        library.assign_part("Percussion", 4),
+    )
 
-accumulator(
-    "1vn1",
-    baca.instrument(instruments["Violin"]),
-    baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
-    library.short_instrument_name("Vni. I (1-10)"),
-    baca.clef("treble"),
-)
 
-accumulator(
-    "1vn3",
-    baca.instrument(instruments["Violin"]),
-    baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
-    library.short_instrument_name("Vni. I (11-18)"),
-    baca.clef("treble"),
-)
+def strings(score, string_abbreviations):
 
-accumulator(
-    "2vn1",
-    baca.instrument(instruments["Violin"]),
-    baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
-    library.short_instrument_name("Vni. II (1-10)"),
-    baca.clef("treble"),
-)
+    accumulator(
+        "1vn1",
+        baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
+        library.short_instrument_name("Vni. I (1-10)"),
+        baca.clef("treble"),
+    )
 
-accumulator(
-    "2vn3",
-    baca.instrument(instruments["Violin"]),
-    baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
-    library.short_instrument_name("Vni. II (11-18)"),
-    baca.clef("treble"),
-)
+    accumulator(
+        "1vn3",
+        baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
+        library.short_instrument_name("Vni. I (11-18)"),
+        baca.clef("treble"),
+    )
 
-accumulator(
-    "va1",
-    baca.instrument(instruments["Viola"]),
-    baca.instrument_name(r"\animales-violas-one-ten-markup"),
-    library.short_instrument_name("Vle. (1-10)"),
-    baca.clef("alto"),
-)
+    accumulator(
+        "2vn1",
+        baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
+        library.short_instrument_name("Vni. II (1-10)"),
+        baca.clef("treble"),
+    )
 
-accumulator(
-    "va3",
-    baca.instrument(instruments["Viola"]),
-    baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
-    library.short_instrument_name("Vle. (11-18)"),
-    baca.clef("alto"),
-)
+    accumulator(
+        "2vn3",
+        baca.instrument(instruments["Violin"]),
+        baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
+        library.short_instrument_name("Vni. II (11-18)"),
+        baca.clef("treble"),
+    )
 
-accumulator(
-    "vc1",
-    baca.instrument(instruments["Cello"]),
-    baca.instrument_name(r"\animales-cellos-markup"),
-    library.short_instrument_name("Vc."),
-    baca.clef("tenor"),
-)
+    accumulator(
+        "va1",
+        baca.instrument(instruments["Viola"]),
+        baca.instrument_name(r"\animales-violas-one-ten-markup"),
+        library.short_instrument_name("Vle. (1-10)"),
+        baca.clef("alto"),
+    )
 
-library.assign_trill_parts(accumulator)
+    accumulator(
+        "va3",
+        baca.instrument(instruments["Viola"]),
+        baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
+        library.short_instrument_name("Vle. (11-18)"),
+        baca.clef("alto"),
+    )
 
-accumulator(
-    # first accents ...
-    ("1vn1", 1),
-    baca.accent(selector=lambda _: baca.select.phead(_, 0)),
-)
+    accumulator(
+        "vc1",
+        baca.instrument(instruments["Cello"]),
+        baca.instrument_name(r"\animales-cellos-markup"),
+        library.short_instrument_name("Vc."),
+        baca.clef("tenor"),
+    )
 
-accumulator(
-    strings,
-    baca.accent(
-        selector=lambda _: baca.select.pheads(_)[1:],
-    ),
-)
+    library.assign_trill_parts(accumulator)
 
-accumulator(
-    # then untie ...
-    (strings, (5, 6)),
-    baca.untie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        # first accents ...
+        ("1vn1", 1),
+        baca.accent(selector=lambda _: baca.select.phead(_, 0)),
+    )
 
-accumulator(
-    # ... then pitch
-    (strings, (1, 4)),
-    baca.pitch("A4"),
-    baca.trill_spanner(alteration="B4"),
-    baca.dynamic(
-        "f-but-accents-sffz",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        string_abbreviations,
+        baca.accent(
+            selector=lambda _: baca.select.pheads(_)[1:],
+        ),
+    )
 
-accumulator(
-    (strings, (5, 6)),
-    baca.pitch("Ab4"),
-    baca.trill_spanner(alteration="A4", right_broken=True),
-    baca.dynamic(
-        "p-sub-but-accents-continue-sffz",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        # then untie ...
+        (string_abbreviations, (5, 6)),
+        baca.untie(
+            lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
 
-accumulator(
-    ["1vn3", "2vn3"],
-    baca.trill_spanner_staff_padding(6),
-)
+    accumulator(
+        # ... then pitch
+        (string_abbreviations, (1, 4)),
+        baca.pitch("A4"),
+        baca.trill_spanner(alteration="B4"),
+        baca.dynamic(
+            "f-but-accents-sffz",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
 
-accumulator(
-    ["1vn1", "2vn1", "va1", "va3", "vc1"],
-    baca.trill_spanner_staff_padding(4),
-)
+    accumulator(
+        (string_abbreviations, (5, 6)),
+        baca.pitch("Ab4"),
+        baca.trill_spanner(alteration="A4", right_broken=True),
+        baca.dynamic(
+            "p-sub-but-accents-continue-sffz",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
+
+    accumulator(
+        ["1vn3", "2vn3"],
+        baca.trill_spanner_staff_padding(6),
+    )
+
+    accumulator(
+        ["1vn1", "2vn1", "va1", "va3", "vc1"],
+        baca.trill_spanner_staff_padding(4),
+    )
+
+
+def main():
+    string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    PERCUSSION(score)
+    STRINGS(score, string_abbreviations)
+    percussion(score)
+    strings(score, string_abbreviations)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

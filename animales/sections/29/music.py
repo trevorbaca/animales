@@ -93,54 +93,60 @@ rests = score["Rests"]
 for index, string in ((4 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-# PERC1
 
-voice = score[accumulator.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
-pleaf = baca.select.pleaf(music, 0)
-baca.repeat_tie_function(pleaf)
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(4))
-voice.extend(music)
+def PERC1(voice):
+    voice = score[accumulator.voice_abbreviations["perc1"]]
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    pleaf = baca.select.pleaf(music, 0)
+    baca.repeat_tie_function(pleaf)
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(4))
+    voice.extend(music)
 
-# STRINGS
 
-library.make_battuti_material(
-    score,
-    accumulator,
-    [[1, -17], [1, -17], [1, -17]],
-    (1, 3),
-    append_fermata_measure=True,
-    omit_contrabasses=True,
-)
+def STRINGS(score):
+    library.make_battuti_material(
+        score,
+        accumulator,
+        [[1, -17], [1, -17], [1, -17]],
+        (1, 3),
+        append_fermata_measure=True,
+        omit_contrabasses=True,
+    )
 
-# reapply
 
-music_voice_names = library.get_music_voice_names(voice_names)
+def percussion(cache):
+    # perc1 (triangle)
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
+    accumulator(
+        ("perc1", (1, 3)),
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+    )
 
-# fermatas
+    accumulator(
+        "perc1",
+        library.assign_part("Percussion", 1),
+    )
 
-library.attach_grand_pause_fermatas(accumulator, score, measure=4)
 
-# perc1 (triangle)
+def main():
+    PERC1(accumulator.voice("perc1"))
+    STRINGS(score)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    names = [accumulator.voice_abbreviations[_] for _ in ["perc1"]]
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    library.attach_grand_pause_fermatas(accumulator, score, measure=4)
+    percussion(cache)
 
-accumulator(
-    ("perc1", (1, 3)),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-)
-
-accumulator(
-    "perc1",
-    library.assign_part("Percussion", 1),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

@@ -117,32 +117,9 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-for abbreviation in [
-    "hn1",
-    "hn2",
-    "hn3",
-    "hn4",
-    "tp1",
-    "tp2",
-    "tp3",
-    "tp4",
-    "tbn1",
-    "tbn2",
-    "tbn3",
-    "tbn4",
-    "tub",
-    "pf",
-    "perc1",
-    "perc2",
-    "perc3",
-    "perc4",
-]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests(accumulator.get())
-    voice.extend(music)
 
-accumulator(
-    [
+def BRASS(score):
+    for abbreviation in [
         "hn1",
         "hn2",
         "hn3",
@@ -161,40 +138,77 @@ accumulator(
         "perc2",
         "perc3",
         "perc4",
-    ],
-    baca.reapply_persistent_indicators(),
-)
+    ]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_mmrests(accumulator.get())
+        voice.extend(music)
 
-library.make_battuti_material(
-    score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
-)
 
-accumulator(
-    "1vn18",
-    baca.instrument(instruments["Violin"]),
-)
+def strings(cache):
+    accumulator(
+        "1vn18",
+        baca.instrument(instruments["Violin"]),
+    )
 
-accumulator(
-    ["2vn6", "2vn12"],
-    baca.instrument(instruments["Violin"]),
-)
+    accumulator(
+        ["2vn6", "2vn12"],
+        baca.instrument(instruments["Violin"]),
+    )
 
-accumulator(
-    ["va6", "va12", "va15", "va18"],
-    baca.instrument(instruments["Viola"]),
-)
+    accumulator(
+        ["va6", "va12", "va15", "va18"],
+        baca.instrument(instruments["Viola"]),
+    )
 
-accumulator(
-    ["vc5", "vc11"],
-    baca.instrument(instruments["Cello"]),
-)
+    accumulator(
+        ["vc5", "vc11"],
+        baca.instrument(instruments["Cello"]),
+    )
 
-accumulator(
-    ["cb6"],
-    baca.instrument(instruments["Contrabass"]),
-)
+    accumulator(
+        ["cb6"],
+        baca.instrument(instruments["Contrabass"]),
+    )
+
+
+def main():
+    BRASS(score)
+    abbreviations = [
+        "hn1",
+        "hn2",
+        "hn3",
+        "hn4",
+        "tp1",
+        "tp2",
+        "tp3",
+        "tp4",
+        "tbn1",
+        "tbn2",
+        "tbn3",
+        "tbn4",
+        "tub",
+        "pf",
+        "perc1",
+        "perc2",
+        "perc3",
+        "perc4",
+    ]
+    names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    library.make_battuti_material(
+        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
+    )
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    strings(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

@@ -93,31 +93,43 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-library.make_battuti_material(
-    score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
-)
 
-accumulator(
-    ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
-    baca.instrument(instruments["Violin"]),
-)
+def strings(cache):
+    accumulator(
+        ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
+        baca.instrument(instruments["Violin"]),
+    )
 
-accumulator(
-    ["2vn7", "2vn9", "2vn13", "2vn15", "2vn17"],
-    baca.instrument(instruments["Violin"]),
-)
+    accumulator(
+        ["2vn7", "2vn9", "2vn13", "2vn15", "2vn17"],
+        baca.instrument(instruments["Violin"]),
+    )
 
-accumulator(
-    ["va7", "va9", "va13"],
-    baca.instrument(instruments["Viola"]),
-)
+    accumulator(
+        ["va7", "va9", "va13"],
+        baca.instrument(instruments["Viola"]),
+    )
 
-accumulator(
-    ["vc4", "vc7", "vc9", "vc14"],
-    baca.instrument(instruments["Cello"]),
-)
+    accumulator(
+        ["vc4", "vc7", "vc9", "vc14"],
+        baca.instrument(instruments["Cello"]),
+    )
+
+
+def main():
+    library.make_battuti_material(
+        score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
+    )
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    strings(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

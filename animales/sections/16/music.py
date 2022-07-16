@@ -81,340 +81,354 @@ def swell(peak):
     )
 
 
-# OB
+def REEDS(score):
+    for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
+        voice.extend(music)
+        music = baca.make_mmrests(accumulator.get(6, 14))
+        voice.extend(music)
 
-for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
+
+def STRINGS(score, voice_abbreviation_to_members):
+    voice = score[accumulator.voice_abbreviations["1vn5"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(6, 14))
-    voice.extend(music)
-
-# STRINGS
-
-voice = score[accumulator.voice_abbreviations["1vn5"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
-
-voice_abbreviation_to_members = {
-    "1vn1": (1, 4),
-    "1vn2": (5, 8),
-    "1vn3": (9, 12),
-    "1vn4": (13, 17),
-    "2vn1": (1, 4),
-    "2vn2": (5, 8),
-    "2vn3": (9, 12),
-    "2vn4": (13, 18),
-    "va1": (1, 4),
-    "va2": (5, 8),
-    "va3": (9, 12),
-    "va4": (13, 18),
-    "vc1": (1, 8),
-    "vc2": (9, 14),
-    "cb3": (1, 6),
-}
-
-for abbreviation in voice_abbreviation_to_members:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 10))
-    voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(11, 14))
-    voice.extend(music)
-
-# reapply
-
-music_voice_names = library.get_music_voice_names(voice_names)
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# ob
-
-accumulator(
-    "ob",
-    baca.instrument(instruments["Oboe"]),
-    library.short_instrument_name("Ob."),
-    baca.clef("treble"),
-    library.assign_part("Oboe", (1, 3)),
-)
-
-accumulator(
-    ("ob", (1, 5)),
-    baca.pitch("A4"),
-)
-
-accumulator(
-    ("ob", (1, 6)),
-    swell("f"),
-)
-
-# eh
-
-accumulator(
-    ("eh", (1, 5)),
-    baca.instrument(instruments["EnglishHorn"]),
-    library.short_instrument_name("Eng. hn."),
-    baca.clef("treble"),
-    baca.pitch("G3"),
-)
-
-accumulator(
-    ("eh", (1, 6)),
-    swell("f"),
-)
-
-accumulator(
-    "eh",
-    library.assign_part("EnglishHorn"),
-)
-
-# bsn1, bsn2
-
-accumulator(
-    "bsn1",
-    baca.instrument(instruments["Bassoon"]),
-    library.short_instrument_name("Bsn."),
-    baca.clef("bass"),
-    baca.not_parts(baca.voice_one()),
-    library.assign_part("Bassoon", 1),
-)
-
-accumulator(
-    "bsn2",
-    baca.not_parts(baca.voice_two()),
-    library.assign_part("Bassoon", 2),
-)
-
-accumulator(
-    ("bsn1", (1, 5)),
-    baca.pitch("B3"),
-)
-
-accumulator(
-    ("bsn1", (1, 6)),
-    baca.only_parts(swell("f")),
-)
-
-accumulator(
-    ("bsn2", (1, 5)),
-    baca.pitch("G2"),
-)
-
-accumulator(
-    ("bsn2", (1, 6)),
-    swell("f"),
-)
-
-# strings
+    for abbreviation in voice_abbreviation_to_members:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeat_tied_notes(accumulator.get(1, 10))
+        voice.extend(music)
+        music = baca.make_mmrests(accumulator.get(11, 14))
+        voice.extend(music)
 
 
-def _tremolo_suite():
-    return baca.suite(
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.accent(selector=lambda _: baca.select.pleaves(_)),
-        baca.only_parts(
-            baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
-        ),
-        baca.text_spanner(
-            "ext. pont. => tasto",
-            selector=lambda _: baca.select.pleaves(_)[2:-2],
-        ),
-        baca.dynamic("ff-ancora"),
-        baca.hairpin(
-            "ff > pp",
-            selector=lambda _: baca.select.pleaves(_)[2:-2],
-        ),
-    )
+## reapply
+#
+# music_voice_names = library.get_music_voice_names(voice_names)
+#
+# accumulator(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
 
 
-def _upper_voice_suite():
-    return baca.suite(
-        baca.only_parts(baca.text_script_extra_offset((1, 3))),
-        baca.only_parts(baca.text_spanner_staff_padding(5)),
-        baca.not_parts(baca.voice_one()),
-        baca.not_parts(
-            baca.dynamic_text_stencil_false(selector=lambda _: baca.select.leaves(_))
-        ),
-        baca.not_parts(baca.hairpin_stencil_false()),
-        baca.not_parts(baca.text_spanner_stencil_false()),
-    )
-
-
-def _lower_voice_suite(n=5):
-    return baca.suite(
-        baca.not_parts(baca.voice_two()),
-        baca.not_parts(baca.text_spanner_staff_padding(n)),
-    )
-
-
-accumulator(
-    "1vn5",
-    baca.instrument(instruments["Violin"]),
-    baca.clef("treble"),
-    library.short_instrument_name("Vni. I 18"),
-    baca.pitch("C#4"),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.markup(r"\animales-appear-as-if-by-magic-markup"),
-    baca.dynamic("f"),
-    library.assign_part("FirstViolin", 18),
-)
-
-voice_abbreviation_to_voice_name = library.voice_abbreviations()
-for voice_abbreviation, members in voice_abbreviation_to_members.items():
-    voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
-    part_name = voice_name.split(".")[0].removesuffix("s").removesuffix("e")
+def ob(m):
     accumulator(
-        voice_abbreviation,
-        library.assign_part(part_name, token=members),
+        "ob",
+        baca.instrument(instruments["Oboe"]),
+        library.short_instrument_name("Ob."),
+        baca.clef("treble"),
+        library.assign_part("Oboe", (1, 3)),
     )
 
-accumulator(
-    ("1vn1", (1, 10)),
-    library.short_instrument_name("Vni. I (1-4) (5-8)"),
-    baca.pitch("A5"),
-    baca.not_parts(
-        baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
-    ),
-    baca.not_parts(
-        baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
+    accumulator(
+        ("ob", (1, 5)),
+        baca.pitch("A4"),
+    )
 
-accumulator(
-    ("1vn2", (1, 10)),
-    baca.pitch("F5"),
-    _lower_voice_suite(8),
-    _tremolo_suite(),
-)
+    accumulator(
+        ("ob", (1, 6)),
+        swell("f"),
+    )
 
-accumulator(
-    ("1vn3", (1, 10)),
-    library.short_instrument_name("Vni. I (9-12) (13-17)"),
-    baca.pitch("G5"),
-    baca.not_parts(
-        baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
 
-accumulator(
-    ("1vn4", (1, 10)),
-    baca.pitch("D5"),
-    _lower_voice_suite(8),
-    _tremolo_suite(),
-)
+def eh(m):
+    accumulator(
+        ("eh", (1, 5)),
+        baca.instrument(instruments["EnglishHorn"]),
+        library.short_instrument_name("Eng. hn."),
+        baca.clef("treble"),
+        baca.pitch("G3"),
+    )
 
-accumulator(
-    ("2vn1", (1, 10)),
-    library.short_instrument_name("Vni. II (1-4) (5-8)"),
-    baca.pitch("B4"),
-    baca.not_parts(
-        baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
+    accumulator(
+        ("eh", (1, 6)),
+        swell("f"),
+    )
 
-accumulator(
-    ("2vn2", (1, 10)),
-    baca.pitch("G4"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-)
+    accumulator(
+        "eh",
+        library.assign_part("EnglishHorn"),
+    )
 
-accumulator(
-    ("2vn3", (1, 10)),
-    library.short_instrument_name("Vni. II (9-12) (13-18)"),
-    baca.pitch("A4"),
-    baca.not_parts(
-        baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
 
-accumulator(
-    ("2vn4", (1, 10)),
-    baca.pitch("F4"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-)
+def bsns(cache):
+    accumulator(
+        "bsn1",
+        baca.instrument(instruments["Bassoon"]),
+        library.short_instrument_name("Bsn."),
+        baca.clef("bass"),
+        baca.not_parts(baca.voice_one()),
+        library.assign_part("Bassoon", 1),
+    )
 
-accumulator(
-    ("va1", (1, 10)),
-    library.short_instrument_name("Vle. (1-4) (5-8)"),
-    baca.pitch("D4"),
-    baca.not_parts(
-        baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
+    accumulator(
+        "bsn2",
+        baca.not_parts(baca.voice_two()),
+        library.assign_part("Bassoon", 2),
+    )
 
-accumulator(
-    ("va2", (1, 10)),
-    baca.pitch("A3"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-)
+    accumulator(
+        ("bsn1", (1, 5)),
+        baca.pitch("B3"),
+    )
 
-accumulator(
-    ("va3", (1, 10)),
-    library.short_instrument_name("Vle. (9-12) (13-18)"),
-    baca.pitch("B3"),
-    baca.not_parts(
-        baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
+    accumulator(
+        ("bsn1", (1, 6)),
+        baca.only_parts(swell("f")),
+    )
 
-accumulator(
-    ("va4", (1, 10)),
-    baca.pitch("G3"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-)
+    accumulator(
+        ("bsn2", (1, 5)),
+        baca.pitch("G2"),
+    )
 
-accumulator(
-    ("vc1", (1, 10)),
-    library.short_instrument_name("Vc. (1-8) (9-14)"),
-    baca.pitch("D3"),
-    baca.not_parts(
-        baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
-    ),
-    _tremolo_suite(),
-    _upper_voice_suite(),
-)
+    accumulator(
+        ("bsn2", (1, 6)),
+        swell("f"),
+    )
 
-accumulator(
-    ("vc2", (1, 10)),
-    baca.pitch("G2"),
-    _lower_voice_suite(),
-    _tremolo_suite(),
-)
 
-accumulator(
-    ("cb3", (1, 10)),
-    library.short_instrument_name("Cb."),
-    baca.pitch("G1"),
-    baca.not_parts(
-        baca.markup(r"\animales-cb-tutti-markup"),
-    ),
-    #    baca.tag(
-    #        abjad.Tag("+LETTER_PARTS_CB-1"),
-    #        baca.clef("bass"),
-    #    ),
-    #    baca.only_section(baca.literal(r"\clef "bass"")),
-    _tremolo_suite(),
-)
+def strings(cache, voice_abbreviation_to_members):
+    def _tremolo_suite():
+        return baca.suite(
+            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+            baca.accent(selector=lambda _: baca.select.pleaves(_)),
+            baca.only_parts(
+                baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
+            ),
+            baca.text_spanner(
+                "ext. pont. => tasto",
+                selector=lambda _: baca.select.pleaves(_)[2:-2],
+            ),
+            baca.dynamic("ff-ancora"),
+            baca.hairpin(
+                "ff > pp",
+                selector=lambda _: baca.select.pleaves(_)[2:-2],
+            ),
+        )
+
+    def _upper_voice_suite():
+        return baca.suite(
+            baca.only_parts(baca.text_script_extra_offset((1, 3))),
+            baca.only_parts(baca.text_spanner_staff_padding(5)),
+            baca.not_parts(baca.voice_one()),
+            baca.not_parts(
+                baca.dynamic_text_stencil_false(
+                    selector=lambda _: baca.select.leaves(_)
+                )
+            ),
+            baca.not_parts(baca.hairpin_stencil_false()),
+            baca.not_parts(baca.text_spanner_stencil_false()),
+        )
+
+    def _lower_voice_suite(n=5):
+        return baca.suite(
+            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.text_spanner_staff_padding(n)),
+        )
+
+    accumulator(
+        "1vn5",
+        baca.instrument(instruments["Violin"]),
+        baca.clef("treble"),
+        library.short_instrument_name("Vni. I 18"),
+        baca.pitch("C#4"),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.markup(r"\animales-appear-as-if-by-magic-markup"),
+        baca.dynamic("f"),
+        library.assign_part("FirstViolin", 18),
+    )
+
+    voice_abbreviation_to_voice_name = library.voice_abbreviations()
+    for voice_abbreviation, members in voice_abbreviation_to_members.items():
+        voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
+        part_name = voice_name.split(".")[0].removesuffix("s").removesuffix("e")
+        accumulator(
+            voice_abbreviation,
+            library.assign_part(part_name, token=members),
+        )
+
+    accumulator(
+        ("1vn1", (1, 10)),
+        library.short_instrument_name("Vni. I (1-4) (5-8)"),
+        baca.pitch("A5"),
+        baca.not_parts(
+            baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
+        ),
+        baca.not_parts(
+            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("1vn2", (1, 10)),
+        baca.pitch("F5"),
+        _lower_voice_suite(8),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("1vn3", (1, 10)),
+        library.short_instrument_name("Vni. I (9-12) (13-17)"),
+        baca.pitch("G5"),
+        baca.not_parts(
+            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("1vn4", (1, 10)),
+        baca.pitch("D5"),
+        _lower_voice_suite(8),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("2vn1", (1, 10)),
+        library.short_instrument_name("Vni. II (1-4) (5-8)"),
+        baca.pitch("B4"),
+        baca.not_parts(
+            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("2vn2", (1, 10)),
+        baca.pitch("G4"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("2vn3", (1, 10)),
+        library.short_instrument_name("Vni. II (9-12) (13-18)"),
+        baca.pitch("A4"),
+        baca.not_parts(
+            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("2vn4", (1, 10)),
+        baca.pitch("F4"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("va1", (1, 10)),
+        library.short_instrument_name("Vle. (1-4) (5-8)"),
+        baca.pitch("D4"),
+        baca.not_parts(
+            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("va2", (1, 10)),
+        baca.pitch("A3"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("va3", (1, 10)),
+        library.short_instrument_name("Vle. (9-12) (13-18)"),
+        baca.pitch("B3"),
+        baca.not_parts(
+            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("va4", (1, 10)),
+        baca.pitch("G3"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("vc1", (1, 10)),
+        library.short_instrument_name("Vc. (1-8) (9-14)"),
+        baca.pitch("D3"),
+        baca.not_parts(
+            baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
+        ),
+        _tremolo_suite(),
+        _upper_voice_suite(),
+    )
+
+    accumulator(
+        ("vc2", (1, 10)),
+        baca.pitch("G2"),
+        _lower_voice_suite(),
+        _tremolo_suite(),
+    )
+
+    accumulator(
+        ("cb3", (1, 10)),
+        library.short_instrument_name("Cb."),
+        baca.pitch("G1"),
+        baca.not_parts(
+            baca.markup(r"\animales-cb-tutti-markup"),
+        ),
+        #    baca.tag(
+        #        abjad.Tag("+LETTER_PARTS_CB-1"),
+        #        baca.clef("bass"),
+        #    ),
+        #    baca.only_section(baca.literal(r"\clef "bass"")),
+        _tremolo_suite(),
+    )
+
+
+def main():
+    REEDS(score)
+    voice_abbreviation_to_members = {
+        "1vn1": (1, 4),
+        "1vn2": (5, 8),
+        "1vn3": (9, 12),
+        "1vn4": (13, 17),
+        "2vn1": (1, 4),
+        "2vn2": (5, 8),
+        "2vn3": (9, 12),
+        "2vn4": (13, 18),
+        "va1": (1, 4),
+        "va2": (5, 8),
+        "va3": (9, 12),
+        "va4": (13, 18),
+        "vc1": (1, 8),
+        "vc2": (9, 14),
+        "cb3": (1, 6),
+    }
+    STRINGS(score, voice_abbreviation_to_members)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    ob(cache["ob"])
+    eh(cache["eh"])
+    bsns(cache)
+    strings(cache, voice_abbreviation_to_members)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
