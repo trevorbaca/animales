@@ -82,7 +82,7 @@ score = library.make_empty_score(
 
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -93,9 +93,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -112,7 +112,7 @@ baca.rehearsal_mark_function(
 # BRASS
 
 library.make_brass_sforzando_material(
-    score, commands, 1, reapply_persistent_indicators=True
+    score, accumulator, 1, reapply_persistent_indicators=True
 )
 
 for abbreviation in [
@@ -130,36 +130,38 @@ for abbreviation in [
     "tbn4",
     "tub",
 ]:
-    voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests(commands.get(2, 3))
+    voice = score[accumulator.voice_abbreviations[abbreviation]]
+    music = baca.make_mmrests(accumulator.get(2, 3))
     voice.extend(music)
 
 # PERC2
 
-voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes(commands.get())
+voice = score[accumulator.voice_abbreviations["perc2"]]
+music = baca.make_repeat_tied_notes(accumulator.get())
 voice.extend(music)
 
 # STRINGS
 
-library.make_battuti_material(score, commands, [[1, -17], [1, -17], [1, -17]], (1, 3))
+library.make_battuti_material(
+    score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
+)
 
 # reapply
 
 music_voice_names = library.get_music_voice_names(voice_names)
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # brass
 
-library.assign_brass_sforzando_parts(commands)
+library.assign_brass_sforzando_parts(accumulator)
 
 # perc2 (cymbal)
 
-commands(
+accumulator(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -168,19 +170,19 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

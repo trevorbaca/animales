@@ -23,7 +23,7 @@ score = library.make_empty_score(
 
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -34,9 +34,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -58,36 +58,36 @@ for index, string in ((10 - 1, "fermata"),):
 
 # PF
 
-voice = score[commands.voice_abbreviations["pf"]]
-music = baca.make_notes(commands.get(1, 9))
+voice = score[accumulator.voice_abbreviations["pf"]]
+music = baca.make_notes(accumulator.get(1, 9))
 voice.extend(music)
-music = baca.make_mmrests(commands.get(10))
+music = baca.make_mmrests(accumulator.get(10))
 voice.extend(music)
 
 # PERC4
 
-voice = score[commands.voice_abbreviations["perc4"]]
-music = baca.make_tied_repeated_durations(commands.get(1, 8), [(1, 4)])
+voice = score[accumulator.voice_abbreviations["perc4"]]
+music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
 voice.extend(music)
-music = baca.make_mmrests(commands.get(9, 10))
+music = baca.make_mmrests(accumulator.get(9, 10))
 voice.extend(music)
 
 # reapply
 
 music_voice_names = library.get_music_voice_names(voice_names)
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # fermatas
 
-library.attach_grand_pause_fermatas(commands, score, measure=10)
+library.attach_grand_pause_fermatas(accumulator, score, measure=10)
 
 # pf
 
-commands(
+accumulator(
     ("pf", (1, 9)),
     baca.pitch("C#4"),
     baca.note_head_style_harmonic(),
@@ -96,19 +96,19 @@ commands(
     baca.only_parts(baca.text_script_x_offset(3)),
 )
 
-commands(
+accumulator(
     "pf",
     library.assign_part("Piano"),
 )
 
 # perc4 (slate)
 
-commands(
+accumulator(
     "perc4",
     library.assign_part("Percussion", 4),
 )
 
-commands(
+accumulator(
     ("perc4", (1, 8)),
     library.short_instrument_name("Perc. 4 (slate)"),
     baca.staff_position(0),
@@ -117,7 +117,7 @@ commands(
     baca.dynamic('"mf"'),
 )
 
-commands(
+accumulator(
     ("perc4", 10),
     baca.chunk(
         baca.mark(r"\animales-colophon-markup"),
@@ -131,7 +131,7 @@ commands(
 # pf, perc4
 
 for voice_name in ("pf", "perc4"):
-    commands(
+    accumulator(
         (voice_name, 1),
         baca.tag(
             abjad.Tag("+TABLOID_SCORE"),
@@ -140,20 +140,20 @@ for voice_name in ("pf", "perc4"):
     )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         final_section=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

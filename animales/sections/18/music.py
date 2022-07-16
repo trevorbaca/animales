@@ -52,7 +52,7 @@ score = library.make_empty_score(
 
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -63,18 +63,18 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
 )
 
 skips = score["Skips"]
-manifests = commands.manifests()
+manifests = accumulator.manifests()
 
-baca.metronome_mark(skips[1 - 1], commands.metronome_marks["76"], manifests)
+baca.metronome_mark(skips[1 - 1], accumulator.metronome_marks["76"], manifests)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -105,10 +105,10 @@ for abbreviation in (
     "tbn3",
     "tbn4",
 ):
-    voice = score[commands.voice_abbreviations[abbreviation]]
-    music = library.make_downbeat_attack(commands.get(1))
+    voice = score[accumulator.voice_abbreviations[abbreviation]]
+    music = library.make_downbeat_attack(accumulator.get(1))
     voice.extend(music)
-    music = baca.make_mmrests(commands.get(2, 12))
+    music = baca.make_mmrests(accumulator.get(2, 12))
     voice.extend(music)
 
 # STRINGS
@@ -169,33 +169,33 @@ def _tremolo(peak="f"):
     )
 
 
-voice = score[commands.voice_abbreviations["1vn5"]]
-music = baca.make_repeat_tied_notes(commands.get(1, 2))
+voice = score[accumulator.voice_abbreviations["1vn5"]]
+music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
 voice.extend(music)
-music = baca.make_mmrests(commands.get(3))
+music = baca.make_mmrests(accumulator.get(3))
 voice.extend(music)
-music = baca.make_repeat_tied_notes(commands.get(4, 7))
+music = baca.make_repeat_tied_notes(accumulator.get(4, 7))
 voice.extend(music)
-music = baca.make_mmrests(commands.get(8))
+music = baca.make_mmrests(accumulator.get(8))
 voice.extend(music)
-music = baca.make_repeat_tied_notes(commands.get(9, 12))
+music = baca.make_repeat_tied_notes(accumulator.get(9, 12))
 voice.extend(music)
 
 for abbreviation, items in string_parts.items():
     assert isinstance(items, list), repr(items)
     commands_ = []
-    voice_name = commands.voice_abbreviations[abbreviation]
+    voice_name = accumulator.voice_abbreviations[abbreviation]
     if voice_name != "FirstViolins.Voice.5":
         voice = score[voice_name]
-        music = baca.make_mmrests(commands.get(1, 3))
+        music = baca.make_mmrests(accumulator.get(1, 3))
         voice.extend(music)
-        music = baca.make_repeat_tied_notes(commands.get(4, 6))
+        music = baca.make_repeat_tied_notes(accumulator.get(4, 6))
         voice.extend(music)
-        music = baca.make_mmrests(commands.get(7, 8))
+        music = baca.make_mmrests(accumulator.get(7, 8))
         voice.extend(music)
-        music = baca.make_repeat_tied_notes(commands.get(9, 11))
+        music = baca.make_repeat_tied_notes(accumulator.get(9, 11))
         voice.extend(music)
-        music = baca.make_mmrests(commands.get(12))
+        music = baca.make_mmrests(accumulator.get(12))
         voice.extend(music)
     part_name = voice_name.split(".")[0].removesuffix("s")
     numbers = items[0]
@@ -210,17 +210,17 @@ for abbreviation, items in string_parts.items():
             selector=lambda _: baca.select.plts(_),
         ),
     )
-    commands(
+    accumulator(
         voice_name,
         *commands_,
     )
     if voice_name == "FirstViolins.Voice.5":
         continue
-    commands(
+    accumulator(
         (voice_name, (4, 7)),
         _tremolo("f"),
     )
-    commands(
+    accumulator(
         (voice_name, (9, 12)),
         _tremolo("mp"),
     )
@@ -229,23 +229,23 @@ for abbreviation, items in string_parts.items():
 
 music_voice_names = library.get_music_voice_names(voice_names)
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # fermatas
 
-library.attach_grand_pause_fermatas(commands, score, measure=3)
-library.attach_grand_pause_fermatas(commands, score, measure=8)
+library.attach_grand_pause_fermatas(accumulator, score, measure=3)
+library.attach_grand_pause_fermatas(accumulator, score, measure=8)
 
 # brass
 
-library.assign_brass_sforzando_parts(commands, omit_tuba=True)
+library.assign_brass_sforzando_parts(accumulator, omit_tuba=True)
 
 # horns
 
-commands(
+accumulator(
     ("hn1", 1),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -253,14 +253,14 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("hn3", 1),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
     baca.dynamic("sfz"),
 )
 
-commands(
+accumulator(
     ("hn2", 1),
     baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -268,7 +268,7 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("hn4", 1),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -277,7 +277,7 @@ commands(
 
 # trumpets
 
-commands(
+accumulator(
     ("tp1", 1),
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -285,14 +285,14 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("tp3", 1),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
     baca.dynamic("sfz"),
 )
 
-commands(
+accumulator(
     ("tp2", 1),
     baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -300,7 +300,7 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("tp4", 1),
     baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -309,7 +309,7 @@ commands(
 
 # trombones
 
-commands(
+accumulator(
     ("tbn1", 1),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -317,14 +317,14 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("tbn3", 1),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
     baca.dynamic("sfz"),
 )
 
-commands(
+accumulator(
     ("tbn2", 1),
     baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -332,7 +332,7 @@ commands(
     baca.only_parts(baca.dynamic("sfz")),
 )
 
-commands(
+accumulator(
     ("tbn4", 1),
     baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -341,7 +341,7 @@ commands(
 
 # solo violin
 
-commands(
+accumulator(
     "1vn5",
     baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
     baca.stem_tremolo(
@@ -350,19 +350,19 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
