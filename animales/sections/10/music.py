@@ -62,7 +62,7 @@ score = library.make_empty_score(
 voice_metadata = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -73,9 +73,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -91,18 +91,18 @@ baca.rehearsal_mark_function(
 
 # CL
 
-voice = score[commands.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes(commands.get())
+voice = score[accumulator.voice_abbreviations["cl"]]
+music = baca.make_repeat_tied_notes(accumulator.get())
 voice.extend(music)
 
 # BCL
 
-voice = score[commands.voice_abbreviations["bcl"]]
-music = baca.make_repeat_tied_notes(commands.get(1, 3))
+voice = score[accumulator.voice_abbreviations["bcl"]]
+music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
-music = baca.make_mmrests(commands.get(4, 6))
+music = baca.make_mmrests(accumulator.get(4, 6))
 voice.extend(music)
 
 # BRASS
@@ -124,10 +124,10 @@ for abbreviation, part in (
     ("tbn2", 10),
     ("tbn4", 12),
 ):
-    voice_name = commands.voice_abbreviations[abbreviation]
+    voice_name = accumulator.voice_abbreviations[abbreviation]
     voice = score[voice_name]
     music, state = library.make_brass_manifest_rhythm(
-        commands.get(),
+        accumulator.get(),
         part,
         voice_name,
         previous_persist=previous_persist,
@@ -141,10 +141,10 @@ parameter = "RHYTHM"
 persist = "harp_exchange_rhythm"
 
 for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
-    voice_name = commands.voice_abbreviations[abbreviation]
+    voice_name = accumulator.voice_abbreviations[abbreviation]
     voice = score[voice_name]
     music, state = library.make_harp_exchange_rhythm(
-        commands.get(),
+        accumulator.get(),
         part,
         voice_name,
         previous_persist=previous_persist,
@@ -154,21 +154,21 @@ for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
 
 # PERC2
 
-voice = score[commands.voice_abbreviations["perc2"]]
-music = baca.make_mmrests(commands.get())
+voice = score[accumulator.voice_abbreviations["perc2"]]
+music = baca.make_mmrests(accumulator.get())
 voice.extend(music)
 
 # STRINGS
 
 for abbreviation in ["1vn1", "2vn1", "va1", "vc1"]:
-    voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(commands.get())
+    voice = score[accumulator.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 # CB3
 
-voice = score[commands.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes(commands.get())
+voice = score[accumulator.voice_abbreviations["cb3"]]
+music = baca.make_repeat_tied_notes(accumulator.get())
 voice.extend(music)
 
 # CB1
@@ -177,7 +177,7 @@ voice.extend(music)
 
 strings = []
 
-commands(
+accumulator(
     ["1vn1", "2vn1", "va1", "vc1"],
     baca.append_anchor_note(),
 )
@@ -186,14 +186,14 @@ commands(
 
 music_voice_names = library.get_music_voice_names(voice_names)
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # cl
 
-commands(
+accumulator(
     "cl",
     baca.pitch("A4"),
     baca.hairpin("mp < mf"),
@@ -202,7 +202,7 @@ commands(
 
 # bcl
 
-commands(
+accumulator(
     ("bcl", (1, 3)),
     baca.pitch("A2"),
     baca.hairpin(
@@ -211,7 +211,7 @@ commands(
     ),
 )
 
-commands(
+accumulator(
     "bcl",
     library.assign_part("BassClarinet"),
 )
@@ -236,7 +236,7 @@ def crescendi():
     )
 
 
-commands(
+accumulator(
     "hn1",
     baca.pitches("A3 B3", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -245,7 +245,7 @@ commands(
     library.assign_part("Horn", 1),
 )
 
-commands(
+accumulator(
     "hn3",
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -253,7 +253,7 @@ commands(
     library.assign_part("Horn", 3),
 )
 
-commands(
+accumulator(
     "hn2",
     baca.pitches("A3 B3", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -262,7 +262,7 @@ commands(
     library.assign_part("Horn", 2),
 )
 
-commands(
+accumulator(
     "hn4",
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -272,7 +272,7 @@ commands(
 
 # trumpets
 
-commands(
+accumulator(
     "tp1",
     baca.pitches("Ab4 Bb4", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -281,7 +281,7 @@ commands(
     library.assign_part("Trumpet", 1),
 )
 
-commands(
+accumulator(
     "tp3",
     baca.pitches("G4 A4", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -289,7 +289,7 @@ commands(
     library.assign_part("Trumpet", 3),
 )
 
-commands(
+accumulator(
     "tp2",
     baca.pitches("Ab4 Bb4", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -298,7 +298,7 @@ commands(
     library.assign_part("Trumpet", 2),
 )
 
-commands(
+accumulator(
     "tp4",
     baca.pitches("G4 A4", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -308,7 +308,7 @@ commands(
 
 # trombones
 
-commands(
+accumulator(
     "tbn1",
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -317,7 +317,7 @@ commands(
     library.assign_part("Trombone", 1),
 )
 
-commands(
+accumulator(
     "tbn3",
     baca.pitches("G3 A3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -325,7 +325,7 @@ commands(
     library.assign_part("Trombone", 3),
 )
 
-commands(
+accumulator(
     "tbn2",
     baca.pitches("Ab3 Bb3", persist="seconds"),
     baca.not_parts(baca.voice_one()),
@@ -334,7 +334,7 @@ commands(
     library.assign_part("Trombone", 2),
 )
 
-commands(
+accumulator(
     "tbn4",
     baca.pitches("G3 A3", persist="seconds"),
     baca.not_parts(baca.voice_two()),
@@ -344,7 +344,7 @@ commands(
 
 # pf
 
-commands(
+accumulator(
     "pf",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -354,7 +354,7 @@ commands(
 
 # hp
 
-commands(
+accumulator(
     "hp",
     baca.pitch("C5"),
     baca.stopped(selector=lambda _: baca.select.pheads(_)),
@@ -364,7 +364,7 @@ commands(
 
 # perc3 (vibraphone)
 
-commands(
+accumulator(
     "perc3",
     baca.pitch("C5"),
     baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -373,34 +373,34 @@ commands(
 
 # strings
 
-commands(
+accumulator(
     ["1vn1", "2vn1", "va1", "vc1"],
     baca.pitch("A3"),
     baca.trill_spanner(alteration="Ab3", right_broken=True),
     baca.hairpin("pp <", right_broken=True),
 )
 
-commands(
+accumulator(
     "1vn1",
     library.assign_part("FirstViolin", (1, 18)),
 )
 
-commands(
+accumulator(
     "2vn1",
     library.assign_part("SecondViolin", (1, 18)),
 )
 
-commands(
+accumulator(
     "va1",
     library.assign_part("Viola", (1, 18)),
 )
 
-commands(
+accumulator(
     "vc1",
     library.assign_part("Cello", (1, 14)),
 )
 
-commands(
+accumulator(
     "cb3",
     baca.pitch("A1"),
     baca.hairpin("pp <", right_broken=True),
@@ -409,7 +409,7 @@ commands(
 
 # cb1 (solo)
 
-commands(
+accumulator(
     "cb1",
     baca.pitch("Cqf5", do_not_transpose=True),
     baca.note_head_style_harmonic(),
@@ -418,15 +418,15 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
@@ -437,7 +437,7 @@ if __name__ == "__main__":
     for voice_name, dictionary in voice_metadata.items():
         if voice_name not in persist["voice_metadata"]:
             persist["voice_metadata"][voice_name] = dictionary
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

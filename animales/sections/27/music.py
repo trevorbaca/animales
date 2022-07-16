@@ -68,7 +68,7 @@ score = library.make_empty_score(
 
 voice_names = baca.accumulator.get_voice_names(score)
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -79,9 +79,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -97,15 +97,15 @@ baca.rehearsal_mark_function(
 
 # PERC1
 
-voice = score[commands.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes(commands.get())
+voice = score[accumulator.voice_abbreviations["perc1"]]
+music = baca.make_repeat_tied_notes(accumulator.get())
 voice.extend(music)
 
 # PERC2, PERC3, PERC4
 
 for abbreviation in ["perc2", "perc3", "perc4"]:
-    voice = score[commands.voice_abbreviations[abbreviation]]
-    music = baca.make_repeat_tied_notes(commands.get())
+    voice = score[accumulator.voice_abbreviations[abbreviation]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
     voice.extend(music)
@@ -114,7 +114,7 @@ for abbreviation in ["perc2", "perc3", "perc4"]:
 
 library.make_battuti_material(
     score,
-    commands,
+    accumulator,
     [[1, -17], [1, -17], [1, -17]],
     (1, 3),
     omit_contrabasses=True,
@@ -122,8 +122,8 @@ library.make_battuti_material(
 
 # CB3
 
-voice = score[commands.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes(commands.get())
+voice = score[accumulator.voice_abbreviations["cb3"]]
+music = baca.make_repeat_tied_notes(accumulator.get())
 pleaf = baca.select.pleaf(music, 0)
 baca.repeat_tie_function(pleaf)
 voice.extend(music)
@@ -132,14 +132,14 @@ voice.extend(music)
 
 music_voice_names = library.get_music_voice_names(voice_names)
 
-commands(
+accumulator(
     music_voice_names,
     baca.reapply_persistent_indicators(),
 )
 
 # perc1 (triangle)
 
-commands(
+accumulator(
     "perc1",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -149,7 +149,7 @@ commands(
 
 # perc2 (cymbal)
 
-commands(
+accumulator(
     "perc2",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -158,7 +158,7 @@ commands(
 
 # perc3 (BD)
 
-commands(
+accumulator(
     "perc3",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -167,7 +167,7 @@ commands(
 
 # perc4 (tam-tam)
 
-commands(
+accumulator(
     "perc4",
     baca.staff_position(0),
     baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -176,7 +176,7 @@ commands(
 
 # cb3
 
-commands(
+accumulator(
     "cb3",
     baca.pitch("C#2"),
     baca.text_spanner("ord. => ext. pont."),
@@ -185,19 +185,19 @@ commands(
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],

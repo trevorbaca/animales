@@ -66,7 +66,7 @@ score = library.make_empty_score(
 voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments()
 
-commands = baca.CommandAccumulator(
+accumulator = baca.CommandAccumulator(
     instruments=library.instruments(),
     short_instrument_names=library.short_instrument_names(),
     metronome_marks=library.metronome_marks(),
@@ -77,9 +77,9 @@ commands = baca.CommandAccumulator(
 
 baca.interpret.set_up_score(
     score,
-    commands,
-    commands.manifests(),
-    commands.time_signatures,
+    accumulator,
+    accumulator.manifests(),
+    accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
     attach_nonfirst_empty_start_bar=True,
@@ -93,42 +93,44 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-library.make_battuti_material(score, commands, [[1, -55], [1, -17], [1, -17]], (1, 3))
+library.make_battuti_material(
+    score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
+)
 
-commands(
+accumulator(
     ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
     baca.instrument(instruments["Violin"]),
 )
 
-commands(
+accumulator(
     ["2vn7", "2vn9", "2vn13", "2vn15", "2vn17"],
     baca.instrument(instruments["Violin"]),
 )
 
-commands(
+accumulator(
     ["va7", "va9", "va13"],
     baca.instrument(instruments["Viola"]),
 )
 
-commands(
+accumulator(
     ["vc4", "vc7", "vc9", "vc14"],
     baca.instrument(instruments["Cello"]),
 )
 
 if __name__ == "__main__":
-    metadata, persist, score, timing = baca.build.interpret_section(
+    metadata, persist, score, timing = baca.build.section(
         score,
-        commands.manifests(),
-        commands.time_signatures,
-        **baca.score_interpretation_defaults(),
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=commands,
+        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    lilypond_file = baca.make_lilypond_file(
+    lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
         includes=["../stylesheet.ily"],
