@@ -95,96 +95,117 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-# PERC1
 
-voice = score[accumulator.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
+def PERCUSSION(score):
+    voice = score[accumulator.voice_abbreviations["perc1"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
+    voice.extend(music)
+    for abbreviation in ["perc2", "perc3", "perc4"]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeat_tied_notes(accumulator.get())
+        pleaf = baca.select.pleaf(music, 0)
+        baca.repeat_tie_function(pleaf)
+        voice.extend(music)
 
-# PERC2, PERC3, PERC4
 
-for abbreviation in ["perc2", "perc3", "perc4"]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
+def STRINGS(score):
+    library.make_battuti_material(
+        score,
+        accumulator,
+        [[1, -17], [1, -17], [1, -17]],
+        (1, 3),
+        omit_contrabasses=True,
+    )
+
+
+def CB3(score):
+    voice = score[accumulator.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
     voice.extend(music)
 
-# STRINGS
 
-library.make_battuti_material(
-    score,
-    accumulator,
-    [[1, -17], [1, -17], [1, -17]],
-    (1, 3),
-    omit_contrabasses=True,
-)
+## reapply
+#
+# music_voice_names = library.get_music_voice_names(voice_names)
+#
+# accumulator(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
 
-# CB3
 
-voice = score[accumulator.voice_abbreviations["cb3"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-pleaf = baca.select.pleaf(music, 0)
-baca.repeat_tie_function(pleaf)
-voice.extend(music)
+def percussion(cache):
+    # perc1 (triangle)
 
-# reapply
+    accumulator(
+        "perc1",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.dynamic("p"),
+        library.assign_part("Percussion", 1),
+    )
 
-music_voice_names = library.get_music_voice_names(voice_names)
+    # perc2 (cymbal)
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
+    accumulator(
+        "perc2",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        library.assign_part("Percussion", 2),
+    )
 
-# perc1 (triangle)
+    # perc3 (BD)
 
-accumulator(
-    "perc1",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.dynamic("p"),
-    library.assign_part("Percussion", 1),
-)
+    accumulator(
+        "perc3",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        library.assign_part("Percussion", 3),
+    )
 
-# perc2 (cymbal)
+    # perc4 (tam-tam)
 
-accumulator(
-    "perc2",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.assign_part("Percussion", 2),
-)
+    accumulator(
+        "perc4",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        library.assign_part("Percussion", 4),
+    )
 
-# perc3 (BD)
 
-accumulator(
-    "perc3",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.assign_part("Percussion", 3),
-)
+def cb3(m):
+    accumulator(
+        "cb3",
+        baca.pitch("C#2"),
+        baca.text_spanner("ord. => ext. pont."),
+        baca.dynamic("fff"),
+        library.assign_part("Contrabass", (1, 6)),
+    )
 
-# perc4 (tam-tam)
 
-accumulator(
-    "perc4",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.assign_part("Percussion", 4),
-)
+def main():
+    PERCUSSION(score)
+    STRINGS(score)
+    CB3(score)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    names = [
+        accumulator.voice_abbreviations[_]
+        for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]
+    ]
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    percussion(cache)
+    cb3(cache["cb3"])
 
-# cb3
-
-accumulator(
-    "cb3",
-    baca.pitch("C#2"),
-    baca.text_spanner("ord. => ext. pont."),
-    baca.dynamic("fff"),
-    library.assign_part("Contrabass", (1, 6)),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

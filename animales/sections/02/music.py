@@ -60,74 +60,85 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=baca.tags.ONLY_SCORE),
 )
 
-# STRINGS
 
-library.make_trill_rhythm(score, accumulator.get(), voice_metadata, previous_persist)
+def STRINGS(score):
+    library.make_trill_rhythm(
+        score, accumulator.get(), voice_metadata, previous_persist
+    )
+    music_voice_names = library.get_music_voice_names(voice_names)
+    for voice_name in music_voice_names:
+        voice = score[voice_name]
+        baca.append_anchor_note_function(voice)
 
-# anchor notes & reapply
 
-music_voice_names = library.get_music_voice_names(voice_names)
+def strings(cache):
 
-accumulator(
-    music_voice_names,
-    baca.append_anchor_note(),
-    baca.reapply_persistent_indicators(),
-)
+    string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
 
-# strings
+    # first accents ...
+    accumulator(
+        string_abbreviations,
+        baca.accent(
+            selector=lambda _: baca.select.pheads(_)[1:],
+        ),
+    )
 
-strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    # then untie ...
+    accumulator(
+        (string_abbreviations, 5),
+        baca.untie(
+            lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
 
-# first accents ...
-accumulator(
-    strings,
-    baca.accent(
-        selector=lambda _: baca.select.pheads(_)[1:],
-    ),
-)
+    # ... then pitch
+    accumulator(
+        (string_abbreviations, (1, 4)),
+        baca.pitch("Gb4"),
+        baca.trill_spanner(alteration="Ab4"),
+        baca.dynamic(
+            "f-sub-but-accents-continue-sffz",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
 
-# then untie ...
-accumulator(
-    (strings, 5),
-    baca.untie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        (string_abbreviations, (5, 6)),
+        baca.pitch("F4"),
+        baca.trill_spanner(alteration="Gb4", right_broken=True),
+        baca.dynamic(
+            "p-sub-but-accents-continue-sffz",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+    )
 
-# ... then pitch
-accumulator(
-    (strings, (1, 4)),
-    baca.pitch("Gb4"),
-    baca.trill_spanner(alteration="Ab4"),
-    baca.dynamic(
-        "f-sub-but-accents-continue-sffz",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        ["1vn3", "2vn3"],
+        baca.trill_spanner_staff_padding(6),
+    )
 
-accumulator(
-    (strings, (5, 6)),
-    baca.pitch("F4"),
-    baca.trill_spanner(alteration="Gb4", right_broken=True),
-    baca.dynamic(
-        "p-sub-but-accents-continue-sffz",
-        selector=lambda _: baca.select.pleaf(_, 0),
-    ),
-)
+    accumulator(
+        ["1vn1", "2vn1", "va1", "va3", "vc1"],
+        baca.trill_spanner_staff_padding(4),
+    )
 
-accumulator(
-    ["1vn3", "2vn3"],
-    baca.trill_spanner_staff_padding(6),
-)
+    library.assign_trill_parts(accumulator)
 
-accumulator(
-    ["1vn1", "2vn1", "va1", "va3", "vc1"],
-    baca.trill_spanner_staff_padding(4),
-)
 
-library.assign_trill_parts(accumulator)
+def main():
+    STRINGS(score)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    strings(cache)
+
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

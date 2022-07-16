@@ -109,67 +109,75 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-# BRASS
 
-library.make_brass_sforzando_material(
-    score, accumulator, 1, reapply_persistent_indicators=True
-)
+def BRASS(score):
 
-for abbreviation in [
-    "hn1",
-    "hn2",
-    "hn3",
-    "hn4",
-    "tp1",
-    "tp2",
-    "tp3",
-    "tp4",
-    "tbn1",
-    "tbn2",
-    "tbn3",
-    "tbn4",
-    "tub",
-]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_mmrests(accumulator.get(2, 3))
+    library.make_brass_sforzando_material(
+        score, accumulator, 1, reapply_persistent_indicators=True
+    )
+
+    for abbreviation in [
+        "hn1",
+        "hn2",
+        "hn3",
+        "hn4",
+        "tp1",
+        "tp2",
+        "tp3",
+        "tp4",
+        "tbn1",
+        "tbn2",
+        "tbn3",
+        "tbn4",
+        "tub",
+    ]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_mmrests(accumulator.get(2, 3))
+        voice.extend(music)
+
+
+def PERC2(voice):
+    voice = score[accumulator.voice_abbreviations["perc2"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
-# PERC2
 
-voice = score[accumulator.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
+def brass(cache):
+    library.assign_brass_sforzando_parts(accumulator)
 
-# STRINGS
 
-library.make_battuti_material(
-    score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
-)
+def perc2(m):
+    "cymbal"
+    accumulator(
+        "perc2",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.dynamic("p"),
+        library.assign_part("Percussion", 2),
+    )
 
-# reapply
 
-music_voice_names = library.get_music_voice_names(voice_names)
+def main():
+    BRASS(score)
+    PERC2(accumulator.voice("perc2"))
+    library.make_battuti_material(
+        score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
+    )
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    abbreviations = ["perc2"]
+    names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    brass(cache)
+    perc2(cache["perc2"])
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# brass
-
-library.assign_brass_sforzando_parts(accumulator)
-
-# perc2 (cymbal)
-
-accumulator(
-    "perc2",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.dynamic("p"),
-    library.assign_part("Percussion", 2),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

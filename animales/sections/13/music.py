@@ -93,222 +93,250 @@ baca.text_spanner_y_offset_function(
     tags=[abjad.Tag("+TABLOID_SCORE")],
 )
 
-# CL
 
-voice = score[accumulator.voice_abbreviations["cl"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
+def CL(voice):
+    voice = score[accumulator.voice_abbreviations["cl"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
+    voice.extend(music)
 
-# BCL
 
-voice = score[accumulator.voice_abbreviations["bcl"]]
-music = baca.make_mmrests(accumulator.get(1, 4))
-voice.extend(music)
-music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
-voice.extend(music)
+def BCL(voice):
+    voice = score[accumulator.voice_abbreviations["bcl"]]
+    music = baca.make_mmrests(accumulator.get(1, 4))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
+    voice.extend(music)
 
-# HARP EXCHANGE (PF, HP, PERC3, CB1)
 
-parameter = "RHYTHM"
-persist = "harp_exchange_rhythm"
+def PF_HP_PERC3_CB1(score):
+    parameter = "RHYTHM"
+    persist = "harp_exchange_rhythm"
+    for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
+        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice = score[voice_name]
+        music, state = library.make_harp_exchange_rhythm(
+            accumulator.get(),
+            part,
+            voice_name,
+            previous_persist=previous_persist,
+        )
+        voice.extend(music)
+        baca.update_voice_metadata(
+            voice_metadata, voice_name, parameter, persist, state
+        )
 
-for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
-    voice_name = accumulator.voice_abbreviations[abbreviation]
-    voice = score[voice_name]
-    music, state = library.make_harp_exchange_rhythm(
-        accumulator.get(),
-        part,
-        voice_name,
-        previous_persist=previous_persist,
+
+def PERCUSSION(score):
+    voice = score[accumulator.voice_abbreviations["perc1"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
+    voice.extend(music)
+    voice = score[accumulator.voice_abbreviations["perc2"]]
+    music = baca.make_repeat_tied_notes(accumulator.get())
+    voice.extend(music)
+
+
+def STRINGS(score):
+    for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
+        voice.extend(music)
+
+
+## reapply
+#
+# music_voice_names = library.get_music_voice_names(voice_names)
+#
+# accumulator(
+#    music_voice_names,
+#    baca.reapply_persistent_indicators(),
+# )
+
+
+def cl(m):
+    accumulator(
+        "cl",
+        library.short_instrument_name("Cl. 1"),
+        baca.pitch("Eb5"),
+        baca.hairpin("mp <", right_broken=True),
+        library.assign_part("Clarinet", 1),
     )
-    voice.extend(music)
-    baca.update_voice_metadata(voice_metadata, voice_name, parameter, persist, state)
 
-# PERC1
 
-voice = score[accumulator.voice_abbreviations["perc1"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
+def bcl(m):
+    accumulator(
+        ("bcl", (5, 6)),
+        baca.pitch("Ab2"),
+        baca.hairpin("o<", right_broken=True),
+    )
+    accumulator(
+        "bcl",
+        library.assign_part("BassClarinet"),
+    )
 
-# PERC2
 
-voice = score[accumulator.voice_abbreviations["perc2"]]
-music = baca.make_repeat_tied_notes(accumulator.get())
-voice.extend(music)
+def pf(m):
+    accumulator(
+        "pf",
+        baca.pitch("C5"),
+        baca.stopped(selector=lambda _: baca.select.pheads(_)),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+        library.assign_part("Piano"),
+    )
 
-# STRINGS
 
-for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
-    voice.extend(music)
+def hp(m):
+    accumulator(
+        "hp",
+        baca.pitch("C5"),
+        baca.stopped(selector=lambda _: baca.select.pheads(_)),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+        library.assign_part("Harp"),
+    )
 
-# reapply
 
-music_voice_names = library.get_music_voice_names(voice_names)
+def percussion(cache):
 
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
+    # perc1 (triangle)
 
-# cl
+    accumulator(
+        "perc1",
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        baca.hairpin(
+            "niente o< mp",
+            selector=lambda _: baca.select.pleaves(_)[:4],
+        ),
+        library.assign_part("Percussion", 1),
+    )
 
-accumulator(
-    "cl",
-    library.short_instrument_name("Cl. 1"),
-    baca.pitch("Eb5"),
-    baca.hairpin("mp <", right_broken=True),
-    library.assign_part("Clarinet", 1),
-)
+    # perc2 (cymbal)
 
-# bcl
+    accumulator(
+        "perc2",
+        baca.repeat_tie(
+            lambda _: baca.select.pleaf(_, 0),
+        ),
+        baca.staff_position(0),
+        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
+        library.assign_part("Percussion", 2),
+    )
 
-accumulator(
-    ("bcl", (5, 6)),
-    baca.pitch("Ab2"),
-    baca.hairpin("o<", right_broken=True),
-)
+    # perc3 (vibraphone)
 
-accumulator(
-    "bcl",
-    library.assign_part("BassClarinet"),
-)
+    accumulator(
+        "perc3",
+        baca.pitch("C5"),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+        library.assign_part("Percussion", 3),
+    )
 
-# pf, hp
 
-accumulator(
-    "pf",
-    baca.pitch("C5"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.assign_part("Piano"),
-)
+def strings(cache):
 
-accumulator(
-    "hp",
-    baca.pitch("C5"),
-    baca.stopped(selector=lambda _: baca.select.pheads(_)),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.assign_part("Harp"),
-)
+    accumulator(
+        "1vn1",
+        baca.interpolate_pitches("Ab6", "A3"),
+        baca.glissando(
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
+            style="trill",
+        ),
+        baca.articulation("trill"),
+        baca.hairpin("pp <", right_broken=True),
+        library.assign_part("FirstViolin", (1, 18)),
+    )
 
-# perc1 (triangle)
+    accumulator(
+        "2vn1",
+        baca.interpolate_pitches("Ab5", "A3"),
+        baca.glissando(
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
+            style="trill",
+        ),
+        baca.articulation("trill"),
+        baca.hairpin("pp <", right_broken=True),
+        library.assign_part("SecondViolin", (1, 18)),
+    )
 
-accumulator(
-    "perc1",
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    baca.hairpin(
-        "niente o< mp",
-        selector=lambda _: baca.select.pleaves(_)[:4],
-    ),
-    library.assign_part("Percussion", 1),
-)
+    accumulator(
+        "va1",
+        baca.interpolate_pitches("Ab4", "A3"),
+        baca.glissando(
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
+            style="trill",
+        ),
+        baca.articulation("trill"),
+        baca.hairpin("pp <", right_broken=True),
+        library.assign_part("Viola", (1, 18)),
+    )
 
-# perc2 (cymbal)
+    accumulator(
+        "vc1",
+        baca.interpolate_pitches("Ab2", "A3"),
+        baca.glissando(
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
+            style="trill",
+        ),
+        baca.hairpin("pp <", right_broken=True),
+        baca.articulation("trill"),
+        library.assign_part("Cello", (1, 14)),
+    )
 
-accumulator(
-    "perc2",
-    baca.repeat_tie(
-        lambda _: baca.select.pleaf(_, 0),
-    ),
-    baca.staff_position(0),
-    baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    library.assign_part("Percussion", 2),
-)
+    accumulator(
+        "cb3",
+        baca.interpolate_pitches("Ab1", "G1"),
+        baca.glissando(
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
+        ),
+        baca.articulation("trill"),
+        baca.hairpin("pp <", right_broken=True),
+        library.assign_part("Contrabass", (2, 6)),
+    )
 
-# perc3 (vibraphone)
 
-accumulator(
-    "perc3",
-    baca.pitch("C5"),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.assign_part("Percussion", 3),
-)
+def cb1(m):
+    accumulator(
+        "cb1",
+        baca.pitch("Cqf5", do_not_transpose=True),
+        baca.note_head_style_harmonic(),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+        library.assign_part("Contrabass", 1),
+    )
 
-# strings
 
-accumulator(
-    "1vn1",
-    baca.interpolate_pitches("Ab6", "A3"),
-    baca.glissando(
-        allow_repeats=True,
-        hide_middle_note_heads=True,
-        right_broken=True,
-        style="trill",
-    ),
-    baca.articulation("trill"),
-    baca.hairpin("pp <", right_broken=True),
-    library.assign_part("FirstViolin", (1, 18)),
-)
+def main():
+    CL(accumulator.voice("cl"))
+    BCL(accumulator.voice("bcl"))
+    PF_HP_PERC3_CB1(score)
+    PERCUSSION(score)
+    STRINGS(score)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    cl(cache["cl"])
+    bcl(cache["bcl"])
+    pf(cache["pf"])
+    hp(cache["hp"])
+    percussion(cache)
+    strings(cache)
+    cb1(cache["cb1"])
 
-accumulator(
-    "2vn1",
-    baca.interpolate_pitches("Ab5", "A3"),
-    baca.glissando(
-        allow_repeats=True,
-        hide_middle_note_heads=True,
-        right_broken=True,
-        style="trill",
-    ),
-    baca.articulation("trill"),
-    baca.hairpin("pp <", right_broken=True),
-    library.assign_part("SecondViolin", (1, 18)),
-)
-
-accumulator(
-    "va1",
-    baca.interpolate_pitches("Ab4", "A3"),
-    baca.glissando(
-        allow_repeats=True,
-        hide_middle_note_heads=True,
-        right_broken=True,
-        style="trill",
-    ),
-    baca.articulation("trill"),
-    baca.hairpin("pp <", right_broken=True),
-    library.assign_part("Viola", (1, 18)),
-)
-
-accumulator(
-    "vc1",
-    baca.interpolate_pitches("Ab2", "A3"),
-    baca.glissando(
-        allow_repeats=True,
-        hide_middle_note_heads=True,
-        right_broken=True,
-        style="trill",
-    ),
-    baca.hairpin("pp <", right_broken=True),
-    baca.articulation("trill"),
-    library.assign_part("Cello", (1, 14)),
-)
-
-accumulator(
-    "cb3",
-    baca.interpolate_pitches("Ab1", "G1"),
-    baca.glissando(
-        allow_repeats=True,
-        hide_middle_note_heads=True,
-        right_broken=True,
-    ),
-    baca.articulation("trill"),
-    baca.hairpin("pp <", right_broken=True),
-    library.assign_part("Contrabass", (2, 6)),
-)
-
-# cb1 (solo)
-
-accumulator(
-    "cb1",
-    baca.pitch("Cqf5", do_not_transpose=True),
-    baca.note_head_style_harmonic(),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    library.assign_part("Contrabass", 1),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

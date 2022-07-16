@@ -56,90 +56,96 @@ rests = score["Rests"]
 for index, string in ((10 - 1, "fermata"),):
     baca.global_fermata(rests[index], string)
 
-# PF
 
-voice = score[accumulator.voice_abbreviations["pf"]]
-music = baca.make_notes(accumulator.get(1, 9))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(10))
-voice.extend(music)
+def PF(voice):
+    voice = score[accumulator.voice_abbreviations["pf"]]
+    music = baca.make_notes(accumulator.get(1, 9))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(10))
+    voice.extend(music)
 
-# PERC4
 
-voice = score[accumulator.voice_abbreviations["perc4"]]
-music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(9, 10))
-voice.extend(music)
+def PERC4(voice):
+    voice = score[accumulator.voice_abbreviations["perc4"]]
+    music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(9, 10))
+    voice.extend(music)
 
-# reapply
 
-music_voice_names = library.get_music_voice_names(voice_names)
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# fermatas
-
-library.attach_grand_pause_fermatas(accumulator, score, measure=10)
-
-# pf
-
-accumulator(
-    ("pf", (1, 9)),
-    baca.pitch("C#4"),
-    baca.note_head_style_harmonic(),
-    baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-    baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
-    baca.only_parts(baca.text_script_x_offset(3)),
-)
-
-accumulator(
-    "pf",
-    library.assign_part("Piano"),
-)
-
-# perc4 (slate)
-
-accumulator(
-    "perc4",
-    library.assign_part("Percussion", 4),
-)
-
-accumulator(
-    ("perc4", (1, 8)),
-    library.short_instrument_name("Perc. 4 (slate)"),
-    baca.staff_position(0),
-    baca.markup(r"\animales-stonecircle-markup"),
-    baca.only_parts(baca.text_script_x_offset(3)),
-    baca.dynamic('"mf"'),
-)
-
-accumulator(
-    ("perc4", 10),
-    baca.chunk(
-        baca.mark(r"\animales-colophon-markup"),
-        baca.rehearsal_mark_down(),
-        baca.rehearsal_mark_padding(6),
-        baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-        selector=lambda _: baca.select.rleaf(_, -1),
-    ),
-)
-
-# pf, perc4
-
-for voice_name in ("pf", "perc4"):
+def pf(m):
     accumulator(
-        (voice_name, 1),
-        baca.tag(
-            abjad.Tag("+TABLOID_SCORE"),
-            baca.literal(r"\magnifyStaff #10/7"),
+        ("pf", (1, 9)),
+        baca.pitch("C#4"),
+        baca.note_head_style_harmonic(),
+        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
+        baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
+        baca.only_parts(baca.text_script_x_offset(3)),
+    )
+
+    accumulator(
+        "pf",
+        library.assign_part("Piano"),
+    )
+
+
+def perc4(m):
+    "slate"
+    accumulator(
+        "perc4",
+        library.assign_part("Percussion", 4),
+    )
+
+    accumulator(
+        ("perc4", (1, 8)),
+        library.short_instrument_name("Perc. 4 (slate)"),
+        baca.staff_position(0),
+        baca.markup(r"\animales-stonecircle-markup"),
+        baca.only_parts(baca.text_script_x_offset(3)),
+        baca.dynamic('"mf"'),
+    )
+
+    accumulator(
+        ("perc4", 10),
+        baca.chunk(
+            baca.mark(r"\animales-colophon-markup"),
+            baca.rehearsal_mark_down(),
+            baca.rehearsal_mark_padding(6),
+            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
+            selector=lambda _: baca.select.rleaf(_, -1),
         ),
     )
 
+
+def pf_perc4(cache):
+    for voice_name in ("pf", "perc4"):
+        accumulator(
+            (voice_name, 1),
+            baca.tag(
+                abjad.Tag("+TABLOID_SCORE"),
+                baca.literal(r"\magnifyStaff #10/7"),
+            ),
+        )
+
+
+def main():
+    PF(accumulator.voice("pf"))
+    PERC4(accumulator.voice("perc4"))
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    library.attach_grand_pause_fermatas(accumulator, score, measure=10)
+    pf(cache["pf"])
+    perc4(cache["perc4"])
+    pf_perc4(cache)
+
+
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

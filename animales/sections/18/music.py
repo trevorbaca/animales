@@ -89,50 +89,6 @@ for index, string in (
 ):
     baca.global_fermata(rests[index], string)
 
-# BRASS
-
-for abbreviation in (
-    "hn1",
-    "hn2",
-    "hn3",
-    "hn4",
-    "tp1",
-    "tp2",
-    "tp3",
-    "tp4",
-    "tbn1",
-    "tbn2",
-    "tbn3",
-    "tbn4",
-):
-    voice = score[accumulator.voice_abbreviations[abbreviation]]
-    music = library.make_downbeat_attack(accumulator.get(1))
-    voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(2, 12))
-    voice.extend(music)
-
-# STRINGS
-
-
-def _upper_voice():
-    return baca.suite(
-        baca.only_parts(baca.text_spanner_staff_padding(5)),
-        baca.not_parts(
-            baca.dynamic_text_stencil_false(selector=lambda _: baca.select.leaves(_))
-        ),
-        baca.not_parts(baca.hairpin_stencil_false()),
-        baca.not_parts(baca.text_spanner_stencil_false()),
-        baca.not_parts(baca.voice_one()),
-    )
-
-
-def _lower_voice(n=5):
-    return baca.suite(
-        baca.not_parts(baca.voice_two()),
-        baca.not_parts(baca.text_spanner_staff_padding(n)),
-    )
-
-
 string_parts = {
     "1vn1": [(1, 4), True, "A5"],
     "1vn2": [(5, 8), False, "F5"],
@@ -153,203 +109,255 @@ string_parts = {
 }
 
 
-def _tremolo(peak="f"):
-    return baca.suite(
+def BRASS(score):
+    for abbreviation in (
+        "hn1",
+        "hn2",
+        "hn3",
+        "hn4",
+        "tp1",
+        "tp2",
+        "tp3",
+        "tp4",
+        "tbn1",
+        "tbn2",
+        "tbn3",
+        "tbn4",
+    ):
+        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        music = library.make_downbeat_attack(accumulator.get(1))
+        voice.extend(music)
+        music = baca.make_mmrests(accumulator.get(2, 12))
+        voice.extend(music)
+
+
+def STRINGS(score):
+    voice = score[accumulator.voice_abbreviations["1vn5"]]
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(3))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(4, 7))
+    voice.extend(music)
+    music = baca.make_mmrests(accumulator.get(8))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(accumulator.get(9, 12))
+    voice.extend(music)
+    for abbreviation, items in string_parts.items():
+        assert isinstance(items, list), repr(items)
+        voice_name = accumulator.voice_abbreviations[abbreviation]
+        if voice_name != "FirstViolins.Voice.5":
+            voice = score[voice_name]
+            music = baca.make_mmrests(accumulator.get(1, 3))
+            voice.extend(music)
+            music = baca.make_repeat_tied_notes(accumulator.get(4, 6))
+            voice.extend(music)
+            music = baca.make_mmrests(accumulator.get(7, 8))
+            voice.extend(music)
+            music = baca.make_repeat_tied_notes(accumulator.get(9, 11))
+            voice.extend(music)
+            music = baca.make_mmrests(accumulator.get(12))
+            voice.extend(music)
+
+
+def strings(cache):
+    def _upper_voice():
+        return baca.suite(
+            baca.only_parts(baca.text_spanner_staff_padding(5)),
+            baca.not_parts(
+                baca.dynamic_text_stencil_false(
+                    selector=lambda _: baca.select.leaves(_)
+                )
+            ),
+            baca.not_parts(baca.hairpin_stencil_false()),
+            baca.not_parts(baca.text_spanner_stencil_false()),
+            baca.not_parts(baca.voice_one()),
+        )
+
+    def _lower_voice(n=5):
+        return baca.suite(
+            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.text_spanner_staff_padding(n)),
+        )
+
+    def _tremolo(peak="f"):
+        return baca.suite(
+            baca.stem_tremolo(
+                selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
+            ),
+            baca.text_spanner(
+                "tasto => ext. pont. => tasto",
+                pieces=lambda _: baca.select.cmgroups(_, [2]),
+            ),
+            baca.hairpin(
+                f"niente o< {peak} >o niente",
+                pieces=lambda _: baca.mgroups(_, [2, 2]),
+            ),
+        )
+
+    for abbreviation, items in string_parts.items():
+        assert isinstance(items, list), repr(items)
+        commands_ = []
+        voice_name = accumulator.voice_abbreviations[abbreviation]
+        part_name = voice_name.split(".")[0].removesuffix("s")
+        numbers = items[0]
+        commands_.append(library.assign_part(part_name, numbers))
+        if items[1] is True:
+            commands_.append(_upper_voice())
+        elif items[1] is False:
+            commands_.append(_lower_voice())
+        commands_.append(
+            baca.pitch(
+                items[2],
+                selector=lambda _: baca.select.plts(_),
+            ),
+        )
+        accumulator(
+            voice_name,
+            *commands_,
+        )
+        if voice_name == "FirstViolins.Voice.5":
+            continue
+        accumulator(
+            (voice_name, (4, 7)),
+            _tremolo("f"),
+        )
+        accumulator(
+            (voice_name, (9, 12)),
+            _tremolo("mp"),
+        )
+
+
+def brass(cache):
+
+    library.assign_brass_sforzando_parts(accumulator, omit_tuba=True)
+
+    # horns
+
+    accumulator(
+        ("hn1", 1),
+        baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("hn3", 1),
+        baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+    accumulator(
+        ("hn2", 1),
+        baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("hn4", 1),
+        baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+    # trumpets
+
+    accumulator(
+        ("tp1", 1),
+        baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("tp3", 1),
+        baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+    accumulator(
+        ("tp2", 1),
+        baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("tp4", 1),
+        baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+    # trombones
+
+    accumulator(
+        ("tbn1", 1),
+        baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("tbn3", 1),
+        baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+    accumulator(
+        ("tbn2", 1),
+        baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.dynamic_up()),
+        baca.only_parts(baca.dynamic("sfz")),
+    )
+
+    accumulator(
+        ("tbn4", 1),
+        baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
+        baca.not_parts(baca.voice_two()),
+        baca.dynamic("sfz"),
+    )
+
+
+def solo_violin(m):
+    accumulator(
+        "1vn5",
+        baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
         baca.stem_tremolo(
             selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
         ),
-        baca.text_spanner(
-            "tasto => ext. pont. => tasto",
-            pieces=lambda _: baca.select.cmgroups(_, [2]),
-        ),
-        baca.hairpin(
-            f"niente o< {peak} >o niente",
-            pieces=lambda _: baca.mgroups(_, [2, 2]),
-        ),
     )
 
 
-voice = score[accumulator.voice_abbreviations["1vn5"]]
-music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(3))
-voice.extend(music)
-music = baca.make_repeat_tied_notes(accumulator.get(4, 7))
-voice.extend(music)
-music = baca.make_mmrests(accumulator.get(8))
-voice.extend(music)
-music = baca.make_repeat_tied_notes(accumulator.get(9, 12))
-voice.extend(music)
-
-for abbreviation, items in string_parts.items():
-    assert isinstance(items, list), repr(items)
-    commands_ = []
-    voice_name = accumulator.voice_abbreviations[abbreviation]
-    if voice_name != "FirstViolins.Voice.5":
-        voice = score[voice_name]
-        music = baca.make_mmrests(accumulator.get(1, 3))
-        voice.extend(music)
-        music = baca.make_repeat_tied_notes(accumulator.get(4, 6))
-        voice.extend(music)
-        music = baca.make_mmrests(accumulator.get(7, 8))
-        voice.extend(music)
-        music = baca.make_repeat_tied_notes(accumulator.get(9, 11))
-        voice.extend(music)
-        music = baca.make_mmrests(accumulator.get(12))
-        voice.extend(music)
-    part_name = voice_name.split(".")[0].removesuffix("s")
-    numbers = items[0]
-    commands_.append(library.assign_part(part_name, numbers))
-    if items[1] is True:
-        commands_.append(_upper_voice())
-    elif items[1] is False:
-        commands_.append(_lower_voice())
-    commands_.append(
-        baca.pitch(
-            items[2],
-            selector=lambda _: baca.select.plts(_),
-        ),
+def main():
+    BRASS(score)
+    STRINGS(score)
+    library.attach_grand_pause_fermatas(accumulator, score, measure=3)
+    library.attach_grand_pause_fermatas(accumulator, score, measure=8)
+    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
     )
-    accumulator(
-        voice_name,
-        *commands_,
-    )
-    if voice_name == "FirstViolins.Voice.5":
-        continue
-    accumulator(
-        (voice_name, (4, 7)),
-        _tremolo("f"),
-    )
-    accumulator(
-        (voice_name, (9, 12)),
-        _tremolo("mp"),
-    )
+    brass(cache)
+    strings(cache)
+    solo_violin(cache["1vn5"])
 
-# reapply
-
-music_voice_names = library.get_music_voice_names(voice_names)
-
-accumulator(
-    music_voice_names,
-    baca.reapply_persistent_indicators(),
-)
-
-# fermatas
-
-library.attach_grand_pause_fermatas(accumulator, score, measure=3)
-library.attach_grand_pause_fermatas(accumulator, score, measure=8)
-
-# brass
-
-library.assign_brass_sforzando_parts(accumulator, omit_tuba=True)
-
-# horns
-
-accumulator(
-    ("hn1", 1),
-    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("hn3", 1),
-    baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-accumulator(
-    ("hn2", 1),
-    baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("hn4", 1),
-    baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-# trumpets
-
-accumulator(
-    ("tp1", 1),
-    baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("tp3", 1),
-    baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-accumulator(
-    ("tp2", 1),
-    baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("tp4", 1),
-    baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-# trombones
-
-accumulator(
-    ("tbn1", 1),
-    baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("tbn3", 1),
-    baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-accumulator(
-    ("tbn2", 1),
-    baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_one()),
-    baca.not_parts(baca.dynamic_up()),
-    baca.only_parts(baca.dynamic("sfz")),
-)
-
-accumulator(
-    ("tbn4", 1),
-    baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
-    baca.not_parts(baca.voice_two()),
-    baca.dynamic("sfz"),
-)
-
-# solo violin
-
-accumulator(
-    "1vn5",
-    baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
-    baca.stem_tremolo(
-        selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-    ),
-)
 
 if __name__ == "__main__":
+    main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
