@@ -72,9 +72,7 @@ def STRINGS(score):
 
 
 def strings(cache):
-
     strings = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-
     # first accents ...
     accumulator(
         strings,
@@ -82,13 +80,11 @@ def strings(cache):
             selector=lambda _: baca.select.pheads(_)[1:],
         ),
     )
-
     # then untie ...
     accumulator(
         (strings, 4),
         baca.untie(lambda _: baca.select.pleaf(_, 0)),
     )
-
     # ... then pitch
     accumulator(
         (strings, (1, 3)),
@@ -99,7 +95,6 @@ def strings(cache):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     accumulator(
         (strings, (4, 5)),
         baca.pitch("Eb4"),
@@ -109,17 +104,14 @@ def strings(cache):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     accumulator(
         ["1vn3", "2vn3"],
         baca.trill_spanner_staff_padding(6),
     )
-
     accumulator(
         ["1vn1", "2vn1", "va1", "va3", "vc1"],
         baca.trill_spanner_staff_padding(4),
     )
-
     library.assign_trill_parts(accumulator)
 
 

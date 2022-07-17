@@ -102,16 +102,6 @@ def STRINGS(score, voice_abbreviation_to_members):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def ob(m):
     accumulator(
         "ob",
@@ -120,12 +110,10 @@ def ob(m):
         baca.clef("treble"),
         library.assign_part("Oboe", (1, 3)),
     )
-
     accumulator(
         ("ob", (1, 5)),
         baca.pitch("A4"),
     )
-
     accumulator(
         ("ob", (1, 6)),
         swell("f"),
@@ -140,12 +128,10 @@ def eh(m):
         baca.clef("treble"),
         baca.pitch("G3"),
     )
-
     accumulator(
         ("eh", (1, 6)),
         swell("f"),
     )
-
     accumulator(
         "eh",
         library.assign_part("EnglishHorn"),
@@ -161,28 +147,23 @@ def bsns(cache):
         baca.not_parts(baca.voice_one()),
         library.assign_part("Bassoon", 1),
     )
-
     accumulator(
         "bsn2",
         baca.not_parts(baca.voice_two()),
         library.assign_part("Bassoon", 2),
     )
-
     accumulator(
         ("bsn1", (1, 5)),
         baca.pitch("B3"),
     )
-
     accumulator(
         ("bsn1", (1, 6)),
         baca.only_parts(swell("f")),
     )
-
     accumulator(
         ("bsn2", (1, 5)),
         baca.pitch("G2"),
     )
-
     accumulator(
         ("bsn2", (1, 6)),
         swell("f"),
@@ -239,7 +220,6 @@ def strings(cache, voice_abbreviation_to_members):
         baca.dynamic("f"),
         library.assign_part("FirstViolin", 18),
     )
-
     voice_abbreviation_to_voice_name = library.voice_abbreviations()
     for voice_abbreviation, members in voice_abbreviation_to_members.items():
         voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
@@ -248,7 +228,6 @@ def strings(cache, voice_abbreviation_to_members):
             voice_abbreviation,
             library.assign_part(part_name, token=members),
         )
-
     accumulator(
         ("1vn1", (1, 10)),
         library.short_instrument_name("Vni. I (1-4) (5-8)"),
@@ -262,14 +241,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("1vn2", (1, 10)),
         baca.pitch("F5"),
         _lower_voice_suite(8),
         _tremolo_suite(),
     )
-
     accumulator(
         ("1vn3", (1, 10)),
         library.short_instrument_name("Vni. I (9-12) (13-17)"),
@@ -280,14 +257,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("1vn4", (1, 10)),
         baca.pitch("D5"),
         _lower_voice_suite(8),
         _tremolo_suite(),
     )
-
     accumulator(
         ("2vn1", (1, 10)),
         library.short_instrument_name("Vni. II (1-4) (5-8)"),
@@ -298,14 +273,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("2vn2", (1, 10)),
         baca.pitch("G4"),
         _lower_voice_suite(),
         _tremolo_suite(),
     )
-
     accumulator(
         ("2vn3", (1, 10)),
         library.short_instrument_name("Vni. II (9-12) (13-18)"),
@@ -316,14 +289,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("2vn4", (1, 10)),
         baca.pitch("F4"),
         _lower_voice_suite(),
         _tremolo_suite(),
     )
-
     accumulator(
         ("va1", (1, 10)),
         library.short_instrument_name("Vle. (1-4) (5-8)"),
@@ -334,14 +305,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("va2", (1, 10)),
         baca.pitch("A3"),
         _lower_voice_suite(),
         _tremolo_suite(),
     )
-
     accumulator(
         ("va3", (1, 10)),
         library.short_instrument_name("Vle. (9-12) (13-18)"),
@@ -352,14 +321,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("va4", (1, 10)),
         baca.pitch("G3"),
         _lower_voice_suite(),
         _tremolo_suite(),
     )
-
     accumulator(
         ("vc1", (1, 10)),
         library.short_instrument_name("Vc. (1-8) (9-14)"),
@@ -370,14 +337,12 @@ def strings(cache, voice_abbreviation_to_members):
         _tremolo_suite(),
         _upper_voice_suite(),
     )
-
     accumulator(
         ("vc2", (1, 10)),
         baca.pitch("G2"),
         _lower_voice_suite(),
         _tremolo_suite(),
     )
-
     accumulator(
         ("cb3", (1, 10)),
         library.short_instrument_name("Cb."),

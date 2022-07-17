@@ -115,16 +115,6 @@ def STRINGS(score, absent_left_broken):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def winds(cache):
     accumulator(
         "cl",
@@ -153,38 +143,31 @@ def percussion(cache):
 
 
 def strings(cache, absent_left_broken):
-
     accumulator(
         "1vn1",
         library.short_instrument_name("Vni. I"),
         baca.not_parts(baca.one_voice()),
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         library.short_instrument_name("Vni. II"),
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         library.short_instrument_name("Vle."),
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         "cb3",
         library.assign_part("Contrabass", (1, 6)),
     )
-
     left_broken = ["1vn1", "2vn1", "va1", "vc1"]
-
     accumulator(
         (left_broken, 1),
         baca.repeat_tie(
@@ -192,12 +175,10 @@ def strings(cache, absent_left_broken):
         ),
         baca.not_section(baca.stop_trill()),
     )
-
     accumulator(
         (absent_left_broken, 1),
         baca.not_section(baca.stop_trill()),
     )
-
     accumulator(
         "1vn1",
         baca.interpolate_pitches("B3", "A6"),
@@ -210,7 +191,6 @@ def strings(cache, absent_left_broken):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "2vn1",
         baca.interpolate_pitches("B3", "A5"),
@@ -223,7 +203,6 @@ def strings(cache, absent_left_broken):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "va1",
         baca.interpolate_pitches("B3", "A4"),
@@ -236,7 +215,6 @@ def strings(cache, absent_left_broken):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "vc1",
         baca.interpolate_pitches("B3", "C3"),
@@ -249,7 +227,6 @@ def strings(cache, absent_left_broken):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "cb3",
         baca.repeat_tie(

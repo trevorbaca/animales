@@ -99,17 +99,14 @@ def strings(cache):
         ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
         baca.instrument(instruments["Violin"]),
     )
-
     accumulator(
         ["2vn7", "2vn9", "2vn13", "2vn15", "2vn17"],
         baca.instrument(instruments["Violin"]),
     )
-
     accumulator(
         ["va7", "va9", "va13"],
         baca.instrument(instruments["Viola"]),
     )
-
     accumulator(
         ["vc4", "vc7", "vc9", "vc14"],
         baca.instrument(instruments["Cello"]),

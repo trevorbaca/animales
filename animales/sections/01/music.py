@@ -62,22 +62,17 @@ def PERCUSSION(score):
     voice = score["Percussion.1.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
-
     voice = score["Percussion.2.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
-
     voice = score["Percussion.4.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
 def STRINGS(score, string_abbreviations):
-
     library.make_trill_rhythm(score, accumulator.get(), voice_metadata)
-
     # anchor notes
-
     accumulator(
         string_abbreviations,
         baca.append_anchor_note(),
@@ -85,7 +80,6 @@ def STRINGS(score, string_abbreviations):
 
 
 def percussion(score):
-
     accumulator(
         "perc1",
         baca.instrument(instruments["Percussion"]),
@@ -95,7 +89,6 @@ def percussion(score):
         baca.staff_lines(1),
         library.assign_part("Percussion", 1),
     )
-
     accumulator(
         "perc2",
         baca.instrument(instruments["Percussion"]),
@@ -105,7 +98,6 @@ def percussion(score):
         baca.staff_lines(1),
         library.assign_part("Percussion", 2),
     )
-
     accumulator(
         "perc4",
         baca.instrument(instruments["Percussion"]),
@@ -118,7 +110,6 @@ def percussion(score):
 
 
 def strings(score, string_abbreviations):
-
     accumulator(
         "1vn1",
         baca.instrument(instruments["Violin"]),
@@ -126,7 +117,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vni. I (1-10)"),
         baca.clef("treble"),
     )
-
     accumulator(
         "1vn3",
         baca.instrument(instruments["Violin"]),
@@ -134,7 +124,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vni. I (11-18)"),
         baca.clef("treble"),
     )
-
     accumulator(
         "2vn1",
         baca.instrument(instruments["Violin"]),
@@ -142,7 +131,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vni. II (1-10)"),
         baca.clef("treble"),
     )
-
     accumulator(
         "2vn3",
         baca.instrument(instruments["Violin"]),
@@ -150,7 +138,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vni. II (11-18)"),
         baca.clef("treble"),
     )
-
     accumulator(
         "va1",
         baca.instrument(instruments["Viola"]),
@@ -158,7 +145,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vle. (1-10)"),
         baca.clef("alto"),
     )
-
     accumulator(
         "va3",
         baca.instrument(instruments["Viola"]),
@@ -166,7 +152,6 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vle. (11-18)"),
         baca.clef("alto"),
     )
-
     accumulator(
         "vc1",
         baca.instrument(instruments["Cello"]),
@@ -174,22 +159,18 @@ def strings(score, string_abbreviations):
         library.short_instrument_name("Vc."),
         baca.clef("tenor"),
     )
-
     library.assign_trill_parts(accumulator)
-
     accumulator(
         # first accents ...
         ("1vn1", 1),
         baca.accent(selector=lambda _: baca.select.phead(_, 0)),
     )
-
     accumulator(
         string_abbreviations,
         baca.accent(
             selector=lambda _: baca.select.pheads(_)[1:],
         ),
     )
-
     accumulator(
         # then untie ...
         (string_abbreviations, (5, 6)),
@@ -197,7 +178,6 @@ def strings(score, string_abbreviations):
             lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     accumulator(
         # ... then pitch
         (string_abbreviations, (1, 4)),
@@ -208,7 +188,6 @@ def strings(score, string_abbreviations):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     accumulator(
         (string_abbreviations, (5, 6)),
         baca.pitch("Ab4"),
@@ -218,12 +197,10 @@ def strings(score, string_abbreviations):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
     )
-
     accumulator(
         ["1vn3", "2vn3"],
         baca.trill_spanner_staff_padding(6),
     )
-
     accumulator(
         ["1vn1", "2vn1", "va1", "va3", "vc1"],
         baca.trill_spanner_staff_padding(4),

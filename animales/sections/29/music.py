@@ -117,13 +117,11 @@ def STRINGS(score):
 
 def percussion(cache):
     # perc1 (triangle)
-
     accumulator(
         ("perc1", (1, 3)),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
     )
-
     accumulator(
         "perc1",
         library.assign_part("Percussion", 1),

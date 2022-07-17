@@ -91,9 +91,7 @@ def CL_BCL(score):
     voice = score[accumulator.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 6))
     voice.extend(music)
-
     # BCL
-
     voice = score[accumulator.voice_abbreviations["bcl"]]
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
@@ -217,7 +215,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         baca.interpolate_pitches("Bb5", "B3"),
@@ -231,7 +228,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         baca.interpolate_pitches("Bb4", "B3"),
@@ -245,7 +241,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         baca.interpolate_pitches("Bb2", "B3"),
@@ -259,7 +254,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         "cb3",
         baca.interpolate_pitches("Bb1", "A1"),
