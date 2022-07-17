@@ -224,7 +224,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 1),
     )
-
     accumulator(
         "hn3",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -232,7 +231,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 3),
     )
-
     accumulator(
         "hn2",
         baca.pitches("A3 B3", persist="seconds"),
@@ -241,7 +239,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 2),
     )
-
     accumulator(
         "hn4",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -249,9 +246,7 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 4),
     )
-
     # trumpets
-
     accumulator(
         "tp1",
         baca.pitches("Ab4 Bb4", persist="seconds"),
@@ -260,7 +255,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trumpet", 1),
     )
-
     accumulator(
         "tp3",
         baca.pitches("G4 A4", persist="seconds"),
@@ -268,7 +262,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trumpet", 3),
     )
-
     accumulator(
         "tp2",
         baca.pitches("Ab4 Bb4", persist="seconds"),
@@ -277,7 +270,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trumpet", 2),
     )
-
     accumulator(
         "tp4",
         baca.pitches("G4 A4", persist="seconds"),
@@ -285,9 +277,7 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trumpet", 4),
     )
-
     # trombones
-
     accumulator(
         "tbn1",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -296,7 +286,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trombone", 1),
     )
-
     accumulator(
         "tbn3",
         baca.pitches("G3 A3", persist="seconds"),
@@ -304,7 +293,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trombone", 3),
     )
-
     accumulator(
         "tbn2",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -313,7 +301,6 @@ def horns(cache):
         crescendi(),
         library.assign_part("Trombone", 2),
     )
-
     accumulator(
         "tbn4",
         baca.pitches("G3 A3", persist="seconds"),
@@ -354,34 +341,28 @@ def perc3(m):
 
 
 def strings(cache):
-
     accumulator(
         ["1vn1", "2vn1", "va1", "vc1"],
         baca.pitch("A3"),
         baca.trill_spanner(alteration="Ab3", right_broken=True),
         baca.hairpin("pp <", right_broken=True),
     )
-
     accumulator(
         "1vn1",
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         "cb3",
         baca.pitch("A1"),

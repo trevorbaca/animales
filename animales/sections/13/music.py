@@ -142,16 +142,6 @@ def STRINGS(score):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def cl(m):
     accumulator(
         "cl",
@@ -195,9 +185,7 @@ def hp(m):
 
 
 def percussion(cache):
-
     # perc1 (triangle)
-
     accumulator(
         "perc1",
         baca.staff_position(0),
@@ -208,9 +196,7 @@ def percussion(cache):
         ),
         library.assign_part("Percussion", 1),
     )
-
     # perc2 (cymbal)
-
     accumulator(
         "perc2",
         baca.repeat_tie(
@@ -220,9 +206,7 @@ def percussion(cache):
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("Percussion", 2),
     )
-
     # perc3 (vibraphone)
-
     accumulator(
         "perc3",
         baca.pitch("C5"),
@@ -232,7 +216,6 @@ def percussion(cache):
 
 
 def strings(cache):
-
     accumulator(
         "1vn1",
         baca.interpolate_pitches("Ab6", "A3"),
@@ -246,7 +229,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         baca.interpolate_pitches("Ab5", "A3"),
@@ -260,7 +242,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         baca.interpolate_pitches("Ab4", "A3"),
@@ -274,7 +255,6 @@ def strings(cache):
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         baca.interpolate_pitches("Ab2", "A3"),
@@ -288,7 +268,6 @@ def strings(cache):
         baca.articulation("trill"),
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         "cb3",
         baca.interpolate_pitches("Ab1", "G1"),

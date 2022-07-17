@@ -158,27 +158,15 @@ def STRINGS(score):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def ob(m):
     accumulator(
         ("ob", (1, 5)),
         baca.pitch("A4"),
     )
-
     accumulator(
         ("ob", (1, 6)),
         swell("f"),
     )
-
     accumulator(
         "ob",
         library.assign_part("Oboe", (1, 3)),
@@ -190,12 +178,10 @@ def eh(m):
         ("eh", (1, 5)),
         baca.pitch("G3"),
     )
-
     accumulator(
         ("eh", (1, 6)),
         swell("f"),
     )
-
     accumulator(
         "eh",
         library.assign_part("EnglishHorn"),
@@ -203,33 +189,27 @@ def eh(m):
 
 
 def bsns(cache):
-
     accumulator(
         ("bsn1", (1, 5)),
         baca.pitch("B3"),
     )
-
     accumulator(
         ("bsn1", (1, 6)),
         baca.only_parts(swell("f")),
     )
-
     accumulator(
         "bsn1",
         baca.not_parts(baca.voice_one()),
         library.assign_part("Bassoon", 1),
     )
-
     accumulator(
         ("bsn2", (1, 5)),
         baca.pitch("G2"),
     )
-
     accumulator(
         ("bsn2", (1, 6)),
         swell("f"),
     )
-
     accumulator(
         "bsn2",
         baca.not_parts(baca.voice_two()),
@@ -255,7 +235,6 @@ def brass(cache):
         )
 
     # horns
-
     accumulator(
         "hn1",
         baca.pitches("G3 A3", persist="seconds"),
@@ -264,7 +243,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Horn", 1),
     )
-
     accumulator(
         "hn3",
         baca.pitches("Gb3 Ab3", persist="seconds"),
@@ -272,7 +250,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Horn", 3),
     )
-
     accumulator(
         "hn2",
         baca.pitches("G3 A3", persist="seconds"),
@@ -281,7 +258,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Horn", 2),
     )
-
     accumulator(
         "hn4",
         baca.pitches("Gb3 Ab3", persist="seconds"),
@@ -289,9 +265,7 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Horn", 4),
     )
-
     # trumpets
-
     accumulator(
         "tp1",
         baca.pitches("Gb4 Ab4", persist="seconds"),
@@ -300,7 +274,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trumpet", 1),
     )
-
     accumulator(
         "tp3",
         baca.pitches("F4 G4", persist="seconds"),
@@ -308,7 +281,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trumpet", 3),
     )
-
     accumulator(
         "tp2",
         baca.pitches("Gb4 Ab4", persist="seconds"),
@@ -317,7 +289,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trumpet", 2),
     )
-
     accumulator(
         "tp4",
         baca.pitches("F4 G4", persist="seconds"),
@@ -325,9 +296,7 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trumpet", 4),
     )
-
     # trombones
-
     accumulator(
         "tbn1",
         baca.pitches("Gb3 Ab3", persist="seconds"),
@@ -336,7 +305,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trombone", 1),
     )
-
     accumulator(
         "tbn3",
         baca.pitches("F3 G3", persist="seconds"),
@@ -344,7 +312,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trombone", 3),
     )
-
     accumulator(
         "tbn2",
         baca.pitches("Gb3 Ab3", persist="seconds"),
@@ -353,7 +320,6 @@ def brass(cache):
         _crescendi(),
         library.assign_part("Trombone", 2),
     )
-
     accumulator(
         "tbn4",
         baca.pitches("F3 G3", persist="seconds"),
@@ -403,7 +369,6 @@ def strings(cache):
         )
 
     # solo violin
-
     accumulator(
         "1vn5",
         baca.repeat_tie(
@@ -413,7 +378,6 @@ def strings(cache):
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("FirstViolin", 18),
     )
-
     accumulator(
         "1vn1",
         baca.pitch("A5"),
@@ -424,7 +388,6 @@ def strings(cache):
         ),
         library.assign_part("FirstViolin", (1, 4)),
     )
-
     accumulator(
         "1vn2",
         baca.pitch("F5"),
@@ -432,7 +395,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("FirstViolin", (5, 8)),
     )
-
     accumulator(
         "1vn3",
         baca.pitch("G5"),
@@ -440,7 +402,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("FirstViolin", (9, 12)),
     )
-
     accumulator(
         "1vn4",
         baca.pitch("D5"),
@@ -448,7 +409,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("FirstViolin", (13, 17)),
     )
-
     accumulator(
         "2vn1",
         baca.pitch("B4"),
@@ -456,7 +416,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("SecondViolin", (1, 4)),
     )
-
     accumulator(
         "2vn2",
         baca.pitch("G4"),
@@ -464,7 +423,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("SecondViolin", (5, 8)),
     )
-
     accumulator(
         "2vn3",
         baca.pitch("A4"),
@@ -472,7 +430,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("SecondViolin", (9, 12)),
     )
-
     accumulator(
         "2vn4",
         baca.pitch("F4"),
@@ -480,7 +437,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("SecondViolin", (13, 18)),
     )
-
     accumulator(
         "va1",
         baca.pitch("D4"),
@@ -488,7 +444,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("Viola", (1, 4)),
     )
-
     accumulator(
         "va2",
         baca.pitch("A3"),
@@ -496,7 +451,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("Viola", (5, 8)),
     )
-
     accumulator(
         "va3",
         baca.pitch("B3"),
@@ -504,7 +458,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("Viola", (9, 12)),
     )
-
     accumulator(
         "va4",
         baca.pitch("G3"),
@@ -512,7 +465,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("Viola", (13, 18)),
     )
-
     accumulator(
         "vc1",
         baca.pitch("D3"),
@@ -520,7 +472,6 @@ def strings(cache):
         _upper_voice_suite(),
         library.assign_part("Cello", (1, 8)),
     )
-
     accumulator(
         "vc2",
         baca.pitch("G2"),
@@ -528,7 +479,6 @@ def strings(cache):
         _tremolo_suite(),
         library.assign_part("Cello", (9, 14)),
     )
-
     accumulator(
         "cb3",
         baca.pitch("G1"),

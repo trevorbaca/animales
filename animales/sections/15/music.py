@@ -196,16 +196,6 @@ def CB3(voice):
     voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def flutes(cache):
     with baca.scope(cache["fl1"][1, 3]) as o:
         library.pennant_pitches("G5", [6], function=o)
@@ -228,7 +218,6 @@ def flutes(cache):
             ),
         ),
     )
-
     accumulator(
         ("fl3", (1, 3)),
         baca.not_parts(baca.voice_two()),
@@ -240,7 +229,6 @@ def flutes(cache):
             ),
         ),
     )
-
     accumulator(
         ("fl2", (1, 3)),
         baca.not_parts(baca.voice_one()),
@@ -254,7 +242,6 @@ def flutes(cache):
             ),
         ),
     )
-
     accumulator(
         ("fl4", (1, 3)),
         baca.not_parts(baca.voice_two()),
@@ -266,22 +253,18 @@ def flutes(cache):
             ),
         ),
     )
-
     accumulator(
         "fl1",
         library.assign_part("Flute", 1),
     )
-
     accumulator(
         "fl3",
         library.assign_part("Flute", 3),
     )
-
     accumulator(
         "fl2",
         library.assign_part("Flute", 2),
     )
-
     accumulator(
         "fl4",
         library.assign_part("Flute", 4),
@@ -335,7 +318,6 @@ def hp(m):
 
 def percussion(cache):
     # perc1 (triangle)
-
     accumulator(
         ("perc1", (1, 3)),
         baca.staff_position(0),
@@ -345,14 +327,11 @@ def percussion(cache):
             selector=lambda _: baca.select.pleaves(_)[:2],
         ),
     )
-
     accumulator(
         "perc1",
         library.assign_part("Percussion", 1),
     )
-
     # perc2 (cymbal)
-
     accumulator(
         ("perc2", (1, 3)),
         baca.staff_position(0),
@@ -362,20 +341,16 @@ def percussion(cache):
             selector=lambda _: baca.select.pleaves(_)[:2],
         ),
     )
-
     accumulator(
         "perc2",
         library.assign_part("Percussion", 2),
     )
-
     # perc3 (vibraphone)
-
     accumulator(
         ("perc3", (1, 6)),
         baca.pitch("Bb4"),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
     )
-
     accumulator(
         "perc3",
         library.assign_part("Percussion", 3),
@@ -412,47 +387,39 @@ def strings(cache):
             selector=library.leaves_in_measure(-1, lleak=True),
         ),
     )
-
     accumulator(
         "1vn2",
         library.assign_part("FirstViolin", 1),
     )
-
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
         baca.pitch("G3"),
         baca.trill_spanner(alteration="Ab3"),
         baca.hairpin("pp < ff"),
     )
-
     accumulator(
         "1vn1",
         baca.not_parts(baca.voice_two()),
         library.assign_part("FirstViolin", (2, 18)),
     )
-
     accumulator(
         "2vn1",
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         library.assign_part("Cello", (1, 14)),
     )
-
     most_strings = [
         "SecondViolins.Voice.1.Rests",
         "Violas.Voice.1.Rests",
         "Cellos.Voice.1.Rests",
         "Contrabasses.Voice.3.Rests",
     ]
-
     accumulator(
         ("FirstViolins.Voice.1.Rests", 4),
         baca.markup(
@@ -460,7 +427,6 @@ def strings(cache):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
     )
-
     accumulator(
         (most_strings, 4),
         baca.only_parts(
@@ -470,13 +436,11 @@ def strings(cache):
             ),
         ),
     )
-
     accumulator(
         ("cb3", (1, 3)),
         baca.pitch("G1"),
         baca.hairpin("p < ff"),
     )
-
     accumulator(
         "cb3",
         library.assign_part("Contrabass", (2, 6)),

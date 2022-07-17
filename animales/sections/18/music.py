@@ -229,11 +229,8 @@ def strings(cache):
 
 
 def brass(cache):
-
     library.assign_brass_sforzando_parts(accumulator, omit_tuba=True)
-
     # horns
-
     accumulator(
         ("hn1", 1),
         baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
@@ -241,14 +238,12 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("hn3", 1),
         baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.dynamic("sfz"),
     )
-
     accumulator(
         ("hn2", 1),
         baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
@@ -256,16 +251,13 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("hn4", 1),
         baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.dynamic("sfz"),
     )
-
     # trumpets
-
     accumulator(
         ("tp1", 1),
         baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
@@ -273,14 +265,12 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("tp3", 1),
         baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.dynamic("sfz"),
     )
-
     accumulator(
         ("tp2", 1),
         baca.pitches("Gb4 Ab4", ignore_incomplete=True, persist="seconds"),
@@ -288,16 +278,13 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("tp4", 1),
         baca.pitches("F4 G4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.dynamic("sfz"),
     )
-
     # trombones
-
     accumulator(
         ("tbn1", 1),
         baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -305,14 +292,12 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("tbn3", 1),
         baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.dynamic("sfz"),
     )
-
     accumulator(
         ("tbn2", 1),
         baca.pitches("Gb3 Ab3", ignore_incomplete=True, persist="seconds"),
@@ -320,7 +305,6 @@ def brass(cache):
         baca.not_parts(baca.dynamic_up()),
         baca.only_parts(baca.dynamic("sfz")),
     )
-
     accumulator(
         ("tbn4", 1),
         baca.pitches("F3 G3", ignore_incomplete=True, persist="seconds"),

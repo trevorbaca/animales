@@ -145,16 +145,6 @@ def STRINGS(score):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def cl(cache):
     accumulator(
         ("cl", (1, 4)),
@@ -164,17 +154,14 @@ def cl(cache):
         baca.hairpin("mp < mf"),
         library.assign_part("Clarinet", 1),
     )
-
     accumulator(
         ("Rests", (5, -1)),
         library.assign_part("Clarinet", 1),
     )
-
     accumulator(
         ("Rests", (1, 4)),
         library.assign_part("Clarinet", 2),
     )
-
     accumulator(
         ("cl", (5, 8)),
         library.short_instrument_name("Cl. 2"),
@@ -257,7 +244,6 @@ def perc3(cache):
 
 
 def strings(cache):
-
     accumulator(
         "1vn1",
         baca.pitch("Bb6"),
@@ -266,25 +252,21 @@ def strings(cache):
         ),
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         baca.pitch("Bb5"),
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         baca.pitch("Bb4"),
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         baca.pitch("Bb2"),
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         "cb3",
         library.short_instrument_name(
@@ -293,7 +275,6 @@ def strings(cache):
         ),
         library.assign_part("Contrabass", (2, 6)),
     )
-
     accumulator(
         "cb3",
         baca.suite(
@@ -321,7 +302,6 @@ def strings(cache):
             ),
         ),
     )
-
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], 1),
         baca.only_parts(
@@ -329,7 +309,6 @@ def strings(cache):
         ),
         baca.dynamic("pp"),
     )
-
     accumulator(
         ("cb3", 1),
         baca.only_parts(
@@ -350,12 +329,10 @@ def cb1(cache):
         baca.dynamic("p"),
         library.assign_part("Contrabass", 1),
     )
-
     accumulator(
         ("cb1", 1),
         baca.pitch("A#1"),
     )
-
     accumulator(
         ("cb1", (2, -1)),
         baca.clef("treble"),

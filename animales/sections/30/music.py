@@ -82,7 +82,6 @@ def pf(m):
         baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
         baca.only_parts(baca.text_script_x_offset(3)),
     )
-
     accumulator(
         "pf",
         library.assign_part("Piano"),
@@ -95,7 +94,6 @@ def perc4(m):
         "perc4",
         library.assign_part("Percussion", 4),
     )
-
     accumulator(
         ("perc4", (1, 8)),
         library.short_instrument_name("Perc. 4 (slate)"),
@@ -104,7 +102,6 @@ def perc4(m):
         baca.only_parts(baca.text_script_x_offset(3)),
         baca.dynamic('"mf"'),
     )
-
     accumulator(
         ("perc4", 10),
         baca.chunk(

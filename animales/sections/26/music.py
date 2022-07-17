@@ -111,7 +111,6 @@ baca.rehearsal_mark_function(
 
 
 def BRASS(score):
-
     library.make_brass_sforzando_material(
         score, accumulator, 1, reapply_persistent_indicators=True
     )
@@ -161,41 +160,26 @@ def CB3(voice):
     voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def brass(cache):
     library.assign_brass_sforzando_parts(accumulator)
 
 
 def percussion(cache):
     # perc2 (cymbal)
-
     accumulator(
         "perc2",
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("Percussion", 2),
     )
-
     # perc3 (BD)
-
     accumulator(
         "perc3",
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("Percussion", 3),
     )
-
     # perc4 (tam-tam)
-
     accumulator(
         "perc4",
         baca.staff_position(0),

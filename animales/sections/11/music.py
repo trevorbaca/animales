@@ -170,16 +170,6 @@ def STRINGS(score):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def cl(m):
     accumulator(
         "cl",
@@ -191,9 +181,7 @@ def cl(m):
 
 
 def brass(cache):
-
     # horns
-
     crescendi = baca.suite(
         baca.new(
             baca.hairpin("< f", left_broken=True),
@@ -207,7 +195,6 @@ def brass(cache):
             map=lambda _: baca.select.runs(_)[1:],
         ),
     )
-
     accumulator(
         "hn1",
         baca.pitches("A3 B3", persist="seconds"),
@@ -216,7 +203,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Horn", 1),
     )
-
     accumulator(
         "hn3",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -224,7 +210,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Horn", 3),
     )
-
     accumulator(
         "hn2",
         baca.pitches("A3 B3", persist="seconds"),
@@ -233,7 +218,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Horn", 2),
     )
-
     accumulator(
         "hn4",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -241,9 +225,7 @@ def brass(cache):
         crescendi,
         library.assign_part("Horn", 4),
     )
-
     # trumpets
-
     accumulator(
         "tp1",
         baca.pitches("Ab4 Bb4", persist="seconds"),
@@ -252,7 +234,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trumpet", 1),
     )
-
     accumulator(
         "tp3",
         baca.pitches("G4 A4", persist="seconds"),
@@ -260,7 +241,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trumpet", 3),
     )
-
     accumulator(
         "tp2",
         baca.pitches("Ab4 Bb4", persist="seconds"),
@@ -269,7 +249,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trumpet", 2),
     )
-
     accumulator(
         "tp4",
         baca.pitches("G4 A4", persist="seconds"),
@@ -277,9 +256,7 @@ def brass(cache):
         crescendi,
         library.assign_part("Trumpet", 4),
     )
-
     # trombones
-
     accumulator(
         "tbn1",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -288,7 +265,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trombone", 1),
     )
-
     accumulator(
         "tbn3",
         baca.pitches("G3 A3", persist="seconds"),
@@ -296,7 +272,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trombone", 3),
     )
-
     accumulator(
         "tbn2",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -305,7 +280,6 @@ def brass(cache):
         crescendi,
         library.assign_part("Trombone", 2),
     )
-
     accumulator(
         "tbn4",
         baca.pitches("G3 A3", persist="seconds"),
@@ -357,27 +331,22 @@ def percussion(cache):
 
 
 def strings(cache):
-
     accumulator(
         "1vn1",
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         library.assign_part("Cello", (1, 14)),
     )
-
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], 1),
         baca.repeat_tie(
@@ -385,7 +354,6 @@ def strings(cache):
         ),
         baca.not_section(baca.stop_trill()),
     )
-
     accumulator(
         "1vn1",
         baca.interpolate_pitches("A3", "G6"),
@@ -398,7 +366,6 @@ def strings(cache):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "2vn1",
         baca.interpolate_pitches("A3", "G5"),
@@ -411,7 +378,6 @@ def strings(cache):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "va1",
         baca.interpolate_pitches("A3", "G4"),
@@ -424,7 +390,6 @@ def strings(cache):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "vc1",
         baca.interpolate_pitches("A3", "B2"),
@@ -437,7 +402,6 @@ def strings(cache):
         baca.articulation("trill"),
         baca.hairpin("f >", right_broken=True),
     )
-
     accumulator(
         "cb3",
         baca.interpolate_pitches("A1", "G1"),

@@ -72,7 +72,6 @@ baca.rehearsal_mark_function(
 
 
 def WINDS(score):
-
     voice = score[accumulator.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -80,24 +79,19 @@ def WINDS(score):
 
 def PERCUSSION(score):
     # PERC1
-
     voice = score[accumulator.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
-
     # PERC2
-
     voice = score[accumulator.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def STRINGS(score):
-
     voice = score[accumulator.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
     voice.extend(music)
-
     library.make_trill_rhythm(
         score, accumulator.get(), voice_metadata, previous_persist
     )
@@ -107,7 +101,6 @@ def STRINGS(score):
 
 
 def CB3(score):
-
     voice = score[accumulator.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -115,7 +108,6 @@ def CB3(score):
 
 
 def winds(cache):
-
     accumulator(
         "cl",
         baca.pitch("C#5"),
@@ -127,9 +119,7 @@ def winds(cache):
 
 
 def percussion(cache):
-
     # perc1 (triangle)
-
     accumulator(
         "perc1",
         baca.repeat_tie(
@@ -139,9 +129,7 @@ def percussion(cache):
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("Percussion", 1),
     )
-
     # perc2 (cymbal)
-
     accumulator(
         "perc2",
         baca.repeat_tie(
@@ -154,7 +142,6 @@ def percussion(cache):
 
 
 def strings(cache):
-
     accumulator(
         "1vn2",
         baca.suite(
@@ -185,19 +172,15 @@ def strings(cache):
         ),
         library.assign_part("FirstViolin", 1),
     )
-
     library.assign_trill_parts(accumulator, exclude_first_violin=True)
-
     accumulator(
         ("1vn1", 1),
         baca.not_parts(baca.voice_two()),
     )
-
     accumulator(
         ("vc1", 1),
         baca.clef("bass"),
     )
-
     accumulator(
         ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"],
         baca.pitch("B3"),
@@ -213,7 +196,6 @@ def strings(cache):
 
 
 def cb3(cache):
-
     accumulator(
         "cb3",
         baca.pitch("B1"),

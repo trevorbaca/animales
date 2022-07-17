@@ -134,23 +134,12 @@ def STRINGS(score):
         voice.extend(music)
 
 
-## reapply
-#
-# music_voice_names = library.get_music_voice_names(voice_names)
-#
-# accumulator(
-#    music_voice_names,
-#    baca.reapply_persistent_indicators(),
-# )
-
-
 def cl(cache):
     accumulator(
         ("cl", (1, 3)),
         baca.pitch("F5"),
         baca.hairpin("< ff", left_broken=True),
     )
-
     accumulator(
         ("Clarinets.Rests", 4),
         baca.markup(
@@ -159,7 +148,6 @@ def cl(cache):
         ),
         baca.only_score(baca.mmrest_text_extra_offset((-6, 0))),
     )
-
     accumulator(
         "cl",
         library.assign_part("Clarinet", 1),
@@ -231,27 +219,22 @@ def strings(cache):
             selector=lambda _: baca.select.pleaves(_)[:2],
         ),
     )
-
     accumulator(
         "1vn1",
         library.assign_part("FirstViolin", (1, 18)),
     )
-
     accumulator(
         "2vn1",
         library.assign_part("SecondViolin", (1, 18)),
     )
-
     accumulator(
         "va1",
         library.assign_part("Viola", (1, 18)),
     )
-
     accumulator(
         "vc1",
         library.assign_part("Cello", (1, 14)),
     )
-
     most_strings = [
         "FirstViolins.Voice.1.Rests",
         "SecondViolins.Voice.1.Rests",
@@ -259,7 +242,6 @@ def strings(cache):
         "Cellos.Voice.1.Rests",
         "Contrabasses.Voice.3.Rests",
     ]
-
     accumulator(
         (most_strings, 4),
         baca.only_parts(
@@ -269,7 +251,6 @@ def strings(cache):
             ),
         ),
     )
-
     accumulator(
         ("FirstViolins.Voice.1.Rests", 4),
         baca.not_parts(
@@ -279,7 +260,6 @@ def strings(cache):
             ),
         ),
     )
-
     accumulator(
         ("cb3", (1, 3)),
         baca.pitch("Ab1"),
@@ -289,7 +269,6 @@ def strings(cache):
             selector=lambda _: baca.select.pleaves(_)[:2],
         ),
     )
-
     accumulator(
         "cb3",
         library.assign_part("Contrabass", (2, 6)),
