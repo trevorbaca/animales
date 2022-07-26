@@ -197,7 +197,9 @@ def brass(cache):
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
         baca.not_parts(baca.force_accidental()),
-        baca.not_parts(baca.note_column_shift(1.7)),
+        baca.not_parts(
+            baca.note_column_shift(1.7, selector=lambda _: abjad.select.leaf(_, 0))
+        ),
         baca.only_parts(baca.dynamic("sfz")),
     )
     accumulator(
@@ -245,7 +247,9 @@ def brass(cache):
         baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.force_accidental()),
-        baca.not_parts(baca.note_column_shift(1.0)),
+        baca.not_parts(
+            baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
+        ),
         baca.dynamic("sfz"),
     )
     # trombones
@@ -274,7 +278,9 @@ def brass(cache):
         baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
         baca.not_parts(baca.force_accidental()),
-        baca.not_parts(baca.note_column_shift(1.0)),
+        baca.not_parts(
+            baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
+        ),
         baca.dynamic("sfz"),
     )
 
