@@ -337,7 +337,7 @@ def cb1(cache):
         ("cb1", (2, -1)),
         baca.clef("treble"),
         baca.pitch("D5", do_not_transpose=True),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.markup(r"\animales-eighth-partial-of-d-markup"),
         baca.markup(r"\baca-pizz-markup"),

@@ -77,7 +77,7 @@ def pf(m):
     accumulator(
         ("pf", (1, 9)),
         baca.pitch("C#4"),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
         baca.only_parts(baca.text_script_x_offset(3)),

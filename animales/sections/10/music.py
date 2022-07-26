@@ -375,7 +375,7 @@ def cb1(m):
     accumulator(
         "cb1",
         baca.pitch("Cqf5", do_not_transpose=True),
-        baca.note_head_style_harmonic(),
+        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         library.assign_part("Contrabass", 1),
     )
