@@ -188,7 +188,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("f >", right_broken=True),
     )
     accumulator(
@@ -200,7 +200,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("f >", right_broken=True),
     )
     accumulator(
@@ -212,7 +212,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("f >", right_broken=True),
     )
     accumulator(
@@ -224,7 +224,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("f >", right_broken=True),
     )
     accumulator(

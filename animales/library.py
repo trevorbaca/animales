@@ -595,7 +595,7 @@ def make_brass_sforzando_material(
             )
         commands(
             (voice_name, measure),
-            baca.marcato(),
+            baca.marcato(selector=lambda _: baca.select.phead(_, 0)),
         )
         if voice_name[-1].isdigit():
             words = abjad.string.delimit_words(voice_name)

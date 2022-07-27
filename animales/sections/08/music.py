@@ -211,7 +211,7 @@ def strings(cache):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("FirstViolin", (1, 18)),
     )
@@ -224,7 +224,7 @@ def strings(cache):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("SecondViolin", (1, 18)),
     )
@@ -237,7 +237,7 @@ def strings(cache):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Viola", (1, 18)),
     )
@@ -250,7 +250,7 @@ def strings(cache):
             right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Cello", (1, 14)),
     )
@@ -262,7 +262,7 @@ def strings(cache):
             hide_middle_note_heads=True,
             right_broken=True,
         ),
-        baca.articulation("trill"),
+        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
         baca.hairpin("pp <", right_broken=True),
         library.assign_part("Contrabass", (2, 6)),
     )
