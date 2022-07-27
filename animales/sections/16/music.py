@@ -105,7 +105,9 @@ def STRINGS(score, voice_abbreviation_to_members):
 def ob(m):
     accumulator(
         "ob",
-        baca.instrument(instruments["Oboe"]),
+        baca.instrument(
+            instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Ob."),
         baca.clef("treble"),
         library.assign_part("Oboe", (1, 3)),
@@ -123,7 +125,9 @@ def ob(m):
 def eh(m):
     accumulator(
         ("eh", (1, 5)),
-        baca.instrument(instruments["EnglishHorn"]),
+        baca.instrument(
+            instruments["EnglishHorn"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Eng. hn."),
         baca.clef("treble"),
         baca.pitch("G3"),
@@ -141,7 +145,9 @@ def eh(m):
 def bsns(cache):
     accumulator(
         "bsn1",
-        baca.instrument(instruments["Bassoon"]),
+        baca.instrument(
+            instruments["Bassoon"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Bsn."),
         baca.clef("bass"),
         baca.not_parts(baca.voice_one()),
@@ -211,7 +217,9 @@ def strings(cache, voice_abbreviation_to_members):
 
     accumulator(
         "1vn5",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("treble"),
         library.short_instrument_name("Vni. I 18"),
         baca.pitch("C#4"),
