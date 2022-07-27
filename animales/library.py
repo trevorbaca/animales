@@ -338,9 +338,9 @@ def attach_grand_pause_fermatas(commands, score, *, measure=-1):
             selector=lambda _: abjad.select.leaf(_, 0),
         )
         string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
-        literal_1 = baca.literal(string)
+        literal_1 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
         string = r"\once \override Score.TimeSignature.stencil = ##f"
-        literal_2 = baca.literal(string)
+        literal_2 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
         commands(
             (voice.name, measure),
             baca.only_parts(markup_command),
@@ -370,7 +370,9 @@ def glissando_positions(*, reverse=False, rotate=0, transpose=0):
 
 def instrument(key):
     _instruments = instruments()
-    return baca.instrument(_instruments[key], selector=lambda _: abjad.select.leaf(_, 0))
+    return baca.instrument(
+        _instruments[key], selector=lambda _: abjad.select.leaf(_, 0)
+    )
 
 
 def instruments():

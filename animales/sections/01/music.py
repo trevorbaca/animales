@@ -86,7 +86,9 @@ def percussion(score):
         baca.instrument(
             instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-percussion-i-markup"),
+        baca.instrument_name(
+            r"\animales-percussion-i-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
         baca.staff_lines(1),
@@ -97,7 +99,10 @@ def percussion(score):
         baca.instrument(
             instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-percussion-ii-markup"),
+        baca.instrument_name(
+            r"\animales-percussion-ii-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
         baca.staff_lines(1),
@@ -108,7 +113,10 @@ def percussion(score):
         baca.instrument(
             instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-percussion-iv-markup"),
+        baca.instrument_name(
+            r"\animales-percussion-iv-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
         baca.staff_lines(1),
@@ -122,7 +130,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
+        baca.instrument_name(
+            r"\animales-violins-i-one-ten-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vni. I (1-10)"),
         baca.clef("treble"),
     )
@@ -131,7 +142,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
+        baca.instrument_name(
+            r"\animales-violins-i-eleven-eighteen-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vni. I (11-18)"),
         baca.clef("treble"),
     )
@@ -140,7 +154,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
+        baca.instrument_name(
+            r"\animales-violins-ii-one-ten-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vni. II (1-10)"),
         baca.clef("treble"),
     )
@@ -149,7 +166,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
+        baca.instrument_name(
+            r"\animales-violins-ii-eleven-eighteen-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vni. II (11-18)"),
         baca.clef("treble"),
     )
@@ -158,7 +178,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violas-one-ten-markup"),
+        baca.instrument_name(
+            r"\animales-violas-one-ten-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vle. (1-10)"),
         baca.clef("alto"),
     )
@@ -167,7 +190,10 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
+        baca.instrument_name(
+            r"\animales-violas-eleven-eighteen-markup",
+            selector=lambda _: abjad.select.leaf(_, 0),
+        ),
         library.short_instrument_name("Vle. (11-18)"),
         baca.clef("alto"),
     )
@@ -176,7 +202,9 @@ def strings(score, string_abbreviations):
         baca.instrument(
             instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.instrument_name(r"\animales-cellos-markup"),
+        baca.instrument_name(
+            r"\animales-cellos-markup", selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Vc."),
         baca.clef("tenor"),
     )

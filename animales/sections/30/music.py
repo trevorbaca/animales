@@ -120,7 +120,9 @@ def pf_perc4(cache):
             (voice_name, 1),
             baca.tag(
                 abjad.Tag("+TABLOID_SCORE"),
-                baca.literal(r"\magnifyStaff #10/7"),
+                baca.literal(
+                    r"\magnifyStaff #10/7", selector=lambda _: abjad.select.leaf(_, 0)
+                ),
             ),
         )
 
