@@ -162,7 +162,9 @@ def CB3(score):
 def winds(cache):
     accumulator(
         "cl",
-        baca.instrument(instruments["Clarinet"]),
+        baca.instrument(
+            instruments["Clarinet"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Cl. 3"),
         library.assign_part("Clarinet", 3),
         baca.clef("treble"),
@@ -207,43 +209,57 @@ def brass(cache):
     accumulator(
         "hn1",
         library.short_instrument_name("Hn. (1+3)"),
-        baca.instrument(instruments["Horn"]),
+        baca.instrument(
+            instruments["Horn"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("bass"),
     )
     accumulator(
         "hn2",
         library.short_instrument_name("Hn. (2+4)"),
-        baca.instrument(instruments["Horn"]),
+        baca.instrument(
+            instruments["Horn"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("bass"),
     )
     accumulator(
         "tp1",
         library.short_instrument_name("Tp. (1+3)"),
-        baca.instrument(instruments["Trumpet"]),
+        baca.instrument(
+            instruments["Trumpet"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("treble"),
     )
     accumulator(
         "tp2",
         library.short_instrument_name("Tp. (2+4)"),
-        baca.instrument(instruments["Trumpet"]),
+        baca.instrument(
+            instruments["Trumpet"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("treble"),
     )
     accumulator(
         "tbn1",
         library.short_instrument_name("Trb. (1+3)"),
-        baca.instrument(instruments["Trombone"]),
+        baca.instrument(
+            instruments["Trombone"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("tenor"),
     )
     accumulator(
         "tbn2",
         library.short_instrument_name("Trb. (2+4)"),
-        baca.instrument(instruments["Trombone"]),
+        baca.instrument(
+            instruments["Trombone"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("tenor"),
     )
     accumulator(
         "tub",
         library.short_instrument_name("Tub."),
-        baca.instrument(instruments["Tuba"]),
+        baca.instrument(
+            instruments["Tuba"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("bass"),
     )
 
@@ -360,7 +376,9 @@ def cb3(cache):
     accumulator(
         "cb3",
         library.assign_part("Contrabass", (1, 6)),
-        baca.instrument(instruments["Contrabass"]),
+        baca.instrument(
+            instruments["Contrabass"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Cb."),
         baca.clef("bass"),
     )

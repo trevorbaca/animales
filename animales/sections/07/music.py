@@ -175,7 +175,9 @@ def cl(cache):
 def pf(cache):
     accumulator(
         "pf",
-        baca.instrument(instruments["Piano"]),
+        baca.instrument(
+            instruments["Piano"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Pf."),
         baca.clef("treble"),
         baca.dynamic("mf"),
@@ -190,7 +192,9 @@ def pf(cache):
 def hp(cache):
     accumulator(
         "hp",
-        baca.instrument(instruments["Harp"]),
+        baca.instrument(
+            instruments["Harp"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Hp."),
         baca.clef("treble"),
         baca.pitch("D5"),
@@ -322,7 +326,9 @@ def cb1(cache):
     # solo
     accumulator(
         "cb1",
-        baca.instrument(instruments["Contrabass"]),
+        baca.instrument(
+            instruments["Contrabass"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Cb. 1"),
         baca.clef("bass"),
         library.short_instrument_name("Cb. 1"),

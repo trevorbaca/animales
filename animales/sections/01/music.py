@@ -1,3 +1,4 @@
+import abjad
 import baca
 
 from animales import library
@@ -82,7 +83,9 @@ def STRINGS(score, string_abbreviations):
 def percussion(score):
     accumulator(
         "perc1",
-        baca.instrument(instruments["Percussion"]),
+        baca.instrument(
+            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-percussion-i-markup"),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
@@ -91,7 +94,9 @@ def percussion(score):
     )
     accumulator(
         "perc2",
-        baca.instrument(instruments["Percussion"]),
+        baca.instrument(
+            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-percussion-ii-markup"),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
@@ -100,7 +105,9 @@ def percussion(score):
     )
     accumulator(
         "perc4",
-        baca.instrument(instruments["Percussion"]),
+        baca.instrument(
+            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-percussion-iv-markup"),
         library.short_instrument_name("Perc."),
         baca.clef("percussion"),
@@ -112,49 +119,63 @@ def percussion(score):
 def strings(score, string_abbreviations):
     accumulator(
         "1vn1",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violins-i-one-ten-markup"),
         library.short_instrument_name("Vni. I (1-10)"),
         baca.clef("treble"),
     )
     accumulator(
         "1vn3",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violins-i-eleven-eighteen-markup"),
         library.short_instrument_name("Vni. I (11-18)"),
         baca.clef("treble"),
     )
     accumulator(
         "2vn1",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violins-ii-one-ten-markup"),
         library.short_instrument_name("Vni. II (1-10)"),
         baca.clef("treble"),
     )
     accumulator(
         "2vn3",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violins-ii-eleven-eighteen-markup"),
         library.short_instrument_name("Vni. II (11-18)"),
         baca.clef("treble"),
     )
     accumulator(
         "va1",
-        baca.instrument(instruments["Viola"]),
+        baca.instrument(
+            instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violas-one-ten-markup"),
         library.short_instrument_name("Vle. (1-10)"),
         baca.clef("alto"),
     )
     accumulator(
         "va3",
-        baca.instrument(instruments["Viola"]),
+        baca.instrument(
+            instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-violas-eleven-eighteen-markup"),
         library.short_instrument_name("Vle. (11-18)"),
         baca.clef("alto"),
     )
     accumulator(
         "vc1",
-        baca.instrument(instruments["Cello"]),
+        baca.instrument(
+            instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.instrument_name(r"\animales-cellos-markup"),
         library.short_instrument_name("Vc."),
         baca.clef("tenor"),

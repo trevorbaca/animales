@@ -210,7 +210,9 @@ def flutes(cache):
         library.pennant_pitches("D5", [6], function=o)
     accumulator(
         ("fl1", (1, 3)),
-        baca.instrument(instruments["Flute"]),
+        baca.instrument(
+            instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         library.short_instrument_name("Fl. (1+3)"),
         baca.not_parts(baca.voice_one()),
         baca.slur(),
@@ -236,7 +238,9 @@ def flutes(cache):
     )
     accumulator(
         ("fl2", (1, 3)),
-        baca.instrument(instruments["Flute"]),
+        baca.instrument(
+            instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
         baca.clef("treble"),
         library.short_instrument_name("Fl. (2+4)"),
         baca.not_parts(baca.voice_one()),

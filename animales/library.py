@@ -370,7 +370,7 @@ def glissando_positions(*, reverse=False, rotate=0, transpose=0):
 
 def instrument(key):
     _instruments = instruments()
-    return baca.instrument(_instruments[key])
+    return baca.instrument(_instruments[key], selector=lambda _: abjad.select.leaf(_, 0))
 
 
 def instruments():

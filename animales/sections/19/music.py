@@ -147,23 +147,33 @@ def BRASS(score):
 def strings(cache):
     accumulator(
         "1vn18",
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
     )
     accumulator(
         ["2vn6", "2vn12"],
-        baca.instrument(instruments["Violin"]),
+        baca.instrument(
+            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
     )
     accumulator(
         ["va6", "va12", "va15", "va18"],
-        baca.instrument(instruments["Viola"]),
+        baca.instrument(
+            instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
     )
     accumulator(
         ["vc5", "vc11"],
-        baca.instrument(instruments["Cello"]),
+        baca.instrument(
+            instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
     )
     accumulator(
         ["cb6"],
-        baca.instrument(instruments["Contrabass"]),
+        baca.instrument(
+            instruments["Contrabass"], selector=lambda _: abjad.select.leaf(_, 0)
+        ),
     )
 
 
