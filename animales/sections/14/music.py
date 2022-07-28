@@ -241,7 +241,7 @@ def flutes(cache):
         baca.instrument(
             instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Fl. (2+4)"),
         baca.not_parts(baca.voice_one()),
         baca.slur(),

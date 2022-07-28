@@ -493,7 +493,9 @@ def make_battuti_material(
                 stack.append(command)
                 command = baca.staff_lines(1)
                 stack.append(command)
-                command = baca.clef("percussion")
+                command = baca.clef(
+                    "percussion", selector=lambda _: abjad.select.leaf(_, 0)
+                )
                 stack.append(command)
             if first and member % 2 == 1:
                 short_instrument_name_ = section_name_to_short_instrument_name[section]

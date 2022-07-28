@@ -187,7 +187,7 @@ def pf(cache):
             instruments["Piano"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Pf."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.markup(
@@ -207,7 +207,7 @@ def hp(cache):
             instruments["Harp"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Hp."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.pitch("D5"),
         baca.stopped(selector=lambda _: baca.select.pheads(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
@@ -254,7 +254,7 @@ def perc3(cache):
         "perc3",
         library.short_instrument_name("Perc. 3 (vib.)"),
         library.instrument("Vibraphone"),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.pitch("D5"),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.markup(
@@ -361,7 +361,7 @@ def cb1(cache):
             instruments["Contrabass"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Cb. 1"),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Cb. 1"),
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Contrabass", 1),
@@ -372,7 +372,7 @@ def cb1(cache):
     )
     accumulator(
         ("cb1", (2, -1)),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.pitch("D5", do_not_transpose=True),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),

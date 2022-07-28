@@ -183,7 +183,7 @@ def strings(cache):
     )
     accumulator(
         ("vc1", 1),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"],

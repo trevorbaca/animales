@@ -154,7 +154,7 @@ def bcl(m):
             instruments["BassClarinet"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("B. cl."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.assign_part("BassClarinet"),
     )
     accumulator(

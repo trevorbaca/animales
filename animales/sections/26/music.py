@@ -191,7 +191,7 @@ def percussion(cache):
 def cb3(m):
     accumulator(
         "cb3",
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(5),
         baca.pitch("C#2"),
         baca.markup(r"\baca-arco-markup", selector=lambda _: baca.select.pleaf(_, 0)),

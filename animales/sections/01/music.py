@@ -90,7 +90,7 @@ def percussion(score):
             r"\animales-percussion-i-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Perc."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(1),
         library.assign_part("Percussion", 1),
     )
@@ -104,7 +104,7 @@ def percussion(score):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Perc."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(1),
         library.assign_part("Percussion", 2),
     )
@@ -118,7 +118,7 @@ def percussion(score):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Perc."),
-        baca.clef("percussion"),
+        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_lines(1),
         library.assign_part("Percussion", 4),
     )
@@ -135,7 +135,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vni. I (1-10)"),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "1vn3",
@@ -147,7 +147,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vni. I (11-18)"),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "2vn1",
@@ -159,7 +159,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vni. II (1-10)"),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "2vn3",
@@ -171,7 +171,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vni. II (11-18)"),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "va1",
@@ -183,7 +183,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vle. (1-10)"),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "va3",
@@ -195,7 +195,7 @@ def strings(score, string_abbreviations):
             selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Vle. (11-18)"),
-        baca.clef("alto"),
+        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     accumulator(
         "vc1",
@@ -206,7 +206,7 @@ def strings(score, string_abbreviations):
             r"\animales-cellos-markup", selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Vc."),
-        baca.clef("tenor"),
+        baca.clef("tenor", selector=lambda _: abjad.select.leaf(_, 0)),
     )
     library.assign_trill_parts(accumulator)
     accumulator(
