@@ -171,7 +171,10 @@ def percussion(cache):
         baca.staff_lines(1),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.markup(r"\animales-bass-drum-soft-yarn-mallets-markup"),
+        baca.markup(
+            r"\animales-bass-drum-soft-yarn-mallets-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.only_parts(baca.text_script_extra_offset((0, 4))),
         baca.dynamic("p"),
         library.assign_part("Percussion", 3),
@@ -183,7 +186,10 @@ def percussion(cache):
         baca.staff_lines(1),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.markup(r"\animales-tam-tam-soft-yarn-mallets-markup"),
+        baca.markup(
+            r"\animales-tam-tam-soft-yarn-mallets-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.only_parts(baca.text_script_extra_offset((0, 4))),
         baca.dynamic("p"),
         library.assign_part("Percussion", 4),

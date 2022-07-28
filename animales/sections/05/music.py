@@ -112,7 +112,11 @@ def winds(cache):
         "cl",
         baca.pitch("C#5"),
         library.short_instrument_name("Cl. 2"),
-        baca.edition("solo (cl. 2)", "solo"),
+        baca.edition(
+            "solo (cl. 2)",
+            "solo",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin("mp < mf"),
         library.assign_part("Clarinet", 2),
     )

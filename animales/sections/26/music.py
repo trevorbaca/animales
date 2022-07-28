@@ -194,7 +194,7 @@ def cb3(m):
         baca.clef("bass"),
         baca.staff_lines(5),
         baca.pitch("C#2"),
-        baca.markup(r"\baca-arco-markup"),
+        baca.markup(r"\baca-arco-markup", selector=lambda _: baca.select.pleaf(_, 0)),
         baca.hairpin("p <", right_broken=True),
         library.assign_part("Contrabass", (1, 6)),
     )

@@ -182,7 +182,10 @@ def strings(cache, voice_abbreviation_to_members):
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
             baca.accent(selector=lambda _: baca.select.pleaves(_)),
             baca.only_parts(
-                baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
+                baca.markup(
+                    r"\animales-ext-ponticello-like-acid-markup",
+                    selector=lambda _: baca.select.pleaf(_, 0),
+                ),
             ),
             baca.text_spanner(
                 "ext. pont. => tasto",
@@ -224,7 +227,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vni. I 18"),
         baca.pitch("C#4"),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.markup(r"\animales-appear-as-if-by-magic-markup"),
+        baca.markup(
+            r"\animales-appear-as-if-by-magic-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.dynamic("f"),
         library.assign_part("FirstViolin", 18),
     )
@@ -241,10 +247,16 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vni. I (1-4) (5-8)"),
         baca.pitch("A5"),
         baca.not_parts(
-            baca.markup(r"\animales-tutti-ext-ponticello-like-acid-markup"),
+            baca.markup(
+                r"\animales-tutti-ext-ponticello-like-acid-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         baca.not_parts(
-            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+            baca.markup(
+                r"\animales-one-to-four-plus-five-to-eight-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -260,7 +272,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vni. I (9-12) (13-17)"),
         baca.pitch("G5"),
         baca.not_parts(
-            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup"),
+            baca.markup(
+                r"\animales-nine-to-twelve-plus-thirteen-to-seventeen-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -276,7 +291,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vni. II (1-4) (5-8)"),
         baca.pitch("B4"),
         baca.not_parts(
-            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+            baca.markup(
+                r"\animales-one-to-four-plus-five-to-eight-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -292,7 +310,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vni. II (9-12) (13-18)"),
         baca.pitch("A4"),
         baca.not_parts(
-            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
+            baca.markup(
+                r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -308,7 +329,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vle. (1-4) (5-8)"),
         baca.pitch("D4"),
         baca.not_parts(
-            baca.markup(r"\animales-one-to-four-plus-five-to-eight-markup"),
+            baca.markup(
+                r"\animales-one-to-four-plus-five-to-eight-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -324,7 +348,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vle. (9-12) (13-18)"),
         baca.pitch("B3"),
         baca.not_parts(
-            baca.markup(r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup"),
+            baca.markup(
+                r"\animales-nine-to-twelve-plus-thirteen-to-eighteen-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -340,7 +367,10 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Vc. (1-8) (9-14)"),
         baca.pitch("D3"),
         baca.not_parts(
-            baca.markup(r"\animales-one-to-eight-plus-nine-to-fourteen-markup"),
+            baca.markup(
+                r"\animales-one-to-eight-plus-nine-to-fourteen-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         _tremolo_suite(),
         _upper_voice_suite(),
@@ -356,7 +386,9 @@ def strings(cache, voice_abbreviation_to_members):
         library.short_instrument_name("Cb."),
         baca.pitch("G1"),
         baca.not_parts(
-            baca.markup(r"\animales-cb-tutti-markup"),
+            baca.markup(
+                r"\animales-cb-tutti-markup", selector=lambda _: baca.select.pleaf(_, 0)
+            ),
         ),
         #    baca.tag(
         #        abjad.Tag("+LETTER_PARTS_CB-1"),
