@@ -200,26 +200,30 @@ def brass(cache):
         baca.not_parts(
             baca.note_column_shift(1.7, selector=lambda _: abjad.select.leaf(_, 0))
         ),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("hn3", 1),
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("hn2", 1),
         baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("hn4", 1),
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     # trumpets
     accumulator(
@@ -227,20 +231,24 @@ def brass(cache):
         baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("tp3", 1),
         baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tp2", 1),
         baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("tp4", 1),
@@ -250,7 +258,7 @@ def brass(cache):
         baca.not_parts(
             baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
         ),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     # trombones
     accumulator(
@@ -258,20 +266,24 @@ def brass(cache):
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("tbn3", 1),
         baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two()),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tbn2", 1),
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dynamic_up()),
-        baca.only_parts(baca.dynamic("sfz")),
+        baca.only_parts(
+            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
+        ),
     )
     accumulator(
         ("tbn4", 1),
@@ -281,7 +293,7 @@ def brass(cache):
         baca.not_parts(
             baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
         ),
-        baca.dynamic("sfz"),
+        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
 
 
@@ -345,12 +357,12 @@ def strings(cache):
     )
     accumulator(
         ["1vn1", "2vn1", "va1", "vc1"],
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         "cb3",
         baca.pitch("Ab1"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Contrabass", (2, 6)),
     )
 

@@ -161,7 +161,7 @@ def bcl(m):
             lambda _: baca.select.pleaf(_, 0),
         ),
         baca.pitch("A2"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("BassClarinet"),
     )
 

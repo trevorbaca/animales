@@ -191,7 +191,7 @@ def strings(cache, voice_abbreviation_to_members):
                 "ext. pont. => tasto",
                 selector=lambda _: baca.select.pleaves(_)[2:-2],
             ),
-            baca.dynamic("ff-ancora"),
+            baca.dynamic("ff-ancora", selector=lambda _: baca.select.phead(_, 0)),
             baca.hairpin(
                 "ff > pp",
                 selector=lambda _: baca.select.pleaves(_)[2:-2],
@@ -231,7 +231,7 @@ def strings(cache, voice_abbreviation_to_members):
             r"\animales-appear-as-if-by-magic-markup",
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
-        baca.dynamic("f"),
+        baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("FirstViolin", 18),
     )
     voice_abbreviation_to_voice_name = library.voice_abbreviations()

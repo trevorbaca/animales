@@ -188,7 +188,7 @@ def pf(cache):
         ),
         library.short_instrument_name("Pf."),
         baca.clef("treble"),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.markup(
             r"\animales-mute-with-lh-inside-piano-dull-thud-markup",
@@ -221,7 +221,7 @@ def hp(cache):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Harp"),
     )
 
@@ -261,7 +261,7 @@ def perc3(cache):
             r"\animales-vibraphone-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
         baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
-        baca.dynamic("mp"),
+        baca.dynamic("mp", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 3),
     )
 
@@ -339,7 +339,7 @@ def strings(cache):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
-        baca.dynamic("pp"),
+        baca.dynamic("pp", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("cb3", 1),
@@ -349,7 +349,7 @@ def strings(cache):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
 
 
@@ -363,7 +363,7 @@ def cb1(cache):
         library.short_instrument_name("Cb. 1"),
         baca.clef("bass"),
         library.short_instrument_name("Cb. 1"),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Contrabass", 1),
     )
     accumulator(
@@ -381,7 +381,7 @@ def cb1(cache):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.markup(r"\baca-pizz-markup", selector=lambda _: baca.select.pleaf(_, 0)),
-        baca.dynamic("mf"),
+        baca.dynamic("mf", selector=lambda _: baca.select.phead(_, 0)),
     )
 
 

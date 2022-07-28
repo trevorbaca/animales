@@ -338,7 +338,7 @@ def strings(cache):
                 "ext. pont. => tasto",
                 selector=lambda _: baca.select.pleaves(_)[2:-2],
             ),
-            baca.dynamic("ff"),
+            baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
             baca.hairpin(
                 "ff > pp",
                 selector=lambda _: baca.select.pleaves(_)[2:-2],

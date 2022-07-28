@@ -105,7 +105,7 @@ def perc4(m):
             r"\animales-stonecircle-markup", selector=lambda _: baca.select.pleaf(_, 0)
         ),
         baca.only_parts(baca.text_script_x_offset(3)),
-        baca.dynamic('"mf"'),
+        baca.dynamic('"mf"', selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("perc4", 10),
