@@ -109,7 +109,7 @@ def ob(m):
             instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Ob."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.assign_part("Oboe", (1, 3)),
     )
     accumulator(
@@ -129,7 +129,7 @@ def eh(m):
             instruments["EnglishHorn"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Eng. hn."),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.pitch("G3"),
     )
     accumulator(
@@ -149,7 +149,7 @@ def bsns(cache):
             instruments["Bassoon"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Bsn."),
-        baca.clef("bass"),
+        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
         baca.not_parts(baca.voice_one()),
         library.assign_part("Bassoon", 1),
     )
@@ -223,7 +223,7 @@ def strings(cache, voice_abbreviation_to_members):
         baca.instrument(
             instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
-        baca.clef("treble"),
+        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Vni. I 18"),
         baca.pitch("C#4"),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
