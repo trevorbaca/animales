@@ -186,7 +186,7 @@ def percussion(cache):
         (["perc1", "perc2"], (3, 6)),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("perc1", 3),
@@ -340,7 +340,7 @@ def strings(cache, string_abbreviations):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
-        baca.dynamic("p-sub"),
+        baca.dynamic("p-sub", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("1vn1", (1, 2)),

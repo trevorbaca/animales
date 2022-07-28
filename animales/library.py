@@ -607,12 +607,14 @@ def make_brass_sforzando_material(
         if member in (1, 2):
             commands(
                 (voice_name, measure),
-                baca.dynamic("sffz"),
+                baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0)),
             )
         elif member in (3, 4):
             commands(
                 (voice_name, measure),
-                baca.only_parts(baca.dynamic("sffz")),
+                baca.only_parts(
+                    baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0))
+                ),
             )
         else:
             raise ValueError(member)

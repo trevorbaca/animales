@@ -152,7 +152,7 @@ def perc2(m):
         "perc2",
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 2),
     )
 

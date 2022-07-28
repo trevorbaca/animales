@@ -132,7 +132,7 @@ def percussion(cache):
         "perc1",
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 1),
     )
     # perc2 (cymbal)
@@ -163,7 +163,7 @@ def cb3(m):
         "cb3",
         baca.pitch("C#2"),
         baca.text_spanner("ord. => ext. pont."),
-        baca.dynamic("fff"),
+        baca.dynamic("fff", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Contrabass", (1, 6)),
     )
 

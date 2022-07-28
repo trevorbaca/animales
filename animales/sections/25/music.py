@@ -176,7 +176,7 @@ def percussion(cache):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.only_parts(baca.text_script_extra_offset((0, 4))),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 3),
     )
     # perc4 (tam-tam)
@@ -191,7 +191,7 @@ def percussion(cache):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.only_parts(baca.text_script_extra_offset((0, 4))),
-        baca.dynamic("p"),
+        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 4),
     )
 
