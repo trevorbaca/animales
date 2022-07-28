@@ -91,7 +91,7 @@ def percussion(score):
         ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         library.assign_part("Percussion", 1),
     )
     accumulator(
@@ -105,7 +105,7 @@ def percussion(score):
         ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         library.assign_part("Percussion", 2),
     )
     accumulator(
@@ -119,7 +119,7 @@ def percussion(score):
         ),
         library.short_instrument_name("Perc."),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         library.assign_part("Percussion", 4),
     )
 

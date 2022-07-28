@@ -491,7 +491,9 @@ def make_battuti_material(
                 )
                 command = baca.only_parts(command)
                 stack.append(command)
-                command = baca.staff_lines(1)
+                command = baca.staff_lines(
+                    1, selector=lambda _: abjad.select.leaf(_, 0)
+                )
                 stack.append(command)
                 command = baca.clef(
                     "percussion", selector=lambda _: abjad.select.leaf(_, 0)

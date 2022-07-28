@@ -168,7 +168,7 @@ def percussion(cache):
         "perc3",
         library.short_instrument_name("Perc. 3 (BD)"),
         baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         baca.markup(
@@ -183,7 +183,7 @@ def percussion(cache):
     accumulator(
         "perc4",
         library.short_instrument_name("Perc. 4 (tam.)"),
-        baca.staff_lines(1),
+        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         baca.markup(
