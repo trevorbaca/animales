@@ -150,7 +150,11 @@ def cl(cache):
         ("cl", (1, 4)),
         library.short_instrument_name("Cl. 1"),
         baca.pitch("D5"),
-        baca.edition("solo (cl. 1)", "solo"),
+        baca.edition(
+            "solo (cl. 1)",
+            "solo",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin("mp < mf"),
         library.assign_part("Clarinet", 1),
     )
@@ -166,7 +170,11 @@ def cl(cache):
         ("cl", (5, 8)),
         library.short_instrument_name("Cl. 2"),
         baca.pitch("Db5"),
-        baca.edition("solo (cl. 2)", "solo"),
+        baca.edition(
+            "solo (cl. 2)",
+            "solo",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin("mp < mf"),
         library.assign_part("Clarinet", 2),
     )
@@ -182,7 +190,10 @@ def pf(cache):
         baca.clef("treble"),
         baca.dynamic("mf"),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-mute-with-lh-inside-piano-dull-thud-markup"),
+        baca.markup(
+            r"\animales-mute-with-lh-inside-piano-dull-thud-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.pitch("D5"),
         baca.stopped(selector=lambda _: baca.select.pheads(_)),
         library.assign_part("Piano"),
@@ -201,8 +212,14 @@ def hp(cache):
         baca.stopped(selector=lambda _: baca.select.pheads(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
         baca.edition(
-            baca.markup(r"\animales-lh-damped-pdlt-markup"),
-            baca.markup(r"\animales-lh-damped-pdlt-explanation-markup"),
+            baca.markup(
+                r"\animales-lh-damped-pdlt-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
+            baca.markup(
+                r"\animales-lh-damped-pdlt-explanation-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         baca.dynamic("mf"),
         library.assign_part("Harp"),
@@ -240,7 +257,9 @@ def perc3(cache):
         baca.clef("treble"),
         baca.pitch("D5"),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-vibraphone-markup"),
+        baca.markup(
+            r"\animales-vibraphone-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.only_parts(baca.text_script_extra_offset((1.5, 1.5))),
         baca.dynamic("mp"),
         library.assign_part("Percussion", 3),
@@ -252,7 +271,10 @@ def strings(cache):
         "1vn1",
         baca.pitch("Bb6"),
         baca.not_parts(
-            baca.markup(r"\animales-strings-still-non-vib-markup"),
+            baca.markup(
+                r"\animales-strings-still-non-vib-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         library.assign_part("FirstViolin", (1, 18)),
     )
@@ -275,7 +297,10 @@ def strings(cache):
         "cb3",
         library.short_instrument_name(
             "Cb. (2-6)",
-            alert=baca.markup(r"\animales-cb-two-to-six-markup"),
+            alert=baca.markup(
+                r"\animales-cb-two-to-six-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         library.assign_part("Contrabass", (2, 6)),
     )
@@ -309,14 +334,20 @@ def strings(cache):
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], 1),
         baca.only_parts(
-            baca.markup(r"\animales-still-non-vibrato-markup"),
+            baca.markup(
+                r"\animales-still-non-vibrato-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         baca.dynamic("pp"),
     )
     accumulator(
         ("cb3", 1),
         baca.only_parts(
-            baca.markup(r"\animales-still-non-vibrato-markup"),
+            baca.markup(
+                r"\animales-still-non-vibrato-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         baca.dynamic("p"),
     )
@@ -345,8 +376,11 @@ def cb1(cache):
         baca.pitch("D5", do_not_transpose=True),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-eighth-partial-of-d-markup"),
-        baca.markup(r"\baca-pizz-markup"),
+        baca.markup(
+            r"\animales-eighth-partial-of-d-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+        baca.markup(r"\baca-pizz-markup", selector=lambda _: baca.select.pleaf(_, 0)),
         baca.dynamic("mf"),
     )
 

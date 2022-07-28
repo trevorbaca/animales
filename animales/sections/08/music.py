@@ -140,7 +140,9 @@ def cl(m):
         library.short_instrument_name("Cl. 1"),
         library.assign_part("Clarinet", 1),
         baca.hairpin("mp <", right_broken=True),
-        baca.edition("solo (cl. 1)", "solo"),
+        baca.edition(
+            "solo (cl. 1)", "solo", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.pitch("F5"),
     )
 

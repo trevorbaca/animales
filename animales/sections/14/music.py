@@ -396,7 +396,9 @@ def strings(cache):
         baca.not_parts(baca.voice_one()),
         baca.not_parts(baca.dls_up()),
         baca.only_parts(baca.stop_trill()),
-        baca.edition("solo (first violin)", "solo"),
+        baca.edition(
+            "solo (first violin)", "solo", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.hairpin(
             "p < ff",
             selector=library.leaves_in_measure(1, rleak=True),
@@ -479,7 +481,10 @@ def cb1(m):
         "cb1",
         baca.pitch("Bb4", do_not_transpose=True),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-as-bell-like-as-possible-markup"),
+        baca.markup(
+            r"\animales-as-bell-like-as-possible-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         library.assign_part("Contrabass", 1),
     )
 

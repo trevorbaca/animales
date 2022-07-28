@@ -172,7 +172,11 @@ def winds(cache):
     accumulator(
         ("cl", (3, 6)),
         baca.pitch("C5"),
-        baca.edition("solo (cl. 3)", "solo"),
+        baca.edition(
+            "solo (cl. 3)",
+            "solo",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.hairpin("mp < mf"),
     )
 
@@ -186,11 +190,17 @@ def percussion(cache):
     )
     accumulator(
         ("perc1", 3),
-        baca.markup(r"\animales-triangle-small-beater-markup"),
+        baca.markup(
+            r"\animales-triangle-small-beater-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
     )
     accumulator(
         ("perc2", 3),
-        baca.markup(r"\animales-suspended-cymbal-markup"),
+        baca.markup(
+            r"\animales-suspended-cymbal-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
     )
     accumulator(
         "perc1",
@@ -284,7 +294,11 @@ def strings(cache, string_abbreviations):
             baca.glissando(),
         ),
         library.assign_part("FirstViolin", 1),
-        baca.edition("solo (first violin)", "solo"),
+        baca.edition(
+            "solo (first violin)",
+            "solo",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.not_parts(baca.dls_up()),
         baca.not_parts(baca.voice_one()),
         baca.only_parts(baca.stop_trill()),
@@ -321,7 +335,10 @@ def strings(cache, string_abbreviations):
         (string_abbreviations, (3, 6)),
         baca.pitch(0),
         baca.only_parts(
-            baca.markup(r"\animales-still-non-vibrato-markup"),
+            baca.markup(
+                r"\animales-still-non-vibrato-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         baca.dynamic("p-sub"),
     )
@@ -337,6 +354,7 @@ def strings(cache, string_abbreviations):
             baca.markup(
                 r"\animales-all-other-strings-still-markup",
                 direction=abjad.DOWN,
+                selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
         baca.not_parts(baca.voice_two()),

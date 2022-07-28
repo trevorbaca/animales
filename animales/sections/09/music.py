@@ -281,7 +281,10 @@ def cb1(m):
         baca.pitch("Cqf5", do_not_transpose=True),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-seventh-partial-of-d-markup"),
+        baca.markup(
+            r"\animales-seventh-partial-of-d-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         library.assign_part("Contrabass", 1),
     )
 

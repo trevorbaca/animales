@@ -79,7 +79,10 @@ def pf(m):
         baca.pitch("C#4"),
         baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
         baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(r"\animales-harmonic-touch-lowest-string-of-piano-markup"),
+        baca.markup(
+            r"\animales-harmonic-touch-lowest-string-of-piano-markup",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
         baca.only_parts(baca.text_script_x_offset(3)),
     )
     accumulator(
@@ -98,7 +101,9 @@ def perc4(m):
         ("perc4", (1, 8)),
         library.short_instrument_name("Perc. 4 (slate)"),
         baca.staff_position(0),
-        baca.markup(r"\animales-stonecircle-markup"),
+        baca.markup(
+            r"\animales-stonecircle-markup", selector=lambda _: baca.select.pleaf(_, 0)
+        ),
         baca.only_parts(baca.text_script_x_offset(3)),
         baca.dynamic('"mf"'),
     )

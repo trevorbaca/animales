@@ -344,7 +344,10 @@ def strings(cache):
                 selector=lambda _: baca.select.pleaves(_)[2:-2],
             ),
             baca.only_parts(
-                baca.markup(r"\animales-ext-ponticello-like-acid-markup"),
+                baca.markup(
+                    r"\animales-ext-ponticello-like-acid-markup",
+                    selector=lambda _: baca.select.pleaf(_, 0),
+                ),
             ),
         )
 
@@ -384,7 +387,10 @@ def strings(cache):
         _tremolo_suite(),
         _upper_voice_suite(),
         baca.not_parts(
-            baca.markup(r"\animales-tutti-sim-markup"),
+            baca.markup(
+                r"\animales-tutti-sim-markup",
+                selector=lambda _: baca.select.pleaf(_, 0),
+            ),
         ),
         library.assign_part("FirstViolin", (1, 4)),
     )
