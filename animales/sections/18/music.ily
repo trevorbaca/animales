@@ -150,15 +150,21 @@ number.18.Skips = {
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -729,7 +735,7 @@ number.18.Horns.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -747,11 +753,11 @@ number.18.Horns.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -763,13 +769,13 @@ number.18.Horns.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -821,11 +827,11 @@ number.18.Horns.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -836,7 +842,7 @@ number.18.Horns.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -895,11 +901,11 @@ number.18.Horns.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -910,7 +916,7 @@ number.18.Horns.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -996,11 +1002,11 @@ number.18.Horns.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -1010,12 +1016,12 @@ number.18.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -1049,11 +1055,11 @@ number.18.Horns.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1064,7 +1070,7 @@ number.18.Horns.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1123,11 +1129,11 @@ number.18.Horns.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1138,7 +1144,7 @@ number.18.Horns.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1266,7 +1272,7 @@ number.18.Horns.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -1284,11 +1290,11 @@ number.18.Horns.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -1300,13 +1306,13 @@ number.18.Horns.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -1358,11 +1364,11 @@ number.18.Horns.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1373,7 +1379,7 @@ number.18.Horns.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1432,11 +1438,11 @@ number.18.Horns.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1447,7 +1453,7 @@ number.18.Horns.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1533,11 +1539,11 @@ number.18.Horns.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -1547,12 +1553,12 @@ number.18.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -1586,11 +1592,11 @@ number.18.Horns.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1601,7 +1607,7 @@ number.18.Horns.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1660,11 +1666,11 @@ number.18.Horns.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1675,7 +1681,7 @@ number.18.Horns.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1803,7 +1809,7 @@ number.18.Trumpets.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -1821,11 +1827,11 @@ number.18.Trumpets.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -1837,13 +1843,13 @@ number.18.Trumpets.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -1895,11 +1901,11 @@ number.18.Trumpets.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1910,7 +1916,7 @@ number.18.Trumpets.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -1969,11 +1975,11 @@ number.18.Trumpets.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -1984,7 +1990,7 @@ number.18.Trumpets.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2070,11 +2076,11 @@ number.18.Trumpets.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -2084,12 +2090,12 @@ number.18.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -2123,11 +2129,11 @@ number.18.Trumpets.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2138,7 +2144,7 @@ number.18.Trumpets.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2197,11 +2203,11 @@ number.18.Trumpets.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2212,7 +2218,7 @@ number.18.Trumpets.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2340,7 +2346,7 @@ number.18.Trumpets.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -2358,11 +2364,11 @@ number.18.Trumpets.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -2374,13 +2380,13 @@ number.18.Trumpets.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -2432,11 +2438,11 @@ number.18.Trumpets.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2447,7 +2453,7 @@ number.18.Trumpets.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2506,11 +2512,11 @@ number.18.Trumpets.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2521,7 +2527,7 @@ number.18.Trumpets.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2607,11 +2613,11 @@ number.18.Trumpets.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -2621,12 +2627,12 @@ number.18.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -2660,11 +2666,11 @@ number.18.Trumpets.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2675,7 +2681,7 @@ number.18.Trumpets.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2734,11 +2740,11 @@ number.18.Trumpets.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2749,7 +2755,7 @@ number.18.Trumpets.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -2877,7 +2883,7 @@ number.18.Trombones.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -2895,11 +2901,11 @@ number.18.Trombones.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -2911,13 +2917,13 @@ number.18.Trombones.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -2969,11 +2975,11 @@ number.18.Trombones.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -2984,7 +2990,7 @@ number.18.Trombones.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3043,11 +3049,11 @@ number.18.Trombones.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3058,7 +3064,7 @@ number.18.Trombones.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3144,11 +3150,11 @@ number.18.Trombones.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -3158,12 +3164,12 @@ number.18.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -3197,11 +3203,11 @@ number.18.Trombones.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3212,7 +3218,7 @@ number.18.Trombones.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3271,11 +3277,11 @@ number.18.Trombones.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3286,7 +3292,7 @@ number.18.Trombones.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3414,7 +3420,7 @@ number.18.Trombones.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -3432,11 +3438,11 @@ number.18.Trombones.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -3448,13 +3454,13 @@ number.18.Trombones.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -3506,11 +3512,11 @@ number.18.Trombones.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3521,7 +3527,7 @@ number.18.Trombones.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3580,11 +3586,11 @@ number.18.Trombones.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3595,7 +3601,7 @@ number.18.Trombones.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3681,11 +3687,11 @@ number.18.Trombones.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -3695,12 +3701,12 @@ number.18.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -3734,11 +3740,11 @@ number.18.Trombones.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3749,7 +3755,7 @@ number.18.Trombones.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3808,11 +3814,11 @@ number.18.Trombones.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -3823,7 +3829,7 @@ number.18.Trombones.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -3981,7 +3987,7 @@ number.18.FirstViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -4039,11 +4045,11 @@ number.18.FirstViolins.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -4054,7 +4060,7 @@ number.18.FirstViolins.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -4066,7 +4072,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4130,7 +4136,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -4149,7 +4155,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4265,11 +4271,11 @@ number.18.FirstViolins.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -4280,7 +4286,7 @@ number.18.FirstViolins.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -4292,7 +4298,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4356,7 +4362,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -4375,7 +4381,7 @@ number.18.FirstViolins.Voice.1.container = {
     a''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4541,7 +4547,7 @@ number.18.FirstViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -4582,11 +4588,11 @@ number.18.FirstViolins.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -4597,7 +4603,7 @@ number.18.FirstViolins.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -4609,7 +4615,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4673,7 +4679,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -4692,7 +4698,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4808,11 +4814,11 @@ number.18.FirstViolins.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -4823,7 +4829,7 @@ number.18.FirstViolins.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -4835,7 +4841,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -4899,7 +4905,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -4918,7 +4924,7 @@ number.18.FirstViolins.Voice.2.container = {
     f''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5138,7 +5144,7 @@ number.18.FirstViolins.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -5196,11 +5202,11 @@ number.18.FirstViolins.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -5211,7 +5217,7 @@ number.18.FirstViolins.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -5223,7 +5229,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5287,7 +5293,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -5306,7 +5312,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5422,11 +5428,11 @@ number.18.FirstViolins.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -5437,7 +5443,7 @@ number.18.FirstViolins.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -5449,7 +5455,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5513,7 +5519,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -5532,7 +5538,7 @@ number.18.FirstViolins.Voice.3.container = {
     g''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5698,7 +5704,7 @@ number.18.FirstViolins.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -5739,11 +5745,11 @@ number.18.FirstViolins.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -5754,7 +5760,7 @@ number.18.FirstViolins.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -5766,7 +5772,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5830,7 +5836,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -5849,7 +5855,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -5965,11 +5971,11 @@ number.18.FirstViolins.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -5980,7 +5986,7 @@ number.18.FirstViolins.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -5992,7 +5998,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -6056,7 +6062,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6075,7 +6081,7 @@ number.18.FirstViolins.Voice.4.container = {
     d''1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -6282,7 +6288,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'!2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -6305,7 +6311,7 @@ number.18.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
@@ -6331,7 +6337,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6345,11 +6351,11 @@ number.18.FirstViolins.Voice.5.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -6360,7 +6366,7 @@ number.18.FirstViolins.Voice.5.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -6372,7 +6378,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'!1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6389,7 +6395,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6408,7 +6414,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6427,7 +6433,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6441,11 +6447,11 @@ number.18.FirstViolins.Voice.5.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -6456,7 +6462,7 @@ number.18.FirstViolins.Voice.5.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -6468,7 +6474,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'!2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6485,7 +6491,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6504,7 +6510,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6523,7 +6529,7 @@ number.18.FirstViolins.Voice.5.container = {
     cs'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6627,7 +6633,7 @@ number.18.SecondViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -6685,11 +6691,11 @@ number.18.SecondViolins.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -6700,7 +6706,7 @@ number.18.SecondViolins.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -6712,7 +6718,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -6776,7 +6782,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -6797,7 +6803,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -6915,11 +6921,11 @@ number.18.SecondViolins.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -6930,7 +6936,7 @@ number.18.SecondViolins.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -6942,7 +6948,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7006,7 +7012,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -7027,7 +7033,7 @@ number.18.SecondViolins.Voice.1.container = {
     b'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7195,7 +7201,7 @@ number.18.SecondViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -7236,11 +7242,11 @@ number.18.SecondViolins.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -7251,7 +7257,7 @@ number.18.SecondViolins.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -7263,7 +7269,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7327,7 +7333,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -7346,7 +7352,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7462,11 +7468,11 @@ number.18.SecondViolins.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -7477,7 +7483,7 @@ number.18.SecondViolins.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -7489,7 +7495,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7553,7 +7559,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -7572,7 +7578,7 @@ number.18.SecondViolins.Voice.2.container = {
     g'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7792,7 +7798,7 @@ number.18.SecondViolins.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -7850,11 +7856,11 @@ number.18.SecondViolins.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -7865,7 +7871,7 @@ number.18.SecondViolins.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -7877,7 +7883,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -7941,7 +7947,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -7960,7 +7966,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8076,11 +8082,11 @@ number.18.SecondViolins.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -8091,7 +8097,7 @@ number.18.SecondViolins.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -8103,7 +8109,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8167,7 +8173,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -8186,7 +8192,7 @@ number.18.SecondViolins.Voice.3.container = {
     a'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8352,7 +8358,7 @@ number.18.SecondViolins.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -8393,11 +8399,11 @@ number.18.SecondViolins.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -8408,7 +8414,7 @@ number.18.SecondViolins.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -8420,7 +8426,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8484,7 +8490,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -8503,7 +8509,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8619,11 +8625,11 @@ number.18.SecondViolins.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -8634,7 +8640,7 @@ number.18.SecondViolins.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -8646,7 +8652,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8710,7 +8716,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -8729,7 +8735,7 @@ number.18.SecondViolins.Voice.4.container = {
     f'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -8949,7 +8955,7 @@ number.18.Violas.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -9007,11 +9013,11 @@ number.18.Violas.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -9022,7 +9028,7 @@ number.18.Violas.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -9034,7 +9040,7 @@ number.18.Violas.Voice.1.container = {
     d'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9098,7 +9104,7 @@ number.18.Violas.Voice.1.container = {
     d'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -9117,7 +9123,7 @@ number.18.Violas.Voice.1.container = {
     d'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9233,11 +9239,11 @@ number.18.Violas.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -9248,7 +9254,7 @@ number.18.Violas.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -9260,7 +9266,7 @@ number.18.Violas.Voice.1.container = {
     d'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9324,7 +9330,7 @@ number.18.Violas.Voice.1.container = {
     d'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -9343,7 +9349,7 @@ number.18.Violas.Voice.1.container = {
     d'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9509,7 +9515,7 @@ number.18.Violas.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -9550,11 +9556,11 @@ number.18.Violas.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -9565,7 +9571,7 @@ number.18.Violas.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -9577,7 +9583,7 @@ number.18.Violas.Voice.2.container = {
     a1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9641,7 +9647,7 @@ number.18.Violas.Voice.2.container = {
     a1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -9660,7 +9666,7 @@ number.18.Violas.Voice.2.container = {
     a1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9776,11 +9782,11 @@ number.18.Violas.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -9791,7 +9797,7 @@ number.18.Violas.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -9803,7 +9809,7 @@ number.18.Violas.Voice.2.container = {
     a2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -9867,7 +9873,7 @@ number.18.Violas.Voice.2.container = {
     a1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -9886,7 +9892,7 @@ number.18.Violas.Voice.2.container = {
     a1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10106,7 +10112,7 @@ number.18.Violas.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -10164,11 +10170,11 @@ number.18.Violas.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -10179,7 +10185,7 @@ number.18.Violas.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -10191,7 +10197,7 @@ number.18.Violas.Voice.3.container = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10255,7 +10261,7 @@ number.18.Violas.Voice.3.container = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -10274,7 +10280,7 @@ number.18.Violas.Voice.3.container = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10390,11 +10396,11 @@ number.18.Violas.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -10405,7 +10411,7 @@ number.18.Violas.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -10417,7 +10423,7 @@ number.18.Violas.Voice.3.container = {
     b2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10481,7 +10487,7 @@ number.18.Violas.Voice.3.container = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -10500,7 +10506,7 @@ number.18.Violas.Voice.3.container = {
     b1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10666,7 +10672,7 @@ number.18.Violas.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -10707,11 +10713,11 @@ number.18.Violas.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -10722,7 +10728,7 @@ number.18.Violas.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -10734,7 +10740,7 @@ number.18.Violas.Voice.4.container = {
     g1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10798,7 +10804,7 @@ number.18.Violas.Voice.4.container = {
     g1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -10817,7 +10823,7 @@ number.18.Violas.Voice.4.container = {
     g1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -10933,11 +10939,11 @@ number.18.Violas.Voice.4.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -10948,7 +10954,7 @@ number.18.Violas.Voice.4.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -10960,7 +10966,7 @@ number.18.Violas.Voice.4.container = {
     g2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11024,7 +11030,7 @@ number.18.Violas.Voice.4.container = {
     g1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -11043,7 +11049,7 @@ number.18.Violas.Voice.4.container = {
     g1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11263,7 +11269,7 @@ number.18.Cellos.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! baca.make_mmrests(1)
@@ -11321,11 +11327,11 @@ number.18.Cellos.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -11336,7 +11342,7 @@ number.18.Cellos.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -11348,7 +11354,7 @@ number.18.Cellos.Voice.1.container = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11412,7 +11418,7 @@ number.18.Cellos.Voice.1.container = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -11433,7 +11439,7 @@ number.18.Cellos.Voice.1.container = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11551,11 +11557,11 @@ number.18.Cellos.Voice.1.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -11566,7 +11572,7 @@ number.18.Cellos.Voice.1.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -11578,7 +11584,7 @@ number.18.Cellos.Voice.1.container = {
     d2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11642,7 +11648,7 @@ number.18.Cellos.Voice.1.container = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -11663,7 +11669,7 @@ number.18.Cellos.Voice.1.container = {
     d1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11831,7 +11837,7 @@ number.18.Cellos.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_mmrests(1)
@@ -11872,11 +11878,11 @@ number.18.Cellos.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -11887,7 +11893,7 @@ number.18.Cellos.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -11899,7 +11905,7 @@ number.18.Cellos.Voice.2.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -11963,7 +11969,7 @@ number.18.Cellos.Voice.2.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -11982,7 +11988,7 @@ number.18.Cellos.Voice.2.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12098,11 +12104,11 @@ number.18.Cellos.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -12113,7 +12119,7 @@ number.18.Cellos.Voice.2.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -12125,7 +12131,7 @@ number.18.Cellos.Voice.2.container = {
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12189,7 +12195,7 @@ number.18.Cellos.Voice.2.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -12208,7 +12214,7 @@ number.18.Cellos.Voice.2.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12466,11 +12472,11 @@ number.18.Contrabasses.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -12481,7 +12487,7 @@ number.18.Contrabasses.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -12493,7 +12499,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12557,7 +12563,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -12576,7 +12582,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12692,11 +12698,11 @@ number.18.Contrabasses.Voice.3.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -12707,7 +12713,7 @@ number.18.Contrabasses.Voice.3.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % ABSOLUTE_BEFORE:
@@ -12719,7 +12725,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -12783,7 +12789,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -12802,7 +12808,7 @@ number.18.Contrabasses.Voice.3.container = {
     g,1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:

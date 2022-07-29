@@ -63,7 +63,7 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = accumulator.manifests()
 
-baca.metronome_mark(skips[1 - 1], baca.Ritardando(), manifests)
+baca.metronome_mark_function(skips[1 - 1], baca.Ritardando(), manifests)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -148,7 +148,7 @@ def strings(cache, absent_left_broken):
     accumulator(
         "1vn1",
         library.short_instrument_name("Vni. I"),
-        baca.not_parts(baca.one_voice()),
+        baca.not_parts(baca.one_voice(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("FirstViolin", (1, 18)),
     )
     accumulator(

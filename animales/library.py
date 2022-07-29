@@ -229,62 +229,62 @@ def assign_brass_sforzando_parts(commands, omit_tuba=False):
     commands(
         "Horns.Voice.1",
         assign_part("Horn", 1),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Horns.Voice.3",
         assign_part("Horn", 3),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Horns.Voice.2",
         assign_part("Horn", 2),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Horns.Voice.4",
         assign_part("Horn", 4),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trumpets.Voice.1",
         assign_part("Trumpet", 1),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trumpets.Voice.3",
         assign_part("Trumpet", 3),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trumpets.Voice.2",
         assign_part("Trumpet", 2),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trumpets.Voice.4",
         assign_part("Trumpet", 4),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trombones.Voice.1",
         assign_part("Trombone", 1),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trombones.Voice.3",
         assign_part("Trombone", 3),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trombones.Voice.2",
         assign_part("Trombone", 2),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
         "Trombones.Voice.4",
         assign_part("Trombone", 4),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     if not omit_tuba:
         commands(
@@ -439,13 +439,13 @@ def make_battuti_material(
 
     def upper_voice():
         return baca.suite(
-            baca.not_parts(baca.voice_one()),
+            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.staff_position(1),
         )
 
     def lower_voice():
         return baca.suite(
-            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.staff_position(-1),
         )
 

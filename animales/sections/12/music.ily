@@ -147,15 +147,21 @@ number.12.Skips = {
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-invisible-line
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -531,7 +537,7 @@ number.12.Clarinets.Music.container.1 = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
@@ -607,7 +613,7 @@ number.12.Clarinets.Music.container.1 = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -688,7 +694,7 @@ number.12.Clarinets.Music.container.2 = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "2" }
@@ -742,7 +748,7 @@ number.12.Clarinets.Music.container.2 = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -881,7 +887,7 @@ number.12.Horns.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -899,11 +905,11 @@ number.12.Horns.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! +PARTS
@@ -919,13 +925,13 @@ number.12.Horns.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -1071,11 +1077,11 @@ number.12.Horns.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -1085,12 +1091,12 @@ number.12.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -1260,7 +1266,7 @@ number.12.Horns.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -1278,11 +1284,11 @@ number.12.Horns.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -1294,13 +1300,13 @@ number.12.Horns.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -1446,11 +1452,11 @@ number.12.Horns.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -1460,12 +1466,12 @@ number.12.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -1635,7 +1641,7 @@ number.12.Trumpets.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -1653,11 +1659,11 @@ number.12.Trumpets.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -1669,13 +1675,13 @@ number.12.Trumpets.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -1821,11 +1827,11 @@ number.12.Trumpets.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -1835,12 +1841,12 @@ number.12.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -2010,7 +2016,7 @@ number.12.Trumpets.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -2028,11 +2034,11 @@ number.12.Trumpets.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -2044,13 +2050,13 @@ number.12.Trumpets.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -2202,11 +2208,11 @@ number.12.Trumpets.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! +PARTS
@@ -2220,12 +2226,12 @@ number.12.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -2395,7 +2401,7 @@ number.12.Trombones.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -2413,11 +2419,11 @@ number.12.Trombones.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -2429,13 +2435,13 @@ number.12.Trombones.Voice.1.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -2581,11 +2587,11 @@ number.12.Trombones.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_downbeat_attack()
@@ -2595,12 +2601,12 @@ number.12.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -2770,7 +2776,7 @@ number.12.Trombones.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
@@ -2788,11 +2794,11 @@ number.12.Trombones.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_one()
     \voiceOne
       %! animales.make_downbeat_attack()
@@ -2804,13 +2810,13 @@ number.12.Trombones.Voice.2.container = {
       %! baca.treat_persistent_wrapper()
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
 %%% \sfz
@@ -2962,11 +2968,11 @@ number.12.Trombones.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.voice_two()
     \voiceTwo
       %! +PARTS
@@ -2980,12 +2986,12 @@ number.12.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \sfz
@@ -3224,10 +3230,10 @@ number.12.Piano.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3275,10 +3281,10 @@ number.12.Piano.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3328,10 +3334,10 @@ number.12.Piano.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3485,10 +3491,10 @@ number.12.Harp.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3531,10 +3537,10 @@ number.12.Harp.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3584,10 +3590,10 @@ number.12.Harp.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.stopped()
         - \stopped
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -3714,7 +3720,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -3760,7 +3766,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3781,7 +3787,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3802,7 +3808,7 @@ number.12.Percussion.2.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3821,7 +3827,7 @@ number.12.Percussion.2.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3840,7 +3846,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3861,7 +3867,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -3882,7 +3888,7 @@ number.12.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -4018,7 +4024,7 @@ number.12.Percussion.3.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -4073,7 +4079,7 @@ number.12.Percussion.3.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -4121,7 +4127,7 @@ number.12.Percussion.3.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -4242,12 +4248,12 @@ number.12.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -4463,12 +4469,12 @@ number.12.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -4684,12 +4690,12 @@ number.12.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -4905,12 +4911,12 @@ number.12.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \pp
@@ -5171,7 +5177,7 @@ number.12.Contrabasses.Voice.1.container = {
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -5231,7 +5237,7 @@ number.12.Contrabasses.Voice.1.container = {
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
@@ -5284,7 +5290,7 @@ number.12.Contrabasses.Voice.1.container = {
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.laissez_vibrer()
         \laissezVibrer
         % COMMANDS:
@@ -5404,12 +5410,12 @@ number.12.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \p

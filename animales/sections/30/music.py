@@ -50,11 +50,11 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-baca.bar_line(skips[10 - 1], "|.")
+baca.bar_line_function(skips[10 - 1], "|.")
 
 rests = score["Rests"]
 for index, string in ((10 - 1, "fermata"),):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def PF(voice):

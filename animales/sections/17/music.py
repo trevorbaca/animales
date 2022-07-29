@@ -199,7 +199,7 @@ def bsns(cache):
     )
     accumulator(
         "bsn1",
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("Bassoon", 1),
     )
     accumulator(
@@ -212,7 +212,7 @@ def bsns(cache):
     )
     accumulator(
         "bsn2",
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("Bassoon", 2),
     )
 
@@ -238,7 +238,7 @@ def brass(cache):
     accumulator(
         "hn1",
         baca.pitches("G3 A3", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Horn", 1),
@@ -246,14 +246,14 @@ def brass(cache):
     accumulator(
         "hn3",
         baca.pitches("Gb3 Ab3", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Horn", 3),
     )
     accumulator(
         "hn2",
         baca.pitches("G3 A3", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Horn", 2),
@@ -261,7 +261,7 @@ def brass(cache):
     accumulator(
         "hn4",
         baca.pitches("Gb3 Ab3", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Horn", 4),
     )
@@ -269,7 +269,7 @@ def brass(cache):
     accumulator(
         "tp1",
         baca.pitches("Gb4 Ab4", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Trumpet", 1),
@@ -277,14 +277,14 @@ def brass(cache):
     accumulator(
         "tp3",
         baca.pitches("F4 G4", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Trumpet", 3),
     )
     accumulator(
         "tp2",
         baca.pitches("Gb4 Ab4", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Trumpet", 2),
@@ -292,7 +292,7 @@ def brass(cache):
     accumulator(
         "tp4",
         baca.pitches("F4 G4", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Trumpet", 4),
     )
@@ -300,7 +300,7 @@ def brass(cache):
     accumulator(
         "tbn1",
         baca.pitches("Gb3 Ab3", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Trombone", 1),
@@ -308,14 +308,14 @@ def brass(cache):
     accumulator(
         "tbn3",
         baca.pitches("F3 G3", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Trombone", 3),
     )
     accumulator(
         "tbn2",
         baca.pitches("Gb3 Ab3", persist="seconds"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
         _crescendi(),
         library.assign_part("Trombone", 2),
@@ -323,7 +323,7 @@ def brass(cache):
     accumulator(
         "tbn4",
         baca.pitches("F3 G3", persist="seconds"),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         _crescendi(),
         library.assign_part("Trombone", 4),
     )
@@ -362,12 +362,12 @@ def strings(cache):
             ),
             baca.not_parts(baca.hairpin_stencil_false()),
             baca.not_parts(baca.text_spanner_stencil_false()),
-            baca.not_parts(baca.voice_one()),
+            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         )
 
     def _lower_voice_suite(n=5):
         return baca.suite(
-            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.not_parts(baca.text_spanner_staff_padding(n)),
         )
 
