@@ -148,21 +148,19 @@ def percussion(cache):
 def strings(cache):
     accumulator(
         "1vn2",
-        baca.suite(
-            baca.untie(lambda _: baca.select.leaves(_)),
-            library.glissando_positions(transpose=-1),
-            baca.pitch(
-                "B4",
-                lambda _: baca.select.pleaf(_, 0),
-                allow_repitch=True,
-            ),
-            baca.pitch(
-                "B3",
-                lambda _: baca.select.pleaf(_, -1),
-                allow_repitch=True,
-            ),
-            baca.glissando(),
+        baca.untie(lambda _: baca.select.leaves(_)),
+        library.glissando_positions(transpose=-1),
+        baca.pitch(
+            "B4",
+            lambda _: baca.select.pleaf(_, 0),
+            allow_repitch=True,
         ),
+        baca.pitch(
+            "B3",
+            lambda _: baca.select.pleaf(_, -1),
+            allow_repitch=True,
+        ),
+        baca.glissando(),
         baca.not_parts(baca.dls_up()),
         baca.not_parts(baca.voice_one()),
         baca.only_parts(baca.stop_trill()),
