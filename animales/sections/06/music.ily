@@ -91,15 +91,21 @@ number.6.Skips = {
     % SPANNER_STARTS:
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \abjad-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% - \tweak bound-details.left.text \markup \concat { \large \upright rit. \hspace #0.5 }
       %! EXPLICIT_METRONOME_MARK
       %! baca._attach_metronome_marks(2)
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
+      %! baca.metronome_mark()
     %@% \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
       %! baca._attach_metronome_marks(3)
@@ -419,7 +425,7 @@ number.6.Clarinets.Music.container = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "3" }
@@ -466,11 +472,11 @@ number.6.Clarinets.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \markup { solo (cl. 3) }
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup { solo }
     % SPANNER_STARTS:
@@ -503,7 +509,7 @@ number.6.Clarinets.Music.container = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -700,7 +706,7 @@ number.6.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -788,7 +794,7 @@ number.6.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -809,7 +815,7 @@ number.6.Percussion.1.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -828,7 +834,7 @@ number.6.Percussion.1.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -847,7 +853,7 @@ number.6.Percussion.1.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -866,7 +872,7 @@ number.6.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -985,7 +991,7 @@ number.6.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
@@ -1035,7 +1041,7 @@ number.6.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1056,7 +1062,7 @@ number.6.Percussion.2.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1075,7 +1081,7 @@ number.6.Percussion.2.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1094,7 +1100,7 @@ number.6.Percussion.2.Music.container = {
     c'2.
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1113,7 +1119,7 @@ number.6.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
@@ -1180,7 +1186,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
@@ -1197,7 +1203,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! baca._attach_color_literal(2)
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
       %! -PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.one_voice()
     \oneVoice
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -1213,12 +1219,12 @@ number.6.FirstViolins.Voice.1.container = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.articulation()
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1261,7 +1267,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
@@ -1275,7 +1281,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1521,7 +1527,7 @@ number.6.FirstViolins.Voice.3 = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
@@ -1660,7 +1666,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
@@ -1689,12 +1695,12 @@ number.6.SecondViolins.Voice.1.container = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.articulation()
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1737,7 +1743,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
@@ -1751,7 +1757,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1997,7 +2003,7 @@ number.6.SecondViolins.Voice.3 = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
@@ -2136,7 +2142,7 @@ number.6.Violas.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
@@ -2165,12 +2171,12 @@ number.6.Violas.Voice.1.container = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.articulation()
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2213,7 +2219,7 @@ number.6.Violas.Voice.1.container = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
@@ -2227,7 +2233,7 @@ number.6.Violas.Voice.1.container = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -2473,7 +2479,7 @@ number.6.Violas.Voice.3 = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
@@ -2639,12 +2645,12 @@ number.6.Cellos.Voice.1.container = {
         % CLOSING:
         % COMMANDS:
           %! -SEGMENT
-          %! baca.IndicatorCommand._call()
+          %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.articulation()
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2687,7 +2693,7 @@ number.6.Cellos.Voice.1.container = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
@@ -2986,7 +2992,7 @@ number.6.Contrabasses.Voice.3.container = {
       %! abjad.glissando(7)
       %! baca.glissando()
     \glissando
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:

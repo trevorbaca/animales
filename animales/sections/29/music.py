@@ -91,7 +91,7 @@ baca.rehearsal_mark_function(
 
 rests = score["Rests"]
 for index, string in ((4 - 1, "fermata"),):
-    baca.global_fermata(rests[index], string)
+    baca.global_fermata_function(rests[index], string)
 
 
 def PERC1(voice):

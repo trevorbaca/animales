@@ -589,7 +589,7 @@ number.30.Piano.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +TABLOID_SCORE
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \magnifyStaff #10/7
       %! baca.OverrideCommand._call(1)
@@ -640,11 +640,11 @@ number.30.Piano.Music.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \mf
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \animales-harmonic-touch-lowest-string-of-piano-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -673,7 +673,7 @@ number.30.Piano.Music.container = {
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -685,7 +685,7 @@ number.30.Piano.Music.container = {
     cs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -697,7 +697,7 @@ number.30.Piano.Music.container = {
     cs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -709,7 +709,7 @@ number.30.Piano.Music.container = {
     cs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -721,7 +721,7 @@ number.30.Piano.Music.container = {
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -733,7 +733,7 @@ number.30.Piano.Music.container = {
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -745,7 +745,7 @@ number.30.Piano.Music.container = {
     cs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % ABSOLUTE_BEFORE:
@@ -757,7 +757,7 @@ number.30.Piano.Music.container = {
     cs'!1
     % AFTER:
     % ARTICULATIONS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.laissez_vibrer()
     \laissezVibrer
     % COMMANDS:
@@ -776,11 +776,11 @@ number.30.Piano.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
@@ -791,7 +791,7 @@ number.30.Piano.Music.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % CLOSING:
@@ -849,7 +849,7 @@ number.30.Percussion.4.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +TABLOID_SCORE
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \magnifyStaff #10/7
       %! -PARTS
@@ -867,7 +867,7 @@ number.30.Percussion.4.Music.container = {
       %! -PARTS
       %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 4" \hcenter-in #16 "(slate)" }
@@ -913,17 +913,17 @@ number.30.Percussion.4.Music.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-effort-mf
     % MARKUP:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
     ^ \animales-stonecircle-markup
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -945,7 +945,7 @@ number.30.Percussion.4.Music.container = {
       %! -PARTS
       %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
@@ -1336,7 +1336,7 @@ number.30.Percussion.4.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! baca.OverrideCommand._call(1)
@@ -1349,12 +1349,12 @@ number.30.Percussion.4.Music.container = {
       %! baca.rehearsal_mark_self_alignment_x()
     \once \override Score.RehearsalMark.self-alignment-X = #right
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
     % OPENING:
     % COMMANDS:
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.mark()
     \mark \animales-colophon-markup
       %! baca.make_mmrests(1)
@@ -1365,7 +1365,7 @@ number.30.Percussion.4.Music.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.IndicatorCommand._call()
+      %! baca._attach_persistent_indicator()
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % CLOSING:

@@ -150,12 +150,12 @@ def bsns(cache):
         ),
         library.short_instrument_name("Bsn."),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("Bassoon", 1),
     )
     accumulator(
         "bsn2",
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("Bassoon", 2),
     )
     accumulator(
@@ -202,7 +202,7 @@ def strings(cache, voice_abbreviation_to_members):
         return baca.suite(
             baca.only_parts(baca.text_script_extra_offset((1, 3))),
             baca.only_parts(baca.text_spanner_staff_padding(5)),
-            baca.not_parts(baca.voice_one()),
+            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.not_parts(
                 baca.dynamic_text_stencil_false(
                     selector=lambda _: baca.select.leaves(_)
@@ -214,7 +214,7 @@ def strings(cache, voice_abbreviation_to_members):
 
     def _lower_voice_suite(n=5):
         return baca.suite(
-            baca.not_parts(baca.voice_two()),
+            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.not_parts(baca.text_spanner_staff_padding(n)),
         )
 

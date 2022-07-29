@@ -78,7 +78,9 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = accumulator.manifests()
 
-baca.metronome_mark(skips[1 - 1], accumulator.metronome_marks["114"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], accumulator.metronome_marks["114"], manifests
+)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -214,7 +216,7 @@ def flutes(cache):
             instruments["Flute"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Fl. (1+3)"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.slur(),
         baca.only_parts(
             baca.hairpin(
@@ -227,7 +229,7 @@ def flutes(cache):
     )
     accumulator(
         ("fl3", (1, 3)),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.slur(),
         baca.hairpin(
             "mf < ff",
@@ -243,7 +245,7 @@ def flutes(cache):
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Fl. (2+4)"),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.slur(),
         baca.only_parts(
             baca.hairpin(
@@ -256,7 +258,7 @@ def flutes(cache):
     )
     accumulator(
         ("fl4", (1, 3)),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.slur(),
         baca.hairpin(
             "mf < ff",
@@ -391,7 +393,7 @@ def strings(cache):
             allow_repitch=True,
         ),
         baca.glissando(),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dls_up()),
         baca.only_parts(baca.stop_trill()),
         baca.edition(
@@ -422,7 +424,7 @@ def strings(cache):
     )
     accumulator(
         "1vn1",
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         library.assign_part("FirstViolin", (2, 18)),
     )
     accumulator(

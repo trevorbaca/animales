@@ -162,7 +162,7 @@ def strings(cache):
         ),
         baca.glissando(),
         baca.not_parts(baca.dls_up()),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(baca.stop_trill()),
         baca.hairpin(
             "p < f",
@@ -177,7 +177,7 @@ def strings(cache):
     library.assign_trill_parts(accumulator, exclude_first_violin=True)
     accumulator(
         ("1vn1", 1),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     accumulator(
         ("vc1", 1),

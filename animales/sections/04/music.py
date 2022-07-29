@@ -298,7 +298,7 @@ def strings(cache, string_abbreviations):
             selector=lambda _: baca.select.pleaf(_, 0),
         ),
         baca.not_parts(baca.dls_up()),
-        baca.not_parts(baca.voice_one()),
+        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(baca.stop_trill()),
         baca.hairpin(
             "p < f",
@@ -343,7 +343,7 @@ def strings(cache, string_abbreviations):
     accumulator(
         ("1vn1", (1, 2)),
         library.assign_part("FirstViolin", (1, 10)),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     accumulator(
         ("1vn1", (3, 6)),
@@ -355,7 +355,7 @@ def strings(cache, string_abbreviations):
                 selector=lambda _: baca.select.pleaf(_, 0),
             ),
         ),
-        baca.not_parts(baca.voice_two()),
+        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     accumulator(
         "1vn3",
