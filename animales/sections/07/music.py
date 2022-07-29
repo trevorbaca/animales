@@ -306,28 +306,26 @@ def strings(cache):
     )
     accumulator(
         "cb3",
-        baca.suite(
-            baca.untie(lambda _: abjad.select.leaf(_, 1)),
-            baca.pitch(
-                "A#1",
-                selector=lambda _: baca.select.pleaf(_, 0),
+        baca.untie(lambda _: abjad.select.leaf(_, 1)),
+        baca.pitch(
+            "A#1",
+            selector=lambda _: baca.select.pleaf(_, 0),
+        ),
+        baca.pitch(
+            "Bb1",
+            selector=lambda _: baca.select.leaves(_)[1:],
+        ),
+        baca.repeat_tie(selector=lambda _: abjad.select.leaf(_, 1)),
+        baca.edition(
+            baca.markup(
+                r"\animales-b-flat-equals-a-sharp-markup",
+                direction=abjad.DOWN,
+                selector=lambda _: abjad.select.leaf(_, 1),
             ),
-            baca.pitch(
-                "Bb1",
-                selector=lambda _: baca.select.leaves(_)[1:],
-            ),
-            baca.repeat_tie(selector=lambda _: abjad.select.leaf(_, 1)),
-            baca.edition(
-                baca.markup(
-                    r"\animales-b-flat-equals-a-sharp-markup",
-                    direction=abjad.DOWN,
-                    selector=lambda _: abjad.select.leaf(_, 1),
-                ),
-                baca.markup(
-                    r"\animales-b-flat-equals-a-sharp-markup",
-                    direction=abjad.UP,
-                    selector=lambda _: abjad.select.leaf(_, 1),
-                ),
+            baca.markup(
+                r"\animales-b-flat-equals-a-sharp-markup",
+                direction=abjad.UP,
+                selector=lambda _: abjad.select.leaf(_, 1),
             ),
         ),
     )

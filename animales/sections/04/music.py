@@ -277,22 +277,20 @@ def brass(cache):
 def strings(cache, string_abbreviations):
     accumulator(
         ("1vn2", (3, 6)),
-        baca.suite(
-            baca.untie(lambda _: baca.select.leaves(_)),
-            library.glissando_positions(reverse=True),
-            baca.pitch(
-                "C5",
-                lambda _: baca.select.pleaf(_, 0),
-                allow_repitch=True,
-            ),
-            baca.pitch(
-                "C6",
-                lambda _: baca.select.pleaf(_, -1),
-                allow_repitch=True,
-            ),
-            baca.tie(lambda _: baca.select.ptail(_, -2)),
-            baca.glissando(),
+        baca.untie(lambda _: baca.select.leaves(_)),
+        library.glissando_positions(reverse=True),
+        baca.pitch(
+            "C5",
+            lambda _: baca.select.pleaf(_, 0),
+            allow_repitch=True,
         ),
+        baca.pitch(
+            "C6",
+            lambda _: baca.select.pleaf(_, -1),
+            allow_repitch=True,
+        ),
+        baca.tie(lambda _: baca.select.ptail(_, -2)),
+        baca.glissando(),
         library.assign_part("FirstViolin", 1),
         baca.edition(
             "solo (first violin)",
