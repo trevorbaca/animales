@@ -352,7 +352,7 @@ def strings(cache):
         baca.repeat_tie(
             lambda _: baca.select.pleaf(_, 0),
         ),
-        baca.not_section(baca.stop_trill()),
+        baca.not_section(baca.stop_trill(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     accumulator(
         "1vn1",
@@ -361,6 +361,7 @@ def strings(cache):
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
             style="trill",
         ),
         baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
@@ -373,6 +374,7 @@ def strings(cache):
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
             style="trill",
         ),
         baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
@@ -385,6 +387,7 @@ def strings(cache):
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
             style="trill",
         ),
         baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
@@ -397,6 +400,7 @@ def strings(cache):
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
             style="trill",
         ),
         baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
@@ -409,6 +413,7 @@ def strings(cache):
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
+            selector=lambda _: baca.select.tleaves(_),
         ),
         baca.hairpin("ff >", right_broken=True),
         library.assign_part("Contrabass", (2, 6)),
