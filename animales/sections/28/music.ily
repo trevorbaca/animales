@@ -315,9 +315,9 @@ number.28.Percussion.1.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     - \tweak direction #up
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -494,9 +494,9 @@ number.28.Percussion.2.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     - \tweak direction #up
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -673,9 +673,9 @@ number.28.Percussion.3.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Vibraphone”)"
     % SPANNER_STARTS:
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     - \tweak direction #up
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -858,9 +858,9 @@ number.28.Percussion.4.Music.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     % SPANNER_STARTS:
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     - \tweak direction #up
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
