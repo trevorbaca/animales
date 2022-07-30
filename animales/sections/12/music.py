@@ -196,7 +196,9 @@ def brass(cache):
         baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up()),
-        baca.not_parts(baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))),
+        baca.not_parts(
+            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
+        ),
         baca.not_parts(
             baca.note_column_shift(1.7, selector=lambda _: abjad.select.leaf(_, 0))
         ),
@@ -254,7 +256,9 @@ def brass(cache):
         ("tp4", 1),
         baca.pitches("G4 A4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))),
+        baca.not_parts(
+            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
+        ),
         baca.not_parts(
             baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
         ),
@@ -289,7 +293,9 @@ def brass(cache):
         ("tbn4", 1),
         baca.pitches("G3 A3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))),
+        baca.not_parts(
+            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
+        ),
         baca.not_parts(
             baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
         ),
