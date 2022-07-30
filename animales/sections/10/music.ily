@@ -719,7 +719,7 @@ number.10.BassClarinet.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
     % ABSOLUTE_AFTER:
     % COMMANDS:

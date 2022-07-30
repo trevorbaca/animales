@@ -28,13 +28,13 @@ number.29.Rests = {
     % [Rests measure 4]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % CLOSING:
     % COMMANDS:
@@ -378,7 +378,7 @@ number.29.Percussion.1.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
     % ABSOLUTE_AFTER:
     % COMMANDS:

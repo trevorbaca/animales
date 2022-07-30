@@ -70,13 +70,13 @@ number.30.Rests = {
     % [Rests measure 10]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata(2)
+      %! baca.global_fermata_function(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata(1)
+      %! baca.global_fermata_function(1)
     ^ \baca-fermata-markup
     % CLOSING:
     % COMMANDS:
@@ -529,7 +529,7 @@ number.30.Skips = {
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
     % COMMANDS:
-      %! baca.bar_line()
+      %! baca.bar_line_function()
     \bar "|."
     % ABSOLUTE_BEFORE:
     % COMMANDS:
