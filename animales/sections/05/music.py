@@ -160,10 +160,10 @@ def strings(cache):
             lambda _: baca.select.pleaf(_, -1),
             allow_repitch=True,
         ),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         baca.not_parts(baca.dls_up()),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(baca.stop_trill()),
+        baca.only_parts(baca.stop_trill(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.hairpin(
             "p < f",
             selector=library.leaves_in_measure(1, rleak=True),

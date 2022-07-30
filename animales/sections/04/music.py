@@ -290,7 +290,7 @@ def strings(cache, string_abbreviations):
             allow_repitch=True,
         ),
         baca.tie(lambda _: baca.select.ptail(_, -2)),
-        baca.glissando(),
+        baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         library.assign_part("FirstViolin", 1),
         baca.edition(
             "solo (first violin)",
@@ -299,7 +299,7 @@ def strings(cache, string_abbreviations):
         ),
         baca.not_parts(baca.dls_up()),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(baca.stop_trill()),
+        baca.only_parts(baca.stop_trill(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.hairpin(
             "p < f",
             selector=library.leaves_in_measure(1, rleak=True),

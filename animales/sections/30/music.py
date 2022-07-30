@@ -110,7 +110,7 @@ def perc4(m):
     accumulator(
         ("perc4", 10),
         baca.chunk(
-            baca.mark(r"\animales-colophon-markup"),
+            baca.mark(r"\animales-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)),
             baca.rehearsal_mark_down(),
             baca.rehearsal_mark_padding(6),
             baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
