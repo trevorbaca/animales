@@ -195,7 +195,7 @@ def brass(cache):
         ("hn1", 1),
         baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(
             baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
         ),
@@ -216,7 +216,7 @@ def brass(cache):
         ("hn2", 1),
         baca.pitches("A3 B3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
             baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
         ),
@@ -232,7 +232,7 @@ def brass(cache):
         ("tp1", 1),
         baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
             baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
         ),
@@ -247,7 +247,7 @@ def brass(cache):
         ("tp2", 1),
         baca.pitches("Ab4 Bb4", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
             baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
         ),
@@ -269,7 +269,7 @@ def brass(cache):
         ("tbn1", 1),
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
             baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
         ),
@@ -284,7 +284,7 @@ def brass(cache):
         ("tbn2", 1),
         baca.pitches("Ab3 Bb3", ignore_incomplete=True, persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
             baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
         ),

@@ -289,7 +289,7 @@ def strings(cache, string_abbreviations):
             lambda _: baca.select.pleaf(_, -1),
             allow_repitch=True,
         ),
-        baca.tie(lambda _: baca.select.ptail(_, -2)),
+        baca.tie(selector=lambda _: baca.select.ptail(_, -2)),
         baca.glissando(selector=lambda _: baca.select.tleaves(_)),
         library.assign_part("FirstViolin", 1),
         baca.edition(

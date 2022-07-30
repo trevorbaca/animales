@@ -220,7 +220,7 @@ def horns(cache):
         "hn1",
         baca.pitches("A3 B3", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 1),
     )
@@ -235,7 +235,7 @@ def horns(cache):
         "hn2",
         baca.pitches("A3 B3", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 2),
     )
@@ -251,7 +251,7 @@ def horns(cache):
         "tp1",
         baca.pitches("Ab4 Bb4", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trumpet", 1),
     )
@@ -266,7 +266,7 @@ def horns(cache):
         "tp2",
         baca.pitches("Ab4 Bb4", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trumpet", 2),
     )
@@ -282,7 +282,7 @@ def horns(cache):
         "tbn1",
         baca.pitches("Ab3 Bb3", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trombone", 1),
     )
@@ -297,7 +297,7 @@ def horns(cache):
         "tbn2",
         baca.pitches("Ab3 Bb3", persist="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up()),
+        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trombone", 2),
     )
