@@ -189,7 +189,11 @@ def strings(cache):
         baca.accent(
             selector=lambda _: baca.select.pheads(_)[1:],
         ),
-        baca.trill_spanner(alteration="C4", right_broken=True),
+        baca.trill_spanner(
+            alteration="C4",
+            right_broken=True,
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
+        ),
         baca.dynamic(
             "f-but-accents-sffz",
             selector=lambda _: baca.select.pleaf(_, 0),

@@ -214,7 +214,9 @@ def strings(cache):
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
         baca.pitch("Ab3"),
-        baca.trill_spanner(alteration="Bb3"),
+        baca.trill_spanner(
+            alteration="Bb3", selector=lambda _: baca.select.tleaves(_, rleak=True)
+        ),
         baca.hairpin(
             "< ff",
             left_broken=True,

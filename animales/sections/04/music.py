@@ -315,7 +315,9 @@ def strings(cache, string_abbreviations):
         baca.accent(
             selector=lambda _: baca.select.pheads(_)[1:],
         ),
-        baca.trill_spanner(alteration="Eb4"),
+        baca.trill_spanner(
+            alteration="Eb4", selector=lambda _: baca.select.tleaves(_, rleak=True)
+        ),
         baca.dynamic(
             "f-sub-but-accents-continue-sffz",
             selector=lambda _: baca.select.pleaf(_, 0),
