@@ -91,7 +91,9 @@ def strings(cache):
     accumulator(
         (string_abbreviations, (1, 4)),
         baca.pitch("Gb4"),
-        baca.trill_spanner(alteration="Ab4"),
+        baca.trill_spanner(
+            alteration="Ab4", selector=lambda _: baca.select.tleaves(_, rleak=True)
+        ),
         baca.dynamic(
             "f-sub-but-accents-continue-sffz",
             selector=lambda _: baca.select.pleaf(_, 0),
@@ -100,7 +102,11 @@ def strings(cache):
     accumulator(
         (string_abbreviations, (5, 6)),
         baca.pitch("F4"),
-        baca.trill_spanner(alteration="Gb4", right_broken=True),
+        baca.trill_spanner(
+            alteration="Gb4",
+            right_broken=True,
+            selector=lambda _: baca.select.tleaves(_, rleak=True),
+        ),
         baca.dynamic(
             "p-sub-but-accents-continue-sffz",
             selector=lambda _: baca.select.pleaf(_, 0),

@@ -208,7 +208,7 @@ def flutes(cache):
     accumulator(
         ("fl1", (1, 3)),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.slur(),
+        baca.slur(selector=lambda _: baca.select.tleaves(_)),
         baca.only_parts(
             baca.hairpin(
                 "mf < ff",
@@ -221,7 +221,7 @@ def flutes(cache):
     accumulator(
         ("fl3", (1, 3)),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.slur(),
+        baca.slur(selector=lambda _: baca.select.tleaves(_)),
         baca.hairpin(
             "mf < ff",
             selector=lambda _: baca.select.tleaves(
@@ -232,7 +232,7 @@ def flutes(cache):
     accumulator(
         ("fl2", (1, 3)),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.slur(),
+        baca.slur(selector=lambda _: baca.select.tleaves(_)),
         baca.only_parts(
             baca.hairpin(
                 "mf < ff",
@@ -245,7 +245,7 @@ def flutes(cache):
     accumulator(
         ("fl4", (1, 3)),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.slur(),
+        baca.slur(selector=lambda _: baca.select.tleaves(_)),
         baca.hairpin(
             "mf < ff",
             selector=lambda _: baca.select.tleaves(
@@ -392,7 +392,9 @@ def strings(cache):
     accumulator(
         (["1vn1", "2vn1", "va1", "vc1"], (1, 3)),
         baca.pitch("G3"),
-        baca.trill_spanner(alteration="Ab3"),
+        baca.trill_spanner(
+            alteration="Ab3", selector=lambda _: baca.select.tleaves(_, rleak=True)
+        ),
         baca.hairpin("pp < ff"),
     )
     accumulator(
