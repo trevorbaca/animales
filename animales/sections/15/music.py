@@ -86,11 +86,9 @@ rests = score["Rests"]
 for index, string in ((7 - 1, "fermata"),):
     baca.global_fermata_function(rests[index], string)
 
-baca.mmrest_text_extra_offset_function(
-    rests[7 - 1],
-    (0, -4),
-    tags=[baca.tags.NOT_PARTS],
-)
+wrappers = baca.mmrest_text_extra_offset_function(rests[7 - 1], (0, -4))
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(baca.tags.NOT_PARTS)
 
 
 def FL1(voice):
