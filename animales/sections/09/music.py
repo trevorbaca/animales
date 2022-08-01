@@ -81,11 +81,9 @@ baca.rehearsal_mark_function(
     "H",
 )
 
-baca.text_spanner_left_padding_function(
-    skips[:-1],
-    -8,
-    tags=[abjad.Tag("+TABLOID_SCORE")],
-)
+wrappers = baca.text_spanner_left_padding_function(skips[:-1], -8)
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(voice):

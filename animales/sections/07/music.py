@@ -80,17 +80,13 @@ baca.rehearsal_mark_function(
     abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
 )
 
-baca.text_spanner_left_padding_function(
-    skips[:-1],
-    -9,
-    tags=[abjad.Tag("+TABLOID_SCORE")],
-)
+wrappers = baca.text_spanner_left_padding_function(skips[:-1], -9)
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(abjad.Tag("+TABLOID_SCORE"))
 
-baca.text_spanner_y_offset_function(
-    skips[:-1],
-    8,
-    tags=[abjad.Tag("+TABLOID_SCORE")],
-)
+wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
+for wrapper in wrappers:
+    wrapper.tag = wrapper.tag.append(abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(score):
