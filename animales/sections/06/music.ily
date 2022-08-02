@@ -71,7 +71,7 @@ number.6.Skips = {
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
-      %! +SEGMENT
+      %! +SECTION
       %! EMPTY_START_BAR
       %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
@@ -1218,7 +1218,7 @@ number.6.FirstViolins.Voice.1.container = {
     b4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -1526,7 +1526,7 @@ number.6.FirstViolins.Voice.3 = {
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -1694,7 +1694,7 @@ number.6.SecondViolins.Voice.1.container = {
     b4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -2002,7 +2002,7 @@ number.6.SecondViolins.Voice.3 = {
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -2170,7 +2170,7 @@ number.6.Violas.Voice.1.container = {
     b4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -2478,7 +2478,7 @@ number.6.Violas.Voice.3 = {
     R1 * 4/4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -2644,7 +2644,7 @@ number.6.Cellos.Voice.1.container = {
     b4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan

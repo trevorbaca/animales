@@ -71,7 +71,7 @@ number.11.Skips = {
       %! REAPPLIED_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'green4
-      %! +SEGMENT
+      %! +SECTION
       %! EMPTY_START_BAR
       %! baca._attach_nonfirst_empty_start_bar()
     \bar ""
@@ -6109,7 +6109,7 @@ number.11.FirstViolins.Voice.1.container = {
     a4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -6425,7 +6425,7 @@ number.11.SecondViolins.Voice.1.container = {
     a4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -6741,7 +6741,7 @@ number.11.Violas.Voice.1.container = {
     a4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
@@ -7057,7 +7057,7 @@ number.11.Cellos.Voice.1.container = {
     a4
         % CLOSING:
         % COMMANDS:
-          %! -SEGMENT
+          %! -SECTION
           %! baca._attach_persistent_indicator()
           %! baca.literal()
     %%% \stopTrillSpan
