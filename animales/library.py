@@ -402,11 +402,11 @@ def instruments():
 
 def leaves_in_measure(n, lleak=False, rleak=False):
     def selector(argument):
-        result = baca.mleaves(argument, n)
+        result = baca.select.mleaves(argument, n)
         if lleak is True:
-            result = baca.lleak(result)
+            result = baca.select.lleak(result)
         if rleak is True:
-            result = baca.rleak(result)
+            result = baca.select.rleak(result)
         return result
 
     return selector

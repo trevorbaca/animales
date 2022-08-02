@@ -191,7 +191,7 @@ def strings(cache):
             ),
             baca.hairpin(
                 f"niente o< {peak} >o niente",
-                pieces=lambda _: baca.mgroups(_, [2, 2]),
+                pieces=lambda _: baca.select.mgroups(_, [2, 2]),
             ),
         )
 
