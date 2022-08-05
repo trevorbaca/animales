@@ -1784,8 +1784,7 @@ number.9.FirstViolins.Voice.1.container = {
     \set Staff.forceClef = ##t
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     af!1
@@ -1817,8 +1816,7 @@ number.9.FirstViolins.Voice.1.container = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \startTrillSpan bf
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -1920,8 +1918,7 @@ number.9.FirstViolins.Voice.1.container = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.trill_spanner()
+              %! baca._do_spanner_indicator_command(4)
             \stopTrillSpan
             % CLOSING:
             % COMMANDS:
@@ -2080,8 +2077,7 @@ number.9.SecondViolins.Voice.1.container = {
     \set Staff.forceClef = ##t
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     af!1
@@ -2113,8 +2109,7 @@ number.9.SecondViolins.Voice.1.container = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \startTrillSpan bf
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2216,8 +2211,7 @@ number.9.SecondViolins.Voice.1.container = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.trill_spanner()
+              %! baca._do_spanner_indicator_command(4)
             \stopTrillSpan
             % CLOSING:
             % COMMANDS:
@@ -2372,8 +2366,7 @@ number.9.Violas.Voice.1.container = {
     \set Staff.forceClef = ##t
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     af!1
@@ -2405,8 +2398,7 @@ number.9.Violas.Voice.1.container = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \startTrillSpan bf
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2508,8 +2500,7 @@ number.9.Violas.Voice.1.container = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.trill_spanner()
+              %! baca._do_spanner_indicator_command(4)
             \stopTrillSpan
             % CLOSING:
             % COMMANDS:
@@ -2664,8 +2655,7 @@ number.9.Cellos.Voice.1.container = {
     \set Staff.forceClef = ##t
     % PITCHED_TRILL:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     af!1
@@ -2697,8 +2687,7 @@ number.9.Cellos.Voice.1.container = {
     ~
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
-      %! baca.SpannerIndicatorCommand._call(2)
-      %! baca.trill_spanner()
+      %! baca._do_spanner_indicator_command(2)
     \startTrillSpan bf
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2800,8 +2789,7 @@ number.9.Cellos.Voice.1.container = {
             %@% ^ \baca-duration-multiplier-markup #"3" #"4"
             % SPANNER_STOPS:
               %! SPANNER_STOP
-              %! baca.SpannerIndicatorCommand._call(4)
-              %! baca.trill_spanner()
+              %! baca._do_spanner_indicator_command(4)
             \stopTrillSpan
             % CLOSING:
             % COMMANDS:
