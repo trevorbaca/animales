@@ -75,27 +75,26 @@ def PERCUSSION(score):
 
 def STRINGS(score, string_abbreviations):
     library.make_trill_rhythm(score, accumulator.get(), voice_metadata)
-    # anchor notes
-    accumulator(
-        string_abbreviations,
-        baca.append_anchor_note(),
-    )
+    for name in string_abbreviations:
+        voice = accumulator.voice(name)
+        baca.append_anchor_note_function(voice)
 
 
-def percussion(score):
-    accumulator(
-        "perc1",
-        baca.instrument(
-            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-percussion-i-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Perc."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.assign_part("Percussion", 1),
-    )
+def percussion(cache):
+    m = cache["perc1"]
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(
+            o.leaf(0),
+            instruments["Percussion"],
+            accumulator.manifests(),
+        )
+        baca.instrument_name_function(o.leaf(0), r"\animales-percussion-i-markup")
+        library.short_instrument_name_function(
+            o.leaf(0), "Perc.", accumulator.manifests()
+        )
+        baca.clef_function(o.leaf(0), "percussion")
+        baca.staff_lines_function(o.leaf(0), 1)
+        library.assign_part_function(o, "Percussion", 1)
     accumulator(
         "perc2",
         baca.instrument(
@@ -268,7 +267,12 @@ def main():
     string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
     PERCUSSION(score)
     STRINGS(score, string_abbreviations)
-    percussion(score)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    percussion(cache)
     strings(score, string_abbreviations)
 
 

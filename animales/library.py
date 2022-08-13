@@ -301,6 +301,14 @@ def assign_part(name, token=None):
     return baca.assign_part(part_assignment)
 
 
+def assign_part_function(argument, name, token=None):
+    _part_manifest = part_manifest()
+    part_assignment = baca.PartAssignment(name, token)
+    for part in part_assignment.make_parts():
+        assert part in _part_manifest, repr(part)
+    baca.assign_part_function(argument, part_assignment)
+
+
 def assign_trill_parts(commands, *, exclude_first_violin=False):
     for voice_name, part_number_token in (
         ("FirstViolins.Voice.1", (1, 10)),
@@ -1040,6 +1048,18 @@ def short_instrument_name(
     command_ = baca.not_parts(command)
     command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
     return command_
+
+
+def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
+    _short_instrument_names = short_instrument_names()
+    short_instrument_name = _short_instrument_names[key]
+    wrappers = baca.short_instrument_name_function(
+        argument,
+        short_instrument_name,
+        manifests,
+        context=context,
+    )
+    baca.tags.wrappers(wrappers, abjad.Tag("ANIMALES"))
 
 
 def short_instrument_names():
