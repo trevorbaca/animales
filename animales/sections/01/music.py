@@ -83,32 +83,32 @@ def STRINGS(score, string_abbreviations):
 def percussion(cache):
     m = cache["perc1"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(
-            o.leaf(0),
-            instruments["Percussion"],
-            accumulator.manifests(),
-        )
-        baca.instrument_name_function(o.leaf(0), r"\animales-percussion-i-markup")
-        library.short_instrument_name_function(
-            o.leaf(0), "Perc.", accumulator.manifests()
-        )
-        baca.clef_function(o.leaf(0), "percussion")
-        baca.staff_lines_function(o.leaf(0), 1)
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(
+                u,
+                instruments["Percussion"],
+                accumulator.manifests(),
+            )
+            baca.instrument_name_function(u, r"\animales-percussion-i-markup")
+            baca.short_instrument_name_function(
+                u, accumulator.short_instrument_names["Perc."], accumulator.manifests()
+            )
+            baca.clef_function(u, "percussion")
+            baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 1)
-    accumulator(
-        "perc2",
-        baca.instrument(
-            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-percussion-ii-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Perc."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.assign_part("Percussion", 2),
-    )
+    m = cache["perc2"]
+    with baca.scope(m.leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(
+                u, instruments["Percussion"], accumulator.manifests()
+            ),
+            baca.instrument_name_function(u, r"\animales-percussion-ii-markup"),
+            baca.short_instrument_name_function(
+                u, accumulator.short_instrument_names["Perc."], accumulator.manifests()
+            )
+            baca.clef_function(u, "percussion")
+            baca.staff_lines_function(u, 1)
+        library.assign_part_function(o, "Percussion", 2)
     accumulator(
         "perc4",
         baca.instrument(
