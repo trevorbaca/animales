@@ -309,7 +309,7 @@ def assign_part_function(argument, name, token=None):
     baca.assign_part_function(argument, part_assignment)
 
 
-def assign_trill_parts(commands, *, exclude_first_violin=False):
+def assign_trill_parts(accumulator, *, exclude_first_violin=False):
     for voice_name, part_number_token in (
         ("FirstViolins.Voice.1", (1, 10)),
         ("FirstViolins.Voice.3", (11, 18)),
@@ -324,10 +324,28 @@ def assign_trill_parts(commands, *, exclude_first_violin=False):
             command = assign_part(part_name, (2, 10))
         else:
             command = assign_part(part_name, part_number_token)
-        commands(
+        accumulator(
             voice_name,
             command,
         )
+
+
+def assign_trill_parts_function(cache, *, exclude_first_violin=False):
+    for voice_name, part_number_token in (
+        ("FirstViolins.Voice.1", (1, 10)),
+        ("FirstViolins.Voice.3", (11, 18)),
+        ("SecondViolins.Voice.1", (1, 10)),
+        ("SecondViolins.Voice.3", (11, 18)),
+        ("Violas.Voice.1", (1, 10)),
+        ("Violas.Voice.3", (11, 18)),
+        ("Cellos.Voice.1", (1, 14)),
+    ):
+        argument = cache[voice_name].leaves()
+        part_name = voice_name.split(".")[0].removesuffix("s")
+        if voice_name == "FirstViolins.Voice.1" and exclude_first_violin:
+            assign_part_function(argument, part_name, (2, 10))
+        else:
+            assign_part_function(argument, part_name, part_number_token)
 
 
 def attach_grand_pause_fermatas(commands, score, *, measure=-1):
@@ -1048,18 +1066,6 @@ def short_instrument_name(
     command_ = baca.not_parts(command)
     command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
     return command_
-
-
-def short_instrument_name_function(argument, key, manifests, *, context="Staff"):
-    _short_instrument_names = short_instrument_names()
-    short_instrument_name = _short_instrument_names[key]
-    wrappers = baca.short_instrument_name_function(
-        argument,
-        short_instrument_name,
-        manifests,
-        context=context,
-    )
-    baca.tags.wrappers(wrappers, abjad.Tag("ANIMALES"))
 
 
 def short_instrument_names():

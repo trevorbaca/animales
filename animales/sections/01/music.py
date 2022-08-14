@@ -86,181 +86,125 @@ def percussion(cache):
         with baca.scope(o.leaf(0)) as u:
             baca.instrument_function(
                 u,
-                instruments["Percussion"],
+                "Percussion",
                 accumulator.manifests(),
             )
             baca.instrument_name_function(u, r"\animales-percussion-i-markup")
-            baca.short_instrument_name_function(
-                u, accumulator.short_instrument_names["Perc."], accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
             baca.clef_function(u, "percussion")
             baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 1)
     m = cache["perc2"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(
-                u, instruments["Percussion"], accumulator.manifests()
-            ),
+            baca.instrument_function(u, "Percussion", accumulator.manifests()),
             baca.instrument_name_function(u, r"\animales-percussion-ii-markup"),
-            baca.short_instrument_name_function(
-                u, accumulator.short_instrument_names["Perc."], accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
             baca.clef_function(u, "percussion")
             baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 2)
-    accumulator(
-        "perc4",
-        baca.instrument(
-            instruments["Percussion"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-percussion-iv-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Perc."),
-        baca.clef("percussion", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(1, selector=lambda _: abjad.select.leaf(_, 0)),
-        library.assign_part("Percussion", 4),
-    )
+    m = cache["perc4"]
+    with baca.scope(m.leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Percussion", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-percussion-iv-markup")
+            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
+            baca.clef_function(u, "percussion")
+            baca.staff_lines_function(u, 1)
+        library.assign_part_function(o, "Percussion", 4)
 
 
-def strings(score, string_abbreviations):
-    accumulator(
-        "1vn1",
-        baca.instrument(
-            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violins-i-one-ten-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vni. I (1-10)"),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "1vn3",
-        baca.instrument(
-            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violins-i-eleven-eighteen-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vni. I (11-18)"),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "2vn1",
-        baca.instrument(
-            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violins-ii-one-ten-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vni. II (1-10)"),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "2vn3",
-        baca.instrument(
-            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violins-ii-eleven-eighteen-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vni. II (11-18)"),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "va1",
-        baca.instrument(
-            instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violas-one-ten-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vle. (1-10)"),
-        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "va3",
-        baca.instrument(
-            instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-violas-eleven-eighteen-markup",
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Vle. (11-18)"),
-        baca.clef("alto", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "vc1",
-        baca.instrument(
-            instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.instrument_name(
-            r"\animales-cellos-markup", selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Vc."),
-        baca.clef("tenor", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    library.assign_trill_parts(accumulator)
-    accumulator(
+def strings(cache, string_abbreviations):
+    with baca.scope(cache["1vn1"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Violin", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-violins-i-one-ten-markup")
+            baca.short_instrument_name_function(
+                u, "Vni. I (1-10)", accumulator.manifests()
+            )
+            baca.clef_function(u, "treble")
+    with baca.scope(cache["1vn3"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Violin", accumulator.manifests()),
+            baca.instrument_name_function(
+                u, r"\animales-violins-i-eleven-eighteen-markup"
+            ),
+            baca.short_instrument_name_function(
+                u, "Vni. I (11-18)", accumulator.manifests()
+            )
+            baca.clef_function(u, "treble")
+    with baca.scope(cache["2vn1"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Violin", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-violins-ii-one-ten-markup")
+            baca.short_instrument_name_function(
+                u, "Vni. II (1-10)", accumulator.manifests()
+            )
+            baca.clef_function(u, "treble")
+    with baca.scope(cache["2vn3"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Violin", accumulator.manifests()),
+            baca.instrument_name_function(
+                u, r"\animales-violins-ii-eleven-eighteen-markup"
+            ),
+            baca.short_instrument_name_function(
+                u, "Vni. II (11-18)", accumulator.manifests()
+            )
+            baca.clef_function(u, "treble")
+    with baca.scope(cache["va1"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Viola", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-violas-one-ten-markup")
+            baca.short_instrument_name_function(
+                u, "Vle. (1-10)", accumulator.manifests()
+            )
+            baca.clef_function(u, "alto")
+    with baca.scope(cache["va3"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Viola", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-violas-eleven-eighteen-markup")
+            baca.short_instrument_name_function(
+                u, "Vle. (11-18)", accumulator.manifests()
+            )
+            baca.clef_function(u, "alto")
+    with baca.scope(cache["vc1"].leaves()) as o:
+        with baca.scope(o.leaf(0)) as u:
+            baca.instrument_function(u, "Cello", accumulator.manifests())
+            baca.instrument_name_function(u, r"\animales-cellos-markup")
+            baca.short_instrument_name_function(u, "Vc.", accumulator.manifests())
+            baca.clef_function(u, "tenor")
+    library.assign_trill_parts_function(cache)
+    with baca.scope(cache["1vn1"][1]) as o:
         # first accents ...
-        ("1vn1", 1),
-        baca.accent(selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        string_abbreviations,
-        baca.accent(
-            selector=lambda _: baca.select.pheads(_)[1:],
-        ),
-    )
-    accumulator(
-        # then untie ...
-        (string_abbreviations, (5, 6)),
-        baca.untie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        # ... then pitch
-        (string_abbreviations, (1, 4)),
-        baca.pitch("A4"),
-        baca.trill_spanner(
-            alteration="B4", selector=lambda _: baca.select.tleaves(_, rleak=True)
-        ),
-        baca.dynamic(
-            "f-but-accents-sffz",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        (string_abbreviations, (5, 6)),
-        baca.pitch("Ab4"),
-        baca.trill_spanner(
-            alteration="A4",
-            right_broken=True,
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.dynamic(
-            "p-sub-but-accents-continue-sffz",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ["1vn3", "2vn3"],
-        baca.trill_spanner_staff_padding(6),
-    )
-    accumulator(
-        ["1vn1", "2vn1", "va1", "va3", "vc1"],
-        baca.trill_spanner_staff_padding(4),
-    )
+        baca.accent_function(o.phead(0))
+    for name in string_abbreviations:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.accent_function(o.pheads()[1:])
+        with baca.scope(m.get(5, 6)) as o:
+            # then untie ...
+            baca.untie_function(o.pleaf(0))
+        with baca.scope(m.get(1, 4)) as o:
+            # ... then pitch
+            baca.pitch_function(o, "A4")
+            baca.trill_spanner_function(baca.select.rleak(o.tleaves()), alteration="B4")
+            baca.dynamic_function(o.pleaf(0), "f-but-accents-sffz")
+        with baca.scope(m.get(5, 6)) as o:
+            baca.pitch_function(o, "Ab4")
+            baca.trill_spanner_function(
+                baca.select.rleak(o.tleaves()),
+                alteration="A4",
+                right_broken=True,
+            )
+            baca.dynamic_function(o.pleaf(0), "p-sub-but-accents-continue-sffz")
+    for name in ["1vn3", "2vn3"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.trill_spanner_staff_padding_function(o, 6)
+    for name in ["1vn1", "2vn1", "va1", "va3", "vc1"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.trill_spanner_staff_padding_function(o, 4)
 
 
 def main():
@@ -273,7 +217,7 @@ def main():
         accumulator.voice_abbreviations,
     )
     percussion(cache)
-    strings(score, string_abbreviations)
+    strings(cache, string_abbreviations)
 
 
 if __name__ == "__main__":
@@ -286,7 +230,6 @@ if __name__ == "__main__":
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         part_manifest=library.part_manifest(),
         transpose_score=True,
