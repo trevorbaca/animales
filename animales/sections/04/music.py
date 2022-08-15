@@ -194,64 +194,21 @@ def percussion(cache):
 
 
 def brass(cache):
-    library.assign_brass_sforzando_parts(accumulator)
-    # library.assign_brass_sforzando_parts_function(cache)
-    accumulator(
-        "hn1",
-        library.short_instrument_name("Hn. (1+3)"),
-        baca.instrument(
-            instruments["Horn"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "hn2",
-        library.short_instrument_name("Hn. (2+4)"),
-        baca.instrument(
-            instruments["Horn"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "tp1",
-        library.short_instrument_name("Tp. (1+3)"),
-        baca.instrument(
-            instruments["Trumpet"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "tp2",
-        library.short_instrument_name("Tp. (2+4)"),
-        baca.instrument(
-            instruments["Trumpet"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "tbn1",
-        library.short_instrument_name("Trb. (1+3)"),
-        baca.instrument(
-            instruments["Trombone"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("tenor", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "tbn2",
-        library.short_instrument_name("Trb. (2+4)"),
-        baca.instrument(
-            instruments["Trombone"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("tenor", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        "tub",
-        library.short_instrument_name("Tub."),
-        baca.instrument(
-            instruments["Tuba"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
+    library.assign_brass_sforzando_parts_function(cache)
+    for name, sin, instrument, clef in (
+        ("hn1", "Hn. (1+3)", "Horn", "bass"),
+        ("hn2", "Hn. (2+4)", "Horn", "bass"),
+        ("tp1", "Tp. (1+3)", "Trumpet", "treble"),
+        ("tp2", "Tp. (2+4)", "Trumpet", "treble"),
+        ("tbn1", "Trb. (1+3)", "Trombone", "tenor"),
+        ("tbn2", "Trb. (2+4)", "Trombone", "tenor"),
+        ("tub", "Tub.", "Tuba", "bass"),
+    ):
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.short_instrument_name_function(o.leaf(0), sin, accumulator.manifests())
+            baca.instrument_function(o.leaf(0), instrument, accumulator.manifests())
+            baca.clef_function(o.leaf(0), clef)
 
 
 def strings(cache, string_abbreviations):

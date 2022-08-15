@@ -316,9 +316,10 @@ def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
             assign_part_function(o, section_name, part_number)
             if part_number in (1, 2):
                 wrappers = baca.voice_one_function(o.leaf(0))
+                baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
             elif part_number in (3, 4):
                 wrappers = baca.voice_two_function(o.leaf(0))
-            baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+                baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
 def assign_part(name, token=None):
