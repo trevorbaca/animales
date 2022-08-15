@@ -160,62 +160,42 @@ def CB3(score):
 
 
 def winds(cache):
-    accumulator(
-        "cl",
-        baca.instrument(
-            instruments["Clarinet"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Cl. 3"),
-        library.assign_part("Clarinet", 3),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-    )
-    accumulator(
-        ("cl", (3, 6)),
-        baca.pitch("C5"),
-        baca.edition(
-            "solo (cl. 3)",
-            "solo",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.hairpin("mp < mf"),
-    )
+    m = cache["cl"]
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(o.leaf(0), "Clarinet", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 3", accumulator.manifests())
+        baca.clef_function(o.leaf(0), "treble")
+        library.assign_part_function(o, "Clarinet", 3)
+    with baca.scope(m.get(3, 6)) as o:
+        baca.pitch_function(o, "C5")
+        baca.edition_function(
+            o.leaf(0),
+            not_parts="solo (cl. 3)",
+            only_parts="solo",
+        )
+        baca.hairpin_function(o, "mp < mf")
 
 
 def percussion(cache):
-    accumulator(
-        (["perc1", "perc2"], (3, 6)),
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("perc1", 3),
-        baca.markup(
-            r"\animales-triangle-small-beater-markup",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ("perc2", 3),
-        baca.markup(
-            r"\animales-suspended-cymbal-markup",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        "perc1",
-        library.short_instrument_name("Perc. 1 (tri.)"),
-        library.assign_part("Percussion", 1),
-    )
-    accumulator(
-        "perc2",
-        library.short_instrument_name("Perc. 2 (cym.)"),
-        library.assign_part("Percussion", 2),
-    )
+    for name, markup, sin, part_number in (
+        ("perc1", r"\animales-triangle-small-beater-markup", "Perc. 1 (tri.)", 1),
+        ("perc2", r"\animales-suspended-cymbal-markup", "Perc. 2 (cym.)", 2),
+    ):
+        m = cache[name]
+        with baca.scope(m.get(3, 6)) as o:
+            baca.staff_position_function(o, 0)
+            baca.stem_tremolo_function(o.pleaves())
+            baca.dynamic_function(o.phead(0), "p")
+        with baca.scope(m[3]) as o:
+            baca.markup_function(o.pleaf(0), markup)
+        with baca.scope(m.leaves()) as o:
+            baca.short_instrument_name_function(o.leaf(0), sin, accumulator.manifests())
+            library.assign_part_function(o, "Percussion", part_number)
 
 
 def brass(cache):
     library.assign_brass_sforzando_parts(accumulator)
+    # library.assign_brass_sforzando_parts_function(cache)
     accumulator(
         "hn1",
         library.short_instrument_name("Hn. (1+3)"),

@@ -73,54 +73,39 @@ def STRINGS(score):
 
 def strings(cache):
     string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    # first accents ...
-    accumulator(
-        string_abbreviations,
-        baca.accent(
-            selector=lambda _: baca.select.pheads(_)[1:],
-        ),
-    )
-    # then untie ...
-    accumulator(
-        (string_abbreviations, 5),
-        baca.untie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    # ... then pitch
-    accumulator(
-        (string_abbreviations, (1, 4)),
-        baca.pitch("Gb4"),
-        baca.trill_spanner(
-            alteration="Ab4", selector=lambda _: baca.select.tleaves(_, rleak=True)
-        ),
-        baca.dynamic(
-            "f-sub-but-accents-continue-sffz",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        (string_abbreviations, (5, 6)),
-        baca.pitch("F4"),
-        baca.trill_spanner(
-            alteration="Gb4",
-            right_broken=True,
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.dynamic(
-            "p-sub-but-accents-continue-sffz",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-    )
-    accumulator(
-        ["1vn3", "2vn3"],
-        baca.trill_spanner_staff_padding(6),
-    )
-    accumulator(
-        ["1vn1", "2vn1", "va1", "va3", "vc1"],
-        baca.trill_spanner_staff_padding(4),
-    )
-    library.assign_trill_parts(accumulator)
+    for name in string_abbreviations:
+        m = cache[name]
+        # first accents ...
+        with baca.scope(m.leaves()) as o:
+            baca.accent_function(o.pheads()[1:])
+        # then untie ...
+        with baca.scope(m[5]) as o:
+            baca.untie_function(o.pleaf(0))
+        # ... then pitch
+        with baca.scope(m.get(1, 4)) as o:
+            baca.pitch_function(o, "Gb4")
+            baca.trill_spanner_function(
+                baca.select.rleak(o.tleaves()),
+                alteration="Ab4",
+            )
+            baca.dynamic_function(o.pleaf(0), "f-sub-but-accents-continue-sffz")
+        with baca.scope(m.get(5, 6)) as o:
+            baca.pitch_function(o, "F4")
+            baca.trill_spanner_function(
+                baca.select.rleak(o.tleaves()),
+                alteration="Gb4",
+                right_broken=True,
+            ),
+            baca.dynamic_function(o.pleaf(0), "p-sub-but-accents-continue-sffz")
+    for name in ["1vn3", "2vn3"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.trill_spanner_staff_padding_function(o, 6)
+    for name in ["1vn1", "2vn1", "va1", "va3", "vc1"]:
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            baca.trill_spanner_staff_padding_function(o, 4)
+    library.assign_trill_parts_function(cache)
 
 
 def main():
@@ -145,7 +130,6 @@ if __name__ == "__main__":
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
