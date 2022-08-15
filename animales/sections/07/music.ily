@@ -543,11 +543,10 @@ number.7.Clarinets.Music.container.1 = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
     % OPENING:
     % COMMANDS:
@@ -579,25 +578,23 @@ number.7.Clarinets.Music.container.1 = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \mp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \markup { solo (cl. 1) }
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \markup { solo }
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -606,13 +603,13 @@ number.7.Clarinets.Music.container.1 = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -627,11 +624,10 @@ number.7.Clarinets.Music.container.1 = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
     % ABSOLUTE_BEFORE:
@@ -679,13 +675,13 @@ number.7.Clarinets.Music.container.1 = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \mf
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -708,11 +704,10 @@ number.7.Clarinets.Music.container.2 = {
     % BEFORE:
     % COMMANDS:
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "2" }
     % OPENING:
     % COMMANDS:
@@ -729,22 +724,20 @@ number.7.Clarinets.Music.container.2 = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \mp
     % MARKUP:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \markup { solo (cl. 2) }
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \markup { solo }
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -753,13 +746,13 @@ number.7.Clarinets.Music.container.2 = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -771,11 +764,10 @@ number.7.Clarinets.Music.container.2 = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "2" }
     % ABSOLUTE_BEFORE:
@@ -823,13 +815,13 @@ number.7.Clarinets.Music.container.2 = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \mf
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -905,18 +897,17 @@ number.7.Piano.Music.container = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -930,7 +921,7 @@ number.7.Piano.Music.container = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! animales.make_harp_exchange_rhythm()
@@ -949,11 +940,10 @@ number.7.Piano.Music.container = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
     % ABSOLUTE_BEFORE:
@@ -983,27 +973,24 @@ number.7.Piano.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         \mf
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % MARKUP:
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
         ^ \animales-mute-with-lh-inside-piano-dull-thud-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1050,11 +1037,9 @@ number.7.Piano.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % CLOSING:
         % COMMANDS:
@@ -1105,11 +1090,9 @@ number.7.Piano.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1192,18 +1175,17 @@ number.7.Harp.Music.container = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Hp."
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -1217,7 +1199,7 @@ number.7.Harp.Music.container = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! animales.make_harp_exchange_rhythm()
@@ -1236,11 +1218,10 @@ number.7.Harp.Music.container = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
     % ABSOLUTE_BEFORE:
@@ -1265,32 +1246,28 @@ number.7.Harp.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
           %! EXPLICIT_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         \mf
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % MARKUP:
           %! +PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
     %%% ^ \animales-lh-damped-pdlt-explanation-markup
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
         ^ \animales-lh-damped-pdlt-markup
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1332,11 +1309,9 @@ number.7.Harp.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1390,11 +1365,9 @@ number.7.Harp.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.stopped()
+          %! baca.stopped_function()
         - \stopped
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1525,12 +1498,12 @@ number.7.Percussion.1.Music.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \!
     % MARKUP:
       %! DURATION_MULTIPLIER
@@ -1737,8 +1710,7 @@ number.7.Percussion.2.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -1785,8 +1757,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1806,8 +1777,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1827,8 +1797,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1848,8 +1817,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1869,8 +1837,7 @@ number.7.Percussion.2.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1888,8 +1855,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1909,8 +1875,7 @@ number.7.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -1988,24 +1953,22 @@ number.7.Percussion.3.Music.container = {
           %! baca.clef_extra_offset_function(1)
     %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
           %! +PARTS
-          %! baca.OverrideCommand._call(1)
-          %! baca.text_script_extra_offset()
+          %! baca.text_script_extra_offset_function(1)
     %%% \override TextScript.extra-offset = #'(1.5 . 1.5)
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
           %! -PARTS
-          %! ANIMALES
           %! EXPLICIT_SHORT_INSTRUMENT_NAME
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.short_instrument_name()
+          %! baca.short_instrument_name_function()
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef()
+          %! baca.clef_function()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
           %! baca._attach_color_literal(2)
@@ -2019,7 +1982,7 @@ number.7.Percussion.3.Music.container = {
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef()
+          %! baca.clef_function()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! animales.make_harp_exchange_rhythm()
@@ -2031,19 +1994,17 @@ number.7.Percussion.3.Music.container = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         \mp
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % MARKUP:
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
         ^ \animales-vibraphone-markup
           %! EXPLICIT_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
@@ -2057,11 +2018,10 @@ number.7.Percussion.3.Music.container = {
           %! baca._attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
           %! -PARTS
-          %! ANIMALES
           %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.short_instrument_name()
+          %! baca.short_instrument_name_function()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
         % ABSOLUTE_BEFORE:
@@ -2104,8 +2064,7 @@ number.7.Percussion.3.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2152,8 +2111,7 @@ number.7.Percussion.3.Music.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2190,8 +2148,7 @@ number.7.Percussion.3.Music.container = {
     % AFTER:
     % COMMANDS:
       %! +PARTS
-      %! baca.OverrideCommand._call(2)
-      %! baca.text_script_extra_offset()
+      %! baca.text_script_extra_offset_function(2)
 %%% \revert TextScript.extra-offset
     % CLOSING:
     % COMMANDS:
@@ -2283,21 +2240,19 @@ number.7.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \pp
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \animales-strings-still-non-vib-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -2512,17 +2467,16 @@ number.7.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \pp
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -2737,17 +2691,16 @@ number.7.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \pp
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -2962,17 +2915,16 @@ number.7.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \pp
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -3162,18 +3114,17 @@ number.7.Contrabasses.Voice.1.container = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -3187,7 +3138,7 @@ number.7.Contrabasses.Voice.1.container = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! animales.make_harp_exchange_rhythm()
@@ -3199,12 +3150,12 @@ number.7.Contrabasses.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \p
     % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
@@ -3219,11 +3170,10 @@ number.7.Contrabasses.Voice.1.container = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
     % ABSOLUTE_BEFORE:
@@ -3254,15 +3204,14 @@ number.7.Contrabasses.Voice.1.container = {
           %! SHIFTED_CLEF
           %! baca.clef_extra_offset_function(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
-          %! baca.OverrideCommand._call(1)
-          %! baca.note_head_style_harmonic()
+          %! baca.note_head_style_harmonic_function(1)
         \override NoteHead.style = #'harmonic
         % OPENING:
         % COMMANDS:
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef()
+          %! baca.clef_function()
         \clef "treble"
           %! EXPLICIT_CLEF_COLOR
           %! baca._attach_color_literal(2)
@@ -3273,7 +3222,7 @@ number.7.Contrabasses.Voice.1.container = {
           %! EXPLICIT_CLEF
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.clef()
+          %! baca.clef_function()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! animales.make_harp_exchange_rhythm()
@@ -3285,22 +3234,19 @@ number.7.Contrabasses.Voice.1.container = {
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! baca._attach_persistent_indicator()
           %! baca._set_status_tag()
-          %! baca.dynamic()
+          %! baca.dynamic_function()
         \mf
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % MARKUP:
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
         ^ \animales-eighth-partial-of-d-markup
-          %! baca._attach_persistent_indicator()
-          %! baca.markup()
+          %! baca.markup_function()
         ^ \baca-pizz-markup
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -3345,8 +3291,7 @@ number.7.Contrabasses.Voice.1.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3395,12 +3340,10 @@ number.7.Contrabasses.Voice.1.container = {
         d''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca._attach_persistent_indicator()
-          %! baca.laissez_vibrer()
+          %! baca.laissez_vibrer_function()
         \laissezVibrer
         % COMMANDS:
-          %! baca.OverrideCommand._call(2)
-          %! baca.note_head_style_harmonic()
+          %! baca.note_head_style_harmonic_function(2)
         \revert NoteHead.style
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3489,11 +3432,10 @@ number.7.Contrabasses.Voice.3.container = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     % OPENING:
     % COMMANDS:
@@ -3524,22 +3466,16 @@ number.7.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \p
     % MARKUP:
-      %! -PARTS
-      %! ANIMALES
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
-    ^ \animales-cb-two-to-six-markup
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
@@ -3558,11 +3494,10 @@ number.7.Contrabasses.Voice.3.container = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     % ABSOLUTE_BEFORE:
@@ -3575,20 +3510,17 @@ number.7.Contrabasses.Voice.3.container = {
     % AFTER:
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-b-flat-equals-a-sharp-markup
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     _ \animales-b-flat-equals-a-sharp-markup
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca._attach_persistent_indicator()
-      %! baca.repeat_tie()
+      %! baca.repeat_tie_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:

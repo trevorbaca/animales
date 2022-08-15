@@ -110,137 +110,119 @@ def STRINGS(score, absent_left_broken):
 
 
 def winds(cache):
-    accumulator(
-        "cl",
-        library.short_instrument_name("Cl. 3"),
-        baca.pitch("C#5"),
-        baca.edition(
-            "solo (cl. 3)", "solo", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.hairpin("mp < mf"),
-        library.assign_part("Clarinet", 3),
-    )
+    m = cache["cl"]
+    with baca.scope(m.leaves()) as o:
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 3", accumulator.manifests())
+        baca.pitch_function(o, "C#5")
+        baca.edition_function(
+            o.pleaf(0),
+            not_parts=library.markups.solo_cl_3,
+            only_parts=library.markups.solo,
+        )
+        baca.hairpin_function(o, "mp < mf")
+        library.assign_part_function(o, "Clarinet", 3)
 
 
 def percussion(cache):
-    accumulator(
-        "perc1",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.hairpin("p >o", right_broken=True),
-        library.assign_part("Percussion", 1),
-    )
-    accumulator(
-        "perc2",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 2),
-    )
+    m = cache["perc1"]
+    with baca.scope(m.leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        baca.hairpin_function(o, "p >o", right_broken=True)
+        library.assign_part_function(o, "Percussion", 1)
+    m = cache["perc2"]
+    with baca.scope(m.leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 2)
 
 
 def strings(cache, absent_left_broken):
-    accumulator(
-        "1vn1",
-        library.short_instrument_name("Vni. I"),
-        baca.not_parts(baca.one_voice(selector=lambda _: abjad.select.leaf(_, 0))),
-        library.assign_part("FirstViolin", (1, 18)),
-    )
-    accumulator(
-        "2vn1",
-        library.short_instrument_name("Vni. II"),
-        library.assign_part("SecondViolin", (1, 18)),
-    )
-    accumulator(
-        "va1",
-        library.short_instrument_name("Vle."),
-        library.assign_part("Viola", (1, 18)),
-    )
-    accumulator(
-        "vc1",
-        library.assign_part("Cello", (1, 14)),
-    )
-    accumulator(
-        "cb3",
-        library.assign_part("Contrabass", (1, 6)),
-    )
+    with baca.scope(cache["1vn1"].leaves()) as o:
+        baca.short_instrument_name_function(
+            o.leaf(0), "Vni. I", accumulator.manifests()
+        )
+        wrappers = baca.one_voice_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "FirstViolin", (1, 18))
+    with baca.scope(cache["2vn1"].leaves()) as o:
+        baca.short_instrument_name_function(
+            o.leaf(0), "Vni. II", accumulator.manifests()
+        )
+        library.assign_part_function(o, "SecondViolin", (1, 18))
+    with baca.scope(cache["va1"].leaves()) as o:
+        baca.short_instrument_name_function(o.leaf(0), "Vle.", accumulator.manifests())
+        library.assign_part_function(o, "Viola", (1, 18))
+    with baca.scope(cache["vc1"].leaves()) as o:
+        library.assign_part_function(o, "Cello", (1, 14))
+    with baca.scope(cache["cb3"].leaves()) as o:
+        library.assign_part_function(o, "Contrabass", (1, 6))
     left_broken = ["1vn1", "2vn1", "va1", "vc1"]
-    accumulator(
-        (left_broken, 1),
-        baca.repeat_tie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.not_section(baca.stop_trill(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    accumulator(
-        (absent_left_broken, 1),
-        baca.not_section(baca.stop_trill(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    accumulator(
-        "1vn1",
-        baca.interpolate_pitches("B3", "A6"),
-        baca.glissando(
+    for name in left_broken:
+        m = cache[name]
+        with baca.scope(m[1]) as o:
+            baca.repeat_tie_function(o.pleaf(0))
+            wrappers = baca.stop_trill_function(o.leaf(0))
+            baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
+    for name in absent_left_broken:
+        m = cache[name]
+        with baca.scope(m[1]) as o:
+            wrappers = baca.stop_trill_function(o.leaf(0))
+            baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
+    with baca.scope(cache["1vn1"].leaves()) as o:
+        baca.interpolate_pitches_function(o, "B3", "A6")
+        baca.glissando_function(
+            o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            selector=lambda _: baca.select.tleaves(_),
+            style="trill",
+        )
+        baca.articulation_function(o.phead(0), "trill")
+        baca.hairpin_function(o, "f >", right_broken=True)
+    with baca.scope(cache["2vn1"].leaves()) as o:
+        baca.interpolate_pitches_function(o, "B3", "A5")
+        baca.glissando_function(
+            o.tleaves(),
+            allow_repeats=True,
+            hide_middle_note_heads=True,
+            right_broken=True,
             style="trill",
         ),
-        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
-        baca.hairpin("f >", right_broken=True),
-    )
-    accumulator(
-        "2vn1",
-        baca.interpolate_pitches("B3", "A5"),
-        baca.glissando(
+        baca.articulation_function(o.phead(0), "trill")
+        baca.hairpin_function(o, "f >", right_broken=True)
+    with baca.scope(cache["va1"].leaves()) as o:
+        baca.interpolate_pitches_function(o, "B3", "A4")
+        baca.glissando_function(
+            o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            selector=lambda _: baca.select.tleaves(_),
             style="trill",
         ),
-        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
-        baca.hairpin("f >", right_broken=True),
-    )
-    accumulator(
-        "va1",
-        baca.interpolate_pitches("B3", "A4"),
-        baca.glissando(
+        baca.articulation_function(o.phead(0), "trill")
+        baca.hairpin_function(o, "f >", right_broken=True)
+    with baca.scope(cache["vc1"].leaves()) as o:
+        baca.interpolate_pitches_function(o, "B3", "C3")
+        baca.glissando_function(
+            o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            selector=lambda _: baca.select.tleaves(_),
             style="trill",
-        ),
-        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
-        baca.hairpin("f >", right_broken=True),
-    )
-    accumulator(
-        "vc1",
-        baca.interpolate_pitches("B3", "C3"),
-        baca.glissando(
+        )
+        baca.articulation_function(o.phead(0), "trill")
+        baca.hairpin_function(o, "f >", right_broken=True)
+    with baca.scope(cache["cb3"].leaves()) as o:
+        baca.repeat_tie_function(o.pleaf(0))
+        baca.interpolate_pitches_function(o, "B1", "A1")
+        baca.glissando_function(
+            o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            selector=lambda _: baca.select.tleaves(_),
-            style="trill",
-        ),
-        baca.articulation("trill", selector=lambda _: baca.select.phead(_, 0)),
-        baca.hairpin("f >", right_broken=True),
-    )
-    accumulator(
-        "cb3",
-        baca.repeat_tie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.interpolate_pitches("B1", "A1"),
-        baca.glissando(
-            allow_repeats=True,
-            hide_middle_note_heads=True,
-            right_broken=True,
-            selector=lambda _: baca.select.tleaves(_),
-        ),
-        baca.hairpin("ff >", right_broken=True),
-    )
+        )
+        baca.hairpin_function(o, "ff >", right_broken=True)
 
 
 def main():
@@ -271,7 +253,6 @@ if __name__ == "__main__":
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         clock_time_override=abjad.MetronomeMark((1, 4), 95),
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

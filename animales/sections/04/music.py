@@ -170,8 +170,8 @@ def winds(cache):
         baca.pitch_function(o, "C5")
         baca.edition_function(
             o.leaf(0),
-            not_parts="solo (cl. 3)",
-            only_parts="solo",
+            not_parts=library.markups.solo_cl_3,
+            only_parts=library.markups.solo,
         )
         baca.hairpin_function(o, "mp < mf")
 
@@ -223,8 +223,8 @@ def strings(cache, string_abbreviations):
         library.assign_part_function(o, "FirstViolin", 1)
         baca.edition_function(
             o.pleaf(0),
-            not_parts="solo (first violin)",
-            only_parts="solo",
+            not_parts=library.markups.solo_first_violin,
+            only_parts=library.markups.solo,
         )
         wrappers = baca.dls_up_function(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
