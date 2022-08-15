@@ -176,27 +176,21 @@ def CB3(voice):
 
 
 def cl(m):
-    accumulator(
-        "cl",
-        baca.pitch("A4"),
-        baca.hairpin("mp < mf"),
-        library.assign_part("Clarinet", 3),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "A4")
+        baca.hairpin_function(o, "mp < mf")
+        library.assign_part_function(o, "Clarinet", 3)
 
 
 def bcl(m):
-    accumulator(
-        ("bcl", (1, 3)),
-        baca.pitch("A2"),
-        baca.hairpin(
+    with baca.scope(m.get(1, 3)) as o:
+        baca.pitch_function(o, "A2")
+        baca.hairpin_function(
+            baca.select.rleak(o.pleaves()),
             "p >o niente",
-            selector=lambda _: baca.select.rleak(baca.select.pleaves(_)),
-        ),
-    )
-    accumulator(
-        "bcl",
-        library.assign_part("BassClarinet"),
-    )
+        )
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "BassClarinet")
 
 
 def horns(cache):
@@ -216,6 +210,20 @@ def horns(cache):
             ),
         )
 
+    def crescendi_function(argument):
+        runs = baca.select.runs(argument)
+        total = len(runs)
+        for n, run in enumerate(runs, start=1):
+            if n < total:
+                baca.hairpin_function(run, "mp < mf")
+            else:
+                baca.hairpin_function(
+                    run,
+                    "mp <",
+                    remove_length_1_spanner_start=True,
+                    right_broken=True,
+                )
+
     accumulator(
         "hn1",
         baca.pitches("A3 B3", persist="seconds"),
@@ -224,6 +232,14 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 1),
     )
+    #    with baca.scope(cache["hn1"].leaves()) as o:
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, persist="seconds")
+    #        wrappers = baca.voice_one_function(o.leaf(0))
+    #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+    #        wrappers = baca.dynamic_up_function(o.leaf(0))
+    #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+    #        crescendi_function(o)
+    #        library.assign_part_function(o, "Horn", 1)
     accumulator(
         "hn3",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -231,6 +247,12 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 3),
     )
+    #    with baca.scope(cache["hn3"].leaves()) as o:
+    #        baca.pitches_function(o, "Ab3 Bb3", metadata=voice_metadata, persist="seconds")
+    #        wrappers = baca.voice_two_function(o.leaf(0))
+    #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+    #        crescendi_function(o)
+    #        library.assign_part_function(o, "Horn", 3)
     accumulator(
         "hn2",
         baca.pitches("A3 B3", persist="seconds"),
@@ -239,6 +261,14 @@ def horns(cache):
         crescendi(),
         library.assign_part("Horn", 2),
     )
+    #    with baca.scope(cache["hn2"].leaves()) as o:
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, persist="seconds")
+    #        wrappers = baca.voice_one_function(o.leaf(0))
+    #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+    #        wrappers = baca.dynamic_up_function(o.leaf(0))
+    #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+    #        crescendi_function(o)
+    #        library.assign_part_function(o, "Horn", 3)
     accumulator(
         "hn4",
         baca.pitches("Ab3 Bb3", persist="seconds"),
@@ -394,6 +424,7 @@ def main():
     STRINGS(score)
     CB3(accumulator.voice("cb3"))
     previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    # voice_metadata = previous_persist["voice_metadata"]
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
@@ -408,9 +439,11 @@ def main():
     perc3(cache["perc3"])
     strings(cache)
     cb1(cache["cb1"])
+    # return voice_metadata
 
 
 if __name__ == "__main__":
+    # voice_metadata = main()
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
