@@ -172,7 +172,6 @@ def strings(cache, string_abbreviations):
             baca.instrument_name_function(u, r"\animales-cellos-markup")
             baca.short_instrument_name_function(u, "Vc.", accumulator.manifests())
             baca.clef_function(u, "tenor")
-    library.assign_trill_parts_function(cache)
     with baca.scope(cache["1vn1"][1]) as o:
         # first accents ...
         baca.accent_function(o.phead(0))
@@ -204,6 +203,7 @@ def strings(cache, string_abbreviations):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.trill_spanner_staff_padding_function(o, 4)
+    library.assign_trill_parts_function(cache)
 
 
 def main():

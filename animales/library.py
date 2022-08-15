@@ -225,72 +225,100 @@ def allows_instrument(staff_name, instrument):
     raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
 
-def assign_brass_sforzando_parts(commands, omit_tuba=False):
+def assign_brass_sforzando_parts(commands, *, omit_tuba=False):
     commands(
-        "Horns.Voice.1",
+        "hn1",
         assign_part("Horn", 1),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Horns.Voice.3",
+        "hn3",
         assign_part("Horn", 3),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Horns.Voice.2",
+        "hn2",
         assign_part("Horn", 2),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Horns.Voice.4",
+        "hn4",
         assign_part("Horn", 4),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trumpets.Voice.1",
+        "tp1",
         assign_part("Trumpet", 1),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trumpets.Voice.3",
+        "tp3",
         assign_part("Trumpet", 3),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trumpets.Voice.2",
+        "tp2",
         assign_part("Trumpet", 2),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trumpets.Voice.4",
+        "tp4",
         assign_part("Trumpet", 4),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trombones.Voice.1",
+        "tbn1",
         assign_part("Trombone", 1),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trombones.Voice.3",
+        "tbn3",
         assign_part("Trombone", 3),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trombones.Voice.2",
+        "tbn2",
         assign_part("Trombone", 2),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     commands(
-        "Trombones.Voice.4",
+        "tbn4",
         assign_part("Trombone", 4),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
     )
     if not omit_tuba:
         commands(
-            "Tuba.Music",
+            "tub",
             assign_part("Tuba"),
         )
+
+
+def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
+    for name, section_name, part_number in (
+        ("hn1", "Horn", 1),
+        ("hn3", "Horn", 3),
+        ("hn2", "Horn", 2),
+        ("hn4", "Horn", 4),
+        ("tp1", "Trumpet", 1),
+        ("tp3", "Trumpet", 3),
+        ("tp2", "Trumpet", 2),
+        ("tp4", "Trumpet", 4),
+        ("tbn1", "Trombone", 1),
+        ("tbn3", "Trombone", 3),
+        ("tbn2", "Trombone", 2),
+        ("tbn4", "Trombone", 4),
+        ("tub", "Tuba", None),
+    ):
+        if omit_tuba and name == "tub":
+            continue
+        m = cache[name]
+        with baca.scope(m.leaves()) as o:
+            assign_part_function(o, section_name, part_number)
+            if part_number in (1, 2):
+                wrappers = baca.voice_one_function(o.leaf(0))
+            elif part_number in (3, 4):
+                wrappers = baca.voice_two_function(o.leaf(0))
+            baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
 def assign_part(name, token=None):
