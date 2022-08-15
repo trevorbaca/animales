@@ -1,4 +1,5 @@
 import inspect
+import types
 
 import abjad
 import baca
@@ -1163,6 +1164,15 @@ def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=N
         baca.update_voice_metadata(
             voice_metadata, voice_name, parameter, persist, state
         )
+
+
+markups = types.SimpleNamespace(
+    solo=r"\markup { solo }",
+    solo_cl_1=r"\markup { solo (cl. 1) }",
+    solo_cl_2=r"\markup { solo (cl. 2) }",
+    solo_cl_3=r"\markup { solo (cl. 3) }",
+    solo_first_violin=r"\markup { solo (first violin) }",
+)
 
 
 def short_instrument_name(
