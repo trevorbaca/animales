@@ -423,6 +423,15 @@ def glissando_positions(*, reverse=False, rotate=0, transpose=0):
     return baca.staff_positions(positions)
 
 
+def glissando_positions_function(argument, *, reverse=False, rotate=0, transpose=0):
+    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
+    positions_ = [_ + transpose for _ in positions_]
+    if reverse is True:
+        positions_.reverse()
+    positions = abjad.sequence.rotate(positions_, rotate)
+    baca.staff_positions_function(argument, positions)
+
+
 def instrument(key):
     _instruments = instruments()
     return baca.instrument(
@@ -455,7 +464,7 @@ def instruments():
     )
 
 
-def leaves_in_measure(n, lleak=False, rleak=False):
+def leaves_in_measure(n, *, lleak=False, rleak=False):
     def selector(argument):
         result = baca.select.mleaves(argument, n)
         if lleak is True:
@@ -465,6 +474,15 @@ def leaves_in_measure(n, lleak=False, rleak=False):
         return result
 
     return selector
+
+
+def leaves_in_measure_function(argument, n, *, lleak=False, rleak=False):
+    result = baca.select.mleaves(argument, n)
+    if lleak is True:
+        result = baca.select.lleak(result)
+    if rleak is True:
+        result = baca.select.rleak(result)
+    return result
 
 
 def make_battuti_material(
@@ -627,34 +645,34 @@ def make_brass_manifest_rhythm(
 
 
 def make_brass_sforzando_material(
-    score, commands, measure, *, reapply_persistent_indicators=False
+    score, accumulator, measure, *, reapply_persistent_indicators=False
 ):
     voice_to_pitch = {
-        "Horns.Voice.1": "C4",
-        "Horns.Voice.2": "Gb3",
-        "Horns.Voice.3": "F3",
-        "Horns.Voice.4": "E3",
-        "Trumpets.Voice.1": "D5",
-        "Trumpets.Voice.2": "Ab4",
-        "Trumpets.Voice.3": "G4",
-        "Trumpets.Voice.4": "F4",
-        "Trombones.Voice.1": "G4",
-        "Trombones.Voice.2": "Db4",
-        "Trombones.Voice.3": "C4",
-        "Trombones.Voice.4": "B3",
-        "Tuba.Music": "C2",
+        "hn1": "C4",
+        "hn2": "Gb3",
+        "hn3": "F3",
+        "hn4": "E3",
+        "tp1": "D5",
+        "tp2": "Ab4",
+        "tp3": "G4",
+        "tp4": "F4",
+        "tbn1": "G4",
+        "tbn2": "Db4",
+        "tbn3": "C4",
+        "tbn4": "B3",
+        "tub": "C2",
     }
-
-    for voice_name, pitch in voice_to_pitch.items():
+    for abbreviation, pitch in voice_to_pitch.items():
+        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
         voice = score[voice_name]
-        music = make_downbeat_attack(commands.get(measure))
+        music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
         if reapply_persistent_indicators:
-            commands(
+            accumulator(
                 (voice_name, measure),
                 baca.reapply_persistent_indicators(),
             )
-        commands(
+        accumulator(
             (voice_name, measure),
             baca.marcato(selector=lambda _: baca.select.phead(_, 0)),
         )
@@ -664,12 +682,12 @@ def make_brass_sforzando_material(
         else:
             member = 1
         if member in (1, 2):
-            commands(
+            accumulator(
                 (voice_name, measure),
                 baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0)),
             )
         elif member in (3, 4):
-            commands(
+            accumulator(
                 (voice_name, measure),
                 baca.only_parts(
                     baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0))
@@ -677,10 +695,76 @@ def make_brass_sforzando_material(
             )
         else:
             raise ValueError(member)
-        commands(
+        accumulator(
             (voice_name, measure),
             baca.pitch(pitch),
         )
+
+
+def make_brass_sforzando_material_function(
+    score,
+    accumulator,
+    measure,
+    *,
+    previous_persist=None,
+    reapply_persistent_indicators=False,
+):
+    voice_to_pitch = {
+        "hn1": "C4",
+        "hn2": "Gb3",
+        "hn3": "F3",
+        "hn4": "E3",
+        "tp1": "D5",
+        "tp2": "Ab4",
+        "tp3": "G4",
+        "tp4": "F4",
+        "tbn1": "G4",
+        "tbn2": "Db4",
+        "tbn3": "C4",
+        "tbn4": "B3",
+        "tub": "C2",
+    }
+    for abbreviation, pitch in voice_to_pitch.items():
+        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
+        voice = score[voice_name]
+        music = make_downbeat_attack(accumulator.get(measure))
+        voice.extend(music)
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        accumulator.voice_abbreviations,
+    )
+    if reapply_persistent_indicators:
+        assert previous_persist is not None
+        previous_persistent_indicators = previous_persist.get(
+            "persistent_indicators", {}
+        )
+        runtime = {
+            "already_reapplied_contexts": {"Score"},
+            "manifests": accumulator.manifests(),
+            "previous_persistent_indicators": previous_persistent_indicators,
+        }
+    for abbreviation, pitch in voice_to_pitch.items():
+        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
+        if reapply_persistent_indicators:
+            voice = score[voice_name]
+            baca.reapply_persistent_indicators_function(voice, runtime=runtime)
+        m = cache[voice_name]
+        with baca.scope(m[measure]) as o:
+            baca.pitch_function(o, pitch)
+            baca.marcato_function(o.phead(0))
+            if voice_name[-1].isdigit():
+                words = abjad.string.delimit_words(voice_name)
+                member = int(words[-1])
+            else:
+                member = 1
+            if member in (1, 2):
+                baca.dynamic_function(o.phead(0), "sffz")
+            elif member in (3, 4):
+                wrappers = baca.dynamic_function(o.phead(0), "sffz")
+                baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            else:
+                raise ValueError(member)
 
 
 def make_clb_rhythm(time_signatures, section, member, counts, wrap):
