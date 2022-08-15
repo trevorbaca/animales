@@ -111,11 +111,9 @@ baca.rehearsal_mark_function(
 
 
 def BRASS(score):
-
     library.make_brass_sforzando_material(
         score, accumulator, 1, reapply_persistent_indicators=True
     )
-
     for abbreviation in [
         "hn1",
         "hn2",

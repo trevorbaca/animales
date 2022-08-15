@@ -705,20 +705,19 @@ number.4.Horns.Voice.1.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -826,8 +825,7 @@ number.4.Horns.Voice.3.container = {
     c'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -836,13 +834,13 @@ number.4.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1035,20 +1033,19 @@ number.4.Horns.Voice.2.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1156,8 +1153,7 @@ number.4.Horns.Voice.4.container = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1166,13 +1162,13 @@ number.4.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1365,20 +1361,19 @@ number.4.Trumpets.Voice.1.container = {
     d''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1486,8 +1481,7 @@ number.4.Trumpets.Voice.3.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1496,13 +1490,13 @@ number.4.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1695,20 +1689,19 @@ number.4.Trumpets.Voice.2.container = {
     af'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1816,8 +1809,7 @@ number.4.Trumpets.Voice.4.container = {
     f'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1826,13 +1818,13 @@ number.4.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2025,20 +2017,19 @@ number.4.Trombones.Voice.1.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2146,8 +2137,7 @@ number.4.Trombones.Voice.3.container = {
     c'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2156,13 +2146,13 @@ number.4.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2355,20 +2345,19 @@ number.4.Trombones.Voice.2.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2476,8 +2465,7 @@ number.4.Trombones.Voice.4.container = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2486,13 +2474,13 @@ number.4.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2682,20 +2670,19 @@ number.4.Tuba.Music.container = {
     c,8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3245,22 +3232,20 @@ number.4.FirstViolins.Voice.2.container = {
     % BEFORE:
     % COMMANDS:
       %! -PARTS
-      %! baca.OverrideCommand._call(1)
-      %! baca.dls_up()
+      %! baca.dls_up_function(1)
     \override DynamicLineSpanner.direction = #up
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_glissando_rhythm()
     c''2
         % CLOSING:
         % COMMANDS:
           %! +PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.literal()
+          %! baca.literal_function()
+          %! baca.stop_trill_function()
     %%% \stopTrillSpan
     % AFTER:
     % ARTICULATIONS:
@@ -3270,22 +3255,20 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \p
     % MARKUP:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     ^ \markup { solo (first violin) }
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \markup { solo }
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3294,16 +3277,16 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \<
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3316,7 +3299,7 @@ number.4.FirstViolins.Voice.2.container = {
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3329,7 +3312,7 @@ number.4.FirstViolins.Voice.2.container = {
     ]
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3339,7 +3322,7 @@ number.4.FirstViolins.Voice.2.container = {
     % AFTER:
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3356,20 +3339,20 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \f
     % START_BEAM:
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3381,7 +3364,7 @@ number.4.FirstViolins.Voice.2.container = {
     ]
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3390,7 +3373,7 @@ number.4.FirstViolins.Voice.2.container = {
     % AFTER:
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3403,7 +3386,7 @@ number.4.FirstViolins.Voice.2.container = {
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3416,7 +3399,7 @@ number.4.FirstViolins.Voice.2.container = {
     ]
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3431,7 +3414,7 @@ number.4.FirstViolins.Voice.2.container = {
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3444,7 +3427,7 @@ number.4.FirstViolins.Voice.2.container = {
     ]
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3454,7 +3437,7 @@ number.4.FirstViolins.Voice.2.container = {
     % AFTER:
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3467,7 +3450,7 @@ number.4.FirstViolins.Voice.2.container = {
     [
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3482,13 +3465,13 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \f
     % STOP_BEAM:
       %! rmakers.RewriteMeterCommand.__call__
@@ -3500,16 +3483,16 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \>
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3521,7 +3504,7 @@ number.4.FirstViolins.Voice.2.container = {
     % AFTER:
     % SPANNER_STARTS:
       %! abjad.glissando(7)
-      %! baca.glissando()
+      %! baca.glissando_function()
     \glissando
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3530,8 +3513,7 @@ number.4.FirstViolins.Voice.2.container = {
     c'''8
     % AFTER:
     % SPANNER_STARTS:
-      %! baca._attach_persistent_indicator()
-      %! baca.tie()
+      %! baca.tie_function()
     ~
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3546,18 +3528,17 @@ number.4.FirstViolins.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \p
     % COMMANDS:
       %! -PARTS
-      %! baca.OverrideCommand._call(2)
-      %! baca.dls_up()
+      %! baca.dls_up_function(2)
     \revert DynamicLineSpanner.direction
     % CLOSING:
     % COMMANDS:
@@ -3617,8 +3598,7 @@ number.4.FirstViolins.Voice.1.container.1 = {
     % [FirstViolins.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
@@ -3648,12 +3628,12 @@ number.4.FirstViolins.Voice.1.container.1 = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!1
@@ -3664,12 +3644,12 @@ number.4.FirstViolins.Voice.1.container.1 = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3683,6 +3663,7 @@ number.4.FirstViolins.Voice.1.container.1 = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -3715,12 +3696,10 @@ number.4.FirstViolins.Voice.1.container.1 = {
     df'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -3740,8 +3719,7 @@ number.4.FirstViolins.Voice.1.container.2 = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     c'1
@@ -3752,25 +3730,24 @@ number.4.FirstViolins.Voice.1.container.2 = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
     _ \animales-all-other-strings-still-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -3887,8 +3864,7 @@ number.4.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 6
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
@@ -3920,6 +3896,7 @@ number.4.FirstViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!1
@@ -3930,12 +3907,12 @@ number.4.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3949,6 +3926,7 @@ number.4.FirstViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -3981,12 +3959,10 @@ number.4.FirstViolins.Voice.3.container = {
     df'!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4002,21 +3978,21 @@ number.4.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4118,8 +4094,7 @@ number.4.SecondViolins.Voice.1.container = {
     % [SecondViolins.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" }
@@ -4151,6 +4126,7 @@ number.4.SecondViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!1
@@ -4161,12 +4137,12 @@ number.4.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4180,6 +4156,7 @@ number.4.SecondViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -4212,12 +4189,10 @@ number.4.SecondViolins.Voice.1.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4233,21 +4208,21 @@ number.4.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4349,8 +4324,7 @@ number.4.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 6
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
@@ -4382,6 +4356,7 @@ number.4.SecondViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!1
@@ -4392,12 +4367,12 @@ number.4.SecondViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4411,6 +4386,7 @@ number.4.SecondViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -4437,8 +4413,7 @@ number.4.SecondViolins.Voice.3.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4454,21 +4429,21 @@ number.4.SecondViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4570,8 +4545,7 @@ number.4.Violas.Voice.1.container = {
     % [Violas.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
@@ -4603,6 +4577,7 @@ number.4.Violas.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!4.
@@ -4613,12 +4588,12 @@ number.4.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4627,6 +4602,7 @@ number.4.Violas.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -4649,8 +4625,7 @@ number.4.Violas.Voice.1.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4680,8 +4655,7 @@ number.4.Violas.Voice.1.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4697,21 +4671,21 @@ number.4.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4817,8 +4791,7 @@ number.4.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
@@ -4850,6 +4823,7 @@ number.4.Violas.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!2
@@ -4860,12 +4834,12 @@ number.4.Violas.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4874,6 +4848,7 @@ number.4.Violas.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -4896,8 +4871,7 @@ number.4.Violas.Voice.3.container = {
     df'!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -4915,8 +4889,7 @@ number.4.Violas.Voice.3.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4932,21 +4905,21 @@ number.4.Violas.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -5052,8 +5025,7 @@ number.4.Cellos.Voice.1.container = {
     % [Cellos.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.OverrideCommand._call(1)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
@@ -5085,6 +5057,7 @@ number.4.Cellos.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     df'!1
@@ -5095,12 +5068,12 @@ number.4.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -5114,6 +5087,7 @@ number.4.Cellos.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
+      %! baca.trill_spanner_function()
     \startTrillSpan ef'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -5146,12 +5120,10 @@ number.4.Cellos.Voice.1.container = {
     df'!2..
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.accent()
+      %! baca.accent_function()
     - \accent
     % COMMANDS:
-      %! baca.OverrideCommand._call(2)
-      %! baca.trill_spanner_staff_padding()
+      %! baca.trill_spanner_staff_padding_function(2)
     \revert TrillSpanner.staff-padding
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5167,21 +5139,21 @@ number.4.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-p-sub
     % MARKUP:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \animales-still-non-vibrato-markup
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
+      %! baca.trill_spanner_function()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -5294,18 +5266,17 @@ number.4.Contrabasses.Voice.3.container = {
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
       %! -PARTS
-      %! ANIMALES
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     % OPENING:
     % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -5319,7 +5290,7 @@ number.4.Contrabasses.Voice.3.container = {
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.clef()
+      %! baca.clef_function()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! baca.make_mmrests(1)
@@ -5341,11 +5312,10 @@ number.4.Contrabasses.Voice.3.container = {
       %! baca._attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
-      %! ANIMALES
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.short_instrument_name()
+      %! baca.short_instrument_name_function()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
     % ABSOLUTE_BEFORE:
@@ -5376,14 +5346,14 @@ number.4.Contrabasses.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \p
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5393,14 +5363,14 @@ number.4.Contrabasses.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5450,7 +5420,7 @@ number.4.Contrabasses.Voice.3.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin()
+      %! baca.hairpin_function()
     \!
     % CLOSING:
     % COMMANDS:
