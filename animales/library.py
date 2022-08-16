@@ -621,7 +621,7 @@ def make_brass_manifest_rhythm(
         result = baca.sequence.quarters(divisions)
         return result
 
-    persist = "brass_manifest_rhythm"
+    name = "brass_manifest_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
@@ -633,14 +633,12 @@ def make_brass_manifest_rhythm(
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     music = rhythm_maker(time_signatures)
-    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_section_voice_metadata = previous_section_voice_metadata.get(
-        voice_name, {}
-    )
-    previous_section_stop_state = baca.get_previous_section_stop_state(
-        previous_section_voice_metadata, persist
-    )
-    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    previous_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
+    previous_state = baca.get_previous_state(previous_voice_metadata, name)
+    if previous_state is not None:
+        assert len(previous_state) in (4, 5)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1005,7 +1003,7 @@ def make_harp_exchange_rhythm(
         result = baca.sequence.quarters(result)
         return result
 
-    persist = "harp_exchange_rhythm"
+    name = "harp_exchange_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *stack,
@@ -1019,14 +1017,12 @@ def make_harp_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_section_voice_metadata = previous_section_voice_metadata.get(
-        voice_name, {}
-    )
-    previous_section_stop_state = baca.get_previous_section_stop_state(
-        previous_section_voice_metadata, persist
-    )
-    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    previous_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
+    previous_state = baca.get_previous_state(previous_voice_metadata, name)
+    if previous_state is not None:
+        assert len(previous_state) in (4, 5)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1117,7 +1113,7 @@ def make_sforzando_exchange_rhythm(
         result = baca.sequence.quarters(divisions)
         return result
 
-    persist = "sforzando_exchange_rhythm"
+    name = "sforzando_exchange_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         rmakers.beam(),
@@ -1128,14 +1124,12 @@ def make_sforzando_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_section_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_section_voice_metadata = previous_section_voice_metadata.get(
-        voice_name, {}
-    )
-    previous_section_stop_state = baca.get_previous_section_stop_state(
-        previous_section_voice_metadata, persist
-    )
-    music = rhythm_maker(time_signatures, previous_state=previous_section_stop_state)
+    previous_voice_metadata = previous_persist.get("voice_metadata", {})
+    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
+    previous_state = baca.get_previous_state(previous_voice_metadata, name)
+    if previous_state is not None:
+        assert len(previous_state) in (4, 5)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1152,7 +1146,7 @@ def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=N
         "vc1": 6,
     }
     _voice_abbreviations = voice_abbreviations()
-    persist = "sforzando_exchange_rhythm"
+    name = "sforzando_exchange_rhythm"
     parameter = "RHYTHM"
     for voice_abbreviation, part in voice_to_part.items():
         voice_name = _voice_abbreviations[voice_abbreviation]
@@ -1161,9 +1155,8 @@ def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=N
             time_signatures, part, previous_persist, voice_name
         )
         voice.extend(music)
-        baca.update_voice_metadata(
-            voice_metadata, voice_name, parameter, persist, state
-        )
+        # TODO: check parameter names
+        baca.update_voice_metadata(voice_metadata, voice_name, parameter, name, state)
 
 
 markups = types.SimpleNamespace(

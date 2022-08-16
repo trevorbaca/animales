@@ -131,7 +131,7 @@ def percussion(cache):
 def main():
     PERC1(accumulator.voice("perc1"))
     STRINGS(score)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     names = [accumulator.voice_abbreviations[_] for _ in ["perc1"]]
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
     cache = baca.interpret.cache_leaves(

@@ -161,7 +161,7 @@ def main():
     library.make_battuti_material(
         score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     abbreviations = ["perc2"]
     names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
