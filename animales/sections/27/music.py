@@ -172,7 +172,7 @@ def main():
     PERCUSSION(score)
     STRINGS(score)
     CB3(score)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     names = [
         accumulator.voice_abbreviations[_]
         for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]

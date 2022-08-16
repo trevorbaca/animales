@@ -8,7 +8,7 @@ from animales import library
 #########################################################################################
 
 metadata = baca.previous_metadata(__file__)
-previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+previous_persist = baca.previous_persist(__file__)
 start = metadata.get("final_measure_number")
 assert start == 17
 
@@ -314,7 +314,7 @@ def main():
     string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
     STRINGS(score, string_abbreviations)
     CB3(score)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

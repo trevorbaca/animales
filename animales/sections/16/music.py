@@ -419,7 +419,7 @@ def main():
         "cb3": (1, 6),
     }
     STRINGS(score, voice_abbreviation_to_members)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

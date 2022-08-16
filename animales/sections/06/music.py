@@ -230,7 +230,7 @@ def main():
     PERCUSSION(score)
     absent_left_broken = ["1vn3", "2vn3", "va3"]
     STRINGS(score, absent_left_broken)
-    previous_persist = baca.previous_metadata(__file__, file_name="__persist__")
+    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
