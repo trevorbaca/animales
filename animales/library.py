@@ -1134,7 +1134,9 @@ def make_sforzando_exchange_rhythm(
     return music, state
 
 
-def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=None):
+def make_trill_rhythm(
+    score, time_signatures, voice_name_to_parameter_to_state, previous_persist=None
+):
     previous_persist = previous_persist or {}
     voice_to_part = {
         "1vn1": 0,
@@ -1156,7 +1158,9 @@ def make_trill_rhythm(score, time_signatures, voice_metadata, previous_persist=N
         )
         voice.extend(music)
         # TODO: check parameter names
-        baca.update_voice_metadata(voice_metadata, voice_name, parameter, name, state)
+        baca.update_voice_name_to_parameter_to_state(
+            voice_name_to_parameter_to_state, voice_name, parameter, name, state
+        )
 
 
 markups = types.SimpleNamespace(

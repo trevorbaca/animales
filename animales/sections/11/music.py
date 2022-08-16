@@ -56,7 +56,7 @@ score = library.make_empty_score(
     ],
 )
 
-voice_metadata = {}
+voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
@@ -103,8 +103,7 @@ def CL(voice):
 
 
 def BRASS(score):
-    parameter = "RHYTHM"
-    persist = "brass_manifest_rhythm"
+    parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
         ("hn3", 3),
@@ -128,14 +127,13 @@ def BRASS(score):
             previous_persist=previous_persist,
         )
         voice.extend(music)
-        baca.update_voice_metadata(
-            voice_metadata, voice_name, parameter, persist, state
+        baca.update_voice_name_to_parameter_to_state(
+            voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
 
 def PF_HP_PERC3_CB1(score):
-    parameter = "RHYTHM"
-    persist = "harp_exchange_rhythm"
+    parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = accumulator.voice_abbreviations[abbreviation]
         voice = score[voice_name]
@@ -146,8 +144,8 @@ def PF_HP_PERC3_CB1(score):
             previous_persist=previous_persist,
         )
         voice.extend(music)
-        baca.update_voice_metadata(
-            voice_metadata, voice_name, parameter, persist, state
+        baca.update_voice_name_to_parameter_to_state(
+            voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
 
@@ -461,13 +459,11 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    if "voice_metadata" not in persist:
-        persist["voice_metadata"] = {}
-    for voice_name, dictionary in persist["voice_metadata"].items():
-        dictionary.update(voice_metadata.get(voice_name, {}))
-    for voice_name, dictionary in voice_metadata.items():
-        if voice_name not in persist["voice_metadata"]:
-            persist["voice_metadata"][voice_name] = dictionary
+    assert "voice_metadata" in persist, repr(persist)
+    for voice_name, parameter_to_state in persist["voice_metadata"].items():
+        parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
+    for voice_name, parameter_to_state in voice_name_to_parameter_to_state.items():
+        persist["voice_metadata"].setdefault(voice_name, parameter_to_state)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
