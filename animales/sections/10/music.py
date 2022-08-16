@@ -224,14 +224,14 @@ def horns(cache):
 
     accumulator(
         "hn1",
-        baca.pitches("A3 B3", persist="seconds"),
+        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 1),
     )
     #    with baca.scope(cache["hn1"].leaves()) as o:
-    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, persist="seconds")
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, name="seconds")
     #        wrappers = baca.voice_one_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -240,27 +240,27 @@ def horns(cache):
     #        library.assign_part_function(o, "Horn", 1)
     accumulator(
         "hn3",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 3),
     )
     #    with baca.scope(cache["hn3"].leaves()) as o:
-    #        baca.pitches_function(o, "Ab3 Bb3", metadata=voice_metadata, persist="seconds")
+    #        baca.pitches_function(o, "Ab3 Bb3", metadata=voice_metadata, name="seconds")
     #        wrappers = baca.voice_two_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        crescendi_function(o)
     #        library.assign_part_function(o, "Horn", 3)
     accumulator(
         "hn2",
-        baca.pitches("A3 B3", persist="seconds"),
+        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 2),
     )
     #    with baca.scope(cache["hn2"].leaves()) as o:
-    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, persist="seconds")
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, name="seconds")
     #        wrappers = baca.voice_one_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -269,7 +269,7 @@ def horns(cache):
     #        library.assign_part_function(o, "Horn", 3)
     accumulator(
         "hn4",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Horn", 4),
@@ -277,7 +277,7 @@ def horns(cache):
     # trumpets
     accumulator(
         "tp1",
-        baca.pitches("Ab4 Bb4", persist="seconds"),
+        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
@@ -285,14 +285,14 @@ def horns(cache):
     )
     accumulator(
         "tp3",
-        baca.pitches("G4 A4", persist="seconds"),
+        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trumpet", 3),
     )
     accumulator(
         "tp2",
-        baca.pitches("Ab4 Bb4", persist="seconds"),
+        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
@@ -300,7 +300,7 @@ def horns(cache):
     )
     accumulator(
         "tp4",
-        baca.pitches("G4 A4", persist="seconds"),
+        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trumpet", 4),
@@ -308,7 +308,7 @@ def horns(cache):
     # trombones
     accumulator(
         "tbn1",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
@@ -316,14 +316,14 @@ def horns(cache):
     )
     accumulator(
         "tbn3",
-        baca.pitches("G3 A3", persist="seconds"),
+        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trombone", 3),
     )
     accumulator(
         "tbn2",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
@@ -331,7 +331,7 @@ def horns(cache):
     )
     accumulator(
         "tbn4",
-        baca.pitches("G3 A3", persist="seconds"),
+        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi(),
         library.assign_part("Trombone", 4),

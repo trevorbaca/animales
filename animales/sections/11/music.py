@@ -189,7 +189,7 @@ def brass(cache):
     )
     accumulator(
         "hn1",
-        baca.pitches("A3 B3", persist="seconds"),
+        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -197,14 +197,14 @@ def brass(cache):
     )
     accumulator(
         "hn3",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Horn", 3),
     )
     accumulator(
         "hn2",
-        baca.pitches("A3 B3", persist="seconds"),
+        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -212,7 +212,7 @@ def brass(cache):
     )
     accumulator(
         "hn4",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Horn", 4),
@@ -220,7 +220,7 @@ def brass(cache):
     # trumpets
     accumulator(
         "tp1",
-        baca.pitches("Ab4 Bb4", persist="seconds"),
+        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -228,14 +228,14 @@ def brass(cache):
     )
     accumulator(
         "tp3",
-        baca.pitches("G4 A4", persist="seconds"),
+        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trumpet", 3),
     )
     accumulator(
         "tp2",
-        baca.pitches("Ab4 Bb4", persist="seconds"),
+        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -243,7 +243,7 @@ def brass(cache):
     )
     accumulator(
         "tp4",
-        baca.pitches("G4 A4", persist="seconds"),
+        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trumpet", 4),
@@ -251,7 +251,7 @@ def brass(cache):
     # trombones
     accumulator(
         "tbn1",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -259,14 +259,14 @@ def brass(cache):
     )
     accumulator(
         "tbn3",
-        baca.pitches("G3 A3", persist="seconds"),
+        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trombone", 3),
     )
     accumulator(
         "tbn2",
-        baca.pitches("Ab3 Bb3", persist="seconds"),
+        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -274,7 +274,7 @@ def brass(cache):
     )
     accumulator(
         "tbn4",
-        baca.pitches("G3 A3", persist="seconds"),
+        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trombone", 4),
