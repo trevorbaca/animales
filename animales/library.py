@@ -633,12 +633,16 @@ def make_brass_manifest_rhythm(
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     music = rhythm_maker(time_signatures)
-    previous_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
-    previous_state = baca.get_previous_state(previous_voice_metadata, name)
-    if previous_state is not None:
-        assert len(previous_state) in (4, 5)
-    music = rhythm_maker(time_signatures, previous_state=previous_state)
+    previous_voice_name_to_parameter_to_state = previous_persist.get(
+        "voice_metadata", {}
+    )
+    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
+        voice_name, {}
+    )
+    previous_rhythm_state = baca.get_previous_rhythm_state(
+        previous_parameter_to_state, name
+    )
+    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1017,12 +1021,18 @@ def make_harp_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
-    previous_state = baca.get_previous_state(previous_voice_metadata, name)
-    if previous_state is not None:
-        assert len(previous_state) in (4, 5)
-    music = rhythm_maker(time_signatures, previous_state=previous_state)
+    previous_voice_name_to_parameter_to_state = previous_persist.get(
+        "voice_metadata", {}
+    )
+    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
+        voice_name, {}
+    )
+    previous_rhythm_state = baca.get_previous_rhythm_state(
+        previous_parameter_to_state, name
+    )
+    if previous_rhythm_state:
+        assert len(previous_rhythm_state) in (4, 5)
+    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1124,12 +1134,18 @@ def make_sforzando_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_voice_metadata = previous_persist.get("voice_metadata", {})
-    previous_voice_metadata = previous_voice_metadata.get(voice_name, {})
-    previous_state = baca.get_previous_state(previous_voice_metadata, name)
-    if previous_state is not None:
-        assert len(previous_state) in (4, 5)
-    music = rhythm_maker(time_signatures, previous_state=previous_state)
+    previous_voice_name_to_parameter_to_state = previous_persist.get(
+        "voice_metadata", {}
+    )
+    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
+        voice_name, {}
+    )
+    previous_rhythm_state = baca.get_previous_rhythm_state(
+        previous_parameter_to_state, name
+    )
+    if previous_rhythm_state:
+        assert len(previous_rhythm_state) in (4, 5)
+    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
     state = rhythm_maker.state
     return music, state
 
