@@ -55,7 +55,7 @@ score = library.make_empty_score(
     ],
 )
 
-voice_metadata = {}
+voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
@@ -104,8 +104,7 @@ def REEDS(score):
 
 
 def BRASS(score):
-    parameter = "RHYTHM"
-    persist = "brass_manifest_rhythm"
+    parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
         ("hn3", 3),
@@ -129,8 +128,8 @@ def BRASS(score):
             previous_persist=previous_persist,
         )
         voice.extend(music)
-        baca.update_voice_metadata(
-            voice_metadata, voice_name, parameter, persist, state
+        baca.update_voice_name_to_parameter_to_state(
+            voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
 
@@ -525,8 +524,8 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    for voice_name, dictionary in persist["voice_metadata"].items():
-        dictionary.update(voice_metadata.get(voice_name, {}))
+    for voice_name, parameter_to_state in persist["voice_metadata"].items():
+        parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
