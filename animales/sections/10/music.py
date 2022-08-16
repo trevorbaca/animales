@@ -341,78 +341,58 @@ def horns(cache):
 
 
 def pf(m):
-    accumulator(
-        "pf",
-        baca.pitch("C5"),
-        baca.stopped(selector=lambda _: baca.select.pheads(_)),
-        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        library.assign_part("Piano"),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "C5")
+        baca.stopped_function(o.pheads())
+        baca.laissez_vibrer_function(o.ptails())
+        library.assign_part_function(o, "Piano")
 
 
 def hp(m):
-    accumulator(
-        "hp",
-        baca.pitch("C5"),
-        baca.stopped(selector=lambda _: baca.select.pheads(_)),
-        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        library.assign_part("Harp"),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "C5")
+        baca.stopped_function(o.pheads())
+        baca.laissez_vibrer_function(o.ptails())
+        library.assign_part_function(o, "Harp")
 
 
 def perc3(m):
-    "vibraphone"
-    accumulator(
-        "perc3",
-        baca.pitch("C5"),
-        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        library.assign_part("Percussion", 3),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "C5")
+        baca.laissez_vibrer_function(o.ptails())
+        library.assign_part_function(o, "Percussion", 3)
 
 
 def strings(cache):
-    accumulator(
-        ["1vn1", "2vn1", "va1", "vc1"],
-        baca.pitch("A3"),
-        baca.trill_spanner(
-            alteration="Ab3",
-            right_broken=True,
-            selector=lambda _: baca.select.tleaves(_, rleak=True),
-        ),
-        baca.hairpin("pp <", right_broken=True),
-    )
-    accumulator(
-        "1vn1",
-        library.assign_part("FirstViolin", (1, 18)),
-    )
-    accumulator(
-        "2vn1",
-        library.assign_part("SecondViolin", (1, 18)),
-    )
-    accumulator(
-        "va1",
-        library.assign_part("Viola", (1, 18)),
-    )
-    accumulator(
-        "vc1",
-        library.assign_part("Cello", (1, 14)),
-    )
-    accumulator(
-        "cb3",
-        baca.pitch("A1"),
-        baca.hairpin("pp <", right_broken=True),
-        library.assign_part("Contrabass", (2, 6)),
-    )
+    for name in ["1vn1", "2vn1", "va1", "vc1"]:
+        with baca.scope(cache[name].leaves()) as o:
+            baca.pitch_function(o, "A3")
+            baca.trill_spanner_function(
+                baca.select.rleak(o.tleaves()),
+                alteration="Ab3",
+                right_broken=True,
+            )
+            baca.hairpin_function(o, "pp <", right_broken=True)
+    for name, section, part_numbers in (
+        ("1vn1", "FirstViolin", (1, 18)),
+        ("2vn1", "SecondViolin", (1, 18)),
+        ("va1", "Viola", (1, 18)),
+        ("vc1", "Cello", (1, 14)),
+    ):
+        library.assign_part_function(cache[name].leaves(), section, part_numbers)
+    m = cache["cb3"]
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "A1")
+        baca.hairpin_function(o, "pp <", right_broken=True)
+        library.assign_part_function(o, "Contrabass", (2, 6))
 
 
 def cb1(m):
-    accumulator(
-        "cb1",
-        baca.pitch("Cqf5", do_not_transpose=True),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        library.assign_part("Contrabass", 1),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.pitch_function(o, "Cqf5", do_not_transpose=True)
+        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.laissez_vibrer_function(o.ptails())
+        library.assign_part_function(o, "Contrabass", 1)
 
 
 def main():
