@@ -1158,7 +1158,7 @@
             )
         ],
     },
-    "voice_metadata": {
+    "voice_name_to_parameter_to_state": {
         "Contrabasses.Voice.1": {
             "RHYTHM": {
                 "divisions_consumed": 142,

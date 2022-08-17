@@ -30,7 +30,7 @@ score = library.make_empty_score(
     ],
 )
 
-voice_metadata = {}
+voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
@@ -63,7 +63,7 @@ baca.rehearsal_mark_function(
 
 def STRINGS(score):
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_metadata, previous_persist
+        score, accumulator.get(), voice_name_to_parameter_to_state, previous_persist
     )
     music_voice_names = library.get_music_voice_names(voice_names)
     for voice_name in music_voice_names:
@@ -133,7 +133,7 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    persist["voice_metadata"] = voice_metadata
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
