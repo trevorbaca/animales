@@ -421,7 +421,7 @@ def main():
     }
     STRINGS(score, voice_abbreviation_to_members)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(),
         accumulator.manifests(),
         previous_persistent_indicators,

@@ -219,7 +219,7 @@ def main(
         voice_name_to_parameter_to_state,
     )
     CB3(score)
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(),
         accumulator.manifests(),
         previous_persistent_indicators,
