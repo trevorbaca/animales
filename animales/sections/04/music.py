@@ -135,16 +135,24 @@ def BRASS(score):
         voice.extend(music)
 
 
-def STRINGS(score, string_abbreviations, previous_persist):
+def STRINGS(
+    score,
+    names,
+    previous_voice_name_to_parameter_to_state,
+    voice_name_to_parameter_to_state,
+):
     voice = score[accumulator.voice_abbreviations["1vn2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_glissando_rhythm(accumulator.get(3, 6))
     voice.extend(music)
     library.make_trill_rhythm(
-        score, accumulator.get(1, 2), voice_name_to_parameter_to_state, previous_persist
+        score,
+        accumulator.get(1, 2),
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
     )
-    for abbreviation in string_abbreviations:
+    for abbreviation in names:
         voice = score[accumulator.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
         voice.extend(music)
@@ -210,7 +218,7 @@ def brass(cache):
             baca.clef_function(o.leaf(0), clef)
 
 
-def strings(cache, string_abbreviations):
+def strings(cache, names):
     m = cache["1vn2"]
     with baca.scope(m.get(3, 6)) as o:
         baca.untie_function(o)
@@ -239,7 +247,7 @@ def strings(cache, string_abbreviations):
             library.leaves_in_measure_function(o, -1, lleak=True),
             "f > p",
         )
-    for name in string_abbreviations:
+    for name in names:
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
             baca.pitch_function(o, "Db4")
@@ -257,7 +265,7 @@ def strings(cache, string_abbreviations):
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
             baca.trill_spanner_staff_padding_function(o, 4)
-    for name in string_abbreviations:
+    for name in names:
         m = cache[name]
         with baca.scope(m.get(3, 6)) as o:
             baca.pitch_function(o, 0)
@@ -306,15 +314,27 @@ def cb3(cache):
         library.assign_part_function(o, "Contrabass", (1, 6))
 
 
-def main():
-    previous_persist = baca.previous_persist(__file__)
+def main(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+    previous_voice_name_to_parameter_to_state,
+):
     WINDS(score)
     PERCUSSION(score)
     BRASS(score)
-    string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    STRINGS(score, string_abbreviations, previous_persist)
+    names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    STRINGS(
+        score,
+        names,
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
+    )
     CB3(score)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
@@ -323,12 +343,25 @@ def main():
     winds(cache)
     percussion(cache)
     brass(cache)
-    strings(cache, string_abbreviations)
+    strings(cache, names)
     cb3(cache)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 if __name__ == "__main__":
-    main()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_final_measure_number = previous_metadata.get("final_measure_number")
+    assert previous_final_measure_number == 17
+    previous_persist = baca.previous_persist(__file__)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    previous_voice_name_to_parameter_to_state = previous_persist[
+        "voice_name_to_parameter_to_state"
+    ]
+    score, accumulator, voice_name_to_parameter_to_state = main(
+        previous_final_measure_number,
+        previous_persistent_indicators,
+        previous_voice_name_to_parameter_to_state,
+    )
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

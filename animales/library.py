@@ -1070,9 +1070,8 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
 
 
 def make_sforzando_exchange_rhythm(
-    time_signatures, this_part, previous_persist, voice_name
+    time_signatures, this_part, previous_voice_name_to_parameter_to_state, voice_name
 ):
-    assert isinstance(previous_persist, dict), repr(previous_persist)
     part_to_pattern = {
         0: abjad.index([0, 15], period=18),
         1: abjad.index([0, 6, 8, 14, 16], period=24),
@@ -1134,9 +1133,6 @@ def make_sforzando_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_name_to_parameter_to_state", {}
-    )
     previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
         voice_name, {}
     )
@@ -1151,9 +1147,11 @@ def make_sforzando_exchange_rhythm(
 
 
 def make_trill_rhythm(
-    score, time_signatures, voice_name_to_parameter_to_state, previous_persist=None
+    score,
+    time_signatures,
+    previous_voice_name_to_parameter_to_state,
+    voice_name_to_parameter_to_state,
 ):
-    previous_persist = previous_persist or {}
     voice_to_part = {
         "1vn1": 0,
         "1vn3": 1,
@@ -1170,7 +1168,7 @@ def make_trill_rhythm(
         voice_name = _voice_abbreviations[voice_abbreviation]
         voice = score[voice_name]
         music, state = make_sforzando_exchange_rhythm(
-            time_signatures, part, previous_persist, voice_name
+            time_signatures, part, previous_voice_name_to_parameter_to_state, voice_name
         )
         voice.extend(music)
         # TODO: check parameter names

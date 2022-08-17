@@ -8,7 +8,7 @@ from animales import library
 #########################################################################################
 
 
-def set_up_score(previous_final_measure_number):
+def make_empty_score(previous_final_measure_number):
     score = library.make_empty_score(
         first_violins=[
             (1, ["1vn1"]),
@@ -56,9 +56,18 @@ def SKIPS(skips):
     )
 
 
-def STRINGS(score, accumulator, previous_persist, voice_name_to_parameter_to_state):
+# def STRINGS(score, accumulator, previous_persist, voice_name_to_parameter_to_state):
+def STRINGS(
+    score,
+    accumulator,
+    previous_voice_name_to_parameter_to_state,
+    voice_name_to_parameter_to_state,
+):
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_name_to_parameter_to_state, previous_persist
+        score,
+        accumulator.get(),
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
     )
     music_voice_names = library.get_music_voice_names(accumulator.voice_names)
     for voice_name in music_voice_names:
@@ -103,14 +112,24 @@ def strings(cache):
     library.assign_trill_parts_function(cache)
 
 
-def main(previous_final_measure_number):
-    score, accumulator = set_up_score(previous_final_measure_number)
+def main(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+    previous_voice_name_to_parameter_to_state,
+):
+    score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score["Skips"])
-    previous_persist = baca.previous_persist(__file__)
     voice_name_to_parameter_to_state = {}
-    STRINGS(score, accumulator, previous_persist, voice_name_to_parameter_to_state)
-    baca.reapply(
-        accumulator, accumulator.manifests(), previous_persist, accumulator.voice_names
+    STRINGS(
+        score,
+        accumulator,
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
+    )
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
         score,
@@ -125,8 +144,15 @@ if __name__ == "__main__":
     previous_metadata = baca.previous_metadata(__file__)
     previous_final_measure_number = previous_metadata.get("final_measure_number")
     assert previous_final_measure_number == 6
+    previous_persist = baca.previous_persist(__file__)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    previous_voice_name_to_parameter_to_state = previous_persist[
+        "voice_name_to_parameter_to_state"
+    ]
     score, accumulator, voice_name_to_parameter_to_state = main(
-        previous_final_measure_number
+        previous_final_measure_number,
+        previous_persistent_indicators,
+        previous_voice_name_to_parameter_to_state,
     )
     metadata, persist, score, timing = baca.build.section(
         score,

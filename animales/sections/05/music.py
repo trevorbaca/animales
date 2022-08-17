@@ -87,15 +87,20 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score, previous_persist):
+def STRINGS(
+    score, previous_voice_name_to_parameter_to_state, voice_name_to_parameter_to_state
+):
     voice = score[accumulator.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
     voice.extend(music)
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_name_to_parameter_to_state, previous_persist
+        score,
+        accumulator.get(),
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
     )
-    for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
-        voice = accumulator.voice(abbreviation)
+    for name in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
+        voice = accumulator.voice(name)
         baca.append_anchor_note_function(voice)
 
 
@@ -201,13 +206,25 @@ def cb3(cache):
         library.assign_part_function(o, "Contrabass", (1, 6))
 
 
-def main():
-    previous_persist = baca.previous_persist(__file__)
+def main(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+    previous_voice_name_to_parameter_to_state,
+):
+    # previous_persist = baca.previous_persist(__file__)
     WINDS(score)
     PERCUSSION(score)
-    STRINGS(score, previous_persist)
+    STRINGS(
+        score,
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
+    )
     CB3(score)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
@@ -217,10 +234,23 @@ def main():
     percussion(cache)
     strings(cache)
     cb3(cache)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 if __name__ == "__main__":
-    main()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_final_measure_number = previous_metadata.get("final_measure_number")
+    assert previous_final_measure_number == 23
+    previous_persist = baca.previous_persist(__file__)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    previous_voice_name_to_parameter_to_state = previous_persist[
+        "voice_name_to_parameter_to_state"
+    ]
+    score, accumulator, voice_name_to_parameter_to_state = main(
+        previous_final_measure_number,
+        previous_persistent_indicators,
+        previous_voice_name_to_parameter_to_state,
+    )
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
