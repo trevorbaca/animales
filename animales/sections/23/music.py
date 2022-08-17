@@ -7,7 +7,7 @@ from animales import library
 ########################################### 23 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
+previous_metadata = baca.previous_metadata(__file__)
 start = 136
 
 time_signatures = library.time_signatures()[start : start + 3]
@@ -156,12 +156,12 @@ def perc2(m):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     BRASS(score)
     PERC2(accumulator.voice("perc2"))
     library.make_battuti_material(
         score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
-    previous_persist = baca.previous_persist(__file__)
     abbreviations = ["perc2"]
     names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)

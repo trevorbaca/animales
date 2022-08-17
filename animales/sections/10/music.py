@@ -7,9 +7,8 @@ from animales import library
 ########################################### 10 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-previous_persist = baca.previous_persist(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 55
 
 score = library.make_empty_score(
@@ -59,7 +58,6 @@ score = library.make_empty_score(
     ],
 )
 
-voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
@@ -106,7 +104,7 @@ def BCL(voice):
     voice.extend(music)
 
 
-def BRASS(score):
+def BRASS(score, previous_persist, voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
@@ -136,7 +134,7 @@ def BRASS(score):
         )
 
 
-def PF_HP_PERC3_CB1(score):
+def PF_HP_PERC3_CB1(score, previous_persist, voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = accumulator.voice_abbreviations[abbreviation]
@@ -393,15 +391,15 @@ def cb1(m):
         library.assign_part_function(o, "Contrabass", 1)
 
 
-def main():
+def main(voice_name_to_parameter_to_state):
+    previous_persist = baca.previous_persist(__file__)
     CL(accumulator.voice("cl"))
     BCL(accumulator.voice("bcl"))
-    BRASS(score)
-    PF_HP_PERC3_CB1(score)
+    BRASS(score, previous_persist, voice_name_to_parameter_to_state)
+    PF_HP_PERC3_CB1(score, previous_persist, voice_name_to_parameter_to_state)
     PERC2(accumulator.voice("perc2"))
     STRINGS(score)
     CB3(accumulator.voice("cb3"))
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
@@ -419,7 +417,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    voice_name_to_parameter_to_state = {}
+    main(voice_name_to_parameter_to_state)
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

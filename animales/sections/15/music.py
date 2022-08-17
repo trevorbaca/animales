@@ -7,9 +7,8 @@ from animales import library
 ########################################### 15 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-previous_persist = baca.previous_persist(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 87
 
 time_signatures = library.time_signatures()[start : start + 6] + ((1, 4),)
@@ -138,7 +137,7 @@ def BCL(voice):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score):
+def PF_HP_PERC3_CB1(score, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = accumulator.voice_abbreviations[abbreviation]
@@ -456,16 +455,16 @@ def cb1(m):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     FL1(accumulator.voice("fl1"))
     FL3(accumulator.voice("fl1"))
     FL2(accumulator.voice("fl1"))
     FL4(accumulator.voice("fl1"))
     BCL(accumulator.voice("fl1"))
-    PF_HP_PERC3_CB1(score)
+    PF_HP_PERC3_CB1(score, previous_persist)
     PERCUSSION(score)
     STRINGS(score)
     CB3(accumulator.voice("cb3"))
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

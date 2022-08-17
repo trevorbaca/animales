@@ -7,8 +7,8 @@ from animales import library
 ########################################### 19 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 130
 
 time_signatures = library.time_signatures()[start : start + 3]
@@ -178,6 +178,7 @@ def strings(cache):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     BRASS(score)
     abbreviations = [
         "hn1",
@@ -200,7 +201,6 @@ def main():
         "perc4",
     ]
     names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
     library.make_battuti_material(
         score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True

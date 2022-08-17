@@ -7,8 +7,8 @@ from animales import library
 ########################################### 16 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 94
 
 score = library.make_empty_score(
@@ -400,6 +400,7 @@ def strings(cache, voice_abbreviation_to_members):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     REEDS(score)
     voice_abbreviation_to_members = {
         "1vn1": (1, 4),
@@ -419,7 +420,6 @@ def main():
         "cb3": (1, 6),
     }
     STRINGS(score, voice_abbreviation_to_members)
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

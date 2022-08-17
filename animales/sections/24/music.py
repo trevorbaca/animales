@@ -7,7 +7,7 @@ from animales import library
 ########################################### 24 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
+previous_metadata = baca.previous_metadata(__file__)
 start = 133
 
 time_signatures = library.time_signatures()[start : start + 3]
