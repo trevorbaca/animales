@@ -342,7 +342,7 @@ def main():
     library.attach_grand_pause_fermatas(accumulator, score, measure=3)
     library.attach_grand_pause_fermatas(accumulator, score, measure=8)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(),
         accumulator.manifests(),
         previous_persistent_indicators,

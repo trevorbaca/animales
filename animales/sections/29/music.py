@@ -134,7 +134,7 @@ def main():
     STRINGS(score)
     names = [accumulator.voice_abbreviations[_] for _ in ["perc1"]]
     previous_persistent_indicators = previous_persist["persistent_indicators"]
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(names),
         accumulator.manifests(),
         previous_persistent_indicators,

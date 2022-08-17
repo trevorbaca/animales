@@ -126,7 +126,7 @@ def main(
         previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
     )
-    baca.reapply_new(
+    baca.reapply(
         accumulator.voices(),
         accumulator.manifests(),
         previous_persistent_indicators,
