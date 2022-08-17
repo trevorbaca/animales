@@ -7,8 +7,8 @@ from animales import library
 ########################################### 22 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 139
 
 time_signatures = library.time_signatures()[start : start + 3]

@@ -7,7 +7,7 @@ from animales import library
 ########################################### 25 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
+previous_metadata = baca.previous_metadata(__file__)
 start = 130
 
 time_signatures = library.time_signatures()[start : start + 3]
@@ -197,10 +197,10 @@ def percussion(cache):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     BRASS(score)
     STRINGS(score)
     PERCUSSION(score)
-    previous_persist = baca.previous_persist(__file__)
     names = [accumulator.voice_abbreviations[_] for _ in ["perc2", "perc3", "perc4"]]
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
     cache = baca.interpret.cache_leaves(

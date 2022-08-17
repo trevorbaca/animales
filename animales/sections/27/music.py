@@ -7,7 +7,7 @@ from animales import library
 ########################################### 27 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
+previous_metadata = baca.previous_metadata(__file__)
 start = 136
 
 time_signatures = library.time_signatures()[start : start + 3]
@@ -169,10 +169,10 @@ def cb3(m):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     PERCUSSION(score)
     STRINGS(score)
     CB3(score)
-    previous_persist = baca.previous_persist(__file__)
     names = [
         accumulator.voice_abbreviations[_]
         for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]

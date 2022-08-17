@@ -7,7 +7,7 @@ from animales import library
 ########################################### 30 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
+previous_metadata = baca.previous_metadata(__file__)
 start = 142
 
 time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
@@ -135,9 +135,9 @@ def pf_perc4(cache):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     PF(accumulator.voice("pf"))
     PERC4(accumulator.voice("perc4"))
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

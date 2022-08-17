@@ -7,9 +7,8 @@ from animales import library
 ########################################### 05 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-previous_persist = baca.previous_persist(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 23
 
 score = library.make_empty_score(
@@ -88,7 +87,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, previous_persist):
     voice = score[accumulator.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
     voice.extend(music)
@@ -203,11 +202,11 @@ def cb3(cache):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     WINDS(score)
     PERCUSSION(score)
-    STRINGS(score)
+    STRINGS(score, previous_persist)
     CB3(score)
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

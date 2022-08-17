@@ -7,9 +7,8 @@ from animales import library
 ########################################### 17 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-previous_persist = baca.previous_persist(__file__)
-assert metadata.get("final_measure_number") == 108
+previous_metadata = baca.previous_metadata(__file__)
+assert previous_metadata.get("final_measure_number") == 108
 start = 94
 
 score = library.make_empty_score(
@@ -103,7 +102,7 @@ def REEDS(score):
         voice.extend(music)
 
 
-def BRASS(score):
+def BRASS(score, previous_persist):
     parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
@@ -493,10 +492,10 @@ def strings(cache):
 
 
 def main():
-    REEDS(score)
-    BRASS(score)
-    STRINGS(score)
     previous_persist = baca.previous_persist(__file__)
+    REEDS(score)
+    BRASS(score, previous_persist)
+    STRINGS(score)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,

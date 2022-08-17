@@ -7,8 +7,8 @@ from animales import library
 ########################################### 06 ##########################################
 #########################################################################################
 
-metadata = baca.previous_metadata(__file__)
-start = metadata.get("final_measure_number")
+previous_metadata = baca.previous_metadata(__file__)
+start = previous_metadata.get("final_measure_number")
 assert start == 29
 
 score = library.make_empty_score(
@@ -226,11 +226,11 @@ def strings(cache, absent_left_broken):
 
 
 def main():
+    previous_persist = baca.previous_persist(__file__)
     WINDS(score)
     PERCUSSION(score)
     absent_left_broken = ["1vn3", "2vn3", "va3"]
     STRINGS(score, absent_left_broken)
-    previous_persist = baca.previous_persist(__file__)
     baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
     cache = baca.interpret.cache_leaves(
         score,
