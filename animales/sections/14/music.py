@@ -530,11 +530,15 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    persist["voice_metadata"] = {}
-    for voice_name, parameter_to_state in persist["voice_metadata"].items():
+    persist["voice_name_to_parameter_to_state"] = {}
+    for voice_name, parameter_to_state in persist[
+        "voice_name_to_parameter_to_state"
+    ].items():
         parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
     for voice_name, parameter_to_state in voice_name_to_parameter_to_state.items():
-        persist["voice_metadata"].setdefault(voice_name, parameter_to_state)
+        persist["voice_name_to_parameter_to_state"].setdefault(
+            voice_name, parameter_to_state
+        )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

@@ -29,7 +29,7 @@ score = library.make_empty_score(
     ],
 )
 
-voice_metadata = {}
+voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments()
 
@@ -73,7 +73,9 @@ def PERCUSSION(score):
 
 
 def STRINGS(score, string_abbreviations):
-    library.make_trill_rhythm(score, accumulator.get(), voice_metadata)
+    library.make_trill_rhythm(
+        score, accumulator.get(), voice_name_to_parameter_to_state
+    )
     for name in string_abbreviations:
         voice = accumulator.voice(name)
         baca.append_anchor_note_function(voice)
@@ -233,7 +235,7 @@ if __name__ == "__main__":
         part_manifest=library.part_manifest(),
         transpose_score=True,
     )
-    persist["voice_metadata"] = voice_metadata
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

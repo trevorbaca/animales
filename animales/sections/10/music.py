@@ -231,7 +231,7 @@ def horns(cache):
         library.assign_part("Horn", 1),
     )
     #    with baca.scope(cache["hn1"].leaves()) as o:
-    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, name="seconds")
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_name_to_parameter_to_state, name="seconds")
     #        wrappers = baca.voice_one_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -246,7 +246,7 @@ def horns(cache):
         library.assign_part("Horn", 3),
     )
     #    with baca.scope(cache["hn3"].leaves()) as o:
-    #        baca.pitches_function(o, "Ab3 Bb3", metadata=voice_metadata, name="seconds")
+    #        baca.pitches_function(o, "Ab3 Bb3", metadata=voice_name_to_parameter_to_state, name="seconds")
     #        wrappers = baca.voice_two_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        crescendi_function(o)
@@ -260,7 +260,7 @@ def horns(cache):
         library.assign_part("Horn", 2),
     )
     #    with baca.scope(cache["hn2"].leaves()) as o:
-    #        baca.pitches_function(o, "A3 B3", metadata=voice_metadata, name="seconds")
+    #        baca.pitches_function(o, "A3 B3", metadata=voice_name_to_parameter_to_state, name="seconds")
     #        wrappers = baca.voice_one_function(o.leaf(0))
     #        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     #        wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -432,11 +432,15 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    assert "voice_metadata" in persist, repr(persist)
-    for voice_name, parameter_to_state in persist["voice_metadata"].items():
+    assert "voice_name_to_parameter_to_state" in persist, repr(persist)
+    for voice_name, parameter_to_state in persist[
+        "voice_name_to_parameter_to_state"
+    ].items():
         parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
     for voice_name, parameter_to_state in voice_name_to_parameter_to_state.items():
-        persist["voice_metadata"].setdefault(voice_name, parameter_to_state)
+        persist["voice_name_to_parameter_to_state"].setdefault(
+            voice_name, parameter_to_state
+        )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

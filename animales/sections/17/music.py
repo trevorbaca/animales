@@ -524,7 +524,9 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    for voice_name, parameter_to_state in persist["voice_metadata"].items():
+    for voice_name, parameter_to_state in persist[
+        "voice_name_to_parameter_to_state"
+    ].items():
         parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
     lilypond_file = baca.lilypond.file(
         score,

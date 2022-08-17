@@ -1498,7 +1498,7 @@
             )
         ],
     },
-    "voice_metadata": {
+    "voice_name_to_parameter_to_state": {
         "Horns.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 8},
             "RHYTHM": {

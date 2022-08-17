@@ -40,7 +40,7 @@ score = library.make_empty_score(
     ],
 )
 
-voice_metadata = {}
+voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
@@ -93,7 +93,7 @@ def STRINGS(score):
     music = library.make_glissando_rhythm(accumulator.get())
     voice.extend(music)
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_metadata, previous_persist
+        score, accumulator.get(), voice_name_to_parameter_to_state, previous_persist
     )
     for abbreviation in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
         voice = accumulator.voice(abbreviation)
@@ -233,7 +233,7 @@ if __name__ == "__main__":
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    persist["voice_metadata"] = voice_metadata
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,

@@ -634,7 +634,7 @@ def make_brass_manifest_rhythm(
     )
     music = rhythm_maker(time_signatures)
     previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_metadata", {}
+        "voice_name_to_parameter_to_state", {}
     )
     previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
         voice_name, {}
@@ -1022,7 +1022,7 @@ def make_harp_exchange_rhythm(
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_metadata", {}
+        "voice_name_to_parameter_to_state", {}
     )
     previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
         voice_name, {}
@@ -1135,7 +1135,7 @@ def make_sforzando_exchange_rhythm(
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_metadata", {}
+        "voice_name_to_parameter_to_state", {}
     )
     previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
         voice_name, {}
