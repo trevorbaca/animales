@@ -211,7 +211,6 @@ def main(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    # previous_persist = baca.previous_persist(__file__)
     WINDS(score)
     PERCUSSION(score)
     STRINGS(

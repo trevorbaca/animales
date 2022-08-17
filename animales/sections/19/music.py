@@ -201,7 +201,12 @@ def main():
         "perc4",
     ]
     names = [accumulator.voice_abbreviations[_] for _ in abbreviations]
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    baca.reapply_new(
+        accumulator.voices(names),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     library.make_battuti_material(
         score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )

@@ -382,7 +382,12 @@ def main():
     HP_PF_PERC3_CB1(score, previous_persist)
     PERC2(accumulator.voice("perc2"))
     STRINGS(score)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
