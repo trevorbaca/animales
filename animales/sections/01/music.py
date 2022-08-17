@@ -6,61 +6,58 @@ from animales import library
 ########################################### 01 ##########################################
 #########################################################################################
 
-score = library.make_empty_score(
-    percussion=[
-        (1, ["perc1"]),
-        (2, ["perc2"]),
-        (4, ["perc4"]),
-    ],
-    first_violins=[
-        (1, ["1vn1"]),
-        (2, ["1vn3"]),
-    ],
-    second_violins=[
-        (1, ["2vn1"]),
-        (2, ["2vn3"]),
-    ],
-    violas=[
-        (1, ["va1"]),
-        (2, ["va3"]),
-    ],
-    cellos=[
-        (1, ["vc1"]),
-    ],
-)
 
-voice_name_to_parameter_to_state = {}
-voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments()
-
-accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
-    time_signatures=library.time_signatures()[:6],
-    voice_abbreviations=library.voice_abbreviations(),
-    voice_names=voice_names,
-)
-
-baca.interpret.set_up_score(
-    score,
-    accumulator,
-    accumulator.manifests(),
-    accumulator.time_signatures,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-    attach_nonfirst_empty_start_bar=True,
-)
-
-skips = score["Skips"]
-manifests = accumulator.manifests()
-
-baca.metronome_mark_function(
-    skips[1 - 1], accumulator.metronome_marks["114"], manifests
-)
+def make_empty_score():
+    score = library.make_empty_score(
+        percussion=[
+            (1, ["perc1"]),
+            (2, ["perc2"]),
+            (4, ["perc4"]),
+        ],
+        first_violins=[
+            (1, ["1vn1"]),
+            (2, ["1vn3"]),
+        ],
+        second_violins=[
+            (1, ["2vn1"]),
+            (2, ["2vn3"]),
+        ],
+        violas=[
+            (1, ["va1"]),
+            (2, ["va3"]),
+        ],
+        cellos=[
+            (1, ["vc1"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        instruments=library.instruments(),
+        short_instrument_names=library.short_instrument_names(),
+        metronome_marks=library.metronome_marks(),
+        time_signatures=library.time_signatures()[:6],
+        voice_abbreviations=library.voice_abbreviations(),
+        voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator,
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        attach_nonfirst_empty_start_bar=True,
+    )
+    return score, accumulator
 
 
-def PERCUSSION(score):
+def SKIPS(skips, accumulator):
+    baca.metronome_mark_function(
+        skips[1 - 1], accumulator.metronome_marks["114"], accumulator.manifests()
+    )
+
+
+def PERCUSSION(score, accumulator):
     voice = score["Percussion.1.Music"]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
@@ -72,16 +69,16 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score, string_abbreviations):
+def STRINGS(score, accumulator, voice_name_to_parameter_to_state, names):
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_name_to_parameter_to_state
+        score, accumulator.get(), {}, voice_name_to_parameter_to_state
     )
-    for name in string_abbreviations:
+    for name in names:
         voice = accumulator.voice(name)
         baca.append_anchor_note_function(voice)
 
 
-def percussion(cache):
+def percussion(cache, accumulator):
     m = cache["perc1"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
@@ -115,7 +112,7 @@ def percussion(cache):
         library.assign_part_function(o, "Percussion", 4)
 
 
-def strings(cache, string_abbreviations):
+def strings(cache, accumulator, names):
     with baca.scope(cache["1vn1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
             baca.instrument_function(u, "Violin", accumulator.manifests())
@@ -177,7 +174,7 @@ def strings(cache, string_abbreviations):
     with baca.scope(cache["1vn1"][1]) as o:
         # first accents ...
         baca.accent_function(o.phead(0))
-    for name in string_abbreviations:
+    for name in names:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             baca.accent_function(o.pheads()[1:])
@@ -209,20 +206,24 @@ def strings(cache, string_abbreviations):
 
 
 def main():
-    string_abbreviations = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    PERCUSSION(score)
-    STRINGS(score, string_abbreviations)
+    score, accumulator = make_empty_score()
+    SKIPS(score["Skips"], accumulator)
+    PERCUSSION(score, accumulator)
+    voice_name_to_parameter_to_state = {}
+    names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    STRINGS(score, accumulator, voice_name_to_parameter_to_state, names)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
         accumulator.voice_abbreviations,
     )
-    percussion(cache)
-    strings(cache, string_abbreviations)
+    percussion(cache, accumulator)
+    strings(cache, accumulator, names)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 if __name__ == "__main__":
-    main()
+    score, accumulator, voice_name_to_parameter_to_state = main()
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),

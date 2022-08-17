@@ -7,64 +7,68 @@ from animales import library
 ########################################### 03 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = previous_metadata.get("final_measure_number")
-assert start == 12
 
-score = library.make_empty_score(
-    first_violins=[
-        (1, ["1vn1"]),
-        (2, ["1vn3"]),
-    ],
-    second_violins=[
-        (1, ["2vn1"]),
-        (2, ["2vn3"]),
-    ],
-    violas=[
-        (1, ["va1"]),
-        (2, ["va3"]),
-    ],
-    cellos=[
-        (1, ["vc1"]),
-    ],
-)
+def make_empty_score(previous_final_measure_number):
+    score = library.make_empty_score(
+        first_violins=[
+            (1, ["1vn1"]),
+            (2, ["1vn3"]),
+        ],
+        second_violins=[
+            (1, ["2vn1"]),
+            (2, ["2vn3"]),
+        ],
+        violas=[
+            (1, ["va1"]),
+            (2, ["va3"]),
+        ],
+        cellos=[
+            (1, ["vc1"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    pfmn = previous_final_measure_number
+    accumulator = baca.CommandAccumulator(
+        instruments=library.instruments(),
+        short_instrument_names=library.short_instrument_names(),
+        metronome_marks=library.metronome_marks(),
+        time_signatures=library.time_signatures()[pfmn : pfmn + 5],
+        voice_abbreviations=library.voice_abbreviations(),
+        voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator,
+        accumulator.manifests(),
+        accumulator.time_signatures,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        attach_nonfirst_empty_start_bar=True,
+    )
+    return score, accumulator
 
-voice_name_to_parameter_to_state = {}
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
-    time_signatures=library.time_signatures()[start : start + 5],
-    voice_abbreviations=library.voice_abbreviations(),
-    voice_names=voice_names,
-)
+def SKIPS(skips):
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "B",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
+    )
 
-baca.interpret.set_up_score(
+
+def STRINGS(
     score,
     accumulator,
-    accumulator.manifests(),
-    accumulator.time_signatures,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-    attach_nonfirst_empty_start_bar=True,
-)
-
-skips = score["Skips"]
-
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "B",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
-)
-
-
-def STRINGS(score, previous_persist):
+    previous_voice_name_to_parameter_to_state,
+    voice_name_to_parameter_to_state,
+):
     library.make_trill_rhythm(
-        score, accumulator.get(), voice_name_to_parameter_to_state, previous_persist
+        score,
+        accumulator.get(),
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
     )
-    music_voice_names = library.get_music_voice_names(voice_names)
+    music_voice_names = library.get_music_voice_names(accumulator.voice_names)
     for voice_name in music_voice_names:
         voice = score[voice_name]
         baca.append_anchor_note_function(voice)
@@ -107,20 +111,48 @@ def strings(cache):
     library.assign_trill_parts_function(cache)
 
 
-def main():
-    previous_persist = baca.previous_persist(__file__)
-    STRINGS(score, previous_persist)
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, voice_names)
+def main(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+    previous_voice_name_to_parameter_to_state,
+):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score["Skips"])
+    voice_name_to_parameter_to_state = {}
+    STRINGS(
+        score,
+        accumulator,
+        previous_voice_name_to_parameter_to_state,
+        voice_name_to_parameter_to_state,
+    )
+    baca.reapply_new(
+        accumulator.voices(),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
         accumulator.voice_abbreviations,
     )
     strings(cache)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 if __name__ == "__main__":
-    main()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_final_measure_number = previous_metadata["final_measure_number"]
+    assert previous_final_measure_number == 12
+    previous_persist = baca.previous_persist(__file__)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    previous_voice_name_to_parameter_to_state = previous_persist[
+        "voice_name_to_parameter_to_state"
+    ]
+    score, accumulator, voice_name_to_parameter_to_state = main(
+        previous_final_measure_number,
+        previous_persistent_indicators,
+        previous_voice_name_to_parameter_to_state,
+    )
     metadata, persist, score, timing = baca.build.section(
         score,
         accumulator.manifests(),
