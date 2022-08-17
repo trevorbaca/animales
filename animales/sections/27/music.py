@@ -177,7 +177,12 @@ def main():
         accumulator.voice_abbreviations[_]
         for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]
     ]
-    baca.reapply(accumulator, accumulator.manifests(), previous_persist, names)
+    previous_persistent_indicators = previous_persist["persistent_indicators"]
+    baca.reapply_new(
+        accumulator.voices(names),
+        accumulator.manifests(),
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
