@@ -47,7 +47,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
-    voice_abbreviations=library.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -250,7 +250,7 @@ if __name__ == "__main__":
         previous_persistent_indicators,
         previous_voice_name_to_parameter_to_state,
     )
-    metadata, persist, score, timing = baca.build.section(
+    metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,

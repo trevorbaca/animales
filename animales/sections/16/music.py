@@ -50,7 +50,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 14],
-    voice_abbreviations=library.voice_abbreviations(),
+    voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -234,7 +234,7 @@ def strings(cache, voice_abbreviation_to_members):
         baca.dynamic("f", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("FirstViolin", 18),
     )
-    voice_abbreviation_to_voice_name = library.voice_abbreviations()
+    voice_abbreviation_to_voice_name = library.voice_abbreviations
     for voice_abbreviation, members in voice_abbreviation_to_members.items():
         voice_name = voice_abbreviation_to_voice_name[voice_abbreviation]
         part_name = voice_name.split(".")[0].removesuffix("s").removesuffix("e")
@@ -439,7 +439,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    metadata, persist, score, timing = baca.build.section(
+    metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
