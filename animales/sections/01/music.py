@@ -52,9 +52,7 @@ def make_empty_score():
 
 
 def SKIPS(skips, accumulator):
-    baca.metronome_mark_function(
-        skips[1 - 1], accumulator.metronome_marks["114"], accumulator.manifests()
-    )
+    baca.metronome_mark_function(skips[1 - 1], "114", accumulator.manifests())
 
 
 def PERCUSSION(score, accumulator):
