@@ -163,7 +163,7 @@ def allows_instrument(staff_name, instrument):
     ..  container:: example
 
         >>> import animales
-        >>> instruments = animales.library.instruments()
+        >>> instruments = animales.library.instruments
         >>> animales.library.allows_instrument(
         ...     "FirstViolins.Staff.1",
         ...     instruments["Violin"],
@@ -437,31 +437,6 @@ def instrument(key):
     _instruments = instruments()
     return baca.instrument(
         _instruments[key], selector=lambda _: abjad.select.leaf(_, 0)
-    )
-
-
-def instruments():
-    return dict(
-        [
-            ("BassClarinet", abjad.BassClarinet()),
-            ("Bassoon", abjad.Bassoon()),
-            ("Cello", abjad.Cello()),
-            ("Clarinet", abjad.ClarinetInBFlat()),
-            ("Contrabass", abjad.Contrabass(pitch_range=abjad.PitchRange("[E1, D6]"))),
-            ("EnglishHorn", abjad.EnglishHorn()),
-            ("Flute", abjad.Flute()),
-            ("Harp", abjad.Harp()),
-            ("Horn", abjad.FrenchHorn()),
-            ("Oboe", abjad.Oboe()),
-            ("Percussion", abjad.Percussion()),
-            ("Piano", abjad.Piano()),
-            ("Trombone", abjad.TenorTrombone()),
-            ("Trumpet", abjad.Trumpet()),
-            ("Tuba", abjad.Tuba()),
-            ("Vibraphone", abjad.Vibraphone()),
-            ("Viola", abjad.Viola()),
-            ("Violin", abjad.Violin()),
-        ]
     )
 
 
@@ -744,7 +719,7 @@ def make_brass_sforzando_material_function(
         )
         runtime = {
             "already_reapplied_contexts": {"Score"},
-            "manifests": accumulator.manifests(),
+            "manifests": library.manifests,
             "previous_persistent_indicators": previous_persistent_indicators,
         }
     for abbreviation, pitch in voice_to_pitch.items():
@@ -1189,8 +1164,7 @@ markups = types.SimpleNamespace(
 def short_instrument_name(
     key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
 ):
-    _short_instrument_names = short_instrument_names()
-    short_instrument_name = _short_instrument_names[key]
+    short_instrument_name = short_instrument_names[key]
     command = baca.short_instrument_name(
         short_instrument_name,
         alert=alert,
@@ -1200,116 +1174,6 @@ def short_instrument_name(
     command_ = baca.not_parts(command)
     command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
     return command_
-
-
-def short_instrument_names():
-    result = {
-        "B. cl.": _make_short_instrument_name("B. cl."),
-        "Bsn.": _make_short_instrument_name("Bsn."),
-        "Cb.": _make_short_instrument_name("Cb."),
-        "Cb. (2-6)": _make_short_instrument_name(["Cb.", "(2-6)"]),
-        "Cl.": _make_short_instrument_name("Cl."),
-        "Eng. hn.": _make_short_instrument_name("Eng. hn."),
-        "Fl.": _make_short_instrument_name("Fl."),
-        "Fl. (1+3)": _make_short_instrument_name(["Fl.", "(1+3)"]),
-        "Fl. (2+4)": _make_short_instrument_name(["Fl.", "(2+4)"]),
-        "Hn.": _make_short_instrument_name("Hn."),
-        "Hn. (1+3)": _make_short_instrument_name(["Hn.", "(1+3)"]),
-        "Hn. (2+4)": _make_short_instrument_name(["Hn.", "(2+4)"]),
-        "Hp.": _make_short_instrument_name("Hp."),
-        "Ob.": _make_short_instrument_name("Ob."),
-        "Perc.": _make_short_instrument_name("Perc."),
-        "Perc. 1 (tri.)": _make_short_instrument_name(["Perc. 1", "(tri.)"]),
-        "Perc. 2 (cym.)": _make_short_instrument_name(["Perc. 2", "(cym.)"]),
-        "Perc. 3 (vib.)": _make_short_instrument_name(["Perc. 3", "(vib.)"]),
-        "Perc. 3 (BD)": _make_short_instrument_name(["Perc. 3", "(BD)"]),
-        "Perc. 4 (tam.)": _make_short_instrument_name(["Perc. 4", "(tam.)"]),
-        "Perc. 4 (slate)": _make_short_instrument_name(["Perc. 4", "(slate)"]),
-        "Pf.": _make_short_instrument_name("Pf."),
-        "Tp.": _make_short_instrument_name("Tp."),
-        "Tp. (1+3)": _make_short_instrument_name(["Tp.", "(1+3)"]),
-        "Tp. (2+4)": _make_short_instrument_name(["Tp.", "(2+4)"]),
-        "Trb.": _make_short_instrument_name("Trb."),
-        "Trb. (1+3)": _make_short_instrument_name(["Trb.", "(1+3)"]),
-        "Trb. (2+4)": _make_short_instrument_name(["Trb.", "(2+4)"]),
-        "Tub.": _make_short_instrument_name("Tub."),
-        "Vc.": _make_short_instrument_name("Vc."),
-        "Vc. (1-8)": _make_short_instrument_name(["Vc.", "(1-8)"]),
-        "Vc. (1-8) (9-14)": _make_short_instrument_name(["Vc.", "(1-8)", "(9-14)"]),
-        "Vc. (9-14)": _make_short_instrument_name(["Vc.", "(9-14)"]),
-        "Vle.": _make_short_instrument_name("Vle."),
-        "Vle. (1-10)": _make_short_instrument_name(["Vle.", "(1-10)"]),
-        "Vle. (11-18)": _make_short_instrument_name(["Vle.", "(11-18)"]),
-        "Vle. (1-4) (5-8)": _make_short_instrument_name(["Vle.", "(1-4)", "(5-8)"]),
-        "Vle. (9-12) (13-18)": _make_short_instrument_name(
-            ["Vle.", "(9-12)", "(13-18)"]
-        ),
-        "Vni.": _make_short_instrument_name("Vni."),
-        "Vni. I": _make_short_instrument_name("Vni. I"),
-        "Vni. I (1-10)": _make_short_instrument_name(["Vni. I", "(1-10)"]),
-        "Vni. I (11-18)": _make_short_instrument_name(["Vni. I", "(11-18)"]),
-        "Vni. I (2-18)": _make_short_instrument_name(["Vni. I", "(2-18)"]),
-        "Vni. I (1-4) (5-8)": _make_short_instrument_name(["Vni. I", "(1-4)", "(5-8)"]),
-        "Vni. I (9-12) (13-17)": _make_short_instrument_name(
-            ["Vni. I", "(9-12)", "(13-17)"]
-        ),
-        "Vni. II": _make_short_instrument_name("Vni. II"),
-        "Vni. II (1-10)": _make_short_instrument_name(["Vni. II", "(1-10)"]),
-        "Vni. II (11-18)": _make_short_instrument_name(["Vni. II", "(11-18)"]),
-        "Vni. II (1-4) (5-8)": _make_short_instrument_name(
-            ["Vni. II", "(1-4)", "(5-8)"]
-        ),
-        "Vni. II (9-12) (13-18)": _make_short_instrument_name(
-            ["Vni. II", "(9-12)", "(13-18)"]
-        ),
-    }
-    for section, count in [
-        ("Fl.", 4),
-        ("Ob.", 3),
-        ("Cl.", 3),
-        ("Bsn.", 2),
-        ("Hn.", 4),
-        ("Tp.", 4),
-        ("Trb.", 4),
-        ("Perc.", 4),
-        ("Vni. I", 18),
-        ("Vni. II", 18),
-        ("Vle.", 18),
-        ("Vc.", 14),
-        ("Cb.", 6),
-    ]:
-        for member in range(1, count + 1):
-            key = f"{section} {member}"
-            value = _make_short_instrument_name([section, str(member)])
-            result[key] = value
-    for section, count in [
-        ("Vni. I", 18),
-        ("Vni. II", 18),
-        ("Vle.", 18),
-        ("Vc.", 14),
-        ("Cb.", 6),
-    ]:
-        for member in range(1, count + 1):
-            if member % 2 == 0:
-                continue
-            members = f"({member}-{member+1})"
-            key = f"{section} {members}"
-            value = _make_short_instrument_name([section, members])
-            result[key] = value
-    return result
-
-
-def metronome_marks():
-    return {
-        "48": abjad.MetronomeMark((1, 4), 48),
-        "60": abjad.MetronomeMark((1, 4), 60),
-        "76": abjad.MetronomeMark((1, 4), 76),
-        "84": abjad.MetronomeMark((1, 4), 84),
-        "96": abjad.MetronomeMark((1, 4), 96),
-        "114": abjad.MetronomeMark((1, 4), 114),
-        "120": abjad.MetronomeMark((1, 4), 120),
-        "132": abjad.MetronomeMark((1, 4), 132),
-    }
 
 
 def part_manifest():
@@ -1464,3 +1328,146 @@ def voice_abbreviations():
         "cb5": "Contrabasses.Voice.5",
         "cb6": "Contrabasses.Voice.6",
     }
+
+
+instruments = dict(
+    [
+        ("BassClarinet", abjad.BassClarinet()),
+        ("Bassoon", abjad.Bassoon()),
+        ("Cello", abjad.Cello()),
+        ("Clarinet", abjad.ClarinetInBFlat()),
+        ("Contrabass", abjad.Contrabass(pitch_range=abjad.PitchRange("[E1, D6]"))),
+        ("EnglishHorn", abjad.EnglishHorn()),
+        ("Flute", abjad.Flute()),
+        ("Harp", abjad.Harp()),
+        ("Horn", abjad.FrenchHorn()),
+        ("Oboe", abjad.Oboe()),
+        ("Percussion", abjad.Percussion()),
+        ("Piano", abjad.Piano()),
+        ("Trombone", abjad.TenorTrombone()),
+        ("Trumpet", abjad.Trumpet()),
+        ("Tuba", abjad.Tuba()),
+        ("Vibraphone", abjad.Vibraphone()),
+        ("Viola", abjad.Viola()),
+        ("Violin", abjad.Violin()),
+    ]
+)
+
+
+metronome_marks = {
+    "48": abjad.MetronomeMark((1, 4), 48),
+    "60": abjad.MetronomeMark((1, 4), 60),
+    "76": abjad.MetronomeMark((1, 4), 76),
+    "84": abjad.MetronomeMark((1, 4), 84),
+    "96": abjad.MetronomeMark((1, 4), 96),
+    "114": abjad.MetronomeMark((1, 4), 114),
+    "120": abjad.MetronomeMark((1, 4), 120),
+    "132": abjad.MetronomeMark((1, 4), 132),
+}
+
+
+def _make_short_instrument_names():
+    result = {
+        "B. cl.": _make_short_instrument_name("B. cl."),
+        "Bsn.": _make_short_instrument_name("Bsn."),
+        "Cb.": _make_short_instrument_name("Cb."),
+        "Cb. (2-6)": _make_short_instrument_name(["Cb.", "(2-6)"]),
+        "Cl.": _make_short_instrument_name("Cl."),
+        "Eng. hn.": _make_short_instrument_name("Eng. hn."),
+        "Fl.": _make_short_instrument_name("Fl."),
+        "Fl. (1+3)": _make_short_instrument_name(["Fl.", "(1+3)"]),
+        "Fl. (2+4)": _make_short_instrument_name(["Fl.", "(2+4)"]),
+        "Hn.": _make_short_instrument_name("Hn."),
+        "Hn. (1+3)": _make_short_instrument_name(["Hn.", "(1+3)"]),
+        "Hn. (2+4)": _make_short_instrument_name(["Hn.", "(2+4)"]),
+        "Hp.": _make_short_instrument_name("Hp."),
+        "Ob.": _make_short_instrument_name("Ob."),
+        "Perc.": _make_short_instrument_name("Perc."),
+        "Perc. 1 (tri.)": _make_short_instrument_name(["Perc. 1", "(tri.)"]),
+        "Perc. 2 (cym.)": _make_short_instrument_name(["Perc. 2", "(cym.)"]),
+        "Perc. 3 (vib.)": _make_short_instrument_name(["Perc. 3", "(vib.)"]),
+        "Perc. 3 (BD)": _make_short_instrument_name(["Perc. 3", "(BD)"]),
+        "Perc. 4 (tam.)": _make_short_instrument_name(["Perc. 4", "(tam.)"]),
+        "Perc. 4 (slate)": _make_short_instrument_name(["Perc. 4", "(slate)"]),
+        "Pf.": _make_short_instrument_name("Pf."),
+        "Tp.": _make_short_instrument_name("Tp."),
+        "Tp. (1+3)": _make_short_instrument_name(["Tp.", "(1+3)"]),
+        "Tp. (2+4)": _make_short_instrument_name(["Tp.", "(2+4)"]),
+        "Trb.": _make_short_instrument_name("Trb."),
+        "Trb. (1+3)": _make_short_instrument_name(["Trb.", "(1+3)"]),
+        "Trb. (2+4)": _make_short_instrument_name(["Trb.", "(2+4)"]),
+        "Tub.": _make_short_instrument_name("Tub."),
+        "Vc.": _make_short_instrument_name("Vc."),
+        "Vc. (1-8)": _make_short_instrument_name(["Vc.", "(1-8)"]),
+        "Vc. (1-8) (9-14)": _make_short_instrument_name(["Vc.", "(1-8)", "(9-14)"]),
+        "Vc. (9-14)": _make_short_instrument_name(["Vc.", "(9-14)"]),
+        "Vle.": _make_short_instrument_name("Vle."),
+        "Vle. (1-10)": _make_short_instrument_name(["Vle.", "(1-10)"]),
+        "Vle. (11-18)": _make_short_instrument_name(["Vle.", "(11-18)"]),
+        "Vle. (1-4) (5-8)": _make_short_instrument_name(["Vle.", "(1-4)", "(5-8)"]),
+        "Vle. (9-12) (13-18)": _make_short_instrument_name(
+            ["Vle.", "(9-12)", "(13-18)"]
+        ),
+        "Vni.": _make_short_instrument_name("Vni."),
+        "Vni. I": _make_short_instrument_name("Vni. I"),
+        "Vni. I (1-10)": _make_short_instrument_name(["Vni. I", "(1-10)"]),
+        "Vni. I (11-18)": _make_short_instrument_name(["Vni. I", "(11-18)"]),
+        "Vni. I (2-18)": _make_short_instrument_name(["Vni. I", "(2-18)"]),
+        "Vni. I (1-4) (5-8)": _make_short_instrument_name(["Vni. I", "(1-4)", "(5-8)"]),
+        "Vni. I (9-12) (13-17)": _make_short_instrument_name(
+            ["Vni. I", "(9-12)", "(13-17)"]
+        ),
+        "Vni. II": _make_short_instrument_name("Vni. II"),
+        "Vni. II (1-10)": _make_short_instrument_name(["Vni. II", "(1-10)"]),
+        "Vni. II (11-18)": _make_short_instrument_name(["Vni. II", "(11-18)"]),
+        "Vni. II (1-4) (5-8)": _make_short_instrument_name(
+            ["Vni. II", "(1-4)", "(5-8)"]
+        ),
+        "Vni. II (9-12) (13-18)": _make_short_instrument_name(
+            ["Vni. II", "(9-12)", "(13-18)"]
+        ),
+    }
+    for section, count in [
+        ("Fl.", 4),
+        ("Ob.", 3),
+        ("Cl.", 3),
+        ("Bsn.", 2),
+        ("Hn.", 4),
+        ("Tp.", 4),
+        ("Trb.", 4),
+        ("Perc.", 4),
+        ("Vni. I", 18),
+        ("Vni. II", 18),
+        ("Vle.", 18),
+        ("Vc.", 14),
+        ("Cb.", 6),
+    ]:
+        for member in range(1, count + 1):
+            key = f"{section} {member}"
+            value = _make_short_instrument_name([section, str(member)])
+            result[key] = value
+    for section, count in [
+        ("Vni. I", 18),
+        ("Vni. II", 18),
+        ("Vle.", 18),
+        ("Vc.", 14),
+        ("Cb.", 6),
+    ]:
+        for member in range(1, count + 1):
+            if member % 2 == 0:
+                continue
+            members = f"({member}-{member+1})"
+            key = f"{section} {members}"
+            value = _make_short_instrument_name([section, members])
+            result[key] = value
+    return result
+
+
+short_instrument_names = _make_short_instrument_names()
+
+
+manifests = {
+    "abjad.Instrument": instruments,
+    "abjad.MetronomeMark": metronome_marks,
+    "abjad.ShortInstrumentName": short_instrument_names,
+}

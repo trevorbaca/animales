@@ -32,9 +32,9 @@ def make_empty_score():
     )
     voice_names = baca.accumulator.get_voice_names(score)
     accumulator = baca.CommandAccumulator(
-        instruments=library.instruments(),
-        short_instrument_names=library.short_instrument_names(),
-        metronome_marks=library.metronome_marks(),
+        instruments=library.instruments,
+        short_instrument_names=library.short_instrument_names,
+        metronome_marks=library.metronome_marks,
         time_signatures=library.time_signatures()[:6],
         voice_abbreviations=library.voice_abbreviations(),
         voice_names=voice_names,
@@ -42,7 +42,7 @@ def make_empty_score():
     baca.interpret.set_up_score(
         score,
         accumulator,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         append_anchor_skip=True,
         always_make_global_rests=True,
@@ -52,7 +52,7 @@ def make_empty_score():
 
 
 def SKIPS(skips, accumulator):
-    baca.metronome_mark_function(skips[1 - 1], "114", accumulator.manifests())
+    baca.metronome_mark_function(skips[1 - 1], "114", library.manifests)
 
 
 def PERCUSSION(score, accumulator):
@@ -83,28 +83,28 @@ def percussion(cache, accumulator):
             baca.instrument_function(
                 u,
                 "Percussion",
-                accumulator.manifests(),
+                library.manifests,
             )
             baca.instrument_name_function(u, r"\animales-percussion-i-markup")
-            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
+            baca.short_instrument_name_function(u, "Perc.", library.manifests)
             baca.clef_function(u, "percussion")
             baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 1)
     m = cache["perc2"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Percussion", accumulator.manifests()),
+            baca.instrument_function(u, "Percussion", library.manifests),
             baca.instrument_name_function(u, r"\animales-percussion-ii-markup"),
-            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
+            baca.short_instrument_name_function(u, "Perc.", library.manifests)
             baca.clef_function(u, "percussion")
             baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 2)
     m = cache["perc4"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Percussion", accumulator.manifests())
+            baca.instrument_function(u, "Percussion", library.manifests)
             baca.instrument_name_function(u, r"\animales-percussion-iv-markup")
-            baca.short_instrument_name_function(u, "Perc.", accumulator.manifests())
+            baca.short_instrument_name_function(u, "Perc.", library.manifests)
             baca.clef_function(u, "percussion")
             baca.staff_lines_function(u, 1)
         library.assign_part_function(o, "Percussion", 4)
@@ -113,61 +113,49 @@ def percussion(cache, accumulator):
 def strings(cache, accumulator, names):
     with baca.scope(cache["1vn1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Violin", accumulator.manifests())
+            baca.instrument_function(u, "Violin", library.manifests)
             baca.instrument_name_function(u, r"\animales-violins-i-one-ten-markup")
-            baca.short_instrument_name_function(
-                u, "Vni. I (1-10)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vni. I (1-10)", library.manifests)
             baca.clef_function(u, "treble")
     with baca.scope(cache["1vn3"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Violin", accumulator.manifests()),
+            baca.instrument_function(u, "Violin", library.manifests),
             baca.instrument_name_function(
                 u, r"\animales-violins-i-eleven-eighteen-markup"
             ),
-            baca.short_instrument_name_function(
-                u, "Vni. I (11-18)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vni. I (11-18)", library.manifests)
             baca.clef_function(u, "treble")
     with baca.scope(cache["2vn1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Violin", accumulator.manifests())
+            baca.instrument_function(u, "Violin", library.manifests)
             baca.instrument_name_function(u, r"\animales-violins-ii-one-ten-markup")
-            baca.short_instrument_name_function(
-                u, "Vni. II (1-10)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vni. II (1-10)", library.manifests)
             baca.clef_function(u, "treble")
     with baca.scope(cache["2vn3"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Violin", accumulator.manifests()),
+            baca.instrument_function(u, "Violin", library.manifests),
             baca.instrument_name_function(
                 u, r"\animales-violins-ii-eleven-eighteen-markup"
             ),
-            baca.short_instrument_name_function(
-                u, "Vni. II (11-18)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vni. II (11-18)", library.manifests)
             baca.clef_function(u, "treble")
     with baca.scope(cache["va1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Viola", accumulator.manifests())
+            baca.instrument_function(u, "Viola", library.manifests)
             baca.instrument_name_function(u, r"\animales-violas-one-ten-markup")
-            baca.short_instrument_name_function(
-                u, "Vle. (1-10)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vle. (1-10)", library.manifests)
             baca.clef_function(u, "alto")
     with baca.scope(cache["va3"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Viola", accumulator.manifests())
+            baca.instrument_function(u, "Viola", library.manifests)
             baca.instrument_name_function(u, r"\animales-violas-eleven-eighteen-markup")
-            baca.short_instrument_name_function(
-                u, "Vle. (11-18)", accumulator.manifests()
-            )
+            baca.short_instrument_name_function(u, "Vle. (11-18)", library.manifests)
             baca.clef_function(u, "alto")
     with baca.scope(cache["vc1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
-            baca.instrument_function(u, "Cello", accumulator.manifests())
+            baca.instrument_function(u, "Cello", library.manifests)
             baca.instrument_name_function(u, r"\animales-cellos-markup")
-            baca.short_instrument_name_function(u, "Vc.", accumulator.manifests())
+            baca.short_instrument_name_function(u, "Vc.", library.manifests)
             baca.clef_function(u, "tenor")
     with baca.scope(cache["1vn1"][1]) as o:
         # first accents ...
@@ -224,7 +212,7 @@ if __name__ == "__main__":
     score, accumulator, voice_name_to_parameter_to_state = main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),

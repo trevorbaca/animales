@@ -56,12 +56,12 @@ score = library.make_empty_score(
 
 voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments()
+instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -70,7 +70,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -169,8 +169,8 @@ def CB3(score):
 def winds(cache):
     m = cache["cl"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Clarinet", accumulator.manifests())
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 3", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Clarinet", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 3", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         library.assign_part_function(o, "Clarinet", 3)
     with baca.scope(m.get(3, 6)) as o:
@@ -196,7 +196,7 @@ def percussion(cache):
         with baca.scope(m[3]) as o:
             baca.markup_function(o.pleaf(0), markup)
         with baca.scope(m.leaves()) as o:
-            baca.short_instrument_name_function(o.leaf(0), sin, accumulator.manifests())
+            baca.short_instrument_name_function(o.leaf(0), sin, library.manifests)
             library.assign_part_function(o, "Percussion", part_number)
 
 
@@ -213,8 +213,8 @@ def brass(cache):
     ):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.short_instrument_name_function(o.leaf(0), sin, accumulator.manifests())
-            baca.instrument_function(o.leaf(0), instrument, accumulator.manifests())
+            baca.short_instrument_name_function(o.leaf(0), sin, library.manifests)
+            baca.instrument_function(o.leaf(0), instrument, library.manifests)
             baca.clef_function(o.leaf(0), clef)
 
 
@@ -308,8 +308,8 @@ def cb3(cache):
         baca.pitch_function(o, "C2")
         baca.hairpin_function(o, "p <", right_broken=True)
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Contrabass", accumulator.manifests())
-        baca.short_instrument_name_function(o.leaf(0), "Cb.", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Contrabass", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Cb.", library.manifests)
         baca.clef_function(o.leaf(0), "bass")
         library.assign_part_function(o, "Contrabass", (1, 6))
 
@@ -332,7 +332,7 @@ def main(
     CB3(score)
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -364,7 +364,7 @@ if __name__ == "__main__":
     )
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),

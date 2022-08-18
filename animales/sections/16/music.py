@@ -43,12 +43,12 @@ score = library.make_empty_score(
 )
 
 voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments()
+instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 14],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -57,7 +57,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -423,7 +423,7 @@ def main():
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -441,7 +441,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
