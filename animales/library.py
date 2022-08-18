@@ -719,7 +719,7 @@ def make_brass_sforzando_material_function(
         )
         runtime = {
             "already_reapplied_contexts": {"Score"},
-            "manifests": library.manifests,
+            "manifests": manifests,
             "previous_persistent_indicators": previous_persistent_indicators,
         }
     for abbreviation, pitch in voice_to_pitch.items():
