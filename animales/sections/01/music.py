@@ -36,7 +36,7 @@ def make_empty_score():
         short_instrument_names=library.short_instrument_names,
         metronome_marks=library.metronome_marks,
         time_signatures=library.time_signatures()[:6],
-        voice_abbreviations=library.voice_abbreviations(),
+        voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
     )
     baca.interpret.set_up_score(
@@ -210,7 +210,7 @@ def main():
 
 if __name__ == "__main__":
     score, accumulator, voice_name_to_parameter_to_state = main()
-    metadata, persist, score, timing = baca.build.section(
+    metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
