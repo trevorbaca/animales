@@ -47,12 +47,12 @@ score = library.make_empty_score(
 
 voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments()
+instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments(),
-    short_instrument_names=library.short_instrument_names(),
-    metronome_marks=library.metronome_marks(),
+    instruments=library.instruments,
+    short_instrument_names=library.short_instrument_names,
+    metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 8],
     voice_abbreviations=library.voice_abbreviations(),
     voice_names=voice_names,
@@ -61,7 +61,7 @@ accumulator = baca.CommandAccumulator(
 baca.interpret.set_up_score(
     score,
     accumulator,
-    accumulator.manifests(),
+    library.manifests,
     accumulator.time_signatures,
     append_anchor_skip=True,
     always_make_global_rests=True,
@@ -69,7 +69,7 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = accumulator.manifests()
+manifests = library.manifests
 
 baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["76"], manifests)
 
@@ -140,7 +140,7 @@ def STRINGS(score):
 def cl(cache):
     m = cache["cl"]
     with baca.scope(m.get(1, 4)) as o:
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 1", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 1", library.manifests)
         baca.pitch_function(o, "D5")
         baca.edition_function(
             o.pleaf(0),
@@ -150,7 +150,7 @@ def cl(cache):
         baca.hairpin_function(o, "mp < mf")
         library.assign_part_function(o, "Clarinet", 1)
     with baca.scope(m.get(5, 8)) as o:
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 2", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 2", library.manifests)
         baca.pitch_function(o, "Db5")
         baca.edition_function(
             o.pleaf(0),
@@ -169,8 +169,8 @@ def cl(cache):
 def pf(cache):
     m = cache["pf"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Piano", accumulator.manifests())
-        baca.short_instrument_name_function(o.leaf(0), "Pf.", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Piano", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Pf.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.dynamic_function(o.phead(0), "mf")
         baca.laissez_vibrer_function(o.ptails())
@@ -185,8 +185,8 @@ def pf(cache):
 def hp(cache):
     m = cache["hp"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Harp", accumulator.manifests())
-        baca.short_instrument_name_function(o.leaf(0), "Hp.", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Harp", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Hp.", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.pitch_function(o, "D5")
         baca.stopped_function(o.pheads())
@@ -219,9 +219,9 @@ def perc3(cache):
     with baca.scope(cache["perc3"].leaves()) as o:
         # vibraphone
         baca.short_instrument_name_function(
-            o.leaf(0), "Perc. 3 (vib.)", accumulator.manifests()
+            o.leaf(0), "Perc. 3 (vib.)", library.manifests
         )
-        baca.instrument_function(o.leaf(0), "Vibraphone", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Vibraphone", library.manifests)
         baca.clef_function(o.leaf(0), "treble")
         baca.pitch_function(o, "D5")
         baca.laissez_vibrer_function(o.ptails())
@@ -251,9 +251,7 @@ def strings(cache):
         baca.pitch_function(o, "Bb2")
         library.assign_part_function(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.short_instrument_name_function(
-            o.pleaf(0), "Cb. (2-6)", accumulator.manifests()
-        )
+        baca.short_instrument_name_function(o.pleaf(0), "Cb. (2-6)", library.manifests)
         library.assign_part_function(o, "Contrabass", (2, 6))
         baca.untie_function(o.leaf(1))
         baca.pitch_function(o.pleaf(0), "A#1")
@@ -291,10 +289,10 @@ def strings(cache):
 def cb1(cache):
     m = cache["cb1"]
     with baca.scope(m.leaves()) as o:
-        baca.instrument_function(o.leaf(0), "Contrabass", accumulator.manifests())
-        baca.short_instrument_name_function(o.leaf(0), "Cb. 1", accumulator.manifests())
+        baca.instrument_function(o.leaf(0), "Contrabass", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Cb. 1", library.manifests)
         baca.clef_function(o.leaf(0), "bass")
-        baca.short_instrument_name_function(o.leaf(0), "Cb. 1", accumulator.manifests())
+        baca.short_instrument_name_function(o.leaf(0), "Cb. 1", library.manifests)
         baca.dynamic_function(o.phead(0), "p")
         library.assign_part_function(o, "Contrabass", 1)
     with baca.scope(m[1]) as o:
@@ -321,7 +319,7 @@ def main():
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
-        accumulator.manifests(),
+        library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.interpret.cache_leaves(
@@ -343,7 +341,7 @@ if __name__ == "__main__":
     main()
     metadata, persist, score, timing = baca.build.section(
         score,
-        accumulator.manifests(),
+        library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
