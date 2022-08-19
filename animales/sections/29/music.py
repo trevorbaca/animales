@@ -67,7 +67,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -95,7 +95,7 @@ for index, string in ((4 - 1, "fermata"),):
 
 
 def PERC1(voice):
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
@@ -132,7 +132,7 @@ def main():
     previous_persist = baca.previous_persist(__file__)
     PERC1(accumulator.voice("perc1"))
     STRINGS(score)
-    names = [accumulator.voice_abbreviations[_] for _ in ["perc1"]]
+    names = [library.voice_abbreviations[_] for _ in ["perc1"]]
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(names),
@@ -142,7 +142,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(accumulator, score, measure=4)
     percussion(cache)

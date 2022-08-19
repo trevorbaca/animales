@@ -73,7 +73,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -97,11 +97,11 @@ baca.rehearsal_mark_function(
 
 
 def PERCUSSION(score):
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
     for abbreviation in ["perc2", "perc3", "perc4"]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         pleaf = baca.select.pleaf(music, 0)
         baca.repeat_tie_function(pleaf)
@@ -119,7 +119,7 @@ def STRINGS(score):
 
 
 def CB3(score):
-    voice = score[accumulator.voice_abbreviations["cb3"]]
+    voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
@@ -174,7 +174,7 @@ def main():
     STRINGS(score)
     CB3(score)
     names = [
-        accumulator.voice_abbreviations[_]
+        library.voice_abbreviations[_]
         for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]
     ]
     previous_persistent_indicators = previous_persist["persistent_indicators"]
@@ -186,7 +186,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     percussion(cache)
     cb3(cache["cb3"])

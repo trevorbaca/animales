@@ -57,7 +57,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=time_signatures,
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -124,7 +124,7 @@ def BRASS(score):
         "tbn3",
         "tbn4",
     ):
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = library.make_downbeat_attack(accumulator.get(1))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(2, 12))
@@ -132,7 +132,7 @@ def BRASS(score):
 
 
 def STRINGS(score):
-    voice = score[accumulator.voice_abbreviations["1vn5"]]
+    voice = score[library.voice_abbreviations["1vn5"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
@@ -145,7 +145,7 @@ def STRINGS(score):
     voice.extend(music)
     for abbreviation, items in string_parts.items():
         assert isinstance(items, list), repr(items)
-        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice_name = library.voice_abbreviations[abbreviation]
         if voice_name != "FirstViolins.Voice.5":
             voice = score[voice_name]
             music = baca.make_mmrests(accumulator.get(1, 3))
@@ -198,7 +198,7 @@ def strings(cache):
     for abbreviation, items in string_parts.items():
         assert isinstance(items, list), repr(items)
         commands_ = []
-        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice_name = library.voice_abbreviations[abbreviation]
         part_name = voice_name.split(".")[0].removesuffix("s")
         numbers = items[0]
         commands_.append(library.assign_part(part_name, numbers))
@@ -350,7 +350,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     brass(cache)
     strings(cache)

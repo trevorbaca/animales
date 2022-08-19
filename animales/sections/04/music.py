@@ -63,7 +63,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -87,7 +87,7 @@ baca.rehearsal_mark_function(
 
 
 def WINDS(score):
-    voice = score[accumulator.voice_abbreviations["cl"]]
+    voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
@@ -95,13 +95,13 @@ def WINDS(score):
 
 
 def PERCUSSION(score):
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
     voice.extend(music)
     # PERC2
-    voice = score[accumulator.voice_abbreviations["perc2"]]
+    voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
@@ -125,12 +125,12 @@ def BRASS(score):
         "tub",
     ]
     for abbreviation in brass_voice_names:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get(1, 2))
         voice.extend(music)
     library.make_brass_sforzando_material_function(score, accumulator, 3)
     for abbreviation in brass_voice_names:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get(4, 6))
         voice.extend(music)
 
@@ -141,7 +141,7 @@ def STRINGS(
     previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
 ):
-    voice = score[accumulator.voice_abbreviations["1vn2"]]
+    voice = score[library.voice_abbreviations["1vn2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = library.make_glissando_rhythm(accumulator.get(3, 6))
@@ -153,13 +153,13 @@ def STRINGS(
         voice_name_to_parameter_to_state,
     )
     for abbreviation in names:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
         voice.extend(music)
 
 
 def CB3(score):
-    voice = score[accumulator.voice_abbreviations["cb3"]]
+    voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
@@ -338,7 +338,7 @@ def main(
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     winds(cache)
     percussion(cache)
