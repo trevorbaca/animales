@@ -29,9 +29,7 @@ def make_empty_score(previous_final_measure_number):
     voice_names = baca.accumulator.get_voice_names(score)
     pfmn = previous_final_measure_number
     accumulator = baca.CommandAccumulator(
-        instruments=library.instruments,
-        short_instrument_names=library.short_instrument_names,
-        metronome_marks=library.metronome_marks,
+        manifests=library.manifests,
         time_signatures=library.time_signatures()[pfmn : pfmn + 5],
         _voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
