@@ -29,10 +29,9 @@ def make_empty_score(previous_final_measure_number):
     voice_names = baca.accumulator.get_voice_names(score)
     pfmn = previous_final_measure_number
     accumulator = baca.CommandAccumulator(
-        manifests=library.manifests,
         time_signatures=library.time_signatures()[pfmn : pfmn + 6],
         _voice_abbreviations=library.voice_abbreviations,
-        voice_names=voice_names,
+        _voice_names=voice_names,
     )
     baca.interpret.set_up_score(
         score,
@@ -54,7 +53,6 @@ def SKIPS(skips):
     )
 
 
-# def STRINGS(score, accumulator, previous_persist, voice_name_to_parameter_to_state):
 def STRINGS(
     score,
     accumulator,
@@ -67,7 +65,8 @@ def STRINGS(
         previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
     )
-    music_voice_names = library.get_music_voice_names(accumulator.voice_names)
+    voice_names = baca.accumulator.get_voice_names(score)
+    music_voice_names = library.get_music_voice_names(voice_names)
     for voice_name in music_voice_names:
         voice = score[voice_name]
         baca.append_anchor_note_function(voice)
