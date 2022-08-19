@@ -33,7 +33,7 @@ def make_empty_score(previous_final_measure_number):
         short_instrument_names=library.short_instrument_names,
         metronome_marks=library.metronome_marks,
         time_signatures=library.time_signatures()[pfmn : pfmn + 6],
-        voice_abbreviations=library.voice_abbreviations,
+        _voice_abbreviations=library.voice_abbreviations,
         voice_names=voice_names,
     )
     baca.interpret.set_up_score(
@@ -134,7 +134,7 @@ def main(
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     strings(cache)
     return score, accumulator, voice_name_to_parameter_to_state

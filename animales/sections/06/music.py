@@ -46,7 +46,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -79,19 +79,19 @@ baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def WINDS(score):
-    voice = score[accumulator.voice_abbreviations["cl"]]
+    voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def PERCUSSION(score):
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
     voice.extend(music)
     # PERC2
-    voice = score[accumulator.voice_abbreviations["perc2"]]
+    voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie_function(pleaf)
@@ -100,11 +100,11 @@ def PERCUSSION(score):
 
 def STRINGS(score, absent_left_broken):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
         voice.extend(music)
     for abbreviation in absent_left_broken:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get())
         voice.extend(music)
 
@@ -236,7 +236,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     winds(cache)
     percussion(cache)

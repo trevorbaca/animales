@@ -47,7 +47,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -71,18 +71,18 @@ baca.rehearsal_mark_function(
 
 
 def WINDS(score):
-    voice = score[accumulator.voice_abbreviations["cl"]]
+    voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def PERCUSSION(score):
     # PERC1
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
     # PERC2
-    voice = score[accumulator.voice_abbreviations["perc2"]]
+    voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
@@ -90,7 +90,7 @@ def PERCUSSION(score):
 def STRINGS(
     score, previous_voice_name_to_parameter_to_state, voice_name_to_parameter_to_state
 ):
-    voice = score[accumulator.voice_abbreviations["1vn2"]]
+    voice = score[library.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
     voice.extend(music)
     library.make_trill_rhythm(
@@ -105,7 +105,7 @@ def STRINGS(
 
 
 def CB3(score):
-    voice = score[accumulator.voice_abbreviations["cb3"]]
+    voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
     baca.append_anchor_note_function(voice)
@@ -227,7 +227,7 @@ def main(
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     winds(cache)
     percussion(cache)

@@ -639,7 +639,7 @@ def make_brass_sforzando_material(
         "tub": "C2",
     }
     for abbreviation, pitch in voice_to_pitch.items():
-        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
+        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
@@ -701,14 +701,14 @@ def make_brass_sforzando_material_function(
         "tub": "C2",
     }
     for abbreviation, pitch in voice_to_pitch.items():
-        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
+        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        voice_abbreviations,
     )
     if reapply_persistent_indicators:
         assert previous_persist is not None
@@ -721,7 +721,7 @@ def make_brass_sforzando_material_function(
             "previous_persistent_indicators": previous_persistent_indicators,
         }
     for abbreviation, pitch in voice_to_pitch.items():
-        voice_name = accumulator.voice_abbreviations.get(abbreviation, abbreviation)
+        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         if reapply_persistent_indicators:
             voice = score[voice_name]
             baca.reapply_persistent_indicators_function(voice, runtime=runtime)

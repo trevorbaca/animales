@@ -62,7 +62,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 10],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -95,7 +95,7 @@ def swell(peak):
 
 def REEDS(score):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(6, 10))
@@ -118,7 +118,7 @@ def BRASS(score, previous_persist):
         ("tbn2", 10),
         ("tbn4", 12),
     ):
-        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice_name = library.voice_abbreviations[abbreviation]
         voice = score[voice_name]
         music, state = library.make_brass_manifest_rhythm(
             accumulator.get(),
@@ -151,7 +151,7 @@ def STRINGS(score):
         "vc2",
         "cb3",
     ]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         voice.extend(music)
 
@@ -505,7 +505,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     ob(cache["ob"])
     eh(cache["eh"])

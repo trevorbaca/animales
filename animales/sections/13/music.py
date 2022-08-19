@@ -55,7 +55,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 6],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -88,13 +88,13 @@ baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(voice):
-    voice = score[accumulator.voice_abbreviations["cl"]]
+    voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def BCL(voice):
-    voice = score[accumulator.voice_abbreviations["bcl"]]
+    voice = score[library.voice_abbreviations["bcl"]]
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
     music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
@@ -104,7 +104,7 @@ def BCL(voice):
 def PF_HP_PERC3_CB1(score, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
-        voice_name = accumulator.voice_abbreviations[abbreviation]
+        voice_name = library.voice_abbreviations[abbreviation]
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
             accumulator.get(),
@@ -119,17 +119,17 @@ def PF_HP_PERC3_CB1(score, previous_persist):
 
 
 def PERCUSSION(score):
-    voice = score[accumulator.voice_abbreviations["perc1"]]
+    voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
-    voice = score[accumulator.voice_abbreviations["perc2"]]
+    voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
 def STRINGS(score):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
         voice.extend(music)
 
@@ -305,7 +305,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     cl(cache["cl"])
     bcl(cache["bcl"])

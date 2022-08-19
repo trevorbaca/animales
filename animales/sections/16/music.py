@@ -50,7 +50,7 @@ accumulator = baca.CommandAccumulator(
     short_instrument_names=library.short_instrument_names,
     metronome_marks=library.metronome_marks,
     time_signatures=library.time_signatures()[start : start + 14],
-    voice_abbreviations=library.voice_abbreviations,
+    _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
 )
 
@@ -83,7 +83,7 @@ def swell(peak):
 
 def REEDS(score):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(6, 14))
@@ -91,11 +91,11 @@ def REEDS(score):
 
 
 def STRINGS(score, voice_abbreviation_to_members):
-    voice = score[accumulator.voice_abbreviations["1vn5"]]
+    voice = score[library.voice_abbreviations["1vn5"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
     for abbreviation in voice_abbreviation_to_members:
-        voice = score[accumulator.voice_abbreviations[abbreviation]]
+        voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(1, 10))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(11, 14))
@@ -429,7 +429,7 @@ def main():
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
-        accumulator.voice_abbreviations,
+        library.voice_abbreviations,
     )
     ob(cache["ob"])
     eh(cache["eh"])
