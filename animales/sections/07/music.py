@@ -50,9 +50,7 @@ voice_names = baca.accumulator.get_voice_names(score)
 instruments = library.instruments
 
 accumulator = baca.CommandAccumulator(
-    instruments=library.instruments,
-    short_instrument_names=library.short_instrument_names,
-    metronome_marks=library.metronome_marks,
+    manifests=library.manifests,
     time_signatures=library.time_signatures()[start : start + 8],
     _voice_abbreviations=library.voice_abbreviations,
     voice_names=voice_names,
@@ -71,7 +69,7 @@ baca.interpret.set_up_score(
 skips = score["Skips"]
 manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], accumulator.metronome_marks["76"], manifests)
+baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["76"], manifests)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
