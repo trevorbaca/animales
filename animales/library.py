@@ -189,31 +189,29 @@ def allows_instrument(staff_name, instrument):
         True
 
     """
-    _instruments = instruments()
-    dictionary = dict(
-        [
-            ("Flutes", [_instruments["Flute"]]),
-            ("Oboe", [_instruments["Oboe"]]),
-            ("EnglishHorn", [_instruments["EnglishHorn"]]),
-            ("Clarinets", [_instruments["Clarinet"]]),
-            ("BassClarinet", [_instruments["BassClarinet"]]),
-            ("Horns", [_instruments["Horn"]]),
-            ("Trumpets", [_instruments["Trumpet"]]),
-            ("Trombones", [_instruments["Trombone"]]),
-            ("Tuba", [_instruments["Tuba"]]),
-            ("Harp", [_instruments["Harp"]]),
-            ("Piano", [_instruments["Piano"]]),
-            ("Percussion.Staff.1", [_instruments["Percussion"]]),
-            ("Percussion.Staff.2", [_instruments["Percussion"]]),
-            ("Percussion.Staff.3", [_instruments["Vibraphone"]]),
-            ("Percussion.Staff.4", [_instruments["Percussion"]]),
-            ("FirstViolins", [_instruments["Violin"]]),
-            ("SecondViolins", [_instruments["Violin"]]),
-            ("Violas", [_instruments["Viola"]]),
-            ("Cellos", [_instruments["Cello"]]),
-            ("Contrabasses", [_instruments["Contrabass"]]),
-        ]
-    )
+    _instruments = instruments
+    dictionary = {
+        "Flutes": [_instruments["Flute"]],
+        "Oboe": [_instruments["Oboe"]],
+        "EnglishHorn": [_instruments["EnglishHorn"]],
+        "Clarinets": [_instruments["Clarinet"]],
+        "BassClarinet": [_instruments["BassClarinet"]],
+        "Horns": [_instruments["Horn"]],
+        "Trumpets": [_instruments["Trumpet"]],
+        "Trombones": [_instruments["Trombone"]],
+        "Tuba": [_instruments["Tuba"]],
+        "Harp": [_instruments["Harp"]],
+        "Piano": [_instruments["Piano"]],
+        "Percussion.Staff.1": [_instruments["Percussion"]],
+        "Percussion.Staff.2": [_instruments["Percussion"]],
+        "Percussion.Staff.3": [_instruments["Vibraphone"]],
+        "Percussion.Staff.4": [_instruments["Percussion"]],
+        "FirstViolins": [_instruments["Violin"]],
+        "SecondViolins": [_instruments["Violin"]],
+        "Violas": [_instruments["Viola"]],
+        "Cellos": [_instruments["Cello"]],
+        "Contrabasses": [_instruments["Contrabass"]],
+    }
     staff_name_words = abjad.string.delimit_words(staff_name)
     for key in dictionary:
         key_words = abjad.string.delimit_words(key)
