@@ -58,10 +58,9 @@ voice_name_to_parameter_to_state = {}
 voice_names = baca.accumulator.get_voice_names(score)
 
 accumulator = baca.CommandAccumulator(
-    manifests=library.manifests,
     time_signatures=library.time_signatures()[start : start + 10],
     _voice_abbreviations=library.voice_abbreviations,
-    voice_names=voice_names,
+    _voice_names=voice_names,
 )
 
 baca.interpret.set_up_score(
