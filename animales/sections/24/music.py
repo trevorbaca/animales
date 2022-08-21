@@ -103,7 +103,7 @@ baca.rehearsal_mark_function(
 )
 
 
-def BRASS(score):
+def BRASS(score, accumulator):
 
     library.make_brass_sforzando_material(
         score, accumulator, 1, reapply_persistent_indicators=True
@@ -129,7 +129,7 @@ def BRASS(score):
         voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     library.make_battuti_material(
         score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
@@ -140,8 +140,8 @@ def brass(cache):
 
 
 def main():
-    BRASS(score)
-    STRINGS(score)
+    BRASS(score, accumulator)
+    STRINGS(score, accumulator)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),

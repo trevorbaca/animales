@@ -114,7 +114,7 @@ baca.rehearsal_mark_function(
 )
 
 
-def BRASS(score):
+def BRASS(score, accumulator):
     for abbreviation in [
         "hn1",
         "hn2",
@@ -175,7 +175,7 @@ def strings(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    BRASS(score)
+    BRASS(score, accumulator)
     abbreviations = [
         "hn1",
         "hn2",

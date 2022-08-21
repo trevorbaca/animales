@@ -74,9 +74,10 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["76"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["76"], library.manifests
+)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -91,7 +92,7 @@ wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
 baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(voice):
+def CL(voice, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
@@ -99,7 +100,7 @@ def CL(voice):
     voice.extend(music)
 
 
-def BRASS(score):
+def BRASS(score, accumulator):
     for abbreviation in (
         "hn1",
         "hn2",
@@ -121,7 +122,7 @@ def BRASS(score):
         voice.extend(music)
 
 
-def HP_PF_PERC3_CB1(score, previous_persist):
+def HP_PF_PERC3_CB1(score, accumulator, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -138,13 +139,13 @@ def HP_PF_PERC3_CB1(score, previous_persist):
         )
 
 
-def PERC2(voice):
+def PERC2(voice, accumulator):
     voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
@@ -373,11 +374,11 @@ def cb1(m):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    CL(accumulator.voice("cl"))
-    BRASS(score)
-    HP_PF_PERC3_CB1(score, previous_persist)
-    PERC2(accumulator.voice("perc2"))
-    STRINGS(score)
+    CL(accumulator.voice("cl"), accumulator)
+    BRASS(score, accumulator)
+    HP_PF_PERC3_CB1(score, accumulator, previous_persist)
+    PERC2(accumulator.voice("perc2"), accumulator)
+    STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

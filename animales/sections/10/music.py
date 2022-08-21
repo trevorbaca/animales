@@ -84,13 +84,13 @@ baca.rehearsal_mark_function(
 )
 
 
-def CL(voice):
+def CL(voice, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
-def BCL(voice):
+def BCL(voice, accumulator):
     voice = score[library.voice_abbreviations["bcl"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
@@ -100,7 +100,7 @@ def BCL(voice):
     voice.extend(music)
 
 
-def BRASS(score, previous_persist, voice_name_to_parameter_to_state):
+def BRASS(score, accumulator, previous_persist, voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
@@ -130,7 +130,9 @@ def BRASS(score, previous_persist, voice_name_to_parameter_to_state):
         )
 
 
-def PF_HP_PERC3_CB1(score, previous_persist, voice_name_to_parameter_to_state):
+def PF_HP_PERC3_CB1(
+    score, accumulator, previous_persist, voice_name_to_parameter_to_state
+):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -147,13 +149,13 @@ def PF_HP_PERC3_CB1(score, previous_persist, voice_name_to_parameter_to_state):
         )
 
 
-def PERC2(voice):
+def PERC2(voice, accumulator):
     voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
@@ -161,7 +163,7 @@ def STRINGS(score):
         baca.append_anchor_note_function(voice)
 
 
-def CB3(voice):
+def CB3(voice, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -389,13 +391,15 @@ def cb1(m):
 
 def main(voice_name_to_parameter_to_state):
     previous_persist = baca.previous_persist(__file__)
-    CL(accumulator.voice("cl"))
-    BCL(accumulator.voice("bcl"))
-    BRASS(score, previous_persist, voice_name_to_parameter_to_state)
-    PF_HP_PERC3_CB1(score, previous_persist, voice_name_to_parameter_to_state)
-    PERC2(accumulator.voice("perc2"))
-    STRINGS(score)
-    CB3(accumulator.voice("cb3"))
+    CL(accumulator.voice("cl"), accumulator)
+    BCL(accumulator.voice("bcl"), accumulator)
+    BRASS(score, accumulator, previous_persist, voice_name_to_parameter_to_state)
+    PF_HP_PERC3_CB1(
+        score, accumulator, previous_persist, voice_name_to_parameter_to_state
+    )
+    PERC2(accumulator.voice("perc2"), accumulator)
+    STRINGS(score, accumulator)
+    CB3(accumulator.voice("cb3"), accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

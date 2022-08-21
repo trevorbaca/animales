@@ -65,9 +65,10 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["76"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["76"], library.manifests
+)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -82,7 +83,7 @@ wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
 baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(score):
+def CL(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
     voice.extend(music)
@@ -90,7 +91,7 @@ def CL(score):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, previous_persist):
+def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -114,7 +115,7 @@ def PF_HP_PERC3_CB1(score, previous_persist):
         )
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_mmrests(accumulator.get())
     voice.extend(music)
@@ -125,7 +126,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get())
@@ -308,10 +309,10 @@ def cb1(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    CL(score)
-    PF_HP_PERC3_CB1(score, previous_persist)
-    PERCUSSION(score)
-    STRINGS(score)
+    CL(score, accumulator)
+    PF_HP_PERC3_CB1(score, accumulator, previous_persist)
+    PERCUSSION(score, accumulator)
+    STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

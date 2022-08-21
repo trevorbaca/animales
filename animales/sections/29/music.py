@@ -90,7 +90,7 @@ for index, string in ((4 - 1, "fermata"),):
     baca.global_fermata_function(rests[index], string)
 
 
-def PERC1(voice):
+def PERC1(voice, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
@@ -100,7 +100,7 @@ def PERC1(voice):
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     library.make_battuti_material(
         score,
         accumulator,
@@ -126,8 +126,8 @@ def percussion(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    PERC1(accumulator.voice("perc1"))
-    STRINGS(score)
+    PERC1(accumulator.voice("perc1"), accumulator)
+    STRINGS(score, accumulator)
     names = [library.voice_abbreviations[_] for _ in ["perc1"]]
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(

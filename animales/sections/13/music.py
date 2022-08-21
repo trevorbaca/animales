@@ -66,9 +66,8 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], baca.Accelerando(), manifests)
+baca.metronome_mark_function(skips[1 - 1], baca.Accelerando(), library.manifests)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -83,13 +82,13 @@ wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
 baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(voice):
+def CL(voice, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
-def BCL(voice):
+def BCL(voice, accumulator):
     voice = score[library.voice_abbreviations["bcl"]]
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
@@ -97,7 +96,7 @@ def BCL(voice):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, previous_persist):
+def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -114,7 +113,7 @@ def PF_HP_PERC3_CB1(score, previous_persist):
         )
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -123,7 +122,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
@@ -287,11 +286,11 @@ def cb1(m):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    CL(accumulator.voice("cl"))
-    BCL(accumulator.voice("bcl"))
-    PF_HP_PERC3_CB1(score, previous_persist)
-    PERCUSSION(score)
-    STRINGS(score)
+    CL(accumulator.voice("cl"), accumulator)
+    BCL(accumulator.voice("bcl"), accumulator)
+    PF_HP_PERC3_CB1(score, accumulator, previous_persist)
+    PERCUSSION(score, accumulator)
+    STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

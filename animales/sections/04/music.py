@@ -82,7 +82,7 @@ baca.rehearsal_mark_function(
 )
 
 
-def WINDS(score):
+def WINDS(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
@@ -90,7 +90,7 @@ def WINDS(score):
     voice.extend(music)
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
@@ -104,7 +104,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def BRASS(score):
+def BRASS(score, accumulator):
     brass_voice_names = [
         "hn1",
         "hn2",
@@ -133,6 +133,7 @@ def BRASS(score):
 
 def STRINGS(
     score,
+    accumulator,
     names,
     previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
@@ -154,7 +155,7 @@ def STRINGS(
         voice.extend(music)
 
 
-def CB3(score):
+def CB3(score, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
@@ -315,17 +316,18 @@ def main(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    WINDS(score)
-    PERCUSSION(score)
-    BRASS(score)
+    WINDS(score, accumulator)
+    PERCUSSION(score, accumulator)
+    BRASS(score, accumulator)
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
     STRINGS(
         score,
+        accumulator,
         names,
         previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
     )
-    CB3(score)
+    CB3(score, accumulator)
     baca.reapply(
         accumulator.voices(),
         library.manifests,

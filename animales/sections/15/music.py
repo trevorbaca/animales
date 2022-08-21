@@ -85,7 +85,7 @@ wrappers = baca.mmrest_text_extra_offset_function(rests[7 - 1], (0, -4))
 baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
-def FL1(voice):
+def FL1(voice, accumulator):
     voice = score[library.voice_abbreviations["fl1"]]
     music = library.make_pennant_rhythm(
         accumulator.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
@@ -95,7 +95,7 @@ def FL1(voice):
     voice.extend(music)
 
 
-def FL3(voice):
+def FL3(voice, accumulator):
     voice = score[library.voice_abbreviations["fl3"]]
     music = library.make_pennant_rhythm(
         accumulator.get(1, 3), [0, 0, 0, -1, -1], [0, 1]
@@ -105,7 +105,7 @@ def FL3(voice):
     voice.extend(music)
 
 
-def FL2(voice):
+def FL2(voice, accumulator):
     voice = score[library.voice_abbreviations["fl2"]]
     music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, -1, -1, 0], [0])
     voice.extend(music)
@@ -113,7 +113,7 @@ def FL2(voice):
     voice.extend(music)
 
 
-def FL4(voice):
+def FL4(voice, accumulator):
     voice = score[library.voice_abbreviations["fl4"]]
     music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, 0, -1, -1])
     voice.extend(music)
@@ -121,7 +121,7 @@ def FL4(voice):
     voice.extend(music)
 
 
-def BCL(voice):
+def BCL(voice, accumulator):
     voice = score[library.voice_abbreviations["bcl"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1))
     voice.extend(music)
@@ -133,7 +133,7 @@ def BCL(voice):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, previous_persist):
+def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -152,7 +152,7 @@ def PF_HP_PERC3_CB1(score, previous_persist):
         voice.extend(music)
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     voice.extend(music)
@@ -165,7 +165,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get(1, 3), rotate=-2)
     voice.extend(music)
@@ -179,7 +179,7 @@ def STRINGS(score):
         voice.extend(music)
 
 
-def CB3(voice):
+def CB3(voice, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     voice.extend(music)
@@ -452,15 +452,15 @@ def cb1(m):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    FL1(accumulator.voice("fl1"))
-    FL3(accumulator.voice("fl1"))
-    FL2(accumulator.voice("fl1"))
-    FL4(accumulator.voice("fl1"))
-    BCL(accumulator.voice("fl1"))
-    PF_HP_PERC3_CB1(score, previous_persist)
-    PERCUSSION(score)
-    STRINGS(score)
-    CB3(accumulator.voice("cb3"))
+    FL1(accumulator.voice("fl1"), accumulator)
+    FL3(accumulator.voice("fl1"), accumulator)
+    FL2(accumulator.voice("fl1"), accumulator)
+    FL4(accumulator.voice("fl1"), accumulator)
+    BCL(accumulator.voice("fl1"), accumulator)
+    PF_HP_PERC3_CB1(score, accumulator, previous_persist)
+    PERCUSSION(score, accumulator)
+    STRINGS(score, accumulator)
+    CB3(accumulator.voice("cb3"), accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

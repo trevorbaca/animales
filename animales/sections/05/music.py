@@ -66,13 +66,13 @@ baca.rehearsal_mark_function(
 )
 
 
-def WINDS(score):
+def WINDS(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     # PERC1
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
@@ -84,7 +84,10 @@ def PERCUSSION(score):
 
 
 def STRINGS(
-    score, previous_voice_name_to_parameter_to_state, voice_name_to_parameter_to_state
+    score,
+    accumulator,
+    previous_voice_name_to_parameter_to_state,
+    voice_name_to_parameter_to_state,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
@@ -100,7 +103,7 @@ def STRINGS(
         baca.append_anchor_note_function(voice)
 
 
-def CB3(score):
+def CB3(score, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -207,14 +210,15 @@ def main(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    WINDS(score)
-    PERCUSSION(score)
+    WINDS(score, accumulator)
+    PERCUSSION(score, accumulator)
     STRINGS(
         score,
+        accumulator,
         previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
     )
-    CB3(score)
+    CB3(score, accumulator)
     baca.reapply(
         accumulator.voices(),
         library.manifests,

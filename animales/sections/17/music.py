@@ -89,7 +89,7 @@ def swell(peak):
     )
 
 
-def REEDS(score):
+def REEDS(score, accumulator):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
@@ -98,7 +98,7 @@ def REEDS(score):
         voice.extend(music)
 
 
-def BRASS(score, previous_persist):
+def BRASS(score, accumulator, previous_persist):
     parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
@@ -128,7 +128,7 @@ def BRASS(score, previous_persist):
         )
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     for abbreviation in [
         "1vn5",
         "1vn1",
@@ -489,9 +489,9 @@ def strings(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    REEDS(score)
-    BRASS(score, previous_persist)
-    STRINGS(score)
+    REEDS(score, accumulator)
+    BRASS(score, accumulator, previous_persist)
+    STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

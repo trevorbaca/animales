@@ -53,7 +53,7 @@ for index, string in ((10 - 1, "fermata"),):
     baca.global_fermata_function(rests[index], string)
 
 
-def PF(voice):
+def PF(voice, accumulator):
     voice = score[library.voice_abbreviations["pf"]]
     music = baca.make_notes(accumulator.get(1, 9))
     voice.extend(music)
@@ -61,7 +61,7 @@ def PF(voice):
     voice.extend(music)
 
 
-def PERC4(voice):
+def PERC4(voice, accumulator):
     voice = score[library.voice_abbreviations["perc4"]]
     music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
     voice.extend(music)
@@ -132,8 +132,8 @@ def pf_perc4(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    PF(accumulator.voice("pf"))
-    PERC4(accumulator.voice("perc4"))
+    PF(accumulator.voice("pf"), accumulator)
+    PERC4(accumulator.voice("perc4"), accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),

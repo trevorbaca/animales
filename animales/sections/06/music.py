@@ -57,9 +57,8 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], baca.Ritardando(), manifests)
+baca.metronome_mark_function(skips[1 - 1], baca.Ritardando(), library.manifests)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -74,13 +73,13 @@ wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
 baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def WINDS(score):
+def WINDS(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
@@ -94,7 +93,7 @@ def PERCUSSION(score):
     voice.extend(music)
 
 
-def STRINGS(score, absent_left_broken):
+def STRINGS(score, accumulator, absent_left_broken):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
@@ -219,10 +218,10 @@ def strings(cache, absent_left_broken):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    WINDS(score)
-    PERCUSSION(score)
+    WINDS(score, accumulator)
+    PERCUSSION(score, accumulator)
     absent_left_broken = ["1vn3", "2vn3", "va3"]
-    STRINGS(score, absent_left_broken)
+    STRINGS(score, accumulator, absent_left_broken)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
