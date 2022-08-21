@@ -89,7 +89,7 @@ baca.rehearsal_mark_function(
 )
 
 
-def PERCUSSION(score):
+def PERCUSSION(score, accumulator):
     for abbreviation in ["perc1", "perc2", "perc3", "perc4"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
@@ -98,7 +98,7 @@ def PERCUSSION(score):
         voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     library.make_battuti_material(
         score,
         accumulator,
@@ -141,8 +141,8 @@ def percussion(cache):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    PERCUSSION(score)
-    STRINGS(score)
+    PERCUSSION(score, accumulator)
+    STRINGS(score, accumulator)
     names = [
         library.voice_abbreviations[_] for _ in ["perc1", "perc2", "perc3", "perc4"]
     ]

@@ -68,9 +68,10 @@ baca.interpret.set_up_score(
 )
 
 skips = score["Skips"]
-manifests = library.manifests
 
-baca.metronome_mark_function(skips[1 - 1], library.metronome_marks["76"], manifests)
+baca.metronome_mark_function(
+    skips[1 - 1], library.metronome_marks["76"], library.manifests
+)
 
 baca.rehearsal_mark_function(
     skips[1 - 1],
@@ -105,7 +106,7 @@ string_parts = {
 }
 
 
-def BRASS(score):
+def BRASS(score, accumulator):
     for abbreviation in (
         "hn1",
         "hn2",
@@ -127,7 +128,7 @@ def BRASS(score):
         voice.extend(music)
 
 
-def STRINGS(score):
+def STRINGS(score, accumulator):
     voice = score[library.voice_abbreviations["1vn5"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
@@ -333,8 +334,8 @@ def solo_violin(m):
 
 def main():
     previous_persist = baca.previous_persist(__file__)
-    BRASS(score)
-    STRINGS(score)
+    BRASS(score, accumulator)
+    STRINGS(score, accumulator)
     library.attach_grand_pause_fermatas(accumulator, score, measure=3)
     library.attach_grand_pause_fermatas(accumulator, score, measure=8)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
