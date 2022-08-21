@@ -40,7 +40,6 @@ def make_empty_score(previous_final_measure_number):
         library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
-        attach_nonfirst_empty_start_bar=True,
     )
     return score, accumulator
 
