@@ -7,10 +7,6 @@ from animales import library
 ########################################### 09 ##########################################
 #########################################################################################
 
-# previous_metadata = baca.previous_metadata(__file__)
-# start = previous_metadata.get("final_measure_number")
-# assert start == 49
-
 
 def make_empty_score(previous_final_measure_number):
     assert previous_final_measure_number == 49

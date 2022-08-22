@@ -7,54 +7,55 @@ from animales import library
 ########################################### 30 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = 142
 
-time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
+def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 164
+    start = 142
+    score = library.make_empty_score(
+        piano=[
+            (None, ["pf"]),
+        ],
+        percussion=[
+            (4, ["perc4"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=time_signatures,
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-score = library.make_empty_score(
-    piano=[
-        (None, ["pf"]),
-    ],
-    percussion=[
-        (4, ["perc4"]),
-    ],
-)
 
-voice_names = baca.accumulator.get_voice_names(score)
+def SKIPS(score):
+    skips = score["Skips"]
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "CC",
+        abjad.Tweak(
+            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
+        ),
+    )
+    baca.bar_line_function(skips[10 - 1], "|.")
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=time_signatures,
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
-
-skips = score["Skips"]
-
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "CC",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
-)
-
-baca.bar_line_function(skips[10 - 1], "|.")
-
-rests = score["Rests"]
-for index, string in ((10 - 1, "fermata"),):
-    baca.global_fermata_function(rests[index], string)
+def RESTS(score):
+    rests = score["Rests"]
+    for index, string in ((10 - 1, "fermata"),):
+        baca.global_fermata_function(rests[index], string)
 
 
 def PF(voice, accumulator):
-    voice = score[library.voice_abbreviations["pf"]]
     music = baca.make_notes(accumulator.get(1, 9))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10))
@@ -62,14 +63,13 @@ def PF(voice, accumulator):
 
 
 def PERC4(voice, accumulator):
-    voice = score[library.voice_abbreviations["perc4"]]
     music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 10))
     voice.extend(music)
 
 
-def pf(m):
+def pf(m, accumulator):
     accumulator(
         ("pf", (1, 9)),
         baca.pitch("C#4"),
@@ -87,7 +87,7 @@ def pf(m):
     )
 
 
-def perc4(m):
+def perc4(m, accumulator):
     "slate"
     accumulator(
         "perc4",
@@ -117,7 +117,7 @@ def perc4(m):
     )
 
 
-def pf_perc4(cache):
+def pf_perc4(cache, accumulator):
     for voice_name in ("pf", "perc4"):
         accumulator(
             (voice_name, 1),
@@ -130,11 +130,15 @@ def pf_perc4(cache):
         )
 
 
-def make_score():
-    previous_persist = baca.previous_persist(__file__)
+def make_score(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score)
+    RESTS(score)
     PF(accumulator.voice("pf"), accumulator)
     PERC4(accumulator.voice("perc4"), accumulator)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -146,13 +150,19 @@ def make_score():
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(accumulator, score, measure=10)
-    pf(cache["pf"])
-    perc4(cache["perc4"])
-    pf_perc4(cache)
+    pf(cache["pf"], accumulator)
+    perc4(cache["perc4"], accumulator)
+    pf_perc4(cache, accumulator)
+    return score, accumulator
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

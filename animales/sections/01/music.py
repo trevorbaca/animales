@@ -64,7 +64,7 @@ def PERCUSSION(score, accumulator):
     voice.extend(music)
 
 
-def STRINGS(score, accumulator, voice_name_to_parameter_to_state, names):
+def STRINGS(score, accumulator, names, voice_name_to_parameter_to_state):
     library.make_trill_rhythm(
         score, accumulator.get(), voice_name_to_parameter_to_state
     )
@@ -194,7 +194,7 @@ def make_score():
     PERCUSSION(score, accumulator)
     voice_name_to_parameter_to_state = {}
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    STRINGS(score, accumulator, voice_name_to_parameter_to_state, names)
+    STRINGS(score, accumulator, names, voice_name_to_parameter_to_state)
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),

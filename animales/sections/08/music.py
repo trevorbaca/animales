@@ -8,11 +8,6 @@ from animales import library
 #########################################################################################
 
 
-# previous_metadata = baca.previous_metadata(__file__)
-# start = previous_metadata.get("final_measure_number")
-# assert start == 43
-
-
 def make_empty_score(previous_final_measure_number):
     assert previous_final_measure_number == 43
     score = library.make_empty_score(
@@ -94,7 +89,8 @@ def PF_HP_PERC3_CB1(
     score,
     accumulator,
     voice_name_to_parameter_to_state,
-    previous_voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
 ):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
@@ -273,7 +269,7 @@ def make_score(
         score,
         accumulator,
         voice_name_to_parameter_to_state,
-        previous_voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     PERC2(score, accumulator)
     STRINGS(score, accumulator)

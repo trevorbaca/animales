@@ -7,66 +7,66 @@ from animales import library
 ########################################### 16 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = previous_metadata.get("final_measure_number")
-assert start == 94
 
-score = library.make_empty_score(
-    oboes=[
-        (None, ["ob"]),
-    ],
-    english_horn=[
-        (None, ["eh"]),
-    ],
-    bassoons=[
-        (None, ["bsn1", "bsn2"]),
-    ],
-    first_violins=[
-        (1, ["1vn1", "1vn2"]),
-        (2, ["1vn3", "1vn4"]),
-        (3, ["1vn5"]),
-    ],
-    second_violins=[
-        (1, ["2vn1", "2vn2"]),
-        (2, ["2vn3", "2vn4"]),
-    ],
-    violas=[
-        (1, ["va1", "va2"]),
-        (2, ["va3", "va4"]),
-    ],
-    cellos=[
-        (1, ["vc1", "vc2"]),
-    ],
-    contrabasses=[
-        (2, ["cb3"]),
-    ],
-)
+def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 94
+    score = library.make_empty_score(
+        oboes=[
+            (None, ["ob"]),
+        ],
+        english_horn=[
+            (None, ["eh"]),
+        ],
+        bassoons=[
+            (None, ["bsn1", "bsn2"]),
+        ],
+        first_violins=[
+            (1, ["1vn1", "1vn2"]),
+            (2, ["1vn3", "1vn4"]),
+            (3, ["1vn5"]),
+        ],
+        second_violins=[
+            (1, ["2vn1", "2vn2"]),
+            (2, ["2vn3", "2vn4"]),
+        ],
+        violas=[
+            (1, ["va1", "va2"]),
+            (2, ["va3", "va4"]),
+        ],
+        cellos=[
+            (1, ["vc1", "vc2"]),
+        ],
+        contrabasses=[
+            (2, ["cb3"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    start = previous_final_measure_number
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures()[start : start + 14],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures()[start : start + 14],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
-
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
-
-skips = score["Skips"]
-
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "O",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
-)
+def SKIPS(score):
+    skips = score["Skips"]
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "O",
+        abjad.Tweak(
+            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
+        ),
+    )
 
 
 def swell(peak):
@@ -98,11 +98,11 @@ def STRINGS(score, accumulator, voice_abbreviation_to_members):
         voice.extend(music)
 
 
-def ob(m):
+def ob(m, accumulator):
     accumulator(
         "ob",
         baca.instrument(
-            instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Ob."),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
@@ -118,11 +118,12 @@ def ob(m):
     )
 
 
-def eh(m):
+def eh(m, accumulator):
     accumulator(
         ("eh", (1, 5)),
         baca.instrument(
-            instruments["EnglishHorn"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["EnglishHorn"],
+            selector=lambda _: abjad.select.leaf(_, 0),
         ),
         library.short_instrument_name("Eng. hn."),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
@@ -138,11 +139,11 @@ def eh(m):
     )
 
 
-def bsns(cache):
+def bsns(cache, accumulator):
     accumulator(
         "bsn1",
         baca.instrument(
-            instruments["Bassoon"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["Bassoon"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         library.short_instrument_name("Bsn."),
         baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
@@ -172,7 +173,7 @@ def bsns(cache):
     )
 
 
-def strings(cache, voice_abbreviation_to_members):
+def strings(cache, accumulator, voice_abbreviation_to_members):
     def _tremolo_suite():
         return baca.suite(
             baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
@@ -217,7 +218,7 @@ def strings(cache, voice_abbreviation_to_members):
     accumulator(
         "1vn5",
         baca.instrument(
-            instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
+            library.instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
         ),
         baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
         library.short_instrument_name("Vni. I 18"),
@@ -395,8 +396,12 @@ def strings(cache, voice_abbreviation_to_members):
     )
 
 
-def make_score():
-    previous_persist = baca.previous_persist(__file__)
+def make_score(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score)
     REEDS(score, accumulator)
     voice_abbreviation_to_members = {
         "1vn1": (1, 4),
@@ -416,7 +421,6 @@ def make_score():
         "cb3": (1, 6),
     }
     STRINGS(score, accumulator, voice_abbreviation_to_members)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -427,14 +431,20 @@ def make_score():
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    ob(cache["ob"])
-    eh(cache["eh"])
-    bsns(cache)
-    strings(cache, voice_abbreviation_to_members)
+    ob(cache["ob"], accumulator)
+    eh(cache["eh"], accumulator)
+    bsns(cache, accumulator)
+    strings(cache, accumulator, voice_abbreviation_to_members)
+    return score, accumulator
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,

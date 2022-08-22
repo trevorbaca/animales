@@ -85,7 +85,8 @@ def STRINGS(
     score,
     accumulator,
     voice_name_to_parameter_to_state,
-    previous_voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
@@ -217,7 +218,7 @@ def make_score(
         score,
         accumulator,
         voice_name_to_parameter_to_state,
-        previous_voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     CB3(score, accumulator)
     baca.reapply(
