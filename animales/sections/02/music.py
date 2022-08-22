@@ -9,6 +9,7 @@ from animales import library
 
 
 def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 6
     score = library.make_empty_score(
         first_violins=[
             (1, ["1vn1"]),
@@ -138,17 +139,11 @@ def main(
 
 if __name__ == "__main__":
     previous_metadata = baca.previous_metadata(__file__)
-    previous_final_measure_number = previous_metadata.get("final_measure_number")
-    assert previous_final_measure_number == 6
     previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
-    previous_voice_name_to_parameter_to_state = previous_persist[
-        "voice_name_to_parameter_to_state"
-    ]
     score, accumulator, voice_name_to_parameter_to_state = main(
-        previous_final_measure_number,
-        previous_persistent_indicators,
-        previous_voice_name_to_parameter_to_state,
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+        previous_persist["voice_name_to_parameter_to_state"],
     )
     metadata, persist, timing = baca.build.section(
         score,

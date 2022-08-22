@@ -7,79 +7,77 @@ from animales import library
 ########################################### 04 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = previous_metadata.get("final_measure_number")
-assert start == 17
 
-score = library.make_empty_score(
-    clarinets=[
-        (None, ["cl"]),
-    ],
-    horns=[
-        (1, ["hn1", "hn3"]),
-        (2, ["hn2", "hn4"]),
-    ],
-    trumpets=[
-        (1, ["tp1", "tp3"]),
-        (2, ["tp2", "tp4"]),
-    ],
-    trombones=[
-        (1, ["tbn1", "tbn3"]),
-        (2, ["tbn2", "tbn4"]),
-    ],
-    tuba=[
-        (None, ["tub"]),
-    ],
-    percussion=[
-        (1, ["perc1"]),
-        (2, ["perc2"]),
-    ],
-    first_violins=[
-        (1, ["1vn2", "1vn1"]),
-        (2, ["1vn3"]),
-    ],
-    second_violins=[
-        (1, ["2vn1"]),
-        (2, ["2vn3"]),
-    ],
-    violas=[
-        (1, ["va1"]),
-        (2, ["va3"]),
-    ],
-    cellos=[
-        (1, ["vc1"]),
-    ],
-    contrabasses=[
-        (2, ["cb3"]),
-    ],
-)
+def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 17
+    start = previous_final_measure_number
+    score = library.make_empty_score(
+        clarinets=[
+            (None, ["cl"]),
+        ],
+        horns=[
+            (1, ["hn1", "hn3"]),
+            (2, ["hn2", "hn4"]),
+        ],
+        trumpets=[
+            (1, ["tp1", "tp3"]),
+            (2, ["tp2", "tp4"]),
+        ],
+        trombones=[
+            (1, ["tbn1", "tbn3"]),
+            (2, ["tbn2", "tbn4"]),
+        ],
+        tuba=[
+            (None, ["tub"]),
+        ],
+        percussion=[
+            (1, ["perc1"]),
+            (2, ["perc2"]),
+        ],
+        first_violins=[
+            (1, ["1vn2", "1vn1"]),
+            (2, ["1vn3"]),
+        ],
+        second_violins=[
+            (1, ["2vn1"]),
+            (2, ["2vn3"]),
+        ],
+        violas=[
+            (1, ["va1"]),
+            (2, ["va3"]),
+        ],
+        cellos=[
+            (1, ["vc1"]),
+        ],
+        contrabasses=[
+            (2, ["cb3"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures()[start : start + 6],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-voice_name_to_parameter_to_state = {}
-voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures()[start : start + 6],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
+def SKIPS(score):
+    skips = score["Skips"]
 
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
-
-skips = score["Skips"]
-
-baca.rehearsal_mark_function(
-    skips[3 - 1],
-    "C",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=baca.tags.ONLY_SCORE),
-)
+    baca.rehearsal_mark_function(
+        skips[3 - 1],
+        "C",
+        abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=baca.tags.ONLY_SCORE),
+    )
 
 
 def WINDS(score, accumulator):
@@ -316,10 +314,13 @@ def main(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score)
     WINDS(score, accumulator)
     PERCUSSION(score, accumulator)
     BRASS(score, accumulator)
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
+    voice_name_to_parameter_to_state = {}
     STRINGS(
         score,
         accumulator,
@@ -348,17 +349,11 @@ def main(
 
 if __name__ == "__main__":
     previous_metadata = baca.previous_metadata(__file__)
-    previous_final_measure_number = previous_metadata.get("final_measure_number")
-    assert previous_final_measure_number == 17
     previous_persist = baca.previous_persist(__file__)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
-    previous_voice_name_to_parameter_to_state = previous_persist[
-        "voice_name_to_parameter_to_state"
-    ]
     score, accumulator, voice_name_to_parameter_to_state = main(
-        previous_final_measure_number,
-        previous_persistent_indicators,
-        previous_voice_name_to_parameter_to_state,
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+        previous_persist["voice_name_to_parameter_to_state"],
     )
     metadata, persist, timing = baca.build.section(
         score,

@@ -7,70 +7,68 @@ from animales import library
 ########################################### 06 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = previous_metadata.get("final_measure_number")
-assert start == 29
 
-score = library.make_empty_score(
-    clarinets=[
-        (None, None),
-    ],
-    percussion=[
-        (1, ["perc1"]),
-        (2, ["perc2"]),
-    ],
-    first_violins=[
-        (1, ["1vn1"]),
-        (2, ["1vn3"]),
-    ],
-    second_violins=[
-        (1, ["2vn1"]),
-        (2, ["2vn3"]),
-    ],
-    violas=[
-        (1, ["va1"]),
-        (2, ["va3"]),
-    ],
-    cellos=[
-        (1, ["vc1"]),
-    ],
-    contrabasses=[
-        (2, ["cb3"]),
-    ],
-)
+def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 29
+    score = library.make_empty_score(
+        clarinets=[
+            (None, None),
+        ],
+        percussion=[
+            (1, ["perc1"]),
+            (2, ["perc2"]),
+        ],
+        first_violins=[
+            (1, ["1vn1"]),
+            (2, ["1vn3"]),
+        ],
+        second_violins=[
+            (1, ["2vn1"]),
+            (2, ["2vn3"]),
+        ],
+        violas=[
+            (1, ["va1"]),
+            (2, ["va3"]),
+        ],
+        cellos=[
+            (1, ["vc1"]),
+        ],
+        contrabasses=[
+            (2, ["cb3"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    start = previous_final_measure_number
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures()[start : start + 6],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-voice_names = baca.accumulator.get_voice_names(score)
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures()[start : start + 6],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
-
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
-
-skips = score["Skips"]
-
-baca.metronome_mark_function(skips[1 - 1], baca.Ritardando(), library.manifests)
-
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "E",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
-)
-
-wrappers = baca.text_spanner_left_padding_function(skips[:-1], 1)
-baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-
-wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
-baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+def SKIPS(score):
+    skips = score["Skips"]
+    baca.metronome_mark_function(skips[1 - 1], baca.Ritardando(), library.manifests)
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "E",
+        abjad.Tweak(
+            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
+        ),
+    )
+    wrappers = baca.text_spanner_left_padding_function(skips[:-1], 1)
+    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
+    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def WINDS(score, accumulator):
@@ -216,13 +214,13 @@ def strings(cache, absent_left_broken):
         baca.hairpin_function(o, "ff >", right_broken=True)
 
 
-def main():
-    previous_persist = baca.previous_persist(__file__)
+def make_score(previous_final_measure_number, previous_persistent_indicators):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score)
     WINDS(score, accumulator)
     PERCUSSION(score, accumulator)
     absent_left_broken = ["1vn3", "2vn3", "va3"]
     STRINGS(score, accumulator, absent_left_broken)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -236,10 +234,16 @@ def main():
     winds(cache)
     percussion(cache)
     strings(cache, absent_left_broken)
+    return score, accumulator
 
 
-if __name__ == "__main__":
-    main()
+def main():
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator = make_score(
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -258,3 +262,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
