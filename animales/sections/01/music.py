@@ -66,7 +66,7 @@ def PERCUSSION(score, accumulator):
 
 def STRINGS(score, accumulator, voice_name_to_parameter_to_state, names):
     library.make_trill_rhythm(
-        score, accumulator.get(), {}, voice_name_to_parameter_to_state
+        score, accumulator.get(), voice_name_to_parameter_to_state
     )
     for name in names:
         voice = accumulator.voice(name)

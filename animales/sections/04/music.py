@@ -133,8 +133,8 @@ def STRINGS(
     score,
     accumulator,
     names,
-    previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
+    previous_voice_name_to_parameter_to_state,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
@@ -144,8 +144,8 @@ def STRINGS(
     library.make_trill_rhythm(
         score,
         accumulator.get(1, 2),
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     for abbreviation in names:
         voice = score[library.voice_abbreviations[abbreviation]]
@@ -325,8 +325,8 @@ def make_score(
         score,
         accumulator,
         names,
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state,
     )
     CB3(score, accumulator)
     baca.reapply(
