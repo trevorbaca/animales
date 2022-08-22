@@ -258,10 +258,6 @@ def brass(cache, accumulator):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 1)
-    accumulator(
-        "tp3",
-        baca.pitches("G4 A4", name="seconds"),
-    )
     with baca.scope(cache["tp3"].leaves()) as o:
         # baca.pitches_function(o, "G4 A4", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
@@ -276,10 +272,6 @@ def brass(cache, accumulator):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 2)
-    accumulator(
-        "tp4",
-        baca.pitches("G4 A4", name="seconds"),
-    )
     with baca.scope(cache["tp4"].leaves()) as o:
         # baca.pitches_function(o, "G4 A4", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
@@ -336,8 +328,16 @@ def brass(cache, accumulator):
         baca.pitches("Ab4 Bb4", name="seconds"),
     )
     accumulator(
+        "tp3",
+        baca.pitches("G4 A4", name="seconds"),
+    )
+    accumulator(
         "tp2",
         baca.pitches("Ab4 Bb4", name="seconds"),
+    )
+    accumulator(
+        "tp4",
+        baca.pitches("G4 A4", name="seconds"),
     )
     accumulator(
         "tbn1",
