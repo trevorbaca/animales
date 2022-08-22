@@ -188,7 +188,7 @@ def strings(cache, accumulator, names):
     library.assign_trill_parts_function(cache)
 
 
-def main():
+def make_score():
     score, accumulator = make_empty_score()
     SKIPS(score["Skips"], accumulator)
     PERCUSSION(score, accumulator)
@@ -205,8 +205,8 @@ def main():
     return score, accumulator, voice_name_to_parameter_to_state
 
 
-if __name__ == "__main__":
-    score, accumulator, voice_name_to_parameter_to_state = main()
+def main():
+    score, accumulator, voice_name_to_parameter_to_state = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -226,3 +226,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily", "header.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()

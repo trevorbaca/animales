@@ -389,7 +389,7 @@ def cb1(m):
         library.assign_part_function(o, "Contrabass", 1)
 
 
-def main(voice_name_to_parameter_to_state):
+def make_score(voice_name_to_parameter_to_state):
     previous_persist = baca.previous_persist(__file__)
     CL(accumulator.voice("cl"), accumulator)
     BCL(accumulator.voice("bcl"), accumulator)
@@ -421,9 +421,9 @@ def main(voice_name_to_parameter_to_state):
     cb1(cache["cb1"])
 
 
-if __name__ == "__main__":
+def main():
     voice_name_to_parameter_to_state = {}
-    main(voice_name_to_parameter_to_state)
+    make_score(voice_name_to_parameter_to_state)
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
@@ -451,3 +451,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
