@@ -57,7 +57,8 @@ def STRINGS(
     score,
     accumulator,
     voice_name_to_parameter_to_state,
-    previous_voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
 ):
     library.make_trill_rhythm(
         score,
@@ -121,7 +122,7 @@ def make_score(
         score,
         accumulator,
         voice_name_to_parameter_to_state,
-        previous_voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     baca.reapply(
         accumulator.voices(),

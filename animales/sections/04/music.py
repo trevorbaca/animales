@@ -134,7 +134,8 @@ def STRINGS(
     accumulator,
     names,
     voice_name_to_parameter_to_state,
-    previous_voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
@@ -326,7 +327,7 @@ def make_score(
         accumulator,
         names,
         voice_name_to_parameter_to_state,
-        previous_voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     CB3(score, accumulator)
     baca.reapply(
