@@ -222,7 +222,6 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
                 )
 
     with baca.scope(cache["hn1"].leaves()) as o:
-        # baca.pitches_function(o, "A3 B3", metadata=voice_name_to_parameter_to_state, name="seconds")
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -230,13 +229,11 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Horn", 1)
     with baca.scope(cache["hn3"].leaves()) as o:
-        # baca.pitches_function(o, "Ab3 Bb3", metadata=voice_name_to_parameter_to_state, name="seconds")
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Horn", 3)
     with baca.scope(cache["hn2"].leaves()) as o:
-        # baca.pitches_function(o, "A3 B3", metadata=voice_name_to_parameter_to_state, name="seconds")
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -244,14 +241,11 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Horn", 2)
     with baca.scope(cache["hn4"].leaves()) as o:
-        # baca.pitches_function(o, "Ab3 Bb3", name="seconds")
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Horn", 4)
-    # trumpets
     with baca.scope(cache["tp1"].leaves()) as o:
-        # baca.pitches_function(o, "Ab4 Bb4", name="seconds"),
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -259,13 +253,11 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 1)
     with baca.scope(cache["tp3"].leaves()) as o:
-        # baca.pitches_function(o, "G4 A4", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 3)
     with baca.scope(cache["tp2"].leaves()) as o:
-        # baca.pitches_function(o, "Ab4 Bb4", name="seconds"),
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -273,14 +265,11 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 2)
     with baca.scope(cache["tp4"].leaves()) as o:
-        # baca.pitches_function(o, "G4 A4", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trumpet", 4)
-    # trombones
     with baca.scope(cache["tbn1"].leaves()) as o:
-        # baca.pitches_function(o, "Ab3 Bb3", name="seconds"),
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -288,13 +277,11 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Trombone", 1)
     with baca.scope(cache["tbn3"].leaves()) as o:
-        # baca.pitches_function(o, "G3 A3", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trombone", 3)
     with baca.scope(cache["tbn2"].leaves()) as o:
-        # baca.pitches_function("Ab3 Bb3", name="seconds"),
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
@@ -302,69 +289,29 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
         crescendi_function(o)
         library.assign_part_function(o, "Trombone", 2)
     with baca.scope(cache["tbn4"].leaves()) as o:
-        # baca.pitches_function("G3 A3", name="seconds"),
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trombone", 4)
-
-    with baca.scope(cache["hn1"].leaves()) as o:
-        metadata = {}
-        baca.pitches_function(o, "A3 B3", metadata=metadata, name="seconds")
-        voice_name_to_parameter_to_state[library.voice_abbreviations["hn1"]].update(
-            metadata
-        )
-    with baca.scope(cache["hn3"].leaves()) as o:
-        metadata = {}
-        baca.pitches_function(o, "Ab3 Bb3", metadata=metadata, name="seconds")
-        voice_name_to_parameter_to_state[library.voice_abbreviations["hn3"]].update(
-            metadata
-        )
-    with baca.scope(cache["hn2"].leaves()) as o:
-        metadata = {}
-        baca.pitches_function(o, "A3 B3", metadata=metadata, name="seconds")
-        voice_name_to_parameter_to_state[library.voice_abbreviations["hn2"]].update(
-            metadata
-        )
-    with baca.scope(cache["hn4"].leaves()) as o:
-        metadata = {}
-        baca.pitches_function(o, "Ab3 Bb3", metadata=metadata, name="seconds")
-        voice_name_to_parameter_to_state[library.voice_abbreviations["hn4"]].update(
-            metadata
-        )
-
-    accumulator(
-        "tp1",
-        baca.pitches("Ab4 Bb4", name="seconds"),
-    )
-    accumulator(
-        "tp3",
-        baca.pitches("G4 A4", name="seconds"),
-    )
-    accumulator(
-        "tp2",
-        baca.pitches("Ab4 Bb4", name="seconds"),
-    )
-    accumulator(
-        "tp4",
-        baca.pitches("G4 A4", name="seconds"),
-    )
-    accumulator(
-        "tbn1",
-        baca.pitches("Ab3 Bb3", name="seconds"),
-    )
-    accumulator(
-        "tbn3",
-        baca.pitches("G3 A3", name="seconds"),
-    )
-    accumulator(
-        "tbn2",
-        baca.pitches("Ab3 Bb3", name="seconds"),
-    )
-    accumulator(
-        "tbn4",
-        baca.pitches("G3 A3", name="seconds"),
-    )
+    for name, pitches in (
+        ("hn1", "A3 B3"),
+        ("hn3", "Ab3 Bb3"),
+        ("hn2", "A3 B3"),
+        ("hn4", "Ab3 Bb3"),
+        ("tp1", "Ab4 Bb4"),
+        ("tp3", "G4 A4"),
+        ("tp2", "Ab4 Bb4"),
+        ("tp4", "G4 A4"),
+        ("tbn1", "Ab3 Bb3"),
+        ("tbn3", "G3 A3"),
+        ("tbn2", "Ab3 Bb3"),
+        ("tbn4", "G3 A3"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            metadata = {}
+            baca.pitches_function(o, pitches, metadata=metadata, name="seconds")
+            voice_name = library.voice_abbreviations[name]
+            voice_name_to_parameter_to_state[voice_name].update(metadata)
 
 
 def pf(m):
@@ -477,14 +424,13 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         **baca.interpret.section_defaults(),
-        activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
+        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    assert "voice_name_to_parameter_to_state" in persist, repr(persist)
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     for voice_name, parameter_to_state in persist[
         "voice_name_to_parameter_to_state"
     ].items():
