@@ -8,79 +8,75 @@ from animales import library
 ########################################### 07 ##########################################
 #########################################################################################
 
-previous_metadata = baca.previous_metadata(__file__)
-start = previous_metadata.get("final_measure_number")
-assert start == 35
 
-score = library.make_empty_score(
-    clarinets=[
-        (None, ["cl"]),
-    ],
-    harp=[
-        (None, ["hp"]),
-    ],
-    piano=[
-        (None, ["pf"]),
-    ],
-    percussion=[
-        (1, ["perc1"]),
-        (2, ["perc2"]),
-        (3, ["perc3"]),
-    ],
-    first_violins=[
-        (1, ["1vn1"]),
-    ],
-    second_violins=[
-        (1, ["2vn1"]),
-    ],
-    violas=[
-        (1, ["va1"]),
-    ],
-    cellos=[
-        (1, ["vc1"]),
-    ],
-    contrabasses=[
-        (1, ["cb1"]),
-        (2, ["cb3"]),
-    ],
-)
+def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 35
+    start = previous_final_measure_number
+    score = library.make_empty_score(
+        clarinets=[
+            (None, ["cl"]),
+        ],
+        harp=[
+            (None, ["hp"]),
+        ],
+        piano=[
+            (None, ["pf"]),
+        ],
+        percussion=[
+            (1, ["perc1"]),
+            (2, ["perc2"]),
+            (3, ["perc3"]),
+        ],
+        first_violins=[
+            (1, ["1vn1"]),
+        ],
+        second_violins=[
+            (1, ["2vn1"]),
+        ],
+        violas=[
+            (1, ["va1"]),
+        ],
+        cellos=[
+            (1, ["vc1"]),
+        ],
+        contrabasses=[
+            (1, ["cb1"]),
+            (2, ["cb3"]),
+        ],
+    )
+    voice_names = baca.accumulator.get_voice_names(score)
+    accumulator = baca.CommandAccumulator(
+        time_signatures=library.time_signatures()[start : start + 8],
+        _voice_abbreviations=library.voice_abbreviations,
+        _voice_names=voice_names,
+    )
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+    )
+    return score, accumulator
 
-voice_name_to_parameter_to_state = {}
-voice_names = baca.accumulator.get_voice_names(score)
-instruments = library.instruments
 
-accumulator = baca.CommandAccumulator(
-    time_signatures=library.time_signatures()[start : start + 8],
-    _voice_abbreviations=library.voice_abbreviations,
-    _voice_names=voice_names,
-)
-
-baca.interpret.set_up_score(
-    score,
-    accumulator.time_signatures,
-    accumulator,
-    library.manifests,
-    append_anchor_skip=True,
-    always_make_global_rests=True,
-)
-
-skips = score["Skips"]
-
-baca.metronome_mark_function(
-    skips[1 - 1], library.metronome_marks["76"], library.manifests
-)
-
-baca.rehearsal_mark_function(
-    skips[1 - 1],
-    "F",
-    abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")),
-)
-
-wrappers = baca.text_spanner_left_padding_function(skips[:-1], -9)
-baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-
-wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
-baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+def SKIPS(score):
+    skips = score["Skips"]
+    baca.metronome_mark_function(
+        skips[1 - 1], library.metronome_marks["76"], library.manifests
+    )
+    baca.rehearsal_mark_function(
+        skips[1 - 1],
+        "F",
+        abjad.Tweak(
+            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
+        ),
+    )
+    wrappers = baca.text_spanner_left_padding_function(skips[:-1], -9)
+    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
+    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(score, accumulator):
@@ -91,7 +87,7 @@ def CL(score, accumulator):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, accumulator):
+def PF_HP_PERC3_CB1(score, accumulator, voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -306,13 +302,17 @@ def cb1(cache):
         baca.dynamic_function(o.phead(0), "mf")
 
 
-def make_score():
-    previous_persist = baca.previous_persist(__file__)
+def make_score(
+    previous_final_measure_number,
+    previous_persistent_indicators,
+):
+    score, accumulator = make_empty_score(previous_final_measure_number)
+    SKIPS(score)
     CL(score, accumulator)
-    PF_HP_PERC3_CB1(score, accumulator)
+    voice_name_to_parameter_to_state = {}
+    PF_HP_PERC3_CB1(score, accumulator, voice_name_to_parameter_to_state)
     PERCUSSION(score, accumulator)
     STRINGS(score, accumulator)
-    previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -331,10 +331,16 @@ def make_score():
     perc3(cache)
     strings(cache)
     cb1(cache)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 def main():
-    make_score()
+    previous_metadata = baca.previous_metadata(__file__)
+    previous_persist = baca.previous_persist(__file__)
+    score, accumulator, voice_name_to_parameter_to_state = make_score(
+        previous_metadata["final_measure_number"],
+        previous_persist["persistent_indicators"],
+    )
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
