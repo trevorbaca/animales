@@ -98,7 +98,7 @@ def REEDS(score, accumulator):
         voice.extend(music)
 
 
-def BRASS(score, accumulator, previous_persist):
+def BRASS(score, accumulator):
     parameter, name = "RHYTHM", "brass_manifest_rhythm"
     for abbreviation, part in (
         ("hn1", 1),
@@ -120,7 +120,6 @@ def BRASS(score, accumulator, previous_persist):
             accumulator.get(),
             part,
             voice_name,
-            previous_persist=previous_persist,
         )
         voice.extend(music)
         baca.update_voice_name_to_parameter_to_state(
@@ -490,7 +489,7 @@ def strings(cache):
 def make_score():
     previous_persist = baca.previous_persist(__file__)
     REEDS(score, accumulator)
-    BRASS(score, accumulator, previous_persist)
+    BRASS(score, accumulator)
     STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
     baca.reapply(
