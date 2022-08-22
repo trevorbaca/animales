@@ -9,6 +9,7 @@ from animales import library
 
 
 def make_empty_score(previous_final_measure_number):
+    assert previous_final_measure_number == 23
     score = library.make_empty_score(
         clarinets=[
             (None, None),
@@ -37,7 +38,6 @@ def make_empty_score(previous_final_measure_number):
         ],
     )
     voice_names = baca.accumulator.get_voice_names(score)
-    assert previous_final_measure_number == 23
     start = previous_final_measure_number
     accumulator = baca.CommandAccumulator(
         time_signatures=library.time_signatures()[start : start + 6],
