@@ -56,14 +56,14 @@ def SKIPS(skips):
 def STRINGS(
     score,
     accumulator,
-    previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
+    previous_voice_name_to_parameter_to_state,
 ):
     library.make_trill_rhythm(
         score,
         accumulator.get(),
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     voice_names = baca.accumulator.get_voice_names(score)
     music_voice_names = library.get_music_voice_names(voice_names)
@@ -120,8 +120,8 @@ def make_score(
     STRINGS(
         score,
         accumulator,
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state,
     )
     baca.reapply(
         accumulator.voices(),

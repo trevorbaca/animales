@@ -908,8 +908,8 @@ def make_harp_exchange_rhythm(
     this_part,
     voice_name,
     *stack,
-    silence_first=False,
     previous_state=None,
+    silence_first=False,
 ):
     previous_state = previous_state or {}
     assert isinstance(previous_state, dict)
@@ -1025,7 +1025,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
 
 
 def make_sforzando_exchange_rhythm(
-    time_signatures, this_part, previous_voice_name_to_parameter_to_state, voice_name
+    time_signatures, this_part, voice_name, *, previous_state=None
 ):
     part_to_pattern = {
         0: abjad.index([0, 15], period=18),
@@ -1077,7 +1077,6 @@ def make_sforzando_exchange_rhythm(
         result = baca.sequence.quarters(divisions)
         return result
 
-    name = "sforzando_exchange_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         rmakers.beam(),
@@ -1088,15 +1087,7 @@ def make_sforzando_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
-        voice_name, {}
-    )
-    previous_rhythm_state = baca.get_previous_rhythm_state(
-        previous_parameter_to_state, name
-    )
-    if previous_rhythm_state:
-        assert len(previous_rhythm_state) in (4, 5)
-    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 
@@ -1104,9 +1095,12 @@ def make_sforzando_exchange_rhythm(
 def make_trill_rhythm(
     score,
     time_signatures,
-    previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
 ):
+    if previous_voice_name_to_parameter_to_state is None:
+        previous_voice_name_to_parameter_to_state = {}
     voice_to_part = {
         "1vn1": 0,
         "1vn3": 1,
@@ -1117,13 +1111,18 @@ def make_trill_rhythm(
         "vc1": 6,
     }
     _voice_abbreviations = voice_abbreviations
-    name = "sforzando_exchange_rhythm"
-    parameter = "RHYTHM"
+    parameter, name = "RHYTHM", "sforzando_exchange_rhythm"
     for voice_abbreviation, part in voice_to_part.items():
         voice_name = _voice_abbreviations[voice_abbreviation]
+        previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
+            voice_name, {}
+        )
+        previous_state = baca.get_previous_rhythm_state(
+            previous_parameter_to_state, name
+        )
         voice = score[voice_name]
         music, state = make_sforzando_exchange_rhythm(
-            time_signatures, part, previous_voice_name_to_parameter_to_state, voice_name
+            time_signatures, part, voice_name, previous_state=previous_state
         )
         voice.extend(music)
         # TODO: check parameter names

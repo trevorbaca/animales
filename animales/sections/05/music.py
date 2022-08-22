@@ -84,8 +84,8 @@ def PERCUSSION(score, accumulator):
 def STRINGS(
     score,
     accumulator,
-    previous_voice_name_to_parameter_to_state,
     voice_name_to_parameter_to_state,
+    previous_voice_name_to_parameter_to_state,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
     music = library.make_glissando_rhythm(accumulator.get())
@@ -93,8 +93,8 @@ def STRINGS(
     library.make_trill_rhythm(
         score,
         accumulator.get(),
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     for name in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
         voice = accumulator.voice(name)
@@ -216,8 +216,8 @@ def make_score(
     STRINGS(
         score,
         accumulator,
-        previous_voice_name_to_parameter_to_state,
         voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state,
     )
     CB3(score, accumulator)
     baca.reapply(
