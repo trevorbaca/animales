@@ -203,7 +203,7 @@ def cb3(cache):
         library.assign_part_function(o, "Contrabass", (1, 6))
 
 
-def main(
+def make_score(
     previous_final_measure_number,
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
@@ -237,10 +237,10 @@ def main(
     return score, accumulator, voice_name_to_parameter_to_state
 
 
-if __name__ == "__main__":
+def main():
     previous_metadata = baca.previous_metadata(__file__)
     previous_persist = baca.previous_persist(__file__)
-    score, accumulator, voice_name_to_parameter_to_state = main(
+    score, accumulator, voice_name_to_parameter_to_state = make_score(
         previous_metadata["final_measure_number"],
         previous_persist["persistent_indicators"],
         previous_persist["voice_name_to_parameter_to_state"],
@@ -263,3 +263,7 @@ if __name__ == "__main__":
         includes=["../stylesheet.ily"],
     )
     baca.build.persist(lilypond_file, metadata, persist, timing)
+
+
+if __name__ == "__main__":
+    main()
