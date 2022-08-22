@@ -91,7 +91,7 @@ def CL(score, accumulator):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
+def PF_HP_PERC3_CB1(score, accumulator):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -107,7 +107,6 @@ def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
             voice_name,
             *stack,
             silence_first=silence_first,
-            previous_persist=previous_persist,
         )
         voice.extend(music)
         baca.update_voice_name_to_parameter_to_state(
@@ -310,7 +309,7 @@ def cb1(cache):
 def make_score():
     previous_persist = baca.previous_persist(__file__)
     CL(score, accumulator)
-    PF_HP_PERC3_CB1(score, accumulator, previous_persist)
+    PF_HP_PERC3_CB1(score, accumulator)
     PERCUSSION(score, accumulator)
     STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]

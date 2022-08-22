@@ -566,8 +566,11 @@ def make_brass_manifest_rhythm(
     time_signatures,
     part,
     voice_name,
-    previous_persist=None,
+    *,
+    previous_state=None,
 ):
+    previous_state = previous_state or {}
+    assert isinstance(previous_state, dict)
     assert part in range(1, 12 + 1), repr(part)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
@@ -594,7 +597,6 @@ def make_brass_manifest_rhythm(
         result = baca.sequence.quarters(divisions)
         return result
 
-    name = "brass_manifest_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 8, extra_counts=extra_counts, preamble=preamble),
         rmakers.beam(),
@@ -606,16 +608,7 @@ def make_brass_manifest_rhythm(
         tag=baca.tags.function_name(inspect.currentframe()),
     )
     music = rhythm_maker(time_signatures)
-    previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_name_to_parameter_to_state", {}
-    )
-    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
-        voice_name, {}
-    )
-    previous_rhythm_state = baca.get_previous_rhythm_state(
-        previous_parameter_to_state, name
-    )
-    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 
@@ -682,7 +675,7 @@ def make_brass_sforzando_material_function(
     accumulator,
     measure,
     *,
-    previous_persist=None,
+    previous_persistent_indicators=None,
     reapply_persistent_indicators=False,
 ):
     voice_to_pitch = {
@@ -711,10 +704,7 @@ def make_brass_sforzando_material_function(
         voice_abbreviations,
     )
     if reapply_persistent_indicators:
-        assert previous_persist is not None
-        previous_persistent_indicators = previous_persist.get(
-            "persistent_indicators", {}
-        )
+        assert previous_persistent_indicators is not None
         runtime = {
             "already_reapplied_contexts": {"Score"},
             "manifests": manifests,
@@ -919,8 +909,12 @@ def make_harp_exchange_rhythm(
     voice_name,
     *stack,
     silence_first=False,
-    previous_persist=None,
+    previous_state=None,
 ):
+    previous_state = previous_state or {}
+    assert isinstance(previous_state, dict)
+    if previous_state:
+        assert len(previous_state) in (4, 5)
     part_to_pattern = dict(
         [
             (0, abjad.index([0, 30], period=36)),
@@ -980,7 +974,6 @@ def make_harp_exchange_rhythm(
         result = baca.sequence.quarters(result)
         return result
 
-    name = "harp_exchange_rhythm"
     rhythm_maker = rmakers.stack(
         rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
         *stack,
@@ -994,18 +987,7 @@ def make_harp_exchange_rhythm(
         preprocessor=preprocessor,
         tag=baca.tags.function_name(inspect.currentframe()),
     )
-    previous_voice_name_to_parameter_to_state = previous_persist.get(
-        "voice_name_to_parameter_to_state", {}
-    )
-    previous_parameter_to_state = previous_voice_name_to_parameter_to_state.get(
-        voice_name, {}
-    )
-    previous_rhythm_state = baca.get_previous_rhythm_state(
-        previous_parameter_to_state, name
-    )
-    if previous_rhythm_state:
-        assert len(previous_rhythm_state) in (4, 5)
-    music = rhythm_maker(time_signatures, previous_state=previous_rhythm_state)
+    music = rhythm_maker(time_signatures, previous_state=previous_state)
     state = rhythm_maker.state
     return music, state
 

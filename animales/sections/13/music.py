@@ -96,16 +96,22 @@ def BCL(voice, accumulator):
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, accumulator, previous_persist):
+def PF_HP_PERC3_CB1(score, accumulator, previous_voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
+        previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
+            voice_name
+        ]
+        previous_state = baca.get_previous_rhythm_state(
+            previous_parameter_to_state, name
+        )
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
             accumulator.get(),
             part,
             voice_name,
-            previous_persist=previous_persist,
+            previous_state=previous_state,
         )
         voice.extend(music)
         baca.update_voice_name_to_parameter_to_state(
@@ -288,7 +294,9 @@ def make_score():
     previous_persist = baca.previous_persist(__file__)
     CL(accumulator.voice("cl"), accumulator)
     BCL(accumulator.voice("bcl"), accumulator)
-    PF_HP_PERC3_CB1(score, accumulator, previous_persist)
+    PF_HP_PERC3_CB1(
+        score, accumulator, previous_persist["voice_name_to_parameter_to_state"]
+    )
     PERCUSSION(score, accumulator)
     STRINGS(score, accumulator)
     previous_persistent_indicators = previous_persist["persistent_indicators"]
