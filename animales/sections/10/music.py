@@ -190,7 +190,7 @@ def bcl(m):
         library.assign_part_function(o, "BassClarinet")
 
 
-def brass(cache, accumulator):
+def brass(cache, accumulator, voice_name_to_parameter_to_state):
     def crescendi():
         return baca.suite(
             baca.new(
@@ -307,22 +307,32 @@ def brass(cache, accumulator):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi_function(o)
         library.assign_part_function(o, "Trombone", 4)
-    accumulator(
-        "hn1",
-        baca.pitches("A3 B3", name="seconds"),
-    )
-    accumulator(
-        "hn3",
-        baca.pitches("Ab3 Bb3", name="seconds"),
-    )
-    accumulator(
-        "hn2",
-        baca.pitches("A3 B3", name="seconds"),
-    )
-    accumulator(
-        "hn4",
-        baca.pitches("Ab3 Bb3", name="seconds"),
-    )
+
+    with baca.scope(cache["hn1"].leaves()) as o:
+        metadata = {}
+        baca.pitches_function(o, "A3 B3", metadata=metadata, name="seconds")
+        voice_name_to_parameter_to_state[library.voice_abbreviations["hn1"]].update(
+            metadata
+        )
+    with baca.scope(cache["hn3"].leaves()) as o:
+        metadata = {}
+        baca.pitches_function(o, "Ab3 Bb3", metadata=metadata, name="seconds")
+        voice_name_to_parameter_to_state[library.voice_abbreviations["hn3"]].update(
+            metadata
+        )
+    with baca.scope(cache["hn2"].leaves()) as o:
+        metadata = {}
+        baca.pitches_function(o, "A3 B3", metadata=metadata, name="seconds")
+        voice_name_to_parameter_to_state[library.voice_abbreviations["hn2"]].update(
+            metadata
+        )
+    with baca.scope(cache["hn4"].leaves()) as o:
+        metadata = {}
+        baca.pitches_function(o, "Ab3 Bb3", metadata=metadata, name="seconds")
+        voice_name_to_parameter_to_state[library.voice_abbreviations["hn4"]].update(
+            metadata
+        )
+
     accumulator(
         "tp1",
         baca.pitches("Ab4 Bb4", name="seconds"),
@@ -412,7 +422,6 @@ def cb1(m):
         library.assign_part_function(o, "Contrabass", 1)
 
 
-# def make_score(voice_name_to_parameter_to_state):
 def make_score(
     previous_final_measure_number,
     previous_persistent_indicators,
@@ -445,12 +454,13 @@ def make_score(
     )
     cl(cache["cl"])
     bcl(cache["bcl"])
-    brass(cache, accumulator)
+    brass(cache, accumulator, voice_name_to_parameter_to_state)
     pf(cache["pf"])
     hp(cache["hp"])
     perc3(cache["perc3"])
     strings(cache)
     cb1(cache["cb1"])
+    baca.interpret._sort_dictionary(voice_name_to_parameter_to_state)
     return score, accumulator, voice_name_to_parameter_to_state
 
 
