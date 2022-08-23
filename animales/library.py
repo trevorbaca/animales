@@ -376,12 +376,12 @@ def assign_trill_parts_function(cache, *, exclude_first_violin=False):
             assign_part_function(argument, part_name, part_number_token)
 
 
-def attach_grand_pause_fermatas(commands, score, *, measure=-1):
+def attach_grand_pause_fermatas(accumulator, score, *, measure=-1):
     """
     Attaches grand pause fermatas in parts because voices alive in section
     do not receive GlobalRests variables.
     """
-    assert isinstance(commands, baca.CommandAccumulator)
+    assert isinstance(accumulator, baca.CommandAccumulator)
     for voice in abjad.iterate.components(score, abjad.Voice):
         parent = abjad.get.parentage(voice).parent
         if type(parent) is abjad.Container:
@@ -395,12 +395,33 @@ def attach_grand_pause_fermatas(commands, score, *, measure=-1):
         literal_1 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
         string = r"\once \override Score.TimeSignature.stencil = ##f"
         literal_2 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
-        commands(
+        accumulator(
             (voice.name, measure),
             baca.only_parts(markup_command),
             baca.only_parts(literal_1),
             baca.only_parts(literal_2),
         )
+
+
+def attach_grand_pause_fermatas_function(cache, score, *, measure):
+    """
+    Attaches grand pause fermatas in parts because voices alive in section
+    do not receive GlobalRests variables.
+    """
+    for voice in abjad.iterate.components(score, abjad.Voice):
+        parent = abjad.get.parentage(voice).parent
+        if type(parent) is abjad.Container:
+            continue
+        with baca.scope(cache[voice.name][measure]) as o:
+            markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
+            wrappers = baca.markup_function(o.leaf(0), markup)
+            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
+            wrappers = baca.literal_function(o.leaf(0), string)
+            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            string = r"\once \override Score.TimeSignature.stencil = ##f"
+            wrappers = baca.literal_function(o.leaf(0), string)
+            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
 
 
 def get_music_voice_names(voice_names):

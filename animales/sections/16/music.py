@@ -77,6 +77,14 @@ def swell(peak):
     )
 
 
+def swell_function(argument, peak):
+    return baca.hairpin_function(
+        baca.select.rleaves(argument),
+        f"niente o< {peak} >o niente",
+        pieces=lambda _: baca.select.mgroups(_, [2, 3, 1]),
+    )
+
+
 def REEDS(score, accumulator):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
@@ -99,78 +107,50 @@ def STRINGS(score, accumulator, voice_abbreviation_to_members):
 
 
 def ob(m, accumulator):
-    accumulator(
-        "ob",
-        baca.instrument(
-            library.instruments["Oboe"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Ob."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        library.assign_part("Oboe", (1, 3)),
-    )
-    accumulator(
-        ("ob", (1, 5)),
-        baca.pitch("A4"),
-    )
-    accumulator(
-        ("ob", (1, 6)),
-        swell("f"),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.instrument_function(o.leaf(0), "Oboe", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Ob.", library.manifests)
+        baca.clef_function(o.leaf(0), "treble")
+        library.assign_part_function(o, "Oboe", (1, 3))
+    with baca.scope(m.get(1, 5)) as o:
+        baca.pitch_function(o, "A4")
+    with baca.scope(m.get(1, 6)) as o:
+        swell_function(o, "f")
 
 
 def eh(m, accumulator):
-    accumulator(
-        ("eh", (1, 5)),
-        baca.instrument(
-            library.instruments["EnglishHorn"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-        library.short_instrument_name("Eng. hn."),
-        baca.clef("treble", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.pitch("G3"),
-    )
-    accumulator(
-        ("eh", (1, 6)),
-        swell("f"),
-    )
-    accumulator(
-        "eh",
-        library.assign_part("EnglishHorn"),
-    )
+    with baca.scope(m.get(1, 5)) as o:
+        baca.instrument_function(o.leaf(0), "EnglishHorn", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Eng. hn.", library.manifests)
+        baca.clef_function(o.leaf(0), "treble")
+        baca.pitch_function(o, "G3")
+    with baca.scope(m.get(1, 6)) as o:
+        swell_function(o, "f")
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "EnglishHorn")
 
 
 def bsns(cache, accumulator):
-    accumulator(
-        "bsn1",
-        baca.instrument(
-            library.instruments["Bassoon"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-        library.short_instrument_name("Bsn."),
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        library.assign_part("Bassoon", 1),
-    )
-    accumulator(
-        "bsn2",
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        library.assign_part("Bassoon", 2),
-    )
-    accumulator(
-        ("bsn1", (1, 5)),
-        baca.pitch("B3"),
-    )
-    accumulator(
-        ("bsn1", (1, 6)),
-        baca.only_parts(swell("f")),
-    )
-    accumulator(
-        ("bsn2", (1, 5)),
-        baca.pitch("G2"),
-    )
-    accumulator(
-        ("bsn2", (1, 6)),
-        swell("f"),
-    )
+    with baca.scope(cache["bsn1"].leaves()) as o:
+        baca.instrument_function(o.leaf(0), "Bassoon", library.manifests)
+        baca.short_instrument_name_function(o.leaf(0), "Bsn.", library.manifests)
+        baca.clef_function(o.leaf(0), "bass")
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "Bassoon", 1)
+    with baca.scope(cache["bsn2"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "Bassoon", 2)
+    with baca.scope(cache["bsn1"].get(1, 5)) as o:
+        baca.pitch_function(o, "B3")
+    with baca.scope(cache["bsn1"].get(1, 6)) as o:
+        wrappers = swell_function(o, "f")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["bsn2"].get(1, 5)) as o:
+        baca.pitch_function(o, "G2")
+    with baca.scope(cache["bsn2"].get(1, 6)) as o:
+        swell_function(o, "f")
 
 
 def strings(cache, accumulator, voice_abbreviation_to_members):
@@ -387,11 +367,6 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
                 r"\animales-cb-tutti-markup", selector=lambda _: baca.select.pleaf(_, 0)
             ),
         ),
-        #    baca.tag(
-        #        abjad.Tag("+LETTER_PARTS_CB-1"),
-        #        baca.clef("bass"),
-        #    ),
-        #    baca.only_section(baca.literal(r"\clef "bass"")),
         _tremolo_suite(),
     )
 
