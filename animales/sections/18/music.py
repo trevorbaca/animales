@@ -225,11 +225,16 @@ def strings(cache, accumulator, string_parts):
             tremolo_function(o, "mp")
 
 
-def brass(cache, accumulator):
-    library.assign_brass_sforzando_parts(accumulator, omit_tuba=True)
+def brass(
+    cache,
+    accumulator,
+    voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
+):
+    library.assign_brass_sforzando_parts_function(cache, omit_tuba=True)
     accumulator(
         ("hn1", 1),
-        baca.pitches("G3 A3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -238,13 +243,11 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("hn3", 1),
-        baca.pitches("Gb3 Ab3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("hn2", 1),
-        baca.pitches("G3 A3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -253,13 +256,11 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("hn4", 1),
-        baca.pitches("Gb3 Ab3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tp1", 1),
-        baca.pitches("Gb4 Ab4", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -268,13 +269,11 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("tp3", 1),
-        baca.pitches("F4 G4", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tp2", 1),
-        baca.pitches("Gb4 Ab4", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -283,13 +282,11 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("tp4", 1),
-        baca.pitches("F4 G4", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tbn1", 1),
-        baca.pitches("Gb3 Ab3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -298,13 +295,11 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("tbn3", 1),
-        baca.pitches("F3 G3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
     accumulator(
         ("tbn2", 1),
-        baca.pitches("Gb3 Ab3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.only_parts(
@@ -313,10 +308,41 @@ def brass(cache, accumulator):
     )
     accumulator(
         ("tbn4", 1),
-        baca.pitches("F3 G3", ignore_incomplete=True, name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
     )
+
+    for name, pitches in (
+        ("hn1", "G3 A3"),
+        ("hn3", "Gb3 Ab3"),
+        ("hn2", "G3 A3"),
+        ("hn4", "Gb3 Ab3"),
+        ("tp1", "Gb4 Ab4"),
+        ("tp3", "F4 G4"),
+        ("tp2", "Gb4 Ab4"),
+        ("tp4", "F4 G4"),
+        ("tbn1", "Gb3 Ab3"),
+        ("tbn3", "F3 G3"),
+        ("tbn2", "Gb3 Ab3"),
+        ("tbn4", "F3 G3"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            voice_name = library.voice_abbreviations[name]
+            #            metadata = {}
+            #            baca.pitches_function(o, pitches, metadata=metadata, name="seconds")
+            #            voice_name_to_parameter_to_state[voice_name] = metadata
+            previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
+                voice_name
+            ]
+            # TODO: do not allow baca.pitches_function() to OVERWRITE metadata;
+            #       return new dictionary instead:
+            baca.pitches_function(
+                o, pitches, metadata=previous_parameter_to_state, name="seconds"
+            )
+            voice_name_to_parameter_to_state[voice_name] = {}
+            voice_name_to_parameter_to_state[voice_name].update(
+                previous_parameter_to_state
+            )
 
 
 def solo_violin(m, accumulator):
@@ -332,6 +358,7 @@ def solo_violin(m, accumulator):
 def make_score(
     previous_final_measure_number,
     previous_persistent_indicators,
+    previous_voice_name_to_parameter_to_state,
 ):
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
@@ -368,18 +395,26 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    brass(cache, accumulator)
+    voice_name_to_parameter_to_state = {}
+    brass(
+        cache,
+        accumulator,
+        voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
+    )
     strings(cache, accumulator, string_parts)
     solo_violin(cache["1vn5"], accumulator)
-    return score, accumulator
+    baca.interpret._sort_dictionary(voice_name_to_parameter_to_state)
+    return score, accumulator, voice_name_to_parameter_to_state
 
 
 def main():
     previous_metadata = baca.previous_metadata(__file__)
     previous_persist = baca.previous_persist(__file__)
-    score, accumulator = make_score(
+    score, accumulator, voice_name_to_parameter_to_state = make_score(
         previous_metadata["final_measure_number"],
         previous_persist["persistent_indicators"],
+        previous_persist["voice_name_to_parameter_to_state"],
     )
     metadata, persist, timing = baca.build.section(
         score,
@@ -393,6 +428,15 @@ def main():
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    for voice_name, parameter_to_state in persist[
+        "voice_name_to_parameter_to_state"
+    ].items():
+        parameter_to_state.update(voice_name_to_parameter_to_state.get(voice_name, {}))
+    for voice_name, parameter_to_state in voice_name_to_parameter_to_state.items():
+        persist["voice_name_to_parameter_to_state"].setdefault(
+            voice_name, parameter_to_state
+        )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
