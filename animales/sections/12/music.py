@@ -186,18 +186,11 @@ def brass(
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        # wrappers = baca.force_accidental_function(o.pleaf(0))
-        # baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
         wrappers = baca.note_column_shift_function(o.pleaf(0), 1.7)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_function(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-    accumulator(
-        ("hn1", 1),
-        baca.not_parts(
-            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
-        ),
-    )
     accumulator(
         ("hn3", 1),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
