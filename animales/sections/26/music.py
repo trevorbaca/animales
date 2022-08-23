@@ -143,16 +143,6 @@ def PERCUSSION(score, accumulator):
         voice.extend(music)
 
 
-def STRINGS(score, accumulator):
-    library.make_battuti_material(
-        score,
-        accumulator,
-        [[1, -55], [1, -17], [1, -17]],
-        (1, 3),
-        omit_contrabasses=True,
-    )
-
-
 def CB3(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
@@ -205,7 +195,13 @@ def make_score(
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
     BRASS(score, accumulator)
-    STRINGS(score, accumulator)
+    library.MAKE_BATTUTI(
+        score,
+        accumulator,
+        [[1, -55], [1, -17], [1, -17]],
+        (1, 3),
+        omit_contrabasses=True,
+    )
     PERCUSSION(score, accumulator)
     CB3(accumulator.voice("cb3"), accumulator)
     names = [library.voice_abbreviations[_] for _ in ["perc2", "perc3", "perc4", "cb3"]]
@@ -218,6 +214,13 @@ def make_score(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
+    )
+    library.make_battuti_function(
+        score,
+        accumulator,
+        [[1, -55], [1, -17], [1, -17]],
+        (1, 3),
+        omit_contrabasses=True,
     )
     brass(cache, accumulator)
     percussion(cache, accumulator)

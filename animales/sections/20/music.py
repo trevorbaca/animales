@@ -122,13 +122,14 @@ def make_score(
 ):
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
-    library.make_battuti_material(
-        score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
-    )
+    library.MAKE_BATTUTI(score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3))
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
+    )
+    library.make_battuti_function(
+        score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
     strings(cache, accumulator)
     return score, accumulator

@@ -95,7 +95,8 @@ def make_score(
 ):
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
-    library.make_battuti_material(
+    library.MAKE_BATTUTI(score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3))
+    library.make_battuti_function(
         score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
     return score, accumulator
