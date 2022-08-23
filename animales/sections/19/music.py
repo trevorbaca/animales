@@ -139,38 +139,21 @@ def BRASS(score, accumulator):
         voice.extend(music)
 
 
-def strings(cache, accumulator):
-    accumulator(
-        "1vn18",
-        baca.instrument(
-            library.instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["2vn6", "2vn12"],
-        baca.instrument(
-            library.instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["va6", "va12", "va15", "va18"],
-        baca.instrument(
-            library.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["vc5", "vc11"],
-        baca.instrument(
-            library.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["cb6"],
-        baca.instrument(
-            library.instruments["Contrabass"],
-            selector=lambda _: abjad.select.leaf(_, 0),
-        ),
-    )
+def strings(cache):
+    for name, instrument in (
+        ("1vn18", "Violin"),
+        ("2vn6", "Violin"),
+        ("2vn12", "Violin"),
+        ("va6", "Viola"),
+        ("va12", "Viola"),
+        ("va15", "Viola"),
+        ("va18", "Viola"),
+        ("vc5", "Cello"),
+        ("vc11", "Cello"),
+        ("cb6", "Contrabass"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            baca.instrument_function(o.leaf(0), instrument, library.manifests)
 
 
 def make_score(
@@ -214,7 +197,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    strings(cache, accumulator)
+    strings(cache)
     return score, accumulator
 
 
