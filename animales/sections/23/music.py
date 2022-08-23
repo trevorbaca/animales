@@ -159,9 +159,7 @@ def make_score(
     SKIPS(score)
     BRASS(score, accumulator)
     PERC2(accumulator.voice("perc2"), accumulator)
-    library.make_battuti_material(
-        score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
-    )
+    library.MAKE_BATTUTI(score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3))
     abbreviations = ["perc2"]
     names = [library.voice_abbreviations[_] for _ in abbreviations]
     baca.reapply(
@@ -173,6 +171,9 @@ def make_score(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
+    )
+    library.make_battuti_function(
+        score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
     brass(cache, accumulator)
     perc2(cache["perc2"], accumulator)

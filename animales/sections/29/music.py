@@ -102,17 +102,6 @@ def PERC1(voice, accumulator):
     voice.extend(music)
 
 
-def STRINGS(score, accumulator):
-    library.make_battuti_material(
-        score,
-        accumulator,
-        [[1, -17], [1, -17], [1, -17]],
-        (1, 3),
-        append_fermata_measure=True,
-        omit_contrabasses=True,
-    )
-
-
 def percussion(cache, accumulator):
     # perc1 (triangle)
     accumulator(
@@ -134,7 +123,14 @@ def make_score(
     SKIPS(score)
     RESTS(score)
     PERC1(accumulator.voice("perc1"), accumulator)
-    STRINGS(score, accumulator)
+    library.MAKE_BATTUTI(
+        score,
+        accumulator,
+        [[1, -17], [1, -17], [1, -17]],
+        (1, 3),
+        append_fermata_measure=True,
+        omit_contrabasses=True,
+    )
     names = [library.voice_abbreviations[_] for _ in ["perc1"]]
     baca.reapply(
         accumulator.voices(names),
@@ -147,6 +143,14 @@ def make_score(
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(accumulator, score, measure=4)
+    library.make_battuti_function(
+        score,
+        accumulator,
+        [[1, -17], [1, -17], [1, -17]],
+        (1, 3),
+        append_fermata_measure=True,
+        omit_contrabasses=True,
+    )
     percussion(cache, accumulator)
     return score, accumulator
 

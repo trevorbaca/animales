@@ -140,12 +140,6 @@ def PERCUSSION(score, accumulator):
         voice.extend(music)
 
 
-def STRINGS(score, accumulator):
-    library.make_battuti_material(
-        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
-    )
-
-
 def brass(cache, accumulator):
     library.assign_brass_sforzando_parts(accumulator)
 
@@ -198,7 +192,7 @@ def make_score(
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
     BRASS(score, accumulator)
-    STRINGS(score, accumulator)
+    library.MAKE_BATTUTI(score, accumulator, [[1, -117, -117], [1, -118]], (1, 3))
     PERCUSSION(score, accumulator)
     names = [library.voice_abbreviations[_] for _ in ["perc2", "perc3", "perc4"]]
     baca.reapply(
@@ -210,6 +204,9 @@ def make_score(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
+    )
+    library.make_battuti_function(
+        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
     )
     brass(cache, accumulator)
     percussion(cache, accumulator)
