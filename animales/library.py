@@ -480,6 +480,128 @@ def leaves_in_measure_function(argument, n, *, lleak=False, rleak=False):
     return result
 
 
+def MAKE_BATTUTI(
+    score,
+    accumulator,
+    counts,
+    range_,
+    *,
+    append_fermata_measure=False,
+    first=False,
+    omit_contrabasses=False,
+):
+    section_name_to_member_count = {
+        "FirstViolins": 18,
+        "SecondViolins": 18,
+        "Violas": 18,
+        "Cellos": 14,
+        "Contrabasses": 6,
+    }
+    duration = sum([_.duration for _ in accumulator.time_signatures])
+    assert isinstance(duration, abjad.Duration), repr(duration)
+    wrap = duration.with_denominator(16).numerator
+    for section, members in section_name_to_member_count.items():
+        if omit_contrabasses and section == "Contrabasses":
+            continue
+        for member in range(1, members + 1):
+            voice_name = f"{section}.Voice.{member}"
+            voice = score[voice_name]
+            time_signatures = accumulator.get(*range_)
+            music = make_clb_rhythm(time_signatures, section, member, counts, wrap)
+            voice.extend(music)
+            if append_fermata_measure is True:
+                stop_measure = range_[1]
+                fermata_measure = stop_measure + 1
+                music = baca.make_mmrests(
+                    accumulator.get(fermata_measure), head=voice.name
+                )
+                voice.extend(music)
+
+
+def make_battuti_function(
+    score,
+    accumulator,
+    counts,
+    range_,
+    *,
+    append_fermata_measure=False,
+    first=False,
+    omit_contrabasses=False,
+):
+    section_name_to_member_count = {
+        "FirstViolins": 18,
+        "SecondViolins": 18,
+        "Violas": 18,
+        "Cellos": 14,
+        "Contrabasses": 6,
+    }
+    section_name_to_short_instrument_name = {
+        "FirstViolins": "Vni. I",
+        "SecondViolins": "Vni. II",
+        "Violas": "Vle.",
+        "Cellos": "Vc.",
+        "Contrabasses": "Cb.",
+    }
+
+    def upper_voice():
+        return baca.suite(
+            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
+            baca.staff_position(1),
+        )
+
+    def lower_voice():
+        return baca.suite(
+            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
+            baca.staff_position(-1),
+        )
+
+    for section, members in section_name_to_member_count.items():
+        if omit_contrabasses and section == "Contrabasses":
+            continue
+        for member in range(1, members + 1):
+            voice_name = f"{section}.Voice.{member}"
+            accumulator(
+                voice_name,
+                baca.reapply_persistent_indicators(),
+            )
+            part_name = section.removesuffix("s").removesuffix("e")
+            accumulator(
+                voice_name,
+                assign_part(part_name, member),
+            )
+            stack = []
+            if first:
+                markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
+                command = baca.markup(
+                    markup,
+                    selector=lambda _: abjad.select.leaf(_, 0),
+                )
+                command = baca.only_parts(command)
+                stack.append(command)
+                command = baca.staff_lines(
+                    1, selector=lambda _: abjad.select.leaf(_, 0)
+                )
+                stack.append(command)
+                command = baca.clef(
+                    "percussion", selector=lambda _: abjad.select.leaf(_, 0)
+                )
+                stack.append(command)
+            if first and member % 2 == 1:
+                short_instrument_name_ = section_name_to_short_instrument_name[section]
+                key = f"{short_instrument_name_} ({member}-{member+1})"
+                short_instrument_name_ = short_instrument_name(key)
+                stack.append(short_instrument_name_)
+            if member % 2 == 0:
+                polyphony = lower_voice()
+            else:
+                polyphony = upper_voice()
+            stack.append(polyphony)
+            accumulator(
+                (voice_name, range_),
+                *stack,
+            )
+
+
 def make_battuti_material(
     score,
     commands,
