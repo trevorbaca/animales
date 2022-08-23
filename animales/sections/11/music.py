@@ -173,17 +173,20 @@ def STRINGS(score, accumulator):
 
 
 def cl(m, accumulator):
-    accumulator(
-        "cl",
-        library.short_instrument_name("Cl. 2"),
-        baca.pitch("Bb4"),
-        baca.hairpin("mp < mf"),
-        library.assign_part("Clarinet", 2),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.short_instrument_name_function(o.leaf(0), "Cl. 2", library.manifests)
+        baca.pitch_function(o, "Bb4")
+        baca.hairpin_function(o, "mp < mf")
+        library.assign_part_function(o, "Clarinet", 2)
 
 
-def brass(cache, accumulator):
-    # horns
+def brass(
+    cache,
+    accumulator,
+    voice_name_to_parameter_to_state,
+    *,
+    previous_voice_name_to_parameter_to_state=None,
+):
     crescendi = baca.suite(
         baca.new(
             baca.hairpin("< f", left_broken=True),
@@ -197,9 +200,19 @@ def brass(cache, accumulator):
             map=lambda _: baca.select.runs(_)[1:],
         ),
     )
+
+    def crescendi_function(argument):
+        runs = baca.select.runs(argument)
+        for i, run in enumerate(runs):
+            if i == 0:
+                baca.hairpin_function(run, "< f", left_broken=True)
+            else:
+                baca.hairpin_function(
+                    run, "mp < ff", remove_length_1_spanner_start=True
+                )
+
     accumulator(
         "hn1",
-        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -207,14 +220,12 @@ def brass(cache, accumulator):
     )
     accumulator(
         "hn3",
-        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Horn", 3),
     )
     accumulator(
         "hn2",
-        baca.pitches("A3 B3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -222,15 +233,12 @@ def brass(cache, accumulator):
     )
     accumulator(
         "hn4",
-        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Horn", 4),
     )
-    # trumpets
     accumulator(
         "tp1",
-        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -238,14 +246,12 @@ def brass(cache, accumulator):
     )
     accumulator(
         "tp3",
-        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trumpet", 3),
     )
     accumulator(
         "tp2",
-        baca.pitches("Ab4 Bb4", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -253,15 +259,12 @@ def brass(cache, accumulator):
     )
     accumulator(
         "tp4",
-        baca.pitches("G4 A4", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trumpet", 4),
     )
-    # trombones
     accumulator(
         "tbn1",
-        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -269,14 +272,12 @@ def brass(cache, accumulator):
     )
     accumulator(
         "tbn3",
-        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trombone", 3),
     )
     accumulator(
         "tbn2",
-        baca.pitches("Ab3 Bb3", name="seconds"),
         baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
         baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
@@ -284,11 +285,37 @@ def brass(cache, accumulator):
     )
     accumulator(
         "tbn4",
-        baca.pitches("G3 A3", name="seconds"),
         baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
         crescendi,
         library.assign_part("Trombone", 4),
     )
+    for name, pitches in (
+        ("hn1", "A3 B3"),
+        ("hn3", "Ab3 Bb3"),
+        ("hn2", "A3 B3"),
+        ("hn4", "Ab3 Bb3"),
+        ("tp1", "Ab4 Bb4"),
+        ("tp3", "G4 A4"),
+        ("tp2", "Ab4 Bb4"),
+        ("tp4", "G4 A4"),
+        ("tbn1", "Ab3 Bb3"),
+        ("tbn3", "G3 A3"),
+        ("tbn2", "Ab3 Bb3"),
+        ("tbn4", "G3 A3"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            voice_name = library.voice_abbreviations[name]
+            previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
+                voice_name
+            ]
+            # TODO: do not allow baca.pitches_function() to OVERWRITE metadata;
+            #       return new dictionary instead:
+            baca.pitches_function(
+                o, pitches, metadata=previous_parameter_to_state, name="seconds"
+            )
+            parameter_to_state = voice_name_to_parameter_to_state[voice_name]
+            assert "PITCH" not in parameter_to_state
+            parameter_to_state["PITCH"] = previous_parameter_to_state["PITCH"]
 
 
 def hp(m, accumulator):
@@ -466,12 +493,18 @@ def make_score(
         library.voice_abbreviations,
     )
     cl(cache["cl"], accumulator)
-    brass(cache, accumulator)
+    brass(
+        cache,
+        accumulator,
+        voice_name_to_parameter_to_state,
+        previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
+    )
     hp(cache["hp"], accumulator)
     pf(cache["pf"], accumulator)
     percussion(cache, accumulator)
     strings(cache, accumulator)
     cb1(cache["cb1"], accumulator)
+    baca.interpret._sort_dictionary(voice_name_to_parameter_to_state)
     return score, accumulator, voice_name_to_parameter_to_state
 
 
@@ -496,7 +529,7 @@ def main():
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
-    assert "voice_name_to_parameter_to_state" in persist, repr(persist)
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     for voice_name, parameter_to_state in persist[
         "voice_name_to_parameter_to_state"
     ].items():
