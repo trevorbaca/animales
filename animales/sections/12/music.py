@@ -191,88 +191,71 @@ def brass(
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_function(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-    accumulator(
-        ("hn3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("hn2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("hn4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tp1", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tp3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tp2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tp4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(
-            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
-        ),
-        baca.not_parts(
-            baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
-        ),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tbn1", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tbn3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tbn2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tbn4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(
-            baca.force_accidental(selector=lambda _: baca.select.pleaf(_, 0))
-        ),
-        baca.not_parts(
-            baca.note_column_shift(1.0, selector=lambda _: abjad.select.leaf(_, 0))
-        ),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
+    with baca.scope(cache["hn3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["hn2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["hn4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tp1"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tp3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tp2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tp4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
+        wrappers = baca.note_column_shift_function(o.pleaf(0), 1.0)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tbn1"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tbn3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tbn2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tbn4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
+        wrappers = baca.note_column_shift_function(o.pleaf(0), 1.0)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
     for name, pitches in (
         ("hn1", "A3 B3"),
         ("hn3", "Ab3 Bb3"),
