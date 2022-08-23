@@ -191,22 +191,6 @@ def bcl(m):
 
 
 def brass(cache, accumulator, voice_name_to_parameter_to_state):
-    def crescendi():
-        return baca.suite(
-            baca.new(
-                baca.hairpin("mp < mf"),
-                map=lambda _: baca.select.runs(_)[:-1],
-            ),
-            baca.new(
-                baca.hairpin(
-                    "mp <",
-                    remove_length_1_spanner_start=True,
-                    right_broken=True,
-                ),
-                map=lambda _: baca.select.runs(_)[-1:],
-            ),
-        )
-
     def crescendi_function(argument):
         runs = baca.select.runs(argument)
         total = len(runs)
