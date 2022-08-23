@@ -89,6 +89,14 @@ def swell(peak):
     )
 
 
+def swell_function(argument, peak):
+    return baca.hairpin_function(
+        baca.select.rleaves(argument),
+        f"niente o< {peak} >o niente",
+        pieces=lambda _: baca.select.mgroups(_, [2, 3, 1]),
+    )
+
+
 def REEDS(score, accumulator):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
@@ -152,338 +160,267 @@ def STRINGS(score, accumulator):
 
 
 def ob(m, accumulator):
-    accumulator(
-        ("ob", (1, 5)),
-        baca.pitch("A4"),
-    )
-    accumulator(
-        ("ob", (1, 6)),
-        swell("f"),
-    )
-    accumulator(
-        "ob",
-        library.assign_part("Oboe", (1, 3)),
-    )
+    with baca.scope(m.get(1, 5)) as o:
+        baca.pitch_function(o, "A4")
+    with baca.scope(m.get(1, 6)) as o:
+        swell_function(o, "f")
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "Oboe", (1, 3))
 
 
 def eh(m, accumulator):
-    accumulator(
-        ("eh", (1, 5)),
-        baca.pitch("G3"),
-    )
-    accumulator(
-        ("eh", (1, 6)),
-        swell("f"),
-    )
-    accumulator(
-        "eh",
-        library.assign_part("EnglishHorn"),
-    )
+    with baca.scope(m.get(1, 5)) as o:
+        baca.pitch_function(o, "G3")
+    with baca.scope(m.get(1, 6)) as o:
+        swell_function(o, "f")
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "EnglishHorn")
 
 
 def bsns(cache, accumulator):
-    accumulator(
-        ("bsn1", (1, 5)),
-        baca.pitch("B3"),
-    )
-    accumulator(
-        ("bsn1", (1, 6)),
-        baca.only_parts(swell("f")),
-    )
-    accumulator(
-        "bsn1",
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        library.assign_part("Bassoon", 1),
-    )
-    accumulator(
-        ("bsn2", (1, 5)),
-        baca.pitch("G2"),
-    )
-    accumulator(
-        ("bsn2", (1, 6)),
-        swell("f"),
-    )
-    accumulator(
-        "bsn2",
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        library.assign_part("Bassoon", 2),
-    )
+    with baca.scope(cache["bsn1"].get(1, 5)) as o:
+        baca.pitch_function(o, "B3")
+    with baca.scope(cache["bsn1"].get(1, 6)) as o:
+        wrappers = swell_function(o, "f")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["bsn1"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "Bassoon", 1)
+    with baca.scope(cache["bsn2"].get(1, 5)) as o:
+        baca.pitch_function(o, "G2")
+    with baca.scope(cache["bsn2"].get(1, 6)) as o:
+        swell_function(o, "f")
+    with baca.scope(cache["bsn2"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "Bassoon", 2)
 
 
-def brass(cache, accumulator):
-    def _crescendi():
-        return baca.suite(
-            baca.hairpin(
-                "mp < mf",
-                selector=lambda _: abjad.select.run(_, 0),
-            ),
-            baca.hairpin(
-                "mp < f",
-                selector=lambda _: abjad.select.run(_, 1),
-            ),
-            baca.hairpin(
-                "mp < ff",
-                selector=lambda _: abjad.select.run(_, 2),
-            ),
-        )
+def brass(
+    cache,
+    accumulator,
+    voice_name_to_parameter_to_state,
+):
+    def crescendi_function(argument):
+        runs = baca.select.runs(argument)
+        for i, run in enumerate(runs):
+            if i == 0:
+                baca.hairpin_function(run, "mp < mf")
+            elif i == 1:
+                baca.hairpin_function(run, "mp < f")
+            elif i == 2:
+                baca.hairpin_function(run, "mp < ff")
 
-    # horns
-    accumulator(
-        "hn1",
-        baca.pitches("G3 A3", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Horn", 1),
-    )
-    accumulator(
-        "hn3",
-        baca.pitches("Gb3 Ab3", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Horn", 3),
-    )
-    accumulator(
-        "hn2",
-        baca.pitches("G3 A3", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Horn", 2),
-    )
-    accumulator(
-        "hn4",
-        baca.pitches("Gb3 Ab3", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Horn", 4),
-    )
-    # trumpets
-    accumulator(
-        "tp1",
-        baca.pitches("Gb4 Ab4", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trumpet", 1),
-    )
-    accumulator(
-        "tp3",
-        baca.pitches("F4 G4", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trumpet", 3),
-    )
-    accumulator(
-        "tp2",
-        baca.pitches("Gb4 Ab4", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trumpet", 2),
-    )
-    accumulator(
-        "tp4",
-        baca.pitches("F4 G4", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trumpet", 4),
-    )
-    # trombones
-    accumulator(
-        "tbn1",
-        baca.pitches("Gb3 Ab3", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trombone", 1),
-    )
-    accumulator(
-        "tbn3",
-        baca.pitches("F3 G3", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trombone", 3),
-    )
-    accumulator(
-        "tbn2",
-        baca.pitches("Gb3 Ab3", name="seconds"),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trombone", 2),
-    )
-    accumulator(
-        "tbn4",
-        baca.pitches("F3 G3", name="seconds"),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        _crescendi(),
-        library.assign_part("Trombone", 4),
-    )
+    with baca.scope(cache["hn1"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Horn", 1)
+    with baca.scope(cache["hn3"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Horn", 3)
+    with baca.scope(cache["hn2"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Horn", 2)
+    with baca.scope(cache["hn4"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Horn", 4)
+    with baca.scope(cache["tp1"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trumpet", 1)
+    with baca.scope(cache["tp3"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trumpet", 3)
+    with baca.scope(cache["tp2"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trumpet", 2)
+    with baca.scope(cache["tp4"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trumpet", 4)
+    with baca.scope(cache["tbn1"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trombone", 1)
+    with baca.scope(cache["tbn3"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trombone", 3)
+    with baca.scope(cache["tbn2"].leaves()) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trombone", 2)
+    with baca.scope(cache["tbn4"].leaves()) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        crescendi_function(o)
+        library.assign_part_function(o, "Trombone", 4)
+    for name, pitches in (
+        ("hn1", "G3 A3"),
+        ("hn3", "Gb3 Ab3"),
+        ("hn2", "G3 A3"),
+        ("hn4", "Gb3 Ab3"),
+        ("tp1", "Gb4 Ab4"),
+        ("tp3", "F4 G4"),
+        ("tp2", "Gb4 Ab4"),
+        ("tp4", "F4 G4"),
+        ("tbn1", "Gb3 Ab3"),
+        ("tbn3", "F3 G3"),
+        ("tbn2", "Gb3 Ab3"),
+        ("tbn4", "F3 G3"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            voice_name = library.voice_abbreviations[name]
+            metadata = {}
+            baca.pitches_function(o, pitches, metadata=metadata, name="seconds")
+            voice_name_to_parameter_to_state[voice_name].update(metadata)
 
 
 def strings(cache, accumulator):
-    def _tremolo_suite():
-        return baca.suite(
-            baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-            baca.accent(selector=lambda _: baca.select.pleaves(_)),
-            baca.text_spanner(
-                "ext. pont. => tasto",
-                selector=lambda _: baca.select.pleaves(_)[2:-2],
-            ),
-            baca.dynamic("ff", selector=lambda _: baca.select.phead(_, 0)),
-            baca.hairpin(
-                "ff > pp",
-                selector=lambda _: baca.select.pleaves(_)[2:-2],
-            ),
-            baca.only_parts(
-                baca.markup(
-                    r"\animales-ext-ponticello-like-acid-markup",
-                    selector=lambda _: baca.select.pleaf(_, 0),
-                ),
-            ),
+    def tremolo_function(o):
+        baca.stem_tremolo_function(o.pleaves())
+        baca.accent_function(o.pleaves())
+        wrappers = baca.markup_function(
+            o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup"
         )
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.text_spanner_function(o.pleaves()[2:-2], "ext. pont. => tasto")
+        baca.dynamic_function(o.phead(0), "ff")
+        baca.hairpin_function(o.pleaves()[2:-2], "ff > pp")
 
-    def _upper_voice_suite():
-        return baca.suite(
-            baca.only_parts(baca.text_script_extra_offset((1, 3))),
-            baca.only_parts(baca.text_spanner_staff_padding(5)),
-            baca.not_parts(
-                baca.dynamic_text_stencil_false(
-                    selector=lambda _: baca.select.leaves(_)
-                )
-            ),
-            baca.not_parts(baca.hairpin_stencil_false()),
-            baca.not_parts(baca.text_spanner_stencil_false()),
-            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
+    def upper_voice_function(o):
+        wrappers = baca.text_script_extra_offset_function(o, (1, 3))
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        wrappers = baca.text_spanner_staff_padding_function(o, 5)
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_text_stencil_false_function(o.leaves())
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.hairpin_stencil_false_function(o)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.text_spanner_stencil_false_function(o)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+
+    def lower_voice_function(o, n=5):
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.text_spanner_staff_padding_function(o, n)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+
+    with baca.scope(cache["1vn5"].leaves()) as o:
+        baca.repeat_tie_function(o.pleaf(0))
+        baca.pitch_function(o, "C#4")
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "FirstViolin", 18)
+    with baca.scope(cache["1vn1"].leaves()) as o:
+        baca.pitch_function(o, "A5")
+        tremolo_function(o)
+        upper_voice_function(o)
+        wrappers = baca.markup_function(
+            o.pleaf(0),
+            r"\animales-tutti-sim-markup",
         )
-
-    def _lower_voice_suite(n=5):
-        return baca.suite(
-            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-            baca.not_parts(baca.text_spanner_staff_padding(n)),
-        )
-
-    # solo violin
-    accumulator(
-        "1vn5",
-        baca.repeat_tie(
-            lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.pitch("C#4"),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("FirstViolin", 18),
-    )
-    accumulator(
-        "1vn1",
-        baca.pitch("A5"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        baca.not_parts(
-            baca.markup(
-                r"\animales-tutti-sim-markup",
-                selector=lambda _: baca.select.pleaf(_, 0),
-            ),
-        ),
-        library.assign_part("FirstViolin", (1, 4)),
-    )
-    accumulator(
-        "1vn2",
-        baca.pitch("F5"),
-        _lower_voice_suite(8),
-        _tremolo_suite(),
-        library.assign_part("FirstViolin", (5, 8)),
-    )
-    accumulator(
-        "1vn3",
-        baca.pitch("G5"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("FirstViolin", (9, 12)),
-    )
-    accumulator(
-        "1vn4",
-        baca.pitch("D5"),
-        _lower_voice_suite(8),
-        _tremolo_suite(),
-        library.assign_part("FirstViolin", (13, 17)),
-    )
-    accumulator(
-        "2vn1",
-        baca.pitch("B4"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("SecondViolin", (1, 4)),
-    )
-    accumulator(
-        "2vn2",
-        baca.pitch("G4"),
-        _lower_voice_suite(),
-        _tremolo_suite(),
-        library.assign_part("SecondViolin", (5, 8)),
-    )
-    accumulator(
-        "2vn3",
-        baca.pitch("A4"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("SecondViolin", (9, 12)),
-    )
-    accumulator(
-        "2vn4",
-        baca.pitch("F4"),
-        _lower_voice_suite(),
-        _tremolo_suite(),
-        library.assign_part("SecondViolin", (13, 18)),
-    )
-    accumulator(
-        "va1",
-        baca.pitch("D4"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("Viola", (1, 4)),
-    )
-    accumulator(
-        "va2",
-        baca.pitch("A3"),
-        _lower_voice_suite(),
-        _tremolo_suite(),
-        library.assign_part("Viola", (5, 8)),
-    )
-    accumulator(
-        "va3",
-        baca.pitch("B3"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("Viola", (9, 12)),
-    )
-    accumulator(
-        "va4",
-        baca.pitch("G3"),
-        _lower_voice_suite(),
-        _tremolo_suite(),
-        library.assign_part("Viola", (13, 18)),
-    )
-    accumulator(
-        "vc1",
-        baca.pitch("D3"),
-        _tremolo_suite(),
-        _upper_voice_suite(),
-        library.assign_part("Cello", (1, 8)),
-    )
-    accumulator(
-        "vc2",
-        baca.pitch("G2"),
-        _lower_voice_suite(),
-        _tremolo_suite(),
-        library.assign_part("Cello", (9, 14)),
-    )
-    accumulator(
-        "cb3",
-        baca.pitch("G1"),
-        _tremolo_suite(),
-        library.assign_part("Contrabass", (1, 6)),
-    )
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        library.assign_part_function(o, "FirstViolin", (1, 4))
+    with baca.scope(cache["1vn2"].leaves()) as o:
+        baca.pitch_function(o, "F5")
+        lower_voice_function(o, 8)
+        tremolo_function(o)
+        library.assign_part_function(o, "FirstViolin", (5, 8))
+    with baca.scope(cache["1vn3"].leaves()) as o:
+        baca.pitch_function(o, "G5")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "FirstViolin", (9, 12))
+    with baca.scope(cache["1vn4"].leaves()) as o:
+        baca.pitch_function(o, "D5")
+        lower_voice_function(o, 8)
+        tremolo_function(o)
+        library.assign_part_function(o, "FirstViolin", (13, 17))
+    with baca.scope(cache["2vn1"].leaves()) as o:
+        baca.pitch_function(o, "B4")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "SecondViolin", (1, 4))
+    with baca.scope(cache["2vn2"].leaves()) as o:
+        baca.pitch_function(o, "G4")
+        lower_voice_function(o)
+        tremolo_function(o)
+        library.assign_part_function(o, "SecondViolin", (5, 8))
+    with baca.scope(cache["2vn3"].leaves()) as o:
+        baca.pitch_function(o, "A4")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "SecondViolin", (9, 12))
+    with baca.scope(cache["2vn4"].leaves()) as o:
+        baca.pitch_function(o, "F4")
+        lower_voice_function(o)
+        tremolo_function(o)
+        library.assign_part_function(o, "SecondViolin", (13, 18))
+    with baca.scope(cache["va1"].leaves()) as o:
+        baca.pitch_function(o, "D4")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "Viola", (1, 4))
+    with baca.scope(cache["va2"].leaves()) as o:
+        baca.pitch_function(o, "A3")
+        lower_voice_function(o)
+        tremolo_function(o)
+        library.assign_part_function(o, "Viola", (5, 8))
+    with baca.scope(cache["va3"].leaves()) as o:
+        baca.pitch_function(o, "B3")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "Viola", (9, 12))
+    with baca.scope(cache["va4"].leaves()) as o:
+        baca.pitch_function(o, "G3")
+        lower_voice_function(o)
+        tremolo_function(o)
+        library.assign_part_function(o, "Viola", (13, 18))
+    with baca.scope(cache["vc1"].leaves()) as o:
+        baca.pitch_function(o, "D3")
+        tremolo_function(o)
+        upper_voice_function(o)
+        library.assign_part_function(o, "Cello", (1, 8))
+    with baca.scope(cache["vc2"].leaves()) as o:
+        baca.pitch_function(o, "G2")
+        lower_voice_function(o)
+        tremolo_function(o)
+        library.assign_part_function(o, "Cello", (9, 14))
+    with baca.scope(cache["cb3"].leaves()) as o:
+        baca.pitch_function(o, "G1")
+        tremolo_function(o)
+        library.assign_part_function(o, "Contrabass", (1, 6))
 
 
 def make_score(
@@ -509,8 +446,13 @@ def make_score(
     ob(cache["ob"], accumulator)
     eh(cache["eh"], accumulator)
     bsns(cache, accumulator)
-    brass(cache, accumulator)
+    brass(
+        cache,
+        accumulator,
+        voice_name_to_parameter_to_state,
+    )
     strings(cache, accumulator)
+    baca.interpret._sort_dictionary(voice_name_to_parameter_to_state)
     return score, accumulator, voice_name_to_parameter_to_state
 
 
@@ -529,10 +471,10 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
+    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
     for voice_name, parameter_to_state in persist[
         "voice_name_to_parameter_to_state"
     ].items():
