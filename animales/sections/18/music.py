@@ -233,85 +233,72 @@ def brass(
     previous_voice_name_to_parameter_to_state=None,
 ):
     library.assign_brass_sforzando_parts_function(cache, omit_tuba=True)
-    accumulator(
-        ("hn1", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("hn3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("hn2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("hn4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tp1", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tp3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tp2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tp4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tbn1", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tbn3", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("tbn2", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.not_parts(baca.dynamic_up(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.only_parts(
-            baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0))
-        ),
-    )
-    accumulator(
-        ("tbn4", 1),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-        baca.dynamic("sfz", selector=lambda _: baca.select.phead(_, 0)),
-    )
-
+    with baca.scope(cache["hn1"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["hn3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["hn2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["hn4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tp1"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tp3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tp2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tp4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tbn1"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tbn3"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
+    with baca.scope(cache["tbn2"][1]) as o:
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_up_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(cache["tbn4"][1]) as o:
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.dynamic_function(o.phead(0), "sfz")
     for name, pitches in (
         ("hn1", "G3 A3"),
         ("hn3", "Gb3 Ab3"),
@@ -328,9 +315,6 @@ def brass(
     ):
         with baca.scope(cache[name].leaves()) as o:
             voice_name = library.voice_abbreviations[name]
-            #            metadata = {}
-            #            baca.pitches_function(o, pitches, metadata=metadata, name="seconds")
-            #            voice_name_to_parameter_to_state[voice_name] = metadata
             previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
                 voice_name
             ]
@@ -346,13 +330,9 @@ def brass(
 
 
 def solo_violin(m, accumulator):
-    accumulator(
-        "1vn5",
-        baca.repeat_tie(lambda _: abjad.select.leaf(_, 0)),
-        baca.stem_tremolo(
-            selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-        ),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.repeat_tie_function(o.leaf(0))
+        baca.stem_tremolo_function(o.pleaves())
 
 
 def make_score(
@@ -383,8 +363,6 @@ def make_score(
         "cb3": [(1, -1), None, "G1"],
     }
     STRINGS(score, accumulator, string_parts)
-    library.attach_grand_pause_fermatas(accumulator, score, measure=3)
-    library.attach_grand_pause_fermatas(accumulator, score, measure=8)
     baca.reapply(
         accumulator.voices(),
         library.manifests,
@@ -395,6 +373,8 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
+    library.attach_grand_pause_fermatas_function(cache, score, measure=3)
+    library.attach_grand_pause_fermatas_function(cache, score, measure=8)
     voice_name_to_parameter_to_state = {}
     brass(
         cache,
@@ -424,7 +404,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
