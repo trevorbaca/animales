@@ -163,6 +163,9 @@ def make_score(
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
     BRASS(score, accumulator)
+    library.MAKE_BATTUTI(
+        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
+    )
     abbreviations = [
         "hn1",
         "hn2",
@@ -189,7 +192,7 @@ def make_score(
         library.manifests,
         previous_persistent_indicators,
     )
-    library.make_battuti_material(
+    library.make_battuti_function(
         score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )
     cache = baca.interpret.cache_leaves(
