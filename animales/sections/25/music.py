@@ -110,9 +110,7 @@ def SKIPS(score):
 
 
 def BRASS(score, accumulator):
-    library.make_brass_sforzando_material(
-        score, accumulator, 1, reapply_persistent_indicators=True
-    )
+    library.make_brass_sforzando_material(score, accumulator, 1)
     for abbreviation in [
         "hn1",
         "hn2",
@@ -145,14 +143,12 @@ def brass(cache, accumulator):
 
 
 def percussion(cache, accumulator):
-    # perc2 (cymbal)
     accumulator(
         "perc2",
         baca.staff_position(0),
         baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
         library.assign_part("Percussion", 2),
     )
-    # perc3 (BD)
     accumulator(
         "perc3",
         library.short_instrument_name("Perc. 3 (BD)"),
@@ -168,7 +164,6 @@ def percussion(cache, accumulator):
         baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
         library.assign_part("Percussion", 3),
     )
-    # perc4 (tam-tam)
     accumulator(
         "perc4",
         library.short_instrument_name("Perc. 4 (tam.)"),
@@ -194,9 +189,8 @@ def make_score(
     BRASS(score, accumulator)
     library.MAKE_BATTUTI(score, accumulator, [[1, -117, -117], [1, -118]], (1, 3))
     PERCUSSION(score, accumulator)
-    names = [library.voice_abbreviations[_] for _ in ["perc2", "perc3", "perc4"]]
     baca.reapply(
-        accumulator.voices(names),
+        accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
     )

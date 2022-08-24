@@ -123,6 +123,11 @@ def make_score(
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
     library.MAKE_BATTUTI(score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3))
+    baca.reapply(
+        accumulator.voices(),
+        library.manifests,
+        previous_persistent_indicators,
+    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),

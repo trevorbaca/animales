@@ -166,29 +166,8 @@ def make_score(
     library.MAKE_BATTUTI(
         score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )
-    abbreviations = [
-        "hn1",
-        "hn2",
-        "hn3",
-        "hn4",
-        "tp1",
-        "tp2",
-        "tp3",
-        "tp4",
-        "tbn1",
-        "tbn2",
-        "tbn3",
-        "tbn4",
-        "tub",
-        "pf",
-        "perc1",
-        "perc2",
-        "perc3",
-        "perc4",
-    ]
-    names = [library.voice_abbreviations[_] for _ in abbreviations]
     baca.reapply(
-        accumulator.voices(names),
+        accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
     )

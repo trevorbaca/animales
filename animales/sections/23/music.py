@@ -108,9 +108,7 @@ def SKIPS(score):
 
 
 def BRASS(score, accumulator):
-    library.make_brass_sforzando_material(
-        score, accumulator, 1, reapply_persistent_indicators=True
-    )
+    library.make_brass_sforzando_material(score, accumulator, 1)
     for abbreviation in [
         "hn1",
         "hn2",
@@ -160,10 +158,8 @@ def make_score(
     BRASS(score, accumulator)
     PERC2(accumulator.voice("perc2"), accumulator)
     library.MAKE_BATTUTI(score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3))
-    abbreviations = ["perc2"]
-    names = [library.voice_abbreviations[_] for _ in abbreviations]
     baca.reapply(
-        accumulator.voices(names),
+        accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
     )
