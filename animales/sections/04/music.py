@@ -122,7 +122,7 @@ def BRASS(score, accumulator):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get(1, 2))
         voice.extend(music)
-    library.make_brass_sforzando_material_function(score, accumulator, 3)
+    library.MAKE_BRASS_SFORZANDO(score, accumulator, measure=3)
     for abbreviation in brass_voice_names:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get(4, 6))
@@ -198,6 +198,7 @@ def percussion(cache):
 
 def brass(cache):
     library.assign_brass_sforzando_parts_function(cache)
+    library.make_brass_sforzando_function(cache, measure=3)
     for name, sin, instrument, clef in (
         ("hn1", "Hn. (1+3)", "Horn", "bass"),
         ("hn2", "Hn. (2+4)", "Horn", "bass"),
