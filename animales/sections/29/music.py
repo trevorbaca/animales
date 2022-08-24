@@ -103,16 +103,11 @@ def PERC1(voice, accumulator):
 
 
 def percussion(cache, accumulator):
-    # perc1 (triangle)
-    accumulator(
-        ("perc1", (1, 3)),
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-    )
-    accumulator(
-        "perc1",
-        library.assign_part("Percussion", 1),
-    )
+    with baca.scope(cache["perc1"].get(1, 3)) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+    with baca.scope(cache["perc1"].leaves()) as o:
+        library.assign_part_function(o, "Percussion", 1)
 
 
 def make_score(
@@ -141,7 +136,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.attach_grand_pause_fermatas(accumulator, score, measure=4)
+    library.attach_grand_pause_fermatas_function(cache, score, measure=4)
     library.make_battuti_function(
         cache,
         accumulator,
@@ -169,7 +164,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

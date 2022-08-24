@@ -134,19 +134,16 @@ def PERC2(voice, accumulator):
     voice.extend(music)
 
 
-def brass(cache, accumulator):
-    library.assign_brass_sforzando_parts(accumulator)
+def brass(cache):
+    library.assign_brass_sforzando_parts_function(cache)
 
 
-def perc2(m, accumulator):
-    "cymbal"
-    accumulator(
-        "perc2",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        baca.dynamic("p", selector=lambda _: baca.select.phead(_, 0)),
-        library.assign_part("Percussion", 2),
-    )
+def perc2(m):
+    with baca.scope(m.leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        baca.dynamic_function(o.phead(0), "p")
+        library.assign_part_function(o, "Percussion", 2)
 
 
 def make_score(
@@ -171,8 +168,8 @@ def make_score(
     library.make_battuti_function(
         cache, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
-    brass(cache, accumulator)
-    perc2(cache["perc2"], accumulator)
+    brass(cache)
+    perc2(cache["perc2"])
     return score, accumulator
 
 

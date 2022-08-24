@@ -70,64 +70,44 @@ def PERC4(voice, accumulator):
 
 
 def pf(m, accumulator):
-    accumulator(
-        ("pf", (1, 9)),
-        baca.pitch("C#4"),
-        baca.note_head_style_harmonic(selector=lambda _: baca.select.pleaves(_)),
-        baca.laissez_vibrer(selector=lambda _: baca.select.ptails(_)),
-        baca.markup(
+    with baca.scope(m.get(1, 9)) as o:
+        baca.pitch_function(o, "C#4")
+        baca.note_head_style_harmonic_function(o.pleaves())
+        baca.laissez_vibrer_function(o.ptails())
+        baca.markup_function(
+            o.pleaf(0),
             r"\animales-harmonic-touch-lowest-string-of-piano-markup",
-            selector=lambda _: baca.select.pleaf(_, 0),
-        ),
-        baca.only_parts(baca.text_script_x_offset(3)),
-    )
-    accumulator(
-        "pf",
-        library.assign_part("Piano"),
-    )
+        )
+        wrappers = baca.text_script_x_offset_function(o, 3)
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "Piano")
 
 
 def perc4(m, accumulator):
-    "slate"
-    accumulator(
-        "perc4",
-        library.assign_part("Percussion", 4),
-    )
-    accumulator(
-        ("perc4", (1, 8)),
-        library.short_instrument_name("Perc. 4 (slate)"),
-        baca.staff_position(0),
-        baca.markup(
-            r"\animales-stonecircle-markup", selector=lambda _: baca.select.pleaf(_, 0)
-        ),
-        baca.only_parts(baca.text_script_x_offset(3)),
-        baca.dynamic('"mf"', selector=lambda _: baca.select.phead(_, 0)),
-    )
-    accumulator(
-        ("perc4", 10),
-        baca.chunk(
-            baca.mark(
-                r"\animales-colophon-markup", selector=lambda _: abjad.select.leaf(_, 0)
-            ),
-            baca.rehearsal_mark_down(),
-            baca.rehearsal_mark_padding(6),
-            baca.rehearsal_mark_self_alignment_x(abjad.RIGHT),
-            selector=lambda _: baca.select.rleaf(_, -1),
-        ),
-    )
+    with baca.scope(m.leaves()) as o:
+        library.assign_part_function(o, "Percussion", 4)
+    with baca.scope(m.get(1, 8)) as o:
+        baca.short_instrument_name_function(
+            o.leaf(0), "Perc. 4 (slate)", library.manifests
+        )
+        baca.staff_position_function(o, 0)
+        baca.markup_function(o.pleaf(0), r"\animales-stonecircle-markup")
+        wrappers = baca.text_script_x_offset_function(o, 3)
+        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.dynamic_function(o.phead(0), '"mf"')
+    with baca.scope(m[10]) as o:
+        baca.mark_function(o.leaf(0), r"\animales-colophon-markup")
+        baca.rehearsal_mark_down_function(o.rleaf(-1))
+        baca.rehearsal_mark_padding_function(o.rleaf(-1), 6)
+        baca.rehearsal_mark_self_alignment_x_function(o.rleaf(-1), abjad.RIGHT)
 
 
 def pf_perc4(cache, accumulator):
-    for voice_name in ("pf", "perc4"):
-        accumulator(
-            (voice_name, 1),
-            baca.tag(
-                abjad.Tag("+TABLOID_SCORE"),
-                baca.literal(
-                    r"\magnifyStaff #10/7", selector=lambda _: abjad.select.leaf(_, 0)
-                ),
-            ),
-        )
+    for name in ("pf", "perc4"):
+        with baca.scope(cache[name][1]) as o:
+            wrappers = baca.literal_function(o.leaf(0), r"\magnifyStaff #10/7")
+            baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def make_score(
@@ -149,7 +129,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.attach_grand_pause_fermatas(accumulator, score, measure=10)
+    library.attach_grand_pause_fermatas_function(cache, score, measure=10)
     pf(cache["pf"], accumulator)
     perc4(cache["perc4"], accumulator)
     pf_perc4(cache, accumulator)
@@ -171,7 +151,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         final_section=True,
         transpose_score=True,

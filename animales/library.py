@@ -376,33 +376,6 @@ def assign_trill_parts_function(cache, *, exclude_first_violin=False):
             assign_part_function(argument, part_name, part_number_token)
 
 
-def attach_grand_pause_fermatas(accumulator, score, *, measure=-1):
-    """
-    Attaches grand pause fermatas in parts because voices alive in section
-    do not receive GlobalRests variables.
-    """
-    assert isinstance(accumulator, baca.CommandAccumulator)
-    for voice in abjad.iterate.components(score, abjad.Voice):
-        parent = abjad.get.parentage(voice).parent
-        if type(parent) is abjad.Container:
-            continue
-        markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
-        markup_command = baca.markup(
-            markup,
-            selector=lambda _: abjad.select.leaf(_, 0),
-        )
-        string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
-        literal_1 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
-        string = r"\once \override Score.TimeSignature.stencil = ##f"
-        literal_2 = baca.literal(string, selector=lambda _: abjad.select.leaf(_, 0))
-        accumulator(
-            (voice.name, measure),
-            baca.only_parts(markup_command),
-            baca.only_parts(literal_1),
-            baca.only_parts(literal_2),
-        )
-
-
 def attach_grand_pause_fermatas_function(cache, score, *, measure):
     """
     Attaches grand pause fermatas in parts because voices alive in section
@@ -414,13 +387,13 @@ def attach_grand_pause_fermatas_function(cache, score, *, measure):
             continue
         with baca.scope(cache[voice.name][measure]) as o:
             markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
-            wrappers = baca.markup_function(o.leaf(0), markup)
+            wrappers = baca.markup_function(o[0], markup)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
-            wrappers = baca.literal_function(o.leaf(0), string)
+            wrappers = baca.literal_function(o[0], string)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.TimeSignature.stencil = ##f"
-            wrappers = baca.literal_function(o.leaf(0), string)
+            wrappers = baca.literal_function(o[0], string)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
 
 
@@ -632,7 +605,7 @@ def make_brass_manifest_rhythm(
 
 
 def make_brass_sforzando_material(score, accumulator, measure):
-    voice_to_pitch = {
+    name_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
         "hn3": "F3",
@@ -647,7 +620,7 @@ def make_brass_sforzando_material(score, accumulator, measure):
         "tbn4": "B3",
         "tub": "C2",
     }
-    for abbreviation, pitch in voice_to_pitch.items():
+    for abbreviation, pitch in name_to_pitch.items():
         voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
@@ -682,7 +655,7 @@ def make_brass_sforzando_material(score, accumulator, measure):
 
 
 def make_brass_sforzando_material_function(score, accumulator, measure):
-    voice_to_pitch = {
+    name_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
         "hn3": "F3",
@@ -697,7 +670,7 @@ def make_brass_sforzando_material_function(score, accumulator, measure):
         "tbn4": "B3",
         "tub": "C2",
     }
-    for abbreviation, pitch in voice_to_pitch.items():
+    for abbreviation, pitch in name_to_pitch.items():
         voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
@@ -707,7 +680,7 @@ def make_brass_sforzando_material_function(score, accumulator, measure):
         len(accumulator.time_signatures),
         voice_abbreviations,
     )
-    for abbreviation, pitch in voice_to_pitch.items():
+    for abbreviation, pitch in name_to_pitch.items():
         voice_name = voice_abbreviations.get(abbreviation, abbreviation)
         m = cache[voice_name]
         with baca.scope(m[measure]) as o:
