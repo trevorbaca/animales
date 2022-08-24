@@ -108,7 +108,6 @@ def SKIPS(score):
 
 
 def BRASS(score, accumulator):
-    # library.make_brass_sforzando_material(score, accumulator, 1)
     library.MAKE_BRASS_SFORZANDO(score, accumulator, 1)
     for abbreviation in [
         "hn1",

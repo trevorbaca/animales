@@ -224,74 +224,6 @@ def allows_instrument(staff_name, instrument):
     raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
 
-def assign_brass_sforzando_parts(commands, *, omit_tuba=False):
-    commands(
-        "hn1",
-        assign_part("Horn", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "hn3",
-        assign_part("Horn", 3),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "hn2",
-        assign_part("Horn", 2),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "hn4",
-        assign_part("Horn", 4),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tp1",
-        assign_part("Trumpet", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tp3",
-        assign_part("Trumpet", 3),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tp2",
-        assign_part("Trumpet", 2),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tp4",
-        assign_part("Trumpet", 4),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tbn1",
-        assign_part("Trombone", 1),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tbn3",
-        assign_part("Trombone", 3),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tbn2",
-        assign_part("Trombone", 2),
-        baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    commands(
-        "tbn4",
-        assign_part("Trombone", 4),
-        baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-    )
-    if not omit_tuba:
-        commands(
-            "tub",
-            assign_part("Tuba"),
-        )
-
-
 def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
     for name, section_name, part_number in (
         ("hn1", "Horn", 1),
@@ -321,41 +253,12 @@ def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
                 baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
-def assign_part(name, token=None):
-    _part_manifest = part_manifest()
-    part_assignment = baca.PartAssignment(name, token)
-    for part in part_assignment.make_parts():
-        assert part in _part_manifest, repr(part)
-    return baca.assign_part(part_assignment)
-
-
 def assign_part_function(argument, name, token=None):
     _part_manifest = part_manifest()
     part_assignment = baca.PartAssignment(name, token)
     for part in part_assignment.make_parts():
         assert part in _part_manifest, repr(part)
     baca.assign_part_function(argument, part_assignment)
-
-
-def assign_trill_parts(accumulator, *, exclude_first_violin=False):
-    for voice_name, part_number_token in (
-        ("FirstViolins.Voice.1", (1, 10)),
-        ("FirstViolins.Voice.3", (11, 18)),
-        ("SecondViolins.Voice.1", (1, 10)),
-        ("SecondViolins.Voice.3", (11, 18)),
-        ("Violas.Voice.1", (1, 10)),
-        ("Violas.Voice.3", (11, 18)),
-        ("Cellos.Voice.1", (1, 14)),
-    ):
-        part_name = voice_name.split(".")[0].removesuffix("s")
-        if voice_name == "FirstViolins.Voice.1" and exclude_first_violin:
-            command = assign_part(part_name, (2, 10))
-        else:
-            command = assign_part(part_name, part_number_token)
-        accumulator(
-            voice_name,
-            command,
-        )
 
 
 def assign_trill_parts_function(cache, *, exclude_first_violin=False):
@@ -407,15 +310,6 @@ def get_music_voice_names(voice_names):
     return music_voice_names
 
 
-def glissando_positions(*, reverse=False, rotate=0, transpose=0):
-    positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
-    positions_ = [_ + transpose for _ in positions_]
-    if reverse is True:
-        positions_.reverse()
-    positions = abjad.sequence.rotate(positions_, rotate)
-    return baca.staff_positions(positions)
-
-
 def glissando_positions_function(argument, *, reverse=False, rotate=0, transpose=0):
     positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
     positions_ = [_ + transpose for _ in positions_]
@@ -423,25 +317,6 @@ def glissando_positions_function(argument, *, reverse=False, rotate=0, transpose
         positions_.reverse()
     positions = abjad.sequence.rotate(positions_, rotate)
     baca.staff_positions_function(argument, positions)
-
-
-def instrument(key):
-    _instruments = instruments()
-    return baca.instrument(
-        _instruments[key], selector=lambda _: abjad.select.leaf(_, 0)
-    )
-
-
-def leaves_in_measure(n, *, lleak=False, rleak=False):
-    def selector(argument):
-        result = baca.select.mleaves(argument, n)
-        if lleak is True:
-            result = baca.select.lleak(result)
-        if rleak is True:
-            result = baca.select.rleak(result)
-        return result
-
-    return selector
 
 
 def leaves_in_measure_function(argument, n, *, lleak=False, rleak=False):
@@ -660,102 +535,6 @@ def make_brass_sforzando_function(cache, *, measure):
             else:
                 raise ValueError(member)
             baca.pitch_function(o, pitch)
-
-
-def make_brass_sforzando_material(score, accumulator, measure):
-    name_to_pitch = {
-        "hn1": "C4",
-        "hn2": "Gb3",
-        "hn3": "F3",
-        "hn4": "E3",
-        "tp1": "D5",
-        "tp2": "Ab4",
-        "tp3": "G4",
-        "tp4": "F4",
-        "tbn1": "G4",
-        "tbn2": "Db4",
-        "tbn3": "C4",
-        "tbn4": "B3",
-        "tub": "C2",
-    }
-    for name, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(name, name)
-        voice = score[voice_name]
-        music = make_downbeat_attack(accumulator.get(measure))
-        voice.extend(music)
-        accumulator(
-            (voice_name, measure),
-            baca.marcato(selector=lambda _: baca.select.phead(_, 0)),
-        )
-        if voice_name[-1].isdigit():
-            words = abjad.string.delimit_words(voice_name)
-            member = int(words[-1])
-        else:
-            member = 1
-        if member in (1, 2):
-            accumulator(
-                (voice_name, measure),
-                baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0)),
-            )
-        elif member in (3, 4):
-            accumulator(
-                (voice_name, measure),
-                baca.only_parts(
-                    baca.dynamic("sffz", selector=lambda _: baca.select.phead(_, 0))
-                ),
-            )
-        else:
-            raise ValueError(member)
-        accumulator(
-            (voice_name, measure),
-            baca.pitch(pitch),
-        )
-
-
-def make_brass_sforzando_material_function(score, accumulator, measure):
-    name_to_pitch = {
-        "hn1": "C4",
-        "hn2": "Gb3",
-        "hn3": "F3",
-        "hn4": "E3",
-        "tp1": "D5",
-        "tp2": "Ab4",
-        "tp3": "G4",
-        "tp4": "F4",
-        "tbn1": "G4",
-        "tbn2": "Db4",
-        "tbn3": "C4",
-        "tbn4": "B3",
-        "tub": "C2",
-    }
-    for name, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(name, name)
-        voice = score[voice_name]
-        music = make_downbeat_attack(accumulator.get(measure))
-        voice.extend(music)
-    cache = baca.interpret.cache_leaves(
-        score,
-        len(accumulator.time_signatures),
-        voice_abbreviations,
-    )
-    for name, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(name, name)
-        m = cache[voice_name]
-        with baca.scope(m[measure]) as o:
-            baca.pitch_function(o, pitch)
-            baca.marcato_function(o.phead(0))
-            if voice_name[-1].isdigit():
-                words = abjad.string.delimit_words(voice_name)
-                member = int(words[-1])
-            else:
-                member = 1
-            if member in (1, 2):
-                baca.dynamic_function(o.phead(0), "sffz")
-            elif member in (3, 4):
-                wrappers = baca.dynamic_function(o.phead(0), "sffz")
-                baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-            else:
-                raise ValueError(member)
 
 
 def make_clb_rhythm(time_signatures, section, member, counts, wrap):
@@ -1165,21 +944,6 @@ markups = types.SimpleNamespace(
 )
 
 
-def short_instrument_name(
-    key, alert=None, context="Staff", selector=lambda _: abjad.select.leaf(_, 0)
-):
-    short_instrument_name = short_instrument_names[key]
-    command = baca.short_instrument_name(
-        short_instrument_name,
-        alert=alert,
-        context=context,
-        selector=selector,
-    )
-    command_ = baca.not_parts(command)
-    command_ = baca.tag(abjad.Tag("ANIMALES"), command_)
-    return command_
-
-
 def part_manifest():
     return (
         *[baca.Part("Flute", _) for _ in (1, 2, 3, 4)],
@@ -1224,28 +988,26 @@ def time_signatures():
     return time_signatures
 
 
-instruments = dict(
-    [
-        ("BassClarinet", abjad.BassClarinet()),
-        ("Bassoon", abjad.Bassoon()),
-        ("Cello", abjad.Cello()),
-        ("Clarinet", abjad.ClarinetInBFlat()),
-        ("Contrabass", abjad.Contrabass(pitch_range=abjad.PitchRange("[E1, D6]"))),
-        ("EnglishHorn", abjad.EnglishHorn()),
-        ("Flute", abjad.Flute()),
-        ("Harp", abjad.Harp()),
-        ("Horn", abjad.FrenchHorn()),
-        ("Oboe", abjad.Oboe()),
-        ("Percussion", abjad.Percussion()),
-        ("Piano", abjad.Piano()),
-        ("Trombone", abjad.TenorTrombone()),
-        ("Trumpet", abjad.Trumpet()),
-        ("Tuba", abjad.Tuba()),
-        ("Vibraphone", abjad.Vibraphone()),
-        ("Viola", abjad.Viola()),
-        ("Violin", abjad.Violin()),
-    ]
-)
+instruments = {
+    "BassClarinet": abjad.BassClarinet(),
+    "Bassoon": abjad.Bassoon(),
+    "Cello": abjad.Cello(),
+    "Clarinet": abjad.ClarinetInBFlat(),
+    "Contrabass": abjad.Contrabass(pitch_range=abjad.PitchRange("[E1, D6]")),
+    "EnglishHorn": abjad.EnglishHorn(),
+    "Flute": abjad.Flute(),
+    "Harp": abjad.Harp(),
+    "Horn": abjad.FrenchHorn(),
+    "Oboe": abjad.Oboe(),
+    "Percussion": abjad.Percussion(),
+    "Piano": abjad.Piano(),
+    "Trombone": abjad.TenorTrombone(),
+    "Trumpet": abjad.Trumpet(),
+    "Tuba": abjad.Tuba(),
+    "Vibraphone": abjad.Vibraphone(),
+    "Viola": abjad.Viola(),
+    "Violin": abjad.Violin(),
+}
 
 
 metronome_marks = {
