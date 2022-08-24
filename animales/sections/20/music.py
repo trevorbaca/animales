@@ -134,7 +134,7 @@ def make_score(
         library.voice_abbreviations,
     )
     library.make_battuti_function(
-        score, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
+        cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
     strings(cache, accumulator)
     return score, accumulator
