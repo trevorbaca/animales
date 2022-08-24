@@ -169,7 +169,7 @@ def make_score(
         library.voice_abbreviations,
     )
     library.make_battuti_function(
-        score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
+        cache, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
     brass(cache, accumulator)
     perc2(cache["perc2"], accumulator)

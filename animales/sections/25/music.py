@@ -200,7 +200,7 @@ def make_score(
         library.voice_abbreviations,
     )
     library.make_battuti_function(
-        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
+        cache, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
     )
     brass(cache, accumulator)
     percussion(cache, accumulator)

@@ -101,8 +101,13 @@ def make_score(
         library.manifests,
         previous_persistent_indicators,
     )
+    cache = baca.interpret.cache_leaves(
+        score,
+        len(accumulator.time_signatures),
+        library.voice_abbreviations,
+    )
     library.make_battuti_function(
-        score, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
+        cache, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
     )
     return score, accumulator
 

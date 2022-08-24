@@ -171,13 +171,17 @@ def make_score(
         library.manifests,
         previous_persistent_indicators,
     )
-    library.make_battuti_function(
-        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
-    )
     cache = baca.interpret.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
+    )
+    library.make_battuti_function(
+        cache,
+        accumulator,
+        [[1, -117, -117], [1, -118]],
+        (1, 3),
+        first=True,
     )
     strings(cache)
     return score, accumulator
@@ -198,7 +202,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),
         transpose_score=True,

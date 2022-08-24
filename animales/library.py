@@ -519,7 +519,7 @@ def MAKE_BATTUTI(
 
 
 def make_battuti_function(
-    score,
+    cache,
     accumulator,
     counts,
     range_,
@@ -543,22 +543,10 @@ def make_battuti_function(
         "Contrabasses": "Cb.",
     }
 
-    def upper_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-            baca.staff_position(1),
-        )
-
     def upper_voice_function(o):
         wrappers = baca.voice_one_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.staff_position_function(o, 1)
-
-    def lower_voice():
-        return baca.suite(
-            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-            baca.staff_position(-1),
-        )
 
     def lower_voice_function(o):
         wrappers = baca.voice_two_function(o.leaf(0))
@@ -571,41 +559,25 @@ def make_battuti_function(
         for member in range(1, members + 1):
             voice_name = f"{section}.Voice.{member}"
             part_name = section.removesuffix("s").removesuffix("e")
-            accumulator(
-                voice_name,
-                assign_part(part_name, member),
-            )
-            stack = []
-            if first:
-                markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
-                command = baca.markup(
-                    markup,
-                    selector=lambda _: abjad.select.leaf(_, 0),
-                )
-                command = baca.only_parts(command)
-                stack.append(command)
-                command = baca.staff_lines(
-                    1, selector=lambda _: abjad.select.leaf(_, 0)
-                )
-                stack.append(command)
-                command = baca.clef(
-                    "percussion", selector=lambda _: abjad.select.leaf(_, 0)
-                )
-                stack.append(command)
-            if first and member % 2 == 1:
-                short_instrument_name_ = section_name_to_short_instrument_name[section]
-                key = f"{short_instrument_name_} ({member}-{member+1})"
-                short_instrument_name_ = short_instrument_name(key)
-                stack.append(short_instrument_name_)
-            if member % 2 == 0:
-                polyphony = lower_voice()
-            else:
-                polyphony = upper_voice()
-            stack.append(polyphony)
-            accumulator(
-                (voice_name, range_),
-                *stack,
-            )
+            with baca.scope(cache[voice_name].leaves()) as o:
+                assign_part_function(o, part_name, member)
+            with baca.scope(cache[voice_name].get(*range_)) as o:
+                if first:
+                    markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
+                    wrappers = baca.markup_function(o.leaf(0), markup)
+                    baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+                    baca.staff_lines_function(o.leaf(0), 1)
+                    baca.clef_function(o.leaf(0), "percussion")
+                if first and member % 2 == 1:
+                    short_instrument_name_ = section_name_to_short_instrument_name[
+                        section
+                    ]
+                    key = f"{short_instrument_name_} ({member}-{member+1})"
+                    baca.short_instrument_name_function(o.leaf(0), key, manifests)
+                if member % 2 == 0:
+                    lower_voice_function(o)
+                else:
+                    upper_voice_function(o)
 
 
 def make_brass_manifest_rhythm(

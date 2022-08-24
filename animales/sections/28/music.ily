@@ -1021,8 +1021,7 @@ number.28.FirstViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -1225,8 +1224,7 @@ number.28.FirstViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2.
@@ -1474,8 +1472,7 @@ number.28.FirstViolins.Voice.3.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
@@ -1725,8 +1722,7 @@ number.28.FirstViolins.Voice.4.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r8
@@ -2021,8 +2017,7 @@ number.28.FirstViolins.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4.
@@ -2237,8 +2232,7 @@ number.28.FirstViolins.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4.
@@ -2491,8 +2485,7 @@ number.28.FirstViolins.Voice.7.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
@@ -2721,8 +2714,7 @@ number.28.FirstViolins.Voice.8.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         b8
@@ -3037,8 +3029,7 @@ number.28.FirstViolins.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -3244,8 +3235,7 @@ number.28.FirstViolins.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -3470,8 +3460,7 @@ number.28.FirstViolins.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r16
@@ -3678,8 +3667,7 @@ number.28.FirstViolins.Voice.12.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         b8
@@ -4006,8 +3994,7 @@ number.28.FirstViolins.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -4193,8 +4180,7 @@ number.28.FirstViolins.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -4419,8 +4405,7 @@ number.28.FirstViolins.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -4631,8 +4616,7 @@ number.28.FirstViolins.Voice.16.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -4894,8 +4878,7 @@ number.28.FirstViolins.Voice.17.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r1
@@ -5076,8 +5059,7 @@ number.28.FirstViolins.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
@@ -5333,8 +5315,7 @@ number.28.SecondViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8
@@ -5549,8 +5530,7 @@ number.28.SecondViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4..
@@ -5787,8 +5767,7 @@ number.28.SecondViolins.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -6069,8 +6048,7 @@ number.28.SecondViolins.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -6401,8 +6379,7 @@ number.28.SecondViolins.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r16
@@ -6590,8 +6567,7 @@ number.28.SecondViolins.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
@@ -6840,8 +6816,7 @@ number.28.SecondViolins.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r1
@@ -7074,8 +7049,7 @@ number.28.SecondViolins.Voice.8.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r4
@@ -7358,8 +7332,7 @@ number.28.SecondViolins.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r16
@@ -7532,8 +7505,7 @@ number.28.SecondViolins.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4.
@@ -7789,8 +7761,7 @@ number.28.SecondViolins.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4.
@@ -7986,8 +7957,7 @@ number.28.SecondViolins.Voice.12.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r4
@@ -8278,8 +8248,7 @@ number.28.SecondViolins.Voice.13.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         d'8
@@ -8537,8 +8506,7 @@ number.28.SecondViolins.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
@@ -8796,8 +8764,7 @@ number.28.SecondViolins.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -8978,8 +8945,7 @@ number.28.SecondViolins.Voice.16.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r8
@@ -9305,8 +9271,7 @@ number.28.SecondViolins.Voice.17.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         d'8
@@ -9576,8 +9541,7 @@ number.28.SecondViolins.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -9831,8 +9795,7 @@ number.28.Violas.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -10016,8 +9979,7 @@ number.28.Violas.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
@@ -10292,8 +10254,7 @@ number.28.Violas.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -10508,8 +10469,7 @@ number.28.Violas.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
@@ -10759,8 +10719,7 @@ number.28.Violas.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -10948,8 +10907,7 @@ number.28.Violas.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8
@@ -11210,8 +11168,7 @@ number.28.Violas.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -11426,8 +11383,7 @@ number.28.Violas.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -11749,8 +11705,7 @@ number.28.Violas.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -11926,8 +11881,7 @@ number.28.Violas.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r16
@@ -12172,8 +12126,7 @@ number.28.Violas.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -12361,8 +12314,7 @@ number.28.Violas.Voice.12.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r1
@@ -12652,8 +12604,7 @@ number.28.Violas.Voice.13.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
@@ -12884,8 +12835,7 @@ number.28.Violas.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r16
@@ -13110,8 +13060,7 @@ number.28.Violas.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4.
@@ -13315,8 +13264,7 @@ number.28.Violas.Voice.16.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -13610,8 +13558,7 @@ number.28.Violas.Voice.17.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
@@ -13832,8 +13779,7 @@ number.28.Violas.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
@@ -14094,8 +14040,7 @@ number.28.Cellos.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -14312,8 +14257,7 @@ number.28.Cellos.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -14558,8 +14502,7 @@ number.28.Cellos.Voice.3.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_one()
+          %! baca.voice_one_function()
         \voiceOne
           %! animales.make_clb_rhythm()
         r8
@@ -14822,8 +14765,7 @@ number.28.Cellos.Voice.4.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca._attach_persistent_indicator()
-          %! baca.voice_two()
+          %! baca.voice_two_function()
         \voiceTwo
           %! animales.make_clb_rhythm()
         b8
@@ -15150,8 +15092,7 @@ number.28.Cellos.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -15347,8 +15288,7 @@ number.28.Cellos.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -15573,8 +15513,7 @@ number.28.Cellos.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -15857,8 +15796,7 @@ number.28.Cellos.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -16114,8 +16052,7 @@ number.28.Cellos.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2.
@@ -16283,8 +16220,7 @@ number.28.Cellos.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
@@ -16529,8 +16465,7 @@ number.28.Cellos.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8
@@ -16734,8 +16669,7 @@ number.28.Cellos.Voice.12.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -17008,8 +16942,7 @@ number.28.Cellos.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_one()
+      %! baca.voice_one_function()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -17274,8 +17207,7 @@ number.28.Cellos.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.voice_two()
+      %! baca.voice_two_function()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.

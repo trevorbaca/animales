@@ -183,7 +183,7 @@ def make_score(
         library.voice_abbreviations,
     )
     library.make_battuti_function(
-        score,
+        cache,
         accumulator,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),

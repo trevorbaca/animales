@@ -143,7 +143,7 @@ def make_score(
     )
     library.attach_grand_pause_fermatas(accumulator, score, measure=4)
     library.make_battuti_function(
-        score,
+        cache,
         accumulator,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),
