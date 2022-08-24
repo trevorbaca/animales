@@ -7,9 +7,6 @@ from animales import library
 ########################################### 28 ##########################################
 #########################################################################################
 
-# previous_metadata = baca.previous_metadata(__file__)
-# start = 139
-
 
 def make_empty_score(previous_final_measure_number):
     assert previous_final_measure_number == 157
@@ -103,34 +100,22 @@ def PERCUSSION(score, accumulator):
 
 
 def percussion(cache, accumulator):
-    # perc1 (triangle)
-    accumulator(
-        "perc1",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 1),
-    )
-    # perc2 (cymbal)
-    accumulator(
-        "perc2",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 2),
-    )
-    # perc3 (BD)
-    accumulator(
-        "perc3",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 3),
-    )
-    # perc4 (tam-tam)
-    accumulator(
-        "perc4",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 4),
-    )
+    with baca.scope(cache["perc1"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 1)
+    with baca.scope(cache["perc2"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 2)
+    with baca.scope(cache["perc3"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 3)
+    with baca.scope(cache["perc4"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 4)
 
 
 def make_score(

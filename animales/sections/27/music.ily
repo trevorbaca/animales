@@ -304,8 +304,7 @@ number.27.Percussion.1.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -313,12 +312,12 @@ number.27.Percussion.1.Music.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \p
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -352,8 +351,7 @@ number.27.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -373,8 +371,7 @@ number.27.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -481,8 +478,7 @@ number.27.Percussion.2.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -529,8 +525,7 @@ number.27.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -550,8 +545,7 @@ number.27.Percussion.2.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -658,8 +652,7 @@ number.27.Percussion.3.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -706,8 +699,7 @@ number.27.Percussion.3.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -727,8 +719,7 @@ number.27.Percussion.3.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -841,8 +832,7 @@ number.27.Percussion.4.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -889,8 +879,7 @@ number.27.Percussion.4.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -910,8 +899,7 @@ number.27.Percussion.4.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -10436,12 +10424,12 @@ number.27.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \fff
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -10450,27 +10438,27 @@ number.27.Contrabasses.Voice.3.container = {
     % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     - \tweak bound-details.right.padding 0.5
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     - \tweak bound-details.right.stencil-align-dir-y #center
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     - \abjad-dashed-line-with-arrow
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     - \baca-text-spanner-left-text "ord."
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     - \baca-text-spanner-right-text "ext. pont."
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     \startTextSpan
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -10518,7 +10506,7 @@ number.27.Contrabasses.Voice.3.container = {
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
-      %! baca.text_spanner()
+      %! baca.text_spanner_function()
     \stopTextSpan
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()

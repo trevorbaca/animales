@@ -7,9 +7,6 @@ from animales import library
 ########################################### 26 ##########################################
 #########################################################################################
 
-# previous_metadata = baca.previous_metadata(__file__)
-# start = 133
-
 
 def make_empty_score(previous_final_measure_number):
     assert previous_final_measure_number == 151
@@ -151,39 +148,28 @@ def brass(cache, accumulator):
 
 
 def percussion(cache, accumulator):
-    # perc2 (cymbal)
-    accumulator(
-        "perc2",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 2),
-    )
-    # perc3 (BD)
-    accumulator(
-        "perc3",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 3),
-    )
-    # perc4 (tam-tam)
-    accumulator(
-        "perc4",
-        baca.staff_position(0),
-        baca.stem_tremolo(selector=lambda _: baca.select.pleaves(_)),
-        library.assign_part("Percussion", 4),
-    )
+    with baca.scope(cache["perc2"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 2)
+    with baca.scope(cache["perc3"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 3)
+    with baca.scope(cache["perc4"].leaves()) as o:
+        baca.staff_position_function(o, 0)
+        baca.stem_tremolo_function(o.pleaves())
+        library.assign_part_function(o, "Percussion", 4)
 
 
 def cb3(m, accumulator):
-    accumulator(
-        "cb3",
-        baca.clef("bass", selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.staff_lines(5, selector=lambda _: abjad.select.leaf(_, 0)),
-        baca.pitch("C#2"),
-        baca.markup(r"\baca-arco-markup", selector=lambda _: baca.select.pleaf(_, 0)),
-        baca.hairpin("p <", right_broken=True),
-        library.assign_part("Contrabass", (1, 6)),
-    )
+    with baca.scope(m.leaves()) as o:
+        baca.clef_function(o.leaf(0), "bass")
+        baca.staff_lines_function(o.leaf(0), 5)
+        baca.pitch_function(o, "C#2")
+        baca.markup_function(o.pleaf(0), r"\baca-arco-markup")
+        baca.hairpin_function(o, "p <", right_broken=True)
+        library.assign_part_function(o, "Contrabass", (1, 6))
 
 
 def make_score(

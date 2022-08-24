@@ -89,31 +89,28 @@ def SKIPS(score):
     )
 
 
-def strings(cache, accumulator):
-    accumulator(
-        ["1vn8", "1vn9", "1vn12", "1vn13", "1vn15"],
-        baca.instrument(
-            library.instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["2vn7", "2vn9", "2vn13", "2vn15", "2vn17"],
-        baca.instrument(
-            library.instruments["Violin"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["va7", "va9", "va13"],
-        baca.instrument(
-            library.instruments["Viola"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
-    accumulator(
-        ["vc4", "vc7", "vc9", "vc14"],
-        baca.instrument(
-            library.instruments["Cello"], selector=lambda _: abjad.select.leaf(_, 0)
-        ),
-    )
+def strings(cache):
+    for name, instrument in (
+        ("1vn8", "Violin"),
+        ("1vn9", "Violin"),
+        ("1vn12", "Violin"),
+        ("1vn13", "Violin"),
+        ("1vn15", "Violin"),
+        ("2vn7", "Violin"),
+        ("2vn9", "Violin"),
+        ("2vn13", "Violin"),
+        ("2vn15", "Violin"),
+        ("2vn17", "Violin"),
+        ("va7", "Viola"),
+        ("va9", "Viola"),
+        ("va13", "Viola"),
+        ("vc4", "Cello"),
+        ("vc7", "Cello"),
+        ("vc9", "Cello"),
+        ("vc14", "Cello"),
+    ):
+        with baca.scope(cache[name].leaves()) as o:
+            baca.instrument_function(o.leaf(0), instrument, library.manifests)
 
 
 def make_score(
@@ -136,7 +133,7 @@ def make_score(
     library.make_battuti_function(
         cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
-    strings(cache, accumulator)
+    strings(cache)
     return score, accumulator
 
 
@@ -155,7 +152,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

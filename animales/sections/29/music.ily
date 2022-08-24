@@ -355,8 +355,7 @@ number.29.Percussion.1.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -403,8 +402,7 @@ number.29.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -424,8 +422,7 @@ number.29.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca._attach_persistent_indicator()
-      %! baca.stem_tremolo()
+      %! baca.stem_tremolo_function()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -440,12 +437,10 @@ number.29.Percussion.1.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.literal()
+      %! baca.literal_function()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.literal()
+      %! baca.literal_function()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
     R1 * 1/4
@@ -455,8 +450,7 @@ number.29.Percussion.1.Music.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca._attach_persistent_indicator()
-      %! baca.markup()
+      %! baca.markup_function()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % CLOSING:
     % COMMANDS:
@@ -674,12 +668,10 @@ number.29.FirstViolins.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -696,8 +688,7 @@ number.29.FirstViolins.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -846,12 +837,10 @@ number.29.FirstViolins.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -868,8 +857,7 @@ number.29.FirstViolins.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1163,12 +1151,10 @@ number.29.FirstViolins.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1185,8 +1171,7 @@ number.29.FirstViolins.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1354,12 +1339,10 @@ number.29.FirstViolins.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1376,8 +1359,7 @@ number.29.FirstViolins.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1635,12 +1617,10 @@ number.29.FirstViolins.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1657,8 +1637,7 @@ number.29.FirstViolins.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1810,12 +1789,10 @@ number.29.FirstViolins.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1832,8 +1809,7 @@ number.29.FirstViolins.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2074,12 +2050,10 @@ number.29.FirstViolins.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2096,8 +2070,7 @@ number.29.FirstViolins.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2266,12 +2239,10 @@ number.29.FirstViolins.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2288,8 +2259,7 @@ number.29.FirstViolins.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2511,12 +2481,10 @@ number.29.FirstViolins.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2533,8 +2501,7 @@ number.29.FirstViolins.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2696,12 +2663,10 @@ number.29.FirstViolins.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2718,8 +2683,7 @@ number.29.FirstViolins.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2961,12 +2925,10 @@ number.29.FirstViolins.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2983,8 +2945,7 @@ number.29.FirstViolins.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3145,12 +3106,10 @@ number.29.FirstViolins.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3167,8 +3126,7 @@ number.29.FirstViolins.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3438,12 +3396,10 @@ number.29.FirstViolins.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3460,8 +3416,7 @@ number.29.FirstViolins.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3603,12 +3558,10 @@ number.29.FirstViolins.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3625,8 +3578,7 @@ number.29.FirstViolins.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3878,12 +3830,10 @@ number.29.FirstViolins.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3900,8 +3850,7 @@ number.29.FirstViolins.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4081,12 +4030,10 @@ number.29.FirstViolins.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4103,8 +4050,7 @@ number.29.FirstViolins.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4346,12 +4292,10 @@ number.29.FirstViolins.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4368,8 +4312,7 @@ number.29.FirstViolins.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4526,12 +4469,10 @@ number.29.FirstViolins.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4548,8 +4489,7 @@ number.29.FirstViolins.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4803,12 +4743,10 @@ number.29.SecondViolins.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4825,8 +4763,7 @@ number.29.SecondViolins.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4995,12 +4932,10 @@ number.29.SecondViolins.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5017,8 +4952,7 @@ number.29.SecondViolins.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5294,12 +5228,10 @@ number.29.SecondViolins.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5316,8 +5248,7 @@ number.29.SecondViolins.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5509,12 +5440,10 @@ number.29.SecondViolins.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5531,8 +5460,7 @@ number.29.SecondViolins.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5769,12 +5697,10 @@ number.29.SecondViolins.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5791,8 +5717,7 @@ number.29.SecondViolins.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5934,12 +5859,10 @@ number.29.SecondViolins.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5956,8 +5879,7 @@ number.29.SecondViolins.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6251,12 +6173,10 @@ number.29.SecondViolins.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6273,8 +6193,7 @@ number.29.SecondViolins.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6430,12 +6349,10 @@ number.29.SecondViolins.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6452,8 +6369,7 @@ number.29.SecondViolins.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6685,12 +6601,10 @@ number.29.SecondViolins.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6707,8 +6621,7 @@ number.29.SecondViolins.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6870,12 +6783,10 @@ number.29.SecondViolins.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6892,8 +6803,7 @@ number.29.SecondViolins.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7115,12 +7025,10 @@ number.29.SecondViolins.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7137,8 +7045,7 @@ number.29.SecondViolins.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7336,12 +7243,10 @@ number.29.SecondViolins.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7358,8 +7263,7 @@ number.29.SecondViolins.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7605,12 +7509,10 @@ number.29.SecondViolins.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7627,8 +7529,7 @@ number.29.SecondViolins.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7785,12 +7686,10 @@ number.29.SecondViolins.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7807,8 +7706,7 @@ number.29.SecondViolins.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8050,12 +7948,10 @@ number.29.SecondViolins.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8072,8 +7968,7 @@ number.29.SecondViolins.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8229,12 +8124,10 @@ number.29.SecondViolins.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8251,8 +8144,7 @@ number.29.SecondViolins.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8512,12 +8404,10 @@ number.29.SecondViolins.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8534,8 +8424,7 @@ number.29.SecondViolins.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8667,12 +8556,10 @@ number.29.SecondViolins.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8689,8 +8576,7 @@ number.29.SecondViolins.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8959,12 +8845,10 @@ number.29.Violas.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8981,8 +8865,7 @@ number.29.Violas.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9151,12 +9034,10 @@ number.29.Violas.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9173,8 +9054,7 @@ number.29.Violas.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9431,12 +9311,10 @@ number.29.Violas.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9453,8 +9331,7 @@ number.29.Violas.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9646,12 +9523,10 @@ number.29.Violas.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9668,8 +9543,7 @@ number.29.Violas.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9896,12 +9770,10 @@ number.29.Violas.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9918,8 +9790,7 @@ number.29.Violas.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10086,12 +9957,10 @@ number.29.Violas.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10108,8 +9977,7 @@ number.29.Violas.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10379,12 +10247,10 @@ number.29.Violas.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10401,8 +10267,7 @@ number.29.Violas.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10553,12 +10418,10 @@ number.29.Violas.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10575,8 +10438,7 @@ number.29.Violas.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10818,12 +10680,10 @@ number.29.Violas.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10840,8 +10700,7 @@ number.29.Violas.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10988,12 +10847,10 @@ number.29.Violas.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11010,8 +10867,7 @@ number.29.Violas.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11253,12 +11109,10 @@ number.29.Violas.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11275,8 +11129,7 @@ number.29.Violas.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11456,12 +11309,10 @@ number.29.Violas.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11478,8 +11329,7 @@ number.29.Violas.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11749,12 +11599,10 @@ number.29.Violas.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11771,8 +11619,7 @@ number.29.Violas.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11924,12 +11771,10 @@ number.29.Violas.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11946,8 +11791,7 @@ number.29.Violas.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12174,12 +12018,10 @@ number.29.Violas.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12196,8 +12038,7 @@ number.29.Violas.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12401,12 +12242,10 @@ number.29.Violas.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12423,8 +12262,7 @@ number.29.Violas.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12671,12 +12509,10 @@ number.29.Violas.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12693,8 +12529,7 @@ number.29.Violas.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12841,12 +12676,10 @@ number.29.Violas.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12863,8 +12696,7 @@ number.29.Violas.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13133,12 +12965,10 @@ number.29.Cellos.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13155,8 +12985,7 @@ number.29.Cellos.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13305,12 +13134,10 @@ number.29.Cellos.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13327,8 +13154,7 @@ number.29.Cellos.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13606,12 +13432,10 @@ number.29.Cellos.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13628,8 +13452,7 @@ number.29.Cellos.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13790,12 +13613,10 @@ number.29.Cellos.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13812,8 +13633,7 @@ number.29.Cellos.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14060,12 +13880,10 @@ number.29.Cellos.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14082,8 +13900,7 @@ number.29.Cellos.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14235,12 +14052,10 @@ number.29.Cellos.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14257,8 +14072,7 @@ number.29.Cellos.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14504,12 +14318,10 @@ number.29.Cellos.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14526,8 +14338,7 @@ number.29.Cellos.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14691,12 +14502,10 @@ number.29.Cellos.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14713,8 +14522,7 @@ number.29.Cellos.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14936,12 +14744,10 @@ number.29.Cellos.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14958,8 +14764,7 @@ number.29.Cellos.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15121,12 +14926,10 @@ number.29.Cellos.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15143,8 +14946,7 @@ number.29.Cellos.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15391,12 +15193,10 @@ number.29.Cellos.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15413,8 +15213,7 @@ number.29.Cellos.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15570,12 +15369,10 @@ number.29.Cellos.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15592,8 +15389,7 @@ number.29.Cellos.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15864,12 +15660,10 @@ number.29.Cellos.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15886,8 +15680,7 @@ number.29.Cellos.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -16034,12 +15827,10 @@ number.29.Cellos.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.literal()
+              %! baca.literal_function()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -16056,8 +15847,7 @@ number.29.Cellos.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca._attach_persistent_indicator()
-              %! baca.markup()
+              %! baca.markup_function()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
