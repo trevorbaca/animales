@@ -105,7 +105,7 @@ def SKIPS(score):
 
 
 def BRASS(score, accumulator):
-    library.make_brass_sforzando_material(score, accumulator, 1)
+    library.MAKE_BRASS_SFORZANDO(score, accumulator, 1)
     for abbreviation in [
         "hn1",
         "hn2",
@@ -126,8 +126,9 @@ def BRASS(score, accumulator):
         voice.extend(music)
 
 
-def brass(cache, accumulator):
-    library.assign_brass_sforzando_parts(accumulator)
+def brass(cache):
+    library.assign_brass_sforzando_parts_function(cache)
+    library.make_brass_sforzando_function(cache, measure=1)
 
 
 def make_score(
@@ -148,10 +149,10 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
+    brass(cache)
     library.make_battuti_function(
         cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
-    brass(cache, accumulator)
     return score, accumulator
 
 
@@ -170,7 +171,6 @@ def main():
         activate=(baca.tags.LOCAL_MEASURE_NUMBER,),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        commands=accumulator.commands,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )

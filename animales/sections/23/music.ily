@@ -286,20 +286,19 @@ number.23.Horns.Voice.1.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -389,8 +388,7 @@ number.23.Horns.Voice.3.container = {
     c'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -399,13 +397,13 @@ number.23.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -533,20 +531,19 @@ number.23.Horns.Voice.2.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -636,8 +633,7 @@ number.23.Horns.Voice.4.container = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -646,13 +642,13 @@ number.23.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -780,20 +776,19 @@ number.23.Trumpets.Voice.1.container = {
     d''8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -883,8 +878,7 @@ number.23.Trumpets.Voice.3.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -893,13 +887,13 @@ number.23.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1027,20 +1021,19 @@ number.23.Trumpets.Voice.2.container = {
     af'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1130,8 +1123,7 @@ number.23.Trumpets.Voice.4.container = {
     f'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1140,13 +1132,13 @@ number.23.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1274,20 +1266,19 @@ number.23.Trombones.Voice.1.container = {
     g'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1377,8 +1368,7 @@ number.23.Trombones.Voice.3.container = {
     c'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1387,13 +1377,13 @@ number.23.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1521,20 +1511,19 @@ number.23.Trombones.Voice.2.container = {
     df'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1624,8 +1613,7 @@ number.23.Trombones.Voice.4.container = {
     b8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1634,13 +1622,13 @@ number.23.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% - \tweak color #(x11-color 'blue)
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
 %%% \baca-sffz
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1765,20 +1753,19 @@ number.23.Tuba.Music.container = {
     c,8
     % AFTER:
     % ARTICULATIONS:
-      %! baca._attach_persistent_indicator()
-      %! baca.marcato()
+      %! baca.marcato_function()
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic()
+      %! baca.dynamic_function()
     \baca-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT

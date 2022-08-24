@@ -604,6 +604,64 @@ def make_brass_manifest_rhythm(
     return music, state
 
 
+def MAKE_BRASS_SFORZANDO(score, accumulator, measure):
+    name_to_pitch = {
+        "hn1": "C4",
+        "hn2": "Gb3",
+        "hn3": "F3",
+        "hn4": "E3",
+        "tp1": "D5",
+        "tp2": "Ab4",
+        "tp3": "G4",
+        "tp4": "F4",
+        "tbn1": "G4",
+        "tbn2": "Db4",
+        "tbn3": "C4",
+        "tbn4": "B3",
+        "tub": "C2",
+    }
+    for name, pitch in name_to_pitch.items():
+        voice_name = voice_abbreviations.get(name, name)
+        voice = score[voice_name]
+        music = make_downbeat_attack(accumulator.get(measure))
+        voice.extend(music)
+
+
+def make_brass_sforzando_function(cache, *, measure):
+    name_to_pitch = {
+        "hn1": "C4",
+        "hn2": "Gb3",
+        "hn3": "F3",
+        "hn4": "E3",
+        "tp1": "D5",
+        "tp2": "Ab4",
+        "tp3": "G4",
+        "tp4": "F4",
+        "tbn1": "G4",
+        "tbn2": "Db4",
+        "tbn3": "C4",
+        "tbn4": "B3",
+        "tub": "C2",
+    }
+    for name, pitch in name_to_pitch.items():
+        voice_name = voice_abbreviations.get(name, name)
+        with baca.scope(cache[name][measure]) as o:
+            baca.marcato_function(o.phead(0))
+            if voice_name[-1].isdigit():
+                words = abjad.string.delimit_words(voice_name)
+                member = int(words[-1])
+            else:
+                member = 1
+            if member in (1, 2):
+                baca.dynamic_function(o.phead(0), "sffz")
+            elif member in (3, 4):
+                wrappers = baca.dynamic_function(o.phead(0), "sffz")
+                baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            else:
+                raise ValueError(member)
+            baca.pitch_function(o, pitch)
+
+
 def make_brass_sforzando_material(score, accumulator, measure):
     name_to_pitch = {
         "hn1": "C4",
@@ -620,8 +678,8 @@ def make_brass_sforzando_material(score, accumulator, measure):
         "tbn4": "B3",
         "tub": "C2",
     }
-    for abbreviation, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
+    for name, pitch in name_to_pitch.items():
+        voice_name = voice_abbreviations.get(name, name)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
@@ -670,8 +728,8 @@ def make_brass_sforzando_material_function(score, accumulator, measure):
         "tbn4": "B3",
         "tub": "C2",
     }
-    for abbreviation, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
+    for name, pitch in name_to_pitch.items():
+        voice_name = voice_abbreviations.get(name, name)
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
@@ -680,8 +738,8 @@ def make_brass_sforzando_material_function(score, accumulator, measure):
         len(accumulator.time_signatures),
         voice_abbreviations,
     )
-    for abbreviation, pitch in name_to_pitch.items():
-        voice_name = voice_abbreviations.get(abbreviation, abbreviation)
+    for name, pitch in name_to_pitch.items():
+        voice_name = voice_abbreviations.get(name, name)
         m = cache[voice_name]
         with baca.scope(m[measure]) as o:
             baca.pitch_function(o, pitch)
