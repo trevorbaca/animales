@@ -172,12 +172,8 @@ def make_score(
         omit_contrabasses=True,
     )
     CB3(accumulator.voice("cb3"), accumulator)
-    names = [
-        library.voice_abbreviations[_]
-        for _ in ["perc1", "perc2", "perc3", "perc4", "cb3"]
-    ]
     baca.reapply(
-        accumulator.voices(names),
+        accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
     )

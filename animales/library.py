@@ -497,7 +497,7 @@ def MAKE_BATTUTI(
         "Cellos": 14,
         "Contrabasses": 6,
     }
-    duration = sum([_.duration for _ in accumulator.time_signatures])
+    duration = sum([_.duration for _ in accumulator.get()])
     assert isinstance(duration, abjad.Duration), repr(duration)
     wrap = duration.with_denominator(16).numerator
     for section, members in section_name_to_member_count.items():
@@ -549,21 +549,27 @@ def make_battuti_function(
             baca.staff_position(1),
         )
 
+    def upper_voice_function(o):
+        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.staff_position_function(o, 1)
+
     def lower_voice():
         return baca.suite(
             baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
             baca.staff_position(-1),
         )
 
+    def lower_voice_function(o):
+        wrappers = baca.voice_two_function(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.staff_position_function(o, -1)
+
     for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
             continue
         for member in range(1, members + 1):
             voice_name = f"{section}.Voice.{member}"
-            accumulator(
-                voice_name,
-                baca.reapply_persistent_indicators(),
-            )
             part_name = section.removesuffix("s").removesuffix("e")
             accumulator(
                 voice_name,
@@ -653,9 +659,7 @@ def make_brass_manifest_rhythm(
     return music, state
 
 
-def make_brass_sforzando_material(
-    score, accumulator, measure, *, reapply_persistent_indicators=False
-):
+def make_brass_sforzando_material(score, accumulator, measure):
     voice_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
@@ -676,11 +680,6 @@ def make_brass_sforzando_material(
         voice = score[voice_name]
         music = make_downbeat_attack(accumulator.get(measure))
         voice.extend(music)
-        if reapply_persistent_indicators:
-            accumulator(
-                (voice_name, measure),
-                baca.reapply_persistent_indicators(),
-            )
         accumulator(
             (voice_name, measure),
             baca.marcato(selector=lambda _: baca.select.phead(_, 0)),
@@ -710,14 +709,7 @@ def make_brass_sforzando_material(
         )
 
 
-def make_brass_sforzando_material_function(
-    score,
-    accumulator,
-    measure,
-    *,
-    previous_persistent_indicators=None,
-    reapply_persistent_indicators=False,
-):
+def make_brass_sforzando_material_function(score, accumulator, measure):
     voice_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
@@ -743,18 +735,8 @@ def make_brass_sforzando_material_function(
         len(accumulator.time_signatures),
         voice_abbreviations,
     )
-    if reapply_persistent_indicators:
-        assert previous_persistent_indicators is not None
-        runtime = {
-            "already_reapplied_contexts": {"Score"},
-            "manifests": manifests,
-            "previous_persistent_indicators": previous_persistent_indicators,
-        }
     for abbreviation, pitch in voice_to_pitch.items():
         voice_name = voice_abbreviations.get(abbreviation, abbreviation)
-        if reapply_persistent_indicators:
-            voice = score[voice_name]
-            baca.reapply_persistent_indicators_function(voice, runtime=runtime)
         m = cache[voice_name]
         with baca.scope(m[measure]) as o:
             baca.pitch_function(o, pitch)

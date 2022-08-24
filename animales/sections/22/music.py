@@ -96,6 +96,11 @@ def make_score(
     score, accumulator = make_empty_score(previous_final_measure_number)
     SKIPS(score)
     library.MAKE_BATTUTI(score, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3))
+    baca.reapply(
+        accumulator.voices(),
+        library.manifests,
+        previous_persistent_indicators,
+    )
     library.make_battuti_function(
         score, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
     )
