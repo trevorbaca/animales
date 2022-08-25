@@ -36,15 +36,6 @@ def make_empty_score():
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
-        score,
-        accumulator.time_signatures,
-        accumulator,
-        library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-        first_section=True,
-    )
     return score, accumulator
 
 
@@ -190,6 +181,15 @@ def strings(cache, accumulator, names):
 
 def make_score():
     score, accumulator = make_empty_score()
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_section=True,
+    )
     SKIPS(score["Skips"], accumulator)
     PERCUSSION(score, accumulator)
     voice_name_to_parameter_to_state = {}

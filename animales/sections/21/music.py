@@ -67,14 +67,6 @@ def make_empty_score(previous_final_measure_number):
         _voice_abbreviations=library.voice_abbreviations,
         _voice_names=voice_names,
     )
-    baca.interpret.set_up_score(
-        score,
-        accumulator.time_signatures,
-        accumulator,
-        library.manifests,
-        append_anchor_skip=True,
-        always_make_global_rests=True,
-    )
     return score, accumulator
 
 
@@ -90,10 +82,20 @@ def SKIPS(score):
 
 
 def make_score(
-    previous_final_measure_number,
+    first_measure_number,
     previous_persistent_indicators,
 ):
-    score, accumulator = make_empty_score(previous_final_measure_number)
+    score, accumulator = make_empty_score(first_measure_number - 1)
+    baca.interpret.set_up_score(
+        score,
+        accumulator.time_signatures,
+        accumulator,
+        library.manifests,
+        append_anchor_skip=True,
+        always_make_global_rests=True,
+        first_measure_number=first_measure_number,
+        previous_persistent_indicators=previous_persistent_indicators,
+    )
     SKIPS(score)
     library.MAKE_BATTUTI(score, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3))
     baca.reapply(
@@ -114,9 +116,10 @@ def make_score(
 
 def main():
     previous_metadata = baca.previous_metadata(__file__)
+    first_measure_number = previous_metadata["final_measure_number"] + 1
     previous_persist = baca.previous_persist(__file__)
     score, accumulator = make_score(
-        previous_metadata["final_measure_number"],
+        first_measure_number,
         previous_persist["persistent_indicators"],
     )
     metadata, persist, timing = baca.build.section(
@@ -128,6 +131,7 @@ def main():
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        first_measure_number=first_measure_number,
         transpose_score=True,
     )
     lilypond_file = baca.lilypond.file(
