@@ -73,14 +73,6 @@ def SKIPS(score):
     )
 
 
-def swell(peak):
-    return baca.hairpin(
-        f"niente o< {peak} >o niente",
-        pieces=lambda _: baca.select.mgroups(_, [2, 3, 1]),
-        selector=lambda _: baca.select.rleaves(_),
-    )
-
-
 def swell_function(argument, peak):
     return baca.hairpin_function(
         baca.select.rleaves(argument),
