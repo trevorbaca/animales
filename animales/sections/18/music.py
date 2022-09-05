@@ -132,19 +132,6 @@ def STRINGS(score, accumulator, string_parts):
 
 
 def strings(cache, accumulator, string_parts):
-    def upper_voice():
-        return baca.suite(
-            baca.only_parts(baca.text_spanner_staff_padding(5)),
-            baca.not_parts(baca.voice_one(selector=lambda _: abjad.select.leaf(_, 0))),
-            baca.not_parts(
-                baca.dynamic_text_stencil_false(
-                    selector=lambda _: baca.select.leaves(_)
-                )
-            ),
-            baca.not_parts(baca.hairpin_stencil_false()),
-            baca.not_parts(baca.text_spanner_stencil_false()),
-        )
-
     def upper_voice_function(o):
         wrappers = baca.text_spanner_staff_padding_function(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
@@ -157,32 +144,11 @@ def strings(cache, accumulator, string_parts):
         wrappers = baca.text_spanner_stencil_false_function(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
-    def lower_voice(n=5):
-        return baca.suite(
-            baca.not_parts(baca.voice_two(selector=lambda _: abjad.select.leaf(_, 0))),
-            baca.not_parts(baca.text_spanner_staff_padding(n)),
-        )
-
     def lower_voice_function(o, n=5):
         wrappers = baca.voice_two_function(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.text_spanner_staff_padding_function(o, n)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-
-    def tremolo(peak="f"):
-        return baca.suite(
-            baca.stem_tremolo(
-                selector=lambda _: baca.select.pleaves(_, exclude=baca.enums.HIDDEN),
-            ),
-            baca.text_spanner(
-                "tasto => ext. pont. => tasto",
-                pieces=lambda _: baca.select.cmgroups(_, [2]),
-            ),
-            baca.hairpin(
-                f"niente o< {peak} >o niente",
-                pieces=lambda _: baca.select.mgroups(_, [2, 2]),
-            ),
-        )
 
     def tremolo_function(o, peak="f"):
         baca.stem_tremolo_function(o.pleaves())
