@@ -905,10 +905,10 @@ number.12.Horns.Voice.1.container = {
       %! baca.voice_one_function()
     \voiceOne
       %! +PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
 %%% fs'!8
       %! -PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
     fs'!8 %@%
     % AFTER:
     % ARTICULATIONS:
@@ -2190,10 +2190,10 @@ number.12.Trumpets.Voice.4.container = {
       %! baca.voice_two_function()
     \voiceTwo
       %! +PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
 %%% g'8
       %! -PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
     g'!8 %@%
     % AFTER:
     % ARTICULATIONS:
@@ -2939,10 +2939,10 @@ number.12.Trombones.Voice.4.container = {
       %! baca.voice_two_function()
     \voiceTwo
       %! +PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
 %%% g8
       %! -PARTS
-      %! baca._do_accidental_adjustment_command()
+      %! baca.force_accidental_function()
     g!8 %@%
     % AFTER:
     % ARTICULATIONS:
