@@ -614,7 +614,7 @@ number.17.Oboe.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % ARTICULATIONS:
@@ -680,7 +680,7 @@ number.17.Oboe.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -688,14 +688,14 @@ number.17.Oboe.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % ARTICULATIONS:
@@ -744,14 +744,14 @@ number.17.Oboe.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % SPANNER_STARTS:
@@ -759,18 +759,18 @@ number.17.Oboe.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -928,7 +928,7 @@ number.17.EnglishHorn.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % ARTICULATIONS:
@@ -994,7 +994,7 @@ number.17.EnglishHorn.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1002,14 +1002,14 @@ number.17.EnglishHorn.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % ARTICULATIONS:
@@ -1058,14 +1058,14 @@ number.17.EnglishHorn.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % SPANNER_STARTS:
@@ -1073,18 +1073,18 @@ number.17.EnglishHorn.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1245,7 +1245,7 @@ number.17.Bassoons.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % ARTICULATIONS:
@@ -1318,7 +1318,7 @@ number.17.Bassoons.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1326,14 +1326,14 @@ number.17.Bassoons.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % ARTICULATIONS:
@@ -1390,14 +1390,14 @@ number.17.Bassoons.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % SPANNER_STARTS:
@@ -1405,18 +1405,18 @@ number.17.Bassoons.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1533,7 +1533,7 @@ number.17.Bassoons.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % ARTICULATIONS:
@@ -1581,7 +1581,7 @@ number.17.Bassoons.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1589,14 +1589,14 @@ number.17.Bassoons.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % ARTICULATIONS:
@@ -1645,14 +1645,14 @@ number.17.Bassoons.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % SPANNER_STARTS:
@@ -1660,18 +1660,18 @@ number.17.Bassoons.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7493,7 +7493,7 @@ number.17.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7548,7 +7548,7 @@ number.17.FirstViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7562,14 +7562,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7635,14 +7635,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7656,14 +7656,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7677,14 +7677,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7698,14 +7698,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7719,14 +7719,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7759,14 +7759,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7780,14 +7780,14 @@ number.17.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -7797,7 +7797,7 @@ number.17.FirstViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -7857,7 +7857,7 @@ number.17.FirstViolins.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7892,7 +7892,7 @@ number.17.FirstViolins.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -7906,14 +7906,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -7979,14 +7979,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8000,14 +8000,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8021,14 +8021,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8042,14 +8042,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8063,14 +8063,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8103,14 +8103,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8124,14 +8124,14 @@ number.17.FirstViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8141,7 +8141,7 @@ number.17.FirstViolins.Voice.2.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -8255,7 +8255,7 @@ number.17.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8307,7 +8307,7 @@ number.17.FirstViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8321,14 +8321,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8394,14 +8394,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8415,14 +8415,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8436,14 +8436,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8457,14 +8457,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8478,14 +8478,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8518,14 +8518,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8539,14 +8539,14 @@ number.17.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8556,7 +8556,7 @@ number.17.FirstViolins.Voice.3.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -8616,7 +8616,7 @@ number.17.FirstViolins.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8651,7 +8651,7 @@ number.17.FirstViolins.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8665,14 +8665,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8738,14 +8738,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8759,14 +8759,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8780,14 +8780,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8801,14 +8801,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -8822,14 +8822,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8862,14 +8862,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''1
     % AFTER:
     % STEM_TREMOLOS:
@@ -8883,14 +8883,14 @@ number.17.FirstViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d''2
     % AFTER:
     % STEM_TREMOLOS:
@@ -8900,7 +8900,7 @@ number.17.FirstViolins.Voice.4.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -8996,7 +8996,7 @@ number.17.FirstViolins.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'!2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9043,7 +9043,7 @@ number.17.FirstViolins.Voice.5.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9054,14 +9054,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9072,14 +9072,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9090,14 +9090,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9108,14 +9108,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9126,14 +9126,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9144,14 +9144,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9162,14 +9162,14 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9180,21 +9180,21 @@ number.17.FirstViolins.Voice.5.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     cs'2
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % CLOSING:
     % COMMANDS:
@@ -9295,7 +9295,7 @@ number.17.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9347,7 +9347,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9361,14 +9361,14 @@ number.17.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9430,9 +9430,9 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9443,7 +9443,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9453,9 +9453,9 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9466,7 +9466,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9476,9 +9476,9 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9489,7 +9489,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9503,14 +9503,14 @@ number.17.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9524,14 +9524,14 @@ number.17.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9560,9 +9560,9 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca.text_spanner()
     \stopTextSpan
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9573,7 +9573,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9583,9 +9583,9 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -9596,7 +9596,7 @@ number.17.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -9606,7 +9606,7 @@ number.17.SecondViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -9666,7 +9666,7 @@ number.17.SecondViolins.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9701,7 +9701,7 @@ number.17.SecondViolins.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9715,14 +9715,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9788,14 +9788,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9809,14 +9809,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9830,14 +9830,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9851,14 +9851,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -9872,14 +9872,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9912,14 +9912,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -9933,14 +9933,14 @@ number.17.SecondViolins.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -9950,7 +9950,7 @@ number.17.SecondViolins.Voice.2.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -10064,7 +10064,7 @@ number.17.SecondViolins.Voice.3.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10116,7 +10116,7 @@ number.17.SecondViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10130,14 +10130,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10203,14 +10203,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10224,14 +10224,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10245,14 +10245,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10266,14 +10266,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10287,14 +10287,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10327,14 +10327,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10348,14 +10348,14 @@ number.17.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -10365,7 +10365,7 @@ number.17.SecondViolins.Voice.3.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -10425,7 +10425,7 @@ number.17.SecondViolins.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10460,7 +10460,7 @@ number.17.SecondViolins.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10474,14 +10474,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10547,14 +10547,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10568,14 +10568,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10589,14 +10589,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10610,14 +10610,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10631,14 +10631,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10671,14 +10671,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10692,14 +10692,14 @@ number.17.SecondViolins.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     f'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -10709,7 +10709,7 @@ number.17.SecondViolins.Voice.4.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -10823,7 +10823,7 @@ number.17.Violas.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10875,7 +10875,7 @@ number.17.Violas.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -10889,14 +10889,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10962,14 +10962,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -10983,14 +10983,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11004,14 +11004,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11025,14 +11025,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11046,14 +11046,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11086,14 +11086,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11107,14 +11107,14 @@ number.17.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -11124,7 +11124,7 @@ number.17.Violas.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -11184,7 +11184,7 @@ number.17.Violas.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11219,7 +11219,7 @@ number.17.Violas.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11233,14 +11233,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11306,14 +11306,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11327,14 +11327,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11348,14 +11348,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11369,14 +11369,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11390,14 +11390,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11430,14 +11430,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11451,14 +11451,14 @@ number.17.Violas.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     a2
     % AFTER:
     % STEM_TREMOLOS:
@@ -11468,7 +11468,7 @@ number.17.Violas.Voice.2.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -11582,7 +11582,7 @@ number.17.Violas.Voice.3.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11634,7 +11634,7 @@ number.17.Violas.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11648,14 +11648,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11721,14 +11721,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11742,14 +11742,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11763,14 +11763,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11784,14 +11784,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11805,14 +11805,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11845,14 +11845,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b1
     % AFTER:
     % STEM_TREMOLOS:
@@ -11866,14 +11866,14 @@ number.17.Violas.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     b2
     % AFTER:
     % STEM_TREMOLOS:
@@ -11883,7 +11883,7 @@ number.17.Violas.Voice.3.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -11943,7 +11943,7 @@ number.17.Violas.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11978,7 +11978,7 @@ number.17.Violas.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -11992,14 +11992,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12065,14 +12065,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12086,14 +12086,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12107,14 +12107,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12128,14 +12128,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12149,14 +12149,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12189,14 +12189,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12210,14 +12210,14 @@ number.17.Violas.Voice.4.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12227,7 +12227,7 @@ number.17.Violas.Voice.4.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -12341,7 +12341,7 @@ number.17.Cellos.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12393,7 +12393,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12407,14 +12407,14 @@ number.17.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12476,9 +12476,9 @@ number.17.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \>
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12489,7 +12489,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12499,9 +12499,9 @@ number.17.Cellos.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12512,7 +12512,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12522,9 +12522,9 @@ number.17.Cellos.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12535,7 +12535,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12549,14 +12549,14 @@ number.17.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12570,14 +12570,14 @@ number.17.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12606,9 +12606,9 @@ number.17.Cellos.Voice.1.container = {
       %! baca.text_spanner()
     \stopTextSpan
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12619,7 +12619,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12629,9 +12629,9 @@ number.17.Cellos.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -12642,7 +12642,7 @@ number.17.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     d2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12652,7 +12652,7 @@ number.17.Cellos.Voice.1.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -12712,7 +12712,7 @@ number.17.Cellos.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12747,7 +12747,7 @@ number.17.Cellos.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12761,14 +12761,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12834,14 +12834,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12855,14 +12855,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12876,14 +12876,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12897,14 +12897,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -12918,14 +12918,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12958,14 +12958,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -12979,14 +12979,14 @@ number.17.Cellos.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -12996,7 +12996,7 @@ number.17.Cellos.Voice.2.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % COMMANDS:
       %! -PARTS
@@ -13092,7 +13092,7 @@ number.17.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -13144,7 +13144,7 @@ number.17.Contrabasses.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 2]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -13158,14 +13158,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 3]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13231,14 +13231,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 4]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13252,14 +13252,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 5]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13273,14 +13273,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 6]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -13294,14 +13294,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 7]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2.
     % AFTER:
     % STEM_TREMOLOS:
@@ -13315,14 +13315,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 8]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13355,14 +13355,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 9]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,1
     % AFTER:
     % STEM_TREMOLOS:
@@ -13376,14 +13376,14 @@ number.17.Contrabasses.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 10]
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     g,2
     % AFTER:
     % STEM_TREMOLOS:
@@ -13393,7 +13393,7 @@ number.17.Contrabasses.Voice.3.container = {
       %! baca.accent()
     - \accent
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes()
+      %! baca.make_repeat_tied_notes_function()
     \repeatTie
     % CLOSING:
     % COMMANDS:

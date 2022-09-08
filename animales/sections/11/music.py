@@ -77,7 +77,7 @@ def SKIPS(skips):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 
@@ -153,7 +153,7 @@ def PF_HP_PERC3_CB1(
 
 
 def PERC2(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 

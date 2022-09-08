@@ -109,11 +109,11 @@ def FL4(voice, accumulator):
 
 
 def BCL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(7))
     voice.extend(music)
@@ -152,12 +152,12 @@ def PF_HP_PERC3_CB1(
 
 def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7))
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7))
     voice.extend(music)
@@ -169,7 +169,7 @@ def STRINGS(score, accumulator):
     voice.extend(music)
     for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[voice_name]]
-        music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+        music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
         voice.extend(music)
     for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[name]]
@@ -178,7 +178,7 @@ def STRINGS(score, accumulator):
 
 
 def CB3(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
     voice.extend(music)

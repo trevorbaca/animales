@@ -122,7 +122,7 @@ def BRASS(score, accumulator):
 
 
 def PERC2(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 

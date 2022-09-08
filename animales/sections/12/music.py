@@ -78,9 +78,9 @@ def SKIPS(score):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 4))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(5, 8))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5, 8))
     voice.extend(music)
 
 
@@ -135,14 +135,14 @@ def HP_PF_PERC3_CB1(
 
 
 def PERC2(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 
 def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(accumulator.get())
+        music = baca.make_repeat_tied_notes_function(accumulator.get())
         voice.extend(music)
 
 
