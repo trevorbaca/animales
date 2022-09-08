@@ -72,14 +72,14 @@ def SKIPS(score):
 
 
 def CL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 
 def BCL(voice, accumulator):
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(5, 6))
     voice.extend(music)
 
 
@@ -114,10 +114,10 @@ def PF_HP_PERC3_CB1(
 
 def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes_function(accumulator.get())
     voice.extend(music)
 
 

@@ -86,7 +86,7 @@ def RESTS(score):
 
 
 def PERC1(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)

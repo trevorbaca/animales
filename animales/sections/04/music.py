@@ -76,7 +76,7 @@ def WINDS(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
     voice.extend(music)
 
 
@@ -84,13 +84,13 @@ def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc1"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
     voice.extend(music)
     # PERC2
     voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
     voice.extend(music)
 
 
@@ -142,7 +142,7 @@ def STRINGS(
     )
     for abbreviation in names:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+        music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
         voice.extend(music)
 
 
@@ -150,7 +150,7 @@ def CB3(score, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+    music = baca.make_repeat_tied_notes_function(accumulator.get(3, 6))
     voice.extend(music)
 
 

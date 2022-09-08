@@ -126,7 +126,7 @@ def BRASS(score, accumulator):
 def PERCUSSION(score, accumulator):
     for abbreviation in ["perc2", "perc3", "perc4"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(accumulator.get())
+        music = baca.make_repeat_tied_notes_function(accumulator.get())
         voice.extend(music)
 
 
