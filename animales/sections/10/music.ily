@@ -76,9 +76,9 @@ number.10.Skips = {
     % AFTER:
     % MARKUP:
       %! +SCORE
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 6)
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "I" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
@@ -448,13 +448,13 @@ number.10.Clarinets.Music.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -467,13 +467,13 @@ number.10.Clarinets.Music.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -570,13 +570,13 @@ number.10.Clarinets.Music.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -675,14 +675,14 @@ number.10.BassClarinet.Music.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \p
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -695,31 +695,31 @@ number.10.BassClarinet.Music.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \>
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.repeat_tie_function()
+      %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -776,13 +776,13 @@ number.10.BassClarinet.Music.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % MARKUP:
       %! DURATION_MULTIPLIER
@@ -880,7 +880,7 @@ number.10.Horns.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -897,7 +897,7 @@ number.10.Horns.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -951,13 +951,13 @@ number.10.Horns.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -966,13 +966,13 @@ number.10.Horns.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -1043,13 +1043,13 @@ number.10.Horns.Voice.1.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mf
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1078,14 +1078,14 @@ number.10.Horns.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1095,14 +1095,14 @@ number.10.Horns.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -1151,7 +1151,7 @@ number.10.Horns.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -1188,7 +1188,7 @@ number.10.Horns.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     ef'!2
@@ -1200,13 +1200,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1215,13 +1215,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -1254,13 +1254,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1282,13 +1282,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1297,13 +1297,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1338,13 +1338,13 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1365,19 +1365,19 @@ number.10.Horns.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -1456,7 +1456,7 @@ number.10.Horns.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "bass"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -1473,7 +1473,7 @@ number.10.Horns.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -1542,13 +1542,13 @@ number.10.Horns.Voice.2.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1557,13 +1557,13 @@ number.10.Horns.Voice.2.container = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         ~
         % CLOSING:
@@ -1640,13 +1640,13 @@ number.10.Horns.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1675,14 +1675,14 @@ number.10.Horns.Voice.2.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! RIGHT_BROKEN
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -1692,14 +1692,14 @@ number.10.Horns.Voice.2.container = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         ~
         % CLOSING:
@@ -1740,7 +1740,7 @@ number.10.Horns.Voice.2.container = {
         % COMMANDS:
           %! RIGHT_BROKEN
           %! baca.PiecewiseCommand._call(1)
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \!
         % CLOSING:
         % COMMANDS:
@@ -1783,7 +1783,7 @@ number.10.Horns.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     r4.
@@ -1815,13 +1815,13 @@ number.10.Horns.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1830,13 +1830,13 @@ number.10.Horns.Voice.4.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -1879,13 +1879,13 @@ number.10.Horns.Voice.4.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mf
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1916,13 +1916,13 @@ number.10.Horns.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1931,13 +1931,13 @@ number.10.Horns.Voice.4.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -1994,13 +1994,13 @@ number.10.Horns.Voice.4.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mf
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2032,19 +2032,19 @@ number.10.Horns.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -2123,7 +2123,7 @@ number.10.Trumpets.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -2140,7 +2140,7 @@ number.10.Trumpets.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -2194,13 +2194,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2209,13 +2209,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -2248,13 +2248,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2274,13 +2274,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2289,13 +2289,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -2328,13 +2328,13 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2355,19 +2355,19 @@ number.10.Trumpets.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -2404,7 +2404,7 @@ number.10.Trumpets.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     g'2
@@ -2416,13 +2416,13 @@ number.10.Trumpets.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2431,13 +2431,13 @@ number.10.Trumpets.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -2486,13 +2486,13 @@ number.10.Trumpets.Voice.3.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mf
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2518,13 +2518,13 @@ number.10.Trumpets.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2533,13 +2533,13 @@ number.10.Trumpets.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -2602,13 +2602,13 @@ number.10.Trumpets.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2644,14 +2644,14 @@ number.10.Trumpets.Voice.3.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! RIGHT_BROKEN
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -2661,14 +2661,14 @@ number.10.Trumpets.Voice.3.container = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! RIGHT_BROKEN
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         ~
         % CLOSING:
@@ -2706,7 +2706,7 @@ number.10.Trumpets.Voice.3.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -2785,7 +2785,7 @@ number.10.Trumpets.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "treble"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -2802,7 +2802,7 @@ number.10.Trumpets.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -2861,13 +2861,13 @@ number.10.Trumpets.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2876,13 +2876,13 @@ number.10.Trumpets.Voice.2.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -2938,13 +2938,13 @@ number.10.Trumpets.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2970,14 +2970,14 @@ number.10.Trumpets.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2987,14 +2987,14 @@ number.10.Trumpets.Voice.2.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3054,7 +3054,7 @@ number.10.Trumpets.Voice.2.container = {
         % COMMANDS:
           %! RIGHT_BROKEN
           %! baca.PiecewiseCommand._call(1)
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \!
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3102,7 +3102,7 @@ number.10.Trumpets.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     r4.
@@ -3134,13 +3134,13 @@ number.10.Trumpets.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3149,13 +3149,13 @@ number.10.Trumpets.Voice.4.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3210,13 +3210,13 @@ number.10.Trumpets.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3246,13 +3246,13 @@ number.10.Trumpets.Voice.4.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -3261,13 +3261,13 @@ number.10.Trumpets.Voice.4.container = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         ~
         % CLOSING:
@@ -3306,13 +3306,13 @@ number.10.Trumpets.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3333,19 +3333,19 @@ number.10.Trumpets.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -3424,7 +3424,7 @@ number.10.Trombones.Voice.1.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -3441,7 +3441,7 @@ number.10.Trombones.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -3495,13 +3495,13 @@ number.10.Trombones.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3510,13 +3510,13 @@ number.10.Trombones.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3562,13 +3562,13 @@ number.10.Trombones.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3591,14 +3591,14 @@ number.10.Trombones.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3608,14 +3608,14 @@ number.10.Trombones.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3664,7 +3664,7 @@ number.10.Trombones.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -3701,7 +3701,7 @@ number.10.Trombones.Voice.3.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     g2
@@ -3713,13 +3713,13 @@ number.10.Trombones.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3728,13 +3728,13 @@ number.10.Trombones.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3809,13 +3809,13 @@ number.10.Trombones.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3838,14 +3838,14 @@ number.10.Trombones.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3855,14 +3855,14 @@ number.10.Trombones.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -3933,7 +3933,7 @@ number.10.Trombones.Voice.3.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4017,7 +4017,7 @@ number.10.Trombones.Voice.2.container = {
       %! baca._set_status_tag()
     \clef "tenor"
       %! -PARTS
-      %! baca.dynamic_up_function()
+      %! baca.dynamic_up()
     \dynamicUp
       %! REAPPLIED_CLEF_COLOR
       %! baca._attach_color_literal(2)
@@ -4034,7 +4034,7 @@ number.10.Trombones.Voice.2.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_brass_manifest_rhythm()
     r2
@@ -4103,13 +4103,13 @@ number.10.Trombones.Voice.2.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mp
         % SPANNER_STARTS:
           %! EXPLICIT_DYNAMIC_COLOR
@@ -4118,13 +4118,13 @@ number.10.Trombones.Voice.2.container = {
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
           %! baca.PiecewiseCommand._call(2)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \<
         ~
         % CLOSING:
@@ -4207,13 +4207,13 @@ number.10.Trombones.Voice.2.container = {
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         - \tweak color #(x11-color 'blue)
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
           %! baca.PiecewiseCommand._call(3)
           %! baca._set_status_tag()
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \mf
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4247,14 +4247,14 @@ number.10.Trombones.Voice.2.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4264,14 +4264,14 @@ number.10.Trombones.Voice.2.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -4304,7 +4304,7 @@ number.10.Trombones.Voice.2.container = {
         % COMMANDS:
           %! RIGHT_BROKEN
           %! baca.PiecewiseCommand._call(1)
-          %! baca.hairpin_function()
+          %! baca.hairpin()
         \!
         % CLOSING:
         % COMMANDS:
@@ -4347,7 +4347,7 @@ number.10.Trombones.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_brass_manifest_rhythm()
     r4.
@@ -4379,13 +4379,13 @@ number.10.Trombones.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4394,13 +4394,13 @@ number.10.Trombones.Voice.4.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -4470,13 +4470,13 @@ number.10.Trombones.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mf
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4502,14 +4502,14 @@ number.10.Trombones.Voice.4.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \mp
     % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4519,14 +4519,14 @@ number.10.Trombones.Voice.4.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
     ~
     % ABSOLUTE_BEFORE:
@@ -4560,7 +4560,7 @@ number.10.Trombones.Voice.4.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -4664,7 +4664,7 @@ number.10.Piano.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.stopped_function()
+          %! baca.stopped()
         - \stopped
           %! REAPPLIED_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
@@ -4676,7 +4676,7 @@ number.10.Piano.Music.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \mf
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
@@ -4743,9 +4743,9 @@ number.10.Piano.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.stopped_function()
+          %! baca.stopped()
         - \stopped
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4919,9 +4919,9 @@ number.10.Harp.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.stopped_function()
+          %! baca.stopped()
         - \stopped
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -4975,9 +4975,9 @@ number.10.Harp.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.stopped_function()
+          %! baca.stopped()
         - \stopped
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5308,7 +5308,7 @@ number.10.Percussion.3.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5348,7 +5348,7 @@ number.10.Percussion.3.Music.container = {
         c''8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5459,7 +5459,7 @@ number.10.FirstViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     a2
@@ -5472,14 +5472,14 @@ number.10.FirstViolins.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \pp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -5493,14 +5493,14 @@ number.10.FirstViolins.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5509,7 +5509,7 @@ number.10.FirstViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -5599,7 +5599,7 @@ number.10.FirstViolins.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -5683,7 +5683,7 @@ number.10.FirstViolins.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -5753,7 +5753,7 @@ number.10.SecondViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     a2
@@ -5766,14 +5766,14 @@ number.10.SecondViolins.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \pp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -5787,14 +5787,14 @@ number.10.SecondViolins.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -5803,7 +5803,7 @@ number.10.SecondViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -5893,7 +5893,7 @@ number.10.SecondViolins.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -5977,7 +5977,7 @@ number.10.SecondViolins.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -6047,7 +6047,7 @@ number.10.Violas.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     a2
@@ -6060,14 +6060,14 @@ number.10.Violas.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \pp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -6081,14 +6081,14 @@ number.10.Violas.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6097,7 +6097,7 @@ number.10.Violas.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -6187,7 +6187,7 @@ number.10.Violas.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -6271,7 +6271,7 @@ number.10.Violas.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -6341,7 +6341,7 @@ number.10.Cellos.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! baca.make_repeat_tied_notes()
     a2
@@ -6354,14 +6354,14 @@ number.10.Cellos.Voice.1.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \pp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -6375,14 +6375,14 @@ number.10.Cellos.Voice.1.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6391,7 +6391,7 @@ number.10.Cellos.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -6481,7 +6481,7 @@ number.10.Cellos.Voice.1.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:
@@ -6565,7 +6565,7 @@ number.10.Cellos.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -6691,13 +6691,13 @@ number.10.Contrabasses.Voice.1.container = {
 
         % BEFORE:
         % COMMANDS:
-          %! baca.note_head_style_harmonic_function(1)
+          %! baca.note_head_style_harmonic(1)
         \override NoteHead.style = #'harmonic
           %! animales.make_harp_exchange_rhythm()
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -6744,10 +6744,10 @@ number.10.Contrabasses.Voice.1.container = {
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.laissez_vibrer_function()
+          %! baca.laissez_vibrer()
         \laissezVibrer
         % COMMANDS:
-          %! baca.note_head_style_harmonic_function(2)
+          %! baca.note_head_style_harmonic(2)
         \revert NoteHead.style
         % CLOSING:
         % COMMANDS:
@@ -6859,14 +6859,14 @@ number.10.Contrabasses.Voice.3.container = {
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \pp
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -6880,14 +6880,14 @@ number.10.Contrabasses.Voice.3.container = {
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca._set_status_tag()
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \<
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -6981,7 +6981,7 @@ number.10.Contrabasses.Voice.3.container = {
     % COMMANDS:
       %! RIGHT_BROKEN
       %! baca.PiecewiseCommand._call(1)
-      %! baca.hairpin_function()
+      %! baca.hairpin()
     \!
     % CLOSING:
     % COMMANDS:

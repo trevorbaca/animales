@@ -90,7 +90,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "Y",
         abjad.Tweak(
@@ -126,7 +126,7 @@ def PERCUSSION(score, accumulator):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         pleaf = baca.select.pleaf(music, 0)
-        baca.repeat_tie_function(pleaf)
+        baca.repeat_tie(pleaf)
         voice.extend(music)
 
 
@@ -136,33 +136,33 @@ def CB3(voice, accumulator):
 
 
 def brass(cache):
-    library.assign_brass_sforzando_parts_function(cache)
-    library.make_brass_sforzando_function(cache, measure=1)
+    library.assign_brass_sforzando_parts(cache)
+    library.make_brass_sforzando(cache, measure=1)
 
 
 def percussion(cache, accumulator):
     with baca.scope(cache["perc2"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 2)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 3)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 3)
     with baca.scope(cache["perc4"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 4)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 4)
 
 
 def cb3(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.clef_function(o.leaf(0), "bass")
-        baca.staff_lines_function(o.leaf(0), 5)
-        baca.pitch_function(o, "C#2")
-        baca.markup_function(o.pleaf(0), r"\baca-arco-markup")
-        baca.hairpin_function(o, "p <", right_broken=True)
-        library.assign_part_function(o, "Contrabass", (1, 6))
+        baca.clef(o.leaf(0), "bass")
+        baca.staff_lines(o.leaf(0), 5)
+        baca.pitch(o, "C#2")
+        baca.markup(o.pleaf(0), r"\baca-arco-markup")
+        baca.hairpin(o, "p <", right_broken=True)
+        library.assign_part(o, "Contrabass", (1, 6))
 
 
 def make_score(
@@ -203,7 +203,7 @@ def make_score(
     )
     brass(cache)
     percussion(cache, accumulator)
-    library.make_battuti_function(
+    library.make_battuti(
         cache,
         accumulator,
         [[1, -55], [1, -17], [1, -17]],

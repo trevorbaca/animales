@@ -59,10 +59,10 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark_function(
+    baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["76"], library.manifests
     )
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "Q",
         abjad.Tweak(
@@ -77,7 +77,7 @@ def RESTS(score):
         (3 - 1, "fermata"),
         (8 - 1, "fermata"),
     ):
-        baca.global_fermata_function(rests[index], string)
+        baca.global_fermata(rests[index], string)
 
 
 def BRASS(score, accumulator):
@@ -132,32 +132,32 @@ def STRINGS(score, accumulator, string_parts):
 
 
 def strings(cache, accumulator, string_parts):
-    def upper_voice_function(o):
-        wrappers = baca.text_spanner_staff_padding_function(o, 5)
+    def upper_voice(o):
+        wrappers = baca.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_text_stencil_false_function(o.leaves())
+        wrappers = baca.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.hairpin_stencil_false_function(o)
+        wrappers = baca.hairpin_stencil_false(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.text_spanner_stencil_false_function(o)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-
-    def lower_voice_function(o, n=5):
-        wrappers = baca.voice_two_function(o.leaf(0))
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.text_spanner_staff_padding_function(o, n)
+        wrappers = baca.text_spanner_stencil_false(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
-    def tremolo_function(o, peak="f"):
-        baca.stem_tremolo_function(o.pleaves())
-        baca.text_spanner_function(
+    def lower_voice(o, n=5):
+        wrappers = baca.voice_two(o.leaf(0))
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        wrappers = baca.text_spanner_staff_padding(o, n)
+        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+
+    def tremolo(o, peak="f"):
+        baca.stem_tremolo(o.pleaves())
+        baca.text_spanner(
             o,
             "tasto => ext. pont. => tasto",
             pieces=lambda _: baca.select.cmgroups(_, [2]),
         )
-        baca.hairpin_function(
+        baca.hairpin(
             o,
             f"niente o< {peak} >o niente",
             pieces=lambda _: baca.select.mgroups(_, [2, 2]),
@@ -169,18 +169,18 @@ def strings(cache, accumulator, string_parts):
         part_name = voice_name.split(".")[0].removesuffix("s")
         numbers = items[0]
         with baca.scope(cache[voice_name].leaves()) as o:
-            library.assign_part_function(o, part_name, numbers)
+            library.assign_part(o, part_name, numbers)
             if items[1] is True:
-                upper_voice_function(o)
+                upper_voice(o)
             elif items[1] is False:
-                lower_voice_function(o)
-            baca.pitch_function(o, items[2])
+                lower_voice(o)
+            baca.pitch(o, items[2])
         if voice_name == "FirstViolins.Voice.5":
             continue
         with baca.scope(cache[voice_name].get(4, 7)) as o:
-            tremolo_function(o, "f")
+            tremolo(o, "f")
         with baca.scope(cache[voice_name].get(9, 12)) as o:
-            tremolo_function(o, "mp")
+            tremolo(o, "mp")
 
 
 def brass(
@@ -190,73 +190,73 @@ def brass(
     *,
     previous_voice_name_to_parameter_to_state=None,
 ):
-    library.assign_brass_sforzando_parts_function(cache, omit_tuba=True)
+    library.assign_brass_sforzando_parts(cache, omit_tuba=True)
     with baca.scope(cache["hn1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["hn2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     for name, pitches in (
         ("hn1", "G3 A3"),
         ("hn3", "Gb3 Ab3"),
@@ -276,9 +276,9 @@ def brass(
             previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
                 voice_name
             ]
-            # TODO: do not allow baca.pitches_function() to OVERWRITE metadata;
+            # TODO: do not allow baca.pitches() to OVERWRITE metadata;
             #       return new dictionary instead:
-            baca.pitches_function(
+            baca.pitches(
                 o, pitches, metadata=previous_parameter_to_state, name="seconds"
             )
             voice_name_to_parameter_to_state[voice_name] = {}
@@ -289,8 +289,8 @@ def brass(
 
 def solo_violin(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.repeat_tie_function(o.leaf(0))
-        baca.stem_tremolo_function(o.pleaves())
+        baca.repeat_tie(o.leaf(0))
+        baca.stem_tremolo(o.pleaves())
 
 
 def make_score(
@@ -341,8 +341,8 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.attach_grand_pause_fermatas_function(cache, score, measure=3)
-    library.attach_grand_pause_fermatas_function(cache, score, measure=8)
+    library.attach_grand_pause_fermatas(cache, score, measure=3)
+    library.attach_grand_pause_fermatas(cache, score, measure=8)
     voice_name_to_parameter_to_state = {}
     brass(
         cache,

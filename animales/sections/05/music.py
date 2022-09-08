@@ -49,7 +49,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "D",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . -2)", tag=baca.tags.ONLY_SCORE),
@@ -91,109 +91,109 @@ def STRINGS(
     )
     for name in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
         voice = accumulator.voice(name)
-        baca.append_anchor_note_function(voice)
+        baca.append_anchor_note(voice)
 
 
 def CB3(score, accumulator):
     voice = score[library.voice_abbreviations["cb3"]]
     music = baca.make_repeat_tied_notes(accumulator.get())
     voice.extend(music)
-    baca.append_anchor_note_function(voice)
+    baca.append_anchor_note(voice)
 
 
 def winds(cache):
     m = cache["cl"]
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C#5")
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 2", library.manifests)
-        baca.edition_function(
+        baca.pitch(o, "C#5")
+        baca.short_instrument_name(o.leaf(0), "Cl. 2", library.manifests)
+        baca.edition(
             o.leaf(0),
             not_parts=library.markups.solo_cl_2,
             only_parts=library.markups.solo,
         ),
-        baca.hairpin_function(o, "mp < mf")
-        library.assign_part_function(o, "Clarinet", 2)
+        baca.hairpin(o, "mp < mf")
+        library.assign_part(o, "Clarinet", 2)
 
 
 def percussion(cache):
     m = cache["perc1"]
     with baca.scope(m.leaves()) as o:
         # triangle
-        baca.repeat_tie_function(o.pleaf(0))
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 1)
+        baca.repeat_tie(o.pleaf(0))
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 1)
     m = cache["perc2"]
     with baca.scope(m.leaves()) as o:
         # cymbal
-        baca.repeat_tie_function(o.pleaf(0))
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 2)
+        baca.repeat_tie(o.pleaf(0))
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 2)
 
 
 def strings(cache):
     m = cache["1vn2"]
     with baca.scope(m.leaves()) as o:
-        baca.untie_function(o)
-        library.glissando_positions_function(o, transpose=-1)
-        baca.pitch_function(
+        baca.untie(o)
+        library.glissando_positions(o, transpose=-1)
+        baca.pitch(
             o.pleaf(0),
             "B4",
             allow_repitch=True,
         ),
-        baca.pitch_function(
+        baca.pitch(
             o.pleaf(-1),
             "B3",
             allow_repitch=True,
         ),
-        baca.glissando_function(o.tleaves())
-        wrappers = baca.dls_up_function(o)
+        baca.glissando(o.tleaves())
+        wrappers = baca.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.stop_trill_function(o.leaf(0))
+        wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.hairpin_function(
-            library.leaves_in_measure_function(o, 1, rleak=True),
+        baca.hairpin(
+            library.leaves_in_measure(o, 1, rleak=True),
             "p < f",
         )
-        baca.hairpin_function(
-            library.leaves_in_measure_function(o, -1, lleak=True),
+        baca.hairpin(
+            library.leaves_in_measure(o, -1, lleak=True),
             "f > p",
         )
-        library.assign_part_function(o, "FirstViolin", 1)
-    library.assign_trill_parts_function(cache, exclude_first_violin=True)
+        library.assign_part(o, "FirstViolin", 1)
+    library.assign_trill_parts(cache, exclude_first_violin=True)
     m = cache["1vn1"]
     with baca.scope(m[1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     m = cache["vc1"]
     with baca.scope(m[1]) as o:
-        baca.clef_function(o.leaf(0), "bass")
+        baca.clef(o.leaf(0), "bass")
     for name in ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.pitch_function(o, "B3")
-            baca.accent_function(o.pheads()[1:])
-            baca.trill_spanner_function(
+            baca.pitch(o, "B3")
+            baca.accent(o.pheads()[1:])
+            baca.trill_spanner(
                 baca.select.rleak(o.tleaves()),
                 alteration="C4",
                 right_broken=True,
             )
-            baca.dynamic_function(o.pleaf(0), "f-but-accents-sffz")
+            baca.dynamic(o.pleaf(0), "f-but-accents-sffz")
 
 
 def cb3(cache):
     m = cache["cb3"]
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "B1")
-        baca.hairpin_function(
+        baca.pitch(o, "B1")
+        baca.hairpin(
             o.pleaves()[:4],
             "< ff",
             left_broken=True,
         )
-        library.assign_part_function(o, "Contrabass", (1, 6))
+        library.assign_part(o, "Contrabass", (1, 6))
 
 
 def make_score(

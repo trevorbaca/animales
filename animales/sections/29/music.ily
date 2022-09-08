@@ -28,13 +28,13 @@ number.29.Rests = {
     % [Rests measure 4]
     % OPENING:
     % COMMANDS:
-      %! baca.global_fermata_function(2)
+      %! baca.global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
     % AFTER:
     % MARKUP:
-      %! baca.global_fermata_function(1)
+      %! baca.global_fermata(1)
     ^ \baca-fermata-markup
     % CLOSING:
     % COMMANDS:
@@ -70,9 +70,9 @@ number.29.Skips = {
     % AFTER:
     % MARKUP:
       %! +TABLOID_SCORE
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 6)
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "BB" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
@@ -355,7 +355,7 @@ number.29.Percussion.1.Music.container = {
     c'2
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo_function()
+      %! baca.stem_tremolo()
     :32
     % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
@@ -377,7 +377,7 @@ number.29.Percussion.1.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! baca.repeat_tie_function()
+      %! baca.repeat_tie()
     \repeatTie
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -402,7 +402,7 @@ number.29.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo_function()
+      %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -422,7 +422,7 @@ number.29.Percussion.1.Music.container = {
     c'1
     % AFTER:
     % STEM_TREMOLOS:
-      %! baca.stem_tremolo_function()
+      %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
@@ -437,10 +437,10 @@ number.29.Percussion.1.Music.container = {
     % BEFORE:
     % COMMANDS:
       %! +PARTS
-      %! baca.literal_function()
+      %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
       %! +PARTS
-      %! baca.literal_function()
+      %! baca.literal()
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
     R1 * 1/4
@@ -450,7 +450,7 @@ number.29.Percussion.1.Music.container = {
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-      %! baca.markup_function()
+      %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
     % CLOSING:
     % COMMANDS:
@@ -555,7 +555,7 @@ number.29.FirstViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -668,10 +668,10 @@ number.29.FirstViolins.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -688,7 +688,7 @@ number.29.FirstViolins.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -767,7 +767,7 @@ number.29.FirstViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -837,10 +837,10 @@ number.29.FirstViolins.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -857,7 +857,7 @@ number.29.FirstViolins.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1015,7 +1015,7 @@ number.29.FirstViolins.Voice.3.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca.voice_one_function()
+          %! baca.voice_one()
         \voiceOne
           %! animales.make_clb_rhythm()
         r8
@@ -1151,10 +1151,10 @@ number.29.FirstViolins.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1171,7 +1171,7 @@ number.29.FirstViolins.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1250,7 +1250,7 @@ number.29.FirstViolins.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -1339,10 +1339,10 @@ number.29.FirstViolins.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1359,7 +1359,7 @@ number.29.FirstViolins.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1509,7 +1509,7 @@ number.29.FirstViolins.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -1617,10 +1617,10 @@ number.29.FirstViolins.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1637,7 +1637,7 @@ number.29.FirstViolins.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1716,7 +1716,7 @@ number.29.FirstViolins.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -1789,10 +1789,10 @@ number.29.FirstViolins.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -1809,7 +1809,7 @@ number.29.FirstViolins.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -1959,7 +1959,7 @@ number.29.FirstViolins.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -2050,10 +2050,10 @@ number.29.FirstViolins.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2070,7 +2070,7 @@ number.29.FirstViolins.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2149,7 +2149,7 @@ number.29.FirstViolins.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -2239,10 +2239,10 @@ number.29.FirstViolins.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2259,7 +2259,7 @@ number.29.FirstViolins.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2409,7 +2409,7 @@ number.29.FirstViolins.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -2481,10 +2481,10 @@ number.29.FirstViolins.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2501,7 +2501,7 @@ number.29.FirstViolins.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2580,7 +2580,7 @@ number.29.FirstViolins.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -2663,10 +2663,10 @@ number.29.FirstViolins.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2683,7 +2683,7 @@ number.29.FirstViolins.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -2833,7 +2833,7 @@ number.29.FirstViolins.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -2925,10 +2925,10 @@ number.29.FirstViolins.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -2945,7 +2945,7 @@ number.29.FirstViolins.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3024,7 +3024,7 @@ number.29.FirstViolins.Voice.12.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -3106,10 +3106,10 @@ number.29.FirstViolins.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3126,7 +3126,7 @@ number.29.FirstViolins.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3276,7 +3276,7 @@ number.29.FirstViolins.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -3396,10 +3396,10 @@ number.29.FirstViolins.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3416,7 +3416,7 @@ number.29.FirstViolins.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3495,7 +3495,7 @@ number.29.FirstViolins.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -3558,10 +3558,10 @@ number.29.FirstViolins.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3578,7 +3578,7 @@ number.29.FirstViolins.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3728,7 +3728,7 @@ number.29.FirstViolins.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -3830,10 +3830,10 @@ number.29.FirstViolins.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -3850,7 +3850,7 @@ number.29.FirstViolins.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -3929,7 +3929,7 @@ number.29.FirstViolins.Voice.16.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -4030,10 +4030,10 @@ number.29.FirstViolins.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4050,7 +4050,7 @@ number.29.FirstViolins.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4206,7 +4206,7 @@ number.29.FirstViolins.Voice.17.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -4292,10 +4292,10 @@ number.29.FirstViolins.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4312,7 +4312,7 @@ number.29.FirstViolins.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4391,7 +4391,7 @@ number.29.FirstViolins.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4..
@@ -4469,10 +4469,10 @@ number.29.FirstViolins.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4489,7 +4489,7 @@ number.29.FirstViolins.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4645,7 +4645,7 @@ number.29.SecondViolins.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -4743,10 +4743,10 @@ number.29.SecondViolins.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4763,7 +4763,7 @@ number.29.SecondViolins.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -4842,7 +4842,7 @@ number.29.SecondViolins.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -4932,10 +4932,10 @@ number.29.SecondViolins.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -4952,7 +4952,7 @@ number.29.SecondViolins.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5110,7 +5110,7 @@ number.29.SecondViolins.Voice.3.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca.voice_one_function()
+          %! baca.voice_one()
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
@@ -5228,10 +5228,10 @@ number.29.SecondViolins.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5248,7 +5248,7 @@ number.29.SecondViolins.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5327,7 +5327,7 @@ number.29.SecondViolins.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -5440,10 +5440,10 @@ number.29.SecondViolins.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5460,7 +5460,7 @@ number.29.SecondViolins.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5610,7 +5610,7 @@ number.29.SecondViolins.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -5697,10 +5697,10 @@ number.29.SecondViolins.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5717,7 +5717,7 @@ number.29.SecondViolins.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -5796,7 +5796,7 @@ number.29.SecondViolins.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -5859,10 +5859,10 @@ number.29.SecondViolins.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -5879,7 +5879,7 @@ number.29.SecondViolins.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6029,7 +6029,7 @@ number.29.SecondViolins.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -6173,10 +6173,10 @@ number.29.SecondViolins.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6193,7 +6193,7 @@ number.29.SecondViolins.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6272,7 +6272,7 @@ number.29.SecondViolins.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -6349,10 +6349,10 @@ number.29.SecondViolins.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6369,7 +6369,7 @@ number.29.SecondViolins.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6519,7 +6519,7 @@ number.29.SecondViolins.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4..
@@ -6601,10 +6601,10 @@ number.29.SecondViolins.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6621,7 +6621,7 @@ number.29.SecondViolins.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6700,7 +6700,7 @@ number.29.SecondViolins.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
@@ -6783,10 +6783,10 @@ number.29.SecondViolins.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -6803,7 +6803,7 @@ number.29.SecondViolins.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -6953,7 +6953,7 @@ number.29.SecondViolins.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -7025,10 +7025,10 @@ number.29.SecondViolins.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7045,7 +7045,7 @@ number.29.SecondViolins.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7132,7 +7132,7 @@ number.29.SecondViolins.Voice.12.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca.voice_two_function()
+          %! baca.voice_two()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r8
@@ -7243,10 +7243,10 @@ number.29.SecondViolins.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7263,7 +7263,7 @@ number.29.SecondViolins.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7413,7 +7413,7 @@ number.29.SecondViolins.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -7509,10 +7509,10 @@ number.29.SecondViolins.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7529,7 +7529,7 @@ number.29.SecondViolins.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7608,7 +7608,7 @@ number.29.SecondViolins.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
@@ -7686,10 +7686,10 @@ number.29.SecondViolins.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7706,7 +7706,7 @@ number.29.SecondViolins.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -7856,7 +7856,7 @@ number.29.SecondViolins.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -7948,10 +7948,10 @@ number.29.SecondViolins.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -7968,7 +7968,7 @@ number.29.SecondViolins.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8047,7 +8047,7 @@ number.29.SecondViolins.Voice.16.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -8124,10 +8124,10 @@ number.29.SecondViolins.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8144,7 +8144,7 @@ number.29.SecondViolins.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8300,7 +8300,7 @@ number.29.SecondViolins.Voice.17.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -8404,10 +8404,10 @@ number.29.SecondViolins.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8424,7 +8424,7 @@ number.29.SecondViolins.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8503,7 +8503,7 @@ number.29.SecondViolins.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -8556,10 +8556,10 @@ number.29.SecondViolins.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8576,7 +8576,7 @@ number.29.SecondViolins.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8732,7 +8732,7 @@ number.29.Violas.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -8845,10 +8845,10 @@ number.29.Violas.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -8865,7 +8865,7 @@ number.29.Violas.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -8944,7 +8944,7 @@ number.29.Violas.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -9034,10 +9034,10 @@ number.29.Violas.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9054,7 +9054,7 @@ number.29.Violas.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9204,7 +9204,7 @@ number.29.Violas.Voice.3.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -9311,10 +9311,10 @@ number.29.Violas.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9331,7 +9331,7 @@ number.29.Violas.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9410,7 +9410,7 @@ number.29.Violas.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -9523,10 +9523,10 @@ number.29.Violas.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9543,7 +9543,7 @@ number.29.Violas.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9693,7 +9693,7 @@ number.29.Violas.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
@@ -9770,10 +9770,10 @@ number.29.Violas.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9790,7 +9790,7 @@ number.29.Violas.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -9869,7 +9869,7 @@ number.29.Violas.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -9957,10 +9957,10 @@ number.29.Violas.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -9977,7 +9977,7 @@ number.29.Violas.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10127,7 +10127,7 @@ number.29.Violas.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -10247,10 +10247,10 @@ number.29.Violas.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10267,7 +10267,7 @@ number.29.Violas.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10346,7 +10346,7 @@ number.29.Violas.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -10418,10 +10418,10 @@ number.29.Violas.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10438,7 +10438,7 @@ number.29.Violas.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10588,7 +10588,7 @@ number.29.Violas.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r4..
@@ -10680,10 +10680,10 @@ number.29.Violas.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10700,7 +10700,7 @@ number.29.Violas.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -10779,7 +10779,7 @@ number.29.Violas.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
@@ -10847,10 +10847,10 @@ number.29.Violas.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -10867,7 +10867,7 @@ number.29.Violas.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11017,7 +11017,7 @@ number.29.Violas.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -11109,10 +11109,10 @@ number.29.Violas.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11129,7 +11129,7 @@ number.29.Violas.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11216,7 +11216,7 @@ number.29.Violas.Voice.12.container = {
         % OPENING:
         % COMMANDS:
           %! -PARTS
-          %! baca.voice_two_function()
+          %! baca.voice_two()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r4
@@ -11309,10 +11309,10 @@ number.29.Violas.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11329,7 +11329,7 @@ number.29.Violas.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11479,7 +11479,7 @@ number.29.Violas.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -11599,10 +11599,10 @@ number.29.Violas.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11619,7 +11619,7 @@ number.29.Violas.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11698,7 +11698,7 @@ number.29.Violas.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
@@ -11771,10 +11771,10 @@ number.29.Violas.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -11791,7 +11791,7 @@ number.29.Violas.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -11941,7 +11941,7 @@ number.29.Violas.Voice.15.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -12018,10 +12018,10 @@ number.29.Violas.Voice.15.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12038,7 +12038,7 @@ number.29.Violas.Voice.15.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12117,7 +12117,7 @@ number.29.Violas.Voice.16.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -12242,10 +12242,10 @@ number.29.Violas.Voice.16.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12262,7 +12262,7 @@ number.29.Violas.Voice.16.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12418,7 +12418,7 @@ number.29.Violas.Voice.17.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -12509,10 +12509,10 @@ number.29.Violas.Voice.17.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12529,7 +12529,7 @@ number.29.Violas.Voice.17.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12608,7 +12608,7 @@ number.29.Violas.Voice.18.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4..
@@ -12676,10 +12676,10 @@ number.29.Violas.Voice.18.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12696,7 +12696,7 @@ number.29.Violas.Voice.18.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -12852,7 +12852,7 @@ number.29.Cellos.Voice.1.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
@@ -12965,10 +12965,10 @@ number.29.Cellos.Voice.1.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -12985,7 +12985,7 @@ number.29.Cellos.Voice.1.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13064,7 +13064,7 @@ number.29.Cellos.Voice.2.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -13134,10 +13134,10 @@ number.29.Cellos.Voice.2.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13154,7 +13154,7 @@ number.29.Cellos.Voice.2.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13312,7 +13312,7 @@ number.29.Cellos.Voice.3.container = {
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
           %! -PARTS
-          %! baca.voice_one_function()
+          %! baca.voice_one()
         \voiceOne
           %! animales.make_clb_rhythm()
         r8
@@ -13432,10 +13432,10 @@ number.29.Cellos.Voice.3.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13452,7 +13452,7 @@ number.29.Cellos.Voice.3.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13531,7 +13531,7 @@ number.29.Cellos.Voice.4.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -13613,10 +13613,10 @@ number.29.Cellos.Voice.4.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13633,7 +13633,7 @@ number.29.Cellos.Voice.4.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13783,7 +13783,7 @@ number.29.Cellos.Voice.5.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
@@ -13880,10 +13880,10 @@ number.29.Cellos.Voice.5.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -13900,7 +13900,7 @@ number.29.Cellos.Voice.5.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -13979,7 +13979,7 @@ number.29.Cellos.Voice.6.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -14052,10 +14052,10 @@ number.29.Cellos.Voice.6.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14072,7 +14072,7 @@ number.29.Cellos.Voice.6.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14222,7 +14222,7 @@ number.29.Cellos.Voice.7.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -14318,10 +14318,10 @@ number.29.Cellos.Voice.7.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14338,7 +14338,7 @@ number.29.Cellos.Voice.7.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14417,7 +14417,7 @@ number.29.Cellos.Voice.8.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -14502,10 +14502,10 @@ number.29.Cellos.Voice.8.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14522,7 +14522,7 @@ number.29.Cellos.Voice.8.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14672,7 +14672,7 @@ number.29.Cellos.Voice.9.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -14744,10 +14744,10 @@ number.29.Cellos.Voice.9.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14764,7 +14764,7 @@ number.29.Cellos.Voice.9.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -14843,7 +14843,7 @@ number.29.Cellos.Voice.10.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -14926,10 +14926,10 @@ number.29.Cellos.Voice.10.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -14946,7 +14946,7 @@ number.29.Cellos.Voice.10.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15096,7 +15096,7 @@ number.29.Cellos.Voice.11.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -15193,10 +15193,10 @@ number.29.Cellos.Voice.11.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15213,7 +15213,7 @@ number.29.Cellos.Voice.11.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15292,7 +15292,7 @@ number.29.Cellos.Voice.12.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
@@ -15369,10 +15369,10 @@ number.29.Cellos.Voice.12.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15389,7 +15389,7 @@ number.29.Cellos.Voice.12.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15545,7 +15545,7 @@ number.29.Cellos.Voice.13.container = {
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
       %! -PARTS
-      %! baca.voice_one_function()
+      %! baca.voice_one()
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
@@ -15660,10 +15660,10 @@ number.29.Cellos.Voice.13.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15680,7 +15680,7 @@ number.29.Cellos.Voice.13.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:
@@ -15759,7 +15759,7 @@ number.29.Cellos.Voice.14.container = {
     % OPENING:
     % COMMANDS:
       %! -PARTS
-      %! baca.voice_two_function()
+      %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
@@ -15827,10 +15827,10 @@ number.29.Cellos.Voice.14.container = {
               %! baca.make_mmrests(3)
             \abjad-invisible-music-coloring
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.MultiMeasureRest.transparent = ##t
               %! +PARTS
-              %! baca.literal_function()
+              %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
             % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
@@ -15847,7 +15847,7 @@ number.29.Cellos.Voice.14.container = {
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
               %! +PARTS
-              %! baca.markup_function()
+              %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
             % CLOSING:
             % COMMANDS:

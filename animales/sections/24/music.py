@@ -87,7 +87,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "W",
         abjad.Tweak(
@@ -119,8 +119,8 @@ def BRASS(score, accumulator):
 
 
 def brass(cache):
-    library.assign_brass_sforzando_parts_function(cache)
-    library.make_brass_sforzando_function(cache, measure=1)
+    library.assign_brass_sforzando_parts(cache)
+    library.make_brass_sforzando(cache, measure=1)
 
 
 def make_score(
@@ -152,7 +152,7 @@ def make_score(
         library.voice_abbreviations,
     )
     brass(cache)
-    library.make_battuti_function(
+    library.make_battuti(
         cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
     return score, accumulator

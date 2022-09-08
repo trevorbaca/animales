@@ -224,7 +224,7 @@ def allows_instrument(staff_name, instrument):
     raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
 
-def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
+def assign_brass_sforzando_parts(cache, *, omit_tuba=False):
     for name, section_name, part_number in (
         ("hn1", "Horn", 1),
         ("hn3", "Horn", 3),
@@ -244,24 +244,24 @@ def assign_brass_sforzando_parts_function(cache, *, omit_tuba=False):
             continue
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            assign_part_function(o, section_name, part_number)
+            assign_part(o, section_name, part_number)
             if part_number in (1, 2):
-                wrappers = baca.voice_one_function(o.leaf(0))
+                wrappers = baca.voice_one(o.leaf(0))
                 baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
             elif part_number in (3, 4):
-                wrappers = baca.voice_two_function(o.leaf(0))
+                wrappers = baca.voice_two(o.leaf(0))
                 baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
-def assign_part_function(argument, name, token=None):
+def assign_part(argument, name, token=None):
     _part_manifest = part_manifest()
     part_assignment = baca.PartAssignment(name, token)
     for part in part_assignment.make_parts():
         assert part in _part_manifest, repr(part)
-    baca.assign_part_function(argument, part_assignment)
+    baca.assign_part(argument, part_assignment)
 
 
-def assign_trill_parts_function(cache, *, exclude_first_violin=False):
+def assign_trill_parts(cache, *, exclude_first_violin=False):
     for voice_name, part_number_token in (
         ("FirstViolins.Voice.1", (1, 10)),
         ("FirstViolins.Voice.3", (11, 18)),
@@ -274,12 +274,12 @@ def assign_trill_parts_function(cache, *, exclude_first_violin=False):
         argument = cache[voice_name].leaves()
         part_name = voice_name.split(".")[0].removesuffix("s")
         if voice_name == "FirstViolins.Voice.1" and exclude_first_violin:
-            assign_part_function(argument, part_name, (2, 10))
+            assign_part(argument, part_name, (2, 10))
         else:
-            assign_part_function(argument, part_name, part_number_token)
+            assign_part(argument, part_name, part_number_token)
 
 
-def attach_grand_pause_fermatas_function(cache, score, *, measure):
+def attach_grand_pause_fermatas(cache, score, *, measure):
     """
     Attaches grand pause fermatas in parts because voices alive in section
     do not receive GlobalRests variables.
@@ -290,13 +290,13 @@ def attach_grand_pause_fermatas_function(cache, score, *, measure):
             continue
         with baca.scope(cache[voice.name][measure]) as o:
             markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
-            wrappers = baca.markup_function(o[0], markup)
+            wrappers = baca.markup(o[0], markup)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
-            wrappers = baca.literal_function(o[0], string)
+            wrappers = baca.literal(o[0], string)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.TimeSignature.stencil = ##f"
-            wrappers = baca.literal_function(o[0], string)
+            wrappers = baca.literal(o[0], string)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
 
 
@@ -310,16 +310,16 @@ def get_music_voice_names(voice_names):
     return music_voice_names
 
 
-def glissando_positions_function(argument, *, reverse=False, rotate=0, transpose=0):
+def glissando_positions(argument, *, reverse=False, rotate=0, transpose=0):
     positions_ = [8, 13, 9, 14, 5, 11, 8, 12, 2, 8, 3, 9, -1, 5, 0, 6]
     positions_ = [_ + transpose for _ in positions_]
     if reverse is True:
         positions_.reverse()
     positions = abjad.sequence.rotate(positions_, rotate)
-    baca.staff_positions_function(argument, positions)
+    baca.staff_positions(argument, positions)
 
 
-def leaves_in_measure_function(argument, n, *, lleak=False, rleak=False):
+def leaves_in_measure(argument, n, *, lleak=False, rleak=False):
     result = baca.select.mleaves(argument, n)
     if lleak is True:
         result = baca.select.lleak(result)
@@ -366,7 +366,7 @@ def MAKE_BATTUTI(
                 voice.extend(music)
 
 
-def make_battuti_function(
+def make_battuti(
     cache,
     accumulator,
     counts,
@@ -391,15 +391,15 @@ def make_battuti_function(
         "Contrabasses": "Cb.",
     }
 
-    def upper_voice_function(o):
-        wrappers = baca.voice_one_function(o.leaf(0))
+    def upper_voice(o):
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.staff_position_function(o, 1)
+        baca.staff_position(o, 1)
 
-    def lower_voice_function(o):
-        wrappers = baca.voice_two_function(o.leaf(0))
+    def lower_voice(o):
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.staff_position_function(o, -1)
+        baca.staff_position(o, -1)
 
     for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
@@ -408,24 +408,24 @@ def make_battuti_function(
             voice_name = f"{section}.Voice.{member}"
             part_name = section.removesuffix("s").removesuffix("e")
             with baca.scope(cache[voice_name].leaves()) as o:
-                assign_part_function(o, part_name, member)
+                assign_part(o, part_name, member)
             with baca.scope(cache[voice_name].get(*range_)) as o:
                 if first:
                     markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
-                    wrappers = baca.markup_function(o.leaf(0), markup)
+                    wrappers = baca.markup(o.leaf(0), markup)
                     baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-                    baca.staff_lines_function(o.leaf(0), 1)
-                    baca.clef_function(o.leaf(0), "percussion")
+                    baca.staff_lines(o.leaf(0), 1)
+                    baca.clef(o.leaf(0), "percussion")
                 if first and member % 2 == 1:
                     short_instrument_name_ = section_name_to_short_instrument_name[
                         section
                     ]
                     key = f"{short_instrument_name_} ({member}-{member+1})"
-                    baca.short_instrument_name_function(o.leaf(0), key, manifests)
+                    baca.short_instrument_name(o.leaf(0), key, manifests)
                 if member % 2 == 0:
-                    lower_voice_function(o)
+                    lower_voice(o)
                 else:
-                    upper_voice_function(o)
+                    upper_voice(o)
 
 
 def make_brass_manifest_rhythm(
@@ -502,7 +502,7 @@ def MAKE_BRASS_SFORZANDO(score, accumulator, measure):
         voice.extend(music)
 
 
-def make_brass_sforzando_function(cache, *, measure):
+def make_brass_sforzando(cache, *, measure):
     name_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
@@ -521,20 +521,20 @@ def make_brass_sforzando_function(cache, *, measure):
     for name, pitch in name_to_pitch.items():
         voice_name = voice_abbreviations.get(name, name)
         with baca.scope(cache[name][measure]) as o:
-            baca.marcato_function(o.phead(0))
+            baca.marcato(o.phead(0))
             if voice_name[-1].isdigit():
                 words = abjad.string.delimit_words(voice_name)
                 member = int(words[-1])
             else:
                 member = 1
             if member in (1, 2):
-                baca.dynamic_function(o.phead(0), "sffz")
+                baca.dynamic(o.phead(0), "sffz")
             elif member in (3, 4):
-                wrappers = baca.dynamic_function(o.phead(0), "sffz")
+                wrappers = baca.dynamic(o.phead(0), "sffz")
                 baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             else:
                 raise ValueError(member)
-            baca.pitch_function(o, pitch)
+            baca.pitch(o, pitch)
 
 
 def make_clb_rhythm(time_signatures, section, member, counts, wrap):
@@ -976,7 +976,7 @@ def pennant_pitches(start_pitch, intervals, *, direction=abjad.UP, function=None
         intervals_ = [-_ for _ in intervals_]
     pitch_numbers = [_ + start_pitch for _ in intervals_]
     loop = baca.Loop(pitch_numbers, intervals)
-    baca.pitches_function(function, loop)
+    baca.pitches(function, loop)
 
 
 def time_signatures():

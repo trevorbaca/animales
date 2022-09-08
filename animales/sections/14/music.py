@@ -61,17 +61,17 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark_function(
+    baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["114"], library.manifests
     )
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "M",
         abjad.Tweak(
             r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
     )
-    wrappers = baca.text_spanner_left_padding_function(skips[:-1], -2)
+    wrappers = baca.text_spanner_left_padding(skips[:-1], -2)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -157,7 +157,7 @@ def PERCUSSION(score, accumulator):
     voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
-    baca.repeat_tie_function(pleaf)
+    baca.repeat_tie(pleaf)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 6))
     voice.extend(music)
@@ -186,7 +186,7 @@ def CB3(voice, accumulator):
 
 def flutes(cache, accumulator):
     with baca.scope(cache["fl1"][1, 3]) as o:
-        baca.clef_function(o.leaf(0), "treble")
+        baca.clef(o.leaf(0), "treble")
         library.pennant_pitches("G5", [6], function=o)
     with baca.scope(cache["fl3"][1, 3]) as o:
         library.pennant_pitches("F5", [6], function=o)
@@ -195,159 +195,159 @@ def flutes(cache, accumulator):
     with baca.scope(cache["fl4"][1, 3]) as o:
         library.pennant_pitches("D5", [6], function=o)
     with baca.scope(cache["fl1"].get(1, 3)) as o:
-        baca.instrument_function(o.leaf(0), "Flute", library.manifests)
-        baca.short_instrument_name_function(o.leaf(0), "Fl. (1+3)", library.manifests)
-        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.instrument(o.leaf(0), "Flute", library.manifests)
+        baca.short_instrument_name(o.leaf(0), "Fl. (1+3)", library.manifests)
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur_function(o.tleaves())
-        wrappers = baca.hairpin_function(o.tleaves(), "mf < ff")
+        baca.slur(o.tleaves())
+        wrappers = baca.hairpin(o.tleaves(), "mf < ff")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl3"].get(1, 3)) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur_function(o.tleaves())
-        baca.hairpin_function(o.tleaves(), "mf < ff")
+        baca.slur(o.tleaves())
+        baca.hairpin(o.tleaves(), "mf < ff")
     with baca.scope(cache["fl2"].get(1, 3)) as o:
-        baca.instrument_function(o.leaf(0), "Flute", library.manifests)
-        baca.clef_function(o.leaf(0), "treble")
-        baca.short_instrument_name_function(o.leaf(0), "Fl. (2+4)", library.manifests)
-        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.instrument(o.leaf(0), "Flute", library.manifests)
+        baca.clef(o.leaf(0), "treble")
+        baca.short_instrument_name(o.leaf(0), "Fl. (2+4)", library.manifests)
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur_function(o.tleaves())
-        wrappers = baca.hairpin_function(o.tleaves(), "mf < ff")
+        baca.slur(o.tleaves())
+        wrappers = baca.hairpin(o.tleaves(), "mf < ff")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl4"].get(1, 3)) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur_function(o.tleaves())
-        baca.hairpin_function(o.tleaves(), "mf < ff")
+        baca.slur(o.tleaves())
+        baca.hairpin(o.tleaves(), "mf < ff")
     with baca.scope(cache["fl1"].leaves()) as o:
-        library.assign_part_function(o, "Flute", 1)
+        library.assign_part(o, "Flute", 1)
     with baca.scope(cache["fl3"].leaves()) as o:
-        library.assign_part_function(o, "Flute", 3)
+        library.assign_part(o, "Flute", 3)
     with baca.scope(cache["fl2"].leaves()) as o:
-        library.assign_part_function(o, "Flute", 2)
+        library.assign_part(o, "Flute", 2)
     with baca.scope(cache["fl4"].leaves()) as o:
-        library.assign_part_function(o, "Flute", 4)
+        library.assign_part(o, "Flute", 4)
 
 
 def cl(cache, accumulator):
     with baca.scope(cache["cl"].get(1, 3)) as o:
-        baca.pitch_function(o, "Eb5")
-        baca.hairpin_function(o, "< ff", left_broken=True)
+        baca.pitch(o, "Eb5")
+        baca.hairpin(o, "< ff", left_broken=True)
     with baca.scope(cache["Clarinets.Rests"][4]) as o:
-        baca.markup_function(o.leaf(0), r"\animales-choke-sound-suddenly-markup")
+        baca.markup(o.leaf(0), r"\animales-choke-sound-suddenly-markup")
     with baca.scope(cache["cl"].leaves()) as o:
-        library.assign_part_function(o, "Clarinet", 1)
+        library.assign_part(o, "Clarinet", 1)
 
 
 def bcl(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.repeat_tie_function(o.pleaf(0))
-        baca.pitch_function(o, "Ab2")
-        baca.dynamic_function(o.phead(0), "p")
-        library.assign_part_function(o, "BassClarinet")
+        baca.repeat_tie(o.pleaf(0))
+        baca.pitch(o, "Ab2")
+        baca.dynamic(o.phead(0), "p")
+        library.assign_part(o, "BassClarinet")
 
 
 def pf_hp_perc3(cache, accumulator):
     for name in ["pf", "hp", "perc3"]:
         with baca.scope(cache[name].get(1, 3)) as o:
-            baca.pitch_function(o, "C5")
+            baca.pitch(o, "C5")
         with baca.scope(cache[name].get(4, 6)) as o:
-            baca.pitch_function(o, "Bb4")
+            baca.pitch(o, "Bb4")
 
 
 def pf(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Piano")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Piano")
 
 
 def hp(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Harp")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Harp")
 
 
 def percussion(cache, accumulator):
     with baca.scope(cache["perc1"].get(1, 3)) as o:
-        baca.repeat_tie_function(o.pleaf(0))
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
+        baca.repeat_tie(o.pleaf(0))
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
     with baca.scope(cache["perc1"].leaves()) as o:
-        library.assign_part_function(o, "Percussion", 1)
+        library.assign_part(o, "Percussion", 1)
     with baca.scope(cache["perc2"].get(1, 3)) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
     with baca.scope(cache["perc2"].leaves()) as o:
-        library.assign_part_function(o, "Percussion", 2)
+        library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Percussion", 3)
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Percussion", 3)
 
 
 def strings(cache, accumulator):
     with baca.scope(cache["1vn3"].get(1, 3)) as o:
-        baca.untie_function(o.leaves())
-        library.glissando_positions_function(o, transpose=-3)
-        baca.pitch_function(
+        baca.untie(o.leaves())
+        library.glissando_positions(o, transpose=-3)
+        baca.pitch(
             o.pleaf(0),
             "G4",
             allow_repitch=True,
         )
-        baca.pitch_function(
+        baca.pitch(
             o.pleaf(-1),
             "G4",
             allow_repitch=True,
         )
-        baca.glissando_function(o.tleaves())
-        wrappers = baca.voice_one_function(o.leaf(0))
+        baca.glissando(o.tleaves())
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dls_up_function(o)
+        wrappers = baca.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.stop_trill_function(o.leaf(0))
+        wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.edition_function(
+        baca.edition(
             o.pleaf(0),
             not_parts=r"\markup { solo (first violin) }",
             only_parts=r"\markup { solo }",
         )
-        baca.hairpin_function(
-            library.leaves_in_measure_function(o, 1, rleak=True),
+        baca.hairpin(
+            library.leaves_in_measure(o, 1, rleak=True),
             "p < ff",
         )
-        baca.hairpin_function(
-            library.leaves_in_measure_function(o, -1, lleak=True),
+        baca.hairpin(
+            library.leaves_in_measure(o, -1, lleak=True),
             "ff > p",
         )
     with baca.scope(cache["1vn3"].leaves()) as o:
-        library.assign_part_function(o, "FirstViolin", 1)
+        library.assign_part(o, "FirstViolin", 1)
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].get(1, 3)) as o:
-            baca.pitch_function(o, "G3")
-            baca.trill_spanner_function(
+            baca.pitch(o, "G3")
+            baca.trill_spanner(
                 baca.select.tleaves(o, rleak=True),
                 alteration="Ab3",
             )
-            baca.hairpin_function(
+            baca.hairpin(
                 o.pleaves()[:2],
                 "< ff",
                 left_broken=True,
             )
     with baca.scope(cache["1vn1"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        library.assign_part_function(o, "FirstViolin", (2, 18))
+        library.assign_part(o, "FirstViolin", (2, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
-        library.assign_part_function(o, "SecondViolin", (1, 18))
+        library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
-        library.assign_part_function(o, "Viola", (1, 18))
+        library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
-        library.assign_part_function(o, "Cello", (1, 14))
+        library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["FirstViolins.Voice.1.Rests"][4]) as o:
-        baca.markup_function(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
+        baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
     for name in (
         "SecondViolins.Voice.1.Rests",
         "Violas.Voice.1.Rests",
@@ -355,27 +355,27 @@ def strings(cache, accumulator):
         "Contrabasses.Voice.3.Rests",
     ):
         with baca.scope(cache[name][4]) as o:
-            wrappers = baca.markup_function(
+            wrappers = baca.markup(
                 o.leaf(0), r"\animales-suddenly-ripped-off-markup"
             )
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["cb3"].get(1, 3)) as o:
-        baca.hairpin_function(
+        baca.hairpin(
             o.pleaves()[:2],
             "< ff",
             left_broken=True,
         )
-        baca.pitch_function(o, "G1")
+        baca.pitch(o, "G1")
     with baca.scope(cache["cb3"].leaves()) as o:
-        library.assign_part_function(o, "Contrabass", (2, 6))
+        library.assign_part(o, "Contrabass", (2, 6))
 
 
 def cb1(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "Bb4", do_not_transpose=True)
-        baca.laissez_vibrer_function(o.ptails())
-        baca.markup_function(o.pleaf(0), r"\animales-as-bell-like-as-possible-markup")
-        library.assign_part_function(o, "Contrabass", 1)
+        baca.pitch(o, "Bb4", do_not_transpose=True)
+        baca.laissez_vibrer(o.ptails())
+        baca.markup(o.pleaf(0), r"\animales-as-bell-like-as-possible-markup")
+        library.assign_part(o, "Contrabass", 1)
 
 
 def make_score(

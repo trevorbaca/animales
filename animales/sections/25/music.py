@@ -92,7 +92,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "X",
         abjad.Tweak(
@@ -131,42 +131,42 @@ def PERCUSSION(score, accumulator):
 
 
 def brass(cache):
-    library.assign_brass_sforzando_parts_function(cache)
-    library.make_brass_sforzando_function(cache, measure=1)
+    library.assign_brass_sforzando_parts(cache)
+    library.make_brass_sforzando(cache, measure=1)
 
 
 def percussion(cache, accumulator):
     with baca.scope(cache["perc2"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 2)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.short_instrument_name_function(
+        baca.short_instrument_name(
             o.leaf(0), "Perc. 3 (BD)", library.manifests
         )
-        baca.clef_function(o.leaf(0), "percussion")
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        baca.markup_function(
+        baca.clef(o.leaf(0), "percussion")
+        baca.staff_lines(o.leaf(0), 1)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        baca.markup(
             o.pleaf(0), r"\animales-bass-drum-soft-yarn-mallets-markup"
         )
-        wrappers = baca.text_script_extra_offset_function(o, (0, 4))
+        wrappers = baca.text_script_extra_offset(o, (0, 4))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.dynamic_function(o.phead(0), "p")
-        library.assign_part_function(o, "Percussion", 3)
+        baca.dynamic(o.phead(0), "p")
+        library.assign_part(o, "Percussion", 3)
     with baca.scope(cache["perc4"].leaves()) as o:
-        baca.short_instrument_name_function(
+        baca.short_instrument_name(
             o.leaf(0), "Perc. 4 (tam.)", library.manifests
         )
-        baca.staff_lines_function(o.leaf(0), 1)
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        baca.markup_function(o.pleaf(0), r"\animales-tam-tam-soft-yarn-mallets-markup")
-        wrappers = baca.text_script_extra_offset_function(o, (0, 4))
+        baca.staff_lines(o.leaf(0), 1)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        baca.markup(o.pleaf(0), r"\animales-tam-tam-soft-yarn-mallets-markup")
+        wrappers = baca.text_script_extra_offset(o, (0, 4))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.dynamic_function(o.phead(0), "p")
-        library.assign_part_function(o, "Percussion", 4)
+        baca.dynamic(o.phead(0), "p")
+        library.assign_part(o, "Percussion", 4)
 
 
 def make_score(
@@ -199,7 +199,7 @@ def make_score(
         library.voice_abbreviations,
     )
     brass(cache)
-    library.make_battuti_function(
+    library.make_battuti(
         cache, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
     )
     percussion(cache, accumulator)

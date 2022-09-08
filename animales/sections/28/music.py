@@ -73,7 +73,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "AA",
         abjad.Tweak(
@@ -87,27 +87,27 @@ def PERCUSSION(score, accumulator):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         pleaf = baca.select.pleaf(music, 0)
-        baca.repeat_tie_function(pleaf)
+        baca.repeat_tie(pleaf)
         voice.extend(music)
 
 
 def percussion(cache, accumulator):
     with baca.scope(cache["perc1"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 1)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 1)
     with baca.scope(cache["perc2"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 2)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 3)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 3)
     with baca.scope(cache["perc4"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 4)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 4)
 
 
 def make_score(
@@ -144,7 +144,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.make_battuti_function(
+    library.make_battuti(
         cache,
         accumulator,
         [[1, 1, -5], [1, 1, -5], [1, -8]],

@@ -38,7 +38,7 @@ def make_empty_score(previous_final_measure_number):
 
 
 def SKIPS(skips):
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "B",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
@@ -62,7 +62,7 @@ def STRINGS(
     music_voice_names = library.get_music_voice_names(voice_names)
     for voice_name in music_voice_names:
         voice = score[voice_name]
-        baca.append_anchor_note_function(voice)
+        baca.append_anchor_note(voice)
 
 
 def strings(cache):
@@ -71,35 +71,35 @@ def strings(cache):
         m = cache[name]
         # first accents ...
         with baca.scope(m.leaves()) as o:
-            baca.accent_function(o.pheads()[1:])
+            baca.accent(o.pheads()[1:])
         # then untie ...
         with baca.scope(m[4]) as o:
-            baca.untie_function(o.pleaf(0))
+            baca.untie(o.pleaf(0))
         # ... then pitch
         with baca.scope(m.get(1, 3)) as o:
-            baca.pitch_function(o, "E4")
-            baca.trill_spanner_function(
+            baca.pitch(o, "E4")
+            baca.trill_spanner(
                 baca.select.rleak(o.tleaves()),
                 alteration="F4",
             )
-            baca.dynamic_function(o.pleaf(0), "f-sub-but-accents-continue-sffz")
+            baca.dynamic(o.pleaf(0), "f-sub-but-accents-continue-sffz")
         with baca.scope(m.get(4, 5)) as o:
-            baca.pitch_function(o, "Eb4")
-            baca.trill_spanner_function(
+            baca.pitch(o, "Eb4")
+            baca.trill_spanner(
                 baca.select.rleak(o.tleaves()),
                 alteration="E4",
                 right_broken=True,
             ),
-            baca.dynamic_function(o.pleaf(0), "p-sub-but-accents-continue-sffz")
+            baca.dynamic(o.pleaf(0), "p-sub-but-accents-continue-sffz")
     for name in ["1vn3", "2vn3"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.trill_spanner_staff_padding_function(o, 6)
+            baca.trill_spanner_staff_padding(o, 6)
     for name in ["1vn1", "2vn1", "va1", "va3", "vc1"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.trill_spanner_staff_padding_function(o, 4)
-    library.assign_trill_parts_function(cache)
+            baca.trill_spanner_staff_padding(o, 4)
+    library.assign_trill_parts(cache)
 
 
 def make_score(
