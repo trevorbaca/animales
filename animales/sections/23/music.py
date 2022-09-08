@@ -90,7 +90,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "V",
         abjad.Tweak(
@@ -127,16 +127,16 @@ def PERC2(voice, accumulator):
 
 
 def brass(cache):
-    library.assign_brass_sforzando_parts_function(cache)
-    library.make_brass_sforzando_function(cache, measure=1)
+    library.assign_brass_sforzando_parts(cache)
+    library.make_brass_sforzando(cache, measure=1)
 
 
 def perc2(m):
     with baca.scope(m.leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        baca.dynamic_function(o.phead(0), "p")
-        library.assign_part_function(o, "Percussion", 2)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        baca.dynamic(o.phead(0), "p")
+        library.assign_part(o, "Percussion", 2)
 
 
 def make_score(
@@ -170,7 +170,7 @@ def make_score(
     )
     brass(cache)
     perc2(cache["perc2"])
-    library.make_battuti_function(
+    library.make_battuti(
         cache, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
     )
     return score, accumulator

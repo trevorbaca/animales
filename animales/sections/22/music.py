@@ -72,7 +72,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "U",
         abjad.Tweak(
@@ -108,7 +108,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.make_battuti_function(
+    library.make_battuti(
         cache, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
     )
     return score, accumulator

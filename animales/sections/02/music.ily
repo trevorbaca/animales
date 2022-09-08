@@ -77,9 +77,9 @@ number.2.Skips = {
     % AFTER:
     % MARKUP:
       %! +SCORE
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . -2)
-      %! baca.rehearsal_mark_function()
+      %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "A" #10
     % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
@@ -412,7 +412,7 @@ number.2.FirstViolins.Voice.1.container = {
     % [FirstViolins.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
@@ -444,7 +444,7 @@ number.2.FirstViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!2
@@ -455,12 +455,12 @@ number.2.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -469,7 +469,7 @@ number.2.FirstViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -492,7 +492,7 @@ number.2.FirstViolins.Voice.1.container = {
     gf'!2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -530,7 +530,7 @@ number.2.FirstViolins.Voice.1.container = {
     gf'!4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -556,7 +556,7 @@ number.2.FirstViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'1
@@ -567,17 +567,17 @@ number.2.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -587,7 +587,7 @@ number.2.FirstViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -606,10 +606,10 @@ number.2.FirstViolins.Voice.1.container = {
     f'4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -693,7 +693,7 @@ number.2.FirstViolins.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -733,7 +733,7 @@ number.2.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 6
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
@@ -765,7 +765,7 @@ number.2.FirstViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!2.
@@ -776,12 +776,12 @@ number.2.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -790,7 +790,7 @@ number.2.FirstViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -813,7 +813,7 @@ number.2.FirstViolins.Voice.3.container = {
     gf'!4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -871,7 +871,7 @@ number.2.FirstViolins.Voice.3.container = {
         gf'!4
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % SPANNER_STARTS:
           %! baca._attach_shadow_tie_indicators()
@@ -903,7 +903,7 @@ number.2.FirstViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'1
@@ -914,17 +914,17 @@ number.2.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -934,7 +934,7 @@ number.2.FirstViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -947,7 +947,7 @@ number.2.FirstViolins.Voice.3.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -1031,7 +1031,7 @@ number.2.FirstViolins.Voice.3 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -1071,7 +1071,7 @@ number.2.SecondViolins.Voice.1.container = {
     % [SecondViolins.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" }
@@ -1103,7 +1103,7 @@ number.2.SecondViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!1
@@ -1114,12 +1114,12 @@ number.2.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1133,7 +1133,7 @@ number.2.SecondViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -1166,7 +1166,7 @@ number.2.SecondViolins.Voice.1.container = {
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1204,7 +1204,7 @@ number.2.SecondViolins.Voice.1.container = {
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1215,7 +1215,7 @@ number.2.SecondViolins.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'1
@@ -1226,17 +1226,17 @@ number.2.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1246,7 +1246,7 @@ number.2.SecondViolins.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1259,7 +1259,7 @@ number.2.SecondViolins.Voice.1.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -1343,7 +1343,7 @@ number.2.SecondViolins.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -1383,7 +1383,7 @@ number.2.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 6
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
@@ -1415,7 +1415,7 @@ number.2.SecondViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!1
@@ -1426,12 +1426,12 @@ number.2.SecondViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1445,7 +1445,7 @@ number.2.SecondViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -1486,7 +1486,7 @@ number.2.SecondViolins.Voice.3.container = {
         gf'!8
         % AFTER:
         % ARTICULATIONS:
-          %! baca.accent_function()
+          %! baca.accent()
         - \accent
         % SPANNER_STARTS:
           %! baca._attach_shadow_tie_indicators()
@@ -1542,7 +1542,7 @@ number.2.SecondViolins.Voice.3.container = {
     gf'!4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1553,7 +1553,7 @@ number.2.SecondViolins.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'1
@@ -1564,17 +1564,17 @@ number.2.SecondViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1584,7 +1584,7 @@ number.2.SecondViolins.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1597,7 +1597,7 @@ number.2.SecondViolins.Voice.3.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -1681,7 +1681,7 @@ number.2.SecondViolins.Voice.3 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -1721,7 +1721,7 @@ number.2.Violas.Voice.1.container = {
     % [Violas.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
@@ -1753,7 +1753,7 @@ number.2.Violas.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!1
@@ -1764,12 +1764,12 @@ number.2.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1783,7 +1783,7 @@ number.2.Violas.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -1816,7 +1816,7 @@ number.2.Violas.Voice.1.container = {
     gf'!4
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1856,7 +1856,7 @@ number.2.Violas.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'4.
@@ -1867,22 +1867,22 @@ number.2.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1891,7 +1891,7 @@ number.2.Violas.Voice.1.container = {
     f'8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -1921,7 +1921,7 @@ number.2.Violas.Voice.1.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -2005,7 +2005,7 @@ number.2.Violas.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -2045,7 +2045,7 @@ number.2.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
@@ -2077,7 +2077,7 @@ number.2.Violas.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!1
@@ -2088,12 +2088,12 @@ number.2.Violas.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2107,7 +2107,7 @@ number.2.Violas.Voice.3.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2142,7 +2142,7 @@ number.2.Violas.Voice.3.container = {
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -2168,7 +2168,7 @@ number.2.Violas.Voice.3.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'2
@@ -2179,22 +2179,22 @@ number.2.Violas.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2203,7 +2203,7 @@ number.2.Violas.Voice.3.container = {
     f'2
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -2221,7 +2221,7 @@ number.2.Violas.Voice.3.container = {
     % SPANNER_STARTS:
     \repeatTie
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -2305,7 +2305,7 @@ number.2.Violas.Voice.3 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:
@@ -2345,7 +2345,7 @@ number.2.Cellos.Voice.1.container = {
     % [Cellos.Voice.1 measure 1]
     % BEFORE:
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(1)
+      %! baca.trill_spanner_staff_padding(1)
     \override TrillSpanner.staff-padding = 4
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vc."
@@ -2377,7 +2377,7 @@ number.2.Cellos.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     gf'!4.
@@ -2388,12 +2388,12 @@ number.2.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-f-sub-but-accents-continue-sffz
     % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2402,7 +2402,7 @@ number.2.Cellos.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan af'
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2425,7 +2425,7 @@ number.2.Cellos.Voice.1.container = {
     gf'!8
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -2475,7 +2475,7 @@ number.2.Cellos.Voice.1.container = {
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -2501,7 +2501,7 @@ number.2.Cellos.Voice.1.container = {
     % PITCHED_TRILL:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \pitchedTrill
       %! animales.make_sforzando_exchange_rhythm()
     f'1
@@ -2512,17 +2512,17 @@ number.2.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     - \tweak color #(x11-color 'blue)
       %! EXPLICIT_DYNAMIC
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
-      %! baca.dynamic_function()
+      %! baca.dynamic()
     \baca-p-sub-but-accents-continue-sffz
     % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
@@ -2532,7 +2532,7 @@ number.2.Cellos.Voice.1.container = {
     % TRILL_SPANNER_STARTS:
       %! SPANNER_START
       %! baca._do_spanner_indicator_command(1)
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \startTrillSpan gf'
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2551,10 +2551,10 @@ number.2.Cellos.Voice.1.container = {
     f'4.
     % AFTER:
     % ARTICULATIONS:
-      %! baca.accent_function()
+      %! baca.accent()
     - \accent
     % COMMANDS:
-      %! baca.trill_spanner_staff_padding_function(2)
+      %! baca.trill_spanner_staff_padding(2)
     \revert TrillSpanner.staff-padding
     % CLOSING:
     % COMMANDS:
@@ -2638,7 +2638,7 @@ number.2.Cellos.Voice.1 = {
       %! SPANNER_STOP
       %! baca._do_spanner_indicator_command(2)
       %! baca._style_anchor_notes()
-      %! baca.trill_spanner_function()
+      %! baca.trill_spanner()
     \stopTrillSpan
     % CLOSING:
     % COMMANDS:

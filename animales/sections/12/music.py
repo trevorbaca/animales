@@ -65,17 +65,17 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark_function(
+    baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["76"], library.manifests
     )
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "K",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
     )
-    wrappers = baca.text_spanner_left_padding_function(skips[:-1], -8)
+    wrappers = baca.text_spanner_left_padding(skips[:-1], -8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-    wrappers = baca.text_spanner_y_offset_function(skips[:-1], 8)
+    wrappers = baca.text_spanner_y_offset(skips[:-1], 8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -150,19 +150,19 @@ def STRINGS(score, accumulator):
 
 def cl(cache, accumulator):
     with baca.scope(cache["cl"].get(1, 4)) as o:
-        baca.pitch_function(o, "C5")
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 1", library.manifests)
-        library.assign_part_function(o, "Clarinet", 1)
-        baca.hairpin_function(o, "mp < mf")
+        baca.pitch(o, "C5")
+        baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
+        library.assign_part(o, "Clarinet", 1)
+        baca.hairpin(o, "mp < mf")
     with baca.scope(cache["Rests"].get(5, 8)) as o:
-        library.assign_part_function(o, "Clarinet", 1)
+        library.assign_part(o, "Clarinet", 1)
     with baca.scope(cache["Rests"].get(1, 4)) as o:
-        library.assign_part_function(o, "Clarinet", 2)
+        library.assign_part(o, "Clarinet", 2)
     with baca.scope(cache["cl"].get(5, 8)) as o:
-        baca.pitch_function(o, "Cb5")
-        baca.short_instrument_name_function(o.leaf(0), "Cl. 2", library.manifests)
-        library.assign_part_function(o, "Clarinet", 2)
-        baca.hairpin_function(o, "mp < mf")
+        baca.pitch(o, "Cb5")
+        baca.short_instrument_name(o.leaf(0), "Cl. 2", library.manifests)
+        library.assign_part(o, "Clarinet", 2)
+        baca.hairpin(o, "mp < mf")
 
 
 def brass(
@@ -172,82 +172,82 @@ def brass(
     *,
     previous_voice_name_to_parameter_to_state=None,
 ):
-    library.assign_brass_sforzando_parts_function(cache, omit_tuba=True)
+    library.assign_brass_sforzando_parts(cache, omit_tuba=True)
     with baca.scope(cache["hn1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift_function(o.pleaf(0), 1.7)
+        wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
+        wrappers = baca.note_column_shift(o.pleaf(0), 1.7)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["hn2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift_function(o.pleaf(0), 1.0)
+        wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
+        wrappers = baca.note_column_shift(o.pleaf(0), 1.0)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn1"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn3"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn2"][1]) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_function(o.phead(0), "sfz")
+        wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn4"][1]) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.force_accidental_function(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift_function(o.pleaf(0), 1.0)
+        wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
+        wrappers = baca.note_column_shift(o.pleaf(0), 1.0)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.dynamic_function(o.phead(0), "sfz")
+        baca.dynamic(o.phead(0), "sfz")
     for name, pitches in (
         ("hn1", "A3 B3"),
         ("hn3", "Ab3 Bb3"),
@@ -267,9 +267,9 @@ def brass(
             previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
                 voice_name
             ]
-            # TODO: do not allow baca.pitches_function() to OVERWRITE metadata;
+            # TODO: do not allow baca.pitches() to OVERWRITE metadata;
             #       return new dictionary instead:
-            baca.pitches_function(
+            baca.pitches(
                 o, pitches, metadata=previous_parameter_to_state, name="seconds"
             )
             assert voice_name not in voice_name_to_parameter_to_state
@@ -281,59 +281,59 @@ def brass(
 
 def pf(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Piano")
+        baca.pitch(o, "C5")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Piano")
 
 
 def hp(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Harp")
+        baca.pitch(o, "C5")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Harp")
 
 
 def percussion(cache, accumulator):
     with baca.scope(cache["perc2"].leaves()) as o:
-        baca.staff_position_function(o, 0)
-        baca.stem_tremolo_function(o.pleaves())
-        library.assign_part_function(o, "Percussion", 2)
+        baca.staff_position(o, 0)
+        baca.stem_tremolo(o.pleaves())
+        library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Percussion", 3)
+        baca.pitch(o, "C5")
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Percussion", 3)
 
 
 def strings(cache, accumulator):
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.pitch_function(o, "Ab6")
-        library.assign_part_function(o, "FirstViolin", (1, 18))
+        baca.pitch(o, "Ab6")
+        library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.pitch_function(o, "Ab5")
-        library.assign_part_function(o, "SecondViolin", (1, 18))
+        baca.pitch(o, "Ab5")
+        library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.pitch_function(o, "Ab4")
-        library.assign_part_function(o, "Viola", (1, 18))
+        baca.pitch(o, "Ab4")
+        library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.pitch_function(o, "Ab2")
-        library.assign_part_function(o, "Cello", (1, 14))
+        baca.pitch(o, "Ab2")
+        library.assign_part(o, "Cello", (1, 14))
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].leaves()) as o:
-            baca.dynamic_function(o.phead(0), "pp")
+            baca.dynamic(o.phead(0), "pp")
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.pitch_function(o, "Ab1")
-        baca.dynamic_function(o.phead(0), "p")
-        library.assign_part_function(o, "Contrabass", (2, 6))
+        baca.pitch(o, "Ab1")
+        baca.dynamic(o.phead(0), "p")
+        library.assign_part(o, "Contrabass", (2, 6))
 
 
 def cb1(m, accumulator):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic_function(o.pleaves())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Contrabass", 1)
+        baca.pitch(o, "Cqf5", do_not_transpose=True)
+        baca.note_head_style_harmonic(o.pleaves())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Contrabass", 1)
 
 
 def make_score(

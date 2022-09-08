@@ -72,7 +72,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "S",
         abjad.Tweak(
@@ -102,7 +102,7 @@ def strings(cache):
         ("vc14", "Cello"),
     ):
         with baca.scope(cache[name].leaves()) as o:
-            baca.instrument_function(o.leaf(0), instrument, library.manifests)
+            baca.instrument(o.leaf(0), instrument, library.manifests)
 
 
 def make_score(
@@ -132,7 +132,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.make_battuti_function(
+    library.make_battuti(
         cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
     )
     strings(cache)

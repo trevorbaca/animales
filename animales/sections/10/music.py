@@ -68,7 +68,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.rehearsal_mark_function(
+    baca.rehearsal_mark(
         skips[1 - 1],
         "I",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
@@ -83,7 +83,7 @@ def CL(voice, accumulator):
 def BCL(voice, accumulator):
     music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
     pleaf = baca.select.pleaf(music, 0)
-    baca.repeat_tie_function(pleaf)
+    baca.repeat_tie(pleaf)
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 6))
     voice.extend(music)
@@ -156,7 +156,7 @@ def STRINGS(score, accumulator):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         voice.extend(music)
-        baca.append_anchor_note_function(voice)
+        baca.append_anchor_note(voice)
 
 
 def CB3(voice, accumulator):
@@ -166,31 +166,31 @@ def CB3(voice, accumulator):
 
 def cl(m):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "A4")
-        baca.hairpin_function(o, "mp < mf")
-        library.assign_part_function(o, "Clarinet", 3)
+        baca.pitch(o, "A4")
+        baca.hairpin(o, "mp < mf")
+        library.assign_part(o, "Clarinet", 3)
 
 
 def bcl(m):
     with baca.scope(m.get(1, 3)) as o:
-        baca.pitch_function(o, "A2")
-        baca.hairpin_function(
+        baca.pitch(o, "A2")
+        baca.hairpin(
             baca.select.rleak(o.pleaves()),
             "p >o niente",
         )
     with baca.scope(m.leaves()) as o:
-        library.assign_part_function(o, "BassClarinet")
+        library.assign_part(o, "BassClarinet")
 
 
 def brass(cache, accumulator, voice_name_to_parameter_to_state):
-    def crescendi_function(argument):
+    def crescendi(argument):
         runs = baca.select.runs(argument)
         total = len(runs)
         for n, run in enumerate(runs, start=1):
             if n < total:
-                baca.hairpin_function(run, "mp < mf")
+                baca.hairpin(run, "mp < mf")
             else:
-                baca.hairpin_function(
+                baca.hairpin(
                     run,
                     "mp <",
                     remove_length_1_spanner_start=True,
@@ -198,77 +198,77 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
                 )
 
     with baca.scope(cache["hn1"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Horn", 1)
+        crescendi(o)
+        library.assign_part(o, "Horn", 1)
     with baca.scope(cache["hn3"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Horn", 3)
+        crescendi(o)
+        library.assign_part(o, "Horn", 3)
     with baca.scope(cache["hn2"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Horn", 2)
+        crescendi(o)
+        library.assign_part(o, "Horn", 2)
     with baca.scope(cache["hn4"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Horn", 4)
+        crescendi(o)
+        library.assign_part(o, "Horn", 4)
     with baca.scope(cache["tp1"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trumpet", 1)
+        crescendi(o)
+        library.assign_part(o, "Trumpet", 1)
     with baca.scope(cache["tp3"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trumpet", 3)
+        crescendi(o)
+        library.assign_part(o, "Trumpet", 3)
     with baca.scope(cache["tp2"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trumpet", 2)
+        crescendi(o)
+        library.assign_part(o, "Trumpet", 2)
     with baca.scope(cache["tp4"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trumpet", 4)
+        crescendi(o)
+        library.assign_part(o, "Trumpet", 4)
     with baca.scope(cache["tbn1"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trombone", 1)
+        crescendi(o)
+        library.assign_part(o, "Trombone", 1)
     with baca.scope(cache["tbn3"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trombone", 3)
+        crescendi(o)
+        library.assign_part(o, "Trombone", 3)
     with baca.scope(cache["tbn2"].leaves()) as o:
-        wrappers = baca.voice_one_function(o.leaf(0))
+        wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_up_function(o.leaf(0))
+        wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trombone", 2)
+        crescendi(o)
+        library.assign_part(o, "Trombone", 2)
     with baca.scope(cache["tbn4"].leaves()) as o:
-        wrappers = baca.voice_two_function(o.leaf(0))
+        wrappers = baca.voice_two(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        crescendi_function(o)
-        library.assign_part_function(o, "Trombone", 4)
+        crescendi(o)
+        library.assign_part(o, "Trombone", 4)
     for name, pitches in (
         ("hn1", "A3 B3"),
         ("hn3", "Ab3 Bb3"),
@@ -285,64 +285,64 @@ def brass(cache, accumulator, voice_name_to_parameter_to_state):
     ):
         with baca.scope(cache[name].leaves()) as o:
             metadata = {}
-            baca.pitches_function(o, pitches, metadata=metadata, name="seconds")
+            baca.pitches(o, pitches, metadata=metadata, name="seconds")
             voice_name = library.voice_abbreviations[name]
             voice_name_to_parameter_to_state[voice_name].update(metadata)
 
 
 def pf(m):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Piano")
+        baca.pitch(o, "C5")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Piano")
 
 
 def hp(m):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.stopped_function(o.pheads())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Harp")
+        baca.pitch(o, "C5")
+        baca.stopped(o.pheads())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Harp")
 
 
 def perc3(m):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "C5")
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Percussion", 3)
+        baca.pitch(o, "C5")
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Percussion", 3)
 
 
 def strings(cache):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].leaves()) as o:
-            baca.pitch_function(o, "A3")
-            baca.trill_spanner_function(
+            baca.pitch(o, "A3")
+            baca.trill_spanner(
                 baca.select.rleak(o.tleaves()),
                 alteration="Ab3",
                 right_broken=True,
             )
-            baca.hairpin_function(o, "pp <", right_broken=True)
+            baca.hairpin(o, "pp <", right_broken=True)
     for name, section, part_numbers in (
         ("1vn1", "FirstViolin", (1, 18)),
         ("2vn1", "SecondViolin", (1, 18)),
         ("va1", "Viola", (1, 18)),
         ("vc1", "Cello", (1, 14)),
     ):
-        library.assign_part_function(cache[name].leaves(), section, part_numbers)
+        library.assign_part(cache[name].leaves(), section, part_numbers)
     m = cache["cb3"]
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "A1")
-        baca.hairpin_function(o, "pp <", right_broken=True)
-        library.assign_part_function(o, "Contrabass", (2, 6))
+        baca.pitch(o, "A1")
+        baca.hairpin(o, "pp <", right_broken=True)
+        library.assign_part(o, "Contrabass", (2, 6))
 
 
 def cb1(m):
     with baca.scope(m.leaves()) as o:
-        baca.pitch_function(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic_function(o.pleaves())
-        baca.laissez_vibrer_function(o.ptails())
-        library.assign_part_function(o, "Contrabass", 1)
+        baca.pitch(o, "Cqf5", do_not_transpose=True)
+        baca.note_head_style_harmonic(o.pleaves())
+        baca.laissez_vibrer(o.ptails())
+        library.assign_part(o, "Contrabass", 1)
 
 
 def make_score(
