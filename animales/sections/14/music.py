@@ -61,9 +61,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark(
-        skips[1 - 1], library.metronome_marks["114"], library.manifests
-    )
+    baca.metronome_mark(skips[1 - 1], library.metronome_marks["114"], library.manifests)
     baca.rehearsal_mark(
         skips[1 - 1],
         "M",
@@ -355,9 +353,7 @@ def strings(cache, accumulator):
         "Contrabasses.Voice.3.Rests",
     ):
         with baca.scope(cache[name][4]) as o:
-            wrappers = baca.markup(
-                o.leaf(0), r"\animales-suddenly-ripped-off-markup"
-            )
+            wrappers = baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["cb3"].get(1, 3)) as o:
         baca.hairpin(

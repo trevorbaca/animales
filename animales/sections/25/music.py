@@ -141,24 +141,18 @@ def percussion(cache, accumulator):
         baca.stem_tremolo(o.pleaves())
         library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Perc. 3 (BD)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Perc. 3 (BD)", library.manifests)
         baca.clef(o.leaf(0), "percussion")
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.markup(
-            o.pleaf(0), r"\animales-bass-drum-soft-yarn-mallets-markup"
-        )
+        baca.markup(o.pleaf(0), r"\animales-bass-drum-soft-yarn-mallets-markup")
         wrappers = baca.text_script_extra_offset(o, (0, 4))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "p")
         library.assign_part(o, "Percussion", 3)
     with baca.scope(cache["perc4"].leaves()) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Perc. 4 (tam.)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Perc. 4 (tam.)", library.manifests)
         baca.staff_lines(o.leaf(0), 1)
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -199,9 +193,7 @@ def make_score(
         library.voice_abbreviations,
     )
     brass(cache)
-    library.make_battuti(
-        cache, accumulator, [[1, -117, -117], [1, -118]], (1, 3)
-    )
+    library.make_battuti(cache, accumulator, [[1, -117, -117], [1, -118]], (1, 3))
     percussion(cache, accumulator)
     return score, accumulator
 

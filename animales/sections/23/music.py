@@ -170,9 +170,7 @@ def make_score(
     )
     brass(cache)
     perc2(cache["perc2"])
-    library.make_battuti(
-        cache, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3)
-    )
+    library.make_battuti(cache, accumulator, [[1, -17], [1, -17], [1, -17]], (1, 3))
     return score, accumulator
 
 

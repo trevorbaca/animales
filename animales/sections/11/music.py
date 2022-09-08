@@ -185,9 +185,7 @@ def brass(
             if i == 0:
                 baca.hairpin(run, "< f", left_broken=True)
             else:
-                baca.hairpin(
-                    run, "mp < ff", remove_length_1_spanner_start=True
-                )
+                baca.hairpin(run, "mp < ff", remove_length_1_spanner_start=True)
 
     with baca.scope(cache["hn1"].leaves()) as o:
         wrappers = baca.voice_one(o.leaf(0))

@@ -55,9 +55,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark(
-        skips[1 - 1], library.metronome_marks["76"], library.manifests
-    )
+    baca.metronome_mark(skips[1 - 1], library.metronome_marks["76"], library.manifests)
     baca.rehearsal_mark(
         skips[1 - 1],
         "F",
@@ -158,9 +156,7 @@ def pf(cache):
         baca.clef(o.leaf(0), "treble")
         baca.dynamic(o.phead(0), "mf")
         baca.laissez_vibrer(o.ptails())
-        baca.markup(
-            o.pleaf(0), r"\animales-mute-with-lh-inside-piano-dull-thud-markup"
-        )
+        baca.markup(o.pleaf(0), r"\animales-mute-with-lh-inside-piano-dull-thud-markup")
         baca.pitch(o, "D5")
         baca.stopped(o.pheads())
         library.assign_part(o, "Piano")
@@ -202,9 +198,7 @@ def perc2(cache):
 def perc3(cache):
     with baca.scope(cache["perc3"].leaves()) as o:
         # vibraphone
-        baca.short_instrument_name(
-            o.leaf(0), "Perc. 3 (vib.)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Perc. 3 (vib.)", library.manifests)
         baca.instrument(o.leaf(0), "Vibraphone", library.manifests)
         baca.clef(o.leaf(0), "treble")
         baca.pitch(o, "D5")

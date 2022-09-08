@@ -141,9 +141,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
     def tremolo(o):
         baca.stem_tremolo(o.pleaves())
         baca.accent(o.pleaves())
-        wrappers = baca.markup(
-            o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup"
-        )
+        wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.text_spanner(o.pleaves()[2:-2], "ext. pont. => tasto")
         baca.dynamic(o.phead(0), "ff-ancora")
@@ -184,9 +182,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
         with baca.scope(cache[voice_abbreviation].leaves()) as o:
             library.assign_part(o, part_name, token=members)
     with baca.scope(cache["1vn1"].get(1, 10)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Vni. I (1-4) (5-8)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Vni. I (1-4) (5-8)", library.manifests)
         baca.pitch(o, "A5")
         wrappers = baca.markup(
             o.pleaf(0),
@@ -221,9 +217,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
         lower_voice(o, 8)
         tremolo(o)
     with baca.scope(cache["2vn1"].get(1, 10)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Vni. II (1-4) (5-8)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Vni. II (1-4) (5-8)", library.manifests)
         baca.pitch(o, "B4")
         wrappers = baca.markup(
             o.pleaf(0),
@@ -253,9 +247,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
         lower_voice(o)
         tremolo(o)
     with baca.scope(cache["va1"].get(1, 10)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Vle. (1-4) (5-8)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Vle. (1-4) (5-8)", library.manifests)
         baca.pitch(o, "D4")
         wrappers = baca.markup(
             o.pleaf(0),
@@ -269,9 +261,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
         lower_voice(o)
         tremolo(o)
     with baca.scope(cache["va3"].get(1, 10)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Vle. (9-12) (13-18)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Vle. (9-12) (13-18)", library.manifests)
         baca.pitch(o, "B3")
         wrappers = baca.markup(
             o.pleaf(0),
@@ -285,9 +275,7 @@ def strings(cache, accumulator, voice_abbreviation_to_members):
         lower_voice(o)
         tremolo(o)
     with baca.scope(cache["vc1"].get(1, 10)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Vc. (1-8) (9-14)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Vc. (1-8) (9-14)", library.manifests)
         baca.pitch(o, "D3")
         wrappers = baca.markup(
             o.pleaf(0),
