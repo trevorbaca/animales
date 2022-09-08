@@ -108,9 +108,7 @@ def strings(cache, accumulator, names):
     with baca.scope(cache["1vn3"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
             baca.instrument(u, "Violin", library.manifests),
-            baca.instrument_name(
-                u, r"\animales-violins-i-eleven-eighteen-markup"
-            ),
+            baca.instrument_name(u, r"\animales-violins-i-eleven-eighteen-markup"),
             baca.short_instrument_name(u, "Vni. I (11-18)", library.manifests)
             baca.clef(u, "treble")
     with baca.scope(cache["2vn1"].leaves()) as o:
@@ -122,9 +120,7 @@ def strings(cache, accumulator, names):
     with baca.scope(cache["2vn3"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
             baca.instrument(u, "Violin", library.manifests),
-            baca.instrument_name(
-                u, r"\animales-violins-ii-eleven-eighteen-markup"
-            ),
+            baca.instrument_name(u, r"\animales-violins-ii-eleven-eighteen-markup"),
             baca.short_instrument_name(u, "Vni. II (11-18)", library.manifests)
             baca.clef(u, "treble")
     with baca.scope(cache["va1"].leaves()) as o:

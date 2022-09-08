@@ -80,9 +80,7 @@ def perc4(m, accumulator):
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Percussion", 4)
     with baca.scope(m.get(1, 8)) as o:
-        baca.short_instrument_name(
-            o.leaf(0), "Perc. 4 (slate)", library.manifests
-        )
+        baca.short_instrument_name(o.leaf(0), "Perc. 4 (slate)", library.manifests)
         baca.staff_position(o, 0)
         baca.markup(o.pleaf(0), r"\animales-stonecircle-markup")
         wrappers = baca.text_script_x_offset(o, 3)

@@ -152,9 +152,7 @@ def make_score(
         library.voice_abbreviations,
     )
     brass(cache)
-    library.make_battuti(
-        cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3)
-    )
+    library.make_battuti(cache, accumulator, [[1, -55], [1, -17], [1, -17]], (1, 3))
     return score, accumulator
 
 

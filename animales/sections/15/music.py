@@ -329,9 +329,7 @@ def strings(cache, accumulator):
         "Contrabasses.Voice.3.Rests",
     ):
         with baca.scope(cache[name][4]) as o:
-            wrappers = baca.markup(
-                o.leaf(0), r"\animales-suddenly-ripped-off-markup"
-            )
+            wrappers = baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["FirstViolins.Voice.1.Rests"][4]) as o:
         baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")

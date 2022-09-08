@@ -293,9 +293,7 @@ def strings(cache, accumulator):
     def tremolo(o):
         baca.stem_tremolo(o.pleaves())
         baca.accent(o.pleaves())
-        wrappers = baca.markup(
-            o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup"
-        )
+        wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.text_spanner(o.pleaves()[2:-2], "ext. pont. => tasto")
         baca.dynamic(o.phead(0), "ff")

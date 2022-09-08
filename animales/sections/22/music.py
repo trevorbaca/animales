@@ -108,9 +108,7 @@ def make_score(
         len(accumulator.time_signatures),
         library.voice_abbreviations,
     )
-    library.make_battuti(
-        cache, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
-    )
+    library.make_battuti(cache, accumulator, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3))
     return score, accumulator
 
 
