@@ -562,7 +562,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     assert len(shards) == total_players
     assert abjad.sequence.weight(shards) == abjad.sequence.weight(counts_)
     counts_ = shards[index]
-    extra_counts = None
+    extra_counts = []
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
 
@@ -796,7 +796,7 @@ def make_harp_exchange_rhythm(
     return music, state
 
 
-def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
+def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
     stack = []
     if silences is not None:
         specifier = rmakers.force_rest(
