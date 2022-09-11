@@ -48,7 +48,7 @@ def RESTS(score):
 
 
 def PF(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 9))
+    music = baca.make_notes_function(accumulator.get(1, 9))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(10))
     voice.extend(music)

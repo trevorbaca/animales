@@ -623,7 +623,7 @@ number.30.Piano.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -664,7 +664,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 2]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -675,7 +675,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 3]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -686,7 +686,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 4]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -697,7 +697,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 5]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -708,7 +708,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 6]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -719,7 +719,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 7]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -730,7 +730,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 8]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!1
     % AFTER:
     % ARTICULATIONS:
@@ -741,7 +741,7 @@ number.30.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 9]
-      %! baca.make_notes()
+      %! baca.make_notes_function()
     cs'!1
     % AFTER:
     % ARTICULATIONS:
