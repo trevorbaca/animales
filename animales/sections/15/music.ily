@@ -548,6 +548,7 @@ number.15.Flutes.Voice.1.container = {
           %! baca.hairpin()
     %%% \mf
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -584,6 +585,7 @@ number.15.Flutes.Voice.1.container = {
         g''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -601,6 +603,7 @@ number.15.Flutes.Voice.1.container = {
     fs''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -620,6 +623,7 @@ number.15.Flutes.Voice.1.container = {
     fs''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -629,6 +633,7 @@ number.15.Flutes.Voice.1.container = {
     g''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -648,6 +653,7 @@ number.15.Flutes.Voice.1.container = {
     a''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -659,6 +665,7 @@ number.15.Flutes.Voice.1.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -678,6 +685,7 @@ number.15.Flutes.Voice.1.container = {
     bf''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -695,6 +703,7 @@ number.15.Flutes.Voice.1.container = {
         b''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -709,6 +718,7 @@ number.15.Flutes.Voice.1.container = {
         c'''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -732,6 +742,7 @@ number.15.Flutes.Voice.1.container = {
         cs'''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -746,6 +757,7 @@ number.15.Flutes.Voice.1.container = {
         c'''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -761,6 +773,7 @@ number.15.Flutes.Voice.1.container = {
     cs'''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -803,6 +816,7 @@ number.15.Flutes.Voice.1.container = {
       %! baca.slur()
     )
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -937,6 +951,7 @@ number.15.Flutes.Voice.3.container = {
       %! baca.hairpin()
     \mf
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -975,6 +990,7 @@ number.15.Flutes.Voice.3.container = {
     e''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -992,6 +1008,7 @@ number.15.Flutes.Voice.3.container = {
         ef''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1006,6 +1023,7 @@ number.15.Flutes.Voice.3.container = {
         e''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1031,6 +1049,7 @@ number.15.Flutes.Voice.3.container = {
         f''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1045,6 +1064,7 @@ number.15.Flutes.Voice.3.container = {
         af''!8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1060,6 +1080,7 @@ number.15.Flutes.Voice.3.container = {
     g''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1079,6 +1100,7 @@ number.15.Flutes.Voice.3.container = {
     g''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1090,6 +1112,7 @@ number.15.Flutes.Voice.3.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1109,6 +1132,7 @@ number.15.Flutes.Voice.3.container = {
     bf''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1118,6 +1142,7 @@ number.15.Flutes.Voice.3.container = {
     b''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1137,6 +1162,7 @@ number.15.Flutes.Voice.3.container = {
     b''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1154,6 +1180,7 @@ number.15.Flutes.Voice.3.container = {
         c'''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1168,6 +1195,7 @@ number.15.Flutes.Voice.3.container = {
         bf''!8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1191,6 +1219,7 @@ number.15.Flutes.Voice.3.container = {
         a''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1225,6 +1254,7 @@ number.15.Flutes.Voice.3.container = {
           %! baca.slur()
         )
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1453,6 +1483,7 @@ number.15.Flutes.Voice.2.container = {
           %! baca.hairpin()
     %%% \mf
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -1489,6 +1520,7 @@ number.15.Flutes.Voice.2.container = {
         ef''!8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1512,6 +1544,7 @@ number.15.Flutes.Voice.2.container = {
         d''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1526,6 +1559,7 @@ number.15.Flutes.Voice.2.container = {
         ef''!8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1541,6 +1575,7 @@ number.15.Flutes.Voice.2.container = {
     d''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1560,6 +1595,7 @@ number.15.Flutes.Voice.2.container = {
     fs''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1571,6 +1607,7 @@ number.15.Flutes.Voice.2.container = {
     f''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1590,6 +1627,7 @@ number.15.Flutes.Voice.2.container = {
     f''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1607,6 +1645,7 @@ number.15.Flutes.Voice.2.container = {
         fs''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1621,6 +1660,7 @@ number.15.Flutes.Voice.2.container = {
         fs''!8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1646,6 +1686,7 @@ number.15.Flutes.Voice.2.container = {
         af''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1660,6 +1701,7 @@ number.15.Flutes.Voice.2.container = {
         g''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1675,6 +1717,7 @@ number.15.Flutes.Voice.2.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1694,6 +1737,7 @@ number.15.Flutes.Voice.2.container = {
     a''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1703,6 +1747,7 @@ number.15.Flutes.Voice.2.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1722,6 +1767,7 @@ number.15.Flutes.Voice.2.container = {
     af''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1739,6 +1785,7 @@ number.15.Flutes.Voice.2.container = {
         a''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1776,6 +1823,7 @@ number.15.Flutes.Voice.2.container = {
           %! baca.slur()
         )
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1899,6 +1947,7 @@ number.15.Flutes.Voice.4.container = {
       %! baca.hairpin()
     \mf
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -1937,6 +1986,7 @@ number.15.Flutes.Voice.4.container = {
     cs''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1946,6 +1996,7 @@ number.15.Flutes.Voice.4.container = {
     c''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1965,6 +2016,7 @@ number.15.Flutes.Voice.4.container = {
     d''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1982,6 +2034,7 @@ number.15.Flutes.Voice.4.container = {
         ef''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1996,6 +2049,7 @@ number.15.Flutes.Voice.4.container = {
         e''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2019,6 +2073,7 @@ number.15.Flutes.Voice.4.container = {
         ef''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2033,6 +2088,7 @@ number.15.Flutes.Voice.4.container = {
         e''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2050,6 +2106,7 @@ number.15.Flutes.Voice.4.container = {
     f''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2069,6 +2126,7 @@ number.15.Flutes.Voice.4.container = {
     g''16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2078,6 +2136,7 @@ number.15.Flutes.Voice.4.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2097,6 +2156,7 @@ number.15.Flutes.Voice.4.container = {
     af''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2116,6 +2176,7 @@ number.15.Flutes.Voice.4.container = {
         a''8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2130,6 +2191,7 @@ number.15.Flutes.Voice.4.container = {
         g''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2153,6 +2215,7 @@ number.15.Flutes.Voice.4.container = {
         fs''!8
         % AFTER:
         % START_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2167,6 +2230,7 @@ number.15.Flutes.Voice.4.container = {
         g''8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_pennant_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2182,6 +2246,7 @@ number.15.Flutes.Voice.4.container = {
     af''!16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2201,6 +2266,7 @@ number.15.Flutes.Voice.4.container = {
     bf''!16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2210,6 +2276,7 @@ number.15.Flutes.Voice.4.container = {
     a''16
     % AFTER:
     % START_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2249,6 +2316,7 @@ number.15.Flutes.Voice.4.container = {
       %! baca.slur()
     )
     % STOP_BEAM:
+      %! animales.make_pennant_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3990,6 +4058,7 @@ number.15.FirstViolins.Voice.2.container = {
     e'''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -4002,6 +4071,7 @@ number.15.FirstViolins.Voice.2.container = {
     a''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4041,6 +4111,7 @@ number.15.FirstViolins.Voice.2.container = {
       %! baca.hairpin()
     \ff
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -4053,6 +4124,7 @@ number.15.FirstViolins.Voice.2.container = {
     c'''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4065,6 +4137,7 @@ number.15.FirstViolins.Voice.2.container = {
     g''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -4093,6 +4166,7 @@ number.15.FirstViolins.Voice.2.container = {
       %! baca.hairpin()
     \ff
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4132,6 +4206,7 @@ number.15.FirstViolins.Voice.2.container = {
     g''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -4145,6 +4220,7 @@ number.15.FirstViolins.Voice.2.container = {
     b'8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:

@@ -314,6 +314,7 @@ number.22.FirstViolins.Voice.1.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_AFTER:
@@ -337,6 +338,7 @@ number.22.FirstViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -445,6 +447,7 @@ number.22.FirstViolins.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -454,6 +457,7 @@ number.22.FirstViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -519,6 +523,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -528,6 +533,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -554,6 +560,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -568,6 +575,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -587,6 +595,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -596,6 +605,7 @@ number.22.FirstViolins.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -929,6 +939,7 @@ number.22.FirstViolins.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -938,6 +949,7 @@ number.22.FirstViolins.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -1017,6 +1029,7 @@ number.22.FirstViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1026,6 +1039,7 @@ number.22.FirstViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -1350,6 +1364,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1364,6 +1379,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1390,6 +1406,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1399,6 +1416,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1425,6 +1443,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1434,6 +1453,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1453,6 +1473,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1462,6 +1483,7 @@ number.22.FirstViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1589,6 +1611,7 @@ number.22.FirstViolins.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1598,6 +1621,7 @@ number.22.FirstViolins.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1607,6 +1631,7 @@ number.22.FirstViolins.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -1616,6 +1641,7 @@ number.22.FirstViolins.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1921,6 +1947,7 @@ number.22.FirstViolins.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -1930,6 +1957,7 @@ number.22.FirstViolins.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -1996,6 +2024,7 @@ number.22.FirstViolins.Voice.8.container = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2005,6 +2034,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -2043,6 +2073,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2052,6 +2083,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2075,6 +2107,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2084,6 +2117,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -2124,6 +2158,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2133,6 +2168,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2173,6 +2209,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -2182,6 +2219,7 @@ number.22.FirstViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -2373,6 +2411,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2382,6 +2421,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2401,6 +2441,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2420,6 +2461,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2441,6 +2483,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2450,6 +2493,7 @@ number.22.FirstViolins.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2555,6 +2599,7 @@ number.22.FirstViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2564,6 +2609,7 @@ number.22.FirstViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2610,6 +2656,7 @@ number.22.FirstViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2619,6 +2666,7 @@ number.22.FirstViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2757,6 +2805,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2771,6 +2820,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2795,6 +2845,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2804,6 +2855,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2830,6 +2882,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2839,6 +2892,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2860,6 +2914,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2869,6 +2924,7 @@ number.22.FirstViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3010,6 +3066,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3019,6 +3076,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -3057,6 +3115,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3066,6 +3125,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -3091,6 +3151,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3100,6 +3161,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -3138,6 +3200,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3147,6 +3210,7 @@ number.22.FirstViolins.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -3388,6 +3452,7 @@ number.22.FirstViolins.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3397,6 +3462,7 @@ number.22.FirstViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -3463,6 +3529,7 @@ number.22.FirstViolins.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -3472,6 +3539,7 @@ number.22.FirstViolins.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3518,6 +3586,7 @@ number.22.FirstViolins.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -3527,6 +3596,7 @@ number.22.FirstViolins.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3722,6 +3792,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -3731,6 +3802,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3752,6 +3824,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -3771,6 +3844,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3790,6 +3864,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -3799,6 +3874,7 @@ number.22.FirstViolins.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -3962,6 +4038,7 @@ number.22.FirstViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -3971,6 +4048,7 @@ number.22.FirstViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -4011,6 +4089,7 @@ number.22.FirstViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -4020,6 +4099,7 @@ number.22.FirstViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -4190,6 +4270,7 @@ number.22.FirstViolins.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -4199,6 +4280,7 @@ number.22.FirstViolins.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -4367,6 +4449,7 @@ number.22.FirstViolins.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4376,6 +4459,7 @@ number.22.FirstViolins.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4385,6 +4469,7 @@ number.22.FirstViolins.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4394,6 +4479,7 @@ number.22.FirstViolins.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4628,6 +4714,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4637,6 +4724,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4656,6 +4744,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4665,6 +4754,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4691,6 +4781,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4700,6 +4791,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4726,6 +4818,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4740,6 +4833,7 @@ number.22.SecondViolins.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4845,6 +4939,7 @@ number.22.SecondViolins.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4854,6 +4949,7 @@ number.22.SecondViolins.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -4917,6 +5013,7 @@ number.22.SecondViolins.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4926,6 +5023,7 @@ number.22.SecondViolins.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5093,6 +5191,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5102,6 +5201,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5125,6 +5225,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5134,6 +5235,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -5174,6 +5276,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5183,6 +5286,7 @@ number.22.SecondViolins.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5351,6 +5455,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5360,6 +5465,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -5400,6 +5506,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5409,6 +5516,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -5449,6 +5557,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5458,6 +5567,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5481,6 +5591,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5490,6 +5601,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -5528,6 +5640,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -5537,6 +5650,7 @@ number.22.SecondViolins.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -5676,6 +5790,7 @@ number.22.SecondViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5685,6 +5800,7 @@ number.22.SecondViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5793,6 +5909,7 @@ number.22.SecondViolins.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5802,6 +5919,7 @@ number.22.SecondViolins.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % CLOSING:
@@ -5849,6 +5967,7 @@ number.22.SecondViolins.Voice.6.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5858,6 +5977,7 @@ number.22.SecondViolins.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -5966,6 +6086,7 @@ number.22.SecondViolins.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5975,6 +6096,7 @@ number.22.SecondViolins.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6128,6 +6250,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6137,6 +6260,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -6175,6 +6299,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6184,6 +6309,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -6207,6 +6333,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6216,6 +6343,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -6256,6 +6384,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6265,6 +6394,7 @@ number.22.SecondViolins.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -6476,6 +6606,7 @@ number.22.SecondViolins.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -6485,6 +6616,7 @@ number.22.SecondViolins.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -6634,6 +6766,7 @@ number.22.SecondViolins.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6643,6 +6776,7 @@ number.22.SecondViolins.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6706,6 +6840,7 @@ number.22.SecondViolins.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6715,6 +6850,7 @@ number.22.SecondViolins.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6808,6 +6944,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6822,6 +6959,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6848,6 +6986,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6857,6 +6996,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6883,6 +7023,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6892,6 +7033,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -6911,6 +7053,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6920,6 +7063,7 @@ number.22.SecondViolins.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7132,6 +7276,7 @@ number.22.SecondViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7141,6 +7286,7 @@ number.22.SecondViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7150,6 +7296,7 @@ number.22.SecondViolins.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7159,6 +7306,7 @@ number.22.SecondViolins.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7384,6 +7532,7 @@ number.22.SecondViolins.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7393,6 +7542,7 @@ number.22.SecondViolins.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -7530,6 +7680,7 @@ number.22.SecondViolins.Voice.13.container = {
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_AFTER:
@@ -7553,6 +7704,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -7591,6 +7743,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7600,6 +7753,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -7623,6 +7777,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7632,6 +7787,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -7672,6 +7828,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7681,6 +7838,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -7721,6 +7879,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -7730,6 +7889,7 @@ number.22.SecondViolins.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -7831,6 +7991,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7840,6 +8001,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7859,6 +8021,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7878,6 +8041,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -7899,6 +8063,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -7908,6 +8073,7 @@ number.22.SecondViolins.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -8103,6 +8269,7 @@ number.22.SecondViolins.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8112,6 +8279,7 @@ number.22.SecondViolins.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -8158,6 +8326,7 @@ number.22.SecondViolins.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8167,6 +8336,7 @@ number.22.SecondViolins.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -8228,6 +8398,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8237,6 +8408,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -8260,6 +8432,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8269,6 +8442,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -8307,6 +8481,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8316,6 +8491,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -8353,6 +8529,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8362,6 +8539,7 @@ number.22.SecondViolins.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -8628,6 +8806,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8637,6 +8816,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -8675,6 +8855,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8684,6 +8865,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -8709,6 +8891,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8718,6 +8901,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -8756,6 +8940,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -8765,6 +8950,7 @@ number.22.SecondViolins.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -8866,6 +9052,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8875,6 +9062,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -8901,6 +9089,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8910,6 +9099,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -8934,6 +9124,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8948,6 +9139,7 @@ number.22.SecondViolins.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9108,6 +9300,7 @@ number.22.Violas.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9117,6 +9310,7 @@ number.22.Violas.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9163,6 +9357,7 @@ number.22.Violas.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9172,6 +9367,7 @@ number.22.Violas.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9289,6 +9485,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9298,6 +9495,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9319,6 +9517,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9338,6 +9537,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9357,6 +9557,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -9366,6 +9567,7 @@ number.22.Violas.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -9630,6 +9832,7 @@ number.22.Violas.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -9639,6 +9842,7 @@ number.22.Violas.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -9679,6 +9883,7 @@ number.22.Violas.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -9688,6 +9893,7 @@ number.22.Violas.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -9779,6 +9985,7 @@ number.22.Violas.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -9788,6 +9995,7 @@ number.22.Violas.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10036,6 +10244,7 @@ number.22.Violas.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10045,6 +10254,7 @@ number.22.Violas.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10054,6 +10264,7 @@ number.22.Violas.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10063,6 +10274,7 @@ number.22.Violas.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10195,6 +10407,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10204,6 +10417,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10223,6 +10437,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10232,6 +10447,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10258,6 +10474,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10267,6 +10484,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10293,6 +10511,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -10307,6 +10526,7 @@ number.22.Violas.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -10483,6 +10703,7 @@ number.22.Violas.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10492,6 +10713,7 @@ number.22.Violas.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10679,6 +10901,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10688,6 +10911,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -10711,6 +10935,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10720,6 +10945,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -10760,6 +10986,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -10769,6 +10996,7 @@ number.22.Violas.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11034,6 +11262,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11043,6 +11272,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11062,6 +11292,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11076,6 +11307,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11102,6 +11334,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11111,6 +11344,7 @@ number.22.Violas.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11164,6 +11398,7 @@ number.22.Violas.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11173,6 +11408,7 @@ number.22.Violas.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11281,6 +11517,7 @@ number.22.Violas.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11290,6 +11527,7 @@ number.22.Violas.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % CLOSING:
@@ -11404,6 +11642,7 @@ number.22.Violas.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_AFTER:
@@ -11427,6 +11666,7 @@ number.22.Violas.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11535,6 +11775,7 @@ number.22.Violas.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -11544,6 +11785,7 @@ number.22.Violas.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -11612,6 +11854,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11621,6 +11864,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -11659,6 +11903,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11668,6 +11913,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -11691,6 +11937,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11700,6 +11947,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -11740,6 +11988,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -11749,6 +11998,7 @@ number.22.Violas.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12050,6 +12300,7 @@ number.22.Violas.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12059,6 +12310,7 @@ number.22.Violas.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -12118,6 +12370,7 @@ number.22.Violas.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12127,6 +12380,7 @@ number.22.Violas.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12190,6 +12444,7 @@ number.22.Violas.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12199,6 +12454,7 @@ number.22.Violas.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12382,6 +12638,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12396,6 +12653,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12422,6 +12680,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12431,6 +12690,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12457,6 +12717,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12466,6 +12727,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12485,6 +12747,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -12494,6 +12757,7 @@ number.22.Violas.Voice.15.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -12646,6 +12910,7 @@ number.22.Violas.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12655,6 +12920,7 @@ number.22.Violas.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -12693,6 +12959,7 @@ number.22.Violas.Voice.16.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -12702,6 +12969,7 @@ number.22.Violas.Voice.16.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -12994,6 +13262,7 @@ number.22.Violas.Voice.17.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -13003,6 +13272,7 @@ number.22.Violas.Voice.17.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -13061,6 +13331,7 @@ number.22.Violas.Voice.18.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13070,6 +13341,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13094,6 +13366,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13108,6 +13381,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13129,6 +13403,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13138,6 +13413,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13184,6 +13460,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13193,6 +13470,7 @@ number.22.Violas.Voice.18.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13395,6 +13673,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13404,6 +13683,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13423,6 +13703,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13442,6 +13723,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13463,6 +13745,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13472,6 +13755,7 @@ number.22.Cellos.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13589,6 +13873,7 @@ number.22.Cellos.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13598,6 +13883,7 @@ number.22.Cellos.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13644,6 +13930,7 @@ number.22.Cellos.Voice.2.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -13653,6 +13940,7 @@ number.22.Cellos.Voice.2.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -13799,6 +14087,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -13808,6 +14097,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -13831,6 +14121,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -13840,6 +14131,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -13878,6 +14170,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -13887,6 +14180,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -13924,6 +14218,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -13933,6 +14228,7 @@ number.22.Cellos.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -14108,6 +14404,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14117,6 +14414,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -14155,6 +14453,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14164,6 +14463,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -14189,6 +14489,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14198,6 +14499,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -14236,6 +14538,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14245,6 +14548,7 @@ number.22.Cellos.Voice.4.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -14436,6 +14740,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -14445,6 +14750,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -14471,6 +14777,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -14480,6 +14787,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -14504,6 +14812,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -14518,6 +14827,7 @@ number.22.Cellos.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -14571,6 +14881,7 @@ number.22.Cellos.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -14580,6 +14891,7 @@ number.22.Cellos.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -14626,6 +14938,7 @@ number.22.Cellos.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -14635,6 +14948,7 @@ number.22.Cellos.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -14852,6 +15166,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14861,6 +15176,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -14901,6 +15217,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14910,6 +15227,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -14933,6 +15251,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14942,6 +15261,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -14982,6 +15302,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -14991,6 +15312,7 @@ number.22.Cellos.Voice.7.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -15142,6 +15464,7 @@ number.22.Cellos.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -15151,6 +15474,7 @@ number.22.Cellos.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -15191,6 +15515,7 @@ number.22.Cellos.Voice.8.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -15200,6 +15525,7 @@ number.22.Cellos.Voice.8.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -15359,6 +15685,7 @@ number.22.Cellos.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15368,6 +15695,7 @@ number.22.Cellos.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15389,6 +15717,7 @@ number.22.Cellos.Voice.9.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15398,6 +15727,7 @@ number.22.Cellos.Voice.9.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15523,6 +15853,7 @@ number.22.Cellos.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15532,6 +15863,7 @@ number.22.Cellos.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15541,6 +15873,7 @@ number.22.Cellos.Voice.10.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15550,6 +15883,7 @@ number.22.Cellos.Voice.10.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15767,6 +16101,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15776,6 +16111,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15795,6 +16131,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15804,6 +16141,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15830,6 +16168,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15839,6 +16178,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15865,6 +16205,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -15879,6 +16220,7 @@ number.22.Cellos.Voice.11.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -15965,6 +16307,7 @@ number.22.Cellos.Voice.12.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -15974,6 +16317,7 @@ number.22.Cellos.Voice.12.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16252,6 +16596,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16261,6 +16606,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16284,6 +16630,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16293,6 +16640,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -16333,6 +16681,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16342,6 +16691,7 @@ number.22.Cellos.Voice.13.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -16522,6 +16872,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16531,6 +16882,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16550,6 +16902,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16564,6 +16917,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16590,6 +16944,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16599,6 +16954,7 @@ number.22.Cellos.Voice.14.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16759,6 +17115,7 @@ number.22.Contrabasses.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16768,6 +17125,7 @@ number.22.Contrabasses.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -16876,6 +17234,7 @@ number.22.Contrabasses.Voice.1.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -16885,6 +17244,7 @@ number.22.Contrabasses.Voice.1.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % CLOSING:
@@ -16936,6 +17296,7 @@ number.22.Contrabasses.Voice.2.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16945,6 +17306,7 @@ number.22.Contrabasses.Voice.2.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -16983,6 +17345,7 @@ number.22.Contrabasses.Voice.2.container = {
         b8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -16992,6 +17355,7 @@ number.22.Contrabasses.Voice.2.container = {
         b8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -17253,6 +17617,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17262,6 +17627,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -17300,6 +17666,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17309,6 +17676,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -17332,6 +17700,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17341,6 +17710,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
@@ -17381,6 +17751,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % START_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
@@ -17390,6 +17761,7 @@ number.22.Contrabasses.Voice.3.container = {
         d'8
         % AFTER:
         % STOP_BEAM:
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
@@ -17449,6 +17821,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17458,6 +17831,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17521,6 +17895,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17530,6 +17905,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17549,6 +17925,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17568,6 +17945,7 @@ number.22.Contrabasses.Voice.4.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17712,6 +18090,7 @@ number.22.Contrabasses.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17721,6 +18100,7 @@ number.22.Contrabasses.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17784,6 +18164,7 @@ number.22.Contrabasses.Voice.5.container = {
     d'16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17793,6 +18174,7 @@ number.22.Contrabasses.Voice.5.container = {
     d'16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17891,6 +18273,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17905,6 +18288,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17931,6 +18315,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17940,6 +18325,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17966,6 +18352,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -17975,6 +18362,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -17994,6 +18382,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -18003,6 +18392,7 @@ number.22.Contrabasses.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:

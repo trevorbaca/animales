@@ -1888,6 +1888,7 @@ number.1.SecondViolins.Voice.1.container = {
     af'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_sforzando_exchange_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -1902,6 +1903,7 @@ number.1.SecondViolins.Voice.1.container = {
       %! baca.accent()
     - \accent
     % STOP_BEAM:
+      %! animales.make_sforzando_exchange_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3261,6 +3263,7 @@ number.1.Cellos.Voice.1.container = {
     a'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_sforzando_exchange_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3275,6 +3278,7 @@ number.1.Cellos.Voice.1.container = {
       %! baca.accent()
     - \accent
     % STOP_BEAM:
+      %! animales.make_sforzando_exchange_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:

@@ -2398,6 +2398,7 @@ number.17.Horns.Voice.3.container = {
     df'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -2407,6 +2408,7 @@ number.17.Horns.Voice.3.container = {
     ef'!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4414,6 +4416,7 @@ number.17.Trumpets.Voice.3.container = {
     f'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4423,6 +4426,7 @@ number.17.Trumpets.Voice.3.container = {
     g'8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4495,6 +4499,7 @@ number.17.Trumpets.Voice.3.container = {
     f'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4504,6 +4509,7 @@ number.17.Trumpets.Voice.3.container = {
     g'8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4556,6 +4562,7 @@ number.17.Trumpets.Voice.3.container = {
     f'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4565,6 +4572,7 @@ number.17.Trumpets.Voice.3.container = {
     g'8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4861,6 +4869,7 @@ number.17.Trumpets.Voice.2.container = {
     gf'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4870,6 +4879,7 @@ number.17.Trumpets.Voice.2.container = {
     af'!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5688,6 +5698,7 @@ number.17.Trombones.Voice.1.container = {
     af8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5697,6 +5708,7 @@ number.17.Trombones.Voice.1.container = {
     gf!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5820,6 +5832,7 @@ number.17.Trombones.Voice.1.container = {
     gf8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5829,6 +5842,7 @@ number.17.Trombones.Voice.1.container = {
     af!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5907,6 +5921,7 @@ number.17.Trombones.Voice.1.container = {
     gf8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -5916,6 +5931,7 @@ number.17.Trombones.Voice.1.container = {
     af!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -6118,6 +6134,7 @@ number.17.Trombones.Voice.3.container = {
     g8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6127,6 +6144,7 @@ number.17.Trombones.Voice.3.container = {
     f8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -6320,6 +6338,7 @@ number.17.Trombones.Voice.3.container = {
     f8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -6329,6 +6348,7 @@ number.17.Trombones.Voice.3.container = {
     g8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:

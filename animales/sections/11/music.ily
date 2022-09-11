@@ -3673,6 +3673,7 @@ number.11.Trombones.Voice.1.container = {
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3713,6 +3714,7 @@ number.11.Trombones.Voice.1.container = {
     af!8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4152,6 +4154,7 @@ number.11.Trombones.Voice.3.container = {
     a8
     % AFTER:
     % START_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -4161,6 +4164,7 @@ number.11.Trombones.Voice.3.container = {
     g8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_brass_manifest_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:

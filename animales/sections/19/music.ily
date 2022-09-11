@@ -8188,6 +8188,7 @@ number.19.Violas.Voice.6.container = {
     b16
     % AFTER:
     % START_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
@@ -8197,6 +8198,7 @@ number.19.Violas.Voice.6.container = {
     b16
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_clb_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
