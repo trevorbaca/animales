@@ -3295,6 +3295,7 @@ number.4.FirstViolins.Voice.2.container = {
     b'8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3308,6 +3309,7 @@ number.4.FirstViolins.Voice.2.container = {
     g''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3348,6 +3350,7 @@ number.4.FirstViolins.Voice.2.container = {
       %! baca.hairpin()
     \f
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3360,6 +3363,7 @@ number.4.FirstViolins.Voice.2.container = {
     e''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3382,6 +3386,7 @@ number.4.FirstViolins.Voice.2.container = {
     d''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3395,6 +3400,7 @@ number.4.FirstViolins.Voice.2.container = {
     g'''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3410,6 +3416,7 @@ number.4.FirstViolins.Voice.2.container = {
     c'''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3423,6 +3430,7 @@ number.4.FirstViolins.Voice.2.container = {
     f'''8
     % AFTER:
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3446,6 +3454,7 @@ number.4.FirstViolins.Voice.2.container = {
     b'''8
     % AFTER:
     % START_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3474,6 +3483,7 @@ number.4.FirstViolins.Voice.2.container = {
       %! baca.hairpin()
     \f
     % STOP_BEAM:
+      %! animales.make_glissando_rhythm()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
