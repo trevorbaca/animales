@@ -55,7 +55,7 @@ def PF(voice, accumulator):
 
 
 def PERC4(voice, accumulator):
-    music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
+    music = baca.make_tied_repeated_durations_function(accumulator.get(1, 8), [(1, 4)])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(9, 10))
     voice.extend(music)
