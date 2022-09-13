@@ -6071,7 +6071,7 @@ number.11.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
         % CLOSING:
         % COMMANDS:
@@ -6164,112 +6164,112 @@ number.11.FirstViolins.Voice.1.container = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 4]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6296,7 +6296,7 @@ number.11.FirstViolins.Voice.1.container = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'''4
     % AFTER:
     % COMMANDS:
@@ -6385,7 +6385,7 @@ number.11.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
         % CLOSING:
         % COMMANDS:
@@ -6478,112 +6478,112 @@ number.11.SecondViolins.Voice.1.container = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 4]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f''4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6610,7 +6610,7 @@ number.11.SecondViolins.Voice.1.container = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g''4
     % AFTER:
     % COMMANDS:
@@ -6699,7 +6699,7 @@ number.11.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
         % CLOSING:
         % COMMANDS:
@@ -6792,112 +6792,112 @@ number.11.Violas.Voice.1.container = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 4]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6924,7 +6924,7 @@ number.11.Violas.Voice.1.container = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g'4
     % AFTER:
     % COMMANDS:
@@ -7013,7 +7013,7 @@ number.11.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
         % CLOSING:
         % COMMANDS:
@@ -7106,112 +7106,112 @@ number.11.Cellos.Voice.1.container = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     f4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 4]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     e4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     d4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     c4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7238,7 +7238,7 @@ number.11.Cellos.Voice.1.container = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     b,4
     % AFTER:
     % COMMANDS:
@@ -7543,7 +7543,7 @@ number.11.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % AFTER:
     % ARTICULATIONS:
@@ -7626,112 +7626,112 @@ number.11.Contrabasses.Voice.3.container = {
       %! abjad.glissando(0)
       %! baca.glissando()
     \override NoteHead.no-ledgers = ##t
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 2]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 3]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     a,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 4]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 5]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 6]
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7758,7 +7758,7 @@ number.11.Contrabasses.Voice.3.container = {
       %! abjad.glissando(4)
       %! baca.glissando()
     \undo \hide NoteHead
-      %! baca.make_repeated_duration_notes()
+      %! baca.make_repeated_duration_notes_function()
     g,4
     % AFTER:
     % COMMANDS:

@@ -124,7 +124,7 @@ def PERCUSSION(score, accumulator):
 def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
+        music = baca.make_repeated_duration_notes_function(accumulator.get(), [(1, 4)])
         voice.extend(music)
 
 
