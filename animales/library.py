@@ -479,6 +479,54 @@ def make_brass_manifest_rhythm(
     return music, state
 
 
+def make_brass_manifest_rhythm_function(
+    time_signatures,
+    part,
+    voice_name,
+    *,
+    previous_state=None,
+):
+    previous_state = previous_state or {}
+    assert isinstance(previous_state, dict)
+    assert part in range(1, 12 + 1), repr(part)
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.quarters(divisions)
+    counts, delay, extra_counts = {
+        1: ([8, 8, -2], 9, [0, 0, 0, 1]),
+        2: ([8, 8, -2], 13, [0, 1, 0, 0]),
+        3: ([8, 8, -2], None, [0, 0, 1, 0]),
+        4: ([8, 8, -2], 4, [1, 0, 0, 0]),
+        5: ([7, 7, -2], 6, [0, 0, 0, 1]),
+        6: ([7, 7, -2], 10, [0, 1, 0, 0]),
+        7: ([7, 7, -2], None, [0, 0, 1, 0]),
+        8: ([7, 7, -2], 4, [1, 0, 0, 0]),
+        9: ([6, 6, 6, -2], 9, [0, 0, 0, 1]),
+        10: ([6, 6, 6, -2], 13, [0, 1, 0, 0]),
+        11: ([6, 6, 6, -2], None, [0, 0, 1, 0]),
+        12: ([6, 6, 6, -2], 4, [1, 0, 0, 0]),
+    }[part]
+    if delay is None:
+        preamble = ()
+    else:
+        preamble = [-delay]
+
+    tag = baca.tags.function_name(inspect.currentframe())
+    state = {}
+    nested_music = rmakers.talea_function(
+        divisions, counts, 8, extra_counts=extra_counts, preamble=preamble,
+        previous_state=previous_state, state=state, tag=tag
+    )
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.rewrite_rest_filled_function(voice, tag=tag)
+    rmakers.trivialize_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
+    return music, state
+
+
 def MAKE_BRASS_SFORZANDO(score, accumulator, measure):
     name_to_pitch = {
         "hn1": "C4",
