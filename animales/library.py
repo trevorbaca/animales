@@ -514,8 +514,14 @@ def make_brass_manifest_rhythm_function(
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
     nested_music = rmakers.talea_function(
-        divisions, counts, 8, extra_counts=extra_counts, preamble=preamble,
-        previous_state=previous_state, state=state, tag=tag
+        divisions,
+        counts,
+        8,
+        extra_counts=extra_counts,
+        preamble=preamble,
+        previous_state=previous_state,
+        state=state,
+        tag=tag,
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam_function(voice, tag=tag)
