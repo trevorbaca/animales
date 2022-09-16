@@ -1,6 +1,5 @@
 import abjad
 import baca
-from abjadext import rmakers
 
 from animales import library
 
@@ -83,15 +82,14 @@ def PF_HP_PERC3_CB1(score, accumulator, voice_name_to_parameter_to_state):
         voice_name = library.voice_abbreviations[abbreviation]
         voice = score[voice_name]
         silence_first = abbreviation in ("pf", "hp")
-        stack = []
+        force_rest_tuplets = None
         if abbreviation == "cb1":
-            maker = rmakers.force_rest(lambda _: baca.select.tuplet(_, 1))
-            stack.append(maker)
-        music, state = library.make_harp_exchange_rhythm(
+            force_rest_tuplets = [1]
+        music, state = library.make_harp_exchange_rhythm_function(
             accumulator.get(),
             part,
             voice_name,
-            *stack,
+            force_rest_tuplets=force_rest_tuplets,
             silence_first=silence_first,
         )
         voice.extend(music)

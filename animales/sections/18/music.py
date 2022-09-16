@@ -94,7 +94,7 @@ def BRASS(score, accumulator):
         "tbn4",
     ):
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = library.make_downbeat_attack(accumulator.get(1))
+        music = library.make_downbeat_attack_function(accumulator.get(1))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(2, 12))
         voice.extend(music)

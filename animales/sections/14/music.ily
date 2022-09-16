@@ -456,7 +456,7 @@ number.14.Flutes.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     r2.
     % AFTER:
     % MARKUP:
@@ -482,16 +482,16 @@ number.14.Flutes.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flutes.Voice.1 measure 2]
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % AFTER:
         % ARTICULATIONS:
@@ -513,7 +513,7 @@ number.14.Flutes.Voice.1.container = {
           %! baca.hairpin()
     %%% \mf
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -541,182 +541,182 @@ number.14.Flutes.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flutes.Voice.1 measure 3]
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         b''8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         bf''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         c'''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         cs'''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         b''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         c'''8
         % AFTER:
         % ARTICULATIONS:
@@ -743,14 +743,14 @@ number.14.Flutes.Voice.1.container = {
           %! baca.slur()
         )
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -825,12 +825,12 @@ number.14.Flutes.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % AFTER:
     % ARTICULATIONS:
@@ -849,7 +849,7 @@ number.14.Flutes.Voice.3.container = {
       %! baca.hairpin()
     \mf
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -874,161 +874,161 @@ number.14.Flutes.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     e''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flutes.Voice.3 measure 2]
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         e''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         f''8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         fs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         af''!8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1036,60 +1036,60 @@ number.14.Flutes.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Flutes.Voice.3 measure 3]
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     b''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     b''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         c'''8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         b''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         bf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -1113,14 +1113,14 @@ number.14.Flutes.Voice.3.container = {
           %! baca.slur()
         )
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1262,7 +1262,7 @@ number.14.Flutes.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     r4
     % AFTER:
     % MARKUP:
@@ -1288,14 +1288,14 @@ number.14.Flutes.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % ARTICULATIONS:
@@ -1317,7 +1317,7 @@ number.14.Flutes.Voice.2.container = {
           %! baca.hairpin()
     %%% \mf
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % SPANNER_STARTS:
@@ -1345,259 +1345,259 @@ number.14.Flutes.Voice.2.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         e''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         d''8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         cs''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flutes.Voice.2 measure 2]
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     d''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     e''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         fs''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         fs''!8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         af''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         a''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Flutes.Voice.2 measure 3]
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % ARTICULATIONS:
@@ -1624,7 +1624,7 @@ number.14.Flutes.Voice.2.container = {
       %! baca.slur()
     )
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -1700,7 +1700,7 @@ number.14.Flutes.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     d''16
     % AFTER:
     % ARTICULATIONS:
@@ -1719,7 +1719,7 @@ number.14.Flutes.Voice.4.container = {
       %! baca.hairpin()
     \mf
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -1744,297 +1744,297 @@ number.14.Flutes.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     ef''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     cs''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     c''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     d''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     cs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     d''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         f''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         e''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flutes.Voice.4 measure 2]
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         ef''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         d''8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         e''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     f''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     fs''!16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     g''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         a''8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     \times 2/3
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Flutes.Voice.4 measure 3]
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         fs''!8
         % AFTER:
         % START_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         af''!8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
         g''8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_pennant_rhythm()
+          %! animales.make_pennant_rhythm_function()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     af''!16
     % AFTER:
     % START_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     a''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     b''16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
     bf''!16
     % AFTER:
     % ARTICULATIONS:
@@ -2058,7 +2058,7 @@ number.14.Flutes.Voice.4.container = {
       %! baca.slur()
     )
     % STOP_BEAM:
-      %! animales.make_pennant_rhythm()
+      %! animales.make_pennant_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % ABSOLUTE_BEFORE:
@@ -2655,7 +2655,7 @@ number.14.Piano.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -2691,16 +2691,16 @@ number.14.Piano.Music.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 2]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -2711,57 +2711,57 @@ number.14.Piano.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -2772,25 +2772,25 @@ number.14.Piano.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % CLOSING:
     % COMMANDS:
@@ -2843,9 +2843,9 @@ number.14.Harp.Music.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -2881,7 +2881,7 @@ number.14.Harp.Music.container = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -2920,52 +2920,52 @@ number.14.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -2976,40 +2976,40 @@ number.14.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -3020,18 +3020,18 @@ number.14.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % CLOSING:
     % COMMANDS:
@@ -3506,9 +3506,9 @@ number.14.Percussion.3.Music.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -3544,7 +3544,7 @@ number.14.Percussion.3.Music.container = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(2)
         \set Staff.forceClef = ##t
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3581,38 +3581,38 @@ number.14.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3621,49 +3621,49 @@ number.14.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Percussion.3.Music measure 6]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -3672,18 +3672,18 @@ number.14.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % CLOSING:
     % COMMANDS:
@@ -3747,7 +3747,7 @@ number.14.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     g'4
         % CLOSING:
         % COMMANDS:
@@ -3799,7 +3799,7 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     e'''8
     % AFTER:
     % SPANNER_STARTS:
@@ -3809,7 +3809,7 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     a''4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3821,7 +3821,7 @@ number.14.FirstViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     f'''4
     % AFTER:
     % ARTICULATIONS:
@@ -3846,11 +3846,11 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     d''8
     % AFTER:
     % START_BEAM:
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3863,7 +3863,7 @@ number.14.FirstViolins.Voice.3.container = {
     c'''8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3876,7 +3876,7 @@ number.14.FirstViolins.Voice.3.container = {
     g''8
     % AFTER:
     % START_BEAM:
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % SPANNER_STARTS:
@@ -3886,11 +3886,11 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     d'''8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -3900,7 +3900,7 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     a'4
     % AFTER:
     % ARTICULATIONS:
@@ -3941,7 +3941,7 @@ number.14.FirstViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 3]
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     g''4.
     % AFTER:
     % SPANNER_STARTS:
@@ -3951,7 +3951,7 @@ number.14.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_glissando_rhythm()
+      %! animales.make_glissando_rhythm_function()
     g'8
     % AFTER:
     % ARTICULATIONS:
@@ -5318,7 +5318,7 @@ number.14.Contrabasses.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -5354,14 +5354,14 @@ number.14.Contrabasses.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -5373,40 +5373,40 @@ number.14.Contrabasses.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Contrabasses.Voice.1 measure 3]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -5415,47 +5415,47 @@ number.14.Contrabasses.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Contrabasses.Voice.1 measure 6]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         bf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -5464,18 +5464,18 @@ number.14.Contrabasses.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % CLOSING:
     % COMMANDS:

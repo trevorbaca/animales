@@ -77,7 +77,7 @@ def RESTS(score):
 
 
 def FL1(voice, accumulator):
-    music = library.make_pennant_rhythm(
+    music = library.make_pennant_rhythm_function(
         accumulator.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
     )
     voice.extend(music)
@@ -86,7 +86,7 @@ def FL1(voice, accumulator):
 
 
 def FL3(voice, accumulator):
-    music = library.make_pennant_rhythm(
+    music = library.make_pennant_rhythm_function(
         accumulator.get(1, 3), [0, 0, 0, -1, -1], [0, 1]
     )
     voice.extend(music)
@@ -95,14 +95,16 @@ def FL3(voice, accumulator):
 
 
 def FL2(voice, accumulator):
-    music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, -1, -1, 0], [0])
+    music = library.make_pennant_rhythm_function(
+        accumulator.get(1, 3), [0, -1, -1, 0], [0]
+    )
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7))
     voice.extend(music)
 
 
 def FL4(voice, accumulator):
-    music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, 0, -1, -1])
+    music = library.make_pennant_rhythm_function(accumulator.get(1, 3), [0, 0, -1, -1])
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(4, 7))
     voice.extend(music)
@@ -136,7 +138,7 @@ def PF_HP_PERC3_CB1(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
-        music, state = library.make_harp_exchange_rhythm(
+        music, state = library.make_harp_exchange_rhythm_function(
             accumulator.get(1, 6),
             part,
             voice_name,
@@ -165,7 +167,7 @@ def PERCUSSION(score, accumulator):
 
 def STRINGS(score, accumulator):
     voice = score[library.voice_abbreviations["1vn2"]]
-    music = library.make_glissando_rhythm(accumulator.get(1, 3), rotate=-2)
+    music = library.make_glissando_rhythm_function(accumulator.get(1, 3), rotate=-2)
     voice.extend(music)
     for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[voice_name]]

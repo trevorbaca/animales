@@ -108,7 +108,7 @@ def BRASS(score, accumulator, voice_name_to_parameter_to_state):
     ):
         voice_name = library.voice_abbreviations[abbreviation]
         voice = score[voice_name]
-        music, state = library.make_brass_manifest_rhythm(
+        music, state = library.make_brass_manifest_rhythm_function(
             accumulator.get(),
             part,
             voice_name,

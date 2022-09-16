@@ -132,7 +132,7 @@ def STRINGS(
     voice = score[library.voice_abbreviations["1vn2"]]
     music = baca.make_mmrests(accumulator.get(1, 2))
     voice.extend(music)
-    music = library.make_glissando_rhythm(accumulator.get(3, 6))
+    music = library.make_glissando_rhythm_function(accumulator.get(3, 6))
     voice.extend(music)
     library.make_trill_rhythm_function(
         score,

@@ -93,7 +93,7 @@ def PF_HP_PERC3_CB1(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
-        music, state = library.make_harp_exchange_rhythm(
+        music, state = library.make_harp_exchange_rhythm_function(
             accumulator.get(),
             part,
             voice_name,

@@ -757,7 +757,7 @@ number.18.Horns.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     d'8
     % AFTER:
     % ARTICULATIONS:
@@ -797,12 +797,12 @@ number.18.Horns.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -998,7 +998,7 @@ number.18.Horns.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     ef'!8
     % AFTER:
     % ARTICULATIONS:
@@ -1017,12 +1017,12 @@ number.18.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1277,7 +1277,7 @@ number.18.Horns.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     d'8
     % AFTER:
     % ARTICULATIONS:
@@ -1317,12 +1317,12 @@ number.18.Horns.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1518,7 +1518,7 @@ number.18.Horns.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     ef'!8
     % AFTER:
     % ARTICULATIONS:
@@ -1537,12 +1537,12 @@ number.18.Horns.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1797,7 +1797,7 @@ number.18.Trumpets.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af'!8
     % AFTER:
     % ARTICULATIONS:
@@ -1837,12 +1837,12 @@ number.18.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2038,7 +2038,7 @@ number.18.Trumpets.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -2057,12 +2057,12 @@ number.18.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2317,7 +2317,7 @@ number.18.Trumpets.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af'!8
     % AFTER:
     % ARTICULATIONS:
@@ -2357,12 +2357,12 @@ number.18.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2558,7 +2558,7 @@ number.18.Trumpets.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -2577,12 +2577,12 @@ number.18.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2837,7 +2837,7 @@ number.18.Trombones.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af!8
     % AFTER:
     % ARTICULATIONS:
@@ -2877,12 +2877,12 @@ number.18.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3078,7 +3078,7 @@ number.18.Trombones.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f8
     % AFTER:
     % ARTICULATIONS:
@@ -3097,12 +3097,12 @@ number.18.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3357,7 +3357,7 @@ number.18.Trombones.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     gf!8
     % AFTER:
     % ARTICULATIONS:
@@ -3397,12 +3397,12 @@ number.18.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3598,7 +3598,7 @@ number.18.Trombones.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f8
     % AFTER:
     % ARTICULATIONS:
@@ -3617,12 +3617,12 @@ number.18.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:

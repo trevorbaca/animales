@@ -948,7 +948,7 @@ number.12.Horns.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1074,7 +1074,7 @@ number.12.Horns.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -1093,7 +1093,7 @@ number.12.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1278,7 +1278,7 @@ number.12.Horns.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     e'8
     % AFTER:
     % ARTICULATIONS:
@@ -1318,7 +1318,7 @@ number.12.Horns.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1444,7 +1444,7 @@ number.12.Horns.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -1463,7 +1463,7 @@ number.12.Horns.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1648,7 +1648,7 @@ number.12.Trumpets.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af'!8
     % AFTER:
     % ARTICULATIONS:
@@ -1688,7 +1688,7 @@ number.12.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1814,7 +1814,7 @@ number.12.Trumpets.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     a'8
     % AFTER:
     % ARTICULATIONS:
@@ -1833,7 +1833,7 @@ number.12.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2018,7 +2018,7 @@ number.12.Trumpets.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af'!8
     % AFTER:
     % ARTICULATIONS:
@@ -2058,7 +2058,7 @@ number.12.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2212,7 +2212,7 @@ number.12.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2397,7 +2397,7 @@ number.12.Trombones.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     af!8
     % AFTER:
     % ARTICULATIONS:
@@ -2437,7 +2437,7 @@ number.12.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2563,7 +2563,7 @@ number.12.Trombones.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     g8
     % AFTER:
     % ARTICULATIONS:
@@ -2582,7 +2582,7 @@ number.12.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2767,7 +2767,7 @@ number.12.Trombones.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     bf!8
     % AFTER:
     % ARTICULATIONS:
@@ -2807,7 +2807,7 @@ number.12.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2961,7 +2961,7 @@ number.12.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_downbeat_attack()
+      %! animales.make_downbeat_attack_function()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3137,7 +3137,7 @@ number.12.Piano.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -3174,22 +3174,22 @@ number.12.Piano.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 3]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3200,45 +3200,45 @@ number.12.Piano.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3249,47 +3249,47 @@ number.12.Piano.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Piano.Music measure 7]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Piano.Music measure 8]
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3300,18 +3300,18 @@ number.12.Piano.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % CLOSING:
     % COMMANDS:
@@ -3394,7 +3394,7 @@ number.12.Harp.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % AFTER:
     % ARTICULATIONS:
@@ -3431,20 +3431,20 @@ number.12.Harp.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3455,40 +3455,40 @@ number.12.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3499,47 +3499,47 @@ number.12.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 7]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3550,20 +3550,20 @@ number.12.Harp.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Harp.Music measure 8]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % CLOSING:
     % COMMANDS:
@@ -3920,7 +3920,7 @@ number.12.Percussion.3.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % AFTER:
     % ARTICULATIONS:
@@ -3956,14 +3956,14 @@ number.12.Percussion.3.Music.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -3972,52 +3972,52 @@ number.12.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -4026,45 +4026,45 @@ number.12.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         c''8
         % AFTER:
         % ARTICULATIONS:
@@ -4073,32 +4073,32 @@ number.12.Percussion.3.Music.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 7]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.3.Music measure 8]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % CLOSING:
     % COMMANDS:
@@ -5065,7 +5065,7 @@ number.12.Contrabasses.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -5101,9 +5101,9 @@ number.12.Contrabasses.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5112,7 +5112,7 @@ number.12.Contrabasses.Voice.1.container = {
         % COMMANDS:
           %! baca.note_head_style_harmonic(1)
         \override NoteHead.style = #'harmonic
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -5121,57 +5121,57 @@ number.12.Contrabasses.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 2]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 3]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 4]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -5180,50 +5180,50 @@ number.12.Contrabasses.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 5]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 6]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_harp_exchange_rhythm()
+          %! animales.make_harp_exchange_rhythm_function()
         cqf''!8
         % AFTER:
         % ARTICULATIONS:
@@ -5236,26 +5236,26 @@ number.12.Contrabasses.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 7]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.1 measure 8]
-      %! animales.make_harp_exchange_rhythm()
+      %! animales.make_harp_exchange_rhythm_function()
     r1
     % CLOSING:
     % COMMANDS:

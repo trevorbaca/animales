@@ -81,7 +81,7 @@ def STRINGS(
     previous_voice_name_to_parameter_to_state=None,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
-    music = library.make_glissando_rhythm(accumulator.get())
+    music = library.make_glissando_rhythm_function(accumulator.get())
     voice.extend(music)
     library.make_trill_rhythm_function(
         score,
