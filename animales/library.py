@@ -510,7 +510,6 @@ def make_brass_manifest_rhythm_function(
         preamble = ()
     else:
         preamble = [-delay]
-
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
     nested_music = rmakers.talea_function(
@@ -882,7 +881,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
     return music
 
 
-def make_sforzando_exchange_rhythm(
+def make_sforzando_exchange_rhythm_function(
     time_signatures, this_part, voice_name, *, previous_state=None
 ):
     part_to_pattern = {
@@ -929,28 +928,32 @@ def make_sforzando_exchange_rhythm(
         part_to_counts[part] = counts
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-
-    def preprocessor(divisions):
-        result = baca.sequence.fuse(divisions)
-        result = baca.sequence.quarters(divisions)
-        return result
-
-    rhythm_maker = rmakers.stack(
-        rmakers.talea(counts, 16, extra_counts=[2], preamble=preamble),
-        rmakers.beam(),
-        rmakers.trivialize(),
-        rmakers.extract_trivial(),
-        rmakers.rewrite_meter(),
-        rmakers.force_repeat_tie(),
-        preprocessor=preprocessor,
-        tag=baca.tags.function_name(inspect.currentframe()),
+    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = baca.sequence.fuse(divisions)
+    divisions = baca.sequence.quarters(divisions)
+    tag = baca.tags.function_name(inspect.currentframe())
+    state = {}
+    nested_music = rmakers.talea_function(
+        divisions,
+        counts,
+        16,
+        extra_counts=[2],
+        preamble=preamble,
+        previous_state=previous_state,
+        state=state,
+        tag=tag,
     )
-    music = rhythm_maker(time_signatures, previous_state=previous_state)
-    state = rhythm_maker.state
+    voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
+    rmakers.beam_function(voice, tag=tag)
+    rmakers.trivialize_function(voice)
+    rmakers.extract_trivial_function(voice)
+    rmakers.rewrite_meter_function(voice, tag=tag)
+    rmakers.force_repeat_tie_function(voice, tag=tag)
+    music = abjad.mutate.eject_contents(voice)
     return music, state
 
 
-def make_trill_rhythm(
+def make_trill_rhythm_function(
     score,
     time_signatures,
     voice_name_to_parameter_to_state,
@@ -979,7 +982,7 @@ def make_trill_rhythm(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
-        music, state = make_sforzando_exchange_rhythm(
+        music, state = make_sforzando_exchange_rhythm_function(
             time_signatures, part, voice_name, previous_state=previous_state
         )
         voice.extend(music)

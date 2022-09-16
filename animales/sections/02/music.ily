@@ -446,7 +446,7 @@ number.2.FirstViolins.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -488,7 +488,7 @@ number.2.FirstViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!2
     % AFTER:
     % ARTICULATIONS:
@@ -504,7 +504,7 @@ number.2.FirstViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -512,23 +512,23 @@ number.2.FirstViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -544,11 +544,11 @@ number.2.FirstViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -561,7 +561,7 @@ number.2.FirstViolins.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -597,16 +597,16 @@ number.2.FirstViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'4
     % AFTER:
     % ARTICULATIONS:
@@ -771,7 +771,7 @@ number.2.FirstViolins.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -813,7 +813,7 @@ number.2.FirstViolins.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -829,7 +829,7 @@ number.2.FirstViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -837,14 +837,14 @@ number.2.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -852,29 +852,29 @@ number.2.FirstViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         gf'8
         % AFTER:
         % SPANNER_STARTS:
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         gf'!4
         % AFTER:
         % ARTICULATIONS:
@@ -889,18 +889,18 @@ number.2.FirstViolins.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -913,7 +913,7 @@ number.2.FirstViolins.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -949,11 +949,11 @@ number.2.FirstViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.trill_spanner_staff_padding(2)
@@ -1114,7 +1114,7 @@ number.2.SecondViolins.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!1
     % AFTER:
     % ARTICULATIONS:
@@ -1163,16 +1163,16 @@ number.2.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'8
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -1188,7 +1188,7 @@ number.2.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1196,23 +1196,23 @@ number.2.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'4.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -1229,7 +1229,7 @@ number.2.SecondViolins.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -1265,11 +1265,11 @@ number.2.SecondViolins.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.trill_spanner_staff_padding(2)
@@ -1430,7 +1430,7 @@ number.2.SecondViolins.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!1
     % AFTER:
     % ARTICULATIONS:
@@ -1478,25 +1478,25 @@ number.2.SecondViolins.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \times 2/3
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.3 measure 2]
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         gf'4
         % AFTER:
         % SPANNER_STARTS:
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         \repeatTie
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_sforzando_exchange_rhythm()
+          %! animales.make_sforzando_exchange_rhythm_function()
         gf'!8
         % AFTER:
         % ARTICULATIONS:
@@ -1511,12 +1511,12 @@ number.2.SecondViolins.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'4
     % AFTER:
     % SPANNER_STARTS:
@@ -1524,14 +1524,14 @@ number.2.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1539,23 +1539,23 @@ number.2.SecondViolins.Voice.3.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -1572,7 +1572,7 @@ number.2.SecondViolins.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -1608,11 +1608,11 @@ number.2.SecondViolins.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.trill_spanner_staff_padding(2)
@@ -1773,7 +1773,7 @@ number.2.Violas.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!1
     % AFTER:
     % ARTICULATIONS:
@@ -1822,16 +1822,16 @@ number.2.Violas.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'4
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -1847,7 +1847,7 @@ number.2.Violas.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -1855,18 +1855,18 @@ number.2.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1879,7 +1879,7 @@ number.2.Violas.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'4.
     % AFTER:
     % ARTICULATIONS:
@@ -1908,7 +1908,7 @@ number.2.Violas.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'8
     % AFTER:
     % ARTICULATIONS:
@@ -1922,7 +1922,7 @@ number.2.Violas.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1930,18 +1930,18 @@ number.2.Violas.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.trill_spanner_staff_padding(2)
@@ -2102,7 +2102,7 @@ number.2.Violas.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!1
     % AFTER:
     % ARTICULATIONS:
@@ -2151,18 +2151,18 @@ number.2.Violas.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -2178,11 +2178,11 @@ number.2.Violas.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2195,7 +2195,7 @@ number.2.Violas.Voice.3.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -2224,7 +2224,7 @@ number.2.Violas.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -2240,11 +2240,11 @@ number.2.Violas.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % COMMANDS:
       %! baca.trill_spanner_staff_padding(2)
@@ -2405,7 +2405,7 @@ number.2.Cellos.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -2447,7 +2447,7 @@ number.2.Cellos.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -2461,7 +2461,7 @@ number.2.Cellos.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2469,14 +2469,14 @@ number.2.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2484,23 +2484,23 @@ number.2.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'4.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -2516,11 +2516,11 @@ number.2.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 4]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     gf'2.
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2533,7 +2533,7 @@ number.2.Cellos.Voice.1.container = {
       %! baca._do_spanner_indicator_command(1)
       %! baca.trill_spanner()
     \pitchedTrill
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'1
     % AFTER:
     % ARTICULATIONS:
@@ -2569,16 +2569,16 @@ number.2.Cellos.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 6]
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'8
     % AFTER:
     % SPANNER_STARTS:
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_sforzando_exchange_rhythm()
+      %! animales.make_sforzando_exchange_rhythm_function()
     f'4.
     % AFTER:
     % ARTICULATIONS:
