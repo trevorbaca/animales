@@ -134,7 +134,7 @@ def STRINGS(
     voice.extend(music)
     music = library.make_glissando_rhythm(accumulator.get(3, 6))
     voice.extend(music)
-    library.make_trill_rhythm(
+    library.make_trill_rhythm_function(
         score,
         accumulator.get(1, 2),
         voice_name_to_parameter_to_state,
