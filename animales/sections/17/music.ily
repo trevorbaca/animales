@@ -1844,7 +1844,7 @@ number.17.Horns.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -1884,12 +1884,12 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2
     % AFTER:
     % ARTICULATIONS:
@@ -1928,7 +1928,7 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'4
     % AFTER:
     % SPANNER_STARTS:
@@ -1937,19 +1937,19 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % SPANNER_STARTS:
@@ -1958,12 +1958,12 @@ number.17.Horns.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -1973,7 +1973,7 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
@@ -1982,14 +1982,14 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -2010,18 +2010,18 @@ number.17.Horns.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2
     % AFTER:
     % ARTICULATIONS:
@@ -2060,7 +2060,7 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'4
     % AFTER:
     % SPANNER_STARTS:
@@ -2069,19 +2069,19 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % SPANNER_STARTS:
@@ -2090,12 +2090,12 @@ number.17.Horns.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2105,7 +2105,7 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'4
     % AFTER:
     % SPANNER_STARTS:
@@ -2114,14 +2114,14 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -2142,18 +2142,18 @@ number.17.Horns.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'4
     % AFTER:
     % ARTICULATIONS:
@@ -2192,7 +2192,7 @@ number.17.Horns.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2201,19 +2201,19 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % SPANNER_STARTS:
@@ -2222,14 +2222,14 @@ number.17.Horns.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2238,14 +2238,14 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % ARTICULATIONS:
@@ -2266,20 +2266,20 @@ number.17.Horns.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2288,19 +2288,19 @@ number.17.Horns.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'8
         % AFTER:
         % SPANNER_STARTS:
@@ -2309,14 +2309,14 @@ number.17.Horns.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.1 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2
     % CLOSING:
     % COMMANDS:
@@ -2355,7 +2355,7 @@ number.17.Horns.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -2394,21 +2394,21 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -2416,7 +2416,7 @@ number.17.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2426,7 +2426,7 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'4
     % AFTER:
     % ARTICULATIONS:
@@ -2447,12 +2447,12 @@ number.17.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!2
     % AFTER:
     % ARTICULATIONS:
@@ -2491,12 +2491,12 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!8
     % AFTER:
     % SPANNER_STARTS:
@@ -2504,7 +2504,7 @@ number.17.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2
     % AFTER:
     % SPANNER_STARTS:
@@ -2514,7 +2514,7 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'4
     % AFTER:
     % ARTICULATIONS:
@@ -2535,12 +2535,12 @@ number.17.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!2
     % AFTER:
     % ARTICULATIONS:
@@ -2579,12 +2579,12 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -2594,7 +2594,7 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2
     % AFTER:
     % ARTICULATIONS:
@@ -2615,19 +2615,19 @@ number.17.Horns.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!8
     % AFTER:
     % SPANNER_STARTS:
@@ -2637,19 +2637,19 @@ number.17.Horns.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.3 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!2
     % CLOSING:
     % COMMANDS:
@@ -2747,7 +2747,7 @@ number.17.Horns.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -2787,25 +2787,25 @@ number.17.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % AFTER:
         % ARTICULATIONS:
@@ -2843,14 +2843,14 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2859,19 +2859,19 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -2880,14 +2880,14 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -2909,19 +2909,19 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % AFTER:
         % ARTICULATIONS:
@@ -2959,14 +2959,14 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -2975,19 +2975,19 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -2996,14 +2996,14 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2.
     % AFTER:
     % ARTICULATIONS:
@@ -3025,21 +3025,21 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Horns.Voice.2 measure 7]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % AFTER:
         % ARTICULATIONS:
@@ -3077,12 +3077,12 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3092,7 +3092,7 @@ number.17.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'4
     % AFTER:
     % SPANNER_STARTS:
@@ -3101,19 +3101,19 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'4
         % AFTER:
         % SPANNER_STARTS:
@@ -3122,12 +3122,12 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3137,7 +3137,7 @@ number.17.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     e'4
     % AFTER:
     % ARTICULATIONS:
@@ -3159,19 +3159,19 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % AFTER:
         % SPANNER_STARTS:
@@ -3180,12 +3180,12 @@ number.17.Horns.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3195,7 +3195,7 @@ number.17.Horns.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.2 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     d'4
     % AFTER:
     % SPANNER_STARTS:
@@ -3204,25 +3204,25 @@ number.17.Horns.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         e'4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % CLOSING:
     % COMMANDS:
@@ -3261,7 +3261,7 @@ number.17.Horns.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -3278,7 +3278,7 @@ number.17.Horns.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -3317,12 +3317,12 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!4
     % AFTER:
     % SPANNER_STARTS:
@@ -3332,7 +3332,7 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3341,14 +3341,14 @@ number.17.Horns.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         ef'4
         % AFTER:
         % ARTICULATIONS:
@@ -3369,23 +3369,23 @@ number.17.Horns.Voice.4.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!8
     % AFTER:
     % ARTICULATIONS:
@@ -3424,12 +3424,12 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!4
     % AFTER:
     % SPANNER_STARTS:
@@ -3439,7 +3439,7 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3448,14 +3448,14 @@ number.17.Horns.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         ef'4
         % AFTER:
         % ARTICULATIONS:
@@ -3476,23 +3476,23 @@ number.17.Horns.Voice.4.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!8
     % AFTER:
     % ARTICULATIONS:
@@ -3531,14 +3531,14 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -3547,16 +3547,16 @@ number.17.Horns.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Horns.Voice.4 measure 8]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         ef'4
         % AFTER:
         % ARTICULATIONS:
@@ -3577,23 +3577,23 @@ number.17.Horns.Voice.4.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!8
     % AFTER:
     % SPANNER_STARTS:
@@ -3601,7 +3601,7 @@ number.17.Horns.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3611,12 +3611,12 @@ number.17.Horns.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Horns.Voice.4 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     ef'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -3625,37 +3625,37 @@ number.17.Horns.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Horns.Voice.4 measure 10]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         ef'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     df'!8
     % CLOSING:
     % COMMANDS:
@@ -3753,7 +3753,7 @@ number.17.Trumpets.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -3793,7 +3793,7 @@ number.17.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -3831,7 +3831,7 @@ number.17.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -3852,14 +3852,14 @@ number.17.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!2.
     % AFTER:
     % ARTICULATIONS:
@@ -3895,7 +3895,7 @@ number.17.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!4
     % AFTER:
     % SPANNER_STARTS:
@@ -3905,7 +3905,7 @@ number.17.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % ARTICULATIONS:
@@ -3926,12 +3926,12 @@ number.17.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!4
     % AFTER:
     % ARTICULATIONS:
@@ -3970,12 +3970,12 @@ number.17.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!4
     % AFTER:
     % SPANNER_STARTS:
@@ -3985,7 +3985,7 @@ number.17.Trumpets.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % SPANNER_STARTS:
@@ -3994,14 +3994,14 @@ number.17.Trumpets.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af'8
         % AFTER:
         % ARTICULATIONS:
@@ -4022,20 +4022,20 @@ number.17.Trumpets.Voice.1.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4044,19 +4044,19 @@ number.17.Trumpets.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -4065,14 +4065,14 @@ number.17.Trumpets.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4080,30 +4080,30 @@ number.17.Trumpets.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf'!4
         % AFTER:
         % SPANNER_STARTS:
@@ -4112,14 +4112,14 @@ number.17.Trumpets.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.1 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'2
     % CLOSING:
     % COMMANDS:
@@ -4158,7 +4158,7 @@ number.17.Trumpets.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -4196,7 +4196,7 @@ number.17.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2.
     % AFTER:
     % SPANNER_STARTS:
@@ -4205,16 +4205,16 @@ number.17.Trumpets.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trumpets.Voice.3 measure 3]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g'8
         % AFTER:
         % ARTICULATIONS:
@@ -4235,18 +4235,18 @@ number.17.Trumpets.Voice.3.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2.
     % AFTER:
     % ARTICULATIONS:
@@ -4284,21 +4284,21 @@ number.17.Trumpets.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trumpets.Voice.3 measure 4]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g'4
         % AFTER:
         % SPANNER_STARTS:
@@ -4307,12 +4307,12 @@ number.17.Trumpets.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4320,7 +4320,7 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % AFTER:
     % ARTICULATIONS:
@@ -4341,27 +4341,27 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trumpets.Voice.3 measure 5]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f'4
         % AFTER:
         % ARTICULATIONS:
@@ -4399,12 +4399,12 @@ number.17.Trumpets.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4412,21 +4412,21 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4436,7 +4436,7 @@ number.17.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4444,7 +4444,7 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % AFTER:
     % ARTICULATIONS:
@@ -4465,19 +4465,19 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'8
     % AFTER:
     % SPANNER_STARTS:
@@ -4485,7 +4485,7 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4495,21 +4495,21 @@ number.17.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4517,7 +4517,7 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4525,24 +4525,24 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'8
     % AFTER:
     % SPANNER_STARTS:
@@ -4550,7 +4550,7 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4558,21 +4558,21 @@ number.17.Trumpets.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4582,7 +4582,7 @@ number.17.Trumpets.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.3 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % CLOSING:
     % COMMANDS:
@@ -4680,7 +4680,7 @@ number.17.Trumpets.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -4720,12 +4720,12 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!4.
     % AFTER:
     % ARTICULATIONS:
@@ -4764,12 +4764,12 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!8
     % AFTER:
     % SPANNER_STARTS:
@@ -4777,7 +4777,7 @@ number.17.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4787,7 +4787,7 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'8
     % AFTER:
     % ARTICULATIONS:
@@ -4808,17 +4808,17 @@ number.17.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4855,7 +4855,7 @@ number.17.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4865,21 +4865,21 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -4887,7 +4887,7 @@ number.17.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4896,14 +4896,14 @@ number.17.Trumpets.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af'4
         % AFTER:
         % ARTICULATIONS:
@@ -4924,25 +4924,25 @@ number.17.Trumpets.Voice.2.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!8
     % AFTER:
     % ARTICULATIONS:
@@ -4979,7 +4979,7 @@ number.17.Trumpets.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -4988,21 +4988,21 @@ number.17.Trumpets.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trumpets.Voice.2 measure 7]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af'!8
         % AFTER:
         % SPANNER_STARTS:
@@ -5011,12 +5011,12 @@ number.17.Trumpets.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5026,7 +5026,7 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'4
     % AFTER:
     % ARTICULATIONS:
@@ -5048,19 +5048,19 @@ number.17.Trumpets.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf'!8
         % AFTER:
         % SPANNER_STARTS:
@@ -5069,12 +5069,12 @@ number.17.Trumpets.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5084,24 +5084,24 @@ number.17.Trumpets.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af'!2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.2 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf'!4
     % CLOSING:
     % COMMANDS:
@@ -5140,7 +5140,7 @@ number.17.Trumpets.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -5157,7 +5157,7 @@ number.17.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4.
     % AFTER:
     % ARTICULATIONS:
@@ -5196,7 +5196,7 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5205,19 +5205,19 @@ number.17.Trumpets.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f'4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g'8
         % AFTER:
         % SPANNER_STARTS:
@@ -5226,12 +5226,12 @@ number.17.Trumpets.Voice.4.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5241,7 +5241,7 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % ARTICULATIONS:
@@ -5263,19 +5263,19 @@ number.17.Trumpets.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f'8
         % AFTER:
         % ARTICULATIONS:
@@ -5313,12 +5313,12 @@ number.17.Trumpets.Voice.4.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5328,12 +5328,12 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5343,7 +5343,7 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -5364,12 +5364,12 @@ number.17.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % AFTER:
     % ARTICULATIONS:
@@ -5408,12 +5408,12 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5423,7 +5423,7 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'4
     % AFTER:
     % ARTICULATIONS:
@@ -5444,12 +5444,12 @@ number.17.Trumpets.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4
     % AFTER:
     % SPANNER_STARTS:
@@ -5459,12 +5459,12 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5474,17 +5474,17 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'2
     % AFTER:
     % SPANNER_STARTS:
@@ -5494,12 +5494,12 @@ number.17.Trumpets.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trumpets.Voice.4 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f'4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g'4
     % CLOSING:
     % COMMANDS:
@@ -5597,7 +5597,7 @@ number.17.Trombones.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -5637,12 +5637,12 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!2
     % AFTER:
     % ARTICULATIONS:
@@ -5681,12 +5681,12 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!2
     % AFTER:
     % SPANNER_STARTS:
@@ -5694,21 +5694,21 @@ number.17.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5718,7 +5718,7 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % AFTER:
     % ARTICULATIONS:
@@ -5739,12 +5739,12 @@ number.17.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!4
     % AFTER:
     % ARTICULATIONS:
@@ -5783,7 +5783,7 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af4
     % AFTER:
     % SPANNER_STARTS:
@@ -5792,19 +5792,19 @@ number.17.Trombones.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf!8
         % AFTER:
         % SPANNER_STARTS:
@@ -5813,12 +5813,12 @@ number.17.Trombones.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % AFTER:
     % SPANNER_STARTS:
@@ -5828,21 +5828,21 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5850,7 +5850,7 @@ number.17.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af2
     % AFTER:
     % ARTICULATIONS:
@@ -5873,12 +5873,12 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!2
     % AFTER:
     % ARTICULATIONS:
@@ -5917,21 +5917,21 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -5939,7 +5939,7 @@ number.17.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af2
     % AFTER:
     % SPANNER_STARTS:
@@ -5948,19 +5948,19 @@ number.17.Trombones.Voice.1.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf!4
         % AFTER:
         % SPANNER_STARTS:
@@ -5969,14 +5969,14 @@ number.17.Trombones.Voice.1.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % AFTER:
     % ARTICULATIONS:
@@ -5997,12 +5997,12 @@ number.17.Trombones.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!4
     % AFTER:
     % SPANNER_STARTS:
@@ -6012,12 +6012,12 @@ number.17.Trombones.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.1 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!8
     % CLOSING:
     % COMMANDS:
@@ -6056,7 +6056,7 @@ number.17.Trombones.Voice.3.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % ARTICULATIONS:
@@ -6094,19 +6094,19 @@ number.17.Trombones.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g8
         % AFTER:
         % SPANNER_STARTS:
@@ -6115,14 +6115,14 @@ number.17.Trombones.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % AFTER:
     % SPANNER_STARTS:
@@ -6130,21 +6130,21 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -6154,7 +6154,7 @@ number.17.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % ARTICULATIONS:
@@ -6175,12 +6175,12 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4
     % AFTER:
     % ARTICULATIONS:
@@ -6219,12 +6219,12 @@ number.17.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % SPANNER_STARTS:
@@ -6232,7 +6232,7 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % SPANNER_STARTS:
@@ -6241,21 +6241,21 @@ number.17.Trombones.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trombones.Voice.3 measure 5]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g4
         % AFTER:
         % SPANNER_STARTS:
@@ -6264,12 +6264,12 @@ number.17.Trombones.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % AFTER:
     % ARTICULATIONS:
@@ -6290,14 +6290,14 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % ARTICULATIONS:
@@ -6334,21 +6334,21 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % START_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     [
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g8
     % AFTER:
     % STOP_BEAM:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
       %! rmakers.RewriteMeterCommand.__call__
     ]
     % SPANNER_STARTS:
@@ -6358,12 +6358,12 @@ number.17.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4
     % AFTER:
     % SPANNER_STARTS:
@@ -6373,7 +6373,7 @@ number.17.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % ARTICULATIONS:
@@ -6395,19 +6395,19 @@ number.17.Trombones.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g8
         % AFTER:
         % SPANNER_STARTS:
@@ -6416,12 +6416,12 @@ number.17.Trombones.Voice.3.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4
     % AFTER:
     % SPANNER_STARTS:
@@ -6431,12 +6431,12 @@ number.17.Trombones.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % SPANNER_STARTS:
@@ -6444,14 +6444,14 @@ number.17.Trombones.Voice.3.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.3 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % CLOSING:
     % COMMANDS:
@@ -6549,7 +6549,7 @@ number.17.Trombones.Voice.2.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2.
     % AFTER:
     % ARTICULATIONS:
@@ -6589,25 +6589,25 @@ number.17.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf!8
         % AFTER:
         % ARTICULATIONS:
@@ -6645,14 +6645,14 @@ number.17.Trombones.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % AFTER:
     % SPANNER_STARTS:
@@ -6660,12 +6660,12 @@ number.17.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!4.
     % AFTER:
     % SPANNER_STARTS:
@@ -6675,12 +6675,12 @@ number.17.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!2
     % AFTER:
     % SPANNER_STARTS:
@@ -6689,14 +6689,14 @@ number.17.Trombones.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf4
         % AFTER:
         % ARTICULATIONS:
@@ -6717,25 +6717,25 @@ number.17.Trombones.Voice.2.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!8
     % AFTER:
     % ARTICULATIONS:
@@ -6772,7 +6772,7 @@ number.17.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af2
     % AFTER:
     % SPANNER_STARTS:
@@ -6781,19 +6781,19 @@ number.17.Trombones.Voice.2.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         af8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         gf!4
         % AFTER:
         % SPANNER_STARTS:
@@ -6802,19 +6802,19 @@ number.17.Trombones.Voice.2.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!4
     % AFTER:
     % SPANNER_STARTS:
@@ -6824,7 +6824,7 @@ number.17.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af4.
     % AFTER:
     % ARTICULATIONS:
@@ -6845,17 +6845,17 @@ number.17.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!8
     % AFTER:
     % ARTICULATIONS:
@@ -6894,12 +6894,12 @@ number.17.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 8]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!2
     % AFTER:
     % SPANNER_STARTS:
@@ -6909,12 +6909,12 @@ number.17.Trombones.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 9]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf!2
     % AFTER:
     % SPANNER_STARTS:
@@ -6922,7 +6922,7 @@ number.17.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     gf8
     % AFTER:
     % ARTICULATIONS:
@@ -6943,19 +6943,19 @@ number.17.Trombones.Voice.2.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.2 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     af!4.
     % CLOSING:
     % COMMANDS:
@@ -6994,7 +6994,7 @@ number.17.Trombones.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r4.
     % AFTER:
     % ARTICULATIONS:
@@ -7011,7 +7011,7 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4.
     % AFTER:
     % ARTICULATIONS:
@@ -7050,7 +7050,7 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 2]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4
     % AFTER:
     % SPANNER_STARTS:
@@ -7059,19 +7059,19 @@ number.17.Trombones.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g4
         % AFTER:
         % SPANNER_STARTS:
@@ -7080,12 +7080,12 @@ number.17.Trombones.Voice.4.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4
     % AFTER:
     % SPANNER_STARTS:
@@ -7095,12 +7095,12 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 3]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % SPANNER_STARTS:
@@ -7108,7 +7108,7 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % ARTICULATIONS:
@@ -7129,19 +7129,19 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 4]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g8
     % AFTER:
     % ARTICULATIONS:
@@ -7178,12 +7178,12 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4
     % AFTER:
     % SPANNER_STARTS:
@@ -7193,12 +7193,12 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 5]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % AFTER:
     % SPANNER_STARTS:
@@ -7208,7 +7208,7 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 6]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g8
     % AFTER:
     % ARTICULATIONS:
@@ -7229,17 +7229,17 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4.
     % AFTER:
     % ARTICULATIONS:
@@ -7278,12 +7278,12 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 7]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % AFTER:
     % SPANNER_STARTS:
@@ -7292,21 +7292,21 @@ number.17.Trombones.Voice.4.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trombones.Voice.4 measure 8]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         f8
         % AFTER:
         % SPANNER_STARTS:
@@ -7315,12 +7315,12 @@ number.17.Trombones.Voice.4.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f2
     % AFTER:
     % SPANNER_STARTS:
@@ -7328,7 +7328,7 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f8
     % AFTER:
     % ARTICULATIONS:
@@ -7349,27 +7349,27 @@ number.17.Trombones.Voice.4.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     \times 2/3
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Trombones.Voice.4 measure 9]
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_brass_manifest_rhythm()
+          %! animales.make_brass_manifest_rhythm_function()
         g4
         % AFTER:
         % SPANNER_STARTS:
@@ -7378,17 +7378,17 @@ number.17.Trombones.Voice.4.container = {
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4
     % AFTER:
     % SPANNER_STARTS:
@@ -7398,12 +7398,12 @@ number.17.Trombones.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Trombones.Voice.4 measure 10]
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     f4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_brass_manifest_rhythm()
+      %! animales.make_brass_manifest_rhythm_function()
     g8
     % CLOSING:
     % COMMANDS:

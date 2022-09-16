@@ -100,7 +100,7 @@ def BRASS(score, accumulator):
         "tbn4",
     ):
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = library.make_downbeat_attack(accumulator.get(1))
+        music = library.make_downbeat_attack_function(accumulator.get(1))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(2, 8))
         voice.extend(music)
@@ -122,7 +122,7 @@ def HP_PF_PERC3_CB1(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
-        music, state = library.make_harp_exchange_rhythm(
+        music, state = library.make_harp_exchange_rhythm_function(
             accumulator.get(),
             part,
             voice_name,
