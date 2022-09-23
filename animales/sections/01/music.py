@@ -202,11 +202,13 @@ def make_score():
 
 
 def main():
+    arguments = baca.build.arguments()
     score, accumulator, voice_name_to_parameter_to_state = make_score()
     metadata, persist, timing = baca.build.section(
         score,
         library.manifests,
         accumulator.time_signatures,
+        baca.path.dictionaries(__file__),
         **baca.interpret.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
@@ -221,7 +223,7 @@ def main():
         include_layout_ly=True,
         includes=["../stylesheet.ily", "header.ily"],
     )
-    baca.build.persist(lilypond_file, metadata, persist, timing)
+    baca.build.persist(lilypond_file, metadata, persist, timing, arguments)
 
 
 if __name__ == "__main__":
