@@ -52,7 +52,7 @@ def STRINGS(
     *,
     previous_voice_name_to_parameter_to_state=None,
 ):
-    library.make_trill_rhythm_function(
+    library.make_trill_rhythm(
         score,
         accumulator.get(),
         voice_name_to_parameter_to_state,

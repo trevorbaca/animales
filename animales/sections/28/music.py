@@ -85,7 +85,7 @@ def SKIPS(score):
 def PERCUSSION(score, accumulator):
     for abbreviation in ["perc1", "perc2", "perc3", "perc4"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes_function(accumulator.get())
+        music = baca.make_repeat_tied_notes(accumulator.get())
         pleaf = baca.select.pleaf(music, 0)
         baca.repeat_tie(pleaf)
         voice.extend(music)

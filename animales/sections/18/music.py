@@ -94,7 +94,7 @@ def BRASS(score, accumulator):
         "tbn4",
     ):
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = library.make_downbeat_attack_function(accumulator.get(1))
+        music = library.make_downbeat_attack(accumulator.get(1))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(2, 12))
         voice.extend(music)
@@ -102,15 +102,15 @@ def BRASS(score, accumulator):
 
 def STRINGS(score, accumulator, string_parts):
     voice = score[library.voice_abbreviations["1vn5"]]
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 2))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 2))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(3))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(4, 7))
+    music = baca.make_repeat_tied_notes(accumulator.get(4, 7))
     voice.extend(music)
     music = baca.make_mmrests(accumulator.get(8))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(9, 12))
+    music = baca.make_repeat_tied_notes(accumulator.get(9, 12))
     voice.extend(music)
     for abbreviation, items in string_parts.items():
         assert isinstance(items, list), repr(items)
@@ -119,11 +119,11 @@ def STRINGS(score, accumulator, string_parts):
             voice = score[voice_name]
             music = baca.make_mmrests(accumulator.get(1, 3))
             voice.extend(music)
-            music = baca.make_repeat_tied_notes_function(accumulator.get(4, 6))
+            music = baca.make_repeat_tied_notes(accumulator.get(4, 6))
             voice.extend(music)
             music = baca.make_mmrests(accumulator.get(7, 8))
             voice.extend(music)
-            music = baca.make_repeat_tied_notes_function(accumulator.get(9, 11))
+            music = baca.make_repeat_tied_notes(accumulator.get(9, 11))
             voice.extend(music)
             music = baca.make_mmrests(accumulator.get(12))
             voice.extend(music)

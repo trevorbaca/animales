@@ -84,7 +84,7 @@ def swell(argument, peak):
 def REEDS(score, accumulator):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes_function(accumulator.get(1, 5))
+        music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
         voice.extend(music)
         music = baca.make_mmrests(accumulator.get(6, 10))
         voice.extend(music)
@@ -108,7 +108,7 @@ def BRASS(score, accumulator, voice_name_to_parameter_to_state):
     ):
         voice_name = library.voice_abbreviations[abbreviation]
         voice = score[voice_name]
-        music, state = library.make_brass_manifest_rhythm_function(
+        music, state = library.make_brass_manifest_rhythm(
             accumulator.get(),
             part,
             voice_name,
@@ -139,7 +139,7 @@ def STRINGS(score, accumulator):
         "cb3",
     ]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes_function(accumulator.get())
+        music = baca.make_repeat_tied_notes(accumulator.get())
         voice.extend(music)
 
 
