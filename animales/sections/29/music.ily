@@ -351,7 +351,7 @@ number.29.Percussion.1.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(2)
     \set Staff.forceClef = ##t
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'2
     % AFTER:
     % STEM_TREMOLOS:
@@ -398,16 +398,16 @@ number.29.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 2]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
@@ -418,16 +418,16 @@ number.29.Percussion.1.Music.container = {
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 3]
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     c'1
     % AFTER:
     % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
     % SPANNER_STARTS:
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     - \tweak direction #up
-      %! baca.make_repeat_tied_notes_function()
+      %! baca.make_repeat_tied_notes()
     \repeatTie
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -557,7 +557,7 @@ number.29.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -592,51 +592,51 @@ number.29.FirstViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -769,7 +769,7 @@ number.29.FirstViolins.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -788,24 +788,24 @@ number.29.FirstViolins.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -961,9 +961,9 @@ number.29.FirstViolins.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -1017,7 +1017,7 @@ number.29.FirstViolins.Voice.3.container = {
           %! -PARTS
           %! baca.voice_one()
         \voiceOne
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % AFTER:
         % ARTICULATIONS:
@@ -1052,76 +1052,76 @@ number.29.FirstViolins.Voice.3.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.3 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1254,7 +1254,7 @@ number.29.FirstViolins.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -1273,43 +1273,43 @@ number.29.FirstViolins.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1513,7 +1513,7 @@ number.29.FirstViolins.Voice.5.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % AFTER:
     % ARTICULATIONS:
@@ -1548,46 +1548,46 @@ number.29.FirstViolins.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1720,46 +1720,46 @@ number.29.FirstViolins.Voice.6.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.6 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.6 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -1963,7 +1963,7 @@ number.29.FirstViolins.Voice.7.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -1984,43 +1984,43 @@ number.29.FirstViolins.Voice.7.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.7 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.7 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2153,7 +2153,7 @@ number.29.FirstViolins.Voice.8.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -2165,53 +2165,53 @@ number.29.FirstViolins.Voice.8.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.8 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.8 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2415,7 +2415,7 @@ number.29.FirstViolins.Voice.9.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -2441,19 +2441,19 @@ number.29.FirstViolins.Voice.9.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.9 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.9 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2586,56 +2586,56 @@ number.29.FirstViolins.Voice.10.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.10 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.10 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -2839,7 +2839,7 @@ number.29.FirstViolins.Voice.11.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -2860,44 +2860,44 @@ number.29.FirstViolins.Voice.11.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.11 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.11 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3030,7 +3030,7 @@ number.29.FirstViolins.Voice.12.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -3042,43 +3042,43 @@ number.29.FirstViolins.Voice.12.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.12 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.12 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3282,7 +3282,7 @@ number.29.FirstViolins.Voice.13.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -3308,67 +3308,67 @@ number.29.FirstViolins.Voice.13.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.13 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.13 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3501,36 +3501,36 @@ number.29.FirstViolins.Voice.14.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.14 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.14 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3734,7 +3734,7 @@ number.29.FirstViolins.Voice.15.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -3760,49 +3760,49 @@ number.29.FirstViolins.Voice.15.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.15 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.15 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -3935,74 +3935,74 @@ number.29.FirstViolins.Voice.16.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.16 measure 2]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.16 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4212,7 +4212,7 @@ number.29.FirstViolins.Voice.17.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -4233,38 +4233,38 @@ number.29.FirstViolins.Voice.17.container = {
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.17 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.17 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4397,7 +4397,7 @@ number.29.FirstViolins.Voice.18.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % AFTER:
     % MARKUP:
@@ -4407,41 +4407,41 @@ number.29.FirstViolins.Voice.18.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.18 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.18 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4651,7 +4651,7 @@ number.29.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -4686,36 +4686,36 @@ number.29.SecondViolins.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -4848,7 +4848,7 @@ number.29.SecondViolins.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -4867,44 +4867,44 @@ number.29.SecondViolins.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5060,9 +5060,9 @@ number.29.SecondViolins.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -5116,7 +5116,7 @@ number.29.SecondViolins.Voice.3.container = {
           %! -PARTS
           %! baca.voice_one()
         \voiceOne
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % AFTER:
         % ARTICULATIONS:
@@ -5151,56 +5151,56 @@ number.29.SecondViolins.Voice.3.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.3 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5333,7 +5333,7 @@ number.29.SecondViolins.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -5352,67 +5352,67 @@ number.29.SecondViolins.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5616,7 +5616,7 @@ number.29.SecondViolins.Voice.5.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -5635,41 +5635,41 @@ number.29.SecondViolins.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.5 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.5 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -5802,7 +5802,7 @@ number.29.SecondViolins.Voice.6.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -5814,24 +5814,24 @@ number.29.SecondViolins.Voice.6.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.6 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.6 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6035,7 +6035,7 @@ number.29.SecondViolins.Voice.7.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -6060,92 +6060,92 @@ number.29.SecondViolins.Voice.7.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.7 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.7 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6278,50 +6278,50 @@ number.29.SecondViolins.Voice.8.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.8 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.8 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6525,7 +6525,7 @@ number.29.SecondViolins.Voice.9.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % AFTER:
     % MARKUP:
@@ -6549,31 +6549,31 @@ number.29.SecondViolins.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.9 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.9 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6706,56 +6706,56 @@ number.29.SecondViolins.Voice.10.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.10 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.10 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -6959,7 +6959,7 @@ number.29.SecondViolins.Voice.11.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -6980,24 +6980,24 @@ number.29.SecondViolins.Voice.11.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.11 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.11 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7124,9 +7124,9 @@ number.29.SecondViolins.Voice.12.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -7138,7 +7138,7 @@ number.29.SecondViolins.Voice.12.container = {
           %! -PARTS
           %! baca.voice_two()
         \voiceTwo
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % AFTER:
         % MARKUP:
@@ -7148,76 +7148,76 @@ number.29.SecondViolins.Voice.12.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.12 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.12 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7421,7 +7421,7 @@ number.29.SecondViolins.Voice.13.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -7447,43 +7447,43 @@ number.29.SecondViolins.Voice.13.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.13 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.13 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7616,51 +7616,51 @@ number.29.SecondViolins.Voice.14.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.14 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.14 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -7864,7 +7864,7 @@ number.29.SecondViolins.Voice.15.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -7890,39 +7890,39 @@ number.29.SecondViolins.Voice.15.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.15 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.15 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8055,50 +8055,50 @@ number.29.SecondViolins.Voice.16.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.16 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.16 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8308,7 +8308,7 @@ number.29.SecondViolins.Voice.17.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -8334,53 +8334,53 @@ number.29.SecondViolins.Voice.17.container = {
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.17 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.17 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8513,26 +8513,26 @@ number.29.SecondViolins.Voice.18.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.18 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.18 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8742,7 +8742,7 @@ number.29.Violas.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -8779,49 +8779,49 @@ number.29.Violas.Voice.1.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -8954,7 +8954,7 @@ number.29.Violas.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -8973,44 +8973,44 @@ number.29.Violas.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9214,7 +9214,7 @@ number.29.Violas.Voice.3.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -9251,43 +9251,43 @@ number.29.Violas.Voice.3.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.3 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9420,7 +9420,7 @@ number.29.Violas.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -9439,67 +9439,67 @@ number.29.Violas.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9703,7 +9703,7 @@ number.29.Violas.Voice.5.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -9722,31 +9722,31 @@ number.29.Violas.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.5 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.5 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -9879,7 +9879,7 @@ number.29.Violas.Voice.6.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -9891,49 +9891,49 @@ number.29.Violas.Voice.6.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.6 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.6 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10137,7 +10137,7 @@ number.29.Violas.Voice.7.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -10162,68 +10162,68 @@ number.29.Violas.Voice.7.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.7 measure 2]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.7 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10356,45 +10356,45 @@ number.29.Violas.Voice.8.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.8 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.8 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10598,7 +10598,7 @@ number.29.Violas.Voice.9.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % AFTER:
     % MARKUP:
@@ -10622,41 +10622,41 @@ number.29.Violas.Voice.9.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.9 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.9 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -10789,41 +10789,41 @@ number.29.Violas.Voice.10.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.10 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.10 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11027,7 +11027,7 @@ number.29.Violas.Voice.11.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -11048,44 +11048,44 @@ number.29.Violas.Voice.11.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.11 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.11 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11212,9 +11212,9 @@ number.29.Violas.Voice.12.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -11226,7 +11226,7 @@ number.29.Violas.Voice.12.container = {
           %! -PARTS
           %! baca.voice_two()
         \voiceTwo
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % AFTER:
         % MARKUP:
@@ -11236,56 +11236,56 @@ number.29.Violas.Voice.12.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.12 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.12 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11489,7 +11489,7 @@ number.29.Violas.Voice.13.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -11515,67 +11515,67 @@ number.29.Violas.Voice.13.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.13 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.13 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11708,46 +11708,46 @@ number.29.Violas.Voice.14.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.14 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.14 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -11951,7 +11951,7 @@ number.29.Violas.Voice.15.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -11977,24 +11977,24 @@ number.29.Violas.Voice.15.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.15 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.15 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12127,98 +12127,98 @@ number.29.Violas.Voice.16.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.16 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.16 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12428,7 +12428,7 @@ number.29.Violas.Voice.17.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -12449,43 +12449,43 @@ number.29.Violas.Voice.17.container = {
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.17 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.17 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12618,7 +12618,7 @@ number.29.Violas.Voice.18.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % AFTER:
     % MARKUP:
@@ -12628,31 +12628,31 @@ number.29.Violas.Voice.18.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.18 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.18 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -12862,7 +12862,7 @@ number.29.Cellos.Voice.1.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % AFTER:
     % ARTICULATIONS:
@@ -12897,51 +12897,51 @@ number.29.Cellos.Voice.1.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13074,7 +13074,7 @@ number.29.Cellos.Voice.2.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % ARTICULATIONS:
@@ -13093,24 +13093,24 @@ number.29.Cellos.Voice.2.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13266,9 +13266,9 @@ number.29.Cellos.Voice.3.container = {
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
@@ -13322,7 +13322,7 @@ number.29.Cellos.Voice.3.container = {
           %! -PARTS
           %! baca.voice_one()
         \voiceOne
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_AFTER:
         % COMMANDS:
@@ -13341,76 +13341,76 @@ number.29.Cellos.Voice.3.container = {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.3 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cellos.Voice.3 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13543,7 +13543,7 @@ number.29.Cellos.Voice.4.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -13555,43 +13555,43 @@ number.29.Cellos.Voice.4.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.4 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.4 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13795,7 +13795,7 @@ number.29.Cellos.Voice.5.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % AFTER:
     % MARKUP:
@@ -13819,46 +13819,46 @@ number.29.Cellos.Voice.5.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.5 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.5 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -13991,46 +13991,46 @@ number.29.Cellos.Voice.6.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.6 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.6 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4..
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14234,7 +14234,7 @@ number.29.Cellos.Voice.7.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -14260,43 +14260,43 @@ number.29.Cellos.Voice.7.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.7 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.7 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14429,60 +14429,60 @@ number.29.Cellos.Voice.8.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.8 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % START_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % AFTER:
         % STOP_BEAM:
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.8 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14686,7 +14686,7 @@ number.29.Cellos.Voice.9.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -14712,19 +14712,19 @@ number.29.Cellos.Voice.9.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.9 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.9 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -14857,56 +14857,56 @@ number.29.Cellos.Voice.10.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.10 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.10 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15110,7 +15110,7 @@ number.29.Cellos.Voice.11.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % AFTER:
     % MARKUP:
@@ -15136,44 +15136,44 @@ number.29.Cellos.Voice.11.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.11 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.11 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     d'16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15306,50 +15306,50 @@ number.29.Cellos.Voice.12.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.12 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cellos.Voice.12 measure 3]
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         b8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15559,7 +15559,7 @@ number.29.Cellos.Voice.13.container = {
       %! -PARTS
       %! baca.voice_one()
     \voiceOne
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2
     % ABSOLUTE_AFTER:
     % COMMANDS:
@@ -15580,67 +15580,67 @@ number.29.Cellos.Voice.13.container = {
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.13 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
     % OPEN_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     \times 2/3
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     {
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         d'8
         % ABSOLUTE_BEFORE:
         % COMMANDS:
 
-          %! animales.make_clb_rhythm_function()
+          %! animales.make_clb_rhythm()
         r4
         % CLOSING:
         % COMMANDS:
 
     % CLOSE_BRACKETS:
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     }
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.13 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
@@ -15773,7 +15773,7 @@ number.29.Cellos.Voice.14.container = {
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r4
     % AFTER:
     % MARKUP:
@@ -15783,31 +15783,31 @@ number.29.Cellos.Voice.14.container = {
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r8.
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.14 measure 2]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r1
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.14 measure 3]
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     r2...
     % ABSOLUTE_BEFORE:
     % COMMANDS:
 
-      %! animales.make_clb_rhythm_function()
+      %! animales.make_clb_rhythm()
     b16
     % ABSOLUTE_BEFORE:
     % COMMANDS:

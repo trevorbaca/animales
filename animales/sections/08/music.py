@@ -67,13 +67,13 @@ def SKIPS(score):
 
 def CL_BCL(score, accumulator):
     voice = score[library.voice_abbreviations["cl"]]
-    music = baca.make_repeat_tied_notes_function(accumulator.get(1, 6))
+    music = baca.make_repeat_tied_notes(accumulator.get(1, 6))
     voice.extend(music)
     # BCL
     voice = score[library.voice_abbreviations["bcl"]]
     music = baca.make_mmrests(accumulator.get(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes_function(accumulator.get(5, 6))
+    music = baca.make_repeat_tied_notes(accumulator.get(5, 6))
     voice.extend(music)
 
 
@@ -94,7 +94,7 @@ def PF_HP_PERC3_CB1(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
-        music, state = library.make_harp_exchange_rhythm_function(
+        music, state = library.make_harp_exchange_rhythm(
             accumulator.get(),
             part,
             voice_name,
@@ -109,7 +109,7 @@ def PF_HP_PERC3_CB1(
 
 def PERC2(score, accumulator):
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes_function(accumulator.get())
+    music = baca.make_repeat_tied_notes(accumulator.get())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
@@ -119,7 +119,7 @@ def STRINGS(score, accumulator):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_mmrests(accumulator.get())
-        music = baca.make_repeated_duration_notes_function(accumulator.get(), [(1, 4)])
+        music = baca.make_repeated_duration_notes(accumulator.get(), [(1, 4)])
         voice.extend(music)
 
 
