@@ -177,7 +177,7 @@ def strings(cache, accumulator, names):
 
 def make_score():
     score, accumulator = make_empty_score()
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -191,7 +191,7 @@ def make_score():
     voice_name_to_parameter_to_state = {}
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
     STRINGS(score, accumulator, names, voice_name_to_parameter_to_state)
-    cache = baca.interpret.cache_leaves(
+    cache = baca.section.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
@@ -209,7 +209,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         environment,
-        **baca.interpret.section_defaults(),
+        **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
