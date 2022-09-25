@@ -297,7 +297,7 @@ def make_score(
     previous_voice_name_to_parameter_to_state,
 ):
     score, accumulator = make_empty_score(first_measure_number - 1)
-    baca.interpret.set_up_score(
+    baca.section.set_up_score(
         score,
         accumulator.time_signatures,
         accumulator,
@@ -334,7 +334,7 @@ def make_score(
         library.manifests,
         previous_persistent_indicators,
     )
-    cache = baca.interpret.cache_leaves(
+    cache = baca.section.cache_leaves(
         score,
         len(accumulator.time_signatures),
         library.voice_abbreviations,
@@ -350,7 +350,7 @@ def make_score(
     )
     strings(cache, accumulator, string_parts)
     solo_violin(cache["1vn5"], accumulator)
-    baca.interpret._sort_dictionary(voice_name_to_parameter_to_state)
+    baca.section._sort_dictionary(voice_name_to_parameter_to_state)
     return score, accumulator, voice_name_to_parameter_to_state
 
 
@@ -366,7 +366,7 @@ def main():
         library.manifests,
         accumulator.time_signatures,
         environment,
-        **baca.interpret.section_defaults(),
+        **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
