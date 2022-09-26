@@ -61,7 +61,7 @@ def STRINGS(score, accumulator, names, voice_name_to_parameter_to_state):
     )
     for name in names:
         voice = accumulator.voice(name)
-        baca.append_anchor_note(voice)
+        baca.section.append_anchor_note(voice)
 
 
 def percussion(cache, accumulator):
@@ -71,7 +71,7 @@ def percussion(cache, accumulator):
             baca.instrument(
                 u,
                 "Percussion",
-                library.manifests,
+                manifests=library.manifests,
             )
             baca.instrument_name(u, r"\animales-percussion-i-markup")
             baca.short_instrument_name(u, "Perc.", library.manifests)
@@ -182,10 +182,10 @@ def make_score():
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
+        manifests=library.manifests,
     )
     SKIPS(score["Skips"], accumulator)
     PERCUSSION(score, accumulator)
@@ -206,17 +206,18 @@ def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
     score, accumulator, voice_name_to_parameter_to_state = make_score(timing)
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
+        manifests=library.manifests,
         part_manifest=library.part_manifest(),
+        timing=timing,
         transpose_score=True,
     )
     persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state

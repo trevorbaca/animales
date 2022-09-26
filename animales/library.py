@@ -933,7 +933,7 @@ def make_trill_rhythm(
         )
         voice.extend(music)
         # TODO: check parameter names
-        baca.update_voice_name_to_parameter_to_state(
+        baca.section.update_voice_name_to_parameter_to_state(
             voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
