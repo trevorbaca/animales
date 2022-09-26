@@ -113,7 +113,7 @@ def BRASS(score, accumulator, voice_name_to_parameter_to_state):
             voice_name,
         )
         voice.extend(music)
-        baca.update_voice_name_to_parameter_to_state(
+        baca.section.update_voice_name_to_parameter_to_state(
             voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
@@ -141,7 +141,7 @@ def PF_HP_PERC3_CB1(
             previous_state=previous_state,
         )
         voice.extend(music)
-        baca.update_voice_name_to_parameter_to_state(
+        baca.section.update_voice_name_to_parameter_to_state(
             voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
 
@@ -156,7 +156,7 @@ def STRINGS(score, accumulator):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(accumulator.get())
         voice.extend(music)
-        baca.append_anchor_note(voice)
+        baca.section.append_anchor_note(voice)
 
 
 def CB3(voice, accumulator):
@@ -356,10 +356,10 @@ def make_score(
         score,
         accumulator.time_signatures,
         accumulator,
-        library.manifests,
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
+        manifests=library.manifests,
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
@@ -376,7 +376,7 @@ def make_score(
     PERC2(accumulator.voice("perc2"), accumulator)
     STRINGS(score, accumulator)
     CB3(accumulator.voice("cb3"), accumulator)
-    baca.reapply(
+    baca.section.reapply(
         accumulator.voices(),
         library.manifests,
         previous_persistent_indicators,
@@ -407,16 +407,17 @@ def main():
         environment.previous_persist["voice_name_to_parameter_to_state"],
         timing,
     )
-    metadata, persist, timing = baca.build.postprocess_score(
+    metadata, persist = baca.section.postprocess_score(
         score,
-        library.manifests,
         accumulator.time_signatures,
-        environment,
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
+        environment=environment,
         error_on_not_yet_pitched=True,
+        manifests=library.manifests,
+        timing=timing,
         transpose_score=True,
     )
     persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
