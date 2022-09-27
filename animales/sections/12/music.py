@@ -411,7 +411,9 @@ def main():
         transpose_score=True,
     )
     assert "voice_name_to_parameter_to_state" not in persist
-    persist["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    dictionary = dict(persist)
+    dictionary["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
+    persist = baca.section.proxy(dictionary)
     for voice_name, parameter_to_state in persist[
         "voice_name_to_parameter_to_state"
     ].items():
