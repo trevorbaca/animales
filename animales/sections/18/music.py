@@ -291,7 +291,7 @@ def solo_violin(m, accumulator):
         baca.stem_tremolo(o.pleaves())
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(
     first_measure_number,
     previous_persistent_indicators,

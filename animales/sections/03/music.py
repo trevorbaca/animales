@@ -102,7 +102,7 @@ def strings(cache):
     library.assign_trill_parts(cache)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(
     first_measure_number,
     previous_persistent_indicators,
