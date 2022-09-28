@@ -206,7 +206,7 @@ def strings(cache, absent_left_broken):
         baca.hairpin(o, "ff >", right_broken=True)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
     score, accumulator = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(

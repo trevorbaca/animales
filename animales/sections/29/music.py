@@ -102,7 +102,7 @@ def percussion(cache, accumulator):
         library.assign_part(o, "Percussion", 1)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(
     first_measure_number,
     previous_persistent_indicators,

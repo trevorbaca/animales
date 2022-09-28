@@ -175,7 +175,7 @@ def strings(cache, accumulator, names):
     library.assign_trill_parts(cache)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score():
     score, accumulator = make_empty_score()
     baca.section.set_up_score(

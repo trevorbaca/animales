@@ -395,7 +395,7 @@ def cb1(m, accumulator):
         library.assign_part(o, "Contrabass", 1)
 
 
-@baca.build.timed
+@baca.build.timed("make_score")
 def make_score(
     first_measure_number,
     previous_persistent_indicators,
