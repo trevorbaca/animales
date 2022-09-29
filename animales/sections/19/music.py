@@ -83,15 +83,11 @@ def make_empty_score(previous_final_measure_number):
             (3, ["cb5", "cb6"]),
         ],
     )
-    voice_names = baca.accumulator.get_voice_names(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 3]
-    accumulator = baca.CommandAccumulator(
-        time_signatures=time_signatures,
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def SKIPS(score):
@@ -105,7 +101,7 @@ def SKIPS(score):
     )
 
 
-def BRASS(score, accumulator):
+def BRASS(score, measures):
     for abbreviation in [
         "hn1",
         "hn2",
@@ -127,7 +123,7 @@ def BRASS(score, accumulator):
         "perc4",
     ]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(accumulator.get())
+        music = baca.make_mmrests(measures())
         voice.extend(music)
 
 
@@ -153,11 +149,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, accumulator = make_empty_score(first_measure_number - 1)
+    score, voices, measures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -165,42 +160,42 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    BRASS(score, accumulator)
+    BRASS(score, measures)
     library.MAKE_BATTUTI(
-        score, accumulator, [[1, -117, -117], [1, -118]], (1, 3), first=True
+        score, measures, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )
     baca.section.reapply(
-        accumulator.voices(),
+        voices,
         library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
     library.make_battuti(
         cache,
-        accumulator,
+        measures,
         [[1, -117, -117], [1, -118]],
         (1, 3),
         first=True,
     )
     strings(cache)
-    return score, accumulator
+    return score, measures
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator = make_score(
+    score, measures = make_score(
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
         timing,
     )
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
