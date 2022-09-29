@@ -30,41 +30,36 @@ def make_empty_score():
             (1, ["vc1"]),
         ],
     )
-    voice_names = baca.accumulator.get_voice_names(score)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=library.time_signatures()[:6],
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
+    time_signatures = library.time_signatures()[:6]
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
-def SKIPS(skips, accumulator):
+def SKIPS(skips, measures):
     baca.metronome_mark(skips[1 - 1], "114", library.manifests)
 
 
-def PERCUSSION(score, accumulator):
+def PERCUSSION(score, measures):
     voice = score["Percussion.1.Music"]
-    music = baca.make_mmrests(accumulator.get())
+    music = baca.make_mmrests(measures())
     voice.extend(music)
     voice = score["Percussion.2.Music"]
-    music = baca.make_mmrests(accumulator.get())
+    music = baca.make_mmrests(measures())
     voice.extend(music)
     voice = score["Percussion.4.Music"]
-    music = baca.make_mmrests(accumulator.get())
+    music = baca.make_mmrests(measures())
     voice.extend(music)
 
 
-def STRINGS(score, accumulator, names, voice_name_to_parameter_to_state):
-    library.make_trill_rhythm(
-        score, accumulator.get(), voice_name_to_parameter_to_state
-    )
+def STRINGS(score, voices, measures, names, voice_name_to_parameter_to_state):
+    library.make_trill_rhythm(score, measures(), voice_name_to_parameter_to_state)
     for name in names:
-        voice = accumulator.voice(name)
+        voice = voices(name)
         baca.section.append_anchor_note(voice)
 
 
-def percussion(cache, accumulator):
+def percussion(cache, measures):
     m = cache["perc1"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
@@ -98,7 +93,7 @@ def percussion(cache, accumulator):
         library.assign_part(o, "Percussion", 4)
 
 
-def strings(cache, accumulator, names):
+def strings(cache, measures, names):
     with baca.scope(cache["1vn1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
             baca.instrument(u, "Violin", library.manifests)
@@ -177,38 +172,37 @@ def strings(cache, accumulator, names):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, accumulator = make_empty_score()
+    score, voices, measures = make_empty_score()
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
-    SKIPS(score["Skips"], accumulator)
-    PERCUSSION(score, accumulator)
+    SKIPS(score["Skips"], measures)
+    PERCUSSION(score, measures)
     voice_name_to_parameter_to_state = {}
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    STRINGS(score, accumulator, names, voice_name_to_parameter_to_state)
+    STRINGS(score, voices, measures, names, voice_name_to_parameter_to_state)
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
-    percussion(cache, accumulator)
-    strings(cache, accumulator, names)
-    return score, accumulator, voice_name_to_parameter_to_state
+    percussion(cache, measures)
+    strings(cache, measures, names)
+    return score, measures, voice_name_to_parameter_to_state
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator, voice_name_to_parameter_to_state = make_score(timing)
+    score, measures, voice_name_to_parameter_to_state = make_score(timing)
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,

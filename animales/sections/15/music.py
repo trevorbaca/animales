@@ -47,14 +47,10 @@ def make_empty_score(previous_final_measure_number):
             (2, ["cb3"]),
         ],
     )
-    voice_names = baca.accumulator.get_voice_names(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 6] + ((1, 4),)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=time_signatures,
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def SKIPS(score):
@@ -76,52 +72,48 @@ def RESTS(score):
     baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
-def FL1(voice, accumulator):
-    music = library.make_pennant_rhythm(
-        accumulator.get(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
-    )
+def FL1(voice, measures):
+    music = library.make_pennant_rhythm(measures(1, 3), [0, 0, -1, -1, 0], [0, 1, 2])
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
 
 
-def FL3(voice, accumulator):
-    music = library.make_pennant_rhythm(
-        accumulator.get(1, 3), [0, 0, 0, -1, -1], [0, 1]
-    )
+def FL3(voice, measures):
+    music = library.make_pennant_rhythm(measures(1, 3), [0, 0, 0, -1, -1], [0, 1])
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
 
 
-def FL2(voice, accumulator):
-    music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, -1, -1, 0], [0])
+def FL2(voice, measures):
+    music = library.make_pennant_rhythm(measures(1, 3), [0, -1, -1, 0], [0])
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
-    voice.extend(music)
-
-
-def FL4(voice, accumulator):
-    music = library.make_pennant_rhythm(accumulator.get(1, 3), [0, 0, -1, -1])
-    voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
 
 
-def BCL(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1))
+def FL4(voice, measures):
+    music = library.make_pennant_rhythm(measures(1, 3), [0, 0, -1, -1])
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(2))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(accumulator.get(3, 6))
+
+
+def BCL(voice, measures):
+    music = baca.make_repeat_tied_notes(measures(1))
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(7))
+    music = baca.make_mmrests(measures(2))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(measures(3, 6))
+    voice.extend(music)
+    music = baca.make_mmrests(measures(7))
     voice.extend(music)
 
 
 def PF_HP_PERC3_CB1(
     score,
-    accumulator,
+    measures,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None
@@ -137,7 +129,7 @@ def PF_HP_PERC3_CB1(
         )
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
-            accumulator.get(1, 6),
+            measures(1, 6),
             part,
             voice_name,
             previous_state=previous_state,
@@ -146,45 +138,45 @@ def PF_HP_PERC3_CB1(
         baca.section.update_voice_name_to_parameter_to_state(
             voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
-        music = baca.make_mmrests(accumulator.get(7))
+        music = baca.make_mmrests(measures(7))
         voice.extend(music)
 
 
-def PERCUSSION(score, accumulator):
+def PERCUSSION(score, measures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes(measures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+    music = baca.make_repeat_tied_notes(measures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7))
+    music = baca.make_mmrests(measures(4, 7))
     voice.extend(music)
 
 
-def STRINGS(score, accumulator):
+def STRINGS(score, measures):
     voice = score[library.voice_abbreviations["1vn2"]]
-    music = library.make_glissando_rhythm(accumulator.get(1, 3), rotate=-2)
+    music = library.make_glissando_rhythm(measures(1, 3), rotate=-2)
     voice.extend(music)
     for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[voice_name]]
-        music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+        music = baca.make_repeat_tied_notes(measures(1, 3))
         voice.extend(music)
     for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[name]]
-        music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
+        music = baca.make_mmrests(measures(4, 7), head=voice.name)
         voice.extend(music)
 
 
-def CB3(voice, accumulator):
-    music = baca.make_repeat_tied_notes(accumulator.get(1, 3))
+def CB3(voice, measures):
+    music = baca.make_repeat_tied_notes(measures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(4, 7), head=voice.name)
+    music = baca.make_mmrests(measures(4, 7), head=voice.name)
     voice.extend(music)
 
 
-def flutes(cache, accumulator):
+def flutes(cache, measures):
     with baca.scope(cache["fl1"][1, 3]) as o:
         library.pennant_pitches("G5", [6], function=o)
     with baca.scope(cache["fl3"][1, 3]) as o:
@@ -225,7 +217,7 @@ def flutes(cache, accumulator):
         library.assign_part(o, "Flute", 4)
 
 
-def bcl(m, accumulator):
+def bcl(m, measures):
     with baca.scope(m.leaves()) as o:
         baca.repeat_tie(o.pleaf(0))
         baca.pitch(o, "Ab2")
@@ -234,7 +226,7 @@ def bcl(m, accumulator):
         library.assign_part(o, "BassClarinet")
 
 
-def pf(m, accumulator):
+def pf(m, measures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4")
         baca.stopped(o.pheads())
@@ -243,7 +235,7 @@ def pf(m, accumulator):
         library.assign_part(o, "Piano")
 
 
-def hp(m, accumulator):
+def hp(m, measures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4")
         baca.stopped(o.pheads())
@@ -252,7 +244,7 @@ def hp(m, accumulator):
         library.assign_part(o, "Harp")
 
 
-def percussion(cache, accumulator):
+def percussion(cache, measures):
     with baca.scope(cache["perc1"].get(1, 3)) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -272,7 +264,7 @@ def percussion(cache, accumulator):
         library.assign_part(o, "Percussion", 3)
 
 
-def strings(cache, accumulator):
+def strings(cache, measures):
     with baca.scope(cache["1vn2"].get(1, 3)) as o:
         baca.untie(o.leaves())
         library.glissando_positions(o, transpose=-3)
@@ -340,7 +332,7 @@ def strings(cache, accumulator):
         library.assign_part(o, "Contrabass", (2, 6))
 
 
-def cb1(m, accumulator):
+def cb1(m, measures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4", do_not_transpose=True)
         baca.laissez_vibrer(o.ptails())
@@ -354,11 +346,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, accumulator = make_empty_score(first_measure_number - 1)
+    score, voices, measures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -367,46 +358,46 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    FL1(accumulator.voice("fl1"), accumulator)
-    FL3(accumulator.voice("fl3"), accumulator)
-    FL2(accumulator.voice("fl2"), accumulator)
-    FL4(accumulator.voice("fl4"), accumulator)
-    BCL(accumulator.voice("bcl"), accumulator)
+    FL1(voices("fl1"), measures)
+    FL3(voices("fl3"), measures)
+    FL2(voices("fl2"), measures)
+    FL4(voices("fl4"), measures)
+    BCL(voices("bcl"), measures)
     voice_name_to_parameter_to_state = {}
     PF_HP_PERC3_CB1(
         score,
-        accumulator,
+        measures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    PERCUSSION(score, accumulator)
-    STRINGS(score, accumulator)
-    CB3(accumulator.voice("cb3"), accumulator)
+    PERCUSSION(score, measures)
+    STRINGS(score, measures)
+    CB3(voices("cb3"), measures)
     baca.section.reapply(
-        accumulator.voices(),
+        voices,
         library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=7)
-    flutes(cache, accumulator)
-    bcl(cache["bcl"], accumulator)
-    pf(cache["pf"], accumulator)
-    hp(cache["hp"], accumulator)
-    percussion(cache, accumulator)
-    strings(cache, accumulator)
-    cb1(cache["cb1"], accumulator)
-    return score, accumulator, voice_name_to_parameter_to_state
+    flutes(cache, measures)
+    bcl(cache["bcl"], measures)
+    pf(cache["pf"], measures)
+    hp(cache["hp"], measures)
+    percussion(cache, measures)
+    strings(cache, measures)
+    cb1(cache["cb1"], measures)
+    return score, measures, voice_name_to_parameter_to_state
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator, voice_name_to_parameter_to_state = make_score(
+    score, measures, voice_name_to_parameter_to_state = make_score(
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
         environment.previous_persist["voice_name_to_parameter_to_state"],
@@ -414,7 +405,7 @@ def main():
     )
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,

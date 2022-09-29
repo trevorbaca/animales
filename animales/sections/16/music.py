@@ -40,14 +40,11 @@ def make_empty_score(previous_final_measure_number):
             (2, ["cb3"]),
         ],
     )
-    voice_names = baca.accumulator.get_voice_names(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
-    accumulator = baca.CommandAccumulator(
-        time_signatures=library.time_signatures()[start : start + 14],
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    time_signatures = library.time_signatures()[start : start + 14]
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def SKIPS(score):
@@ -69,28 +66,28 @@ def swell(argument, peak):
     )
 
 
-def REEDS(score, accumulator):
+def REEDS(score, measures):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(accumulator.get(1, 5))
+        music = baca.make_repeat_tied_notes(measures(1, 5))
         voice.extend(music)
-        music = baca.make_mmrests(accumulator.get(6, 14))
+        music = baca.make_mmrests(measures(6, 14))
         voice.extend(music)
 
 
-def STRINGS(score, accumulator, voice_abbreviation_to_members):
+def STRINGS(score, measures, voice_abbreviation_to_members):
     voice = score[library.voice_abbreviations["1vn5"]]
-    music = baca.make_repeat_tied_notes(accumulator.get())
+    music = baca.make_repeat_tied_notes(measures())
     voice.extend(music)
     for abbreviation in voice_abbreviation_to_members:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(accumulator.get(1, 10))
+        music = baca.make_repeat_tied_notes(measures(1, 10))
         voice.extend(music)
-        music = baca.make_mmrests(accumulator.get(11, 14))
+        music = baca.make_mmrests(measures(11, 14))
         voice.extend(music)
 
 
-def ob(m, accumulator):
+def ob(m, measures):
     with baca.scope(m.leaves()) as o:
         baca.instrument(o.leaf(0), "Oboe", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Ob.", library.manifests)
@@ -102,7 +99,7 @@ def ob(m, accumulator):
         swell(o, "f")
 
 
-def eh(m, accumulator):
+def eh(m, measures):
     with baca.scope(m.get(1, 5)) as o:
         baca.instrument(o.leaf(0), "EnglishHorn", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Eng. hn.", library.manifests)
@@ -114,7 +111,7 @@ def eh(m, accumulator):
         library.assign_part(o, "EnglishHorn")
 
 
-def bsns(cache, accumulator):
+def bsns(cache, measures):
     with baca.scope(cache["bsn1"].leaves()) as o:
         baca.instrument(o.leaf(0), "Bassoon", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Bsn.", library.manifests)
@@ -137,7 +134,7 @@ def bsns(cache, accumulator):
         swell(o, "f")
 
 
-def strings(cache, accumulator, voice_abbreviation_to_members):
+def strings(cache, measures, voice_abbreviation_to_members):
     def tremolo(o):
         baca.stem_tremolo(o.pleaves())
         baca.accent(o.pleaves())
@@ -304,11 +301,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, accumulator = make_empty_score(first_measure_number - 1)
+    score, voices, measures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -316,7 +312,7 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    REEDS(score, accumulator)
+    REEDS(score, measures)
     voice_abbreviation_to_members = {
         "1vn1": (1, 4),
         "1vn2": (5, 8),
@@ -334,35 +330,35 @@ def make_score(
         "vc2": (9, 14),
         "cb3": (1, 6),
     }
-    STRINGS(score, accumulator, voice_abbreviation_to_members)
+    STRINGS(score, measures, voice_abbreviation_to_members)
     baca.section.reapply(
-        accumulator.voices(),
+        voices,
         library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
-    ob(cache["ob"], accumulator)
-    eh(cache["eh"], accumulator)
-    bsns(cache, accumulator)
-    strings(cache, accumulator, voice_abbreviation_to_members)
-    return score, accumulator
+    ob(cache["ob"], measures)
+    eh(cache["eh"], measures)
+    bsns(cache, measures)
+    strings(cache, measures, voice_abbreviation_to_members)
+    return score, measures
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator = make_score(
+    score, measures = make_score(
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
         timing,
     )
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,

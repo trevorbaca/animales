@@ -19,14 +19,10 @@ def make_empty_score(previous_final_measure_number):
             (4, ["perc4"]),
         ],
     )
-    voice_names = baca.accumulator.get_voice_names(score)
+    voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
-    accumulator = baca.CommandAccumulator(
-        time_signatures=time_signatures,
-        _voice_abbreviations=library.voice_abbreviations,
-        _voice_names=voice_names,
-    )
-    return score, accumulator
+    measures = baca.measures(time_signatures)
+    return score, voices, measures
 
 
 def SKIPS(score):
@@ -47,21 +43,21 @@ def RESTS(score):
         baca.global_fermata(rests[index], string)
 
 
-def PF(voice, accumulator):
-    music = baca.make_notes(accumulator.get(1, 9))
+def PF(voice, measures):
+    music = baca.make_notes(measures(1, 9))
     voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(10))
-    voice.extend(music)
-
-
-def PERC4(voice, accumulator):
-    music = baca.make_tied_repeated_durations(accumulator.get(1, 8), [(1, 4)])
-    voice.extend(music)
-    music = baca.make_mmrests(accumulator.get(9, 10))
+    music = baca.make_mmrests(measures(10))
     voice.extend(music)
 
 
-def pf(m, accumulator):
+def PERC4(voice, measures):
+    music = baca.make_tied_repeated_durations(measures(1, 8), [(1, 4)])
+    voice.extend(music)
+    music = baca.make_mmrests(measures(9, 10))
+    voice.extend(music)
+
+
+def pf(m, measures):
     with baca.scope(m.get(1, 9)) as o:
         baca.pitch(o, "C#4")
         baca.note_head_style_harmonic(o.pleaves())
@@ -76,7 +72,7 @@ def pf(m, accumulator):
         library.assign_part(o, "Piano")
 
 
-def perc4(m, accumulator):
+def perc4(m, measures):
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Percussion", 4)
     with baca.scope(m.get(1, 8)) as o:
@@ -93,7 +89,7 @@ def perc4(m, accumulator):
         baca.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)
 
 
-def pf_perc4(cache, accumulator):
+def pf_perc4(cache, measures):
     for name in ("pf", "perc4"):
         with baca.scope(cache[name][1]) as o:
             wrappers = baca.literal(o.leaf(0), r"\magnifyStaff #10/7")
@@ -105,11 +101,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, accumulator = make_empty_score(first_measure_number - 1)
+    score, voices, measures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        accumulator.time_signatures,
-        accumulator,
+        measures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -118,36 +113,36 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    PF(accumulator.voice("pf"), accumulator)
-    PERC4(accumulator.voice("perc4"), accumulator)
+    PF(voices("pf"), measures)
+    PERC4(voices("perc4"), measures)
     baca.section.reapply(
-        accumulator.voices(),
+        voices,
         library.manifests,
         previous_persistent_indicators,
     )
     cache = baca.section.cache_leaves(
         score,
-        len(accumulator.time_signatures),
+        len(measures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=10)
-    pf(cache["pf"], accumulator)
-    perc4(cache["perc4"], accumulator)
-    pf_perc4(cache, accumulator)
-    return score, accumulator
+    pf(cache["pf"], measures)
+    perc4(cache["perc4"], measures)
+    pf_perc4(cache, measures)
+    return score, measures
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
     timing = baca.build.Timing()
-    score, accumulator = make_score(
+    score, measures = make_score(
         environment.first_measure_number,
         environment.previous_persist["persistent_indicators"],
         timing,
     )
     metadata, persist = baca.section.postprocess_score(
         score,
-        accumulator.time_signatures,
+        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
