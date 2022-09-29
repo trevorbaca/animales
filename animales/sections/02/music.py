@@ -30,7 +30,7 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     pfmn = previous_final_measure_number
     time_signatures = library.time_signatures()[pfmn : pfmn + 6]
-    measures = baca.measures(time_signatures)
+    measures = baca.section.measures(time_signatures)
     return score, voices, measures
 
 
@@ -55,7 +55,7 @@ def STRINGS(
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    voice_names = baca.accumulator.get_voice_names(score)
+    voice_names = baca.section.get_voice_names(score)
     music_voice_names = library.get_music_voice_names(voice_names)
     for voice_name in music_voice_names:
         voice = score[voice_name]
