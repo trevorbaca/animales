@@ -390,7 +390,7 @@ def main():
         environment.previous_metadata["voice_name_to_parameter_to_state"],
         environment.timing,
     )
-    metadata, persist = baca.section.postprocess_score(
+    metadata = baca.section.postprocess_score(
         score,
         measures(),
         **baca.section.section_defaults(),
@@ -402,7 +402,7 @@ def main():
         manifests=library.manifests,
         transpose_score=True,
     )
-    assert "voice_name_to_parameter_to_state" not in persist
+    assert "voice_name_to_parameter_to_state" not in metadata
     dictionary = dict(metadata)
     dictionary["voice_name_to_parameter_to_state"] = dict(
         voice_name_to_parameter_to_state
@@ -424,7 +424,6 @@ def main():
     baca.build.persist_lilypond_file(
         lilypond_file,
         metadata,
-        persist,
         environment.timing,
         environment.arguments,
     )
