@@ -212,9 +212,11 @@ def main():
         part_manifest=library.part_manifest(),
         transpose_score=True,
     )
-    dictionary = dict(persist)
-    dictionary["voice_name_to_parameter_to_state"] = voice_name_to_parameter_to_state
-    persist = baca.section.proxy(dictionary)
+    dictionary = dict(metadata)
+    dictionary["voice_name_to_parameter_to_state"] = dict(
+        voice_name_to_parameter_to_state
+    )
+    metadata = baca.section.proxy(dictionary)
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
