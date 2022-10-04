@@ -193,15 +193,14 @@ def make_score():
     )
     percussion(cache, measures)
     strings(cache, measures, names)
-    return score, measures, voice_name_to_parameter_to_state
+    return score, voice_name_to_parameter_to_state
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    score, measures, voice_name_to_parameter_to_state = make_score(environment.timing)
+    score, voice_name_to_parameter_to_state = make_score(environment.timing)
     metadata = baca.section.postprocess_score(
         score,
-        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
