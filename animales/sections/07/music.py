@@ -322,19 +322,18 @@ def make_score(
     perc3(cache)
     strings(cache)
     cb1(cache)
-    return score, measures, voice_name_to_parameter_to_state
+    return score, voice_name_to_parameter_to_state
 
 
 def main():
     environment = baca.build.read_environment(__file__, baca.build.argv())
-    score, measures, voice_name_to_parameter_to_state = make_score(
+    score, voice_name_to_parameter_to_state = make_score(
         environment.first_measure_number,
         environment.previous_metadata["persistent_indicators"],
         environment.timing,
     )
     metadata = baca.section.postprocess_score(
         score,
-        measures(),
         **baca.section.section_defaults(),
         activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
