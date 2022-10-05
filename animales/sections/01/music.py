@@ -202,7 +202,6 @@ def main():
     metadata = baca.section.postprocess_score(
         score,
         **baca.section.section_defaults(),
-        activate=[baca.tags.LOCAL_MEASURE_NUMBER],
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         environment=environment,
@@ -210,6 +209,9 @@ def main():
         manifests=library.manifests,
         part_manifest=library.part_manifest(),
         transpose_score=True,
+        tags=baca.tags.Tags(
+            activate=[baca.tags.LOCAL_MEASURE_NUMBER],
+        ),
     )
     dictionary = dict(metadata)
     dictionary["voice_name_to_parameter_to_state"] = dict(
