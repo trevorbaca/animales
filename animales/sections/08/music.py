@@ -274,8 +274,8 @@ def make_score(
     STRINGS(score, measures)
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,

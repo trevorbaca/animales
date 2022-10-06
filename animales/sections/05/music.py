@@ -224,8 +224,8 @@ def make_score(
     CB3(score, measures)
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,

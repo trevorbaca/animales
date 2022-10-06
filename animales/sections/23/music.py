@@ -156,8 +156,8 @@ def make_score(
     library.MAKE_BATTUTI(score, measures, [[1, -17], [1, -17], [1, -17]], (1, 3))
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,
