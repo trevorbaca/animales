@@ -399,10 +399,8 @@ def main():
         error_on_not_yet_pitched=True,
         manifests=library.manifests,
         transpose_score=True,
-        tags=baca.tags.Tags(
-            activate=[baca.tags.LOCAL_MEASURE_NUMBER],
-        ),
     )
+    baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     assert "voice_name_to_parameter_to_state" not in metadata
     dictionary = dict(metadata)
     dictionary["voice_name_to_parameter_to_state"] = dict(
