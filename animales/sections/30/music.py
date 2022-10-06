@@ -117,8 +117,8 @@ def make_score(
     PERC4(voices("perc4"), measures)
     baca.section.reapply(
         voices,
-        library.manifests,
         previous_persistent_indicators,
+        manifests=library.manifests,
     )
     cache = baca.section.cache_leaves(
         score,
