@@ -201,7 +201,6 @@ def main():
     score, voice_name_to_parameter_to_state = make_score(environment.timing)
     metadata = baca.section.postprocess_score(
         score,
-        **baca.section.section_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         environment=environment,
