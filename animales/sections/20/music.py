@@ -142,7 +142,6 @@ def main():
     )
     metadata = baca.section.postprocess_score(
         score,
-        **baca.section.section_defaults(),
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         environment=environment,
