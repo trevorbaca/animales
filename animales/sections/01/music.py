@@ -201,11 +201,11 @@ def main():
     score, voice_name_to_parameter_to_state = make_score(environment.timing)
     metadata = baca.section.postprocess_score(
         score,
+        environment,
+        library.manifests,
         all_music_in_part_containers=True,
         always_make_global_rests=True,
-        environment=environment,
         error_on_not_yet_pitched=True,
-        manifests=library.manifests,
         part_manifest=library.part_manifest(),
         transpose_score=True,
     )
