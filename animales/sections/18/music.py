@@ -344,7 +344,7 @@ def make_score(
     )
     strings(cache, measures, string_parts)
     solo_violin(cache["1vn5"], measures)
-    baca.section._sort_dictionary(voice_name_to_parameter_to_state)
+    baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 
 

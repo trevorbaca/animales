@@ -390,7 +390,7 @@ def make_score(
     perc3(cache["perc3"])
     strings(cache)
     cb1(cache["cb1"])
-    baca.section._sort_dictionary(voice_name_to_parameter_to_state)
+    baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 
 
