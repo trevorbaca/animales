@@ -439,7 +439,7 @@ def make_score(
         voice_name_to_parameter_to_state,
     )
     strings(cache, measures)
-    baca.section._sort_dictionary(voice_name_to_parameter_to_state)
+    baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 
 

@@ -445,7 +445,7 @@ def make_score(
     percussion(cache, measures)
     strings(cache, measures)
     cb1(cache["cb1"], measures)
-    baca.section._sort_dictionary(voice_name_to_parameter_to_state)
+    baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 
 
