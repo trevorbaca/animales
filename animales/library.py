@@ -436,7 +436,7 @@ def make_brass_manifest_rhythm(
     previous_state = previous_state or {}
     assert isinstance(previous_state, dict)
     assert part in range(1, 12 + 1), repr(part)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     counts, delay, extra_counts = {
@@ -565,7 +565,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     extra_counts = []
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
@@ -768,7 +768,7 @@ def make_harp_exchange_rhythm(
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
@@ -805,7 +805,7 @@ def make_harp_exchange_rhythm(
 
 
 def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
@@ -872,7 +872,7 @@ def make_sforzando_exchange_rhythm(
         part_to_counts[part] = counts
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-    divisions = [abjad.NonreducedFraction(_) for _ in time_signatures]
+    divisions = [_.duration for _ in time_signatures]
     divisions = baca.sequence.fuse(divisions)
     divisions = baca.sequence.quarters(divisions)
     tag = baca.tags.function_name(inspect.currentframe())
