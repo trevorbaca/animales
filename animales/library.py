@@ -347,7 +347,8 @@ def MAKE_BATTUTI(
     }
     duration = sum([_.duration for _ in measures()])
     assert isinstance(duration, abjad.Duration), repr(duration)
-    wrap = duration.with_denominator(16).numerator
+    pair = abjad.duration.with_denominator(duration, 16)
+    wrap = pair[0]
     for section, members in section_name_to_member_count.items():
         if omit_contrabasses and section == "Contrabasses":
             continue
