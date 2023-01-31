@@ -199,7 +199,7 @@ def main():
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
-        magnify_staves=(abjad.Multiplier(6, 10), "-PARTS"),
+        magnify_staves=(abjad.Fraction(6, 10), "-PARTS"),
         transpose_score=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
