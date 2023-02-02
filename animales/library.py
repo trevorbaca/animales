@@ -437,9 +437,9 @@ def make_brass_manifest_rhythm(
     previous_state = previous_state or {}
     assert isinstance(previous_state, dict)
     assert part in range(1, 12 + 1), repr(part)
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.quarters(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.quarters(durations)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
         2: ([8, 8, -2], 13, [0, 1, 0, 0]),
@@ -461,7 +461,7 @@ def make_brass_manifest_rhythm(
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
     nested_music = rmakers.talea(
-        divisions,
+        durations,
         counts,
         8,
         extra_counts=extra_counts,
@@ -566,12 +566,12 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     extra_counts = []
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.quarters(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.talea(
-        divisions, counts_, 16, extra_counts=extra_counts, tag=tag
+        durations, counts_, 16, extra_counts=extra_counts, tag=tag
     )
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -586,7 +586,8 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
 
 def make_downbeat_attack(time_signatures, count=1, denominator=8):
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.talea(time_signatures, [count], denominator, tag=tag)
+    durations = [_.duration for _ in time_signatures]
+    nested_music = rmakers.talea(durations, [count], denominator, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     lts = baca.select.lts(voice)[1:]
     rmakers.force_rest(lts, tag=tag)
@@ -693,8 +694,9 @@ def make_empty_score(
 
 def make_glissando_rhythm(time_signatures, rotate=0):
     tag = baca.tags.function_name(inspect.currentframe())
+    durations = [_.duration for _ in time_signatures]
     nested_music = rmakers.talea(
-        time_signatures,
+        durations,
         abjad.sequence.rotate([5, 1, 2, 1], n=rotate),
         8,
         tag=tag,
@@ -769,13 +771,13 @@ def make_harp_exchange_rhythm(
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.quarters(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
     nested_music = rmakers.talea(
-        divisions,
+        durations,
         counts,
         16,
         extra_counts=[2],
@@ -806,11 +808,11 @@ def make_harp_exchange_rhythm(
 
 
 def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.quarters(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
-    nested_music = rmakers.talea(divisions, [1], 16, extra_counts=extra_counts, tag=tag)
+    nested_music = rmakers.talea(durations, [1], 16, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(nested_music, time_signatures)
     if silences is not None:
         rmakers.force_rest(
@@ -873,13 +875,13 @@ def make_sforzando_exchange_rhythm(
         part_to_counts[part] = counts
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-    divisions = [_.duration for _ in time_signatures]
-    divisions = baca.sequence.fuse(divisions)
-    divisions = baca.sequence.quarters(divisions)
+    durations = [_.duration for _ in time_signatures]
+    durations = baca.sequence.fuse(durations)
+    durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
     nested_music = rmakers.talea(
-        divisions,
+        durations,
         counts,
         16,
         extra_counts=[2],
