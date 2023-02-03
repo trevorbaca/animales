@@ -66,8 +66,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 3]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(score):
@@ -81,26 +81,26 @@ def SKIPS(score):
     )
 
 
-def PERCUSSION(score, measures):
+def PERCUSSION(score, signatures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(measures())
+    music = baca.make_repeat_tied_notes(signatures())
     voice.extend(music)
     for abbreviation in ["perc2", "perc3", "perc4"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(measures())
+        music = baca.make_repeat_tied_notes(signatures())
         pleaf = baca.select.pleaf(music, 0)
         baca.repeat_tie(pleaf)
         voice.extend(music)
 
 
-def CB3(voice, measures):
-    music = baca.make_repeat_tied_notes(measures())
+def CB3(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
 
 
-def percussion(cache, measures):
+def percussion(cache, signatures):
     with baca.scope(cache["perc1"].leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -120,7 +120,7 @@ def percussion(cache, measures):
         library.assign_part(o, "Percussion", 4)
 
 
-def cb3(m, measures):
+def cb3(m, signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "C#2")
         baca.text_spanner(o, "ord. => ext. pont.")
@@ -133,10 +133,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -144,15 +144,15 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    PERCUSSION(score, measures)
+    PERCUSSION(score, signatures)
     library.MAKE_BATTUTI(
         score,
-        measures,
+        signatures,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),
         omit_contrabasses=True,
     )
-    CB3(voices("cb3"), measures)
+    CB3(voices("cb3"), signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -160,18 +160,18 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     library.make_battuti(
         cache,
-        measures,
+        signatures,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),
         omit_contrabasses=True,
     )
-    percussion(cache, measures)
-    cb3(cache["cb3"], measures)
+    percussion(cache, signatures)
+    cb3(cache["cb3"], signatures)
     return score
 
 

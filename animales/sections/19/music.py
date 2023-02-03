@@ -86,8 +86,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 3]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(score):
@@ -101,7 +101,7 @@ def SKIPS(score):
     )
 
 
-def BRASS(score, measures):
+def BRASS(score, signatures):
     for abbreviation in [
         "hn1",
         "hn2",
@@ -123,7 +123,7 @@ def BRASS(score, measures):
         "perc4",
     ]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(measures())
+        music = baca.make_mmrests(signatures())
         voice.extend(music)
 
 
@@ -149,10 +149,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -160,9 +160,9 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    BRASS(score, measures)
+    BRASS(score, signatures)
     library.MAKE_BATTUTI(
-        score, measures, [[1, -117, -117], [1, -118]], (1, 3), first=True
+        score, signatures, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )
     baca.section.reapply(
         voices,
@@ -171,12 +171,12 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     library.make_battuti(
         cache,
-        measures,
+        signatures,
         [[1, -117, -117], [1, -118]],
         (1, 3),
         first=True,
