@@ -32,34 +32,34 @@ def make_empty_score():
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[:6]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
-def SKIPS(skips, measures):
+def SKIPS(skips, signatures):
     baca.metronome_mark(skips[1 - 1], "114", library.manifests)
 
 
-def PERCUSSION(score, measures):
+def PERCUSSION(score, signatures):
     voice = score["Percussion.1.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
     voice = score["Percussion.2.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
     voice = score["Percussion.4.Music"]
-    music = baca.make_mmrests(measures())
+    music = baca.make_mmrests(signatures())
     voice.extend(music)
 
 
-def STRINGS(score, voices, measures, names, voice_name_to_parameter_to_state):
-    library.make_trill_rhythm(score, measures(), voice_name_to_parameter_to_state)
+def STRINGS(score, voices, signatures, names, voice_name_to_parameter_to_state):
+    library.make_trill_rhythm(score, signatures(), voice_name_to_parameter_to_state)
     for name in names:
         voice = voices(name)
         baca.section.append_anchor_note(voice)
 
 
-def percussion(cache, measures):
+def percussion(cache, signatures):
     m = cache["perc1"]
     with baca.scope(m.leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
@@ -93,7 +93,7 @@ def percussion(cache, measures):
         library.assign_part(o, "Percussion", 4)
 
 
-def strings(cache, measures, names):
+def strings(cache, signatures, names):
     with baca.scope(cache["1vn1"].leaves()) as o:
         with baca.scope(o.leaf(0)) as u:
             baca.instrument(u, "Violin", library.manifests)
@@ -172,27 +172,27 @@ def strings(cache, measures, names):
 
 @baca.build.timed("make_score")
 def make_score():
-    score, voices, measures = make_empty_score()
+    score, voices, signatures = make_empty_score()
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_section=True,
         manifests=library.manifests,
     )
-    SKIPS(score["Skips"], measures)
-    PERCUSSION(score, measures)
+    SKIPS(score["Skips"], signatures)
+    PERCUSSION(score, signatures)
     voice_name_to_parameter_to_state = {}
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
-    STRINGS(score, voices, measures, names, voice_name_to_parameter_to_state)
+    STRINGS(score, voices, signatures, names, voice_name_to_parameter_to_state)
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
-    percussion(cache, measures)
-    strings(cache, measures, names)
+    percussion(cache, signatures)
+    strings(cache, signatures, names)
     return score, voice_name_to_parameter_to_state
 
 

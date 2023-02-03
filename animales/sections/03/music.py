@@ -30,8 +30,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     pfmn = previous_final_measure_number
     time_signatures = library.time_signatures()[pfmn : pfmn + 5]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(skips):
@@ -44,14 +44,14 @@ def SKIPS(skips):
 
 def STRINGS(
     score,
-    measures,
+    signatures,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None,
 ):
     library.make_trill_rhythm(
         score,
-        measures(),
+        signatures(),
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
@@ -105,10 +105,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -119,7 +119,7 @@ def make_score(
     voice_name_to_parameter_to_state = {}
     STRINGS(
         score,
-        measures,
+        signatures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
@@ -130,7 +130,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     strings(cache)

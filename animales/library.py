@@ -330,7 +330,7 @@ def leaves_in_measure(argument, n, *, lleak=False, rleak=False):
 
 def MAKE_BATTUTI(
     score,
-    measures,
+    signatures,
     counts,
     range_,
     *,
@@ -345,7 +345,7 @@ def MAKE_BATTUTI(
         "Cellos": 14,
         "Contrabasses": 6,
     }
-    duration = sum([_.duration for _ in measures()])
+    duration = sum([_.duration for _ in signatures()])
     assert isinstance(duration, abjad.Duration), repr(duration)
     pair = abjad.duration.with_denominator(duration, 16)
     wrap = pair[0]
@@ -355,19 +355,19 @@ def MAKE_BATTUTI(
         for member in range(1, members + 1):
             voice_name = f"{section}.Voice.{member}"
             voice = score[voice_name]
-            time_signatures = measures(*range_)
+            time_signatures = signatures(*range_)
             music = make_clb_rhythm(time_signatures, section, member, counts, wrap)
             voice.extend(music)
             if append_fermata_measure is True:
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
-                music = baca.make_mmrests(measures(fermata_measure), head=voice.name)
+                music = baca.make_mmrests(signatures(fermata_measure), head=voice.name)
                 voice.extend(music)
 
 
 def make_battuti(
     cache,
-    measures,
+    signatures,
     counts,
     range_,
     *,
@@ -480,7 +480,7 @@ def make_brass_manifest_rhythm(
     return music, state
 
 
-def MAKE_BRASS_SFORZANDO(score, measures, measure):
+def MAKE_BRASS_SFORZANDO(score, signatures, measure):
     name_to_pitch = {
         "hn1": "C4",
         "hn2": "Gb3",
@@ -499,7 +499,7 @@ def MAKE_BRASS_SFORZANDO(score, measures, measure):
     for name, pitch in name_to_pitch.items():
         voice_name = voice_abbreviations.get(name, name)
         voice = score[voice_name]
-        music = make_downbeat_attack(measures(measure))
+        music = make_downbeat_attack(signatures(measure))
         voice.extend(music)
 
 

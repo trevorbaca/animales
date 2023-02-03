@@ -62,8 +62,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 3]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(score):
@@ -106,10 +106,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -117,7 +117,7 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    library.MAKE_BATTUTI(score, measures, [[1, -55], [1, -17], [1, -17]], (1, 3))
+    library.MAKE_BATTUTI(score, signatures, [[1, -55], [1, -17], [1, -17]], (1, 3))
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -125,10 +125,10 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
-    library.make_battuti(cache, measures, [[1, -55], [1, -17], [1, -17]], (1, 3))
+    library.make_battuti(cache, signatures, [[1, -55], [1, -17], [1, -17]], (1, 3))
     strings(cache)
     return score
 

@@ -40,8 +40,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 6]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(score):
@@ -60,34 +60,34 @@ def SKIPS(score):
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def WINDS(score, measures):
+def WINDS(score, signatures):
     voice = score[library.voice_abbreviations["cl"]]
-    music = baca.make_repeat_tied_notes(measures())
+    music = baca.make_repeat_tied_notes(signatures())
     voice.extend(music)
 
 
-def PERCUSSION(score, measures):
+def PERCUSSION(score, signatures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(measures())
+    music = baca.make_repeat_tied_notes(signatures())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
     # PERC2
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(measures())
+    music = baca.make_repeat_tied_notes(signatures())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
 
 
-def STRINGS(score, measures, absent_left_broken):
+def STRINGS(score, signatures, absent_left_broken):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeated_duration_notes(measures(), [(1, 4)])
+        music = baca.make_repeated_duration_notes(signatures(), [(1, 4)])
         voice.extend(music)
     for abbreviation in absent_left_broken:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(measures())
+        music = baca.make_mmrests(signatures())
         voice.extend(music)
 
 
@@ -205,10 +205,10 @@ def strings(cache, absent_left_broken):
 
 @baca.build.timed("make_score")
 def make_score(first_measure_number, previous_persistent_indicators):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -216,10 +216,10 @@ def make_score(first_measure_number, previous_persistent_indicators):
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    WINDS(score, measures)
-    PERCUSSION(score, measures)
+    WINDS(score, signatures)
+    PERCUSSION(score, signatures)
     absent_left_broken = ["1vn3", "2vn3", "va3"]
-    STRINGS(score, measures, absent_left_broken)
+    STRINGS(score, signatures, absent_left_broken)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -227,7 +227,7 @@ def make_score(first_measure_number, previous_persistent_indicators):
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
     winds(cache)

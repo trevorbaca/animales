@@ -56,8 +56,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 6]
-    measures = baca.section.measures(time_signatures)
-    return score, voices, measures
+    signatures = baca.section.signatures(time_signatures)
+    return score, voices, signatures
 
 
 def SKIPS(skips):
@@ -73,14 +73,14 @@ def SKIPS(skips):
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(voice, measures):
-    music = baca.make_repeat_tied_notes(measures())
+def CL(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures())
     voice.extend(music)
 
 
 def BRASS(
     score,
-    measures,
+    signatures,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None,
@@ -109,7 +109,7 @@ def BRASS(
         )
         voice = score[voice_name]
         music, state = library.make_brass_manifest_rhythm(
-            measures(),
+            signatures(),
             part,
             voice_name,
             previous_state=previous_state,
@@ -122,7 +122,7 @@ def BRASS(
 
 def PF_HP_PERC3_CB1(
     score,
-    measures,
+    signatures,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None,
@@ -138,7 +138,7 @@ def PF_HP_PERC3_CB1(
         )
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
-            measures(),
+            signatures(),
             part,
             voice_name,
             previous_state=previous_state,
@@ -149,19 +149,19 @@ def PF_HP_PERC3_CB1(
         )
 
 
-def PERC2(voice, measures):
-    music = baca.make_repeat_tied_notes(measures())
+def PERC2(voice, signatures):
+    music = baca.make_repeat_tied_notes(signatures())
     voice.extend(music)
 
 
-def STRINGS(score, measures):
+def STRINGS(score, signatures):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeated_duration_notes(measures(), [(1, 4)])
+        music = baca.make_repeated_duration_notes(signatures(), [(1, 4)])
         voice.extend(music)
 
 
-def cl(m, measures):
+def cl(m, signatures):
     with baca.scope(m.leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 2", library.manifests)
         baca.pitch(o, "Bb4")
@@ -285,7 +285,7 @@ def brass(
             parameter_to_state["PITCH"] = previous_parameter_to_state["PITCH"]
 
 
-def hp(m, measures):
+def hp(m, signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "C5")
         baca.stopped(o.pheads())
@@ -293,7 +293,7 @@ def hp(m, measures):
         library.assign_part(o, "Harp")
 
 
-def pf(m, measures):
+def pf(m, signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "C5")
         baca.stopped(o.pheads())
@@ -301,7 +301,7 @@ def pf(m, measures):
         library.assign_part(o, "Piano")
 
 
-def percussion(cache, measures):
+def percussion(cache, signatures):
     with baca.scope(cache["perc2"].leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -313,7 +313,7 @@ def percussion(cache, measures):
         library.assign_part(o, "Percussion", 3)
 
 
-def strings(cache, measures):
+def strings(cache, signatures):
     with baca.scope(cache["1vn1"].leaves()) as o:
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
@@ -383,7 +383,7 @@ def strings(cache, measures):
         library.assign_part(o, "Contrabass", (2, 6))
 
 
-def cb1(m, measures):
+def cb1(m, signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "Cqf5", do_not_transpose=True)
         baca.note_head_style_harmonic(o.pleaves())
@@ -397,10 +397,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, measures = make_empty_score(first_measure_number - 1)
+    score, voices, signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        measures(),
+        signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -408,22 +408,22 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score["Skips"])
-    CL(voices("cl"), measures)
+    CL(voices("cl"), signatures)
     voice_name_to_parameter_to_state = {}
     BRASS(
         score,
-        measures,
+        signatures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     PF_HP_PERC3_CB1(
         score,
-        measures,
+        signatures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    PERC2(voices("perc2"), measures)
-    STRINGS(score, measures)
+    PERC2(voices("perc2"), signatures)
+    STRINGS(score, signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -431,20 +431,20 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(measures()),
+        len(signatures()),
         library.voice_abbreviations,
     )
-    cl(cache["cl"], measures)
+    cl(cache["cl"], signatures)
     brass(
         cache,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    hp(cache["hp"], measures)
-    pf(cache["pf"], measures)
-    percussion(cache, measures)
-    strings(cache, measures)
-    cb1(cache["cb1"], measures)
+    hp(cache["hp"], signatures)
+    pf(cache["pf"], signatures)
+    percussion(cache, signatures)
+    strings(cache, signatures)
+    cb1(cache["cb1"], signatures)
     baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 
