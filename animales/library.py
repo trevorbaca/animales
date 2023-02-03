@@ -438,7 +438,7 @@ def make_brass_manifest_rhythm(
     assert isinstance(previous_state, dict)
     assert part in range(1, 12 + 1), repr(part)
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     counts, delay, extra_counts = {
         1: ([8, 8, -2], 9, [0, 0, 0, 1]),
@@ -567,7 +567,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.talea(
@@ -772,7 +772,7 @@ def make_harp_exchange_rhythm(
         rest = -(count - 2)
         counts.append(rest)
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
@@ -809,7 +809,7 @@ def make_harp_exchange_rhythm(
 
 def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     nested_music = rmakers.talea(durations, [1], 16, extra_counts=extra_counts, tag=tag)
@@ -876,7 +876,7 @@ def make_sforzando_exchange_rhythm(
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
     durations = [_.duration for _ in time_signatures]
-    durations = baca.sequence.fuse(durations)
+    durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.tags.function_name(inspect.currentframe())
     state = {}
