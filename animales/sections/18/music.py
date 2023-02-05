@@ -149,12 +149,12 @@ def strings(cache, signatures, string_parts):
         baca.text_spanner(
             o,
             "tasto => ext. pont. => tasto",
-            the_pieces=baca.select.cmgroups(o, [2]),
+            pieces=baca.select.cmgroups(o, [2]),
         )
         baca.hairpin(
             o,
             f"niente o< {peak} >o niente",
-            the_pieces=baca.select.mgroups(o, [2, 2]),
+            pieces=baca.select.mgroups(o, [2, 2]),
         )
 
     for abbreviation, items in string_parts.items():
