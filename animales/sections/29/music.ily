@@ -1,45 +1,30 @@
   %! baca.path.extern()
 number.29.Rests = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 2/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
-    % OPENING:
-    % COMMANDS:
       %! baca.global_fermata(2)
     \baca-fermata-measure
       %! baca._make_global_rests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! baca.global_fermata(1)
     ^ \baca-fermata-markup
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -47,13 +32,9 @@ number.29.Rests = {
 
   %! baca.path.extern()
 number.29.Skips = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 1]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -67,14 +48,11 @@ number.29.Skips = {
     \time 2/4
       %! baca._make_global_skips(1)
     s1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! +TABLOID_SCORE
       %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 6)
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "BB" #10
-    % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
@@ -117,13 +95,9 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 2]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -133,8 +107,6 @@ number.29.Skips = {
     \time 4/4
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -144,7 +116,6 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'05'']"
@@ -163,15 +134,11 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 3]
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -181,7 +148,6 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[6'08'']"
@@ -200,13 +166,9 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 4]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -216,8 +178,6 @@ number.29.Skips = {
     \time 1/4
       %! baca._make_global_skips(1)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -227,7 +187,6 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-both-left-fermata "2''" "[6'13'']"
@@ -246,8 +205,6 @@ number.29.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
@@ -256,8 +213,6 @@ number.29.Skips = {
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -278,17 +233,13 @@ number.29.Skips = {
       %! baca._label_measure_numbers()
       %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -296,13 +247,9 @@ number.29.Skips = {
 
   %! baca.path.extern()
 number.29.Percussion.1.Music.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -328,8 +275,6 @@ number.29.Percussion.1.Music.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -353,11 +298,8 @@ number.29.Percussion.1.Music.container = {
     \set Staff.forceClef = ##t
       %! baca.make_repeat_tied_notes()
     c'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -368,19 +310,15 @@ number.29.Percussion.1.Music.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \p
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.repeat_tie()
     \repeatTie
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -393,18 +331,13 @@ number.29.Percussion.1.Music.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 2]
       %! baca.make_repeat_tied_notes()
     c'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -413,29 +346,20 @@ number.29.Percussion.1.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 3]
       %! baca.make_repeat_tied_notes()
     c'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Percussion.1.Music measure 4]
-    % BEFORE:
-    % COMMANDS:
       %! +PARTS
       %! baca.literal()
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
@@ -444,34 +368,23 @@ number.29.Percussion.1.Music.container = {
 %%% \once \override Score.TimeSignature.stencil = ##f
       %! baca.make_mmrests(1)
     R1 * 1/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
       %! baca.markup()
 %%% ^ \markup \musicglyph #"scripts.ufermata"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Percussion.1.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Percussion.1.Music.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -479,19 +392,13 @@ number.29.Percussion.1.Music = {
 
   %! baca.path.extern()
 number.29.Percussion.1.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Percussion.1.Music"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Percussion.1.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -499,13 +406,9 @@ number.29.Percussion.1.Staff = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -531,8 +434,6 @@ number.29.FirstViolins.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -559,8 +460,6 @@ number.29.FirstViolins.Voice.1.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -571,12 +470,9 @@ number.29.FirstViolins.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -589,76 +485,48 @@ number.29.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.1"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.1 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -673,15 +541,12 @@ number.29.FirstViolins.Voice.1.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -690,22 +555,14 @@ number.29.FirstViolins.Voice.1.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.1.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.1.Rests measure 4]
@@ -713,45 +570,28 @@ number.29.FirstViolins.Voice.1.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -759,20 +599,14 @@ number.29.FirstViolins.Voice.1 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -783,51 +617,33 @@ number.29.FirstViolins.Voice.2.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 3]
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.2"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.2 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -842,15 +658,12 @@ number.29.FirstViolins.Voice.2.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -859,22 +672,14 @@ number.29.FirstViolins.Voice.2.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.2.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.2.Rests measure 4]
@@ -882,45 +687,28 @@ number.29.FirstViolins.Voice.2.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -928,28 +716,19 @@ number.29.FirstViolins.Voice.2 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -957,21 +736,14 @@ number.29.FirstViolins.Staff.1 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.3 measure 1]
-        % BEFORE:
-        % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
           %! -PARTS
@@ -991,8 +763,6 @@ number.29.FirstViolins.Voice.3.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \startStaff
-        % OPENING:
-        % COMMANDS:
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
@@ -1019,8 +789,6 @@ number.29.FirstViolins.Voice.3.container = {
         \voiceOne
           %! animales.make_clb_rhythm()
         r8
-        % AFTER:
-        % ARTICULATIONS:
           %! REAPPLIED_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! REAPPLIED_DYNAMIC
@@ -1031,12 +799,9 @@ number.29.FirstViolins.Voice.3.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1049,101 +814,62 @@ number.29.FirstViolins.Voice.3.container = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.3 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.3"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.3 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -1158,15 +884,12 @@ number.29.FirstViolins.Voice.3.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -1175,22 +898,14 @@ number.29.FirstViolins.Voice.3.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.3.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.3.Rests measure 4]
@@ -1198,45 +913,28 @@ number.29.FirstViolins.Voice.3.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1244,20 +942,14 @@ number.29.FirstViolins.Voice.3 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -1268,70 +960,44 @@ number.29.FirstViolins.Voice.4.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.4"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.4 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -1346,15 +1012,12 @@ number.29.FirstViolins.Voice.4.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -1363,22 +1026,14 @@ number.29.FirstViolins.Voice.4.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.4.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.4.Rests measure 4]
@@ -1386,45 +1041,28 @@ number.29.FirstViolins.Voice.4.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1432,28 +1070,19 @@ number.29.FirstViolins.Voice.4 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -1461,13 +1090,9 @@ number.29.FirstViolins.Staff.2 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.5.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
       %! -PARTS
@@ -1487,8 +1112,6 @@ number.29.FirstViolins.Voice.5.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -1515,8 +1138,6 @@ number.29.FirstViolins.Voice.5.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -1527,12 +1148,9 @@ number.29.FirstViolins.Voice.5.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \f
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1545,71 +1163,45 @@ number.29.FirstViolins.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.5"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.5 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -1624,15 +1216,12 @@ number.29.FirstViolins.Voice.5.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -1641,22 +1230,14 @@ number.29.FirstViolins.Voice.5.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.5.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.5.Rests measure 4]
@@ -1664,45 +1245,28 @@ number.29.FirstViolins.Voice.5.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.5 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.5.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1710,78 +1274,50 @@ number.29.FirstViolins.Voice.5 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.6.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.6 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.6 measure 2]
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.6 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.6"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.6 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -1796,15 +1332,12 @@ number.29.FirstViolins.Voice.6.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -1813,22 +1346,14 @@ number.29.FirstViolins.Voice.6.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.6.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.6.Rests measure 4]
@@ -1836,45 +1361,28 @@ number.29.FirstViolins.Voice.6.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.6 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.6.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1882,28 +1390,19 @@ number.29.FirstViolins.Voice.6 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.3 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.5 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.6"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.6 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -1911,13 +1410,9 @@ number.29.FirstViolins.Staff.3 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.7.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.7 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
       %! -PARTS
@@ -1937,8 +1432,6 @@ number.29.FirstViolins.Voice.7.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -1965,8 +1458,6 @@ number.29.FirstViolins.Voice.7.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1979,70 +1470,44 @@ number.29.FirstViolins.Voice.7.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.7 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.7 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.7"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.7 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -2057,15 +1522,12 @@ number.29.FirstViolins.Voice.7.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -2074,22 +1536,14 @@ number.29.FirstViolins.Voice.7.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.7.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.7.Rests measure 4]
@@ -2097,45 +1551,28 @@ number.29.FirstViolins.Voice.7.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.7 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.7.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2143,97 +1580,61 @@ number.29.FirstViolins.Voice.7 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.8.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.8 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.8 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.8 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.8"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.8 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -2248,15 +1649,12 @@ number.29.FirstViolins.Voice.8.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -2265,22 +1663,14 @@ number.29.FirstViolins.Voice.8.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.8.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.8.Rests measure 4]
@@ -2288,45 +1678,28 @@ number.29.FirstViolins.Voice.8.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.8 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.8.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2334,28 +1707,19 @@ number.29.FirstViolins.Voice.8 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.4 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.7"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.7 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.8"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.8 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -2363,13 +1727,9 @@ number.29.FirstViolins.Staff.4 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.9.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.9 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
       %! -PARTS
@@ -2389,8 +1749,6 @@ number.29.FirstViolins.Voice.9.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -2417,13 +1775,9 @@ number.29.FirstViolins.Voice.9.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2436,46 +1790,30 @@ number.29.FirstViolins.Voice.9.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.9 measure 2]
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.9 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.9"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.9 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -2490,15 +1828,12 @@ number.29.FirstViolins.Voice.9.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -2507,22 +1842,14 @@ number.29.FirstViolins.Voice.9.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.9.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.9.Rests measure 4]
@@ -2530,45 +1857,28 @@ number.29.FirstViolins.Voice.9.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.9 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.9.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2576,88 +1886,56 @@ number.29.FirstViolins.Voice.9 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.10.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.10 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.10 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.10 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.10"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.10 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -2672,15 +1950,12 @@ number.29.FirstViolins.Voice.10.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -2689,22 +1964,14 @@ number.29.FirstViolins.Voice.10.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.10.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.10.Rests measure 4]
@@ -2712,45 +1979,28 @@ number.29.FirstViolins.Voice.10.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.10 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.10.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2758,28 +2008,19 @@ number.29.FirstViolins.Voice.10 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.5 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.9"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.9 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.10"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.10 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -2787,13 +2028,9 @@ number.29.FirstViolins.Staff.5 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.11.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.11 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
       %! -PARTS
@@ -2813,8 +2050,6 @@ number.29.FirstViolins.Voice.11.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -2841,8 +2076,6 @@ number.29.FirstViolins.Voice.11.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2855,71 +2088,45 @@ number.29.FirstViolins.Voice.11.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.11 measure 2]
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.11 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.11"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.11 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -2934,15 +2141,12 @@ number.29.FirstViolins.Voice.11.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -2951,22 +2155,14 @@ number.29.FirstViolins.Voice.11.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.11.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.11.Rests measure 4]
@@ -2974,45 +2170,28 @@ number.29.FirstViolins.Voice.11.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.11 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.11.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3020,87 +2199,55 @@ number.29.FirstViolins.Voice.11 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.12.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.12 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.12 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.12 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.12"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.12 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -3115,15 +2262,12 @@ number.29.FirstViolins.Voice.12.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -3132,22 +2276,14 @@ number.29.FirstViolins.Voice.12.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.12.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.12.Rests measure 4]
@@ -3155,45 +2291,28 @@ number.29.FirstViolins.Voice.12.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.12 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.12.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3201,28 +2320,19 @@ number.29.FirstViolins.Voice.12 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.6 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.11"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.11 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.12"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.12 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -3230,13 +2340,9 @@ number.29.FirstViolins.Staff.6 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.13.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.13 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
       %! -PARTS
@@ -3256,8 +2362,6 @@ number.29.FirstViolins.Voice.13.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -3284,13 +2388,9 @@ number.29.FirstViolins.Voice.13.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3303,94 +2403,58 @@ number.29.FirstViolins.Voice.13.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.13 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.13 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.13"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.13 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -3405,15 +2469,12 @@ number.29.FirstViolins.Voice.13.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -3422,22 +2483,14 @@ number.29.FirstViolins.Voice.13.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.13.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.13.Rests measure 4]
@@ -3445,45 +2498,28 @@ number.29.FirstViolins.Voice.13.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.13 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.13.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3491,68 +2527,44 @@ number.29.FirstViolins.Voice.13 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.14.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.14 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.14 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.14 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.14"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.14 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -3567,15 +2579,12 @@ number.29.FirstViolins.Voice.14.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -3584,22 +2593,14 @@ number.29.FirstViolins.Voice.14.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.14.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.14.Rests measure 4]
@@ -3607,45 +2608,28 @@ number.29.FirstViolins.Voice.14.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.14 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.14.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3653,28 +2637,19 @@ number.29.FirstViolins.Voice.14 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.7 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.13"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.13 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.14"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.14 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -3682,13 +2657,9 @@ number.29.FirstViolins.Staff.7 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.15.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.15 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
       %! -PARTS
@@ -3708,8 +2679,6 @@ number.29.FirstViolins.Voice.15.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -3736,13 +2705,9 @@ number.29.FirstViolins.Voice.15.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3755,76 +2720,48 @@ number.29.FirstViolins.Voice.15.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.15 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.15 measure 3]
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.15"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.15 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -3839,15 +2776,12 @@ number.29.FirstViolins.Voice.15.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -3856,22 +2790,14 @@ number.29.FirstViolins.Voice.15.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.15.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.15.Rests measure 4]
@@ -3879,45 +2805,28 @@ number.29.FirstViolins.Voice.15.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.15 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.15.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3925,106 +2834,66 @@ number.29.FirstViolins.Voice.15 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.16.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.16 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [FirstViolins.Voice.16 measure 2]
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.16 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.16"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.16 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -4039,15 +2908,12 @@ number.29.FirstViolins.Voice.16.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -4056,22 +2922,14 @@ number.29.FirstViolins.Voice.16.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.16.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.16.Rests measure 4]
@@ -4079,45 +2937,28 @@ number.29.FirstViolins.Voice.16.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.16 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.16.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4125,28 +2966,19 @@ number.29.FirstViolins.Voice.16 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.8 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.15"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.15 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.16"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.16 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -4154,13 +2986,9 @@ number.29.FirstViolins.Staff.8 = <<
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.17.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.17 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -4186,8 +3014,6 @@ number.29.FirstViolins.Voice.17.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -4214,8 +3040,6 @@ number.29.FirstViolins.Voice.17.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4228,65 +3052,41 @@ number.29.FirstViolins.Voice.17.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.17 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.17 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.17"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.17 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -4301,15 +3101,12 @@ number.29.FirstViolins.Voice.17.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -4318,22 +3115,14 @@ number.29.FirstViolins.Voice.17.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.17.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.17.Rests measure 4]
@@ -4341,45 +3130,28 @@ number.29.FirstViolins.Voice.17.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.17 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.17.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4387,83 +3159,53 @@ number.29.FirstViolins.Voice.17 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.18.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.18 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4..
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.18 measure 2]
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.18 measure 3]
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "FirstViolins.Voice.18"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.18 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -4478,15 +3220,12 @@ number.29.FirstViolins.Voice.18.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -4495,22 +3234,14 @@ number.29.FirstViolins.Voice.18.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "FirstViolins.Voice.18.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [FirstViolins.Voice.18.Rests measure 4]
@@ -4518,45 +3249,28 @@ number.29.FirstViolins.Voice.18.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.FirstViolins.Voice.18 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.18.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4564,28 +3278,19 @@ number.29.FirstViolins.Voice.18 = {
 
   %! baca.path.extern()
 number.29.FirstViolins.Staff.9 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.17"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.17 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.18"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.FirstViolins.Voice.18 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -4593,13 +3298,9 @@ number.29.FirstViolins.Staff.9 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -4625,8 +3326,6 @@ number.29.SecondViolins.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -4653,8 +3352,6 @@ number.29.SecondViolins.Voice.1.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -4665,12 +3362,9 @@ number.29.SecondViolins.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4683,61 +3377,39 @@ number.29.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.1"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.1 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -4752,15 +3424,12 @@ number.29.SecondViolins.Voice.1.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -4769,22 +3438,14 @@ number.29.SecondViolins.Voice.1.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.1.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.1.Rests measure 4]
@@ -4792,45 +3453,28 @@ number.29.SecondViolins.Voice.1.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4838,20 +3482,14 @@ number.29.SecondViolins.Voice.1 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -4862,71 +3500,45 @@ number.29.SecondViolins.Voice.2.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 2]
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 3]
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.2"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.2 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -4941,15 +3553,12 @@ number.29.SecondViolins.Voice.2.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -4958,22 +3567,14 @@ number.29.SecondViolins.Voice.2.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.2.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.2.Rests measure 4]
@@ -4981,45 +3582,28 @@ number.29.SecondViolins.Voice.2.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5027,28 +3611,19 @@ number.29.SecondViolins.Voice.2 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -5056,21 +3631,14 @@ number.29.SecondViolins.Staff.1 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.3 measure 1]
-        % BEFORE:
-        % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
           %! -PARTS
@@ -5090,8 +3658,6 @@ number.29.SecondViolins.Voice.3.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \startStaff
-        % OPENING:
-        % COMMANDS:
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
@@ -5118,8 +3684,6 @@ number.29.SecondViolins.Voice.3.container = {
         \voiceOne
           %! animales.make_clb_rhythm()
         r4
-        % AFTER:
-        % ARTICULATIONS:
           %! REAPPLIED_DYNAMIC_COLOR
           %! baca.treat_persistent_wrapper()
           %! REAPPLIED_DYNAMIC
@@ -5130,12 +3694,9 @@ number.29.SecondViolins.Voice.3.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5148,81 +3709,50 @@ number.29.SecondViolins.Voice.3.container = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.3 measure 3]
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.3"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.3 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -5237,15 +3767,12 @@ number.29.SecondViolins.Voice.3.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -5254,22 +3781,14 @@ number.29.SecondViolins.Voice.3.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.3.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.3.Rests measure 4]
@@ -5277,45 +3796,28 @@ number.29.SecondViolins.Voice.3.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5323,20 +3825,14 @@ number.29.SecondViolins.Voice.3 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -5347,94 +3843,58 @@ number.29.SecondViolins.Voice.4.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 3]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.4"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.4 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -5449,15 +3909,12 @@ number.29.SecondViolins.Voice.4.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -5466,22 +3923,14 @@ number.29.SecondViolins.Voice.4.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.4.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.4.Rests measure 4]
@@ -5489,45 +3938,28 @@ number.29.SecondViolins.Voice.4.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5535,28 +3967,19 @@ number.29.SecondViolins.Voice.4 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -5564,13 +3987,9 @@ number.29.SecondViolins.Staff.2 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.5.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.5 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
       %! -PARTS
@@ -5590,8 +4009,6 @@ number.29.SecondViolins.Voice.5.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -5618,8 +4035,6 @@ number.29.SecondViolins.Voice.5.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5632,66 +4047,42 @@ number.29.SecondViolins.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.5 measure 2]
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.5 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.5"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.5 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -5706,15 +4097,12 @@ number.29.SecondViolins.Voice.5.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -5723,22 +4111,14 @@ number.29.SecondViolins.Voice.5.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.5.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.5.Rests measure 4]
@@ -5746,45 +4126,28 @@ number.29.SecondViolins.Voice.5.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.5 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.5.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5792,68 +4155,44 @@ number.29.SecondViolins.Voice.5 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.6.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.6 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.6 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.6 measure 3]
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.6"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.6 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -5868,15 +4207,12 @@ number.29.SecondViolins.Voice.6.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -5885,22 +4221,14 @@ number.29.SecondViolins.Voice.6.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.6.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.6.Rests measure 4]
@@ -5908,45 +4236,28 @@ number.29.SecondViolins.Voice.6.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.6 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.6.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5954,28 +4265,19 @@ number.29.SecondViolins.Voice.6 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.3 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.5 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.6"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.6 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -5983,13 +4285,9 @@ number.29.SecondViolins.Staff.3 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.7.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.7 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
       %! -PARTS
@@ -6009,8 +4307,6 @@ number.29.SecondViolins.Voice.7.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -6037,13 +4333,9 @@ number.29.SecondViolins.Voice.7.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6056,118 +4348,72 @@ number.29.SecondViolins.Voice.7.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.7 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.7 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.7"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.7 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -6182,15 +4428,12 @@ number.29.SecondViolins.Voice.7.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -6199,22 +4442,14 @@ number.29.SecondViolins.Voice.7.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.7.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.7.Rests measure 4]
@@ -6222,45 +4457,28 @@ number.29.SecondViolins.Voice.7.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.7 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.7.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6268,82 +4486,52 @@ number.29.SecondViolins.Voice.7 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.8.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.8 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.8 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.8 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.8"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.8 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -6358,15 +4546,12 @@ number.29.SecondViolins.Voice.8.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -6375,22 +4560,14 @@ number.29.SecondViolins.Voice.8.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.8.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.8.Rests measure 4]
@@ -6398,45 +4575,28 @@ number.29.SecondViolins.Voice.8.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.8 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.8.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6444,28 +4604,19 @@ number.29.SecondViolins.Voice.8 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.4 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.7"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.7 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.8"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.8 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -6473,13 +4624,9 @@ number.29.SecondViolins.Staff.4 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.9.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.9 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
       %! -PARTS
@@ -6499,8 +4646,6 @@ number.29.SecondViolins.Voice.9.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -6527,13 +4672,9 @@ number.29.SecondViolins.Voice.9.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r4..
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6546,56 +4687,36 @@ number.29.SecondViolins.Voice.9.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.9 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.9 measure 3]
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.9"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.9 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -6610,15 +4731,12 @@ number.29.SecondViolins.Voice.9.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -6627,22 +4745,14 @@ number.29.SecondViolins.Voice.9.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.9.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.9.Rests measure 4]
@@ -6650,45 +4760,28 @@ number.29.SecondViolins.Voice.9.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.9 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.9.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6696,88 +4789,56 @@ number.29.SecondViolins.Voice.9 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.10.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.10 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.10 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.10 measure 3]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.10"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.10 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -6792,15 +4853,12 @@ number.29.SecondViolins.Voice.10.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -6809,22 +4867,14 @@ number.29.SecondViolins.Voice.10.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.10.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.10.Rests measure 4]
@@ -6832,45 +4882,28 @@ number.29.SecondViolins.Voice.10.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.10 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.10.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6878,28 +4911,19 @@ number.29.SecondViolins.Voice.10 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.5 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.9"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.9 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.10"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.10 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -6907,13 +4931,9 @@ number.29.SecondViolins.Staff.5 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.11.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.11 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
       %! -PARTS
@@ -6933,8 +4953,6 @@ number.29.SecondViolins.Voice.11.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -6961,8 +4979,6 @@ number.29.SecondViolins.Voice.11.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6975,51 +4991,33 @@ number.29.SecondViolins.Voice.11.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.11 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.11 measure 3]
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.11"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.11 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -7034,15 +5032,12 @@ number.29.SecondViolins.Voice.11.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -7051,22 +5046,14 @@ number.29.SecondViolins.Voice.11.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.11.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.11.Rests measure 4]
@@ -7074,45 +5061,28 @@ number.29.SecondViolins.Voice.11.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.11 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.11.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7120,126 +5090,78 @@ number.29.SecondViolins.Voice.11 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.12.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.12 measure 1]
-        % OPENING:
-        % COMMANDS:
           %! -PARTS
           %! baca.voice_two()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r8
-        % AFTER:
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.12 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [SecondViolins.Voice.12 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.12"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.12 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -7254,15 +5176,12 @@ number.29.SecondViolins.Voice.12.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -7271,22 +5190,14 @@ number.29.SecondViolins.Voice.12.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.12.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.12.Rests measure 4]
@@ -7294,45 +5205,28 @@ number.29.SecondViolins.Voice.12.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.12 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.12.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7340,28 +5234,19 @@ number.29.SecondViolins.Voice.12 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.6 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.11"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.11 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.12"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.12 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -7369,13 +5254,9 @@ number.29.SecondViolins.Staff.6 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.13.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.13 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
       %! -PARTS
@@ -7395,8 +5276,6 @@ number.29.SecondViolins.Voice.13.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -7423,13 +5302,9 @@ number.29.SecondViolins.Voice.13.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7442,70 +5317,44 @@ number.29.SecondViolins.Voice.13.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.13 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.13 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.13"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.13 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -7520,15 +5369,12 @@ number.29.SecondViolins.Voice.13.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -7537,22 +5383,14 @@ number.29.SecondViolins.Voice.13.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.13.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.13.Rests measure 4]
@@ -7560,45 +5398,28 @@ number.29.SecondViolins.Voice.13.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.13 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.13.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7606,83 +5427,53 @@ number.29.SecondViolins.Voice.13 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.14.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.14 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.14 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.14 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.14"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.14 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -7697,15 +5488,12 @@ number.29.SecondViolins.Voice.14.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -7714,22 +5502,14 @@ number.29.SecondViolins.Voice.14.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.14.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.14.Rests measure 4]
@@ -7737,45 +5517,28 @@ number.29.SecondViolins.Voice.14.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.14 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.14.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7783,28 +5546,19 @@ number.29.SecondViolins.Voice.14 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.7 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.13"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.13 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.14"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.14 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -7812,13 +5566,9 @@ number.29.SecondViolins.Staff.7 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.15.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.15 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
       %! -PARTS
@@ -7838,8 +5588,6 @@ number.29.SecondViolins.Voice.15.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -7866,13 +5614,9 @@ number.29.SecondViolins.Voice.15.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7885,66 +5629,42 @@ number.29.SecondViolins.Voice.15.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.15 measure 2]
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.15 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.15"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.15 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -7959,15 +5679,12 @@ number.29.SecondViolins.Voice.15.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -7976,22 +5693,14 @@ number.29.SecondViolins.Voice.15.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.15.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.15.Rests measure 4]
@@ -7999,45 +5708,28 @@ number.29.SecondViolins.Voice.15.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.15 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.15.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8045,82 +5737,52 @@ number.29.SecondViolins.Voice.15 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.16.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.16 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.16 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.16 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.16"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.16 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -8135,15 +5797,12 @@ number.29.SecondViolins.Voice.16.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -8152,22 +5811,14 @@ number.29.SecondViolins.Voice.16.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.16.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.16.Rests measure 4]
@@ -8175,45 +5826,28 @@ number.29.SecondViolins.Voice.16.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.16 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.16.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8221,28 +5855,19 @@ number.29.SecondViolins.Voice.16 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.8 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.15"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.15 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.16"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.16 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -8250,13 +5875,9 @@ number.29.SecondViolins.Staff.8 = <<
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.17.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.17 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -8282,8 +5903,6 @@ number.29.SecondViolins.Voice.17.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -8310,13 +5929,9 @@ number.29.SecondViolins.Voice.17.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -8329,80 +5944,50 @@ number.29.SecondViolins.Voice.17.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.17 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.17 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.17"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.17 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -8417,15 +6002,12 @@ number.29.SecondViolins.Voice.17.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -8434,22 +6016,14 @@ number.29.SecondViolins.Voice.17.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.17.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.17.Rests measure 4]
@@ -8457,45 +6031,28 @@ number.29.SecondViolins.Voice.17.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.17 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.17.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8503,58 +6060,38 @@ number.29.SecondViolins.Voice.17 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.18.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.18 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.18 measure 2]
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.18 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "SecondViolins.Voice.18"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.18 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -8569,15 +6106,12 @@ number.29.SecondViolins.Voice.18.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -8586,22 +6120,14 @@ number.29.SecondViolins.Voice.18.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "SecondViolins.Voice.18.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [SecondViolins.Voice.18.Rests measure 4]
@@ -8609,45 +6135,28 @@ number.29.SecondViolins.Voice.18.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.SecondViolins.Voice.18 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.18.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8655,28 +6164,19 @@ number.29.SecondViolins.Voice.18 = {
 
   %! baca.path.extern()
 number.29.SecondViolins.Staff.9 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.17"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.17 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.18"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.SecondViolins.Voice.18 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -8684,13 +6184,9 @@ number.29.SecondViolins.Staff.9 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -8716,8 +6212,6 @@ number.29.Violas.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -8744,8 +6238,6 @@ number.29.Violas.Voice.1.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -8756,12 +6248,9 @@ number.29.Violas.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -8774,76 +6263,48 @@ number.29.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.1"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.1 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -8858,15 +6319,12 @@ number.29.Violas.Voice.1.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -8875,22 +6333,14 @@ number.29.Violas.Voice.1.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.1.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.1.Rests measure 4]
@@ -8898,45 +6348,28 @@ number.29.Violas.Voice.1.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8944,20 +6377,14 @@ number.29.Violas.Voice.1 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -8968,71 +6395,45 @@ number.29.Violas.Voice.2.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 2]
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.2"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.2 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -9047,15 +6448,12 @@ number.29.Violas.Voice.2.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9064,22 +6462,14 @@ number.29.Violas.Voice.2.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.2.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.2.Rests measure 4]
@@ -9087,45 +6477,28 @@ number.29.Violas.Voice.2.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -9133,28 +6506,19 @@ number.29.Violas.Voice.2 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -9162,13 +6526,9 @@ number.29.Violas.Staff.1 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
       %! -PARTS
@@ -9188,8 +6548,6 @@ number.29.Violas.Voice.3.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -9216,8 +6574,6 @@ number.29.Violas.Voice.3.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -9228,12 +6584,9 @@ number.29.Violas.Voice.3.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -9246,70 +6599,44 @@ number.29.Violas.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.3 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.3"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.3 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -9324,15 +6651,12 @@ number.29.Violas.Voice.3.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9341,22 +6665,14 @@ number.29.Violas.Voice.3.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.3.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.3.Rests measure 4]
@@ -9364,45 +6680,28 @@ number.29.Violas.Voice.3.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -9410,20 +6709,14 @@ number.29.Violas.Voice.3 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -9434,94 +6727,58 @@ number.29.Violas.Voice.4.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.4"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.4 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -9536,15 +6793,12 @@ number.29.Violas.Voice.4.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9553,22 +6807,14 @@ number.29.Violas.Voice.4.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.4.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.4.Rests measure 4]
@@ -9576,45 +6822,28 @@ number.29.Violas.Voice.4.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -9622,28 +6851,19 @@ number.29.Violas.Voice.4 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -9651,13 +6871,9 @@ number.29.Violas.Staff.2 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.5.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.5 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
       %! -PARTS
@@ -9677,8 +6893,6 @@ number.29.Violas.Voice.5.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -9705,8 +6919,6 @@ number.29.Violas.Voice.5.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -9719,56 +6931,36 @@ number.29.Violas.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.5 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.5 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.5"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.5 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -9783,15 +6975,12 @@ number.29.Violas.Voice.5.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9800,22 +6989,14 @@ number.29.Violas.Voice.5.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.5.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.5.Rests measure 4]
@@ -9823,45 +7004,28 @@ number.29.Violas.Voice.5.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.5 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.5.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -9869,93 +7033,59 @@ number.29.Violas.Voice.5 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.6.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.6 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.6 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.6 measure 3]
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.6"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.6 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -9970,15 +7100,12 @@ number.29.Violas.Voice.6.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -9987,22 +7114,14 @@ number.29.Violas.Voice.6.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.6.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.6.Rests measure 4]
@@ -10010,45 +7129,28 @@ number.29.Violas.Voice.6.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.6 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.6.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -10056,28 +7158,19 @@ number.29.Violas.Voice.6 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.3 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.5 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.6"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.6 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -10085,13 +7178,9 @@ number.29.Violas.Staff.3 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.7.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.7 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
       %! -PARTS
@@ -10111,8 +7200,6 @@ number.29.Violas.Voice.7.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -10139,13 +7226,9 @@ number.29.Violas.Voice.7.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -10158,94 +7241,58 @@ number.29.Violas.Voice.7.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.7 measure 2]
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.7 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.7"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.7 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -10260,15 +7307,12 @@ number.29.Violas.Voice.7.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -10277,22 +7321,14 @@ number.29.Violas.Voice.7.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.7.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.7.Rests measure 4]
@@ -10300,45 +7336,28 @@ number.29.Violas.Voice.7.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.7 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.7.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -10346,77 +7365,49 @@ number.29.Violas.Voice.7 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.8.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.8 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.8 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.8 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.8"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.8 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -10431,15 +7422,12 @@ number.29.Violas.Voice.8.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -10448,22 +7436,14 @@ number.29.Violas.Voice.8.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.8.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.8.Rests measure 4]
@@ -10471,45 +7451,28 @@ number.29.Violas.Voice.8.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.8 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.8.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -10517,28 +7480,19 @@ number.29.Violas.Voice.8 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.4 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.7"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.7 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.8"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.8 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -10546,13 +7500,9 @@ number.29.Violas.Staff.4 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.9.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.9 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
       %! -PARTS
@@ -10572,8 +7522,6 @@ number.29.Violas.Voice.9.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -10600,13 +7548,9 @@ number.29.Violas.Voice.9.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r4..
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -10619,66 +7563,42 @@ number.29.Violas.Voice.9.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.9 measure 2]
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.9 measure 3]
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.9"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.9 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -10693,15 +7613,12 @@ number.29.Violas.Voice.9.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -10710,22 +7627,14 @@ number.29.Violas.Voice.9.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.9.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.9.Rests measure 4]
@@ -10733,45 +7642,28 @@ number.29.Violas.Voice.9.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.9 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.9.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -10779,73 +7671,47 @@ number.29.Violas.Voice.9 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.10.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.10 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.10 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.10 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.10"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.10 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -10860,15 +7726,12 @@ number.29.Violas.Voice.10.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -10877,22 +7740,14 @@ number.29.Violas.Voice.10.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.10.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.10.Rests measure 4]
@@ -10900,45 +7755,28 @@ number.29.Violas.Voice.10.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.10 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.10.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -10946,28 +7784,19 @@ number.29.Violas.Voice.10 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.5 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.9"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.9 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.10"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.10 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -10975,13 +7804,9 @@ number.29.Violas.Staff.5 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.11.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.11 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
       %! -PARTS
@@ -11001,8 +7826,6 @@ number.29.Violas.Voice.11.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -11029,8 +7852,6 @@ number.29.Violas.Voice.11.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -11043,71 +7864,45 @@ number.29.Violas.Voice.11.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.11 measure 2]
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.11 measure 3]
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.11"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.11 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -11122,15 +7917,12 @@ number.29.Violas.Voice.11.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -11139,22 +7931,14 @@ number.29.Violas.Voice.11.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.11.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.11.Rests measure 4]
@@ -11162,45 +7946,28 @@ number.29.Violas.Voice.11.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.11 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.11.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -11208,106 +7975,66 @@ number.29.Violas.Voice.11 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.12.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.12 measure 1]
-        % OPENING:
-        % COMMANDS:
           %! -PARTS
           %! baca.voice_two()
         \voiceTwo
           %! animales.make_clb_rhythm()
         r4
-        % AFTER:
-        % MARKUP:
           %! REAPPLIED_INSTRUMENT_ALERT
           %! baca._attach_latent_indicator_alert()
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.12 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Violas.Voice.12 measure 3]
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.12"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.12 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -11322,15 +8049,12 @@ number.29.Violas.Voice.12.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -11339,22 +8063,14 @@ number.29.Violas.Voice.12.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.12.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.12.Rests measure 4]
@@ -11362,45 +8078,28 @@ number.29.Violas.Voice.12.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.12 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.12.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -11408,28 +8107,19 @@ number.29.Violas.Voice.12 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.6 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.11"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.11 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.12"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.12 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -11437,13 +8127,9 @@ number.29.Violas.Staff.6 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.13.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.13 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
       %! -PARTS
@@ -11463,8 +8149,6 @@ number.29.Violas.Voice.13.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -11491,13 +8175,9 @@ number.29.Violas.Voice.13.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -11510,94 +8190,58 @@ number.29.Violas.Voice.13.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.13 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.13 measure 3]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.13"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.13 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -11612,15 +8256,12 @@ number.29.Violas.Voice.13.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -11629,22 +8270,14 @@ number.29.Violas.Voice.13.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.13.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.13.Rests measure 4]
@@ -11652,45 +8285,28 @@ number.29.Violas.Voice.13.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.13 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.13.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -11698,78 +8314,50 @@ number.29.Violas.Voice.13 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.14.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.14 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.14 measure 2]
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.14 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.14"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.14 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -11784,15 +8372,12 @@ number.29.Violas.Voice.14.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -11801,22 +8386,14 @@ number.29.Violas.Voice.14.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.14.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.14.Rests measure 4]
@@ -11824,45 +8401,28 @@ number.29.Violas.Voice.14.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.14 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.14.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -11870,28 +8430,19 @@ number.29.Violas.Voice.14 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.7 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.13"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.13 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.14"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.14 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -11899,13 +8450,9 @@ number.29.Violas.Staff.7 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.15.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.15 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
       %! -PARTS
@@ -11925,8 +8472,6 @@ number.29.Violas.Voice.15.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -11953,13 +8498,9 @@ number.29.Violas.Voice.15.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -11972,51 +8513,33 @@ number.29.Violas.Voice.15.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.15 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.15 measure 3]
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.15"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.15 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -12031,15 +8554,12 @@ number.29.Violas.Voice.15.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -12048,22 +8568,14 @@ number.29.Violas.Voice.15.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.15.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.15.Rests measure 4]
@@ -12071,45 +8583,28 @@ number.29.Violas.Voice.15.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.15 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.15.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -12117,130 +8612,80 @@ number.29.Violas.Voice.15 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.16.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.16 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.16 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.16 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.16"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.16 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -12255,15 +8700,12 @@ number.29.Violas.Voice.16.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -12272,22 +8714,14 @@ number.29.Violas.Voice.16.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.16.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.16.Rests measure 4]
@@ -12295,45 +8729,28 @@ number.29.Violas.Voice.16.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.16 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.16.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -12341,28 +8758,19 @@ number.29.Violas.Voice.16 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.8 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.15"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.15 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.16"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.16 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -12370,13 +8778,9 @@ number.29.Violas.Staff.8 = <<
 
   %! baca.path.extern()
 number.29.Violas.Voice.17.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.17 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -12402,8 +8806,6 @@ number.29.Violas.Voice.17.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -12430,8 +8832,6 @@ number.29.Violas.Voice.17.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -12444,70 +8844,44 @@ number.29.Violas.Voice.17.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.17 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.17 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.17"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.17 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -12522,15 +8896,12 @@ number.29.Violas.Voice.17.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -12539,22 +8910,14 @@ number.29.Violas.Voice.17.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.17.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.17.Rests measure 4]
@@ -12562,45 +8925,28 @@ number.29.Violas.Voice.17.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.17 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.17.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -12608,73 +8954,47 @@ number.29.Violas.Voice.17 = {
 
   %! baca.path.extern()
 number.29.Violas.Voice.18.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.18 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4..
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.18 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.18 measure 3]
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Violas.Voice.18"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.18 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -12689,15 +9009,12 @@ number.29.Violas.Voice.18.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -12706,22 +9023,14 @@ number.29.Violas.Voice.18.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Violas.Voice.18.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Violas.Voice.18.Rests measure 4]
@@ -12729,45 +9038,28 @@ number.29.Violas.Voice.18.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Violas.Voice.18 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Violas.Voice.18.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -12775,28 +9067,19 @@ number.29.Violas.Voice.18 = {
 
   %! baca.path.extern()
 number.29.Violas.Staff.9 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.17"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.17 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.18"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Violas.Voice.18 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -12804,13 +9087,9 @@ number.29.Violas.Staff.9 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -12836,8 +9115,6 @@ number.29.Cellos.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -12864,8 +9141,6 @@ number.29.Cellos.Voice.1.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     d'16
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -12876,12 +9151,9 @@ number.29.Cellos.Voice.1.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -12894,76 +9166,48 @@ number.29.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.1"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.1 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -12978,15 +9222,12 @@ number.29.Cellos.Voice.1.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -12995,22 +9236,14 @@ number.29.Cellos.Voice.1.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.1.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.1.Rests measure 4]
@@ -13018,45 +9251,28 @@ number.29.Cellos.Voice.1.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -13064,20 +9280,14 @@ number.29.Cellos.Voice.1 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % ARTICULATIONS:
       %! REAPPLIED_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! REAPPLIED_DYNAMIC
@@ -13088,51 +9298,33 @@ number.29.Cellos.Voice.2.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 3]
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.2"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.2 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -13147,15 +9339,12 @@ number.29.Cellos.Voice.2.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -13164,22 +9353,14 @@ number.29.Cellos.Voice.2.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.2.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.2.Rests measure 4]
@@ -13187,45 +9368,28 @@ number.29.Cellos.Voice.2.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -13233,28 +9397,19 @@ number.29.Cellos.Voice.2 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -13262,21 +9417,14 @@ number.29.Cellos.Staff.1 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cellos.Voice.3 measure 1]
-        % BEFORE:
-        % COMMANDS:
           %! baca._clone_section_initial_short_instrument_name()
         \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
           %! -PARTS
@@ -13296,8 +9444,6 @@ number.29.Cellos.Voice.3.container = {
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
         \startStaff
-        % OPENING:
-        % COMMANDS:
           %! REAPPLIED_CLEF
           %! baca._reapply_persistent_indicators(3)
           %! baca._set_status_tag()
@@ -13324,8 +9470,6 @@ number.29.Cellos.Voice.3.container = {
         \voiceOne
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_AFTER:
-        % COMMANDS:
           %! REAPPLIED_CLEF_REDRAW_COLOR
           %! baca._attach_color_literal(2)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -13338,101 +9482,62 @@ number.29.Cellos.Voice.3.container = {
           %! baca._set_status_tag()
           %! baca.treat_persistent_wrapper(3)
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.3 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cellos.Voice.3 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.3"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.3 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -13447,15 +9552,12 @@ number.29.Cellos.Voice.3.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -13464,22 +9566,14 @@ number.29.Cellos.Voice.3.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.3.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.3.Rests measure 4]
@@ -13487,45 +9581,28 @@ number.29.Cellos.Voice.3.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -13533,87 +9610,55 @@ number.29.Cellos.Voice.3 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.4 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.4 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.4 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.4"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.4 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -13628,15 +9673,12 @@ number.29.Cellos.Voice.4.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -13645,22 +9687,14 @@ number.29.Cellos.Voice.4.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.4.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.4.Rests measure 4]
@@ -13668,45 +9702,28 @@ number.29.Cellos.Voice.4.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -13714,28 +9731,19 @@ number.29.Cellos.Voice.4 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -13743,13 +9751,9 @@ number.29.Cellos.Staff.2 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.5.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.5 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
       %! -PARTS
@@ -13769,8 +9773,6 @@ number.29.Cellos.Voice.5.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -13797,13 +9799,9 @@ number.29.Cellos.Voice.5.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r8.
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -13816,71 +9814,45 @@ number.29.Cellos.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.5 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.5 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.5"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.5 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -13895,15 +9867,12 @@ number.29.Cellos.Voice.5.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -13912,22 +9881,14 @@ number.29.Cellos.Voice.5.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.5.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.5.Rests measure 4]
@@ -13935,45 +9896,28 @@ number.29.Cellos.Voice.5.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.5 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.5.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -13981,78 +9925,50 @@ number.29.Cellos.Voice.5 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.6.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.6 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.6 measure 2]
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.6 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4..
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.6"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.6 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -14067,15 +9983,12 @@ number.29.Cellos.Voice.6.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -14084,22 +9997,14 @@ number.29.Cellos.Voice.6.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.6.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.6.Rests measure 4]
@@ -14107,45 +10012,28 @@ number.29.Cellos.Voice.6.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.6 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.6.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -14153,28 +10041,19 @@ number.29.Cellos.Voice.6 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.3 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.5 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.6"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.6 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -14182,13 +10061,9 @@ number.29.Cellos.Staff.3 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.7.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.7 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
       %! -PARTS
@@ -14208,8 +10083,6 @@ number.29.Cellos.Voice.7.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -14236,13 +10109,9 @@ number.29.Cellos.Voice.7.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -14255,70 +10124,44 @@ number.29.Cellos.Voice.7.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.7 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.7 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.7"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.7 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -14333,15 +10176,12 @@ number.29.Cellos.Voice.7.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -14350,22 +10190,14 @@ number.29.Cellos.Voice.7.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.7.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.7.Rests measure 4]
@@ -14373,45 +10205,28 @@ number.29.Cellos.Voice.7.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.7 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.7.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -14419,92 +10234,58 @@ number.29.Cellos.Voice.7 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.8.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.8 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.8 measure 2]
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % START_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         [
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % AFTER:
-        % STOP_BEAM:
           %! animales.make_clb_rhythm()
           %! rmakers.RewriteMeterCommand.__call__
         ]
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.8 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.8"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.8 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -14519,15 +10300,12 @@ number.29.Cellos.Voice.8.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -14536,22 +10314,14 @@ number.29.Cellos.Voice.8.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.8.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.8.Rests measure 4]
@@ -14559,45 +10329,28 @@ number.29.Cellos.Voice.8.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.8 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.8.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -14605,28 +10358,19 @@ number.29.Cellos.Voice.8 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.4 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.7"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.7 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.8"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.8 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -14634,13 +10378,9 @@ number.29.Cellos.Staff.4 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.9.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.9 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
       %! -PARTS
@@ -14660,8 +10400,6 @@ number.29.Cellos.Voice.9.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -14688,13 +10426,9 @@ number.29.Cellos.Voice.9.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -14707,46 +10441,30 @@ number.29.Cellos.Voice.9.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.9 measure 2]
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.9 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.9"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.9 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -14761,15 +10479,12 @@ number.29.Cellos.Voice.9.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -14778,22 +10493,14 @@ number.29.Cellos.Voice.9.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.9.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.9.Rests measure 4]
@@ -14801,45 +10508,28 @@ number.29.Cellos.Voice.9.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.9 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.9.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -14847,88 +10537,56 @@ number.29.Cellos.Voice.9 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.10.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.10 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.10 measure 2]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.10 measure 3]
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.10"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.10 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -14943,15 +10601,12 @@ number.29.Cellos.Voice.10.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -14960,22 +10615,14 @@ number.29.Cellos.Voice.10.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.10.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.10.Rests measure 4]
@@ -14983,45 +10630,28 @@ number.29.Cellos.Voice.10.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.10 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.10.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -15029,28 +10659,19 @@ number.29.Cellos.Voice.10 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.5 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.9"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.9 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.10"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.10 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -15058,13 +10679,9 @@ number.29.Cellos.Staff.5 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.11.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.11 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
       %! -PARTS
@@ -15084,8 +10701,6 @@ number.29.Cellos.Voice.11.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -15112,13 +10727,9 @@ number.29.Cellos.Voice.11.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -15131,71 +10742,45 @@ number.29.Cellos.Voice.11.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.11 measure 2]
       %! animales.make_clb_rhythm()
     r8
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.11 measure 3]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     d'16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.11"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.11 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -15210,15 +10795,12 @@ number.29.Cellos.Voice.11.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -15227,22 +10809,14 @@ number.29.Cellos.Voice.11.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.11.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.11.Rests measure 4]
@@ -15250,45 +10824,28 @@ number.29.Cellos.Voice.11.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.11 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.11.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -15296,82 +10853,52 @@ number.29.Cellos.Voice.11 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.12.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.12 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.12 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! baca._comment_measure_numbers()
         % [Cellos.Voice.12 measure 3]
           %! animales.make_clb_rhythm()
         r8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         b8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r2.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.12"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.12 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -15386,15 +10913,12 @@ number.29.Cellos.Voice.12.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -15403,22 +10927,14 @@ number.29.Cellos.Voice.12.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.12.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.12.Rests measure 4]
@@ -15426,45 +10942,28 @@ number.29.Cellos.Voice.12.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.12 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.12.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -15472,28 +10971,19 @@ number.29.Cellos.Voice.12 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.6 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.11"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.11 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.12"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.12 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -15501,13 +10991,9 @@ number.29.Cellos.Staff.6 = <<
 
   %! baca.path.extern()
 number.29.Cellos.Voice.13.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.13 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
@@ -15533,8 +11019,6 @@ number.29.Cellos.Voice.13.container = {
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
     \startStaff
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -15561,8 +11045,6 @@ number.29.Cellos.Voice.13.container = {
     \voiceOne
       %! animales.make_clb_rhythm()
     r2
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -15575,94 +11057,58 @@ number.29.Cellos.Voice.13.container = {
       %! baca._set_status_tag()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.13 measure 2]
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales.make_clb_rhythm()
     \times 2/3
       %! animales.make_clb_rhythm()
     {
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         d'8
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
           %! animales.make_clb_rhythm()
         r4
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! animales.make_clb_rhythm()
     }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.13 measure 3]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.13"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.13 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -15677,15 +11123,12 @@ number.29.Cellos.Voice.13.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -15694,22 +11137,14 @@ number.29.Cellos.Voice.13.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.13.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.13.Rests measure 4]
@@ -15717,45 +11152,28 @@ number.29.Cellos.Voice.13.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.13 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.13.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -15763,73 +11181,47 @@ number.29.Cellos.Voice.13 = {
 
   %! baca.path.extern()
 number.29.Cellos.Voice.14.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.14 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! animales.make_clb_rhythm()
     r4
-    % AFTER:
-    % MARKUP:
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     r8.
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.14 measure 2]
       %! animales.make_clb_rhythm()
     r1
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.14 measure 3]
       %! animales.make_clb_rhythm()
     r2...
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! animales.make_clb_rhythm()
     b16
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.make_mmrests(8)
     <<
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(5)
         \context Voice = "Cellos.Voice.14"
           %! baca.make_mmrests(5)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.14 measure 4]
-            % BEFORE:
-            % COMMANDS:
               %! INVISIBLE_MUSIC_COMMAND
               %! NOTE
               %! baca.make_mmrests(4)
@@ -15844,15 +11236,12 @@ number.29.Cellos.Voice.14.container = {
               %! +PARTS
               %! baca.literal()
         %%% \once \override Score.TimeSignature.stencil = ##f
-            % GROB_OVERRIDES:
             \once \override Accidental.stencil = ##f
             \once \override NoteColumn.ignore-collision = ##t
               %! HIDDEN
               %! NOTE
               %! baca.make_mmrests(2)
             c'1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! HIDDEN
               %! NOTE
@@ -15861,22 +11250,14 @@ number.29.Cellos.Voice.14.container = {
               %! +PARTS
               %! baca.markup()
         %%% ^ \markup \musicglyph #"scripts.ufermata"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(5)
         }
-        % ABSOLUTE_BEFORE:
-        % COMMANDS:
 
-        % OPEN_BRACKETS:
           %! baca.make_mmrests(7)
         \context Voice = "Cellos.Voice.14.Rests"
           %! baca.make_mmrests(7)
         {
-            % ABSOLUTE_BEFORE:
-            % COMMANDS:
 
               %! baca._comment_measure_numbers()
             % [Cellos.Voice.14.Rests measure 4]
@@ -15884,45 +11265,28 @@ number.29.Cellos.Voice.14.container = {
               %! REST_VOICE
               %! baca.make_mmrests(6)
             R1 * 1/4
-            % AFTER:
-            % MARKUP:
               %! DURATION_MULTIPLIER
               %! MULTIMEASURE_REST
               %! REST_VOICE
               %! baca._label_duration_multipliers()
             %@% ^ \baca-duration-multiplier-markup #"1" #"4"
-            % CLOSING:
-            % COMMANDS:
 
-        % CLOSE_BRACKETS:
           %! baca.make_mmrests(7)
         }
-        % CLOSING:
-        % COMMANDS:
 
-    % CLOSE_BRACKETS:
       %! baca.make_mmrests(8)
     >>
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.29.Cellos.Voice.14 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.29.Cellos.Voice.14.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -15930,28 +11294,19 @@ number.29.Cellos.Voice.14 = {
 
   %! baca.path.extern()
 number.29.Cellos.Staff.7 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.13"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.13 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.14"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.29.Cellos.Voice.14 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
