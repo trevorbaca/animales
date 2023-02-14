@@ -1,107 +1,76 @@
   %! baca.path.extern()
 number.16.Rests = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 1]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 2]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 3]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 4]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 5]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 6]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 7]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 8]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 9]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 10]
       %! baca._make_global_rests(1)
     R1 * 2/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 11]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 12]
       %! baca._make_global_rests(1)
     R1 * 3/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 13]
       %! baca._make_global_rests(1)
     R1 * 4/4
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Rests measure 14]
       %! baca._make_global_rests(1)
     R1 * 2/4
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -109,13 +78,9 @@ number.16.Rests = {
 
   %! baca.path.extern()
 number.16.Skips = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 1]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -129,14 +94,11 @@ number.16.Skips = {
     \time 3/4
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! +TABLOID_SCORE
       %! baca.rehearsal_mark()
 %%% - \tweak extra-offset #'(0 . 6)
       %! baca.rehearsal_mark()
     - \baca-rehearsal-mark-markup "O" #10
-    % SPANNER_STARTS:
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
       %! baca.span_metronome_marks(3)
     - \abjad-invisible-line
@@ -179,15 +141,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 2]
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -197,7 +155,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'22'']"
@@ -216,13 +173,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 3]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -232,8 +185,6 @@ number.16.Skips = {
     \time 4/4
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -243,7 +194,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'24'']"
@@ -262,15 +212,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 4]
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -280,7 +226,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'26'']"
@@ -299,15 +244,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 5]
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -317,7 +258,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'28'']"
@@ -336,13 +276,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 6]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -352,8 +288,6 @@ number.16.Skips = {
     \time 3/4
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -363,7 +297,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'30'']"
@@ -382,15 +315,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 7]
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -400,7 +329,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'32'']"
@@ -419,13 +347,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 8]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -435,8 +359,6 @@ number.16.Skips = {
     \time 4/4
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -446,7 +368,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'33'']"
@@ -465,15 +386,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 9]
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -483,7 +400,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'35'']"
@@ -502,13 +418,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 10]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -518,8 +430,6 @@ number.16.Skips = {
     \time 2/4
       %! baca._make_global_skips(1)
     s1 * 2/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -529,7 +439,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'37'']"
@@ -548,13 +457,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 11]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -564,8 +469,6 @@ number.16.Skips = {
     \time 3/4
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -575,7 +478,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'38'']"
@@ -594,15 +496,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 12]
       %! baca._make_global_skips(1)
     s1 * 3/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -612,7 +510,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'40'']"
@@ -631,13 +528,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 13]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -647,8 +540,6 @@ number.16.Skips = {
     \time 4/4
       %! baca._make_global_skips(1)
     s1 * 4/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -658,7 +549,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-left-only "[3'42'']"
@@ -677,13 +567,9 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Skips measure 14]
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_TIME_SIGNATURE_COLOR
       %! baca._attach_color_literal(2)
     \baca-time-signature-color #'blue
@@ -693,8 +579,6 @@ number.16.Skips = {
     \time 2/4
       %! baca._make_global_skips(1)
     s1 * 2/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% \bacaStopTextSpanCT
@@ -704,7 +588,6 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStopTextSpanMN
-    % SPANNER_STARTS:
       %! CLOCK_TIME
       %! baca._label_clock_time()
     %@% - \baca-start-ct-both "[3'44'']" "[3'45'']"
@@ -723,15 +606,11 @@ number.16.Skips = {
       %! MEASURE_NUMBER
       %! baca._label_measure_numbers()
     %@% \bacaStartTextSpanMN
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! ANCHOR_SKIP
       %! baca._comment_measure_numbers()
       %! baca.style_anchor_skip(1)
     % [anchor skip]
-    % OPENING:
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(2)
     \baca-time-signature-transparent
@@ -743,8 +622,6 @@ number.16.Skips = {
       %! ANCHOR_SKIP
       %! baca._make_global_skips(3)
     s1 * 1/4
-    % AFTER:
-    % SPANNER_STOPS:
       %! ANCHOR_SKIP
       %! CLOCK_TIME
       %! baca._label_clock_time()
@@ -765,17 +642,13 @@ number.16.Skips = {
       %! baca._label_measure_numbers()
       %! baca.style_anchor_skip(1)
     %@% \bacaStopTextSpanMN
-    % COMMANDS:
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.BarLine.transparent = ##t
       %! ANCHOR_SKIP
       %! baca.style_anchor_skip(3)
     \once \override Score.SpanBar.transparent = ##t
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.make_global_context()
   %! baca.path.extern()
 }
@@ -783,13 +656,9 @@ number.16.Skips = {
 
   %! baca.path.extern()
 number.16.Oboe.Music.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! MEASURE_95
       %! SHIFTED_CLEF
       %! baca.clef_x_extent_false(1)
@@ -806,8 +675,6 @@ number.16.Oboe.Music.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -830,8 +697,6 @@ number.16.Oboe.Music.container = {
     \set Staff.forceClef = ##t
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -846,11 +711,9 @@ number.16.Oboe.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Oboe”)"
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -875,8 +738,6 @@ number.16.Oboe.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -890,30 +751,22 @@ number.16.Oboe.Music.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 2]
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 3]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -928,7 +781,6 @@ number.16.Oboe.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \f
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -961,41 +813,29 @@ number.16.Oboe.Music.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 4]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 5]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 6]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1010,126 +850,84 @@ number.16.Oboe.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 7]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 8]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 9]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 10]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Oboe.Music measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Oboe.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Oboe.Music.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1137,19 +935,13 @@ number.16.Oboe.Music = {
 
   %! baca.path.extern()
 number.16.Oboe.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Oboe.Music"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Oboe.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1157,13 +949,9 @@ number.16.Oboe.Staff = {
 
   %! baca.path.extern()
 number.16.EnglishHorn.Music.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! MEASURE_95
       %! SHIFTED_CLEF
       %! baca.clef_x_extent_false(1)
@@ -1180,8 +968,6 @@ number.16.EnglishHorn.Music.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -1204,8 +990,6 @@ number.16.EnglishHorn.Music.container = {
     \set Staff.forceClef = ##t
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1220,11 +1004,9 @@ number.16.EnglishHorn.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“EnglishHorn”)"
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1249,8 +1031,6 @@ number.16.EnglishHorn.Music.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -1264,30 +1044,22 @@ number.16.EnglishHorn.Music.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 2]
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 3]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1302,7 +1074,6 @@ number.16.EnglishHorn.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \f
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1335,41 +1106,29 @@ number.16.EnglishHorn.Music.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 4]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 5]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 6]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1384,126 +1143,84 @@ number.16.EnglishHorn.Music.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 7]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 8]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 9]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 10]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [EnglishHorn.Music measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.EnglishHorn.Music = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.EnglishHorn.Music.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1511,19 +1228,13 @@ number.16.EnglishHorn.Music = {
 
   %! baca.path.extern()
 number.16.EnglishHorn.Staff = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "EnglishHorn.Music"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.EnglishHorn.Music }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1531,13 +1242,9 @@ number.16.EnglishHorn.Staff = {
 
   %! baca.path.extern()
 number.16.Bassoons.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! MEASURE_95
       %! SHIFTED_CLEF
       %! baca.clef_x_extent_false(1)
@@ -1554,8 +1261,6 @@ number.16.Bassoons.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bsn."
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -1581,8 +1286,6 @@ number.16.Bassoons.Voice.1.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % ARTICULATIONS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1600,11 +1303,9 @@ number.16.Bassoons.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
 %%% \!
-    % MARKUP:
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Bassoon”)"
-    % SPANNER_STARTS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1633,8 +1334,6 @@ number.16.Bassoons.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -1648,30 +1347,22 @@ number.16.Bassoons.Voice.1.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Bsn."
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 2]
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 3]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % ARTICULATIONS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1689,7 +1380,6 @@ number.16.Bassoons.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
 %%% \f
-    % SPANNER_STARTS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1727,41 +1417,29 @@ number.16.Bassoons.Voice.1.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 6]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % ARTICULATIONS:
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
@@ -1779,126 +1457,84 @@ number.16.Bassoons.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
 %%% \!
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 7]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 8]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 9]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 10]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.1 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Bassoons.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Bassoons.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -1906,20 +1542,14 @@ number.16.Bassoons.Voice.1 = {
 
   %! baca.path.extern()
 number.16.Bassoons.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 1]
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1934,7 +1564,6 @@ number.16.Bassoons.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1959,30 +1588,22 @@ number.16.Bassoons.Voice.2.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 2]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 3]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -1997,7 +1618,6 @@ number.16.Bassoons.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \f
-    % SPANNER_STARTS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -2030,41 +1650,29 @@ number.16.Bassoons.Voice.2.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 6]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -2079,126 +1687,84 @@ number.16.Bassoons.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \!
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 7]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 8]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 9]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 10]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Bassoons.Voice.2 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Bassoons.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Bassoons.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2206,28 +1772,19 @@ number.16.Bassoons.Voice.2 = {
 
   %! baca.path.extern()
 number.16.Bassoons.Staff = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Bassoons.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Bassoons.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Bassoons.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Bassoons.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -2235,13 +1792,9 @@ number.16.Bassoons.Staff = <<
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -2265,8 +1818,6 @@ number.16.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -2290,11 +1841,8 @@ number.16.FirstViolins.Voice.1.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     a''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2309,7 +1857,6 @@ number.16.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -2322,13 +1869,10 @@ number.16.FirstViolins.Voice.1.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2342,39 +1886,28 @@ number.16.FirstViolins.Voice.1.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 2]
       %! baca.make_repeat_tied_notes()
     a''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 3]
       %! baca.make_repeat_tied_notes()
     a''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2391,7 +1924,6 @@ number.16.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -2436,102 +1968,73 @@ number.16.FirstViolins.Voice.1.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     a''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     a''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     a''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 7]
       %! baca.make_repeat_tied_notes()
     a''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 8]
       %! baca.make_repeat_tied_notes()
     a''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2548,57 +2051,42 @@ number.16.FirstViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     a''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     a''2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -2614,74 +2102,49 @@ number.16.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.1 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -2689,28 +2152,19 @@ number.16.FirstViolins.Voice.1 = {
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 8
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     f''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2725,48 +2179,35 @@ number.16.FirstViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 2]
       %! baca.make_repeat_tied_notes()
     f''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 3]
       %! baca.make_repeat_tied_notes()
     f''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2783,7 +2224,6 @@ number.16.FirstViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -2828,102 +2268,73 @@ number.16.FirstViolins.Voice.2.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     f''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     f''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     f''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 7]
       %! baca.make_repeat_tied_notes()
     f''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 8]
       %! baca.make_repeat_tied_notes()
     f''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2940,128 +2351,88 @@ number.16.FirstViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     f''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     f''2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.2 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3069,28 +2440,19 @@ number.16.FirstViolins.Voice.2 = {
 
   %! baca.path.extern()
 number.16.FirstViolins.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -3098,13 +2460,9 @@ number.16.FirstViolins.Staff.1 = <<
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -3128,8 +2486,6 @@ number.16.FirstViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -3153,11 +2509,8 @@ number.16.FirstViolins.Voice.3.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     g''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3172,7 +2525,6 @@ number.16.FirstViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -3182,13 +2534,10 @@ number.16.FirstViolins.Voice.3.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3202,39 +2551,28 @@ number.16.FirstViolins.Voice.3.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 2]
       %! baca.make_repeat_tied_notes()
     g''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 3]
       %! baca.make_repeat_tied_notes()
     g''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3251,7 +2589,6 @@ number.16.FirstViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -3296,102 +2633,73 @@ number.16.FirstViolins.Voice.3.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     g''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     g''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     g''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 7]
       %! baca.make_repeat_tied_notes()
     g''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 8]
       %! baca.make_repeat_tied_notes()
     g''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3408,57 +2716,42 @@ number.16.FirstViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     g''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     g''2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -3474,74 +2767,49 @@ number.16.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.3 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3549,28 +2817,19 @@ number.16.FirstViolins.Voice.3 = {
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 8
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     d''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3585,48 +2844,35 @@ number.16.FirstViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 2]
       %! baca.make_repeat_tied_notes()
     d''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 3]
       %! baca.make_repeat_tied_notes()
     d''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3643,7 +2889,6 @@ number.16.FirstViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -3688,102 +2933,73 @@ number.16.FirstViolins.Voice.4.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     d''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     d''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     d''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 7]
       %! baca.make_repeat_tied_notes()
     d''2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 8]
       %! baca.make_repeat_tied_notes()
     d''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -3800,128 +3016,88 @@ number.16.FirstViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     d''1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     d''2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.4 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -3929,28 +3105,19 @@ number.16.FirstViolins.Voice.4 = {
 
   %! baca.path.extern()
 number.16.FirstViolins.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -3958,13 +3125,9 @@ number.16.FirstViolins.Staff.2 = <<
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.5.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! MEASURE_95
       %! SHIFTED_CLEF
       %! baca.clef_x_extent_false(1)
@@ -3981,8 +3144,6 @@ number.16.FirstViolins.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
-    % OPENING:
-    % COMMANDS:
       %! EXPLICIT_CLEF
       %! baca._attach_persistent_indicator()
       %! baca._set_status_tag()
@@ -4005,11 +3166,8 @@ number.16.FirstViolins.Voice.5.container = {
     \set Staff.forceClef = ##t
       %! baca.make_repeat_tied_notes()
     cs'!2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! EXPLICIT_DYNAMIC_COLOR
       %! baca.treat_persistent_wrapper()
       %! EXPLICIT_DYNAMIC
@@ -4022,19 +3180,15 @@ number.16.FirstViolins.Voice.5.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \f
-    % MARKUP:
       %! baca.markup()
     ^ \animales-appear-as-if-by-magic-markup
       %! EXPLICIT_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-explicit-instrument-markup "(“Violin”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! EXPLICIT_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
@@ -4048,256 +3202,182 @@ number.16.FirstViolins.Voice.5.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "18" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 2]
       %! baca.make_repeat_tied_notes()
     cs'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 3]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 4]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 5]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 6]
       %! baca.make_repeat_tied_notes()
     cs'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 7]
       %! baca.make_repeat_tied_notes()
     cs'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 8]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 9]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 10]
       %! baca.make_repeat_tied_notes()
     cs'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 11]
       %! baca.make_repeat_tied_notes()
     cs'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 12]
       %! baca.make_repeat_tied_notes()
     cs'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 13]
       %! baca.make_repeat_tied_notes()
     cs'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [FirstViolins.Voice.5 measure 14]
       %! baca.make_repeat_tied_notes()
     cs'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.FirstViolins.Voice.5 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.5.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4305,19 +3385,13 @@ number.16.FirstViolins.Voice.5 = {
 
   %! baca.path.extern()
 number.16.FirstViolins.Staff.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "FirstViolins.Voice.5"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.FirstViolins.Voice.5 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4325,13 +3399,9 @@ number.16.FirstViolins.Staff.3 = {
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -4355,8 +3425,6 @@ number.16.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -4380,11 +3448,8 @@ number.16.SecondViolins.Voice.1.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     b'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4399,7 +3464,6 @@ number.16.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -4409,13 +3473,10 @@ number.16.SecondViolins.Voice.1.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4429,39 +3490,28 @@ number.16.SecondViolins.Voice.1.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 2]
       %! baca.make_repeat_tied_notes()
     b'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 3]
       %! baca.make_repeat_tied_notes()
     b'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4478,7 +3528,6 @@ number.16.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -4525,21 +3574,15 @@ number.16.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     b'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -4548,21 +3591,15 @@ number.16.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     b'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -4571,60 +3608,43 @@ number.16.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     b'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 7]
       %! baca.make_repeat_tied_notes()
     b'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 8]
       %! baca.make_repeat_tied_notes()
     b'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4641,12 +3661,10 @@ number.16.SecondViolins.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -4655,21 +3673,15 @@ number.16.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     b'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -4678,24 +3690,17 @@ number.16.SecondViolins.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     b'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -4711,74 +3716,49 @@ number.16.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.1 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -4786,28 +3766,19 @@ number.16.SecondViolins.Voice.1 = {
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 5
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     g'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4822,48 +3793,35 @@ number.16.SecondViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 2]
       %! baca.make_repeat_tied_notes()
     g'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 3]
       %! baca.make_repeat_tied_notes()
     g'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -4880,7 +3838,6 @@ number.16.SecondViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -4925,102 +3882,73 @@ number.16.SecondViolins.Voice.2.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     g'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     g'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     g'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 7]
       %! baca.make_repeat_tied_notes()
     g'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 8]
       %! baca.make_repeat_tied_notes()
     g'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5037,128 +3965,88 @@ number.16.SecondViolins.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     g'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     g'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.2 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5166,28 +4054,19 @@ number.16.SecondViolins.Voice.2 = {
 
   %! baca.path.extern()
 number.16.SecondViolins.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -5195,13 +4074,9 @@ number.16.SecondViolins.Staff.1 = <<
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -5225,8 +4100,6 @@ number.16.SecondViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -5250,11 +4123,8 @@ number.16.SecondViolins.Voice.3.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5269,7 +4139,6 @@ number.16.SecondViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -5279,13 +4148,10 @@ number.16.SecondViolins.Voice.3.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5299,39 +4165,28 @@ number.16.SecondViolins.Voice.3.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 2]
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 3]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5348,7 +4203,6 @@ number.16.SecondViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -5393,102 +4247,73 @@ number.16.SecondViolins.Voice.3.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 7]
       %! baca.make_repeat_tied_notes()
     a'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 8]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5505,57 +4330,42 @@ number.16.SecondViolins.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     a'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     a'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -5571,74 +4381,49 @@ number.16.SecondViolins.Voice.3.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.3 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -5646,28 +4431,19 @@ number.16.SecondViolins.Voice.3 = {
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 5
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     f'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5682,48 +4458,35 @@ number.16.SecondViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 2]
       %! baca.make_repeat_tied_notes()
     f'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 3]
       %! baca.make_repeat_tied_notes()
     f'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5740,7 +4503,6 @@ number.16.SecondViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -5785,102 +4547,73 @@ number.16.SecondViolins.Voice.4.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     f'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     f'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     f'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 7]
       %! baca.make_repeat_tied_notes()
     f'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 8]
       %! baca.make_repeat_tied_notes()
     f'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -5897,128 +4630,88 @@ number.16.SecondViolins.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     f'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     f'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [SecondViolins.Voice.4 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.SecondViolins.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6026,28 +4719,19 @@ number.16.SecondViolins.Voice.4 = {
 
   %! baca.path.extern()
 number.16.SecondViolins.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "SecondViolins.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.SecondViolins.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -6055,13 +4739,9 @@ number.16.SecondViolins.Staff.2 = <<
 
   %! baca.path.extern()
 number.16.Violas.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -6085,8 +4765,6 @@ number.16.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -6110,11 +4788,8 @@ number.16.Violas.Voice.1.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6129,7 +4804,6 @@ number.16.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -6139,13 +4813,10 @@ number.16.Violas.Voice.1.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6159,39 +4830,28 @@ number.16.Violas.Voice.1.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 2]
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 3]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6208,7 +4868,6 @@ number.16.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -6253,102 +4912,73 @@ number.16.Violas.Voice.1.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 7]
       %! baca.make_repeat_tied_notes()
     d'2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 8]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6365,57 +4995,42 @@ number.16.Violas.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     d'1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     d'2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -6431,74 +5046,49 @@ number.16.Violas.Voice.1.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.1 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Violas.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Violas.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6506,28 +5096,19 @@ number.16.Violas.Voice.1 = {
 
   %! baca.path.extern()
 number.16.Violas.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 5
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     a2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6542,48 +5123,35 @@ number.16.Violas.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 2]
       %! baca.make_repeat_tied_notes()
     a2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 3]
       %! baca.make_repeat_tied_notes()
     a1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6600,7 +5168,6 @@ number.16.Violas.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -6645,102 +5212,73 @@ number.16.Violas.Voice.2.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     a1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     a1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     a2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 7]
       %! baca.make_repeat_tied_notes()
     a2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 8]
       %! baca.make_repeat_tied_notes()
     a1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6757,128 +5295,88 @@ number.16.Violas.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     a1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     a2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.2 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Violas.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Violas.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -6886,28 +5384,19 @@ number.16.Violas.Voice.2 = {
 
   %! baca.path.extern()
 number.16.Violas.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Violas.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Violas.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -6915,13 +5404,9 @@ number.16.Violas.Staff.1 = <<
 
   %! baca.path.extern()
 number.16.Violas.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -6945,8 +5430,6 @@ number.16.Violas.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -6970,11 +5453,8 @@ number.16.Violas.Voice.3.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -6989,7 +5469,6 @@ number.16.Violas.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -6999,13 +5478,10 @@ number.16.Violas.Voice.3.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7019,39 +5495,28 @@ number.16.Violas.Voice.3.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 2]
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 3]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7068,7 +5533,6 @@ number.16.Violas.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -7113,102 +5577,73 @@ number.16.Violas.Voice.3.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 7]
       %! baca.make_repeat_tied_notes()
     b2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 8]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7225,57 +5660,42 @@ number.16.Violas.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     b1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     b2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -7291,74 +5711,49 @@ number.16.Violas.Voice.3.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.3 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Violas.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Violas.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7366,28 +5761,19 @@ number.16.Violas.Voice.3 = {
 
   %! baca.path.extern()
 number.16.Violas.Voice.4.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 5
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     g2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7402,48 +5788,35 @@ number.16.Violas.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 2]
       %! baca.make_repeat_tied_notes()
     g2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 3]
       %! baca.make_repeat_tied_notes()
     g1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7460,7 +5833,6 @@ number.16.Violas.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -7505,102 +5877,73 @@ number.16.Violas.Voice.4.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 4]
       %! baca.make_repeat_tied_notes()
     g1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 5]
       %! baca.make_repeat_tied_notes()
     g1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 6]
       %! baca.make_repeat_tied_notes()
     g2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 7]
       %! baca.make_repeat_tied_notes()
     g2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 8]
       %! baca.make_repeat_tied_notes()
     g1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7617,128 +5960,88 @@ number.16.Violas.Voice.4.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 9]
       %! baca.make_repeat_tied_notes()
     g1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 10]
       %! baca.make_repeat_tied_notes()
     g2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Violas.Voice.4 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Violas.Voice.4 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Violas.Voice.4.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -7746,28 +6049,19 @@ number.16.Violas.Voice.4 = {
 
   %! baca.path.extern()
 number.16.Violas.Staff.2 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Violas.Voice.3 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Violas.Voice.4"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Violas.Voice.4 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -7775,13 +6069,9 @@ number.16.Violas.Staff.2 = <<
 
   %! baca.path.extern()
 number.16.Cellos.Voice.1.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(1)
     \override DynamicText.stencil = ##f
@@ -7805,8 +6095,6 @@ number.16.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" }
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -7830,11 +6118,8 @@ number.16.Cellos.Voice.1.container = {
     \voiceOne
       %! baca.make_repeat_tied_notes()
     d2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7849,7 +6134,6 @@ number.16.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
@@ -7859,13 +6143,10 @@ number.16.Cellos.Voice.1.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7879,39 +6160,28 @@ number.16.Cellos.Voice.1.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 2]
       %! baca.make_repeat_tied_notes()
     d2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 3]
       %! baca.make_repeat_tied_notes()
     d1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -7928,7 +6198,6 @@ number.16.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -7975,21 +6244,15 @@ number.16.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 4]
       %! baca.make_repeat_tied_notes()
     d1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -7998,21 +6261,15 @@ number.16.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 5]
       %! baca.make_repeat_tied_notes()
     d1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -8021,60 +6278,43 @@ number.16.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 6]
       %! baca.make_repeat_tied_notes()
     d2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 7]
       %! baca.make_repeat_tied_notes()
     d2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 8]
       %! baca.make_repeat_tied_notes()
     d1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8091,12 +6331,10 @@ number.16.Cellos.Voice.1.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -8105,21 +6343,15 @@ number.16.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 9]
       %! baca.make_repeat_tied_notes()
     d1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     - \tweak direction #up
       %! baca.make_repeat_tied_notes()
@@ -8128,24 +6360,17 @@ number.16.Cellos.Voice.1.container = {
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 10]
       %! baca.make_repeat_tied_notes()
     d2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.dynamic_text_stencil_false(2)
     \revert DynamicText.stencil
@@ -8161,74 +6386,49 @@ number.16.Cellos.Voice.1.container = {
       %! -PARTS
       %! baca.text_spanner_stencil_false(2)
     \revert TextSpanner.stencil
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.1 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Cellos.Voice.1 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Cellos.Voice.1.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8236,28 +6436,19 @@ number.16.Cellos.Voice.1 = {
 
   %! baca.path.extern()
 number.16.Cellos.Voice.2.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(1)
     \override TextSpanner.staff-padding = 5
-    % OPENING:
-    % COMMANDS:
       %! -PARTS
       %! baca.voice_two()
     \voiceTwo
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8272,48 +6463,35 @@ number.16.Cellos.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! +PARTS
       %! baca.markup()
 %%% ^ \animales-ext-ponticello-like-acid-markup
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 2]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 3]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8330,7 +6508,6 @@ number.16.Cellos.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -8375,102 +6552,73 @@ number.16.Cellos.Voice.2.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 4]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 5]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 6]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 7]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 8]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8487,128 +6635,88 @@ number.16.Cellos.Voice.2.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 9]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 10]
       %! baca.make_repeat_tied_notes()
     g,2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % COMMANDS:
       %! -PARTS
       %! baca.text_spanner_staff_padding(2)
     \revert TextSpanner.staff-padding
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Cellos.Voice.2 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Cellos.Voice.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Cellos.Voice.2.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -8616,28 +6724,19 @@ number.16.Cellos.Voice.2 = {
 
   %! baca.path.extern()
 number.16.Cellos.Staff.1 = <<
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.1"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Cellos.Voice.1 }
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Cellos.Voice.2"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Cellos.Voice.2 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 >>
@@ -8645,13 +6744,9 @@ number.16.Cellos.Staff.1 = <<
 
   %! baca.path.extern()
 number.16.Contrabasses.Voice.3.container = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 1]
-    % BEFORE:
-    % COMMANDS:
       %! baca._clone_section_initial_short_instrument_name()
     \set Staff.instrumentName = \markup \hcenter-in #16 "Cb."
       %! -PARTS
@@ -8660,8 +6755,6 @@ number.16.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.short_instrument_name()
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
-    % OPENING:
-    % COMMANDS:
       %! REAPPLIED_CLEF
       %! baca._reapply_persistent_indicators(3)
       %! baca._set_status_tag()
@@ -8682,11 +6775,8 @@ number.16.Contrabasses.Voice.3.container = {
     \set Staff.forceClef = ##t
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8701,7 +6791,6 @@ number.16.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.dynamic()
     \baca-ff-ancora
-    % MARKUP:
       %! -PARTS
       %! baca.markup()
     ^ \animales-cb-tutti-markup
@@ -8711,13 +6800,10 @@ number.16.Contrabasses.Voice.3.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
       %! baca._attach_latent_indicator_alert()
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
-    % ABSOLUTE_AFTER:
-    % COMMANDS:
       %! REAPPLIED_CLEF_REDRAW_COLOR
       %! baca._attach_color_literal(2)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -8731,39 +6817,28 @@ number.16.Contrabasses.Voice.3.container = {
       %! baca.short_instrument_name()
       %! baca.treat_persistent_wrapper(3)
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 2]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 3]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8780,7 +6855,6 @@ number.16.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \ff
-    % SPANNER_STARTS:
       %! SPANNER_START
       %! baca.PiecewiseCommand._call(2)
       %! baca.text_spanner()
@@ -8825,102 +6899,73 @@ number.16.Contrabasses.Voice.3.container = {
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 4]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 5]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 6]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 7]
       %! baca.make_repeat_tied_notes()
     g,2.
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 8]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
@@ -8937,124 +6982,85 @@ number.16.Contrabasses.Voice.3.container = {
       %! baca._set_status_tag()
       %! baca.hairpin()
     \pp
-    % SPANNER_STOPS:
       %! SPANNER_STOP
       %! baca.PiecewiseCommand._call(3)
       %! baca.text_spanner()
     \stopTextSpan
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 9]
       %! baca.make_repeat_tied_notes()
     g,1
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca._attach_shadow_tie_indicators()
     - \tweak stencil ##f
       %! baca._attach_shadow_tie_indicators()
     ~
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 10]
       %! baca.make_repeat_tied_notes()
     g,2
-    % AFTER:
-    % STEM_TREMOLOS:
       %! baca.stem_tremolo()
     :32
-    % ARTICULATIONS:
       %! baca.accent()
     - \accent
-    % SPANNER_STARTS:
       %! baca.make_repeat_tied_notes()
     \repeatTie
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 11]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 12]
       %! baca.make_mmrests(1)
     R1 * 3/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 13]
       %! baca.make_mmrests(1)
     R1 * 4/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
       %! baca._comment_measure_numbers()
     % [Contrabasses.Voice.3 measure 14]
       %! baca.make_mmrests(1)
     R1 * 2/4
-    % AFTER:
-    % MARKUP:
       %! DURATION_MULTIPLIER
       %! baca._label_duration_multipliers()
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! baca.path.extern()
 }
 
 
   %! baca.path.extern()
 number.16.Contrabasses.Voice.3 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! baca.path.extern()
     { \number.16.Contrabasses.Voice.3.container }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
@@ -9062,19 +7068,13 @@ number.16.Contrabasses.Voice.3 = {
 
   %! baca.path.extern()
 number.16.Contrabasses.Staff.2 = {
-    % ABSOLUTE_BEFORE:
-    % COMMANDS:
 
-    % OPEN_BRACKETS:
       %! animales._make_staves()
     \context Voice = "Contrabasses.Voice.3"
       %! animales._make_staves()
       %! baca.path.extern()
     { \number.16.Contrabasses.Voice.3 }
-    % CLOSING:
-    % COMMANDS:
 
-% CLOSE_BRACKETS:
   %! animales._make_staves()
   %! baca.path.extern()
 }
