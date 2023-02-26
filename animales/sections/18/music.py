@@ -49,8 +49,8 @@ def make_empty_score(previous_final_measure_number):
         ],
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -74,7 +74,7 @@ def RESTS(score):
         baca.global_fermata(rests[index], string)
 
 
-def BRASS(score, signatures):
+def BRASS(score, time_signatures):
     for abbreviation in (
         "hn1",
         "hn2",
@@ -90,42 +90,42 @@ def BRASS(score, signatures):
         "tbn4",
     ):
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = library.make_downbeat_attack(signatures(1))
+        music = library.make_downbeat_attack(time_signatures(1))
         voice.extend(music)
-        music = baca.make_mmrests(signatures(2, 12))
+        music = baca.make_mmrests(time_signatures(2, 12))
         voice.extend(music)
 
 
-def STRINGS(score, signatures, string_parts):
+def STRINGS(score, time_signatures, string_parts):
     voice = score[library.voice_abbreviations["1vn5"]]
-    music = baca.make_repeat_tied_notes(signatures(1, 2))
+    music = baca.make_repeat_tied_notes(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(3))
+    music = baca.make_mmrests(time_signatures(3))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(4, 7))
+    music = baca.make_repeat_tied_notes(time_signatures(4, 7))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(8))
+    music = baca.make_mmrests(time_signatures(8))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(9, 12))
+    music = baca.make_repeat_tied_notes(time_signatures(9, 12))
     voice.extend(music)
     for abbreviation, items in string_parts.items():
         assert isinstance(items, list), repr(items)
         voice_name = library.voice_abbreviations[abbreviation]
         if voice_name != "FirstViolins.Voice.5":
             voice = score[voice_name]
-            music = baca.make_mmrests(signatures(1, 3))
+            music = baca.make_mmrests(time_signatures(1, 3))
             voice.extend(music)
-            music = baca.make_repeat_tied_notes(signatures(4, 6))
+            music = baca.make_repeat_tied_notes(time_signatures(4, 6))
             voice.extend(music)
-            music = baca.make_mmrests(signatures(7, 8))
+            music = baca.make_mmrests(time_signatures(7, 8))
             voice.extend(music)
-            music = baca.make_repeat_tied_notes(signatures(9, 11))
+            music = baca.make_repeat_tied_notes(time_signatures(9, 11))
             voice.extend(music)
-            music = baca.make_mmrests(signatures(12))
+            music = baca.make_mmrests(time_signatures(12))
             voice.extend(music)
 
 
-def strings(cache, signatures, string_parts):
+def strings(cache, time_signatures, string_parts):
     def upper_voice(o):
         wrappers = baca.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
@@ -280,7 +280,7 @@ def brass(
             )
 
 
-def solo_violin(m, signatures):
+def solo_violin(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.repeat_tie(o.leaf(0))
         baca.stem_tremolo(o.pleaves())
@@ -292,10 +292,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -304,7 +304,7 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    BRASS(score, signatures)
+    BRASS(score, time_signatures)
     string_parts = {
         "1vn1": [(1, 4), True, "A5"],
         "1vn2": [(5, 8), False, "F5"],
@@ -323,7 +323,7 @@ def make_score(
         "vc2": [(9, 14), False, "G2"],
         "cb3": [(1, -1), None, "G1"],
     }
-    STRINGS(score, signatures, string_parts)
+    STRINGS(score, time_signatures, string_parts)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -331,7 +331,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=3)
@@ -342,8 +342,8 @@ def make_score(
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    strings(cache, signatures, string_parts)
-    solo_violin(cache["1vn5"], signatures)
+    strings(cache, time_signatures, string_parts)
+    solo_violin(cache["1vn5"], time_signatures)
     baca.section.sort_dictionary(voice_name_to_parameter_to_state)
     return score, voice_name_to_parameter_to_state
 

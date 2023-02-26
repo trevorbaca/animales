@@ -49,8 +49,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 6] + ((1, 4),)
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -72,48 +72,52 @@ def RESTS(score):
     baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
-def FL1(voice, signatures):
-    music = library.make_pennant_rhythm(signatures(1, 3), [0, 0, -1, -1, 0], [0, 1, 2])
+def FL1(voice, time_signatures):
+    music = library.make_pennant_rhythm(
+        time_signatures(1, 3), [0, 0, -1, -1, 0], [0, 1, 2]
+    )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
-    voice.extend(music)
-
-
-def FL3(voice, signatures):
-    music = library.make_pennant_rhythm(signatures(1, 3), [0, 0, 0, -1, -1], [0, 1])
-    voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
+    music = baca.make_mmrests(time_signatures(4, 7))
     voice.extend(music)
 
 
-def FL2(voice, signatures):
-    music = library.make_pennant_rhythm(signatures(1, 3), [0, -1, -1, 0], [0])
+def FL3(voice, time_signatures):
+    music = library.make_pennant_rhythm(
+        time_signatures(1, 3), [0, 0, 0, -1, -1], [0, 1]
+    )
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
-    voice.extend(music)
-
-
-def FL4(voice, signatures):
-    music = library.make_pennant_rhythm(signatures(1, 3), [0, 0, -1, -1])
-    voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
+    music = baca.make_mmrests(time_signatures(4, 7))
     voice.extend(music)
 
 
-def BCL(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1))
+def FL2(voice, time_signatures):
+    music = library.make_pennant_rhythm(time_signatures(1, 3), [0, -1, -1, 0], [0])
     voice.extend(music)
-    music = baca.make_mmrests(signatures(2))
+    music = baca.make_mmrests(time_signatures(4, 7))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 6))
+
+
+def FL4(voice, time_signatures):
+    music = library.make_pennant_rhythm(time_signatures(1, 3), [0, 0, -1, -1])
     voice.extend(music)
-    music = baca.make_mmrests(signatures(7))
+    music = baca.make_mmrests(time_signatures(4, 7))
+    voice.extend(music)
+
+
+def BCL(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1))
+    voice.extend(music)
+    music = baca.make_mmrests(time_signatures(2))
+    voice.extend(music)
+    music = baca.make_repeat_tied_notes(time_signatures(3, 6))
+    voice.extend(music)
+    music = baca.make_mmrests(time_signatures(7))
     voice.extend(music)
 
 
 def PF_HP_PERC3_CB1(
     score,
-    signatures,
+    time_signatures,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None
@@ -129,7 +133,7 @@ def PF_HP_PERC3_CB1(
         )
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
-            signatures(1, 6),
+            time_signatures(1, 6),
             part,
             voice_name,
             previous_state=previous_state,
@@ -138,45 +142,45 @@ def PF_HP_PERC3_CB1(
         baca.section.update_voice_name_to_parameter_to_state(
             voice_name_to_parameter_to_state, voice_name, parameter, name, state
         )
-        music = baca.make_mmrests(signatures(7))
+        music = baca.make_mmrests(time_signatures(7))
         voice.extend(music)
 
 
-def PERCUSSION(score, signatures):
+def PERCUSSION(score, time_signatures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_repeat_tied_notes(signatures(1, 3))
+    music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
+    music = baca.make_mmrests(time_signatures(4, 7))
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(signatures(1, 3))
+    music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7))
+    music = baca.make_mmrests(time_signatures(4, 7))
     voice.extend(music)
 
 
-def STRINGS(score, signatures):
+def STRINGS(score, time_signatures):
     voice = score[library.voice_abbreviations["1vn2"]]
-    music = library.make_glissando_rhythm(signatures(1, 3), rotate=-2)
+    music = library.make_glissando_rhythm(time_signatures(1, 3), rotate=-2)
     voice.extend(music)
     for voice_name in ["1vn1", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[voice_name]]
-        music = baca.make_repeat_tied_notes(signatures(1, 3))
+        music = baca.make_repeat_tied_notes(time_signatures(1, 3))
         voice.extend(music)
     for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[name]]
-        music = baca.make_mmrests(signatures(4, 7), head=voice.name)
+        music = baca.make_mmrests(time_signatures(4, 7), head=voice.name)
         voice.extend(music)
 
 
-def CB3(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1, 3))
+def CB3(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 7), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 7), head=voice.name)
     voice.extend(music)
 
 
-def flutes(cache, signatures):
+def flutes(cache, time_signatures):
     with baca.scope(cache["fl1"][1, 3]) as o:
         library.pennant_pitches("G5", [6], function=o)
     with baca.scope(cache["fl3"][1, 3]) as o:
@@ -217,7 +221,7 @@ def flutes(cache, signatures):
         library.assign_part(o, "Flute", 4)
 
 
-def bcl(m, signatures):
+def bcl(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.repeat_tie(o.pleaf(0))
         baca.pitch(o, "Ab2")
@@ -226,7 +230,7 @@ def bcl(m, signatures):
         library.assign_part(o, "BassClarinet")
 
 
-def pf(m, signatures):
+def pf(m, time_signatures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4")
         baca.stopped(o.pheads())
@@ -235,7 +239,7 @@ def pf(m, signatures):
         library.assign_part(o, "Piano")
 
 
-def hp(m, signatures):
+def hp(m, time_signatures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4")
         baca.stopped(o.pheads())
@@ -244,7 +248,7 @@ def hp(m, signatures):
         library.assign_part(o, "Harp")
 
 
-def percussion(cache, signatures):
+def percussion(cache, time_signatures):
     with baca.scope(cache["perc1"].get(1, 3)) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -264,7 +268,7 @@ def percussion(cache, signatures):
         library.assign_part(o, "Percussion", 3)
 
 
-def strings(cache, signatures):
+def strings(cache, time_signatures):
     with baca.scope(cache["1vn2"].get(1, 3)) as o:
         baca.untie(o.leaves())
         library.glissando_positions(o, transpose=-3)
@@ -332,7 +336,7 @@ def strings(cache, signatures):
         library.assign_part(o, "Contrabass", (2, 6))
 
 
-def cb1(m, signatures):
+def cb1(m, time_signatures):
     with baca.scope(m.get(1, 6)) as o:
         baca.pitch(o, "Bb4", do_not_transpose=True)
         baca.laissez_vibrer(o.ptails())
@@ -346,10 +350,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -358,21 +362,21 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    FL1(voices("fl1"), signatures)
-    FL3(voices("fl3"), signatures)
-    FL2(voices("fl2"), signatures)
-    FL4(voices("fl4"), signatures)
-    BCL(voices("bcl"), signatures)
+    FL1(voices("fl1"), time_signatures)
+    FL3(voices("fl3"), time_signatures)
+    FL2(voices("fl2"), time_signatures)
+    FL4(voices("fl4"), time_signatures)
+    BCL(voices("bcl"), time_signatures)
     voice_name_to_parameter_to_state = {}
     PF_HP_PERC3_CB1(
         score,
-        signatures,
+        time_signatures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    PERCUSSION(score, signatures)
-    STRINGS(score, signatures)
-    CB3(voices("cb3"), signatures)
+    PERCUSSION(score, time_signatures)
+    STRINGS(score, time_signatures)
+    CB3(voices("cb3"), time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -380,17 +384,17 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=7)
-    flutes(cache, signatures)
-    bcl(cache["bcl"], signatures)
-    pf(cache["pf"], signatures)
-    hp(cache["hp"], signatures)
-    percussion(cache, signatures)
-    strings(cache, signatures)
-    cb1(cache["cb1"], signatures)
+    flutes(cache, time_signatures)
+    bcl(cache["bcl"], time_signatures)
+    pf(cache["pf"], time_signatures)
+    hp(cache["hp"], time_signatures)
+    percussion(cache, time_signatures)
+    strings(cache, time_signatures)
+    cb1(cache["cb1"], time_signatures)
     return score, voice_name_to_parameter_to_state
 
 

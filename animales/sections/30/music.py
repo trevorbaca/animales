@@ -21,8 +21,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 9] + ((1, 4),)
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -43,21 +43,21 @@ def RESTS(score):
         baca.global_fermata(rests[index], string)
 
 
-def PF(voice, signatures):
-    music = baca.make_notes(signatures(1, 9))
+def PF(voice, time_signatures):
+    music = baca.make_notes(time_signatures(1, 9))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(10))
-    voice.extend(music)
-
-
-def PERC4(voice, signatures):
-    music = baca.make_tied_repeated_durations(signatures(1, 8), [(1, 4)])
-    voice.extend(music)
-    music = baca.make_mmrests(signatures(9, 10))
+    music = baca.make_mmrests(time_signatures(10))
     voice.extend(music)
 
 
-def pf(m, signatures):
+def PERC4(voice, time_signatures):
+    music = baca.make_tied_repeated_durations(time_signatures(1, 8), [(1, 4)])
+    voice.extend(music)
+    music = baca.make_mmrests(time_signatures(9, 10))
+    voice.extend(music)
+
+
+def pf(m, time_signatures):
     with baca.scope(m.get(1, 9)) as o:
         baca.pitch(o, "C#4")
         baca.note_head_style_harmonic(o.pleaves())
@@ -72,7 +72,7 @@ def pf(m, signatures):
         library.assign_part(o, "Piano")
 
 
-def perc4(m, signatures):
+def perc4(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Percussion", 4)
     with baca.scope(m.get(1, 8)) as o:
@@ -89,7 +89,7 @@ def perc4(m, signatures):
         baca.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)
 
 
-def pf_perc4(cache, signatures):
+def pf_perc4(cache, time_signatures):
     for name in ("pf", "perc4"):
         with baca.scope(cache[name][1]) as o:
             wrappers = baca.literal(o.leaf(0), r"\magnifyStaff #10/7")
@@ -101,10 +101,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -113,8 +113,8 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    PF(voices("pf"), signatures)
-    PERC4(voices("perc4"), signatures)
+    PF(voices("pf"), time_signatures)
+    PERC4(voices("perc4"), time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -122,13 +122,13 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=10)
-    pf(cache["pf"], signatures)
-    perc4(cache["perc4"], signatures)
-    pf_perc4(cache, signatures)
+    pf(cache["pf"], time_signatures)
+    perc4(cache["perc4"], time_signatures)
+    pf_perc4(cache, time_signatures)
     return score
 
 

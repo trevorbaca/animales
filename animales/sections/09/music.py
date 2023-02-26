@@ -47,8 +47,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 6]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -62,21 +62,21 @@ def SKIPS(score):
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1, 3))
+def CL(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4, 6), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 6), head=voice.name)
     voice.extend(music)
 
 
-def BCL(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures())
+def BCL(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures())
     voice.extend(music)
 
 
 def PF_HP_PERC3_CB1(
     score,
-    signatures,
+    time_signatures,
     voice_name_to_parameter_to_state,
     previous_voice_name_to_parameter_to_state,
 ):
@@ -91,7 +91,7 @@ def PF_HP_PERC3_CB1(
         )
         voice = score[voice_name]
         music, state = library.make_harp_exchange_rhythm(
-            signatures(),
+            time_signatures(),
             part,
             voice_name,
             silence_first=True,
@@ -103,17 +103,17 @@ def PF_HP_PERC3_CB1(
         )
 
 
-def PERC2(voice, signatures):
-    music = baca.make_mmrests(signatures())
+def PERC2(voice, time_signatures):
+    music = baca.make_mmrests(time_signatures())
     voice.extend(music)
 
 
-def STRINGS(score, signatures):
+def STRINGS(score, time_signatures):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(signatures(1, 3))
+        music = baca.make_repeat_tied_notes(time_signatures(1, 3))
         voice.extend(music)
-        music = baca.make_mmrests(signatures(4, 6), head=voice.name)
+        music = baca.make_mmrests(time_signatures(4, 6), head=voice.name)
         voice.extend(music)
 
 
@@ -240,10 +240,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -251,17 +251,17 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    CL(voices("cl"), signatures)
-    BCL(voices("bcl"), signatures)
+    CL(voices("cl"), time_signatures)
+    BCL(voices("bcl"), time_signatures)
     voice_name_to_parameter_to_state = {}
     PF_HP_PERC3_CB1(
         score,
-        signatures,
+        time_signatures,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state,
     )
-    PERC2(voices("perc2"), signatures)
-    STRINGS(score, signatures)
+    PERC2(voices("perc2"), time_signatures)
+    STRINGS(score, time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -269,7 +269,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     cl(cache)

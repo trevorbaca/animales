@@ -43,8 +43,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 14]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -67,28 +67,28 @@ def swell(argument, peak):
     )
 
 
-def REEDS(score, signatures):
+def REEDS(score, time_signatures):
     for abbreviation in ["ob", "eh", "bsn1", "bsn2"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(signatures(1, 5))
+        music = baca.make_repeat_tied_notes(time_signatures(1, 5))
         voice.extend(music)
-        music = baca.make_mmrests(signatures(6, 14))
+        music = baca.make_mmrests(time_signatures(6, 14))
         voice.extend(music)
 
 
-def STRINGS(score, signatures, voice_abbreviation_to_members):
+def STRINGS(score, time_signatures, voice_abbreviation_to_members):
     voice = score[library.voice_abbreviations["1vn5"]]
-    music = baca.make_repeat_tied_notes(signatures())
+    music = baca.make_repeat_tied_notes(time_signatures())
     voice.extend(music)
     for abbreviation in voice_abbreviation_to_members:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(signatures(1, 10))
+        music = baca.make_repeat_tied_notes(time_signatures(1, 10))
         voice.extend(music)
-        music = baca.make_mmrests(signatures(11, 14))
+        music = baca.make_mmrests(time_signatures(11, 14))
         voice.extend(music)
 
 
-def ob(m, signatures):
+def ob(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.instrument(o.leaf(0), "Oboe", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Ob.", library.manifests)
@@ -100,7 +100,7 @@ def ob(m, signatures):
         swell(o, "f")
 
 
-def eh(m, signatures):
+def eh(m, time_signatures):
     with baca.scope(m.get(1, 5)) as o:
         baca.instrument(o.leaf(0), "EnglishHorn", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Eng. hn.", library.manifests)
@@ -112,7 +112,7 @@ def eh(m, signatures):
         library.assign_part(o, "EnglishHorn")
 
 
-def bsns(cache, signatures):
+def bsns(cache, time_signatures):
     with baca.scope(cache["bsn1"].leaves()) as o:
         baca.instrument(o.leaf(0), "Bassoon", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Bsn.", library.manifests)
@@ -135,7 +135,7 @@ def bsns(cache, signatures):
         swell(o, "f")
 
 
-def strings(cache, signatures, voice_abbreviation_to_members):
+def strings(cache, time_signatures, voice_abbreviation_to_members):
     def tremolo(o):
         baca.stem_tremolo(o.pleaves())
         baca.accent(o.pleaves())
@@ -302,10 +302,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -313,7 +313,7 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    REEDS(score, signatures)
+    REEDS(score, time_signatures)
     voice_abbreviation_to_members = {
         "1vn1": (1, 4),
         "1vn2": (5, 8),
@@ -331,7 +331,7 @@ def make_score(
         "vc2": (9, 14),
         "cb3": (1, 6),
     }
-    STRINGS(score, signatures, voice_abbreviation_to_members)
+    STRINGS(score, time_signatures, voice_abbreviation_to_members)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -339,13 +339,13 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
-    ob(cache["ob"], signatures)
-    eh(cache["eh"], signatures)
-    bsns(cache, signatures)
-    strings(cache, signatures, voice_abbreviation_to_members)
+    ob(cache["ob"], time_signatures)
+    eh(cache["eh"], time_signatures)
+    bsns(cache, time_signatures)
+    strings(cache, time_signatures, voice_abbreviation_to_members)
     return score
 
 

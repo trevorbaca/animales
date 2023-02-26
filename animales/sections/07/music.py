@@ -45,8 +45,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 8]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -65,15 +65,15 @@ def SKIPS(score):
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
-def CL(score, signatures):
+def CL(score, time_signatures):
     voice = score[library.voice_abbreviations["cl"]]
-    music = baca.make_repeat_tied_notes(signatures(1, 4))
+    music = baca.make_repeat_tied_notes(time_signatures(1, 4))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(5, 8))
+    music = baca.make_repeat_tied_notes(time_signatures(5, 8))
     voice.extend(music)
 
 
-def PF_HP_PERC3_CB1(score, signatures, voice_name_to_parameter_to_state):
+def PF_HP_PERC3_CB1(score, time_signatures, voice_name_to_parameter_to_state):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
         voice_name = library.voice_abbreviations[abbreviation]
@@ -83,7 +83,7 @@ def PF_HP_PERC3_CB1(score, signatures, voice_name_to_parameter_to_state):
         if abbreviation == "cb1":
             force_rest_tuplets = [1]
         music, state = library.make_harp_exchange_rhythm(
-            signatures(),
+            time_signatures(),
             part,
             voice_name,
             force_rest_tuplets=force_rest_tuplets,
@@ -95,22 +95,22 @@ def PF_HP_PERC3_CB1(score, signatures, voice_name_to_parameter_to_state):
         )
 
 
-def PERCUSSION(score, signatures):
+def PERCUSSION(score, time_signatures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_mmrests(signatures())
+    music = baca.make_mmrests(time_signatures())
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_repeat_tied_notes(signatures())
+    music = baca.make_repeat_tied_notes(time_signatures())
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
 
 
-def STRINGS(score, signatures):
+def STRINGS(score, time_signatures):
     for abbreviation in ["1vn1", "2vn1", "va1", "vc1", "cb3"]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(signatures())
-        music = baca.make_repeat_tied_notes(signatures())
+        music = baca.make_mmrests(time_signatures())
+        music = baca.make_repeat_tied_notes(time_signatures())
         voice.extend(music)
 
 
@@ -288,10 +288,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -299,11 +299,11 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    CL(score, signatures)
+    CL(score, time_signatures)
     voice_name_to_parameter_to_state = {}
-    PF_HP_PERC3_CB1(score, signatures, voice_name_to_parameter_to_state)
-    PERCUSSION(score, signatures)
-    STRINGS(score, signatures)
+    PF_HP_PERC3_CB1(score, time_signatures, voice_name_to_parameter_to_state)
+    PERCUSSION(score, time_signatures)
+    STRINGS(score, time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -311,7 +311,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     cl(cache)

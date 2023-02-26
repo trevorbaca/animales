@@ -86,8 +86,8 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 3]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -101,7 +101,7 @@ def SKIPS(score):
     )
 
 
-def BRASS(score, signatures):
+def BRASS(score, time_signatures):
     for abbreviation in [
         "hn1",
         "hn2",
@@ -123,7 +123,7 @@ def BRASS(score, signatures):
         "perc4",
     ]:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(signatures())
+        music = baca.make_mmrests(time_signatures())
         voice.extend(music)
 
 
@@ -149,10 +149,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -160,9 +160,9 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    BRASS(score, signatures)
+    BRASS(score, time_signatures)
     library.MAKE_BATTUTI(
-        score, signatures, [[1, -117, -117], [1, -118]], (1, 3), first=True
+        score, time_signatures, [[1, -117, -117], [1, -118]], (1, 3), first=True
     )
     baca.section.reapply(
         voices,
@@ -171,12 +171,12 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     library.make_battuti(
         cache,
-        signatures,
+        time_signatures,
         [[1, -117, -117], [1, -118]],
         (1, 3),
         first=True,
