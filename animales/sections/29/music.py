@@ -60,8 +60,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 3] + ((1, 4),)
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -81,16 +81,16 @@ def RESTS(score):
         baca.global_fermata(rests[index], string)
 
 
-def PERC1(voice, signatures):
-    music = baca.make_repeat_tied_notes(signatures(1, 3))
+def PERC1(voice, time_signatures):
+    music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
     voice.extend(music)
-    music = baca.make_mmrests(signatures(4))
+    music = baca.make_mmrests(time_signatures(4))
     voice.extend(music)
 
 
-def percussion(cache, signatures):
+def percussion(cache, time_signatures):
     with baca.scope(cache["perc1"].get(1, 3)) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
@@ -103,10 +103,10 @@ def make_score(
     first_measure_number,
     previous_persistent_indicators,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -115,10 +115,10 @@ def make_score(
     )
     SKIPS(score)
     RESTS(score)
-    PERC1(voices("perc1"), signatures)
+    PERC1(voices("perc1"), time_signatures)
     library.MAKE_BATTUTI(
         score,
-        signatures,
+        time_signatures,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),
         append_fermata_measure=True,
@@ -131,19 +131,19 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     library.attach_grand_pause_fermatas(cache, score, measure=4)
     library.make_battuti(
         cache,
-        signatures,
+        time_signatures,
         [[1, -17], [1, -17], [1, -17]],
         (1, 3),
         append_fermata_measure=True,
         omit_contrabasses=True,
     )
-    percussion(cache, signatures)
+    percussion(cache, time_signatures)
     return score
 
 

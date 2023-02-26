@@ -55,8 +55,8 @@ def make_empty_score(previous_final_measure_number):
     )
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     time_signatures = library.time_signatures()[start : start + 6]
-    signatures = baca.section.signatures(time_signatures)
-    return score, voices, signatures
+    time_signatures = baca.section.time_signatures(time_signatures)
+    return score, voices, time_signatures
 
 
 def SKIPS(score):
@@ -69,29 +69,29 @@ def SKIPS(score):
     )
 
 
-def WINDS(score, signatures):
+def WINDS(score, time_signatures):
     voice = score[library.voice_abbreviations["cl"]]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 6))
+    music = baca.make_repeat_tied_notes(time_signatures(3, 6))
     voice.extend(music)
 
 
-def PERCUSSION(score, signatures):
+def PERCUSSION(score, time_signatures):
     voice = score[library.voice_abbreviations["perc1"]]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 6))
+    music = baca.make_repeat_tied_notes(time_signatures(3, 6))
     voice.extend(music)
     # PERC2
     voice = score[library.voice_abbreviations["perc2"]]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 6))
+    music = baca.make_repeat_tied_notes(time_signatures(3, 6))
     voice.extend(music)
 
 
-def BRASS(score, signatures):
+def BRASS(score, time_signatures):
     brass_voice_names = [
         "hn1",
         "hn2",
@@ -109,45 +109,45 @@ def BRASS(score, signatures):
     ]
     for abbreviation in brass_voice_names:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(signatures(1, 2))
+        music = baca.make_mmrests(time_signatures(1, 2))
         voice.extend(music)
-    library.MAKE_BRASS_SFORZANDO(score, signatures, measure=3)
+    library.MAKE_BRASS_SFORZANDO(score, time_signatures, measure=3)
     for abbreviation in brass_voice_names:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_mmrests(signatures(4, 6))
+        music = baca.make_mmrests(time_signatures(4, 6))
         voice.extend(music)
 
 
 def STRINGS(
     score,
-    signatures,
+    time_signatures,
     names,
     voice_name_to_parameter_to_state,
     *,
     previous_voice_name_to_parameter_to_state=None,
 ):
     voice = score[library.voice_abbreviations["1vn2"]]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = library.make_glissando_rhythm(signatures(3, 6))
+    music = library.make_glissando_rhythm(time_signatures(3, 6))
     voice.extend(music)
     library.make_trill_rhythm(
         score,
-        signatures(1, 2),
+        time_signatures(1, 2),
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     for abbreviation in names:
         voice = score[library.voice_abbreviations[abbreviation]]
-        music = baca.make_repeat_tied_notes(signatures(3, 6))
+        music = baca.make_repeat_tied_notes(time_signatures(3, 6))
         voice.extend(music)
 
 
-def CB3(score, signatures):
+def CB3(score, time_signatures):
     voice = score[library.voice_abbreviations["cb3"]]
-    music = baca.make_mmrests(signatures(1, 2))
+    music = baca.make_mmrests(time_signatures(1, 2))
     voice.extend(music)
-    music = baca.make_repeat_tied_notes(signatures(3, 6))
+    music = baca.make_repeat_tied_notes(time_signatures(3, 6))
     voice.extend(music)
 
 
@@ -306,10 +306,10 @@ def make_score(
     previous_persistent_indicators,
     previous_voice_name_to_parameter_to_state,
 ):
-    score, voices, signatures = make_empty_score(first_measure_number - 1)
+    score, voices, time_signatures = make_empty_score(first_measure_number - 1)
     baca.section.set_up_score(
         score,
-        signatures(),
+        time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
@@ -317,19 +317,19 @@ def make_score(
         previous_persistent_indicators=previous_persistent_indicators,
     )
     SKIPS(score)
-    WINDS(score, signatures)
-    PERCUSSION(score, signatures)
-    BRASS(score, signatures)
+    WINDS(score, time_signatures)
+    PERCUSSION(score, time_signatures)
+    BRASS(score, time_signatures)
     names = ["1vn1", "1vn3", "2vn1", "2vn3", "va1", "va3", "vc1"]
     voice_name_to_parameter_to_state = {}
     STRINGS(
         score,
-        signatures,
+        time_signatures,
         names,
         voice_name_to_parameter_to_state,
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
-    CB3(score, signatures)
+    CB3(score, time_signatures)
     baca.section.reapply(
         voices,
         previous_persistent_indicators,
@@ -337,7 +337,7 @@ def make_score(
     )
     cache = baca.section.cache_leaves(
         score,
-        len(signatures()),
+        len(time_signatures()),
         library.voice_abbreviations,
     )
     winds(cache)
