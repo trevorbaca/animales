@@ -463,7 +463,7 @@
     "voice_name_to_parameter_to_state": {
         "Cellos.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
@@ -472,7 +472,7 @@
         },
         "FirstViolins.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
@@ -481,7 +481,7 @@
         },
         "FirstViolins.Voice.3": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
                 "talea_weight_consumed": 240,
@@ -489,7 +489,7 @@
         },
         "SecondViolins.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
@@ -498,7 +498,7 @@
         },
         "SecondViolins.Voice.3": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
@@ -507,7 +507,7 @@
         },
         "Violas.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",
@@ -516,7 +516,7 @@
         },
         "Violas.Voice.3": {
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 6,
                 "name": "sforzando_exchange_rhythm",

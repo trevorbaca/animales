@@ -1158,7 +1158,7 @@
     "voice_name_to_parameter_to_state": {
         "Contrabasses.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 112,
+                "durations_consumed": 112,
                 "logical_ties_produced": 126,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 672,
@@ -1166,7 +1166,7 @@
         },
         "Harp.Music": {
             "RHYTHM": {
-                "divisions_consumed": 112,
+                "durations_consumed": 112,
                 "logical_ties_produced": 120,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 672,
@@ -1175,7 +1175,7 @@
         "Horns.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 18,
                 "name": "brass_manifest_rhythm",
@@ -1185,7 +1185,7 @@
         "Horns.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 19,
                 "name": "brass_manifest_rhythm",
@@ -1195,7 +1195,7 @@
         "Horns.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "logical_ties_produced": 15,
                 "name": "brass_manifest_rhythm",
                 "talea_weight_consumed": 90,
@@ -1204,7 +1204,7 @@
         "Horns.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 20,
                 "name": "brass_manifest_rhythm",
@@ -1213,7 +1213,7 @@
         },
         "Percussion.3.Music": {
             "RHYTHM": {
-                "divisions_consumed": 112,
+                "durations_consumed": 112,
                 "logical_ties_produced": 124,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 672,
@@ -1221,7 +1221,7 @@
         },
         "Piano.Music": {
             "RHYTHM": {
-                "divisions_consumed": 112,
+                "durations_consumed": 112,
                 "logical_ties_produced": 122,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 672,
@@ -1230,7 +1230,7 @@
         "Trombones.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 14},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 21,
                 "name": "brass_manifest_rhythm",
@@ -1240,7 +1240,7 @@
         "Trombones.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 13},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 24,
                 "name": "brass_manifest_rhythm",
@@ -1250,7 +1250,7 @@
         "Trombones.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 14},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 19,
                 "name": "brass_manifest_rhythm",
@@ -1260,7 +1260,7 @@
         "Trombones.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 14},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "logical_ties_produced": 22,
                 "name": "brass_manifest_rhythm",
                 "talea_weight_consumed": 90,
@@ -1269,7 +1269,7 @@
         "Trumpets.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 12},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 21,
                 "name": "brass_manifest_rhythm",
@@ -1279,7 +1279,7 @@
         "Trumpets.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "logical_ties_produced": 22,
                 "name": "brass_manifest_rhythm",
                 "talea_weight_consumed": 90,
@@ -1288,7 +1288,7 @@
         "Trumpets.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 13},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 21,
                 "name": "brass_manifest_rhythm",
@@ -1298,7 +1298,7 @@
         "Trumpets.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 12},
             "RHYTHM": {
-                "divisions_consumed": 40,
+                "durations_consumed": 40,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 18,
                 "name": "brass_manifest_rhythm",

@@ -1069,7 +1069,7 @@
     "voice_name_to_parameter_to_state": {
         "Contrabasses.Voice.1": {
             "RHYTHM": {
-                "divisions_consumed": 28,
+                "durations_consumed": 28,
                 "logical_ties_produced": 31,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 168,
@@ -1077,7 +1077,7 @@
         },
         "Harp.Music": {
             "RHYTHM": {
-                "divisions_consumed": 28,
+                "durations_consumed": 28,
                 "logical_ties_produced": 27,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 168,
@@ -1085,7 +1085,7 @@
         },
         "Percussion.3.Music": {
             "RHYTHM": {
-                "divisions_consumed": 28,
+                "durations_consumed": 28,
                 "logical_ties_produced": 31,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 168,
@@ -1093,7 +1093,7 @@
         },
         "Piano.Music": {
             "RHYTHM": {
-                "divisions_consumed": 28,
+                "durations_consumed": 28,
                 "logical_ties_produced": 27,
                 "name": "harp_exchange_rhythm",
                 "talea_weight_consumed": 168,

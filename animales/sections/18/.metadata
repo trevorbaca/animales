@@ -1499,7 +1499,7 @@
         "Horns.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 9},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 15,
                 "name": "brass_manifest_rhythm",
@@ -1509,7 +1509,7 @@
         "Horns.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 9},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 17,
                 "name": "brass_manifest_rhythm",
@@ -1519,7 +1519,7 @@
         "Horns.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 13,
                 "name": "brass_manifest_rhythm",
@@ -1529,7 +1529,7 @@
         "Horns.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 19,
                 "name": "brass_manifest_rhythm",
@@ -1539,7 +1539,7 @@
         "Trombones.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 12},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 18,
                 "name": "brass_manifest_rhythm",
@@ -1549,7 +1549,7 @@
         "Trombones.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 22,
                 "name": "brass_manifest_rhythm",
@@ -1559,7 +1559,7 @@
         "Trombones.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 13},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 15,
                 "name": "brass_manifest_rhythm",
@@ -1569,7 +1569,7 @@
         "Trombones.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 13},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 20,
                 "name": "brass_manifest_rhythm",
@@ -1579,7 +1579,7 @@
         "Trumpets.Voice.1": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 17,
                 "name": "brass_manifest_rhythm",
@@ -1589,7 +1589,7 @@
         "Trumpets.Voice.2": {
             "PITCH": {"name": "seconds", "pitches_consumed": 10},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 20,
                 "name": "brass_manifest_rhythm",
@@ -1599,7 +1599,7 @@
         "Trumpets.Voice.3": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 17,
                 "name": "brass_manifest_rhythm",
@@ -1609,7 +1609,7 @@
         "Trumpets.Voice.4": {
             "PITCH": {"name": "seconds", "pitches_consumed": 11},
             "RHYTHM": {
-                "divisions_consumed": 34,
+                "durations_consumed": 34,
                 "incomplete_last_note": True,
                 "logical_ties_produced": 16,
                 "name": "brass_manifest_rhythm",
