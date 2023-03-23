@@ -1211,11 +1211,9 @@ number.10.Trumpets.Voice.3.container = {
     ~
 
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a'8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! RIGHT_BROKEN
     \!
@@ -1305,11 +1303,9 @@ number.10.Trumpets.Voice.2.container = {
     ~
 
     af'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     bf'!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1357,11 +1353,9 @@ number.10.Trumpets.Voice.2.container = {
 
     % [Trumpets.Voice.2 measure 6]
     af'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     bf'!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1690,11 +1684,9 @@ number.10.Trombones.Voice.3.container = {
 
     % [Trombones.Voice.3 measure 3]
     a8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1732,11 +1724,9 @@ number.10.Trombones.Voice.3.container = {
     ~
 
     a8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1852,11 +1842,9 @@ number.10.Trombones.Voice.2.container = {
 
     % [Trombones.Voice.2 measure 4]
     af8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     bf!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 

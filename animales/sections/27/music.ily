@@ -625,11 +625,9 @@ number.27.FirstViolins.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1453,11 +1451,9 @@ number.27.FirstViolins.Voice.17.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2217,11 +2213,9 @@ number.27.SecondViolins.Voice.12.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3061,11 +3055,9 @@ number.27.Violas.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3857,11 +3849,9 @@ number.27.Cellos.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8

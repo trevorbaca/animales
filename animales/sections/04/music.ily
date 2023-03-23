@@ -1473,12 +1473,10 @@ number.4.FirstViolins.Voice.2.container = {
     \glissando
 
     b'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     g''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -1494,12 +1492,10 @@ number.4.FirstViolins.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \f
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     e''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -1507,23 +1503,19 @@ number.4.FirstViolins.Voice.2.container = {
     \glissando
 
     d''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     g'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
     % [FirstViolins.Voice.2 measure 5]
     c'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     f'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -1531,7 +1523,6 @@ number.4.FirstViolins.Voice.2.container = {
     \glissando
 
     b'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
@@ -1543,7 +1534,6 @@ number.4.FirstViolins.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \f
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

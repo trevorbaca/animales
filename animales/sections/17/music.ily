@@ -1109,11 +1109,9 @@ number.17.Horns.Voice.3.container = {
 
     % [Horns.Voice.3 measure 2]
     df'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     ef'!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1964,11 +1962,9 @@ number.17.Trumpets.Voice.3.container = {
     ~
 
     f'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1998,11 +1994,9 @@ number.17.Trumpets.Voice.3.container = {
 
     % [Trumpets.Voice.3 measure 8]
     f'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2023,11 +2017,9 @@ number.17.Trumpets.Voice.3.container = {
     ~
 
     f'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2160,11 +2152,9 @@ number.17.Trumpets.Voice.2.container = {
 
     % [Trumpets.Voice.2 measure 5]
     gf'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     af'!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2513,11 +2503,9 @@ number.17.Trombones.Voice.1.container = {
     ~
 
     af8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     gf!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2569,11 +2557,9 @@ number.17.Trombones.Voice.1.container = {
 
     % [Trombones.Voice.1 measure 6]
     gf8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     af!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2608,11 +2594,9 @@ number.17.Trombones.Voice.1.container = {
 
     % [Trombones.Voice.1 measure 8]
     gf8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     af!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2696,11 +2680,9 @@ number.17.Trombones.Voice.3.container = {
     ~
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -2783,11 +2765,9 @@ number.17.Trombones.Voice.3.container = {
     ~
 
     f8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 

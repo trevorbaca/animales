@@ -481,7 +481,6 @@ number.28.FirstViolins.Voice.1.container = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -492,7 +491,6 @@ number.28.FirstViolins.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -536,11 +534,9 @@ number.28.FirstViolins.Voice.1.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -568,11 +564,9 @@ number.28.FirstViolins.Voice.2.container = {
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -583,13 +577,11 @@ number.28.FirstViolins.Voice.2.container = {
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -597,11 +589,9 @@ number.28.FirstViolins.Voice.2.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -740,11 +730,9 @@ number.28.FirstViolins.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -777,11 +765,9 @@ number.28.FirstViolins.Voice.4.container = {
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -916,13 +902,11 @@ number.28.FirstViolins.Voice.5.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [FirstViolins.Voice.5 measure 2]
@@ -933,11 +917,9 @@ number.28.FirstViolins.Voice.5.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2
@@ -948,11 +930,9 @@ number.28.FirstViolins.Voice.5.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -960,11 +940,9 @@ number.28.FirstViolins.Voice.5.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -1017,19 +995,15 @@ number.28.FirstViolins.Voice.6.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -1156,11 +1130,9 @@ number.28.FirstViolins.Voice.7.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1188,11 +1160,9 @@ number.28.FirstViolins.Voice.8.container = {
         b8
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1207,11 +1177,9 @@ number.28.FirstViolins.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -1220,11 +1188,9 @@ number.28.FirstViolins.Voice.8.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1240,11 +1206,9 @@ number.28.FirstViolins.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -1260,11 +1224,9 @@ number.28.FirstViolins.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -1348,11 +1310,9 @@ number.28.FirstViolins.Voice.9.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -1360,7 +1320,6 @@ number.28.FirstViolins.Voice.9.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
@@ -1368,7 +1327,6 @@ number.28.FirstViolins.Voice.9.container = {
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [FirstViolins.Voice.9 measure 3]
@@ -1377,11 +1335,9 @@ number.28.FirstViolins.Voice.9.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -1425,11 +1381,9 @@ number.28.FirstViolins.Voice.10.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -1448,11 +1402,9 @@ number.28.FirstViolins.Voice.10.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -1515,13 +1467,11 @@ number.28.FirstViolins.Voice.11.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     d'16
@@ -1531,11 +1481,9 @@ number.28.FirstViolins.Voice.11.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -1546,11 +1494,9 @@ number.28.FirstViolins.Voice.11.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -1559,11 +1505,9 @@ number.28.FirstViolins.Voice.11.container = {
 
     % [FirstViolins.Voice.11 measure 3]
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -1620,11 +1564,9 @@ number.28.FirstViolins.Voice.12.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1639,11 +1581,9 @@ number.28.FirstViolins.Voice.12.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -1653,11 +1593,9 @@ number.28.FirstViolins.Voice.12.container = {
 
         % [FirstViolins.Voice.12 measure 3]
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1672,11 +1610,9 @@ number.28.FirstViolins.Voice.12.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -1778,11 +1714,9 @@ number.28.FirstViolins.Voice.13.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -1810,11 +1744,9 @@ number.28.FirstViolins.Voice.14.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -1833,11 +1765,9 @@ number.28.FirstViolins.Voice.14.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -1923,11 +1853,9 @@ number.28.FirstViolins.Voice.15.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -1936,7 +1864,6 @@ number.28.FirstViolins.Voice.15.container = {
 
     % [FirstViolins.Voice.15 measure 2]
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
@@ -1944,7 +1871,6 @@ number.28.FirstViolins.Voice.15.container = {
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -1952,11 +1878,9 @@ number.28.FirstViolins.Voice.15.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2022,11 +1946,9 @@ number.28.FirstViolins.Voice.16.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2042,11 +1964,9 @@ number.28.FirstViolins.Voice.16.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2123,11 +2043,9 @@ number.28.FirstViolins.Voice.17.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2194,19 +2112,15 @@ number.28.FirstViolins.Voice.18.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -2310,11 +2224,9 @@ number.28.SecondViolins.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -2322,11 +2234,9 @@ number.28.SecondViolins.Voice.1.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2337,11 +2247,9 @@ number.28.SecondViolins.Voice.1.container = {
     r2
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -2352,13 +2260,11 @@ number.28.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 3]
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2402,11 +2308,9 @@ number.28.SecondViolins.Voice.2.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [SecondViolins.Voice.2 measure 2]
@@ -2432,11 +2336,9 @@ number.28.SecondViolins.Voice.2.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2511,11 +2413,9 @@ number.28.SecondViolins.Voice.3.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2524,11 +2424,9 @@ number.28.SecondViolins.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2544,11 +2442,9 @@ number.28.SecondViolins.Voice.3.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2615,11 +2511,9 @@ number.28.SecondViolins.Voice.4.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2635,11 +2529,9 @@ number.28.SecondViolins.Voice.4.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2655,11 +2547,9 @@ number.28.SecondViolins.Voice.4.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2668,11 +2558,9 @@ number.28.SecondViolins.Voice.4.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2687,11 +2575,9 @@ number.28.SecondViolins.Voice.4.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2754,11 +2640,9 @@ number.28.SecondViolins.Voice.5.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2802,11 +2686,9 @@ number.28.SecondViolins.Voice.5.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
 }
@@ -2827,11 +2709,9 @@ number.28.SecondViolins.Voice.6.container = {
     b16
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -2875,11 +2755,9 @@ number.28.SecondViolins.Voice.6.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -2948,11 +2826,9 @@ number.28.SecondViolins.Voice.7.container = {
 
         % [SecondViolins.Voice.7 measure 2]
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -2967,11 +2843,9 @@ number.28.SecondViolins.Voice.7.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -2980,11 +2854,9 @@ number.28.SecondViolins.Voice.7.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3000,11 +2872,9 @@ number.28.SecondViolins.Voice.7.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3087,11 +2957,9 @@ number.28.SecondViolins.Voice.8.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3158,11 +3026,9 @@ number.28.SecondViolins.Voice.9.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -3188,11 +3054,9 @@ number.28.SecondViolins.Voice.9.container = {
 
     % [SecondViolins.Voice.9 measure 3]
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -3231,13 +3095,11 @@ number.28.SecondViolins.Voice.10.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [SecondViolins.Voice.10 measure 2]
@@ -3248,11 +3110,9 @@ number.28.SecondViolins.Voice.10.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2
@@ -3263,11 +3123,9 @@ number.28.SecondViolins.Voice.10.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -3275,11 +3133,9 @@ number.28.SecondViolins.Voice.10.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -3372,19 +3228,15 @@ number.28.SecondViolins.Voice.11.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -3473,11 +3325,9 @@ number.28.SecondViolins.Voice.12.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3538,7 +3388,6 @@ number.28.SecondViolins.Voice.13.container = {
         d'8
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
-          %! rmakers.RewriteMeterCommand.__call__
         [
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3549,7 +3398,6 @@ number.28.SecondViolins.Voice.13.container = {
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3564,11 +3412,9 @@ number.28.SecondViolins.Voice.13.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3577,11 +3423,9 @@ number.28.SecondViolins.Voice.13.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3597,11 +3441,9 @@ number.28.SecondViolins.Voice.13.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3617,11 +3459,9 @@ number.28.SecondViolins.Voice.13.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3663,11 +3503,9 @@ number.28.SecondViolins.Voice.14.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -3675,7 +3513,6 @@ number.28.SecondViolins.Voice.14.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
@@ -3683,7 +3520,6 @@ number.28.SecondViolins.Voice.14.container = {
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [SecondViolins.Voice.14 measure 3]
@@ -3692,11 +3528,9 @@ number.28.SecondViolins.Voice.14.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -3782,11 +3616,9 @@ number.28.SecondViolins.Voice.15.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -3805,11 +3637,9 @@ number.28.SecondViolins.Voice.15.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -3835,11 +3665,9 @@ number.28.SecondViolins.Voice.16.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3848,11 +3676,9 @@ number.28.SecondViolins.Voice.16.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -3867,11 +3693,9 @@ number.28.SecondViolins.Voice.16.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -3886,11 +3710,9 @@ number.28.SecondViolins.Voice.16.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4003,11 +3825,9 @@ number.28.SecondViolins.Voice.17.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -4022,11 +3842,9 @@ number.28.SecondViolins.Voice.17.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4036,11 +3854,9 @@ number.28.SecondViolins.Voice.17.container = {
 
         % [SecondViolins.Voice.17 measure 3]
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -4055,11 +3871,9 @@ number.28.SecondViolins.Voice.17.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4101,11 +3915,9 @@ number.28.SecondViolins.Voice.18.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4116,11 +3928,9 @@ number.28.SecondViolins.Voice.18.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -4130,13 +3940,11 @@ number.28.SecondViolins.Voice.18.container = {
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4210,11 +4018,9 @@ number.28.Violas.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -4233,11 +4039,9 @@ number.28.Violas.Voice.1.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -4286,11 +4090,9 @@ number.28.Violas.Voice.2.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4299,7 +4101,6 @@ number.28.Violas.Voice.2.container = {
 
     % [Violas.Voice.2 measure 2]
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
@@ -4307,7 +4108,6 @@ number.28.Violas.Voice.2.container = {
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -4315,11 +4115,9 @@ number.28.Violas.Voice.2.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4432,11 +4230,9 @@ number.28.Violas.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -4452,11 +4248,9 @@ number.28.Violas.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -4494,11 +4288,9 @@ number.28.Violas.Voice.4.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4603,19 +4395,15 @@ number.28.Violas.Voice.5.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -4670,11 +4458,9 @@ number.28.Violas.Voice.6.container = {
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -4682,11 +4468,9 @@ number.28.Violas.Voice.6.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4697,11 +4481,9 @@ number.28.Violas.Voice.6.container = {
     r2
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -4712,13 +4494,11 @@ number.28.Violas.Voice.6.container = {
 
     % [Violas.Voice.6 measure 3]
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -4796,11 +4576,9 @@ number.28.Violas.Voice.7.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4874,11 +4652,9 @@ number.28.Violas.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -4887,11 +4663,9 @@ number.28.Violas.Voice.8.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -4907,11 +4681,9 @@ number.28.Violas.Voice.8.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5023,11 +4795,9 @@ number.28.Violas.Voice.9.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -5035,13 +4805,11 @@ number.28.Violas.Voice.9.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     d'16
@@ -5052,11 +4820,9 @@ number.28.Violas.Voice.9.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2.
@@ -5079,11 +4845,9 @@ number.28.Violas.Voice.10.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -5127,11 +4891,9 @@ number.28.Violas.Voice.10.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
 }
@@ -5183,7 +4945,6 @@ number.28.Violas.Voice.11.container = {
       %! -PARTS
     \voiceOne
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5194,7 +4955,6 @@ number.28.Violas.Voice.11.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -5238,11 +4998,9 @@ number.28.Violas.Voice.11.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -5271,11 +5029,9 @@ number.28.Violas.Voice.12.container = {
 
         % [Violas.Voice.12 measure 2]
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -5290,11 +5046,9 @@ number.28.Violas.Voice.12.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5303,11 +5057,9 @@ number.28.Violas.Voice.12.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -5323,11 +5075,9 @@ number.28.Violas.Voice.12.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5452,11 +5202,9 @@ number.28.Violas.Voice.13.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -5481,11 +5229,9 @@ number.28.Violas.Voice.14.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -5511,11 +5257,9 @@ number.28.Violas.Voice.14.container = {
 
     % [Violas.Voice.14 measure 3]
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -5596,13 +5340,11 @@ number.28.Violas.Voice.15.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Violas.Voice.15 measure 2]
@@ -5613,11 +5355,9 @@ number.28.Violas.Voice.15.container = {
     r8
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2
@@ -5628,11 +5368,9 @@ number.28.Violas.Voice.15.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -5640,11 +5378,9 @@ number.28.Violas.Voice.15.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -5705,11 +5441,9 @@ number.28.Violas.Voice.16.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -5724,11 +5458,9 @@ number.28.Violas.Voice.16.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -5851,11 +5583,9 @@ number.28.Violas.Voice.17.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -5880,11 +5610,9 @@ number.28.Violas.Voice.18.container = {
     b16
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -5894,13 +5622,11 @@ number.28.Violas.Voice.18.container = {
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -5909,11 +5635,9 @@ number.28.Violas.Voice.18.container = {
 
     % [Violas.Voice.18 measure 2]
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -5932,11 +5656,9 @@ number.28.Violas.Voice.18.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2
@@ -6027,11 +5749,9 @@ number.28.Cellos.Voice.1.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -6039,7 +5759,6 @@ number.28.Cellos.Voice.1.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
@@ -6047,7 +5766,6 @@ number.28.Cellos.Voice.1.container = {
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Cellos.Voice.1 measure 3]
@@ -6056,11 +5774,9 @@ number.28.Cellos.Voice.1.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -6109,11 +5825,9 @@ number.28.Cellos.Voice.2.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -6132,11 +5846,9 @@ number.28.Cellos.Voice.2.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -6202,11 +5914,9 @@ number.28.Cellos.Voice.3.container = {
         \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6215,11 +5925,9 @@ number.28.Cellos.Voice.3.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6234,11 +5942,9 @@ number.28.Cellos.Voice.3.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6253,11 +5959,9 @@ number.28.Cellos.Voice.3.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6326,11 +6030,9 @@ number.28.Cellos.Voice.4.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6345,11 +6047,9 @@ number.28.Cellos.Voice.4.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6359,11 +6059,9 @@ number.28.Cellos.Voice.4.container = {
 
         % [Cellos.Voice.4 measure 3]
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6378,11 +6076,9 @@ number.28.Cellos.Voice.4.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6466,11 +6162,9 @@ number.28.Cellos.Voice.5.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -6481,11 +6175,9 @@ number.28.Cellos.Voice.5.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -6495,13 +6187,11 @@ number.28.Cellos.Voice.5.container = {
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -6524,11 +6214,9 @@ number.28.Cellos.Voice.6.container = {
     r4
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -6547,11 +6235,9 @@ number.28.Cellos.Voice.6.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -6645,11 +6331,9 @@ number.28.Cellos.Voice.7.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6665,11 +6349,9 @@ number.28.Cellos.Voice.7.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6678,11 +6360,9 @@ number.28.Cellos.Voice.7.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6698,11 +6378,9 @@ number.28.Cellos.Voice.7.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -6762,11 +6440,9 @@ number.28.Cellos.Voice.8.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6782,11 +6458,9 @@ number.28.Cellos.Voice.8.container = {
     {
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -6857,11 +6531,9 @@ number.28.Cellos.Voice.9.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -6870,11 +6542,9 @@ number.28.Cellos.Voice.9.container = {
     r4
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -6926,19 +6596,15 @@ number.28.Cellos.Voice.10.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -7033,11 +6699,9 @@ number.28.Cellos.Voice.11.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -7045,11 +6709,9 @@ number.28.Cellos.Voice.11.container = {
     r16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -7060,11 +6722,9 @@ number.28.Cellos.Voice.11.container = {
     r2
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r8
@@ -7075,13 +6735,11 @@ number.28.Cellos.Voice.11.container = {
 
     % [Cellos.Voice.11 measure 3]
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d'16
 
     d'16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r16
@@ -7117,11 +6775,9 @@ number.28.Cellos.Voice.12.container = {
         r8
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -7239,11 +6895,9 @@ number.28.Cellos.Voice.13.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -7252,11 +6906,9 @@ number.28.Cellos.Voice.13.container = {
     {
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
         r8
@@ -7272,11 +6924,9 @@ number.28.Cellos.Voice.13.container = {
         r8
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d'8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -7348,11 +6998,9 @@ number.28.Cellos.Voice.14.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4
@@ -7360,13 +7008,11 @@ number.28.Cellos.Voice.14.container = {
     r16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     b16
@@ -7377,11 +7023,9 @@ number.28.Cellos.Voice.14.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r2.
