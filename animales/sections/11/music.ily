@@ -1622,7 +1622,6 @@ number.11.Trombones.Voice.1.container = {
     bf!8
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! REDUNDANT_DYNAMIC_COLOR
       %! LEFT_BROKEN
@@ -1642,7 +1641,6 @@ number.11.Trombones.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
 
     af!8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 
@@ -1830,11 +1828,9 @@ number.11.Trombones.Voice.3.container = {
     ~
 
     a8
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     ~
 

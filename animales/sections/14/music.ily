@@ -261,7 +261,6 @@ number.14.Flutes.Voice.1.container = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
     %%% \mf
-          %! rmakers.RewriteMeterCommand.__call__
         [
           %! SPANNER_START
         (
@@ -279,13 +278,11 @@ number.14.Flutes.Voice.1.container = {
         af''!8
 
         g''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     fs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     f''16
@@ -293,11 +290,9 @@ number.14.Flutes.Voice.1.container = {
     g''16
 
     fs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     g''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     af''!16
@@ -305,11 +300,9 @@ number.14.Flutes.Voice.1.container = {
     bf''!16
 
     a''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g''16
@@ -317,7 +310,6 @@ number.14.Flutes.Voice.1.container = {
     a''16
 
     bf''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
@@ -325,13 +317,11 @@ number.14.Flutes.Voice.1.container = {
 
         % [Flutes.Voice.1 measure 3]
         b''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         bf''!8
 
         c'''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -340,7 +330,6 @@ number.14.Flutes.Voice.1.container = {
     {
 
         cs'''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b''8
@@ -358,7 +347,6 @@ number.14.Flutes.Voice.1.container = {
     %%% \ff
           %! SPANNER_STOP
         )
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -403,7 +391,6 @@ number.14.Flutes.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! SPANNER_START
     (
@@ -420,7 +407,6 @@ number.14.Flutes.Voice.3.container = {
     f''16
 
     e''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
@@ -428,13 +414,11 @@ number.14.Flutes.Voice.3.container = {
 
         % [Flutes.Voice.3 measure 2]
         ef''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f''8
 
         e''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -443,19 +427,16 @@ number.14.Flutes.Voice.3.container = {
     {
 
         f''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         fs''!8
 
         af''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     g''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     fs''!16
@@ -463,11 +444,9 @@ number.14.Flutes.Voice.3.container = {
     f''16
 
     g''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a''16
@@ -475,12 +454,10 @@ number.14.Flutes.Voice.3.container = {
     af''!16
 
     bf''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Flutes.Voice.3 measure 3]
     b''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a''16
@@ -488,14 +465,12 @@ number.14.Flutes.Voice.3.container = {
     bf''!16
 
     b''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         c'''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         b''8
@@ -510,7 +485,6 @@ number.14.Flutes.Voice.3.container = {
         \ff
           %! SPANNER_STOP
         )
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -601,7 +575,6 @@ number.14.Flutes.Voice.2.container = {
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
     %%% \mf
-          %! rmakers.RewriteMeterCommand.__call__
         [
           %! SPANNER_START
         (
@@ -619,7 +592,6 @@ number.14.Flutes.Voice.2.container = {
         e''8
 
         ef''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -628,20 +600,17 @@ number.14.Flutes.Voice.2.container = {
     {
 
         d''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         cs''!8
 
         ef''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     % [Flutes.Voice.2 measure 2]
     d''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     ef''!16
@@ -649,11 +618,9 @@ number.14.Flutes.Voice.2.container = {
     e''16
 
     fs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     f''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     e''16
@@ -661,20 +628,17 @@ number.14.Flutes.Voice.2.container = {
     ef''!16
 
     f''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         fs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         g''8
 
         fs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -683,20 +647,17 @@ number.14.Flutes.Voice.2.container = {
     {
 
         af''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         a''8
 
         g''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     % [Flutes.Voice.2 measure 3]
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a''16
@@ -704,11 +665,9 @@ number.14.Flutes.Voice.2.container = {
     bf''!16
 
     a''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     g''16
@@ -728,7 +687,6 @@ number.14.Flutes.Voice.2.container = {
 %%% \ff
       %! SPANNER_STOP
     )
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Flutes.Voice.2 measure 4]
@@ -769,7 +727,6 @@ number.14.Flutes.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
-      %! rmakers.RewriteMeterCommand.__call__
     [
       %! SPANNER_START
     (
@@ -786,11 +743,9 @@ number.14.Flutes.Voice.4.container = {
     d''16
 
     cs''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     c''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     d''16
@@ -798,20 +753,17 @@ number.14.Flutes.Voice.4.container = {
     cs''!16
 
     d''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         ef''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         f''8
 
         e''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -821,19 +773,16 @@ number.14.Flutes.Voice.4.container = {
 
         % [Flutes.Voice.4 measure 2]
         ef''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         d''8
 
         e''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     f''16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     fs''!16
@@ -841,11 +790,9 @@ number.14.Flutes.Voice.4.container = {
     f''16
 
     g''16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     fs''!16
@@ -853,20 +800,17 @@ number.14.Flutes.Voice.4.container = {
     g''16
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     \times 2/3
     {
 
         a''8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         af''!8
 
         g''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
@@ -876,19 +820,16 @@ number.14.Flutes.Voice.4.container = {
 
         % [Flutes.Voice.4 measure 3]
         fs''!8
-          %! rmakers.RewriteMeterCommand.__call__
         [
 
         af''!8
 
         g''8
-          %! rmakers.RewriteMeterCommand.__call__
         ]
 
     }
 
     af''!16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     a''16
@@ -905,7 +846,6 @@ number.14.Flutes.Voice.4.container = {
     \ff
       %! SPANNER_STOP
     )
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Flutes.Voice.4 measure 4]
@@ -1674,22 +1614,18 @@ number.14.FirstViolins.Voice.3.container = {
     \glissando
 
     d''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     c'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
     g''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     d'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 

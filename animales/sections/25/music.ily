@@ -3039,11 +3039,9 @@ number.25.Violas.Voice.6.container = {
     r8
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     [
 
     b16
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     r4

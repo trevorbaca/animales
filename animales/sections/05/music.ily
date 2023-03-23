@@ -538,12 +538,10 @@ number.5.FirstViolins.Voice.2.container = {
     \glissando
 
     g'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     c'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -559,12 +557,10 @@ number.5.FirstViolins.Voice.2.container = {
     \glissando
 
     f''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     e'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -573,22 +569,18 @@ number.5.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 3]
     f'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     c''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
     b''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     d''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -597,12 +589,10 @@ number.5.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 4]
     g'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     f''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
@@ -620,17 +610,14 @@ number.5.FirstViolins.Voice.2.container = {
     \glissando
 
     c'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
     a'''8
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     \glissando
 
     f''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
@@ -642,7 +629,6 @@ number.5.FirstViolins.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \f
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -658,7 +644,6 @@ number.5.FirstViolins.Voice.2.container = {
     \glissando
 
     f'''8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \glissando
 
@@ -670,7 +655,6 @@ number.5.FirstViolins.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
-      %! rmakers.RewriteMeterCommand.__call__
     ]
       %! -PARTS
     \revert DynamicLineSpanner.direction
@@ -1280,13 +1264,11 @@ number.5.Violas.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     b8
     - \accent
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     - \tweak stencil ##f
     ~
@@ -1319,13 +1301,11 @@ number.5.Violas.Voice.1.container = {
     \repeatTie
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     b8
     - \accent
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     - \tweak stencil ##f
     ~
@@ -1597,13 +1577,11 @@ number.5.Cellos.Voice.1.container = {
     \repeatTie
 
     b8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     b8
     - \accent
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
 }

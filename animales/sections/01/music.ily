@@ -864,13 +864,11 @@ number.1.SecondViolins.Voice.1.container = {
     \startTrillSpan a'
 
     af'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     af'!8
     - \accent
-      %! rmakers.RewriteMeterCommand.__call__
     ]
     - \tweak stencil ##f
     ~
@@ -1473,13 +1471,11 @@ number.1.Cellos.Voice.1.container = {
     \repeatTie
 
     a'8
-      %! rmakers.RewriteMeterCommand.__call__
     [
     \repeatTie
 
     a'8
     - \accent
-      %! rmakers.RewriteMeterCommand.__call__
     ]
 
     % [Cellos.Voice.1 measure 5]
