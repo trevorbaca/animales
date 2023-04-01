@@ -86,7 +86,7 @@ def make_empty_score(previous_final_measure_number):
     voices = baca.section.cache_voices(score, library.voice_abbreviations)
     start = previous_final_measure_number
     time_signatures = library.time_signatures()[start : start + 3]
-    time_signatures = baca.section.time_signatures(time_signatures)
+    time_signatures = baca.section.wrap(time_signatures)
     return score, voices, time_signatures
 
 
