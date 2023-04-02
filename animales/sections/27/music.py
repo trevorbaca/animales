@@ -153,7 +153,7 @@ def make_score(
         omit_contrabasses=True,
     )
     CB3(voices("cb3"), time_signatures)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

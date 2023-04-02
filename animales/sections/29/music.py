@@ -124,7 +124,7 @@ def make_score(
         append_fermata_measure=True,
         omit_contrabasses=True,
     )
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

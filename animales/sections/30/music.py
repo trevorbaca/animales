@@ -115,7 +115,7 @@ def make_score(
     RESTS(score)
     PF(voices("pf"), time_signatures)
     PERC4(voices("perc4"), time_signatures)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

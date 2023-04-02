@@ -272,7 +272,7 @@ def make_score(
     )
     PERC2(score, time_signatures)
     STRINGS(score, time_signatures)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

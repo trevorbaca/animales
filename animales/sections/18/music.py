@@ -324,7 +324,7 @@ def make_score(
         "cb3": [(1, -1), None, "G1"],
     }
     STRINGS(score, time_signatures, string_parts)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,
