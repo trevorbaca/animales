@@ -137,7 +137,7 @@ def make_score(
     SKIPS(score)
     BRASS(score, time_signatures)
     library.MAKE_BATTUTI(score, time_signatures, [[1, -55], [1, -17], [1, -17]], (1, 3))
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

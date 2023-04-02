@@ -330,7 +330,7 @@ def make_score(
         previous_voice_name_to_parameter_to_state=previous_voice_name_to_parameter_to_state,
     )
     CB3(score, time_signatures)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

@@ -422,7 +422,7 @@ def make_score(
     voice_name_to_parameter_to_state = {}
     BRASS(score, time_signatures, voice_name_to_parameter_to_state)
     STRINGS(score, time_signatures)
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,

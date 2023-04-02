@@ -96,7 +96,7 @@ def make_score(
     library.MAKE_BATTUTI(
         score, time_signatures, [[1, 1, -5], [1, 1, -5], [1, -8]], (1, 3)
     )
-    baca.section.reapply(
+    baca.section.reapply_persistent_indicators(
         voices,
         previous_persistent_indicators,
         manifests=library.manifests,
