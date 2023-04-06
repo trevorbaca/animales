@@ -516,6 +516,8 @@ number.5.FirstViolins.Voice.2.container = {
     \override DynamicLineSpanner.direction = #up
       %! -PARTS
     \voiceOne
+      %! -PARTS
+    \voiceOne
     b'2
           %! +PARTS
     %%% \stopTrillSpan
@@ -676,6 +678,10 @@ number.5.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -686,8 +692,6 @@ number.5.FirstViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
       %! SPANNER_START
     \pitchedTrill
     b2.

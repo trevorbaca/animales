@@ -789,6 +789,8 @@ number.9.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR

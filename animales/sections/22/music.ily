@@ -139,6 +139,10 @@ number.22.FirstViolins.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -151,8 +155,6 @@ number.22.FirstViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -234,6 +236,8 @@ number.22.FirstViolins.Voice.1 = {
 number.22.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r2.
@@ -324,6 +328,10 @@ number.22.FirstViolins.Voice.3.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -336,8 +344,6 @@ number.22.FirstViolins.Voice.3.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         r4
           %! REAPPLIED_DYNAMIC_COLOR
           %! REAPPLIED_DYNAMIC
@@ -435,6 +441,8 @@ number.22.FirstViolins.Voice.4.container = {
     {
 
         % [FirstViolins.Voice.4 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         r8
@@ -543,6 +551,10 @@ number.22.FirstViolins.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -555,8 +567,6 @@ number.22.FirstViolins.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -640,6 +650,8 @@ number.22.FirstViolins.Voice.5 = {
 number.22.FirstViolins.Voice.6.container = {
 
     % [FirstViolins.Voice.6 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4.
@@ -733,6 +745,10 @@ number.22.FirstViolins.Voice.7.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -745,8 +761,6 @@ number.22.FirstViolins.Voice.7.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         r4
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -835,6 +849,8 @@ number.22.FirstViolins.Voice.8.container = {
     {
 
         % [FirstViolins.Voice.8 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         b8
@@ -947,6 +963,10 @@ number.22.FirstViolins.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -959,8 +979,6 @@ number.22.FirstViolins.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     d'16
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1043,6 +1061,8 @@ number.22.FirstViolins.Voice.10.container = {
     % [FirstViolins.Voice.10 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     r4
 
     r16
@@ -1123,6 +1143,10 @@ number.22.FirstViolins.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -1135,8 +1159,6 @@ number.22.FirstViolins.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r16
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1216,6 +1238,8 @@ number.22.FirstViolins.Voice.12.container = {
     {
 
         % [FirstViolins.Voice.12 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         b8
@@ -1333,6 +1357,10 @@ number.22.FirstViolins.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -1345,8 +1373,6 @@ number.22.FirstViolins.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1419,6 +1445,8 @@ number.22.FirstViolins.Voice.13 = {
 number.22.FirstViolins.Voice.14.container = {
 
     % [FirstViolins.Voice.14 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4
@@ -1501,6 +1529,10 @@ number.22.FirstViolins.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -1513,8 +1545,6 @@ number.22.FirstViolins.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1597,6 +1627,8 @@ number.22.FirstViolins.Voice.15 = {
 number.22.FirstViolins.Voice.16.container = {
 
     % [FirstViolins.Voice.16 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r2
@@ -1693,6 +1725,10 @@ number.22.FirstViolins.Voice.17.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -1705,8 +1741,6 @@ number.22.FirstViolins.Voice.17.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1777,6 +1811,8 @@ number.22.FirstViolins.Voice.17 = {
 number.22.FirstViolins.Voice.18.container = {
 
     % [FirstViolins.Voice.18 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r8.
@@ -1873,6 +1909,10 @@ number.22.SecondViolins.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -1885,8 +1925,6 @@ number.22.SecondViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1970,6 +2008,8 @@ number.22.SecondViolins.Voice.1 = {
 number.22.SecondViolins.Voice.2.container = {
 
     % [SecondViolins.Voice.2 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4..
@@ -2057,6 +2097,10 @@ number.22.SecondViolins.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -2069,8 +2113,6 @@ number.22.SecondViolins.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2178,6 +2220,8 @@ number.22.SecondViolins.Voice.3 = {
 number.22.SecondViolins.Voice.4.container = {
 
     % [SecondViolins.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4
@@ -2296,6 +2340,10 @@ number.22.SecondViolins.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -2308,8 +2356,6 @@ number.22.SecondViolins.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r16
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2384,6 +2430,8 @@ number.22.SecondViolins.Voice.5 = {
 number.22.SecondViolins.Voice.6.container = {
 
     % [SecondViolins.Voice.6 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     b16
@@ -2476,6 +2524,10 @@ number.22.SecondViolins.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -2488,8 +2540,6 @@ number.22.SecondViolins.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -2577,6 +2627,8 @@ number.22.SecondViolins.Voice.8.container = {
     {
 
         % [SecondViolins.Voice.8 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         r4
@@ -2680,6 +2732,10 @@ number.22.SecondViolins.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -2692,8 +2748,6 @@ number.22.SecondViolins.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r16
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -2762,6 +2816,8 @@ number.22.SecondViolins.Voice.9 = {
 number.22.SecondViolins.Voice.10.container = {
 
     % [SecondViolins.Voice.10 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4.
@@ -2854,6 +2910,10 @@ number.22.SecondViolins.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -2866,8 +2926,6 @@ number.22.SecondViolins.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4.
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2945,6 +3003,8 @@ number.22.SecondViolins.Voice.12.container = {
     {
 
         % [SecondViolins.Voice.12 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         r4
@@ -3051,6 +3111,10 @@ number.22.SecondViolins.Voice.13.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -3063,8 +3127,6 @@ number.22.SecondViolins.Voice.13.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         d'8
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3163,6 +3225,8 @@ number.22.SecondViolins.Voice.14.container = {
     % [SecondViolins.Voice.14 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     b16
 
     r8.
@@ -3255,6 +3319,10 @@ number.22.SecondViolins.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -3267,8 +3335,6 @@ number.22.SecondViolins.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3340,6 +3406,8 @@ number.22.SecondViolins.Voice.16.container = {
     {
 
         % [SecondViolins.Voice.16 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         r8
@@ -3458,6 +3526,10 @@ number.22.SecondViolins.Voice.17.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -3470,8 +3542,6 @@ number.22.SecondViolins.Voice.17.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         d'8
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3575,6 +3645,8 @@ number.22.SecondViolins.Voice.18.container = {
     % [SecondViolins.Voice.18 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     r4
 
     r16
@@ -3667,6 +3739,10 @@ number.22.Violas.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -3679,8 +3755,6 @@ number.22.Violas.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3754,6 +3828,8 @@ number.22.Violas.Voice.1 = {
 number.22.Violas.Voice.2.container = {
 
     % [Violas.Voice.2 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r8.
@@ -3855,6 +3931,10 @@ number.22.Violas.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -3867,8 +3947,6 @@ number.22.Violas.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r2
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3952,6 +4030,8 @@ number.22.Violas.Voice.3 = {
 number.22.Violas.Voice.4.container = {
 
     % [Violas.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r1
@@ -4043,6 +4123,10 @@ number.22.Violas.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -4055,8 +4139,6 @@ number.22.Violas.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8.
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4131,6 +4213,8 @@ number.22.Violas.Voice.5 = {
 number.22.Violas.Voice.6.container = {
 
     % [Violas.Voice.6 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r8
@@ -4225,6 +4309,10 @@ number.22.Violas.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -4237,8 +4325,6 @@ number.22.Violas.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -4322,6 +4408,8 @@ number.22.Violas.Voice.7 = {
 number.22.Violas.Voice.8.container = {
 
     % [Violas.Voice.8 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4
@@ -4438,6 +4526,10 @@ number.22.Violas.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -4450,8 +4542,6 @@ number.22.Violas.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -4520,6 +4610,8 @@ number.22.Violas.Voice.9 = {
 number.22.Violas.Voice.10.container = {
 
     % [Violas.Voice.10 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r16
@@ -4610,6 +4702,10 @@ number.22.Violas.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -4622,8 +4718,6 @@ number.22.Violas.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     d'16
     [
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -4698,6 +4792,8 @@ number.22.Violas.Voice.11 = {
 number.22.Violas.Voice.12.container = {
 
     % [Violas.Voice.12 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r1
@@ -4801,6 +4897,10 @@ number.22.Violas.Voice.13.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -4813,8 +4913,6 @@ number.22.Violas.Voice.13.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         r4
           %! REAPPLIED_INSTRUMENT_ALERT
         ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -4906,6 +5004,8 @@ number.22.Violas.Voice.14.container = {
     % [Violas.Voice.14 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     r16
 
     b16
@@ -4986,6 +5086,10 @@ number.22.Violas.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -4998,8 +5102,6 @@ number.22.Violas.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -5078,6 +5180,8 @@ number.22.Violas.Voice.15 = {
 number.22.Violas.Voice.16.container = {
 
     % [Violas.Voice.16 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r2
@@ -5186,6 +5290,10 @@ number.22.Violas.Voice.17.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -5198,8 +5306,6 @@ number.22.Violas.Voice.17.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         r4
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5285,6 +5391,8 @@ number.22.Violas.Voice.17 = {
 number.22.Violas.Voice.18.container = {
 
     % [Violas.Voice.18 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     b16
@@ -5381,6 +5489,10 @@ number.22.Cellos.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -5393,8 +5505,6 @@ number.22.Cellos.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5480,6 +5590,8 @@ number.22.Cellos.Voice.1 = {
 number.22.Cellos.Voice.2.container = {
 
     % [Cellos.Voice.2 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4
@@ -5570,6 +5682,10 @@ number.22.Cellos.Voice.3.container = {
         \once \override Staff.StaffSymbol.line-count = 1
           %! REAPPLIED_STAFF_LINES
         \startStaff
+          %! -PARTS
+        \voiceOne
+          %! -PARTS
+        \voiceOne
           %! REAPPLIED_CLEF
         \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
@@ -5582,8 +5698,6 @@ number.22.Cellos.Voice.3.container = {
         %@% \override Staff.Clef.color = ##f
           %! REAPPLIED_CLEF
         \set Staff.forceClef = ##t
-          %! -PARTS
-        \voiceOne
         r8
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5682,6 +5796,8 @@ number.22.Cellos.Voice.4.container = {
     {
 
         % [Cellos.Voice.4 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         b8
@@ -5799,6 +5915,10 @@ number.22.Cellos.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -5811,8 +5931,6 @@ number.22.Cellos.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -5889,6 +6007,8 @@ number.22.Cellos.Voice.5 = {
 number.22.Cellos.Voice.6.container = {
 
     % [Cellos.Voice.6 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4
@@ -5971,6 +6091,10 @@ number.22.Cellos.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -5983,8 +6107,6 @@ number.22.Cellos.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6093,6 +6215,8 @@ number.22.Cellos.Voice.8.container = {
     % [Cellos.Voice.8 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     r2
 
     \times 2/3
@@ -6183,6 +6307,10 @@ number.22.Cellos.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -6195,8 +6323,6 @@ number.22.Cellos.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6263,6 +6389,8 @@ number.22.Cellos.Voice.9 = {
 number.22.Cellos.Voice.10.container = {
 
     % [Cellos.Voice.10 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r8.
@@ -6353,6 +6481,10 @@ number.22.Cellos.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -6365,8 +6497,6 @@ number.22.Cellos.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6445,6 +6575,8 @@ number.22.Cellos.Voice.11 = {
 number.22.Cellos.Voice.12.container = {
 
     % [Cellos.Voice.12 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r2
@@ -6546,6 +6678,10 @@ number.22.Cellos.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -6558,8 +6694,6 @@ number.22.Cellos.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6662,6 +6796,8 @@ number.22.Cellos.Voice.14.container = {
     % [Cellos.Voice.14 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     r8.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6748,6 +6884,10 @@ number.22.Contrabasses.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -6760,8 +6900,6 @@ number.22.Contrabasses.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -6846,6 +6984,8 @@ number.22.Contrabasses.Voice.2.container = {
     {
 
         % [Contrabasses.Voice.2 measure 1]
+          %! -PARTS
+        \voiceTwo
           %! -PARTS
         \voiceTwo
         b8
@@ -6944,6 +7084,10 @@ number.22.Contrabasses.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -6956,8 +7100,6 @@ number.22.Contrabasses.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -7047,6 +7189,8 @@ number.22.Contrabasses.Voice.3 = {
 number.22.Contrabasses.Voice.4.container = {
 
     % [Contrabasses.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r8
@@ -7139,6 +7283,10 @@ number.22.Contrabasses.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
@@ -7151,8 +7299,6 @@ number.22.Contrabasses.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r16
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -7219,6 +7365,8 @@ number.22.Contrabasses.Voice.5 = {
 number.22.Contrabasses.Voice.6.container = {
 
     % [Contrabasses.Voice.6 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     r4.

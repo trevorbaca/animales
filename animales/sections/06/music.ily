@@ -549,18 +549,20 @@ number.6.Percussion.2.Staff = {
 number.6.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! -PARTS
+    \oneVoice
     \set Staff.instrumentName = \markup \hcenter-in #16 "Vni. I"
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! -PARTS
-    \oneVoice
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF

@@ -314,6 +314,10 @@ number.11.Horns.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -326,8 +330,6 @@ number.11.Horns.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     e'4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Horn”)"
@@ -519,6 +521,8 @@ number.11.Horns.Voice.3.container = {
     % [Horns.Voice.3 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     f'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -646,6 +650,10 @@ number.11.Horns.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -658,8 +666,6 @@ number.11.Horns.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     e'2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Horn”)"
@@ -831,6 +837,8 @@ number.11.Horns.Voice.4.container = {
     % [Horns.Voice.4 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     f'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -973,6 +981,10 @@ number.11.Trumpets.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -985,8 +997,6 @@ number.11.Trumpets.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     bf'!2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trumpet”)"
@@ -1145,6 +1155,8 @@ number.11.Trumpets.Voice.1 = {
 number.11.Trumpets.Voice.3.container = {
 
     % [Trumpets.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     g'2
@@ -1325,6 +1337,10 @@ number.11.Trumpets.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -1337,8 +1353,6 @@ number.11.Trumpets.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r8
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trumpet”)"
@@ -1476,6 +1490,8 @@ number.11.Trumpets.Voice.4.container = {
     % [Trumpets.Voice.4 measure 1]
       %! -PARTS
     \voiceTwo
+      %! -PARTS
+    \voiceTwo
     a'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1605,6 +1621,10 @@ number.11.Trombones.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -1617,8 +1637,6 @@ number.11.Trombones.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     bf!8
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
@@ -1768,6 +1786,8 @@ number.11.Trombones.Voice.1 = {
 number.11.Trombones.Voice.3.container = {
 
     % [Trombones.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     g2
@@ -1927,6 +1947,10 @@ number.11.Trombones.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -1939,8 +1963,6 @@ number.11.Trombones.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     bf!2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
@@ -2076,6 +2098,8 @@ number.11.Trombones.Voice.2 = {
 number.11.Trombones.Voice.4.container = {
 
     % [Trombones.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     g8
@@ -2636,6 +2660,8 @@ number.11.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR

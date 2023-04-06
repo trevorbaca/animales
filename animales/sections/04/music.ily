@@ -316,6 +316,8 @@ number.4.Horns.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
@@ -326,8 +328,6 @@ number.4.Horns.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -459,6 +459,8 @@ number.4.Horns.Voice.2.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "bass"
       %! EXPLICIT_CLEF_COLOR
@@ -469,8 +471,6 @@ number.4.Horns.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -602,6 +602,8 @@ number.4.Trumpets.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
@@ -612,8 +614,6 @@ number.4.Trumpets.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -745,6 +745,8 @@ number.4.Trumpets.Voice.2.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
@@ -755,8 +757,6 @@ number.4.Trumpets.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -888,6 +888,8 @@ number.4.Trombones.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "tenor"
       %! EXPLICIT_CLEF_COLOR
@@ -898,8 +900,6 @@ number.4.Trombones.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1031,6 +1031,8 @@ number.4.Trombones.Voice.2.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "tenor"
       %! EXPLICIT_CLEF_COLOR
@@ -1041,8 +1043,6 @@ number.4.Trombones.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1590,6 +1590,8 @@ number.4.FirstViolins.Voice.1.container.1 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -1600,8 +1602,6 @@ number.4.FirstViolins.Voice.1.container.1 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
       %! SPANNER_START
     \pitchedTrill
     df'!1
