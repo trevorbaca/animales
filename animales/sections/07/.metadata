@@ -308,7 +308,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="pp",
-            )
+            ),
+            baca.Memento(
+                context="FirstViolins.Voice.1",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "FirstViolins.Voice.2": [
             baca.Memento(
@@ -318,7 +326,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="p",
-            )
+            ),
+            baca.Memento(
+                context="FirstViolins.Voice.2",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "FirstViolins.Voice.3": [
             baca.Memento(
@@ -428,7 +444,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Horns.Voice.1",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Horns.Voice.2": [
             baca.Memento(
@@ -438,7 +462,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Horns.Voice.2",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Horns.Voice.3": [
             baca.Memento(
@@ -448,7 +480,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Horns.Voice.3",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Horns.Voice.4": [
             baca.Memento(
@@ -458,7 +498,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Horns.Voice.4",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Percussion.1.Music": [
             baca.Memento(
@@ -830,7 +878,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trombones.Voice.1",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Trombones.Voice.2": [
             baca.Memento(
@@ -840,7 +896,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trombones.Voice.2",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Trombones.Voice.3": [
             baca.Memento(
@@ -850,7 +914,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trombones.Voice.3",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Trombones.Voice.4": [
             baca.Memento(
@@ -860,7 +932,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trombones.Voice.4",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Trumpets.Staff.1": [
             baca.Memento(
@@ -922,7 +1002,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trumpets.Voice.1",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Trumpets.Voice.2": [
             baca.Memento(
@@ -932,7 +1020,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trumpets.Voice.2",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=1,
+            ),
         ],
         "Trumpets.Voice.3": [
             baca.Memento(
@@ -942,7 +1038,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trumpets.Voice.3",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Trumpets.Voice.4": [
             baca.Memento(
@@ -952,7 +1056,15 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="\\baca-sffz",
-            )
+            ),
+            baca.Memento(
+                context="Trumpets.Voice.4",
+                edition=Tag(string="-PARTS"),
+                manifest=None,
+                prototype="abjad.VoiceNumber",
+                synthetic_offset=None,
+                value=2,
+            ),
         ],
         "Tuba.Music": [
             baca.Memento(

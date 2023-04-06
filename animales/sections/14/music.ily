@@ -223,6 +223,8 @@ number.14.Flutes.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
@@ -233,8 +235,6 @@ number.14.Flutes.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r2.
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Flute”)"
@@ -538,6 +538,8 @@ number.14.Flutes.Voice.2.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "treble"
       %! EXPLICIT_CLEF_COLOR
@@ -548,8 +550,6 @@ number.14.Flutes.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Flute”)"
@@ -1728,6 +1728,10 @@ number.14.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -1738,8 +1742,6 @@ number.14.FirstViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
       %! SPANNER_START
     \pitchedTrill
     g2.

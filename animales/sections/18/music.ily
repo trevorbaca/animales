@@ -377,6 +377,12 @@ number.18.Horns.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -389,10 +395,6 @@ number.18.Horns.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     d'8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -496,6 +498,8 @@ number.18.Horns.Voice.1 = {
 number.18.Horns.Voice.3.container = {
 
     % [Horns.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -606,6 +610,12 @@ number.18.Horns.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -618,10 +628,6 @@ number.18.Horns.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     d'8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -725,6 +731,8 @@ number.18.Horns.Voice.2 = {
 number.18.Horns.Voice.4.container = {
 
     % [Horns.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -835,6 +843,12 @@ number.18.Trumpets.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -847,10 +861,6 @@ number.18.Trumpets.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     af'!8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -954,6 +964,8 @@ number.18.Trumpets.Voice.1 = {
 number.18.Trumpets.Voice.3.container = {
 
     % [Trumpets.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -1064,6 +1076,12 @@ number.18.Trumpets.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -1076,10 +1094,6 @@ number.18.Trumpets.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     af'!8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1183,6 +1197,8 @@ number.18.Trumpets.Voice.2 = {
 number.18.Trumpets.Voice.4.container = {
 
     % [Trumpets.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -1293,6 +1309,12 @@ number.18.Trombones.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -1305,10 +1327,6 @@ number.18.Trombones.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     af!8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1412,6 +1430,8 @@ number.18.Trombones.Voice.1 = {
 number.18.Trombones.Voice.3.container = {
 
     % [Trombones.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -1522,6 +1542,12 @@ number.18.Trombones.Voice.2.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -1534,10 +1560,6 @@ number.18.Trombones.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
-      %! -PARTS
-    \voiceOne
     gf!8
       %! +PARTS
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1641,6 +1663,8 @@ number.18.Trombones.Voice.2 = {
 number.18.Trombones.Voice.4.container = {
 
     % [Trombones.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
       %! -PARTS
@@ -1759,6 +1783,10 @@ number.18.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -1769,8 +1797,6 @@ number.18.FirstViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2017,6 +2043,8 @@ number.18.FirstViolins.Voice.2.container = {
     % [FirstViolins.Voice.2 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceOne
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -2271,6 +2299,10 @@ number.18.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-17)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -2281,8 +2313,6 @@ number.18.FirstViolins.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2529,6 +2559,8 @@ number.18.FirstViolins.Voice.4.container = {
     % [FirstViolins.Voice.4 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -2915,6 +2947,10 @@ number.18.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -2925,8 +2961,6 @@ number.18.SecondViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3177,6 +3211,8 @@ number.18.SecondViolins.Voice.2.container = {
     % [SecondViolins.Voice.2 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -3431,6 +3467,10 @@ number.18.SecondViolins.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! REAPPLIED_CLEF_COLOR
@@ -3441,8 +3481,6 @@ number.18.SecondViolins.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3689,6 +3727,8 @@ number.18.SecondViolins.Voice.4.container = {
     % [SecondViolins.Voice.4 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -3943,6 +3983,10 @@ number.18.Violas.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-4)" \hcenter-in #16 "(5-8)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "alto"
       %! REAPPLIED_CLEF_COLOR
@@ -3953,8 +3997,6 @@ number.18.Violas.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4201,6 +4243,8 @@ number.18.Violas.Voice.2.container = {
     % [Violas.Voice.2 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -4455,6 +4499,10 @@ number.18.Violas.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-12)" \hcenter-in #16 "(13-18)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "alto"
       %! REAPPLIED_CLEF_COLOR
@@ -4465,8 +4513,6 @@ number.18.Violas.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4713,6 +4759,8 @@ number.18.Violas.Voice.4.container = {
     % [Violas.Voice.4 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4
@@ -4967,6 +5015,10 @@ number.18.Cellos.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-8)" \hcenter-in #16 "(9-14)" }
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! REAPPLIED_CLEF_COLOR
@@ -4977,8 +5029,6 @@ number.18.Cellos.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5229,6 +5279,8 @@ number.18.Cellos.Voice.2.container = {
     % [Cellos.Voice.2 measure 1]
       %! -PARTS
     \override TextSpanner.staff-padding = 5
+      %! -PARTS
+    \voiceTwo
       %! -PARTS
     \voiceTwo
     R1 * 3/4

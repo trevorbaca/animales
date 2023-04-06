@@ -137,6 +137,8 @@ number.19.Horns.Voice.1 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -186,6 +188,8 @@ number.19.Horns.Voice.1 = {
 number.19.Horns.Voice.3 = {
 
     % [Horns.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -226,6 +230,8 @@ number.19.Horns.Voice.2 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "bass"
       %! -PARTS
@@ -275,6 +281,8 @@ number.19.Horns.Voice.2 = {
 number.19.Horns.Voice.4 = {
 
     % [Horns.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -315,6 +323,8 @@ number.19.Trumpets.Voice.1 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -364,6 +374,8 @@ number.19.Trumpets.Voice.1 = {
 number.19.Trumpets.Voice.3 = {
 
     % [Trumpets.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -404,6 +416,8 @@ number.19.Trumpets.Voice.2 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "treble"
       %! -PARTS
@@ -453,6 +467,8 @@ number.19.Trumpets.Voice.2 = {
 number.19.Trumpets.Voice.4 = {
 
     % [Trumpets.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -493,6 +509,8 @@ number.19.Trombones.Voice.1 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -542,6 +560,8 @@ number.19.Trombones.Voice.1 = {
 number.19.Trombones.Voice.3 = {
 
     % [Trombones.Voice.3 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -582,6 +602,8 @@ number.19.Trombones.Voice.2 = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
       %! REAPPLIED_CLEF
     \clef "tenor"
       %! -PARTS
@@ -631,6 +653,8 @@ number.19.Trombones.Voice.2 = {
 number.19.Trombones.Voice.4 = {
 
     % [Trombones.Voice.4 measure 1]
+      %! -PARTS
+    \voiceTwo
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1061,6 +1085,10 @@ number.19.FirstViolins.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1075,8 +1103,6 @@ number.19.FirstViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1131,6 +1157,10 @@ number.19.FirstViolins.Voice.2.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1141,8 +1171,6 @@ number.19.FirstViolins.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1200,6 +1228,10 @@ number.19.FirstViolins.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1214,8 +1246,6 @@ number.19.FirstViolins.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1265,6 +1295,10 @@ number.19.FirstViolins.Voice.4.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1275,8 +1309,6 @@ number.19.FirstViolins.Voice.4.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1334,6 +1366,8 @@ number.19.FirstViolins.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1348,8 +1382,6 @@ number.19.FirstViolins.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1399,6 +1431,8 @@ number.19.FirstViolins.Voice.6.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1409,8 +1443,6 @@ number.19.FirstViolins.Voice.6.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1469,6 +1501,8 @@ number.19.FirstViolins.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1483,8 +1517,6 @@ number.19.FirstViolins.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1527,6 +1559,8 @@ number.19.FirstViolins.Voice.8.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1537,8 +1571,6 @@ number.19.FirstViolins.Voice.8.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1591,6 +1623,8 @@ number.19.FirstViolins.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1605,8 +1639,6 @@ number.19.FirstViolins.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1649,6 +1681,8 @@ number.19.FirstViolins.Voice.10.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1659,8 +1693,6 @@ number.19.FirstViolins.Voice.10.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1713,6 +1745,8 @@ number.19.FirstViolins.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1727,8 +1761,6 @@ number.19.FirstViolins.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1771,6 +1803,8 @@ number.19.FirstViolins.Voice.12.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1781,8 +1815,6 @@ number.19.FirstViolins.Voice.12.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1835,6 +1867,8 @@ number.19.FirstViolins.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1849,8 +1883,6 @@ number.19.FirstViolins.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1893,6 +1925,8 @@ number.19.FirstViolins.Voice.14.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -1903,8 +1937,6 @@ number.19.FirstViolins.Voice.14.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1957,6 +1989,8 @@ number.19.FirstViolins.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -1971,8 +2005,6 @@ number.19.FirstViolins.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2015,6 +2047,8 @@ number.19.FirstViolins.Voice.16.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2025,8 +2059,6 @@ number.19.FirstViolins.Voice.16.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2082,6 +2114,8 @@ number.19.FirstViolins.Voice.17.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2096,8 +2130,6 @@ number.19.FirstViolins.Voice.17.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2143,6 +2175,8 @@ number.19.FirstViolins.Voice.18.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2153,8 +2187,6 @@ number.19.FirstViolins.Voice.18.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2216,6 +2248,10 @@ number.19.SecondViolins.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2230,8 +2266,6 @@ number.19.SecondViolins.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2284,6 +2318,10 @@ number.19.SecondViolins.Voice.2.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2294,8 +2332,6 @@ number.19.SecondViolins.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2353,6 +2389,10 @@ number.19.SecondViolins.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2367,8 +2407,6 @@ number.19.SecondViolins.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2431,6 +2469,10 @@ number.19.SecondViolins.Voice.4.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2441,8 +2483,6 @@ number.19.SecondViolins.Voice.4.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2500,6 +2540,8 @@ number.19.SecondViolins.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2514,8 +2556,6 @@ number.19.SecondViolins.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2558,6 +2598,8 @@ number.19.SecondViolins.Voice.6.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2568,8 +2610,6 @@ number.19.SecondViolins.Voice.6.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2626,6 +2666,8 @@ number.19.SecondViolins.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2640,8 +2682,6 @@ number.19.SecondViolins.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2684,6 +2724,8 @@ number.19.SecondViolins.Voice.8.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2694,8 +2736,6 @@ number.19.SecondViolins.Voice.8.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2748,6 +2788,8 @@ number.19.SecondViolins.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2762,8 +2804,6 @@ number.19.SecondViolins.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2806,6 +2846,8 @@ number.19.SecondViolins.Voice.10.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2816,8 +2858,6 @@ number.19.SecondViolins.Voice.10.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2870,6 +2910,8 @@ number.19.SecondViolins.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -2884,8 +2926,6 @@ number.19.SecondViolins.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2928,6 +2968,8 @@ number.19.SecondViolins.Voice.12.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -2938,8 +2980,6 @@ number.19.SecondViolins.Voice.12.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3012,6 +3052,8 @@ number.19.SecondViolins.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3026,8 +3068,6 @@ number.19.SecondViolins.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3070,6 +3110,8 @@ number.19.SecondViolins.Voice.14.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3080,8 +3122,6 @@ number.19.SecondViolins.Voice.14.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3134,6 +3174,8 @@ number.19.SecondViolins.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3148,8 +3190,6 @@ number.19.SecondViolins.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3192,6 +3232,8 @@ number.19.SecondViolins.Voice.16.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3202,8 +3244,6 @@ number.19.SecondViolins.Voice.16.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3259,6 +3299,8 @@ number.19.SecondViolins.Voice.17.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3273,8 +3315,6 @@ number.19.SecondViolins.Voice.17.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3320,6 +3360,8 @@ number.19.SecondViolins.Voice.18.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3330,8 +3372,6 @@ number.19.SecondViolins.Voice.18.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3387,6 +3427,10 @@ number.19.Violas.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3401,8 +3445,6 @@ number.19.Violas.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3455,6 +3497,10 @@ number.19.Violas.Voice.2.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3465,8 +3511,6 @@ number.19.Violas.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3524,6 +3568,10 @@ number.19.Violas.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3538,8 +3586,6 @@ number.19.Violas.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3589,6 +3635,10 @@ number.19.Violas.Voice.4.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3599,8 +3649,6 @@ number.19.Violas.Voice.4.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3658,6 +3706,8 @@ number.19.Violas.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3672,8 +3722,6 @@ number.19.Violas.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3716,6 +3764,8 @@ number.19.Violas.Voice.6.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3726,8 +3776,6 @@ number.19.Violas.Voice.6.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r2
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3792,6 +3840,8 @@ number.19.Violas.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3806,8 +3856,6 @@ number.19.Violas.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3850,6 +3898,8 @@ number.19.Violas.Voice.8.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3860,8 +3910,6 @@ number.19.Violas.Voice.8.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3914,6 +3962,8 @@ number.19.Violas.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -3928,8 +3978,6 @@ number.19.Violas.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3972,6 +4020,8 @@ number.19.Violas.Voice.10.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -3982,8 +4032,6 @@ number.19.Violas.Voice.10.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4036,6 +4084,8 @@ number.19.Violas.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4050,8 +4100,6 @@ number.19.Violas.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4094,6 +4142,8 @@ number.19.Violas.Voice.12.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4104,8 +4154,6 @@ number.19.Violas.Voice.12.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r2
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4171,6 +4219,8 @@ number.19.Violas.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4185,8 +4235,6 @@ number.19.Violas.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4229,6 +4277,8 @@ number.19.Violas.Voice.14.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4239,8 +4289,6 @@ number.19.Violas.Voice.14.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4293,6 +4341,8 @@ number.19.Violas.Voice.15.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4307,8 +4357,6 @@ number.19.Violas.Voice.15.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r4.
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4359,6 +4407,8 @@ number.19.Violas.Voice.16.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4369,8 +4419,6 @@ number.19.Violas.Voice.16.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4426,6 +4474,8 @@ number.19.Violas.Voice.17.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4440,8 +4490,6 @@ number.19.Violas.Voice.17.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4487,6 +4535,8 @@ number.19.Violas.Voice.18.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4497,8 +4547,6 @@ number.19.Violas.Voice.18.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r4
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4562,6 +4610,10 @@ number.19.Cellos.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4576,8 +4628,6 @@ number.19.Cellos.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4630,6 +4680,10 @@ number.19.Cellos.Voice.2.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4640,8 +4694,6 @@ number.19.Cellos.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4699,6 +4751,8 @@ number.19.Cellos.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4713,8 +4767,6 @@ number.19.Cellos.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4757,6 +4809,8 @@ number.19.Cellos.Voice.4.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4767,8 +4821,6 @@ number.19.Cellos.Voice.4.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4821,6 +4873,8 @@ number.19.Cellos.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4835,8 +4889,6 @@ number.19.Cellos.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4883,6 +4935,8 @@ number.19.Cellos.Voice.6.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -4893,8 +4947,6 @@ number.19.Cellos.Voice.6.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4947,6 +4999,8 @@ number.19.Cellos.Voice.7.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -4961,8 +5015,6 @@ number.19.Cellos.Voice.7.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5005,6 +5057,8 @@ number.19.Cellos.Voice.8.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5015,8 +5069,6 @@ number.19.Cellos.Voice.8.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5069,6 +5121,8 @@ number.19.Cellos.Voice.9.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5083,8 +5137,6 @@ number.19.Cellos.Voice.9.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5127,6 +5179,8 @@ number.19.Cellos.Voice.10.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5137,8 +5191,6 @@ number.19.Cellos.Voice.10.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5191,6 +5243,8 @@ number.19.Cellos.Voice.11.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5205,8 +5259,6 @@ number.19.Cellos.Voice.11.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5255,6 +5307,8 @@ number.19.Cellos.Voice.12.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5265,8 +5319,6 @@ number.19.Cellos.Voice.12.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5322,6 +5374,8 @@ number.19.Cellos.Voice.13.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5336,8 +5390,6 @@ number.19.Cellos.Voice.13.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5383,6 +5435,8 @@ number.19.Cellos.Voice.14.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5393,8 +5447,6 @@ number.19.Cellos.Voice.14.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5450,6 +5502,8 @@ number.19.Contrabasses.Voice.1.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5464,8 +5518,6 @@ number.19.Contrabasses.Voice.1.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5518,6 +5570,8 @@ number.19.Contrabasses.Voice.2.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5528,8 +5582,6 @@ number.19.Contrabasses.Voice.2.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5582,6 +5634,8 @@ number.19.Contrabasses.Voice.3.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5596,8 +5650,6 @@ number.19.Contrabasses.Voice.3.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5647,6 +5699,8 @@ number.19.Contrabasses.Voice.4.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5657,8 +5711,6 @@ number.19.Contrabasses.Voice.4.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5714,6 +5766,8 @@ number.19.Contrabasses.Voice.5.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! -PARTS
@@ -5728,8 +5782,6 @@ number.19.Contrabasses.Voice.5.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceOne
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5775,6 +5827,8 @@ number.19.Contrabasses.Voice.6.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
+      %! -PARTS
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
       %! EXPLICIT_CLEF_COLOR
@@ -5785,8 +5839,6 @@ number.19.Contrabasses.Voice.6.container = {
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
     \set Staff.forceClef = ##t
-      %! -PARTS
-    \voiceTwo
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
