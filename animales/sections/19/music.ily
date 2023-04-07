@@ -133,14 +133,6 @@ number.19.Skips = {
 number.19.Horns.Voice.1 = {
 
     % [Horns.Voice.1 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "bass"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -151,6 +143,14 @@ number.19.Horns.Voice.1 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "bass"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -226,14 +226,6 @@ number.19.Horns.Staff.1 = <<
 number.19.Horns.Voice.2 = {
 
     % [Horns.Voice.2 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "bass"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -244,6 +236,14 @@ number.19.Horns.Voice.2 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "bass"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -319,14 +319,6 @@ number.19.Horns.Staff.2 = <<
 number.19.Trumpets.Voice.1 = {
 
     % [Trumpets.Voice.1 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -337,6 +329,14 @@ number.19.Trumpets.Voice.1 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "treble"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -412,14 +412,6 @@ number.19.Trumpets.Staff.1 = <<
 number.19.Trumpets.Voice.2 = {
 
     % [Trumpets.Voice.2 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -430,6 +422,14 @@ number.19.Trumpets.Voice.2 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "treble"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -505,14 +505,6 @@ number.19.Trumpets.Staff.2 = <<
 number.19.Trombones.Voice.1 = {
 
     % [Trombones.Voice.1 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "tenor"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -523,6 +515,14 @@ number.19.Trombones.Voice.1 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "tenor"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -598,14 +598,6 @@ number.19.Trombones.Staff.1 = <<
 number.19.Trombones.Voice.2 = {
 
     % [Trombones.Voice.2 measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
-      %! -PARTS
-    \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "tenor"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -616,6 +608,14 @@ number.19.Trombones.Voice.2 = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
+      %! -PARTS
+    \voiceOne
+      %! REAPPLIED_CLEF
+    \clef "tenor"
     R1 * 4/4
       %! +PARTS
       %! REAPPLIED_DYNAMIC_COLOR
@@ -691,12 +691,6 @@ number.19.Trombones.Staff.2 = <<
 number.19.Tuba.Music = {
 
     % [Tuba.Music measure 1]
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
-      %! REAPPLIED_CLEF
-    \clef "bass"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -707,6 +701,12 @@ number.19.Tuba.Music = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Tub."
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
+      %! REAPPLIED_CLEF
+    \clef "bass"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -749,12 +749,6 @@ number.19.Tuba.Staff = {
 number.19.Piano.Music = {
 
     % [Piano.Music measure 1]
-    \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -765,6 +759,12 @@ number.19.Piano.Music = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \hcenter-in #16 "Pf."
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
+      %! REAPPLIED_CLEF
+    \clef "treble"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -808,9 +808,21 @@ number.19.Percussion.1.Music = {
 
     % [Percussion.1.Music measure 1]
       %! -PARTS
+    \magnifyStaff #3/5
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -823,18 +835,6 @@ number.19.Percussion.1.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -877,18 +877,6 @@ number.19.Percussion.1.Staff = {
 number.19.Percussion.2.Music = {
 
     % [Percussion.2.Music measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
-      %! REAPPLIED_STAFF_LINES
-    \stopStaff
-      %! REAPPLIED_STAFF_LINES
-    \once \override Staff.StaffSymbol.line-count = 1
-      %! REAPPLIED_STAFF_LINES
-    \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -901,6 +889,18 @@ number.19.Percussion.2.Music = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+      %! REAPPLIED_STAFF_LINES
+    \stopStaff
+      %! REAPPLIED_STAFF_LINES
+    \once \override Staff.StaffSymbol.line-count = 1
+      %! REAPPLIED_STAFF_LINES
+    \startStaff
+      %! REAPPLIED_CLEF
+    \clef "percussion"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -943,12 +943,6 @@ number.19.Percussion.2.Staff = {
 number.19.Percussion.3.Music = {
 
     % [Percussion.3.Music measure 1]
-    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-      %! -PARTS
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! -PARTS
     \magnifyStaff #3/5
       %! REAPPLIED_CLEF_COLOR
@@ -959,6 +953,12 @@ number.19.Percussion.3.Music = {
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
     \set Staff.forceClef = ##t
+    \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+      %! -PARTS
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
+      %! REAPPLIED_CLEF
+    \clef "treble"
     R1 * 4/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1002,9 +1002,21 @@ number.19.Percussion.4.Music = {
 
     % [Percussion.4.Music measure 1]
       %! -PARTS
+    \magnifyStaff #3/5
+      %! REAPPLIED_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'green4)
+      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+      %! REAPPLIED_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
+      %! -PARTS
       %! EXPLICIT_BAR_EXTENT
       %! REAPPLIED_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! REAPPLIED_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! REAPPLIED_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \hcenter-in #16 "Perc."
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
@@ -1017,18 +1029,6 @@ number.19.Percussion.4.Music = {
     \startStaff
       %! REAPPLIED_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! REAPPLIED_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'green4)
-      %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
-      %! REAPPLIED_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
-      %! REAPPLIED_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! REAPPLIED_CLEF
-    \set Staff.forceClef = ##t
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1066,15 +1066,27 @@ number.19.Percussion.4.Staff = {
 number.19.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-2)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1091,18 +1103,6 @@ number.19.FirstViolins.Voice.1.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1145,12 +1145,20 @@ number.19.FirstViolins.Voice.2.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1163,14 +1171,6 @@ number.19.FirstViolins.Voice.2.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1212,12 +1212,24 @@ number.19.FirstViolins.Staff.1 = <<
 number.19.FirstViolins.Voice.3.container = {
 
     % [FirstViolins.Voice.3 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(3-4)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1234,18 +1246,6 @@ number.19.FirstViolins.Voice.3.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1286,9 +1286,17 @@ number.19.FirstViolins.Voice.4.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1301,14 +1309,6 @@ number.19.FirstViolins.Voice.4.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1350,12 +1350,24 @@ number.19.FirstViolins.Staff.2 = <<
 number.19.FirstViolins.Voice.5.container = {
 
     % [FirstViolins.Voice.5 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(5-6)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1370,18 +1382,6 @@ number.19.FirstViolins.Voice.5.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1422,9 +1422,17 @@ number.19.FirstViolins.Voice.6.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1435,14 +1443,6 @@ number.19.FirstViolins.Voice.6.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1485,12 +1485,24 @@ number.19.FirstViolins.Staff.3 = <<
 number.19.FirstViolins.Voice.7.container = {
 
     % [FirstViolins.Voice.7 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(7-8)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1505,18 +1517,6 @@ number.19.FirstViolins.Voice.7.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1550,9 +1550,17 @@ number.19.FirstViolins.Voice.8.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1563,14 +1571,6 @@ number.19.FirstViolins.Voice.8.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1607,12 +1607,24 @@ number.19.FirstViolins.Staff.4 = <<
 number.19.FirstViolins.Voice.9.container = {
 
     % [FirstViolins.Voice.9 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(9-10)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1627,18 +1639,6 @@ number.19.FirstViolins.Voice.9.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1672,9 +1672,17 @@ number.19.FirstViolins.Voice.10.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1685,14 +1693,6 @@ number.19.FirstViolins.Voice.10.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1729,12 +1729,24 @@ number.19.FirstViolins.Staff.5 = <<
 number.19.FirstViolins.Voice.11.container = {
 
     % [FirstViolins.Voice.11 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-12)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1749,18 +1761,6 @@ number.19.FirstViolins.Voice.11.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1794,9 +1794,17 @@ number.19.FirstViolins.Voice.12.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1807,14 +1815,6 @@ number.19.FirstViolins.Voice.12.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1851,12 +1851,24 @@ number.19.FirstViolins.Staff.6 = <<
 number.19.FirstViolins.Voice.13.container = {
 
     % [FirstViolins.Voice.13 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(13-14)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1871,18 +1883,6 @@ number.19.FirstViolins.Voice.13.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1916,9 +1916,17 @@ number.19.FirstViolins.Voice.14.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -1929,14 +1937,6 @@ number.19.FirstViolins.Voice.14.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -1973,12 +1973,24 @@ number.19.FirstViolins.Staff.7 = <<
 number.19.FirstViolins.Voice.15.container = {
 
     % [FirstViolins.Voice.15 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(15-16)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -1993,18 +2005,6 @@ number.19.FirstViolins.Voice.15.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2038,9 +2038,17 @@ number.19.FirstViolins.Voice.16.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2051,14 +2059,6 @@ number.19.FirstViolins.Voice.16.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2095,15 +2095,27 @@ number.19.FirstViolins.Staff.8 = <<
 number.19.FirstViolins.Voice.17.container = {
 
     % [FirstViolins.Voice.17 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2118,18 +2130,6 @@ number.19.FirstViolins.Voice.17.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2163,12 +2163,20 @@ number.19.FirstViolins.Voice.18.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2179,14 +2187,6 @@ number.19.FirstViolins.Voice.18.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2229,15 +2229,27 @@ number.19.FirstViolins.Staff.9 = <<
 number.19.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-2)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2254,18 +2266,6 @@ number.19.SecondViolins.Voice.1.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2306,12 +2306,20 @@ number.19.SecondViolins.Voice.2.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2324,14 +2332,6 @@ number.19.SecondViolins.Voice.2.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2373,12 +2373,24 @@ number.19.SecondViolins.Staff.1 = <<
 number.19.SecondViolins.Voice.3.container = {
 
     % [SecondViolins.Voice.3 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(3-4)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2395,18 +2407,6 @@ number.19.SecondViolins.Voice.3.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2460,9 +2460,17 @@ number.19.SecondViolins.Voice.4.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2475,14 +2483,6 @@ number.19.SecondViolins.Voice.4.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2524,12 +2524,24 @@ number.19.SecondViolins.Staff.2 = <<
 number.19.SecondViolins.Voice.5.container = {
 
     % [SecondViolins.Voice.5 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(5-6)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2544,18 +2556,6 @@ number.19.SecondViolins.Voice.5.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2589,9 +2589,17 @@ number.19.SecondViolins.Voice.6.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2602,14 +2610,6 @@ number.19.SecondViolins.Voice.6.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2650,12 +2650,24 @@ number.19.SecondViolins.Staff.3 = <<
 number.19.SecondViolins.Voice.7.container = {
 
     % [SecondViolins.Voice.7 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(7-8)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2670,18 +2682,6 @@ number.19.SecondViolins.Voice.7.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2715,9 +2715,17 @@ number.19.SecondViolins.Voice.8.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2728,14 +2736,6 @@ number.19.SecondViolins.Voice.8.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2772,12 +2772,24 @@ number.19.SecondViolins.Staff.4 = <<
 number.19.SecondViolins.Voice.9.container = {
 
     % [SecondViolins.Voice.9 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(9-10)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2792,18 +2804,6 @@ number.19.SecondViolins.Voice.9.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2837,9 +2837,17 @@ number.19.SecondViolins.Voice.10.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2850,14 +2858,6 @@ number.19.SecondViolins.Voice.10.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2894,12 +2894,24 @@ number.19.SecondViolins.Staff.5 = <<
 number.19.SecondViolins.Voice.11.container = {
 
     % [SecondViolins.Voice.11 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-12)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -2914,18 +2926,6 @@ number.19.SecondViolins.Voice.11.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -2959,9 +2959,17 @@ number.19.SecondViolins.Voice.12.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -2972,14 +2980,6 @@ number.19.SecondViolins.Voice.12.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3036,12 +3036,24 @@ number.19.SecondViolins.Staff.6 = <<
 number.19.SecondViolins.Voice.13.container = {
 
     % [SecondViolins.Voice.13 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3056,18 +3068,6 @@ number.19.SecondViolins.Voice.13.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3101,9 +3101,17 @@ number.19.SecondViolins.Voice.14.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3114,14 +3122,6 @@ number.19.SecondViolins.Voice.14.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3158,12 +3158,24 @@ number.19.SecondViolins.Staff.7 = <<
 number.19.SecondViolins.Voice.15.container = {
 
     % [SecondViolins.Voice.15 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(15-16)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3178,18 +3190,6 @@ number.19.SecondViolins.Voice.15.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3223,9 +3223,17 @@ number.19.SecondViolins.Voice.16.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3236,14 +3244,6 @@ number.19.SecondViolins.Voice.16.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3280,15 +3280,27 @@ number.19.SecondViolins.Staff.8 = <<
 number.19.SecondViolins.Voice.17.container = {
 
     % [SecondViolins.Voice.17 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3303,18 +3315,6 @@ number.19.SecondViolins.Voice.17.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3348,12 +3348,20 @@ number.19.SecondViolins.Voice.18.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3364,14 +3372,6 @@ number.19.SecondViolins.Voice.18.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3408,15 +3408,27 @@ number.19.SecondViolins.Staff.9 = <<
 number.19.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-2)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3433,18 +3445,6 @@ number.19.Violas.Voice.1.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3485,12 +3485,20 @@ number.19.Violas.Voice.2.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3503,14 +3511,6 @@ number.19.Violas.Voice.2.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3552,12 +3552,24 @@ number.19.Violas.Staff.1 = <<
 number.19.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(3-4)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3574,18 +3586,6 @@ number.19.Violas.Voice.3.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3626,9 +3626,17 @@ number.19.Violas.Voice.4.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3641,14 +3649,6 @@ number.19.Violas.Voice.4.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -3690,12 +3690,24 @@ number.19.Violas.Staff.2 = <<
 number.19.Violas.Voice.5.container = {
 
     % [Violas.Voice.5 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(5-6)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3710,18 +3722,6 @@ number.19.Violas.Voice.5.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3755,9 +3755,17 @@ number.19.Violas.Voice.6.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3768,14 +3776,6 @@ number.19.Violas.Voice.6.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r2
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3824,12 +3824,24 @@ number.19.Violas.Staff.3 = <<
 number.19.Violas.Voice.7.container = {
 
     % [Violas.Voice.7 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(7-8)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3844,18 +3856,6 @@ number.19.Violas.Voice.7.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3889,9 +3889,17 @@ number.19.Violas.Voice.8.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -3902,14 +3910,6 @@ number.19.Violas.Voice.8.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -3946,12 +3946,24 @@ number.19.Violas.Staff.4 = <<
 number.19.Violas.Voice.9.container = {
 
     % [Violas.Voice.9 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(9-10)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -3966,18 +3978,6 @@ number.19.Violas.Voice.9.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4011,9 +4011,17 @@ number.19.Violas.Voice.10.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4024,14 +4032,6 @@ number.19.Violas.Voice.10.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4068,12 +4068,24 @@ number.19.Violas.Staff.5 = <<
 number.19.Violas.Voice.11.container = {
 
     % [Violas.Voice.11 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-12)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4088,18 +4100,6 @@ number.19.Violas.Voice.11.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4133,9 +4133,17 @@ number.19.Violas.Voice.12.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4146,14 +4154,6 @@ number.19.Violas.Voice.12.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r2
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4203,12 +4203,24 @@ number.19.Violas.Staff.6 = <<
 number.19.Violas.Voice.13.container = {
 
     % [Violas.Voice.13 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4223,18 +4235,6 @@ number.19.Violas.Voice.13.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4268,9 +4268,17 @@ number.19.Violas.Voice.14.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4281,14 +4289,6 @@ number.19.Violas.Voice.14.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4325,12 +4325,24 @@ number.19.Violas.Staff.7 = <<
 number.19.Violas.Voice.15.container = {
 
     % [Violas.Voice.15 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(15-16)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4345,18 +4357,6 @@ number.19.Violas.Voice.15.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r4.
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4398,9 +4398,17 @@ number.19.Violas.Voice.16.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4411,14 +4419,6 @@ number.19.Violas.Voice.16.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4455,15 +4455,27 @@ number.19.Violas.Staff.8 = <<
 number.19.Violas.Voice.17.container = {
 
     % [Violas.Voice.17 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4478,18 +4490,6 @@ number.19.Violas.Voice.17.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4523,12 +4523,20 @@ number.19.Violas.Voice.18.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4539,14 +4547,6 @@ number.19.Violas.Voice.18.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r4
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4591,15 +4591,27 @@ number.19.Violas.Staff.9 = <<
 number.19.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(1-2)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4616,18 +4628,6 @@ number.19.Cellos.Voice.1.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4668,12 +4668,20 @@ number.19.Cellos.Voice.2.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4686,14 +4694,6 @@ number.19.Cellos.Voice.2.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4735,12 +4735,24 @@ number.19.Cellos.Staff.1 = <<
 number.19.Cellos.Voice.3.container = {
 
     % [Cellos.Voice.3 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(3-4)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4755,18 +4767,6 @@ number.19.Cellos.Voice.3.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4800,9 +4800,17 @@ number.19.Cellos.Voice.4.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4813,14 +4821,6 @@ number.19.Cellos.Voice.4.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4857,12 +4857,24 @@ number.19.Cellos.Staff.2 = <<
 number.19.Cellos.Voice.5.container = {
 
     % [Cellos.Voice.5 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(5-6)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -4877,18 +4889,6 @@ number.19.Cellos.Voice.5.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4926,9 +4926,17 @@ number.19.Cellos.Voice.6.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -4939,14 +4947,6 @@ number.19.Cellos.Voice.6.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -4983,12 +4983,24 @@ number.19.Cellos.Staff.3 = <<
 number.19.Cellos.Voice.7.container = {
 
     % [Cellos.Voice.7 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(7-8)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5003,18 +5015,6 @@ number.19.Cellos.Voice.7.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5048,9 +5048,17 @@ number.19.Cellos.Voice.8.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5061,14 +5069,6 @@ number.19.Cellos.Voice.8.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5105,12 +5105,24 @@ number.19.Cellos.Staff.4 = <<
 number.19.Cellos.Voice.9.container = {
 
     % [Cellos.Voice.9 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(9-10)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5125,18 +5137,6 @@ number.19.Cellos.Voice.9.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5170,9 +5170,17 @@ number.19.Cellos.Voice.10.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5183,14 +5191,6 @@ number.19.Cellos.Voice.10.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5227,12 +5227,24 @@ number.19.Cellos.Staff.5 = <<
 number.19.Cellos.Voice.11.container = {
 
     % [Cellos.Voice.11 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(11-12)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5247,18 +5259,6 @@ number.19.Cellos.Voice.11.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5298,9 +5298,17 @@ number.19.Cellos.Voice.12.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5311,14 +5319,6 @@ number.19.Cellos.Voice.12.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5355,15 +5355,27 @@ number.19.Cellos.Staff.6 = <<
 number.19.Cellos.Voice.13.container = {
 
     % [Cellos.Voice.13 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Vc." \hcenter-in #16 "(13-14)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5378,18 +5390,6 @@ number.19.Cellos.Voice.13.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5423,12 +5423,20 @@ number.19.Cellos.Voice.14.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5439,14 +5447,6 @@ number.19.Cellos.Voice.14.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5483,15 +5483,27 @@ number.19.Cellos.Staff.7 = <<
 number.19.Contrabasses.Voice.1.container = {
 
     % [Contrabasses.Voice.1 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(1-2)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5506,18 +5518,6 @@ number.19.Contrabasses.Voice.1.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5558,12 +5558,20 @@ number.19.Contrabasses.Voice.2.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 0)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5574,14 +5582,6 @@ number.19.Contrabasses.Voice.2.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5618,12 +5618,24 @@ number.19.Contrabasses.Staff.1 = <<
 number.19.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5638,18 +5650,6 @@ number.19.Contrabasses.Voice.3.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -5690,9 +5690,17 @@ number.19.Contrabasses.Voice.4.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5703,14 +5711,6 @@ number.19.Contrabasses.Voice.4.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5747,15 +5747,27 @@ number.19.Contrabasses.Staff.2 = <<
 number.19.Contrabasses.Voice.5.container = {
 
     % [Contrabasses.Voice.5 measure 1]
+      %! -PARTS
+    \magnifyStaff #3/5
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
+    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
     \set Staff.instrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(5-6)" }
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
@@ -5770,18 +5782,6 @@ number.19.Contrabasses.Voice.5.container = {
     \voiceOne
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! -PARTS
-    \magnifyStaff #3/5
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
@@ -5815,12 +5815,20 @@ number.19.Contrabasses.Voice.6.container = {
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
+      %! EXPLICIT_CLEF_COLOR
+    \once \override Staff.Clef.color = #(x11-color 'blue)
       %! MEASURE_131
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
+      %! EXPLICIT_STAFF_LINES_COLOR
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(0 . 2)
+      %! EXPLICIT_CLEF_COLOR_CANCELLATION
+    %@% \override Staff.Clef.color = ##f
+      %! EXPLICIT_CLEF
+    \set Staff.forceClef = ##t
       %! EXPLICIT_STAFF_LINES
     \stopStaff
       %! EXPLICIT_STAFF_LINES
@@ -5831,14 +5839,6 @@ number.19.Contrabasses.Voice.6.container = {
     \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
-      %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
-      %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
-      %! EXPLICIT_CLEF_COLOR_CANCELLATION
-    %@% \override Staff.Clef.color = ##f
-      %! EXPLICIT_CLEF
-    \set Staff.forceClef = ##t
     r1
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
