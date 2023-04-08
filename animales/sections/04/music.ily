@@ -1450,8 +1450,6 @@ number.4.FirstViolins.Voice.2.container = {
       %! -PARTS
     \voiceOne
     c''2
-          %! +PARTS
-    %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
@@ -1463,6 +1461,8 @@ number.4.FirstViolins.Voice.2.container = {
     ^ \markup { solo (first violin) }
       %! +PARTS
 %%% ^ \markup { solo }
+      %! +PARTS
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START

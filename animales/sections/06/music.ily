@@ -568,8 +568,6 @@ number.6.FirstViolins.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "treble"
     b4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -582,6 +580,8 @@ number.6.FirstViolins.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -706,8 +706,6 @@ number.6.FirstViolins.Voice.3 = {
       %! REAPPLIED_CLEF
     \clef "treble"
     R1 * 4/4
-          %! -SECTION
-    %%% \stopTrillSpan
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
@@ -717,6 +715,8 @@ number.6.FirstViolins.Voice.3 = {
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -779,8 +779,6 @@ number.6.SecondViolins.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "treble"
     b4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -793,6 +791,8 @@ number.6.SecondViolins.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -917,8 +917,6 @@ number.6.SecondViolins.Voice.3 = {
       %! REAPPLIED_CLEF
     \clef "treble"
     R1 * 4/4
-          %! -SECTION
-    %%% \stopTrillSpan
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
@@ -928,6 +926,8 @@ number.6.SecondViolins.Voice.3 = {
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -990,8 +990,6 @@ number.6.Violas.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "alto"
     b4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1004,6 +1002,8 @@ number.6.Violas.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -1128,8 +1128,6 @@ number.6.Violas.Voice.3 = {
       %! REAPPLIED_CLEF
     \clef "alto"
     R1 * 4/4
-          %! -SECTION
-    %%% \stopTrillSpan
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
     - \tweak color #(x11-color 'green4)
@@ -1139,6 +1137,8 @@ number.6.Violas.Voice.3 = {
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1201,8 +1201,6 @@ number.6.Cellos.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "bass"
     b4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -1215,6 +1213,8 @@ number.6.Cellos.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN

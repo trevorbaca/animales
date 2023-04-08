@@ -519,8 +519,6 @@ number.5.FirstViolins.Voice.2.container = {
       %! -PARTS
     \voiceOne
     b'2
-          %! +PARTS
-    %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
@@ -530,6 +528,8 @@ number.5.FirstViolins.Voice.2.container = {
       %! REDUNDANT_DYNAMIC
       %! SPANNER_STOP
     \p
+      %! +PARTS
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START

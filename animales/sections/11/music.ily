@@ -2673,8 +2673,6 @@ number.11.FirstViolins.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "treble"
     a4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2687,6 +2685,8 @@ number.11.FirstViolins.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -2815,8 +2815,6 @@ number.11.SecondViolins.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "treble"
     a4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2829,6 +2827,8 @@ number.11.SecondViolins.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -2957,8 +2957,6 @@ number.11.Violas.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "alto"
     a4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -2971,6 +2969,8 @@ number.11.Violas.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
@@ -3099,8 +3099,6 @@ number.11.Cellos.Voice.1.container = {
       %! REAPPLIED_CLEF
     \clef "bass"
     a4
-          %! -SECTION
-    %%% \stopTrillSpan
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -3113,6 +3111,8 @@ number.11.Cellos.Voice.1.container = {
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
+      %! -SECTION
+%%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
