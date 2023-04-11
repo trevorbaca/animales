@@ -265,7 +265,6 @@ def cb1(cache):
         baca.instrument(o.leaf(0), "Contrabass", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Cb. 1", library.manifests)
         baca.clef(o.leaf(0), "bass")
-        baca.short_instrument_name(o.leaf(0), "Cb. 1", library.manifests)
         baca.dynamic(o.phead(0), "p")
         library.assign_part(o, "Contrabass", 1)
     with baca.scope(m[1]) as o:

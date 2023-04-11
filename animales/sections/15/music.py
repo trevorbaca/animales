@@ -283,7 +283,6 @@ def strings(cache, time_signatures):
             allow_repitch=True,
         )
         baca.glissando(o.tleaves())
-        baca.glissando(o.tleaves())
         wrappers = baca.voice_one(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dls_up(o)
