@@ -1124,7 +1124,7 @@ number.26.FirstViolins.Voice.1.container = {
       %! -PARTS
     \voiceOne
       %! -PARTS
-    \voiceOne
+    \voiceTwo
       %! REAPPLIED_CLEF
     \clef "percussion"
     d'16
@@ -1165,7 +1165,7 @@ number.26.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 1]
       %! -PARTS
-    \voiceTwo
+    \voiceOne
       %! -PARTS
     \voiceTwo
     r2

@@ -575,7 +575,7 @@
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
-                value=1,
+                value=2,
             ),
         ],
         "FirstViolins.Voice.2": [
@@ -593,7 +593,7 @@
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
-                value=2,
+                value=1,
             ),
         ],
         "FirstViolins.Voice.3": [
