@@ -249,10 +249,10 @@ def assign_brass_sforzando_parts(
             assign_part(o, section_name, part_number)
             if not do_not_attach_voice_numbers:
                 if part_number in (1, 2):
-                    wrappers = baca.voice_one(o.leaf(0))
+                    wrappers = baca.voice_number(o.leaf(0), 1)
                     baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
                 elif part_number in (3, 4):
-                    wrappers = baca.voice_two(o.leaf(0))
+                    wrappers = baca.voice_number(o.leaf(0), 2)
                     baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
@@ -394,12 +394,12 @@ def make_battuti(
     }
 
     def upper_voice(o):
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.staff_position(o, 1)
 
     def lower_voice(o):
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.staff_position(o, -1)
 

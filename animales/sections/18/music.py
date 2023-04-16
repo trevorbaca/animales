@@ -129,7 +129,7 @@ def strings(cache, time_signatures, string_parts):
     def upper_voice(o):
         wrappers = baca.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
@@ -139,7 +139,7 @@ def strings(cache, time_signatures, string_parts):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
     def lower_voice(o, n=5):
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.text_spanner_staff_padding(o, n)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
@@ -185,69 +185,69 @@ def brass(
 ):
     library.assign_brass_sforzando_parts(cache, omit_tuba=True)
     with baca.scope(cache["hn1"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn3"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["hn2"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["hn4"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp1"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp3"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tp2"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tp4"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn1"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn3"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn2"][1]) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["tbn4"][1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     for name, pitches in (

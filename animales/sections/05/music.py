@@ -148,7 +148,7 @@ def strings(cache):
         baca.glissando(o.tleaves())
         wrappers = baca.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
@@ -164,7 +164,7 @@ def strings(cache):
     library.assign_trill_parts(cache, exclude_first_violin=True)
     m = cache["1vn1"]
     with baca.scope(m[1]) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     m = cache["vc1"]
     with baca.scope(m[1]) as o:

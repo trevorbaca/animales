@@ -122,7 +122,7 @@ def percussion(cache):
 def strings(cache, absent_left_broken):
     with baca.scope(cache["1vn1"].leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Vni. I", library.manifests)
-        wrappers = baca.one_voice(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:

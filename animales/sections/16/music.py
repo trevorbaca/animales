@@ -117,11 +117,11 @@ def bsns(cache, time_signatures):
         baca.instrument(o.leaf(0), "Bassoon", library.manifests)
         baca.short_instrument_name(o.leaf(0), "Bsn.", library.manifests)
         baca.clef(o.leaf(0), "bass")
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "Bassoon", 1)
     with baca.scope(cache["bsn2"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "Bassoon", 2)
     with baca.scope(cache["bsn1"].get(1, 5)) as o:
@@ -150,7 +150,7 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         wrappers = baca.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
@@ -160,7 +160,7 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
     def lower_voice(o, n=5):
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.text_spanner_staff_padding(o, n)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
