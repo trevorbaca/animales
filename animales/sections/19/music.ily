@@ -1100,7 +1100,7 @@ number.19.FirstViolins.Voice.1.container = {
       %! -PARTS
     \voiceOne
       %! -PARTS
-    \voiceOne
+    \voiceTwo
       %! EXPLICIT_CLEF
     \clef "percussion"
     d'16
@@ -1166,7 +1166,7 @@ number.19.FirstViolins.Voice.2.container = {
       %! EXPLICIT_STAFF_LINES
     \startStaff
       %! -PARTS
-    \voiceTwo
+    \voiceOne
       %! -PARTS
     \voiceTwo
       %! EXPLICIT_CLEF

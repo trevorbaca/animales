@@ -224,7 +224,9 @@ def allows_instrument(staff_name, instrument):
     raise Exception(f"Can not find {staff_name} in instrument dictionary.")
 
 
-def assign_brass_sforzando_parts(cache, *, omit_tuba=False):
+def assign_brass_sforzando_parts(
+    cache, *, do_not_attach_voice_numbers=False, omit_tuba=False
+):
     for name, section_name, part_number in (
         ("hn1", "Horn", 1),
         ("hn3", "Horn", 3),
@@ -245,12 +247,13 @@ def assign_brass_sforzando_parts(cache, *, omit_tuba=False):
         m = cache[name]
         with baca.scope(m.leaves()) as o:
             assign_part(o, section_name, part_number)
-            if part_number in (1, 2):
-                wrappers = baca.voice_one(o.leaf(0))
-                baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-            elif part_number in (3, 4):
-                wrappers = baca.voice_two(o.leaf(0))
-                baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+            if not do_not_attach_voice_numbers:
+                if part_number in (1, 2):
+                    wrappers = baca.voice_one(o.leaf(0))
+                    baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+                elif part_number in (3, 4):
+                    wrappers = baca.voice_two(o.leaf(0))
+                    baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 
 def assign_part(argument, name, token=None):
