@@ -221,7 +221,7 @@ def strings(cache, names):
         )
         wrappers = baca.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
@@ -264,7 +264,7 @@ def strings(cache, names):
     m = cache["1vn1"]
     with baca.scope(m.get(1, 2)) as o:
         library.assign_part(o, "FirstViolin", (1, 10))
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     m = cache["1vn1"]
     with baca.scope(m.get(3, 6)) as o:
@@ -275,7 +275,7 @@ def strings(cache, names):
             direction=abjad.DOWN,
         )
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
     for name, section, part_numbers in (
         ("1vn3", "FirstViolin", (11, 18)),

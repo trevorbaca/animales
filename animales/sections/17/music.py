@@ -166,7 +166,7 @@ def bsns(cache, time_signatures):
         wrappers = swell(o, "f")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["bsn1"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "Bassoon", 1)
     with baca.scope(cache["bsn2"].get(1, 5)) as o:
@@ -174,7 +174,7 @@ def bsns(cache, time_signatures):
     with baca.scope(cache["bsn2"].get(1, 6)) as o:
         swell(o, "f")
     with baca.scope(cache["bsn2"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "Bassoon", 2)
 
@@ -194,74 +194,74 @@ def brass(
                 baca.hairpin(run, "mp < ff")
 
     with baca.scope(cache["hn1"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Horn", 1)
     with baca.scope(cache["hn3"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Horn", 3)
     with baca.scope(cache["hn2"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Horn", 2)
     with baca.scope(cache["hn4"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Horn", 4)
     with baca.scope(cache["tp1"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trumpet", 1)
     with baca.scope(cache["tp3"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trumpet", 3)
     with baca.scope(cache["tp2"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trumpet", 2)
     with baca.scope(cache["tp4"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trumpet", 4)
     with baca.scope(cache["tbn1"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trombone", 1)
     with baca.scope(cache["tbn3"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trombone", 3)
     with baca.scope(cache["tbn2"].leaves()) as o:
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trombone", 2)
     with baca.scope(cache["tbn4"].leaves()) as o:
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         crescendi(o)
         library.assign_part(o, "Trombone", 4)
@@ -301,7 +301,7 @@ def strings(cache, time_signatures):
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         wrappers = baca.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        wrappers = baca.voice_one(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
@@ -311,7 +311,7 @@ def strings(cache, time_signatures):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
     def lower_voice(o, n=5):
-        wrappers = baca.voice_two(o.leaf(0))
+        wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.text_spanner_staff_padding(o, n)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
