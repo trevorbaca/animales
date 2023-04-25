@@ -88,16 +88,16 @@ def PERCUSSION(score, time_signatures):
     for abbreviation in ["perc2", "perc3", "perc4"]:
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(time_signatures())
+        voice.extend(music)
         pleaf = baca.select.pleaf(music, 0)
         baca.repeat_tie(pleaf)
-        voice.extend(music)
 
 
 def CB3(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures())
+    voice.extend(music)
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
-    voice.extend(music)
 
 
 def percussion(cache, time_signatures):
