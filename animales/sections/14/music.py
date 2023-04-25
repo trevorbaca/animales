@@ -151,9 +151,9 @@ def PERCUSSION(score, time_signatures):
     voice.extend(music)
     voice = score[library.voice_abbreviations["perc2"]]
     music = baca.make_repeat_tied_notes(time_signatures(1, 3))
+    voice.extend(music)
     pleaf = baca.select.pleaf(music, 0)
     baca.repeat_tie(pleaf)
-    voice.extend(music)
     music = baca.make_mmrests(time_signatures(4, 6))
     voice.extend(music)
 
