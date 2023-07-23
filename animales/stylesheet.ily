@@ -119,6 +119,7 @@
         \name GlobalContext
         \type Engraver_group
         \consists Axis_group_engraver
+        \consists Bar_engraver
         % causes programming error: cyclic dependency: calculation-in-progress
         % encountered for VerticalAxisGroup.adjacent-pure-heights:
         % \consists Bar_number_engraver
@@ -139,6 +140,8 @@
         \override MetronomeMark.break-align-symbols = #'(left-edge)
         \override MetronomeMark.extra-offset = #'(0 . 4)
         \override MetronomeMark.font-size = 3
+
+        \override TextSpanner.to-barline = ##t
 
         % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
@@ -239,6 +242,7 @@
         \override TextScript.Y-extent = #'(-1.5 . 1.5)
 
         \override TextSpanner.staff-padding = 2
+        \override TextSpanner.to-barline = ##t
 
         \override TrillSpanner.bound-details.right.padding = 2
 
