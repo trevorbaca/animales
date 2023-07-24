@@ -130,8 +130,12 @@
     % causes programming error: cyclic dependency: calculation-in-progress
     % encountered for VerticalAxisGroup.adjacent-pure-heights:
     % \consists Bar_number_engraver
-    \consists Mark_engraver
-    \consists Metronome_mark_engraver
+    % causes programming error: cyclic dependency: calculation-in-progress
+    % encountered for VerticalAxisGroup.adjacent-pure-heights:
+    % \consists Mark_engraver
+    % causes programming error: cyclic dependency: calculation-in-progress
+    % encountered for VerticalAxisGroup.adjacent-pure-heights:
+    % \consists Metronome_mark_engraver
     % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
@@ -172,6 +176,7 @@
   \context
   {
     \StaffGroup
+
     \override StaffGroup.SystemStartBracket.collapse-height = #4
     \override Score.SystemStartBar.collapse-height = #4
   }
@@ -181,6 +186,7 @@
   {
     \PianoStaff
     \remove "Keep_alive_together_engraver" 
+
     \override PianoStaff.SystemStartBrace.collapse-height = #4
     \override Score.SystemStartBar.collapse-height = #4
   }
@@ -206,6 +212,7 @@
     \name MusicContext
     \type Engraver_group
     \alias ChoirStaff
+
     systemStartDelimiter = #'SystemStartBar
   }
 
