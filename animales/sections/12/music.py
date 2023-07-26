@@ -62,7 +62,9 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-    baca.metronome_mark(skips[1 - 1], library.metronome_marks["76"], library.manifests)
+    baca.metronome_mark(
+        skips[1 - 1], library.metronome_marks["76"], manifests=library.manifests
+    )
     baca.rehearsal_mark(
         skips[1 - 1],
         "K",

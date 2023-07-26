@@ -37,7 +37,7 @@ def make_empty_score():
 
 
 def SKIPS(skips, time_signatures):
-    baca.metronome_mark(skips[1 - 1], "114", library.manifests)
+    baca.metronome_mark(skips[1 - 1], "114", manifests=library.manifests)
 
 
 def PERCUSSION(score, time_signatures):
