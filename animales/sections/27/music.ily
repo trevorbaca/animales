@@ -27,13 +27,13 @@ number.27.Skips = {
 %%% - \tweak extra-offset #'(0 . 6)
     - \baca-rehearsal-mark-markup "Z" #10
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \abjad-invisible-line
+    - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
-    %@% - \abjad-invisible-line
+    %@% - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK
     %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "76"
       %! REAPPLIED_METRONOME_MARK
@@ -4688,7 +4688,7 @@ number.27.Contrabasses.Voice.3.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! SPANNER_START
-    - \abjad-dashed-line-with-arrow
+    - \baca-dashed-line-with-arrow
       %! SPANNER_START
     - \baca-text-spanner-left-text "ord."
       %! SPANNER_START
