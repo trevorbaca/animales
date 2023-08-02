@@ -73,7 +73,7 @@ def _make_short_instrument_name(name):
 def _make_square_staff_group(stem, *contexts):
     if not isinstance(stem, str):
         raise Exception(f"stem must be string: {stem!r}.")
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     contexts = tuple(_ for _ in contexts if _ is not None)
     result = None
     if len(contexts) == 1:
@@ -93,7 +93,7 @@ def _make_staves(base_name, staff_specifiers):
         staff_specifiers = []
     assert isinstance(staff_specifiers, list), repr(staff_specifiers)
     assert base_name in list(_section_name_to_member_count().keys()) + _lone_players()
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     staves = []
     _voice_abbreviations = voice_abbreviations
     for staff_specifier in staff_specifiers:
@@ -461,7 +461,7 @@ def make_brass_manifest_rhythm(
         preamble = ()
     else:
         preamble = [-delay]
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     state = {}
     tuplets = rmakers.talea(
         durations,
@@ -572,7 +572,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     tuplets = rmakers.talea(durations, counts_, 16, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     rmakers.beam(voice, tag=tag)
@@ -586,7 +586,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
 
 
 def make_downbeat_attack(time_signatures, count=1, denominator=8):
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.talea(durations, [count], denominator, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
@@ -620,7 +620,7 @@ def make_empty_score(
     cellos=(),
     contrabasses=(),
 ):
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     global_context = baca.score.make_global_context()
     flute_staves = _make_staves("Flutes", flutes)
     oboe_staves = _make_staves("Oboe", oboes)
@@ -694,7 +694,7 @@ def make_empty_score(
 
 
 def make_glissando_rhythm(time_signatures, rotate=0):
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     durations = [_.duration for _ in time_signatures]
     tuplets = rmakers.talea(
         durations,
@@ -775,7 +775,7 @@ def make_harp_exchange_rhythm(
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     state = {}
     tuplets = rmakers.talea(
         durations,
@@ -812,7 +812,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     tuplets = rmakers.talea(durations, [1], 16, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if silences is not None:
@@ -879,7 +879,7 @@ def make_sforzando_exchange_rhythm(
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
-    tag = baca.tags.function_name(inspect.currentframe())
+    tag = baca.helpers.function_name(inspect.currentframe())
     state = {}
     tuplets = rmakers.talea(
         durations,
