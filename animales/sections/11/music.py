@@ -405,7 +405,7 @@ def make_score(
         always_make_global_rests=True,
         first_measure_number=first_measure_number,
         manifests=library.manifests,
-        previous_persistent_indicators=previous_persistent_indicators,
+        score_persistent_indicators=previous_persistent_indicators["Score"],
     )
     SKIPS(score["Skips"])
     CL(voices("cl"), time_signatures)
