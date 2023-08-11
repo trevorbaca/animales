@@ -26,9 +26,6 @@ number.6.Skips = {
     % [Skips measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
-      %! +SECTION
-      %! EMPTY_START_BAR
-    \bar ""
       %! +TABLOID_SCORE
 %%% \override TextSpanner.Y-offset = 8
       %! +TABLOID_SCORE
