@@ -180,7 +180,6 @@ def make_score():
         time_signatures(),
         append_anchor_skip=True,
         always_make_global_rests=True,
-        first_section=True,
         manifests=library.manifests,
     )
     SKIPS(score["Skips"], time_signatures)
@@ -208,6 +207,7 @@ def main():
         all_music_in_part_containers=True,
         always_make_global_rests=True,
         error_on_not_yet_pitched=True,
+        first_section=True,
         part_manifest=library.part_manifest(),
         transpose_score=True,
     )
