@@ -31,6 +31,8 @@ number.15.Rests = {
 number.15.Skips = {
 
     % [Skips measure 1]
+      %! RED_START_BAR
+    %@% \baca-thick-red-bar-line
       %! REAPPLIED_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'green4
       %! REAPPLIED_TIME_SIGNATURE

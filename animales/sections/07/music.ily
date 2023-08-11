@@ -44,6 +44,8 @@ number.7.Rests = {
 number.7.Skips = {
 
     % [Skips measure 1]
+      %! RED_START_BAR
+    %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #'blue
       %! +TABLOID_SCORE
