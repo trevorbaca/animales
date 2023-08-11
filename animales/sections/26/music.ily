@@ -18,7 +18,7 @@ number.26.Skips = {
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
       %! REAPPLIED_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #(x11-color 'green4)
+    \baca-time-signature-color  #(x11-color 'green4)
       %! REAPPLIED_TIME_SIGNATURE
     \time 4/4
       %! RED_START_BAR
@@ -34,7 +34,7 @@ number.26.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -152,7 +152,7 @@ number.26.Horns.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -200,7 +200,7 @@ number.26.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -263,7 +263,7 @@ number.26.Horns.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -311,7 +311,7 @@ number.26.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -374,7 +374,7 @@ number.26.Trumpets.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -422,7 +422,7 @@ number.26.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -485,7 +485,7 @@ number.26.Trumpets.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -533,7 +533,7 @@ number.26.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -596,7 +596,7 @@ number.26.Trombones.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -644,7 +644,7 @@ number.26.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -707,7 +707,7 @@ number.26.Trombones.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -755,7 +755,7 @@ number.26.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -814,7 +814,7 @@ number.26.Tuba.Music.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -5040,14 +5040,14 @@ number.26.Contrabasses.Voice.3.container = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_152
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! EXPLICIT_STAFF_LINES_COLOR
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)
+    \once \override Staff.StaffSymbol.color = #blue
       %! -PARTS
       %! EXPLICIT_BAR_EXTENT
     \override Staff.BarLine.bar-extent = #'(-2 . 2)
@@ -5074,7 +5074,7 @@ number.26.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_STOP
@@ -5086,7 +5086,7 @@ number.26.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! RIGHT_BROKEN
       %! SPANNER_START

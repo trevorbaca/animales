@@ -27,7 +27,7 @@ number.14.Skips = {
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
       %! REAPPLIED_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #(x11-color 'green4)
+    \baca-time-signature-color  #(x11-color 'green4)
       %! +TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = -2
       %! REAPPLIED_TIME_SIGNATURE
@@ -45,7 +45,7 @@ number.14.Skips = {
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "114" #'blue
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "114" #blue
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! EXPLICIT_METRONOME_MARK
@@ -222,12 +222,12 @@ number.14.Flutes.Voice.1.container = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_82
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
@@ -261,7 +261,7 @@ number.14.Flutes.Voice.1.container = {
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-    %%% - \tweak color #(x11-color 'blue)
+    %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
@@ -274,7 +274,7 @@ number.14.Flutes.Voice.1.container = {
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-    %%% - \tweak color #(x11-color 'blue)
+    %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -345,7 +345,7 @@ number.14.Flutes.Voice.1.container = {
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-    %%% - \tweak color #(x11-color 'blue)
+    %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
@@ -392,7 +392,7 @@ number.14.Flutes.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
@@ -402,7 +402,7 @@ number.14.Flutes.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -484,7 +484,7 @@ number.14.Flutes.Voice.3.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-        - \tweak color #(x11-color 'blue)
+        - \tweak color #blue
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
         \ff
@@ -537,12 +537,12 @@ number.14.Flutes.Voice.2.container = {
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
       %! EXPLICIT_CLEF_COLOR
-    \once \override Staff.Clef.color = #(x11-color 'blue)
+    \once \override Staff.Clef.color = #blue
       %! MEASURE_82
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'blue)
+    \once \override Staff.InstrumentName.color = #blue
       %! EXPLICIT_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! EXPLICIT_CLEF
@@ -575,7 +575,7 @@ number.14.Flutes.Voice.2.container = {
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
-    %%% - \tweak color #(x11-color 'blue)
+    %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_STOP
@@ -588,7 +588,7 @@ number.14.Flutes.Voice.2.container = {
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
-    %%% - \tweak color #(x11-color 'blue)
+    %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
           %! SPANNER_START
@@ -685,7 +685,7 @@ number.14.Flutes.Voice.2.container = {
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
@@ -728,7 +728,7 @@ number.14.Flutes.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \mf
@@ -738,7 +738,7 @@ number.14.Flutes.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -845,7 +845,7 @@ number.14.Flutes.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -939,7 +939,7 @@ number.14.Clarinets.Music.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -1034,7 +1034,7 @@ number.14.BassClarinet.Music.container = {
     bf!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1582,7 +1582,7 @@ number.14.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
@@ -1595,7 +1595,7 @@ number.14.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
@@ -1612,7 +1612,7 @@ number.14.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -1638,14 +1638,14 @@ number.14.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -1659,7 +1659,7 @@ number.14.FirstViolins.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \p
@@ -1778,7 +1778,7 @@ number.14.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -1912,7 +1912,7 @@ number.14.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -2044,7 +2044,7 @@ number.14.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -2176,7 +2176,7 @@ number.14.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff
@@ -2403,7 +2403,7 @@ number.14.Contrabasses.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_STOP
     \ff

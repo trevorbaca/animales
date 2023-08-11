@@ -18,7 +18,7 @@ number.24.Skips = {
       %! RED_START_BAR
     %@% \baca-thick-red-bar-line
       %! REAPPLIED_TIME_SIGNATURE_COLOR
-    \baca-time-signature-color #(x11-color 'green4)
+    \baca-time-signature-color  #(x11-color 'green4)
       %! REAPPLIED_TIME_SIGNATURE
     \time 4/4
       %! RED_START_BAR
@@ -34,7 +34,7 @@ number.24.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "76" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -152,7 +152,7 @@ number.24.Horns.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -200,7 +200,7 @@ number.24.Horns.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -263,7 +263,7 @@ number.24.Horns.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -311,7 +311,7 @@ number.24.Horns.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -374,7 +374,7 @@ number.24.Trumpets.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -422,7 +422,7 @@ number.24.Trumpets.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -485,7 +485,7 @@ number.24.Trumpets.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -533,7 +533,7 @@ number.24.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -596,7 +596,7 @@ number.24.Trombones.Voice.1.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -644,7 +644,7 @@ number.24.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -707,7 +707,7 @@ number.24.Trombones.Voice.2.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -755,7 +755,7 @@ number.24.Trombones.Voice.4.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-%%% - \tweak color #(x11-color 'blue)
+%%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
 %%% \baca-sffz
@@ -814,7 +814,7 @@ number.24.Tuba.Music.container = {
     - \marcato
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-sffz
       %! REAPPLIED_INSTRUMENT_ALERT

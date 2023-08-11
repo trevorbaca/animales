@@ -40,7 +40,7 @@ number.3.Skips = {
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "114" #'green4
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "114" #(x11-color 'green4)
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     \bacaStartTextSpanMM
       %! REAPPLIED_METRONOME_MARK
@@ -202,7 +202,7 @@ number.3.FirstViolins.Voice.1.container = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -233,7 +233,7 @@ number.3.FirstViolins.Voice.1.container = {
     ef'!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -329,7 +329,7 @@ number.3.FirstViolins.Voice.3.container = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -365,7 +365,7 @@ number.3.FirstViolins.Voice.3.container = {
     ef'!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -476,7 +476,7 @@ number.3.SecondViolins.Voice.1.container = {
     e'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -525,7 +525,7 @@ number.3.SecondViolins.Voice.1.container = {
     ef'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -621,7 +621,7 @@ number.3.SecondViolins.Voice.3.container = {
     e'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -690,7 +690,7 @@ number.3.SecondViolins.Voice.3.container = {
     ef'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -786,7 +786,7 @@ number.3.Violas.Voice.1.container = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -825,7 +825,7 @@ number.3.Violas.Voice.1.container = {
     ef'!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -918,7 +918,7 @@ number.3.Violas.Voice.3.container = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -955,7 +955,7 @@ number.3.Violas.Voice.3.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
@@ -1048,7 +1048,7 @@ number.3.Cellos.Voice.1.container = {
     e'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-f-sub-but-accents-continue-sffz
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1084,7 +1084,7 @@ number.3.Cellos.Voice.1.container = {
     ef'!4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-    - \tweak color #(x11-color 'blue)
+    - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \baca-p-sub-but-accents-continue-sffz
       %! SPANNER_STOP
