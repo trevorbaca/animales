@@ -34,6 +34,12 @@ number.11.Skips = {
 %%% \override TextSpanner.bound-details.left.padding = 2
       %! REAPPLIED_TIME_SIGNATURE
     \time 4/4
+      %! RED_START_BAR
+    %@% \tweak break-visibility ##(#t #t #f)
+      %! RED_START_BAR
+    %@% \tweak color #red
+      %! RED_START_BAR
+    %@% \mark \markup \with-dimensions-from \null "11"
     s1 * 4/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 6)
