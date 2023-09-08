@@ -25,21 +25,24 @@ def make_systems(measure_numbers, between_systems=20):
     return systems
 
 
-spacing = baca.make_layout(
-    baca.page(
-        1,
-        *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
-    ),
-    baca.page(
-        2,
-        *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
-    ),
-    spacing=(1, 8),
-    overrides=(
-        baca.space((127, 173), (1, 16)),
-        baca.space(164, (1, 4)),
-    ),
-)
+def main():
+    spacing = baca.make_layout(
+        baca.page(
+            1,
+            *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
+        ),
+        baca.page(
+            2,
+            *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
+        ),
+        spacing=(1, 8),
+        overrides=(
+            baca.space((127, 173), (1, 16)),
+            baca.space(164, (1, 4)),
+        ),
+    )
+    baca.section.make_layout_ly(spacing)
+
 
 if __name__ == "__main__":
-    baca.section.make_layout_ly(spacing)
+    main()
