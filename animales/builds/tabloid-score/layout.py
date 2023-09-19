@@ -1,8 +1,5 @@
 import baca
 
-time_signatures = 10
-trill_space = 2
-
 
 def staff(after):
     return [after]
@@ -13,6 +10,8 @@ def group(staff_count, inside, after):
 
 
 def main():
+    time_signatures = 10
+    trill_space = 2
     spacing = baca.make_layout(
         baca.page(
             1,
