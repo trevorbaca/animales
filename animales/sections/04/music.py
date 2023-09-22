@@ -311,7 +311,6 @@ def make_score(
         score,
         time_signatures(),
         append_anchor_skip=True,
-        always_make_global_rests=True,
         first_measure_number=first_measure_number,
         manifests=library.manifests,
         score_persistent_indicators=previous_persistent_indicators["Score"],
@@ -354,7 +353,6 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         environment,
         library.manifests,
         all_music_in_part_containers=True,
-        always_make_global_rests=True,
         error_on_not_yet_pitched=True,
         transpose_score=True,
     )
