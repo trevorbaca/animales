@@ -790,7 +790,7 @@ def make_harp_exchange_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     logical_tie_count_1 = len(baca.select.lts(voice))
     if force_rest_tuplets is not None:
-        tuplets = baca.select.tuplets(voice)
+        tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
         rmakers.force_rest(tuplets, tag=tag)
     logical_tie_count_2 = len(baca.select.lts(voice))
@@ -816,9 +816,9 @@ def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
     tuplets = rmakers.talea(durations, [1], 16, extra_counts=extra_counts, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     if silences is not None:
-        rmakers.force_rest(
-            abjad.select.get(baca.select.tuplets(voice), silences), tag=tag
-        )
+        tuplets = abjad.select.tuplets(voice)
+        tuplets = abjad.select.get(tuplets, silences)
+        rmakers.force_rest(tuplets, tag=tag)
     rmakers.beam(voice, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
     rmakers.force_diminution(voice)
