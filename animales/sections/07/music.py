@@ -332,7 +332,6 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         library.manifests,
         all_music_in_part_containers=True,
         error_on_not_yet_pitched=True,
-        transpose_score=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     dictionary = dict(metadata)

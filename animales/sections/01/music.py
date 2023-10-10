@@ -205,7 +205,6 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         error_on_not_yet_pitched=True,
         first_section=True,
         part_manifest=library.part_manifest(),
-        transpose_score=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     dictionary = dict(metadata)
