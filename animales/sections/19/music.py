@@ -192,7 +192,6 @@ def persist_score(score, environment):
         all_music_in_part_containers=True,
         error_on_not_yet_pitched=True,
         magnify_staves=(abjad.Fraction(6, 10), "-PARTS"),
-        transpose_score=True,
     )
     baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
     lilypond_file = baca.lilypond.file(
