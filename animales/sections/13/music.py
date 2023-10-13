@@ -62,9 +62,9 @@ def SKIPS(score):
             r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], 3)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], 3)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-    wrappers = baca.text_spanner_y_offset(skips[:-1], 8)
+    wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -239,7 +239,7 @@ def strings(cache, time_signatures):
 def cb1(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         library.assign_part(o, "Contrabass", 1)
 

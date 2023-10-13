@@ -60,13 +60,13 @@ def PERC4(voice, time_signatures):
 def pf(m, time_signatures):
     with baca.scope(m.get(1, 9)) as o:
         baca.pitch(o, "C#4")
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),
             r"\animales-harmonic-touch-lowest-string-of-piano-markup",
         )
-        wrappers = baca.text_script_x_offset(o, 3)
+        wrappers = baca.override.text_script_x_offset(o, 3)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Piano")
@@ -79,14 +79,14 @@ def perc4(m, time_signatures):
         baca.short_instrument_name(o.leaf(0), "Perc. 4 (slate)", library.manifests)
         baca.staff_position(o, 0)
         baca.markup(o.pleaf(0), r"\animales-stonecircle-markup")
-        wrappers = baca.text_script_x_offset(o, 3)
+        wrappers = baca.override.text_script_x_offset(o, 3)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), '"mf"')
     with baca.scope(m[10]) as o:
         baca.mark(o.leaf(0), r"\animales-colophon-markup")
-        baca.rehearsal_mark_down(o.rleaf(-1))
-        baca.rehearsal_mark_padding(o.rleaf(-1), 6)
-        baca.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)
+        baca.override.rehearsal_mark_down(o.rleaf(-1))
+        baca.override.rehearsal_mark_padding(o.rleaf(-1), 6)
+        baca.override.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)
 
 
 def pf_perc4(cache, time_signatures):

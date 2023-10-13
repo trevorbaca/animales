@@ -61,9 +61,9 @@ def SKIPS(score):
             r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], -9)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], -9)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-    wrappers = baca.text_spanner_y_offset(skips[:-1], 8)
+    wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -201,7 +201,7 @@ def perc3(cache):
         baca.pitch(o, "D5")
         baca.laissez_vibrer(o.ptails())
         baca.markup(o.pleaf(0), r"\animales-vibraphone-markup")
-        wrappers = baca.text_script_extra_offset(o, (1.5, 1.5))
+        wrappers = baca.override.text_script_extra_offset(o, (1.5, 1.5))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "mp")
         library.assign_part(o, "Percussion", 3)
@@ -274,7 +274,7 @@ def cb1(cache):
     with baca.scope(m.get(2, 8)) as o:
         baca.clef(o.leaf(0), "treble")
         baca.pitch(o, "D5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),

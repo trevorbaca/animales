@@ -337,7 +337,7 @@ def strings(cache):
 def cb1(m):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         library.assign_part(o, "Contrabass", 1)
 

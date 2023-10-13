@@ -70,9 +70,9 @@ def SKIPS(score):
         "K",
         abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], -8)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], -8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
-    wrappers = baca.text_spanner_y_offset(skips[:-1], 8)
+    wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -175,7 +175,7 @@ def brass(
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift(o.pleaf(0), 1.7)
+        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.7)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
@@ -216,7 +216,7 @@ def brass(
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift(o.pleaf(0), 1.0)
+        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.0)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn1"][1]) as o:
@@ -241,7 +241,7 @@ def brass(
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.note_column_shift(o.pleaf(0), 1.0)
+        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.0)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     for name, pitches in (
@@ -327,7 +327,7 @@ def strings(cache, time_signatures):
 def cb1(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         library.assign_part(o, "Contrabass", 1)
 

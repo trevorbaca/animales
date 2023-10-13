@@ -58,7 +58,7 @@ def SKIPS(score):
         skips[1 - 1],
         "G",
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], 3)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], 3)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -240,7 +240,7 @@ def strings(cache):
 def cb1(m):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "D5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         library.assign_part(o, "Contrabass", 1)
 

@@ -68,7 +68,7 @@ def SKIPS(score):
             r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
         ),
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], -2)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], -2)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
