@@ -285,7 +285,7 @@ def strings(cache, time_signatures):
         baca.glissando(o.tleaves())
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dls_up(o)
+        wrappers = baca.override.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
