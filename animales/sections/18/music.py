@@ -133,7 +133,7 @@ def strings(cache, time_signatures, string_parts):
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.dynamic_text_stencil_false(o.leaves())
+        wrappers = baca.override.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.hairpin_stencil_false(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
