@@ -129,21 +129,21 @@ def STRINGS(score, time_signatures, string_parts):
 
 def strings(cache, time_signatures, string_parts):
     def upper_voice(o):
-        wrappers = baca.text_spanner_staff_padding(o, 5)
+        wrappers = baca.override.text_spanner_staff_padding(o, 5)
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.override.dynamic_text_stencil_false(o.leaves())
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.hairpin_stencil_false(o)
+        wrappers = baca.override.hairpin_stencil_false(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.text_spanner_stencil_false(o)
+        wrappers = baca.override.text_spanner_stencil_false(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
     def lower_voice(o, n=5):
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        wrappers = baca.text_spanner_staff_padding(o, n)
+        wrappers = baca.override.text_spanner_staff_padding(o, n)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
     def tremolo(o, peak="f"):

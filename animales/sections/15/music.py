@@ -68,7 +68,7 @@ def RESTS(score):
     rests = score["Rests"]
     for index, string in ((7 - 1, "fermata"),):
         baca.global_fermata(rests[index], string)
-    wrappers = baca.mmrest_text_extra_offset(rests[7 - 1], (0, -4))
+    wrappers = baca.override.mmrest_text_extra_offset(rests[7 - 1], (0, -4))
     baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
 
 

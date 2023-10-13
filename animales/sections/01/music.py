@@ -164,11 +164,11 @@ def strings(cache, time_signatures, names):
     for name in ["1vn3", "2vn3"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.trill_spanner_staff_padding(o, 6)
+            baca.override.trill_spanner_staff_padding(o, 6)
     for name in ["1vn1", "2vn1", "va1", "va3", "vc1"]:
         m = cache[name]
         with baca.scope(m.leaves()) as o:
-            baca.trill_spanner_staff_padding(o, 4)
+            baca.override.trill_spanner_staff_padding(o, 4)
     library.assign_trill_parts(cache)
 
 

@@ -60,7 +60,7 @@ def SKIPS(score):
         skips[1 - 1],
         "H",
     )
-    wrappers = baca.text_spanner_left_padding(skips[:-1], -8)
+    wrappers = baca.override.text_spanner_left_padding(skips[:-1], -8)
     baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
@@ -132,7 +132,7 @@ def cl(cache):
             o.leaf(0),
             r"\animales-choke-sound-suddenly-explanation-markup",
         )
-        wrappers = baca.mmrest_text_extra_offset(o, (-6, 0))
+        wrappers = baca.override.mmrest_text_extra_offset(o, (-6, 0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
 
 
@@ -227,7 +227,7 @@ def strings(cache):
 def cb1(m):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "Cqf5", do_not_transpose=True)
-        baca.note_head_style_harmonic(o.pleaves())
+        baca.override.note_head_style_harmonic(o.pleaves())
         baca.laissez_vibrer(o.ptails())
         baca.markup(
             o.pleaf(0),

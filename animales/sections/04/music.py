@@ -246,11 +246,11 @@ def strings(cache, names):
     for name in ["1vn3", "2vn3"]:
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
-            baca.trill_spanner_staff_padding(o, 6)
+            baca.override.trill_spanner_staff_padding(o, 6)
     for name in ["1vn1", "2vn1", "va1", "va3", "vc1"]:
         m = cache[name]
         with baca.scope(m.get(1, 2)) as o:
-            baca.trill_spanner_staff_padding(o, 4)
+            baca.override.trill_spanner_staff_padding(o, 4)
     for name in names:
         m = cache[name]
         with baca.scope(m.get(3, 6)) as o:
