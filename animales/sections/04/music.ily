@@ -206,6 +206,8 @@ number.4.Skips = {
 number.4.Clarinets.Music.container = {
 
     % [Clarinets.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -224,8 +226,6 @@ number.4.Clarinets.Music.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "3" }
-      %! EXPLICIT_CLEF
-    \clef "treble"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -311,6 +311,8 @@ number.4.Clarinets.Staff = {
 number.4.Horns.Voice.1.container = {
 
     % [Horns.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -331,8 +333,6 @@ number.4.Horns.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "bass"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -454,6 +454,8 @@ number.4.Horns.Staff.1 = <<
 number.4.Horns.Voice.2.container = {
 
     % [Horns.Voice.2 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -474,8 +476,6 @@ number.4.Horns.Voice.2.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "bass"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -597,6 +597,8 @@ number.4.Horns.Staff.2 = <<
 number.4.Trumpets.Voice.1.container = {
 
     % [Trumpets.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -617,8 +619,6 @@ number.4.Trumpets.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(1+3)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "treble"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -740,6 +740,8 @@ number.4.Trumpets.Staff.1 = <<
 number.4.Trumpets.Voice.2.container = {
 
     % [Trumpets.Voice.2 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -760,8 +762,6 @@ number.4.Trumpets.Voice.2.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "treble"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -883,6 +883,8 @@ number.4.Trumpets.Staff.2 = <<
 number.4.Trombones.Voice.1.container = {
 
     % [Trombones.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "tenor"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -903,8 +905,6 @@ number.4.Trombones.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(1+3)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "tenor"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1026,6 +1026,8 @@ number.4.Trombones.Staff.1 = <<
 number.4.Trombones.Voice.2.container = {
 
     % [Trombones.Voice.2 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "tenor"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1046,8 +1048,6 @@ number.4.Trombones.Voice.2.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Trb." \hcenter-in #16 "(2+4)" }
       %! -PARTS
     \voiceOne
-      %! EXPLICIT_CLEF
-    \clef "tenor"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1169,6 +1169,8 @@ number.4.Trombones.Staff.2 = <<
 number.4.Tuba.Music.container = {
 
     % [Tuba.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1187,8 +1189,6 @@ number.4.Tuba.Music.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Tub."
-      %! EXPLICIT_CLEF
-    \clef "bass"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1254,6 +1254,8 @@ number.4.Tuba.Staff = {
 number.4.Percussion.1.Music.container = {
 
     % [Percussion.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -1278,8 +1280,6 @@ number.4.Percussion.1.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1352,6 +1352,8 @@ number.4.Percussion.1.Staff = {
 number.4.Percussion.2.Music.container = {
 
     % [Percussion.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -1376,8 +1378,6 @@ number.4.Percussion.2.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -1590,6 +1590,8 @@ number.4.FirstViolins.Voice.2 = {
 number.4.FirstViolins.Voice.1.container.1 = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1605,8 +1607,6 @@ number.4.FirstViolins.Voice.1.container.1 = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
       %! -PARTS
     \voiceTwo
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     df'!1
@@ -1702,6 +1702,8 @@ number.4.FirstViolins.Staff.1 = <<
 number.4.FirstViolins.Voice.3.container = {
 
     % [FirstViolins.Voice.3 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1715,8 +1717,6 @@ number.4.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     df'!1
@@ -1798,6 +1798,8 @@ number.4.FirstViolins.Staff.2 = {
 number.4.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1811,8 +1813,6 @@ number.4.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     df'!1
@@ -1894,6 +1894,8 @@ number.4.SecondViolins.Staff.1 = {
 number.4.SecondViolins.Voice.3.container = {
 
     % [SecondViolins.Voice.3 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1907,8 +1909,6 @@ number.4.SecondViolins.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     df'!1
@@ -1987,6 +1987,8 @@ number.4.SecondViolins.Staff.2 = {
 number.4.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2000,8 +2002,6 @@ number.4.Violas.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
-      %! REAPPLIED_CLEF
-    \clef "alto"
       %! SPANNER_START
     \pitchedTrill
     df'!4.
@@ -2090,6 +2090,8 @@ number.4.Violas.Staff.1 = {
 number.4.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2103,8 +2105,6 @@ number.4.Violas.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
-      %! REAPPLIED_CLEF
-    \clef "alto"
       %! SPANNER_START
     \pitchedTrill
     df'!2
@@ -2188,6 +2188,8 @@ number.4.Violas.Staff.2 = {
 number.4.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "tenor"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2201,8 +2203,6 @@ number.4.Cellos.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
-      %! REAPPLIED_CLEF
-    \clef "tenor"
       %! SPANNER_START
     \pitchedTrill
     df'!1
@@ -2284,6 +2284,8 @@ number.4.Cellos.Staff.1 = {
 number.4.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "bass"
       %! MEASURE_18
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -2302,8 +2304,6 @@ number.4.Contrabasses.Voice.3.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
-      %! EXPLICIT_CLEF
-    \clef "bass"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"

@@ -222,6 +222,8 @@ number.13.Skips = {
 number.13.Clarinets.Music.container = {
 
     % [Clarinets.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
@@ -234,8 +236,6 @@ number.13.Clarinets.Music.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "1" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
     f''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
@@ -318,6 +318,8 @@ number.13.Clarinets.Staff = {
 number.13.BassClarinet.Music.container = {
 
     % [BassClarinet.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -330,8 +332,6 @@ number.13.BassClarinet.Music.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "B. cl."
-      %! REAPPLIED_CLEF
-    \clef "treble"
     R1 * 3/4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -410,6 +410,8 @@ number.13.BassClarinet.Staff = {
 number.13.Piano.Music.container = {
 
     % [Piano.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -422,8 +424,6 @@ number.13.Piano.Music.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-      %! REAPPLIED_CLEF
-    \clef "treble"
     r2.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -502,6 +502,8 @@ number.13.Piano.Staff = {
 number.13.Harp.Music.container = {
 
     % [Harp.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -514,8 +516,6 @@ number.13.Harp.Music.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Hp."
-      %! REAPPLIED_CLEF
-    \clef "treble"
     r2.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -592,6 +592,8 @@ number.13.Harp.Staff = {
 number.13.Percussion.1.Music.container = {
 
     % [Percussion.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -616,8 +618,6 @@ number.13.Percussion.1.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     c'2.
     :32
       %! EXPLICIT_DYNAMIC_COLOR
@@ -712,6 +712,8 @@ number.13.Percussion.1.Staff = {
 number.13.Percussion.2.Music.container = {
 
     % [Percussion.2.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -732,8 +734,6 @@ number.13.Percussion.2.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     c'2.
     :32
       %! REAPPLIED_DYNAMIC_COLOR
@@ -810,6 +810,8 @@ number.13.Percussion.2.Staff = {
 number.13.Percussion.3.Music.container = {
 
     % [Percussion.3.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -822,8 +824,6 @@ number.13.Percussion.3.Music.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
     r4
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -900,6 +900,8 @@ number.13.Percussion.3.Staff = {
 number.13.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -914,8 +916,6 @@ number.13.FirstViolins.Voice.1.container = {
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
       %! -PARTS
     \voiceTwo
-      %! REAPPLIED_CLEF
-    \clef "treble"
     af'''!4
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1037,6 +1037,8 @@ number.13.FirstViolins.Staff.1 = {
 number.13.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1049,8 +1051,6 @@ number.13.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
-      %! REAPPLIED_CLEF
-    \clef "treble"
     af''!4
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1172,6 +1172,8 @@ number.13.SecondViolins.Staff.1 = {
 number.13.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "alto"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1184,8 +1186,6 @@ number.13.Violas.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
-      %! REAPPLIED_CLEF
-    \clef "alto"
     af'!4
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1307,6 +1307,8 @@ number.13.Violas.Staff.1 = {
 number.13.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "bass"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1319,8 +1321,6 @@ number.13.Cellos.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
-      %! REAPPLIED_CLEF
-    \clef "bass"
     af,!4
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1442,6 +1442,8 @@ number.13.Cellos.Staff.1 = {
 number.13.Contrabasses.Voice.1.container = {
 
     % [Contrabasses.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1454,8 +1456,6 @@ number.13.Contrabasses.Voice.1.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
-      %! REAPPLIED_CLEF
-    \clef "treble"
     r2
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -1530,6 +1530,8 @@ number.13.Contrabasses.Staff.1 = {
 number.13.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "bass"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1542,8 +1544,6 @@ number.13.Contrabasses.Voice.3.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
-      %! REAPPLIED_CLEF
-    \clef "bass"
     af,!4
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR

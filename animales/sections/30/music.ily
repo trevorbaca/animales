@@ -312,6 +312,8 @@ number.30.Skips = {
 number.30.Piano.Music.container = {
 
     % [Piano.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "treble"
       %! +TABLOID_SCORE
 %%% \magnifyStaff #10/7
       %! REAPPLIED_CLEF_COLOR
@@ -329,8 +331,6 @@ number.30.Piano.Music.container = {
       %! -PARTS
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
-      %! REAPPLIED_CLEF
-    \clef "treble"
     cs'!2.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -416,6 +416,8 @@ number.30.Piano.Staff = {
 number.30.Percussion.4.Music.container = {
 
     % [Percussion.4.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! +TABLOID_SCORE
 %%% \magnifyStaff #10/7
       %! REAPPLIED_CLEF_COLOR
@@ -444,8 +446,6 @@ number.30.Percussion.4.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     c'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
