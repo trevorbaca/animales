@@ -19,14 +19,14 @@ number.19.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 4/4
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "19"
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 4/4
     s1 * 4/4
       %! +TABLOID_SCORE
 %%% - \tweak extra-offset #'(0 . 6)
