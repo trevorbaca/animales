@@ -199,6 +199,8 @@ number.1.Skips = {
 number.1.Percussion.1.Music.container = {
 
     % [Percussion.1.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -229,8 +231,6 @@ number.1.Percussion.1.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -290,6 +290,8 @@ number.1.Percussion.1.Staff = {
 number.1.Percussion.2.Music.container = {
 
     % [Percussion.2.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -317,8 +319,6 @@ number.1.Percussion.2.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -378,6 +378,8 @@ number.1.Percussion.2.Staff = {
 number.1.Percussion.4.Music.container = {
 
     % [Percussion.4.Music measure 1]
+      %! EXPLICIT_CLEF
+    \clef "percussion"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -408,8 +410,6 @@ number.1.Percussion.4.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! EXPLICIT_STAFF_LINES
     \startStaff
-      %! EXPLICIT_CLEF
-    \clef "percussion"
     R1 * 4/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -469,6 +469,8 @@ number.1.Percussion.4.Staff = {
 number.1.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -489,8 +491,6 @@ number.1.FirstViolins.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(1-10)" }
-      %! EXPLICIT_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     a'1
@@ -613,6 +613,8 @@ number.1.FirstViolins.Staff.1 = {
 number.1.FirstViolins.Voice.3.container = {
 
     % [FirstViolins.Voice.3 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -633,8 +635,6 @@ number.1.FirstViolins.Voice.3.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
-      %! EXPLICIT_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     a'4
@@ -776,6 +776,8 @@ number.1.FirstViolins.Staff.2 = {
 number.1.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -796,8 +798,6 @@ number.1.SecondViolins.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(1-10)" }
-      %! EXPLICIT_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     a'2
@@ -936,6 +936,8 @@ number.1.SecondViolins.Staff.1 = {
 number.1.SecondViolins.Voice.3.container = {
 
     % [SecondViolins.Voice.3 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "treble"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -956,8 +958,6 @@ number.1.SecondViolins.Voice.3.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
-      %! EXPLICIT_CLEF
-    \clef "treble"
       %! SPANNER_START
     \pitchedTrill
     a'2
@@ -1109,6 +1109,8 @@ number.1.SecondViolins.Staff.2 = {
 number.1.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1129,8 +1131,6 @@ number.1.Violas.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(1-10)" }
-      %! EXPLICIT_CLEF
-    \clef "alto"
       %! SPANNER_START
     \pitchedTrill
     a'2.
@@ -1262,6 +1262,8 @@ number.1.Violas.Staff.1 = {
 number.1.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "alto"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1282,8 +1284,6 @@ number.1.Violas.Voice.3.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
-      %! EXPLICIT_CLEF
-    \clef "alto"
       %! SPANNER_START
     \pitchedTrill
     a'1
@@ -1400,6 +1400,8 @@ number.1.Violas.Staff.2 = {
 number.1.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 1]
+      %! EXPLICIT_CLEF
+    \clef "tenor"
       %! MEASURE_1
       %! SHIFTED_CLEF
 %%% \once \override Staff.Clef.X-extent = ##f
@@ -1420,8 +1422,6 @@ number.1.Cellos.Voice.1.container = {
       %! -PARTS
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
-      %! EXPLICIT_CLEF
-    \clef "tenor"
       %! SPANNER_START
     \pitchedTrill
     a'1

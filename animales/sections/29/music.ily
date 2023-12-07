@@ -159,6 +159,8 @@ number.29.Skips = {
 number.29.Percussion.1.Music.container = {
 
     % [Percussion.1.Music measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -183,8 +185,6 @@ number.29.Percussion.1.Music.container = {
     \once \override Staff.StaffSymbol.line-count = 1
       %! REAPPLIED_STAFF_LINES
     \startStaff
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     c'2
     :32
       %! REAPPLIED_DYNAMIC_COLOR
@@ -251,6 +251,8 @@ number.29.Percussion.1.Staff = {
 number.29.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -279,8 +281,6 @@ number.29.FirstViolins.Voice.1.container = {
     \voiceOne
       %! -PARTS
     \voiceTwo
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -470,6 +470,8 @@ number.29.FirstViolins.Voice.3.container = {
     {
 
         % [FirstViolins.Voice.3 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -494,8 +496,6 @@ number.29.FirstViolins.Voice.3.container = {
         \voiceOne
           %! -PARTS
         \voiceOne
-          %! REAPPLIED_CLEF
-        \clef "percussion"
         r8
           %! REAPPLIED_DYNAMIC_COLOR
           %! REAPPLIED_DYNAMIC
@@ -696,6 +696,8 @@ number.29.FirstViolins.Staff.2 = <<
 number.29.FirstViolins.Voice.5.container = {
 
     % [FirstViolins.Voice.5 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -720,8 +722,6 @@ number.29.FirstViolins.Voice.5.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r8.
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -907,6 +907,8 @@ number.29.FirstViolins.Staff.3 = <<
 number.29.FirstViolins.Voice.7.container = {
 
     % [FirstViolins.Voice.7 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -931,8 +933,6 @@ number.29.FirstViolins.Voice.7.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1115,6 +1115,8 @@ number.29.FirstViolins.Staff.4 = <<
 number.29.FirstViolins.Voice.9.container = {
 
     % [FirstViolins.Voice.9 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1139,8 +1141,6 @@ number.29.FirstViolins.Voice.9.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1315,6 +1315,8 @@ number.29.FirstViolins.Staff.5 = <<
 number.29.FirstViolins.Voice.11.container = {
 
     % [FirstViolins.Voice.11 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1339,8 +1341,6 @@ number.29.FirstViolins.Voice.11.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1522,6 +1522,8 @@ number.29.FirstViolins.Staff.6 = <<
 number.29.FirstViolins.Voice.13.container = {
 
     % [FirstViolins.Voice.13 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1546,8 +1548,6 @@ number.29.FirstViolins.Voice.13.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1732,6 +1732,8 @@ number.29.FirstViolins.Staff.7 = <<
 number.29.FirstViolins.Voice.15.container = {
 
     % [FirstViolins.Voice.15 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1756,8 +1758,6 @@ number.29.FirstViolins.Voice.15.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -1950,6 +1950,8 @@ number.29.FirstViolins.Staff.8 = <<
 number.29.FirstViolins.Voice.17.container = {
 
     % [FirstViolins.Voice.17 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1978,8 +1980,6 @@ number.29.FirstViolins.Voice.17.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2157,6 +2157,8 @@ number.29.FirstViolins.Staff.9 = <<
 number.29.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2185,8 +2187,6 @@ number.29.SecondViolins.Voice.1.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -2378,6 +2378,8 @@ number.29.SecondViolins.Voice.3.container = {
     {
 
         % [SecondViolins.Voice.3 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2402,8 +2404,6 @@ number.29.SecondViolins.Voice.3.container = {
         \voiceOne
           %! -PARTS
         \voiceOne
-          %! REAPPLIED_CLEF
-        \clef "percussion"
         r4
           %! REAPPLIED_DYNAMIC_COLOR
           %! REAPPLIED_DYNAMIC
@@ -2607,6 +2607,8 @@ number.29.SecondViolins.Staff.2 = <<
 number.29.SecondViolins.Voice.5.container = {
 
     % [SecondViolins.Voice.5 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2631,8 +2633,6 @@ number.29.SecondViolins.Voice.5.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r8.
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -2805,6 +2805,8 @@ number.29.SecondViolins.Staff.3 = <<
 number.29.SecondViolins.Voice.7.container = {
 
     % [SecondViolins.Voice.7 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -2829,8 +2831,6 @@ number.29.SecondViolins.Voice.7.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3029,6 +3029,8 @@ number.29.SecondViolins.Staff.4 = <<
 number.29.SecondViolins.Voice.9.container = {
 
     % [SecondViolins.Voice.9 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3053,8 +3055,6 @@ number.29.SecondViolins.Voice.9.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r4..
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3233,6 +3233,8 @@ number.29.SecondViolins.Staff.5 = <<
 number.29.SecondViolins.Voice.11.container = {
 
     % [SecondViolins.Voice.11 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3257,8 +3259,6 @@ number.29.SecondViolins.Voice.11.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -3445,6 +3445,8 @@ number.29.SecondViolins.Staff.6 = <<
 number.29.SecondViolins.Voice.13.container = {
 
     % [SecondViolins.Voice.13 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3469,8 +3471,6 @@ number.29.SecondViolins.Voice.13.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3652,6 +3652,8 @@ number.29.SecondViolins.Staff.7 = <<
 number.29.SecondViolins.Voice.15.container = {
 
     % [SecondViolins.Voice.15 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3676,8 +3678,6 @@ number.29.SecondViolins.Voice.15.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -3857,6 +3857,8 @@ number.29.SecondViolins.Staff.8 = <<
 number.29.SecondViolins.Voice.17.container = {
 
     % [SecondViolins.Voice.17 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -3885,8 +3887,6 @@ number.29.SecondViolins.Voice.17.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -4060,6 +4060,8 @@ number.29.SecondViolins.Staff.9 = <<
 number.29.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4088,8 +4090,6 @@ number.29.Violas.Voice.1.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4284,6 +4284,8 @@ number.29.Violas.Staff.1 = <<
 number.29.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4308,8 +4310,6 @@ number.29.Violas.Voice.3.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -4509,6 +4509,8 @@ number.29.Violas.Staff.2 = <<
 number.29.Violas.Voice.5.container = {
 
     % [Violas.Voice.5 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4533,8 +4535,6 @@ number.29.Violas.Voice.5.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r4
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -4713,6 +4713,8 @@ number.29.Violas.Staff.3 = <<
 number.29.Violas.Voice.7.container = {
 
     % [Violas.Voice.7 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4737,8 +4739,6 @@ number.29.Violas.Voice.7.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -4926,6 +4926,8 @@ number.29.Violas.Staff.4 = <<
 number.29.Violas.Voice.9.container = {
 
     % [Violas.Voice.9 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -4950,8 +4952,6 @@ number.29.Violas.Voice.9.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r4..
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -5128,6 +5128,8 @@ number.29.Violas.Staff.5 = <<
 number.29.Violas.Voice.11.container = {
 
     % [Violas.Voice.11 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5152,8 +5154,6 @@ number.29.Violas.Voice.11.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5342,6 +5342,8 @@ number.29.Violas.Staff.6 = <<
 number.29.Violas.Voice.13.container = {
 
     % [Violas.Voice.13 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5366,8 +5368,6 @@ number.29.Violas.Voice.13.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -5556,6 +5556,8 @@ number.29.Violas.Staff.7 = <<
 number.29.Violas.Voice.15.container = {
 
     % [Violas.Voice.15 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5580,8 +5582,6 @@ number.29.Violas.Voice.15.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -5773,6 +5773,8 @@ number.29.Violas.Staff.8 = <<
 number.29.Violas.Voice.17.container = {
 
     % [Violas.Voice.17 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -5801,8 +5803,6 @@ number.29.Violas.Voice.17.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -5978,6 +5978,8 @@ number.29.Violas.Staff.9 = <<
 number.29.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6006,8 +6008,6 @@ number.29.Cellos.Voice.1.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     d'16
       %! REAPPLIED_DYNAMIC_COLOR
       %! REAPPLIED_DYNAMIC
@@ -6197,6 +6197,8 @@ number.29.Cellos.Voice.3.container = {
     {
 
         % [Cellos.Voice.3 measure 1]
+          %! REAPPLIED_CLEF
+        \clef "percussion"
           %! REAPPLIED_CLEF_COLOR
         \once \override Staff.Clef.color = #(x11-color 'green4)
           %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6221,8 +6223,6 @@ number.29.Cellos.Voice.3.container = {
         \voiceOne
           %! -PARTS
         \voiceOne
-          %! REAPPLIED_CLEF
-        \clef "percussion"
         r8
           %! REAPPLIED_CLEF_REDRAW_COLOR
         \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -6413,6 +6413,8 @@ number.29.Cellos.Staff.2 = <<
 number.29.Cellos.Voice.5.container = {
 
     % [Cellos.Voice.5 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6437,8 +6439,6 @@ number.29.Cellos.Voice.5.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r8.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6619,6 +6619,8 @@ number.29.Cellos.Staff.3 = <<
 number.29.Cellos.Voice.7.container = {
 
     % [Cellos.Voice.7 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6643,8 +6645,6 @@ number.29.Cellos.Voice.7.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -6827,6 +6827,8 @@ number.29.Cellos.Staff.4 = <<
 number.29.Cellos.Voice.9.container = {
 
     % [Cellos.Voice.9 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -6851,8 +6853,6 @@ number.29.Cellos.Voice.9.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -7027,6 +7027,8 @@ number.29.Cellos.Staff.5 = <<
 number.29.Cellos.Voice.11.container = {
 
     % [Cellos.Voice.11 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -7051,8 +7053,6 @@ number.29.Cellos.Voice.11.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -7234,6 +7234,8 @@ number.29.Cellos.Staff.6 = <<
 number.29.Cellos.Voice.13.container = {
 
     % [Cellos.Voice.13 measure 1]
+      %! REAPPLIED_CLEF
+    \clef "percussion"
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -7262,8 +7264,6 @@ number.29.Cellos.Voice.13.container = {
     \voiceOne
       %! -PARTS
     \voiceOne
-      %! REAPPLIED_CLEF
-    \clef "percussion"
     r2
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
