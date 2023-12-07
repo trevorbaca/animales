@@ -42,14 +42,14 @@ number.30.Skips = {
     %@% \baca-thick-red-bar-line
       %! EXPLICIT_TIME_SIGNATURE_COLOR
     \baca-time-signature-color #blue
-      %! EXPLICIT_TIME_SIGNATURE
-    \time 3/4
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
     %@% \tweak color #red
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "30"
+      %! EXPLICIT_TIME_SIGNATURE
+    \time 3/4
     s1 * 3/4
       %! +TABLOID_SCORE
 %%% - \tweak extra-offset #'(0 . 6)
@@ -613,6 +613,7 @@ number.30.Percussion.4.Music.container = {
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
     % [Percussion.4.Music measure 10]
+    \mark \animales-colophon-markup
       %! +PARTS
 %%% \once \override Score.MultiMeasureRest.transparent = ##t
     \once \override Score.RehearsalMark.direction = #down
@@ -620,7 +621,6 @@ number.30.Percussion.4.Music.container = {
     \once \override Score.RehearsalMark.self-alignment-X = #right
       %! +PARTS
 %%% \once \override Score.TimeSignature.stencil = ##f
-    \mark \animales-colophon-markup
     R1 * 1/4
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
