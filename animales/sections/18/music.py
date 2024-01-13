@@ -154,7 +154,7 @@ def strings(cache, time_signatures, string_parts):
             pieces=baca.select.cmgroups(o, [2]),
         )
         baca.hairpin(
-            o,
+            (),
             f"niente o< {peak} >o niente",
             pieces=baca.select.mgroups(o, [2, 2]),
         )
