@@ -109,7 +109,11 @@ def winds(cache):
             not_parts=library.markups.solo_cl_2,
             only_parts=library.markups.solo,
         ),
-        baca.hairpin(o, "mp < mf")
+        baca.hairpin(
+            (),
+            "mp < mf",
+            pieces=[o],
+        )
         library.assign_part(o, "Clarinet", 2)
 
 
@@ -153,12 +157,14 @@ def strings(cache):
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.hairpin(
-            library.leaves_in_measure(o, 1, rleak=True),
+            (),
             "p < f",
+            pieces=[library.leaves_in_measure(o, 1, rleak=True)],
         )
         baca.hairpin(
-            library.leaves_in_measure(o, -1, lleak=True),
+            (),
             "f > p",
+            pieces=[library.leaves_in_measure(o, -1, lleak=True)],
         )
         library.assign_part(o, "FirstViolin", 1)
     library.assign_trill_parts(cache, exclude_first_violin=True)
@@ -187,8 +193,9 @@ def cb3(cache):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "B1")
         baca.hairpin(
-            o.pleaves()[:4],
+            (),
             "< ff",
+            pieces=[o.pleaves()[:4]],
             left_broken=True,
         )
         library.assign_part(o, "Contrabass", (1, 6))

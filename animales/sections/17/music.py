@@ -187,11 +187,23 @@ def brass(
         runs = baca.select.runs(argument)
         for i, run in enumerate(runs):
             if i == 0:
-                baca.hairpin(run, "mp < mf")
+                baca.hairpin(
+                    (),
+                    "mp < mf",
+                    pieces=[run],
+                )
             elif i == 1:
-                baca.hairpin(run, "mp < f")
+                baca.hairpin(
+                    (),
+                    "mp < f",
+                    pieces=[run],
+                )
             elif i == 2:
-                baca.hairpin(run, "mp < ff")
+                baca.hairpin(
+                    (),
+                    "mp < ff",
+                    pieces=[run],
+                )
 
     with baca.scope(cache["hn1"].leaves()) as o:
         wrappers = baca.voice_number(o.leaf(0), 1)
@@ -292,9 +304,17 @@ def strings(cache, time_signatures):
         baca.accent(o.pleaves())
         wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.text_spanner(o.pleaves()[2:-2], "ext. pont. => tasto")
+        baca.text_spanner(
+            (),
+            "ext. pont. => tasto",
+            pieces=[o.pleaves()[2:-2]],
+        )
         baca.dynamic(o.phead(0), "ff")
-        baca.hairpin(o.pleaves()[2:-2], "ff > pp")
+        baca.hairpin(
+            (),
+            "ff > pp",
+            pieces=[o.pleaves()[2:-2]],
+        )
 
     def upper_voice(o):
         wrappers = baca.override.text_script_extra_offset(o, (1, 3))

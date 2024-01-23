@@ -123,7 +123,11 @@ def percussion(cache, time_signatures):
 def cb3(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "C#2")
-        baca.text_spanner(o, "ord. => ext. pont.")
+        baca.text_spanner(
+            (),
+            "ord. => ext. pont.",
+            pieces=[o],
+        )
         baca.dynamic(o.phead(0), "fff")
         library.assign_part(o, "Contrabass", (1, 6))
 
