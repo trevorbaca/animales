@@ -101,7 +101,11 @@ def winds(cache):
             not_parts=library.markups.solo_cl_3,
             only_parts=library.markups.solo,
         )
-        baca.hairpin(o, "mp < mf")
+        baca.hairpin(
+            (),
+            "mp < mf",
+            pieces=[o],
+        )
         library.assign_part(o, "Clarinet", 3)
 
 
@@ -110,7 +114,12 @@ def percussion(cache):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpin(o, "p >o", right_broken=True)
+        baca.hairpin(
+            (),
+            "p >o",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "Percussion", 1)
     m = cache["perc2"]
     with baca.scope(m.leaves()) as o:
@@ -157,7 +166,12 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "f >", right_broken=True)
+        baca.hairpin(
+            (),
+            "f >",
+            pieces=[o],
+            right_broken=True,
+        )
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "B3", "A5")
         baca.glissando(
@@ -168,7 +182,12 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "f >", right_broken=True)
+        baca.hairpin(
+            (),
+            "f >",
+            pieces=[o],
+            right_broken=True,
+        )
     with baca.scope(cache["va1"].leaves()) as o:
         baca.interpolate_pitches(o, "B3", "A4")
         baca.glissando(
@@ -179,7 +198,12 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "f >", right_broken=True)
+        baca.hairpin(
+            (),
+            "f >",
+            pieces=[o],
+            right_broken=True,
+        )
     with baca.scope(cache["vc1"].leaves()) as o:
         baca.interpolate_pitches(o, "B3", "C3")
         baca.glissando(
@@ -190,7 +214,12 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "f >", right_broken=True)
+        baca.hairpin(
+            (),
+            "f >",
+            pieces=[o],
+            right_broken=True,
+        )
     with baca.scope(cache["cb3"].leaves()) as o:
         baca.repeat_tie(o.pleaf(0))
         baca.interpolate_pitches(o, "B1", "A1")
@@ -200,7 +229,12 @@ def strings(cache, absent_left_broken):
             hide_middle_note_heads=True,
             right_broken=True,
         )
-        baca.hairpin(o, "ff >", right_broken=True)
+        baca.hairpin(
+            (),
+            "ff >",
+            pieces=[o],
+            right_broken=True,
+        )
 
 
 @baca.build.timed("make_score")

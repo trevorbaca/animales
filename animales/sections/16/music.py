@@ -141,9 +141,17 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         baca.accent(o.pleaves())
         wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.text_spanner(o.pleaves()[2:-2], "ext. pont. => tasto")
+        baca.text_spanner(
+            (),
+            "ext. pont. => tasto",
+            pieces=[o.pleaves()[2:-2]],
+        )
         baca.dynamic(o.phead(0), "ff-ancora")
-        baca.hairpin(o.pleaves()[2:-2], "ff > pp")
+        baca.hairpin(
+            (),
+            "ff > pp",
+            pieces=[o.pleaves()[2:-2]],
+        )
 
     def upper_voice(o):
         wrappers = baca.override.text_script_extra_offset(o, (1, 3))

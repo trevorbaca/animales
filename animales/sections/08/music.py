@@ -124,7 +124,12 @@ def cl(m):
     with baca.scope(m.get(1, 6)) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
         library.assign_part(o, "Clarinet", 1)
-        baca.hairpin(o, "mp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "mp <",
+            pieces=[o],
+            right_broken=True,
+        )
         baca.edition(
             o.pleaf(0),
             not_parts=library.markups.solo_cl_1,
@@ -140,7 +145,12 @@ def bcl(m):
         baca.clef(o.leaf(0), "treble")
         library.assign_part(o, "BassClarinet")
     with baca.scope(m.get(5, 6)) as o:
-        baca.hairpin(o, "o<", right_broken=True)
+        baca.hairpin(
+            (),
+            "o<",
+            pieces=[o],
+            right_broken=True,
+        )
         baca.pitch(o, "A2")
 
 
@@ -164,7 +174,12 @@ def perc2(m):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpin(o, "mp >o", right_broken=True)
+        baca.hairpin(
+            (),
+            "mp >o",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "Percussion", 2)
 
 
@@ -186,7 +201,12 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "pp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "pp <",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "Bb5", "B3")
@@ -198,7 +218,12 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "pp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "pp <",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
         baca.interpolate_pitches(o, "Bb4", "B3")
@@ -210,7 +235,12 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "pp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "pp <",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
         baca.interpolate_pitches(o, "Bb2", "B3")
@@ -222,7 +252,12 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "pp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "pp <",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
         baca.interpolate_pitches(o, "Bb1", "A1")
@@ -233,7 +268,12 @@ def strings(cache):
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(o, "pp <", right_broken=True)
+        baca.hairpin(
+            (),
+            "pp <",
+            pieces=[o],
+            right_broken=True,
+        )
         library.assign_part(o, "Contrabass", (2, 6))
 
 

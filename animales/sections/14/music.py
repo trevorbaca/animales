@@ -197,13 +197,21 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.slur(o.tleaves())
-        wrappers = baca.hairpin(o.tleaves(), "mf < ff")
+        wrappers = baca.hairpin(
+            (),
+            "mf < ff",
+            pieces=[o.tleaves()],
+        )
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl3"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.slur(o.tleaves())
-        baca.hairpin(o.tleaves(), "mf < ff")
+        baca.hairpin(
+            (),
+            "mf < ff",
+            pieces=[o.tleaves()],
+        )
     with baca.scope(cache["fl2"].get(1, 3)) as o:
         baca.instrument(o.leaf(0), "Flute", library.manifests)
         baca.clef(o.leaf(0), "treble")
@@ -211,13 +219,21 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.slur(o.tleaves())
-        wrappers = baca.hairpin(o.tleaves(), "mf < ff")
+        wrappers = baca.hairpin(
+            (),
+            "mf < ff",
+            pieces=[o.tleaves()],
+        )
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl4"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.slur(o.tleaves())
-        baca.hairpin(o.tleaves(), "mf < ff")
+        baca.hairpin(
+            (),
+            "mf < ff",
+            pieces=[o.tleaves()],
+        )
     with baca.scope(cache["fl1"].leaves()) as o:
         library.assign_part(o, "Flute", 1)
     with baca.scope(cache["fl3"].leaves()) as o:
@@ -231,7 +247,12 @@ def flutes(cache, time_signatures):
 def cl(cache, time_signatures):
     with baca.scope(cache["cl"].get(1, 3)) as o:
         baca.pitch(o, "Eb5")
-        baca.hairpin(o, "< ff", left_broken=True)
+        baca.hairpin(
+            (),
+            "< ff",
+            left_broken=True,
+            pieces=[o],
+        )
     with baca.scope(cache["Clarinets.Rests"][4]) as o:
         baca.markup(o.leaf(0), r"\animales-choke-sound-suddenly-markup")
     with baca.scope(cache["cl"].leaves()) as o:
@@ -312,12 +333,14 @@ def strings(cache, time_signatures):
             only_parts=r"\markup { solo }",
         )
         baca.hairpin(
-            library.leaves_in_measure(o, 1, rleak=True),
+            (),
             "p < ff",
+            pieces=[library.leaves_in_measure(o, 1, rleak=True)],
         )
         baca.hairpin(
-            library.leaves_in_measure(o, -1, lleak=True),
+            (),
             "ff > p",
+            pieces=[library.leaves_in_measure(o, -1, lleak=True)],
         )
     with baca.scope(cache["1vn3"].leaves()) as o:
         library.assign_part(o, "FirstViolin", 1)
@@ -329,9 +352,10 @@ def strings(cache, time_signatures):
                 alteration="Ab3",
             )
             baca.hairpin(
-                o.pleaves()[:2],
+                (),
                 "< ff",
                 left_broken=True,
+                pieces=[o.pleaves()[:2]],
             )
     with baca.scope(cache["1vn1"].leaves()) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
@@ -356,9 +380,10 @@ def strings(cache, time_signatures):
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["cb3"].get(1, 3)) as o:
         baca.hairpin(
-            o.pleaves()[:2],
+            (),
             "< ff",
             left_broken=True,
+            pieces=[o.pleaves()[:2]],
         )
         baca.pitch(o, "G1")
     with baca.scope(cache["cb3"].leaves()) as o:
