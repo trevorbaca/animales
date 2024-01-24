@@ -194,14 +194,12 @@ def brass(
                     (),
                     "mp",
                     pieces=[run],
-                    right_broken=True,
                 )
             else:
                 baca.hairpin(
                     (),
                     "mp < ff",
                     pieces=[run],
-                    right_broken=True,
                 )
 
     with baca.scope(cache["hn1"].leaves()) as o:

@@ -195,20 +195,21 @@ def brass(cache, time_signatures, voice_name_to_parameter_to_state):
                     "mp < mf",
                     pieces=[run],
                 )
-            elif len(run) == 1:
-                baca.hairpin(
-                    (),
-                    "mp",
-                    pieces=[run],
-                    right_broken=True,
-                )
             else:
-                baca.hairpin(
-                    (),
-                    "mp <",
-                    pieces=[run],
-                    right_broken=True,
-                )
+                if len(run) == 1:
+                    baca.hairpin(
+                        (),
+                        "mp",
+                        pieces=[run],
+                        right_broken=True,
+                    )
+                else:
+                    baca.hairpin(
+                        (),
+                        "mp <",
+                        pieces=[run],
+                        right_broken=True,
+                    )
 
     with baca.scope(cache["hn1"].leaves()) as o:
         wrappers = baca.voice_number(o.leaf(0), 1)
