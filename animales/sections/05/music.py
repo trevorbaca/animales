@@ -180,7 +180,7 @@ def strings(cache):
         with baca.scope(m.leaves()) as o:
             baca.pitch(o, "B3")
             baca.accent(o.pheads()[1:])
-            baca.trill_spanner(
+            baca.spanners.trill(
                 baca.select.rleak(o.tleaves()),
                 alteration="C4",
                 right_broken=True,

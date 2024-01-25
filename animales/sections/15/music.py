@@ -192,7 +192,7 @@ def flutes(cache, time_signatures):
     with baca.scope(cache["fl1"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur(o.tleaves())
+        baca.spanners.slur(o.tleaves())
         wrappers = baca.hairpin(
             (),
             "mf < ff",
@@ -202,7 +202,7 @@ def flutes(cache, time_signatures):
     with baca.scope(cache["fl3"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur(o.tleaves())
+        baca.spanners.slur(o.tleaves())
         baca.hairpin(
             (),
             "mf < ff",
@@ -211,7 +211,7 @@ def flutes(cache, time_signatures):
     with baca.scope(cache["fl2"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur(o.tleaves())
+        baca.spanners.slur(o.tleaves())
         wrappers = baca.hairpin(
             (),
             "mf < ff",
@@ -221,7 +221,7 @@ def flutes(cache, time_signatures):
     with baca.scope(cache["fl4"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
-        baca.slur(o.tleaves())
+        baca.spanners.slur(o.tleaves())
         baca.hairpin(
             (),
             "mf < ff",
@@ -336,7 +336,7 @@ def strings(cache, time_signatures):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "G3")
-            baca.trill_spanner(
+            baca.spanners.trill(
                 baca.select.tleaves(o, rleak=True),
                 alteration="Ab3",
             )

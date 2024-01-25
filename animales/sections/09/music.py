@@ -182,7 +182,7 @@ def strings(cache):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "Ab3")
-            baca.trill_spanner(
+            baca.spanners.trill(
                 baca.select.rleak(o.tleaves()),
                 alteration="Bb3",
             )
