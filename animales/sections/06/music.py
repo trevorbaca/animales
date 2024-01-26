@@ -101,10 +101,9 @@ def winds(cache):
             not_parts=library.markups.solo_cl_3,
             only_parts=library.markups.solo,
         )
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "mp < mf",
-            pieces=[o],
         )
         library.assign_part(o, "Clarinet", 3)
 
@@ -114,10 +113,9 @@ def percussion(cache):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "p >o",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Percussion", 1)
@@ -166,10 +164,9 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "f >",
-            pieces=[o],
             right_broken=True,
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
@@ -182,10 +179,9 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "f >",
-            pieces=[o],
             right_broken=True,
         )
     with baca.scope(cache["va1"].leaves()) as o:
@@ -198,10 +194,9 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "f >",
-            pieces=[o],
             right_broken=True,
         )
     with baca.scope(cache["vc1"].leaves()) as o:
@@ -214,10 +209,9 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "f >",
-            pieces=[o],
             right_broken=True,
         )
     with baca.scope(cache["cb3"].leaves()) as o:
@@ -229,10 +223,9 @@ def strings(cache, absent_left_broken):
             hide_middle_note_heads=True,
             right_broken=True,
         )
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "ff >",
-            pieces=[o],
             right_broken=True,
         )
 

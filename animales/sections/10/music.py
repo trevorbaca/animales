@@ -164,10 +164,9 @@ def CB3(voice, time_signatures):
 def cl(m):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "A4")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "mp < mf",
-            pieces=[o],
         )
         library.assign_part(o, "Clarinet", 3)
 
@@ -175,10 +174,9 @@ def cl(m):
 def bcl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "A2")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            baca.select.rleak(o.pleaves()),
             "p >o niente",
-            pieces=[baca.select.rleak(o.pleaves())],
         )
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "BassClarinet")
@@ -190,24 +188,21 @@ def brass(cache, time_signatures, voice_name_to_parameter_to_state):
         total = len(runs)
         for n, run in enumerate(runs, start=1):
             if n < total:
-                baca.hairpin(
-                    (),
+                baca.spanners.hairpin(
+                    run,
                     "mp < mf",
-                    pieces=[run],
                 )
             else:
                 if len(run) == 1:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "mp",
-                        pieces=[run],
                         right_broken=True,
                     )
                 else:
-                    baca.hairpin(
-                        (),
+                    baca.spanners.hairpin(
+                        run,
                         "mp <",
-                        pieces=[run],
                         right_broken=True,
                     )
 
@@ -336,10 +331,9 @@ def strings(cache):
                 alteration="Ab3",
                 right_broken=True,
             )
-            baca.hairpin(
-                (),
+            baca.spanners.hairpin(
+                o,
                 "pp <",
-                pieces=[o],
                 right_broken=True,
             )
     for name, section, part_numbers in (
@@ -352,10 +346,9 @@ def strings(cache):
     m = cache["cb3"]
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "A1")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))

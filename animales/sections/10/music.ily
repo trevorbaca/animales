@@ -648,8 +648,6 @@ number.10.Horns.Voice.3.container = {
       %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
-      %! RIGHT_BROKEN
-    \!
 
 }
 
@@ -940,8 +938,6 @@ number.10.Horns.Voice.4.container = {
       %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
-      %! RIGHT_BROKEN
-    \!
 
 }
 
@@ -1086,8 +1082,6 @@ number.10.Trumpets.Voice.1.container = {
       %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
-      %! RIGHT_BROKEN
-    \!
 
 }
 
@@ -1513,8 +1507,6 @@ number.10.Trumpets.Voice.4.container = {
       %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
-      %! RIGHT_BROKEN
-    \!
 
 }
 

@@ -124,10 +124,9 @@ def cl(m):
     with baca.scope(m.get(1, 6)) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
         library.assign_part(o, "Clarinet", 1)
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "mp <",
-            pieces=[o],
             right_broken=True,
         )
         baca.edition(
@@ -145,10 +144,9 @@ def bcl(m):
         baca.clef(o.leaf(0), "treble")
         library.assign_part(o, "BassClarinet")
     with baca.scope(m.get(5, 6)) as o:
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "o<",
-            pieces=[o],
             right_broken=True,
         )
         baca.pitch(o, "A2")
@@ -174,10 +172,9 @@ def perc2(m):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "mp >o",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Percussion", 2)
@@ -201,10 +198,9 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "FirstViolin", (1, 18))
@@ -218,10 +214,9 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "SecondViolin", (1, 18))
@@ -235,10 +230,9 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Viola", (1, 18))
@@ -252,10 +246,9 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Cello", (1, 14))
@@ -268,10 +261,9 @@ def strings(cache):
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "pp <",
-            pieces=[o],
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))

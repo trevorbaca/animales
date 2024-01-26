@@ -123,11 +123,10 @@ def cl(cache):
     m = cache["cl"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "F5")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o,
             "< ff",
             left_broken=True,
-            pieces=[o],
         )
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Clarinet", 1)
@@ -186,11 +185,10 @@ def strings(cache):
                 baca.select.rleak(o.tleaves()),
                 alteration="Bb3",
             )
-            baca.hairpin(
-                (),
+            baca.spanners.hairpin(
+                o.pleaves()[:2],
                 "< ff",
                 left_broken=True,
-                pieces=[o.pleaves()[:2]],
             )
     for name, section, part_numbers in (
         ("1vn1", "FirstViolin", (1, 18)),
@@ -221,11 +219,10 @@ def strings(cache):
     m = cache["cb3"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Ab1")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.pleaves()[:2],
             "< ff",
             left_broken=True,
-            pieces=[o.pleaves()[:2]],
         )
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Contrabass", (2, 6))

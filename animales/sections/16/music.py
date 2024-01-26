@@ -147,10 +147,9 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
             pieces=[o.pleaves()[2:-2]],
         )
         baca.dynamic(o.phead(0), "ff-ancora")
-        baca.hairpin(
-            (),
+        baca.spanners.hairpin(
+            o.pleaves()[2:-2],
             "ff > pp",
-            pieces=[o.pleaves()[2:-2]],
         )
 
     def upper_voice(o):
