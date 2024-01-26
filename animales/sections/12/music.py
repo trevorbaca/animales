@@ -276,9 +276,9 @@ def brass(
             )
             assert voice_name not in voice_name_to_parameter_to_state
             voice_name_to_parameter_to_state[voice_name] = {}
-            voice_name_to_parameter_to_state[voice_name][
-                "PITCH"
-            ] = previous_parameter_to_state["PITCH"]
+            voice_name_to_parameter_to_state[voice_name]["PITCH"] = (
+                previous_parameter_to_state["PITCH"]
+            )
 
 
 def pf(m, time_signatures):
