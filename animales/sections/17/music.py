@@ -72,7 +72,7 @@ def SKIPS(score):
 
 def swell(argument, peak):
     leaves = baca.select.rleaves(argument)
-    return baca.hairpin(
+    return baca.piecewise.hairpin(
         baca.select.mgroups(leaves, [2, 3, 1]),
         f"niente o< {peak} >o niente",
     )
@@ -300,7 +300,7 @@ def strings(cache, time_signatures):
         baca.accent(o.pleaves())
         wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.text_spanner(
+        baca.piecewise.text(
             (),
             "ext. pont. => tasto",
             pieces=[o.pleaves()[2:-2]],
