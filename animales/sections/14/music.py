@@ -129,7 +129,7 @@ def PF_HP_PERC3_CB1(
         previous_parameter_to_state = previous_voice_name_to_parameter_to_state[
             voice_name
         ]
-        previous_state = baca.get_previous_rhythm_state(
+        previous_state = baca.rhythm.get_previous_rhythm_state(
             previous_parameter_to_state, name
         )
         voice = score[voice_name]
