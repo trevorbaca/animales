@@ -184,7 +184,6 @@ def strings(cache):
             baca.spanners.trill(
                 o.tleaves(),
                 alteration="Bb3",
-                with_next_leaf=True,
             )
             baca.spanners.hairpin(
                 o.pleaves()[:2],

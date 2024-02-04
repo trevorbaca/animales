@@ -154,7 +154,6 @@ def strings(cache, time_signatures, names):
             baca.spanners.trill(
                 o,
                 alteration="B4",
-                with_next_leaf=True,
             )
             baca.dynamic(o.pleaf(0), "f-but-accents-sffz")
         with baca.scope(m.get(5, 6)) as o:
@@ -163,7 +162,6 @@ def strings(cache, time_signatures, names):
                 o.tleaves(),
                 alteration="A4",
                 right_broken=True,
-                with_next_leaf=True,
             )
             baca.dynamic(o.pleaf(0), "p-sub-but-accents-continue-sffz")
     for name in ["1vn3", "2vn3"]:
