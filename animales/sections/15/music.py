@@ -329,7 +329,6 @@ def strings(cache, time_signatures):
             baca.spanners.trill(
                 baca.select.tleaves(o),
                 alteration="Ab3",
-                with_next_leaf=True,
             )
             baca.spanners.hairpin(
                 o,

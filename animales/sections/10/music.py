@@ -330,7 +330,6 @@ def strings(cache):
                 o.tleaves(),
                 alteration="Ab3",
                 right_broken=True,
-                with_next_leaf=True,
             )
             baca.spanners.hairpin(
                 o,

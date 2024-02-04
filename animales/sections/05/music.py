@@ -181,7 +181,6 @@ def strings(cache):
                 o.tleaves(),
                 alteration="C4",
                 right_broken=True,
-                with_next_leaf=True,
             )
             baca.dynamic(o.pleaf(0), "f-but-accents-sffz")
 
