@@ -76,16 +76,18 @@ def strings(cache):
         with baca.scope(m.get(1, 4)) as o:
             baca.pitch(o, "Gb4")
             baca.spanners.trill(
-                baca.select.rleak(o.tleaves()),
+                o.tleaves(),
                 alteration="Ab4",
+                with_next_leaf=True,
             )
             baca.dynamic(o.pleaf(0), "f-sub-but-accents-continue-sffz")
         with baca.scope(m.get(5, 6)) as o:
             baca.pitch(o, "F4")
             baca.spanners.trill(
-                baca.select.rleak(o.tleaves()),
+                o.tleaves(),
                 alteration="Gb4",
                 right_broken=True,
+                with_next_leaf=True,
             ),
             baca.dynamic(o.pleaf(0), "p-sub-but-accents-continue-sffz")
     for name in ["1vn3", "2vn3"]:

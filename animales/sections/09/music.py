@@ -182,8 +182,9 @@ def strings(cache):
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "Ab3")
             baca.spanners.trill(
-                baca.select.rleak(o.tleaves()),
+                o.tleaves(),
                 alteration="Bb3",
+                with_next_leaf=True,
             )
             baca.spanners.hairpin(
                 o.pleaves()[:2],

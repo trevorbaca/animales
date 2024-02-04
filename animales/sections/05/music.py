@@ -178,9 +178,10 @@ def strings(cache):
             baca.pitch(o, "B3")
             baca.accent(o.pheads()[1:])
             baca.spanners.trill(
-                baca.select.rleak(o.tleaves()),
+                o.tleaves(),
                 alteration="C4",
                 right_broken=True,
+                with_next_leaf=True,
             )
             baca.dynamic(o.pleaf(0), "f-but-accents-sffz")
 
