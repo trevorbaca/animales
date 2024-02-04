@@ -327,8 +327,9 @@ def strings(cache, time_signatures):
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "G3")
             baca.spanners.trill(
-                baca.select.tleaves(o, rleak=True),
+                baca.select.tleaves(o),
                 alteration="Ab3",
+                with_next_leaf=True,
             )
             baca.spanners.hairpin(
                 o,
