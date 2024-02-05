@@ -241,7 +241,7 @@ def strings(cache, names):
         with baca.scope(m.get(1, 2)) as o:
             baca.pitch(o, "Db4")
             baca.accent(o.pheads()[1:])
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 o.tleaves(),
                 alteration="Eb4",
             ),

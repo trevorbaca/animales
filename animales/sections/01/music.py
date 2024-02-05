@@ -151,14 +151,14 @@ def strings(cache, time_signatures, names):
         with baca.scope(m.get(1, 4)) as o:
             # ... then pitch
             baca.pitch(o, "A4")
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 o,
                 alteration="B4",
             )
             baca.dynamic(o.pleaf(0), "f-but-accents-sffz")
         with baca.scope(m.get(5, 6)) as o:
             baca.pitch(o, "Ab4")
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 o.tleaves(),
                 alteration="A4",
                 right_broken=True,
