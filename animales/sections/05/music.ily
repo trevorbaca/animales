@@ -1668,13 +1668,13 @@ number.5.Contrabasses.Voice.3.container = {
     b,2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f

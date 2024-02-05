@@ -425,10 +425,10 @@ number.6.Percussion.1.Music.container = {
     % [Percussion.1.Music measure 6]
     c'1
     :32
-    - \tweak direction #up
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    - \tweak direction #up
+    \repeatTie
 
 }
 

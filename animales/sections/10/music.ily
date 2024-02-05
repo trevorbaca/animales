@@ -1225,9 +1225,9 @@ number.10.Trumpets.Voice.3.container = {
     [
 
     a'8
-    ]
       %! RIGHT_BROKEN
     \!
+    ]
 
 }
 
@@ -2490,9 +2490,9 @@ number.10.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 6]
     a1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -2627,9 +2627,9 @@ number.10.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 6]
     a1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -2764,9 +2764,9 @@ number.10.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 6]
     a1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -2901,9 +2901,9 @@ number.10.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 6]
     a1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -3124,9 +3124,9 @@ number.10.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 6]
     a,1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 

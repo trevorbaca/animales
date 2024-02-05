@@ -1235,20 +1235,12 @@
         "Contrabasses.Voice.3": [
             baca.Memento(
                 context="Contrabasses.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            ),
-            baca.Memento(
-                context="Contrabasses.Voice.3",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Contrabasses.Voice.4": [
             baca.Memento(

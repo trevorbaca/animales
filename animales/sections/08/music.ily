@@ -287,9 +287,9 @@ number.8.Clarinets.Music.container = {
 
     % [Clarinets.Music measure 6]
     g''1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -380,9 +380,9 @@ number.8.BassClarinet.Music.container = {
 
     % [BassClarinet.Music measure 6]
     b1
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -686,10 +686,10 @@ number.8.Percussion.2.Music.container = {
     % [Percussion.2.Music measure 6]
     c'1
     :32
-    - \tweak direction #up
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    - \tweak direction #up
+    \repeatTie
 
 }
 
