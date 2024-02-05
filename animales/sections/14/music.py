@@ -340,7 +340,7 @@ def strings(cache, time_signatures):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "G3")
-            baca.spanners.trill(
+            baca.rspanners.trill(
                 baca.select.tleaves(o),
                 alteration="Ab3",
             )
