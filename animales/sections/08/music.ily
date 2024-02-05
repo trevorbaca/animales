@@ -288,6 +288,7 @@ number.8.Clarinets.Music.container = {
     % [Clarinets.Music measure 6]
     g''1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -381,6 +382,7 @@ number.8.BassClarinet.Music.container = {
     % [BassClarinet.Music measure 6]
     b1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -687,6 +689,7 @@ number.8.Percussion.2.Music.container = {
     c'1
     :32
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     - \tweak direction #up
     \repeatTie
@@ -932,6 +935,7 @@ number.8.FirstViolins.Voice.1.container = {
     \undo \hide NoteHead
     b4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1073,6 +1077,7 @@ number.8.SecondViolins.Voice.1.container = {
     \undo \hide NoteHead
     b4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1214,6 +1219,7 @@ number.8.Violas.Voice.1.container = {
     \undo \hide NoteHead
     b4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1355,6 +1361,7 @@ number.8.Cellos.Voice.1.container = {
     \undo \hide NoteHead
     b4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1598,6 +1605,7 @@ number.8.Contrabasses.Voice.3.container = {
     \undo \hide NoteHead
     a,4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }

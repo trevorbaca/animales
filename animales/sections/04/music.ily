@@ -2360,6 +2360,7 @@ number.4.Contrabasses.Voice.3.container = {
     % [Contrabasses.Voice.3 measure 6]
     c2.
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 

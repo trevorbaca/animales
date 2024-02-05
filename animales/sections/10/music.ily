@@ -548,6 +548,7 @@ number.10.Horns.Voice.1.container = {
 
     fs'2
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -641,11 +642,9 @@ number.10.Horns.Voice.3.container = {
     ef'!2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
 
@@ -806,6 +805,7 @@ number.10.Horns.Voice.2.container = {
 
         fs'!4
           %! RIGHT_BROKEN
+          %! SPANNER_STOP
         \!
 
     }
@@ -931,11 +931,9 @@ number.10.Horns.Voice.4.container = {
     ef'!8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
 
@@ -1075,11 +1073,9 @@ number.10.Trumpets.Voice.1.container = {
     af'!4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
 
@@ -1226,6 +1222,7 @@ number.10.Trumpets.Voice.3.container = {
 
     a'8
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     ]
 
@@ -1380,6 +1377,7 @@ number.10.Trumpets.Voice.2.container = {
 
         bf'4
           %! RIGHT_BROKEN
+          %! SPANNER_STOP
         \!
 
         r8
@@ -1500,11 +1498,9 @@ number.10.Trumpets.Voice.4.container = {
     g'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
 
@@ -1649,6 +1645,7 @@ number.10.Trombones.Voice.1.container = {
 
     af2
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1764,6 +1761,7 @@ number.10.Trombones.Voice.3.container = {
 
     a2
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
     r4
@@ -1926,6 +1924,7 @@ number.10.Trombones.Voice.2.container = {
 
         af!4
           %! RIGHT_BROKEN
+          %! SPANNER_STOP
         \!
 
     }
@@ -2040,6 +2039,7 @@ number.10.Trombones.Voice.4.container = {
 
     a2
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -2491,6 +2491,7 @@ number.10.FirstViolins.Voice.1.container = {
     % [FirstViolins.Voice.1 measure 6]
     a1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -2628,6 +2629,7 @@ number.10.SecondViolins.Voice.1.container = {
     % [SecondViolins.Voice.1 measure 6]
     a1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -2765,6 +2767,7 @@ number.10.Violas.Voice.1.container = {
     % [Violas.Voice.1 measure 6]
     a1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -2902,6 +2905,7 @@ number.10.Cellos.Voice.1.container = {
     % [Cellos.Voice.1 measure 6]
     a1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -3125,6 +3129,7 @@ number.10.Contrabasses.Voice.3.container = {
     % [Contrabasses.Voice.3 measure 6]
     a,1
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 

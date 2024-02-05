@@ -197,7 +197,6 @@ def brass(cache, time_signatures, voice_name_to_parameter_to_state):
                     baca.spanners.hairpin(
                         run,
                         "mp",
-                        right_broken=True,
                     )
                 else:
                     baca.spanners.hairpin(

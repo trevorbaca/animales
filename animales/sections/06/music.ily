@@ -426,6 +426,7 @@ number.6.Percussion.1.Music.container = {
     c'1
     :32
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     - \tweak direction #up
     \repeatTie
@@ -673,6 +674,7 @@ number.6.FirstViolins.Voice.1.container = {
     \undo \hide NoteHead
     a'''4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -884,6 +886,7 @@ number.6.SecondViolins.Voice.1.container = {
     \undo \hide NoteHead
     a''4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1095,6 +1098,7 @@ number.6.Violas.Voice.1.container = {
     \undo \hide NoteHead
     a'4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1306,6 +1310,7 @@ number.6.Cellos.Voice.1.container = {
     \undo \hide NoteHead
     c4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1443,6 +1448,7 @@ number.6.Contrabasses.Voice.3.container = {
     \undo \hide NoteHead
     a,4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }

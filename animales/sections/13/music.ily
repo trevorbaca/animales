@@ -294,6 +294,7 @@ number.13.Clarinets.Music.container = {
     % [Clarinets.Music measure 6]
     f''2.
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -386,6 +387,7 @@ number.13.BassClarinet.Music.container = {
     % [BassClarinet.Music measure 6]
     bf2.
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
     \repeatTie
 
@@ -1014,6 +1016,7 @@ number.13.FirstViolins.Voice.1.container = {
     \undo \hide NoteHead
     a4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1149,6 +1152,7 @@ number.13.SecondViolins.Voice.1.container = {
     \undo \hide NoteHead
     a4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1284,6 +1288,7 @@ number.13.Violas.Voice.1.container = {
     \undo \hide NoteHead
     a4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1419,6 +1424,7 @@ number.13.Cellos.Voice.1.container = {
     \undo \hide NoteHead
     a4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -1640,6 +1646,7 @@ number.13.Contrabasses.Voice.3.container = {
     \undo \hide NoteHead
     g,4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }

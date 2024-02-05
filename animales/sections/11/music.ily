@@ -2777,6 +2777,7 @@ number.11.FirstViolins.Voice.1.container = {
     \undo \hide NoteHead
     g'''4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -2919,6 +2920,7 @@ number.11.SecondViolins.Voice.1.container = {
     \undo \hide NoteHead
     g''4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -3061,6 +3063,7 @@ number.11.Violas.Voice.1.container = {
     \undo \hide NoteHead
     g'4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -3203,6 +3206,7 @@ number.11.Cellos.Voice.1.container = {
     \undo \hide NoteHead
     b,4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
@@ -3431,6 +3435,7 @@ number.11.Contrabasses.Voice.3.container = {
     \undo \hide NoteHead
     g,4
       %! RIGHT_BROKEN
+      %! SPANNER_STOP
     \!
 
 }
