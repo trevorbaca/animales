@@ -99,16 +99,6 @@
     "first_metronome_mark": False,
     "has_anchor_skip": True,
     "persistent_indicators": {
-        "BassClarinet.Music": [
-            baca.Memento(
-                context="BassClarinet.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="o<",
-            )
-        ],
         "BassClarinet.Staff": [
             baca.Memento(
                 context="BassClarinet.Music",
@@ -160,26 +150,6 @@
                 synthetic_offset=None,
                 value="Vc.",
             ),
-        ],
-        "Cellos.Voice.1": [
-            baca.Memento(
-                context="Cellos.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
-        ],
-        "Clarinets.Music": [
-            baca.Memento(
-                context="Clarinets.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
         ],
         "Clarinets.Staff": [
             baca.Memento(
@@ -269,16 +239,6 @@
                 value="mf",
             )
         ],
-        "Contrabasses.Voice.3": [
-            baca.Memento(
-                context="Contrabasses.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
-        ],
         "FirstViolins.Staff.1": [
             baca.Memento(
                 context="FirstViolins.Voice.1",
@@ -334,20 +294,12 @@
         "FirstViolins.Voice.1": [
             baca.Memento(
                 context="FirstViolins.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            ),
-            baca.Memento(
-                context="FirstViolins.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "FirstViolins.Voice.2": [
             baca.Memento(
@@ -829,16 +781,6 @@
                 value="Vni. II (11-18)",
             ),
         ],
-        "SecondViolins.Voice.1": [
-            baca.Memento(
-                context="SecondViolins.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
-        ],
         "SecondViolins.Voice.3": [
             baca.Memento(
                 context="SecondViolins.Voice.3",
@@ -1184,16 +1126,6 @@
                 synthetic_offset=None,
                 value="Vle. (11-18)",
             ),
-        ],
-        "Violas.Voice.1": [
-            baca.Memento(
-                context="Violas.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
         ],
         "Violas.Voice.3": [
             baca.Memento(

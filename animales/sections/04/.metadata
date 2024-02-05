@@ -269,16 +269,6 @@
                 value="Cb.",
             ),
         ],
-        "Contrabasses.Voice.3": [
-            baca.Memento(
-                context="Contrabasses.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.StartHairpin",
-                synthetic_offset=None,
-                value="<",
-            )
-        ],
         "FirstViolins.Staff.1": [
             baca.Memento(
                 context="FirstViolins.Voice.1",

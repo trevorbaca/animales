@@ -338,13 +338,13 @@ number.11.Horns.Voice.1.container = {
     e'4
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Horn”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     ~
@@ -674,13 +674,13 @@ number.11.Horns.Voice.2.container = {
     e'2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Horn”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1165,13 +1165,13 @@ number.11.Trumpets.Voice.3.container = {
       %! -PARTS
     \voiceTwo
     g'2
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     ~
@@ -1361,11 +1361,6 @@ number.11.Trumpets.Voice.2.container = {
     r8
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trumpet”)"
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    \<
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
@@ -1375,13 +1370,13 @@ number.11.Trumpets.Voice.2.container = {
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Tp." \hcenter-in #16 "(2+4)" }
 
     af'!8
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     ~
@@ -1646,13 +1641,13 @@ number.11.Trombones.Voice.1.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
     [
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1796,13 +1791,13 @@ number.11.Trombones.Voice.3.container = {
       %! -PARTS
     \voiceTwo
     g2
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     ~
@@ -1971,13 +1966,13 @@ number.11.Trombones.Voice.2.container = {
     bf!2
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Trombone”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2108,13 +2103,13 @@ number.11.Trombones.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     g8
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
 

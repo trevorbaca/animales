@@ -2359,9 +2359,9 @@ number.4.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 6]
     c2.
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 

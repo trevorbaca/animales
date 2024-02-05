@@ -909,13 +909,13 @@ number.14.Clarinets.Music.container = {
     f''2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -1752,13 +1752,13 @@ number.14.FirstViolins.Voice.1.container = {
     g2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -1886,13 +1886,13 @@ number.14.SecondViolins.Voice.1.container = {
     g2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -2018,13 +2018,13 @@ number.14.Violas.Voice.1.container = {
     g2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -2150,13 +2150,13 @@ number.14.Cellos.Voice.1.container = {
     g2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -2379,13 +2379,13 @@ number.14.Contrabasses.Voice.3.container = {
     g,2.
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
-      %! REDUNDANT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC_COLOR
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
-    - \tweak color #(x11-color 'DeepPink1)
+    - \tweak color #blue
+      %! EXPLICIT_DYNAMIC
       %! LEFT_BROKEN
-      %! REDUNDANT_DYNAMIC
       %! SPANNER_START
     \<
     - \tweak stencil ##f

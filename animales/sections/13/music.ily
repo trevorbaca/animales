@@ -293,9 +293,9 @@ number.13.Clarinets.Music.container = {
 
     % [Clarinets.Music measure 6]
     f''2.
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
@@ -385,9 +385,9 @@ number.13.BassClarinet.Music.container = {
 
     % [BassClarinet.Music measure 6]
     bf2.
-    \repeatTie
       %! RIGHT_BROKEN
     \!
+    \repeatTie
 
 }
 
