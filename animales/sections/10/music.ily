@@ -286,10 +286,8 @@ number.10.Clarinets.Music.container = {
     b'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     - \tweak direction #up
     \repeatTie
@@ -377,10 +375,8 @@ number.10.BassClarinet.Music.container = {
     R1 * 4/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
@@ -494,10 +490,8 @@ number.10.Horns.Voice.1.container = {
         fs'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
 
         r4
@@ -581,10 +575,8 @@ number.10.Horns.Voice.3.container = {
     f'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -615,10 +607,8 @@ number.10.Horns.Voice.3.container = {
     f'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -740,10 +730,8 @@ number.10.Horns.Voice.2.container = {
     fs'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     \times 2/3
@@ -840,10 +828,8 @@ number.10.Horns.Voice.4.container = {
         f'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
 
         r8
@@ -886,10 +872,8 @@ number.10.Horns.Voice.4.container = {
         f'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
 
         r8
@@ -993,10 +977,8 @@ number.10.Trumpets.Voice.1.container = {
     bf'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -1026,10 +1008,8 @@ number.10.Trumpets.Voice.1.container = {
     bf'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -1089,10 +1069,8 @@ number.10.Trumpets.Voice.3.container = {
         a'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
 
         r4
@@ -1135,10 +1113,8 @@ number.10.Trumpets.Voice.3.container = {
     a'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8
@@ -1276,10 +1252,8 @@ number.10.Trumpets.Voice.2.container = {
     bf'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8
@@ -1388,10 +1362,8 @@ number.10.Trumpets.Voice.4.container = {
     a'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     \times 2/3
@@ -1427,10 +1399,8 @@ number.10.Trumpets.Voice.4.container = {
     a'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r4
@@ -1535,10 +1505,8 @@ number.10.Trombones.Voice.1.container = {
     af2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Trombones.Voice.1 measure 5]
@@ -1635,10 +1603,8 @@ number.10.Trombones.Voice.3.container = {
     g2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     % [Trombones.Voice.3 measure 4]
@@ -1800,10 +1766,8 @@ number.10.Trombones.Voice.2.container = {
         af4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \mf
 
         r8
@@ -1909,10 +1873,8 @@ number.10.Trombones.Voice.4.container = {
     g4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
 
     r8

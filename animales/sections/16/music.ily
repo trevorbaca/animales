@@ -1202,10 +1202,8 @@ number.16.FirstViolins.Voice.1.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1367,10 +1365,8 @@ number.16.FirstViolins.Voice.2.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1568,10 +1564,8 @@ number.16.FirstViolins.Voice.3.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -1731,10 +1725,8 @@ number.16.FirstViolins.Voice.4.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2083,10 +2075,8 @@ number.16.SecondViolins.Voice.1.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2248,10 +2238,8 @@ number.16.SecondViolins.Voice.2.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2447,10 +2435,8 @@ number.16.SecondViolins.Voice.3.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2610,10 +2596,8 @@ number.16.SecondViolins.Voice.4.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2809,10 +2793,8 @@ number.16.Violas.Voice.1.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -2972,10 +2954,8 @@ number.16.Violas.Voice.2.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3171,10 +3151,8 @@ number.16.Violas.Voice.3.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3334,10 +3312,8 @@ number.16.Violas.Voice.4.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3536,10 +3512,8 @@ number.16.Cellos.Voice.1.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3701,10 +3675,8 @@ number.16.Cellos.Voice.2.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan
@@ -3888,10 +3860,8 @@ number.16.Contrabasses.Voice.3.container = {
     - \accent
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! SPANNER_STOP
     \stopTextSpan

@@ -377,11 +377,9 @@ number.15.Flutes.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% \ff
       %! SPANNER_STOP
     )
@@ -543,10 +541,8 @@ number.15.Flutes.Voice.3.container = {
         bf''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SPANNER_STOP
         )
@@ -768,11 +764,9 @@ number.15.Flutes.Voice.2.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \ff
           %! SPANNER_STOP
         )
@@ -951,10 +945,8 @@ number.15.Flutes.Voice.4.container = {
     b''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SPANNER_STOP
     )
@@ -1060,10 +1052,8 @@ number.15.BassClarinet.Music.container = {
     R1 * 2/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
@@ -1092,10 +1082,8 @@ number.15.BassClarinet.Music.container = {
     bf1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak stencil ##f
     ~
@@ -1409,10 +1397,8 @@ number.15.Percussion.1.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak stencil ##f
     ~
@@ -1527,10 +1513,8 @@ number.15.Percussion.2.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak stencil ##f
     ~
@@ -1728,10 +1712,8 @@ number.15.FirstViolins.Voice.2.container = {
     d''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     [
     \glissando
@@ -1775,10 +1757,8 @@ number.15.FirstViolins.Voice.2.container = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! -PARTS
     \revert DynamicLineSpanner.direction
@@ -1914,10 +1894,8 @@ number.15.FirstViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -2062,10 +2040,8 @@ number.15.SecondViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -2208,10 +2184,8 @@ number.15.Violas.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -2354,10 +2328,8 @@ number.15.Cellos.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -2597,10 +2569,8 @@ number.15.Contrabasses.Voice.3.container = {
     g,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 

@@ -343,10 +343,8 @@ number.7.Clarinets.Music.container.1 = {
     e''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 
@@ -402,10 +400,8 @@ number.7.Clarinets.Music.container.2 = {
     ef''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 

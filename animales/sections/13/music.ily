@@ -660,10 +660,8 @@ number.13.Percussion.1.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
     - \tweak direction #up
     \repeatTie

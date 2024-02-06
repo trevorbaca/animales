@@ -335,10 +335,8 @@ number.12.Clarinets.Music.container.1 = {
     d''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 
@@ -390,10 +388,8 @@ number.12.Clarinets.Music.container.2 = {
     df''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 
