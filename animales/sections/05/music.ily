@@ -281,10 +281,8 @@ number.5.Clarinets.Music.container = {
     ds''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 
@@ -552,10 +550,8 @@ number.5.FirstViolins.Voice.2.container = {
     a'''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     \glissando
 
@@ -651,10 +647,8 @@ number.5.FirstViolins.Voice.2.container = {
     b8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     ]
       %! -PARTS
@@ -1697,10 +1691,8 @@ number.5.Contrabasses.Voice.3.container = {
     b,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~

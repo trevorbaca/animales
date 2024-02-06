@@ -258,10 +258,8 @@ number.9.Clarinets.Music.container = {
     g''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -836,10 +834,8 @@ number.9.FirstViolins.Voice.1.container = {
     af1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -970,10 +966,8 @@ number.9.SecondViolins.Voice.1.container = {
     af1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -1102,10 +1096,8 @@ number.9.Violas.Voice.1.container = {
     af1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -1234,10 +1226,8 @@ number.9.Cellos.Voice.1.container = {
     af1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -1455,10 +1445,8 @@ number.9.Contrabasses.Voice.3.container = {
     af,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~

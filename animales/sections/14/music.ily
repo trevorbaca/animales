@@ -342,11 +342,9 @@ number.14.Flutes.Voice.1.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \ff
           %! SPANNER_STOP
         )
@@ -479,10 +477,8 @@ number.14.Flutes.Voice.3.container = {
         bf''!8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
           %! SPANNER_STOP
         )
@@ -678,11 +674,9 @@ number.14.Flutes.Voice.2.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% \ff
       %! SPANNER_STOP
     )
@@ -836,10 +830,8 @@ number.14.Flutes.Voice.4.container = {
     bf''!16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! SPANNER_STOP
     )
@@ -930,10 +922,8 @@ number.14.Clarinets.Music.container = {
     f''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \repeatTie
 
@@ -1601,10 +1591,8 @@ number.14.FirstViolins.Voice.3.container = {
     f'''4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     \glissando
 
@@ -1646,10 +1634,8 @@ number.14.FirstViolins.Voice.3.container = {
     g'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! -PARTS
     \revert DynamicLineSpanner.direction
@@ -1765,10 +1751,8 @@ number.14.FirstViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -1899,10 +1883,8 @@ number.14.SecondViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -2031,10 +2013,8 @@ number.14.Violas.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -2163,10 +2143,8 @@ number.14.Cellos.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~
@@ -2390,10 +2368,8 @@ number.14.Contrabasses.Voice.3.container = {
     g,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     - \tweak stencil ##f
     ~

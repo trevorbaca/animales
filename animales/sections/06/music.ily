@@ -293,10 +293,8 @@ number.6.Clarinets.Music.container = {
     ds''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 

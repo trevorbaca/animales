@@ -285,10 +285,8 @@ number.11.Clarinets.Music.container = {
     c''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     \repeatTie
 
@@ -360,10 +358,8 @@ number.11.Horns.Voice.1.container = {
         e'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
 
         r4
@@ -412,10 +408,8 @@ number.11.Horns.Voice.1.container = {
         e'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r4
@@ -461,10 +455,8 @@ number.11.Horns.Voice.1.container = {
         e'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r4
@@ -495,10 +487,8 @@ number.11.Horns.Voice.1.container = {
         e'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
     }
@@ -541,10 +531,8 @@ number.11.Horns.Voice.3.container = {
     ef'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4
@@ -577,10 +565,8 @@ number.11.Horns.Voice.3.container = {
     ef'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r4
@@ -607,10 +593,8 @@ number.11.Horns.Voice.3.container = {
     ef'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r4
@@ -719,10 +703,8 @@ number.11.Horns.Voice.2.container = {
     e'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     \times 2/3
@@ -772,10 +754,8 @@ number.11.Horns.Voice.2.container = {
     e'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     \times 2/3
@@ -803,10 +783,8 @@ number.11.Horns.Voice.2.container = {
     fs'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
 }
@@ -850,10 +828,8 @@ number.11.Horns.Voice.4.container = {
         ef'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
 
         r8
@@ -894,10 +870,8 @@ number.11.Horns.Voice.4.container = {
         ef'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r8
@@ -930,10 +904,8 @@ number.11.Horns.Voice.4.container = {
     ef'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
 }
@@ -1013,10 +985,8 @@ number.11.Trumpets.Voice.1.container = {
         af'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \f
 
         r4
@@ -1059,10 +1029,8 @@ number.11.Trumpets.Voice.1.container = {
     af'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r8
@@ -1102,10 +1070,8 @@ number.11.Trumpets.Voice.1.container = {
     af'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r8
@@ -1151,10 +1117,8 @@ number.11.Trumpets.Voice.3.container = {
     g'8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r8
@@ -1189,10 +1153,8 @@ number.11.Trumpets.Voice.3.container = {
     g'4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r8
@@ -1230,10 +1192,8 @@ number.11.Trumpets.Voice.3.container = {
         g'4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r8
@@ -1274,10 +1234,8 @@ number.11.Trumpets.Voice.3.container = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
 }
@@ -1364,10 +1322,8 @@ number.11.Trumpets.Voice.2.container = {
     bf'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     \times 2/3
@@ -1402,10 +1358,8 @@ number.11.Trumpets.Voice.2.container = {
     bf'2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     % [Trumpets.Voice.2 measure 5]
@@ -1429,10 +1383,8 @@ number.11.Trumpets.Voice.2.container = {
     bf'!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r4
@@ -1468,10 +1420,8 @@ number.11.Trumpets.Voice.4.container = {
     g'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     % [Trumpets.Voice.4 measure 2]
@@ -1495,10 +1445,8 @@ number.11.Trumpets.Voice.4.container = {
     g'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r4
@@ -1532,10 +1480,8 @@ number.11.Trumpets.Voice.4.container = {
         g'8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r4
@@ -1621,10 +1567,8 @@ number.11.Trombones.Voice.1.container = {
     af2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r4
@@ -1667,10 +1611,8 @@ number.11.Trombones.Voice.1.container = {
     bf2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     % [Trombones.Voice.1 measure 4]
@@ -1703,10 +1645,8 @@ number.11.Trombones.Voice.1.container = {
     af!2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     \times 2/3
@@ -1763,10 +1703,8 @@ number.11.Trombones.Voice.3.container = {
     g2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     \times 2/3
@@ -1815,10 +1753,8 @@ number.11.Trombones.Voice.3.container = {
         a4
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r8
@@ -1859,10 +1795,8 @@ number.11.Trombones.Voice.3.container = {
     a4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
 }
@@ -1936,10 +1870,8 @@ number.11.Trombones.Voice.2.container = {
     af8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
 
     r8
@@ -1973,10 +1905,8 @@ number.11.Trombones.Voice.2.container = {
     bf4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r8
@@ -2021,10 +1951,8 @@ number.11.Trombones.Voice.2.container = {
     af2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
 }
@@ -2097,10 +2025,8 @@ number.11.Trombones.Voice.4.container = {
     a4.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
 
     r8
@@ -2152,10 +2078,8 @@ number.11.Trombones.Voice.4.container = {
         g8
           %! EXPLICIT_DYNAMIC_COLOR
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         - \tweak color #blue
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
         \ff
 
         r4
@@ -2450,10 +2374,8 @@ number.11.Percussion.2.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
     - \tweak direction #up
     \repeatTie
