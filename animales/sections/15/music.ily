@@ -282,11 +282,9 @@ number.15.Flutes.Voice.1.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \mf
         [
           %! SPANNER_START
@@ -442,10 +440,8 @@ number.15.Flutes.Voice.3.container = {
     f''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     [
       %! SPANNER_START
@@ -653,11 +649,9 @@ number.15.Flutes.Voice.2.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \mf
         [
           %! SPANNER_START
@@ -832,10 +826,8 @@ number.15.Flutes.Voice.4.container = {
     d''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     [
       %! SPANNER_START
@@ -1036,11 +1028,9 @@ number.15.BassClarinet.Music.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“BassClarinet”)"
@@ -1082,10 +1072,8 @@ number.15.BassClarinet.Music.container = {
     bf!1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1391,10 +1379,8 @@ number.15.Percussion.1.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
@@ -1511,10 +1497,8 @@ number.15.Percussion.2.Music.container = {
     :32
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
@@ -1714,11 +1698,9 @@ number.15.FirstViolins.Voice.2.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! +PARTS
 %%% \stopTrillSpan
@@ -1765,10 +1747,8 @@ number.15.FirstViolins.Voice.2.container = {
     d'''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
     ]
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1900,10 +1880,8 @@ number.15.FirstViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -2050,10 +2028,8 @@ number.15.SecondViolins.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
@@ -2198,10 +2174,8 @@ number.15.Violas.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
@@ -2346,10 +2320,8 @@ number.15.Cellos.Voice.1.container = {
     g1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
@@ -2593,10 +2565,8 @@ number.15.Contrabasses.Voice.3.container = {
     g,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
