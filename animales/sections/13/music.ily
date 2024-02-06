@@ -239,22 +239,18 @@ number.13.Clarinets.Music.container = {
     f''2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \mp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -369,16 +365,13 @@ number.13.BassClarinet.Music.container = {
     % [BassClarinet.Music measure 5]
     bf!2
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak circled-tip ##t
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     - \tweak stencil ##f
@@ -923,23 +916,19 @@ number.13.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     \glissando
@@ -1059,23 +1048,19 @@ number.13.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     \glissando
@@ -1195,23 +1180,19 @@ number.13.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     \glissando
@@ -1331,23 +1312,19 @@ number.13.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! REDUNDANT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     \glissando
@@ -1554,22 +1531,18 @@ number.13.Contrabasses.Voice.3.container = {
     - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_STOP
     \pp
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! RIGHT_BROKEN
       %! SPANNER_START
     \<
     \glissando
