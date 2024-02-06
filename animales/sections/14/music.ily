@@ -260,11 +260,9 @@ number.14.Flutes.Voice.1.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \mf
         [
           %! SPANNER_START
@@ -391,10 +389,8 @@ number.14.Flutes.Voice.3.container = {
     f''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     [
       %! SPANNER_START
@@ -574,11 +570,9 @@ number.14.Flutes.Voice.2.container = {
           %! EXPLICIT_DYNAMIC_COLOR
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% - \tweak color #blue
           %! +PARTS
           %! EXPLICIT_DYNAMIC
-          %! SPANNER_STOP
     %%% \mf
         [
           %! SPANNER_START
@@ -727,10 +721,8 @@ number.14.Flutes.Voice.4.container = {
     d''16
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mf
     [
       %! SPANNER_START
@@ -1581,10 +1573,8 @@ number.14.FirstViolins.Voice.3.container = {
     g'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! -PARTS
     ^ \markup { solo (first violin) }
@@ -1637,10 +1627,8 @@ number.14.FirstViolins.Voice.3.container = {
     a'4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \ff
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC

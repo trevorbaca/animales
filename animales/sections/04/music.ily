@@ -248,10 +248,8 @@ number.4.Clarinets.Music.container = {
     d''1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \mp
       %! -PARTS
     ^ \markup { solo (cl. 3) }
@@ -1457,10 +1455,8 @@ number.4.FirstViolins.Voice.2.container = {
     c''2
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! -PARTS
     ^ \markup { solo (first violin) }
@@ -1534,10 +1530,8 @@ number.4.FirstViolins.Voice.2.container = {
     d'''8
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
     ]
       %! EXPLICIT_DYNAMIC_COLOR
@@ -2326,10 +2320,8 @@ number.4.Contrabasses.Voice.3.container = {
     c1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \p
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
