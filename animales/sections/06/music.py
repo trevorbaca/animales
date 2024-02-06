@@ -115,7 +115,7 @@ def percussion(cache):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.hairpin(
             o,
-            "p >o",
+            "p >o !",
             right_broken=True,
         )
         library.assign_part(o, "Percussion", 1)
@@ -166,7 +166,7 @@ def strings(cache, absent_left_broken):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
@@ -181,7 +181,7 @@ def strings(cache, absent_left_broken):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["va1"].leaves()) as o:
@@ -196,7 +196,7 @@ def strings(cache, absent_left_broken):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["vc1"].leaves()) as o:
@@ -211,7 +211,7 @@ def strings(cache, absent_left_broken):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["cb3"].leaves()) as o:
@@ -225,7 +225,7 @@ def strings(cache, absent_left_broken):
         )
         baca.spanners.hairpin(
             o,
-            "ff >",
+            "ff > !",
             right_broken=True,
         )
 

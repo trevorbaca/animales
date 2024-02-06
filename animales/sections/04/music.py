@@ -297,7 +297,7 @@ def cb3(cache):
         baca.pitch(o, "C2")
         baca.spanners.hairpin(
             o,
-            "p <",
+            "p < !",
             right_broken=True,
         )
     with baca.scope(m.leaves()) as o:

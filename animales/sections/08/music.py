@@ -126,7 +126,7 @@ def cl(m):
         library.assign_part(o, "Clarinet", 1)
         baca.spanners.hairpin(
             o,
-            "mp <",
+            "mp < !",
             right_broken=True,
         )
         baca.edition(
@@ -146,7 +146,7 @@ def bcl(m):
     with baca.scope(m.get(5, 6)) as o:
         baca.spanners.hairpin(
             o,
-            "o<",
+            "o< !",
             right_broken=True,
         )
         baca.pitch(o, "A2")
@@ -174,7 +174,7 @@ def perc2(m):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.hairpin(
             o,
-            "mp >o",
+            "mp >o !",
             right_broken=True,
         )
         library.assign_part(o, "Percussion", 2)
@@ -200,7 +200,7 @@ def strings(cache):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "FirstViolin", (1, 18))
@@ -216,7 +216,7 @@ def strings(cache):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "SecondViolin", (1, 18))
@@ -232,7 +232,7 @@ def strings(cache):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Viola", (1, 18))
@@ -248,7 +248,7 @@ def strings(cache):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Cello", (1, 14))
@@ -263,7 +263,7 @@ def strings(cache):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))
