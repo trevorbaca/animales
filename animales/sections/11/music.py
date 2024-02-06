@@ -364,7 +364,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
@@ -379,7 +379,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["va1"].leaves()) as o:
@@ -394,7 +394,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["vc1"].leaves()) as o:
@@ -409,7 +409,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "f >",
+            "f > !",
             right_broken=True,
         )
     with baca.scope(cache["cb3"].leaves()) as o:
@@ -422,7 +422,7 @@ def strings(cache, time_signatures):
         )
         baca.spanners.hairpin(
             o,
-            "ff >",
+            "ff > !",
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))

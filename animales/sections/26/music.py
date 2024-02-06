@@ -159,7 +159,7 @@ def cb3(m, time_signatures):
         baca.markup(o.pleaf(0), r"\baca-arco-markup")
         baca.spanners.hairpin(
             o,
-            "p <",
+            "p < !",
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (1, 6))

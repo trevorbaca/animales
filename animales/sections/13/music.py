@@ -131,7 +131,7 @@ def cl(m, time_signatures):
         baca.pitch(o, "Eb5")
         baca.spanners.hairpin(
             o,
-            "mp <",
+            "mp < !",
             right_broken=True,
         )
         library.assign_part(o, "Clarinet", 1)
@@ -142,7 +142,7 @@ def bcl(m, time_signatures):
         baca.pitch(o, "Ab2")
         baca.spanners.hairpin(
             o,
-            "o<",
+            "o< !",
             right_broken=True,
         )
     with baca.scope(m.leaves()) as o:
@@ -198,7 +198,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "FirstViolin", (1, 18))
@@ -214,7 +214,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "SecondViolin", (1, 18))
@@ -230,7 +230,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Viola", (1, 18))
@@ -245,7 +245,7 @@ def strings(cache, time_signatures):
         )
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -261,7 +261,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))

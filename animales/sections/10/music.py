@@ -201,7 +201,7 @@ def brass(cache, time_signatures, voice_name_to_parameter_to_state):
                 else:
                     baca.spanners.hairpin(
                         run,
-                        "mp <",
+                        "mp < !",
                         right_broken=True,
                     )
 
@@ -332,7 +332,7 @@ def strings(cache):
             )
             baca.spanners.hairpin(
                 o,
-                "pp <",
+                "pp < !",
                 right_broken=True,
             )
     for name, section, part_numbers in (
@@ -347,7 +347,7 @@ def strings(cache):
         baca.pitch(o, "A1")
         baca.spanners.hairpin(
             o,
-            "pp <",
+            "pp < !",
             right_broken=True,
         )
         library.assign_part(o, "Contrabass", (2, 6))
