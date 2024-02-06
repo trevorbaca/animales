@@ -445,10 +445,8 @@ number.16.Oboe.Music.container = {
     a'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Oboe”)"
@@ -482,10 +480,8 @@ number.16.Oboe.Music.container = {
     a'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -518,10 +514,8 @@ number.16.Oboe.Music.container = {
     R1 * 3/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
@@ -610,10 +604,8 @@ number.16.EnglishHorn.Music.container = {
     d'2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“EnglishHorn”)"
@@ -647,10 +639,8 @@ number.16.EnglishHorn.Music.container = {
     d'1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -683,10 +673,8 @@ number.16.EnglishHorn.Music.container = {
     R1 * 3/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
@@ -779,11 +767,9 @@ number.16.Bassoons.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Bassoon”)"
@@ -823,11 +809,9 @@ number.16.Bassoons.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% \f
       %! +PARTS
       %! EXPLICIT_DYNAMIC
@@ -867,11 +851,9 @@ number.16.Bassoons.Voice.1.container = {
       %! EXPLICIT_DYNAMIC_COLOR
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% - \tweak color #blue
       %! +PARTS
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
 %%% \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
@@ -934,10 +916,8 @@ number.16.Bassoons.Voice.2.container = {
     g,2.
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -962,10 +942,8 @@ number.16.Bassoons.Voice.2.container = {
     g,1
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \f
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -998,10 +976,8 @@ number.16.Bassoons.Voice.2.container = {
     R1 * 3/4
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
-      %! SPANNER_STOP
     \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
