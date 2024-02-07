@@ -1057,11 +1057,6 @@ number.15.BassClarinet.Music.container = {
 
     % [BassClarinet.Music measure 3]
     bf!1
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -1362,11 +1357,6 @@ number.15.Percussion.1.Music.container = {
     \startStaff
     c'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! EXPLICIT_DYNAMIC
@@ -1478,11 +1468,6 @@ number.15.Percussion.2.Music.container = {
     \startStaff
     c'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! EXPLICIT_DYNAMIC
