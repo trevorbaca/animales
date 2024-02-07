@@ -186,7 +186,6 @@ def hp(cache):
 def perc1(cache):
     with baca.scope(cache["perc1"].leaves()) as o:
         # (triangle)
-        baca.dynamic(o.leaf(0), "niente")
         library.assign_part(o, "Percussion", 1)
 
 
