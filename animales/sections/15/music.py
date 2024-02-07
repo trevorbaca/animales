@@ -243,7 +243,7 @@ def bcl(m, time_signatures):
         )
         baca.spanners.hairpin(
             o.leaves()[2:4],
-            "niente o< p",
+            "o< p",
         )
         library.assign_part(o, "BassClarinet")
 
@@ -272,7 +272,7 @@ def percussion(cache, time_signatures):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.hairpin(
             o.pleaves()[:2],
-            "niente o< mp",
+            "o< mp",
         )
     with baca.scope(cache["perc1"].leaves()) as o:
         library.assign_part(o, "Percussion", 1)
@@ -281,7 +281,7 @@ def percussion(cache, time_signatures):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.hairpin(
             o.pleaves()[:2],
-            "niente o< mp",
+            "o< mp",
         )
     with baca.scope(cache["perc2"].leaves()) as o:
         library.assign_part(o, "Percussion", 2)

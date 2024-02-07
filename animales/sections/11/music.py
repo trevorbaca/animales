@@ -329,7 +329,7 @@ def percussion(cache, time_signatures):
         baca.stem_tremolo(o.pleaves())
         baca.spanners.hairpin(
             o.pleaves()[:3],
-            "niente o< p",
+            "o< p",
         )
         library.assign_part(o, "Percussion", 2)
     with baca.scope(cache["perc3"].leaves()) as o:

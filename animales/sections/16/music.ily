@@ -443,11 +443,6 @@ number.16.Oboe.Music.container = {
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Ob."
     a'2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Oboe”)"
       %! EXPLICIT_DYNAMIC
@@ -599,11 +594,6 @@ number.16.EnglishHorn.Music.container = {
       %! EXPLICIT_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Eng. hn."
     d'2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“EnglishHorn”)"
       %! EXPLICIT_DYNAMIC
@@ -757,14 +747,6 @@ number.16.Bassoons.Voice.1.container = {
       %! -PARTS
     \voiceOne
     b2.
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC
-%%% - \tweak color #blue
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC
-%%% \!
       %! EXPLICIT_INSTRUMENT_ALERT
     ^ \baca-explicit-instrument-markup "(“Bassoon”)"
       %! +PARTS
@@ -903,11 +885,6 @@ number.16.Bassoons.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     g,2.
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t

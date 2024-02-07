@@ -62,7 +62,7 @@ def swell(argument, peak):
     leaves = baca.select.rleaves(argument)
     return baca.piecewise.hairpin(
         baca.select.mgroups(leaves, [2, 3, 1]),
-        f"niente o< {peak} >o !",
+        f"o< {peak} >o !",
     )
 
 

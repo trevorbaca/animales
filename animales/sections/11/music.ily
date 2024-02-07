@@ -2334,11 +2334,6 @@ number.11.Percussion.2.Music.container = {
     \startStaff
     c'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! EXPLICIT_DYNAMIC
