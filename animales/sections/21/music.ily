@@ -165,11 +165,6 @@ number.21.FirstViolins.Voice.1.container = {
       %! -PARTS
     \voiceTwo
     d'16
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -218,11 +213,6 @@ number.21.FirstViolins.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     % [FirstViolins.Voice.2 measure 2]
     r1
@@ -285,11 +275,6 @@ number.21.FirstViolins.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -348,11 +333,6 @@ number.21.FirstViolins.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     \times 2/3
     {
@@ -1286,11 +1266,6 @@ number.21.SecondViolins.Voice.1.container = {
       %! -PARTS
     \voiceOne
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1339,11 +1314,6 @@ number.21.SecondViolins.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     % [SecondViolins.Voice.2 measure 2]
     r4.
@@ -1412,11 +1382,6 @@ number.21.SecondViolins.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1460,11 +1425,6 @@ number.21.SecondViolins.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r4
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     \times 2/3
     {
@@ -2398,11 +2358,6 @@ number.21.Violas.Voice.1.container = {
       %! -PARTS
     \voiceOne
     d'16
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2445,11 +2400,6 @@ number.21.Violas.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     % [Violas.Voice.2 measure 2]
     r4
@@ -2522,11 +2472,6 @@ number.21.Violas.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -2585,11 +2530,6 @@ number.21.Violas.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     % [Violas.Voice.4 measure 2]
     r1
@@ -3504,11 +3444,6 @@ number.21.Cellos.Voice.1.container = {
       %! -PARTS
     \voiceOne
     d'16
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -3557,11 +3492,6 @@ number.21.Cellos.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
 
     % [Cellos.Voice.2 measure 2]
     r1
@@ -4493,11 +4423,6 @@ number.21.Contrabasses.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r2
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! REAPPLIED_CLEF_REDRAW_COLOR

@@ -535,30 +535,14 @@
         "Bassoons.Voice.1": [
             baca.Memento(
                 context="Bassoons.Voice.1",
-                edition=Tag(string="+PARTS"),
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Bassoons.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Bassoons.Voice.2": [
-            baca.Memento(
-                context="Bassoons.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="Bassoons.Voice.2",
                 edition=Tag(string="-PARTS"),
@@ -566,7 +550,7 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "Cellos.Staff.1": [
             baca.Memento(
@@ -865,20 +849,12 @@
         "Cellos.Voice.1": [
             baca.Memento(
                 context="Cellos.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Cellos.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Cellos.Voice.10": [
             baca.Memento(
@@ -933,20 +909,12 @@
         "Cellos.Voice.2": [
             baca.Memento(
                 context="Cellos.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Cellos.Voice.2",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "Cellos.Voice.3": [
             baca.Memento(
@@ -1254,16 +1222,6 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            )
-        ],
-        "EnglishHorn.Music": [
-            baca.Memento(
-                context="EnglishHorn.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
             )
         ],
         "EnglishHorn.Staff": [
@@ -1673,20 +1631,12 @@
         "FirstViolins.Voice.1": [
             baca.Memento(
                 context="FirstViolins.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="FirstViolins.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "FirstViolins.Voice.10": [
             baca.Memento(
@@ -1781,48 +1731,24 @@
         "FirstViolins.Voice.2": [
             baca.Memento(
                 context="FirstViolins.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="FirstViolins.Voice.2",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "FirstViolins.Voice.3": [
             baca.Memento(
                 context="FirstViolins.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="FirstViolins.Voice.3",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "FirstViolins.Voice.4": [
-            baca.Memento(
-                context="FirstViolins.Voice.4",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="FirstViolins.Voice.4",
                 edition=Tag(string="-PARTS"),
@@ -1830,7 +1756,7 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "FirstViolins.Voice.5": [
             baca.Memento(
@@ -2175,16 +2101,6 @@
                 synthetic_offset=None,
                 value=2,
             ),
-        ],
-        "Oboe.Music": [
-            baca.Memento(
-                context="Oboe.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
         ],
         "Oboe.Staff": [
             baca.Memento(
@@ -2857,20 +2773,12 @@
         "SecondViolins.Voice.1": [
             baca.Memento(
                 context="SecondViolins.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="SecondViolins.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "SecondViolins.Voice.10": [
             baca.Memento(
@@ -2965,30 +2873,14 @@
         "SecondViolins.Voice.2": [
             baca.Memento(
                 context="SecondViolins.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="SecondViolins.Voice.2",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "SecondViolins.Voice.3": [
-            baca.Memento(
-                context="SecondViolins.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="SecondViolins.Voice.3",
                 edition=Tag(string="-PARTS"),
@@ -2996,17 +2888,9 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "SecondViolins.Voice.4": [
-            baca.Memento(
-                context="SecondViolins.Voice.4",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="SecondViolins.Voice.4",
                 edition=Tag(string="-PARTS"),
@@ -3014,7 +2898,7 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "SecondViolins.Voice.5": [
             baca.Memento(
@@ -3731,20 +3615,12 @@
         "Violas.Voice.1": [
             baca.Memento(
                 context="Violas.Voice.1",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Violas.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Violas.Voice.10": [
             baca.Memento(
@@ -3839,30 +3715,14 @@
         "Violas.Voice.2": [
             baca.Memento(
                 context="Violas.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Violas.Voice.2",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "Violas.Voice.3": [
-            baca.Memento(
-                context="Violas.Voice.3",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="Violas.Voice.3",
                 edition=Tag(string="-PARTS"),
@@ -3870,17 +3730,9 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Violas.Voice.4": [
-            baca.Memento(
-                context="Violas.Voice.4",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="Violas.Voice.4",
                 edition=Tag(string="-PARTS"),
@@ -3888,7 +3740,7 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "Violas.Voice.5": [
             baca.Memento(

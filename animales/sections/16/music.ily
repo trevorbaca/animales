@@ -512,13 +512,10 @@ number.16.Oboe.Music.container = {
 
     % [Oboe.Music measure 6]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [Oboe.Music measure 7]
     R1 * 3/4
@@ -671,13 +668,10 @@ number.16.EnglishHorn.Music.container = {
 
     % [EnglishHorn.Music measure 6]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [EnglishHorn.Music measure 7]
     R1 * 3/4
@@ -847,16 +841,11 @@ number.16.Bassoons.Voice.1.container = {
 
     % [Bassoons.Voice.1 measure 6]
     R1 * 3/4
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC
-%%% - \tweak color #blue
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC
-%%% \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! +PARTS
+      %! SPANNER_STOP
+%%% \!
 
     % [Bassoons.Voice.1 measure 7]
     R1 * 3/4
@@ -974,13 +963,10 @@ number.16.Bassoons.Voice.2.container = {
 
     % [Bassoons.Voice.2 measure 6]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [Bassoons.Voice.2 measure 7]
     R1 * 3/4

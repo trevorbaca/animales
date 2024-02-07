@@ -267,30 +267,14 @@
         "Bassoons.Voice.1": [
             baca.Memento(
                 context="Bassoons.Voice.1",
-                edition=Tag(string="+PARTS"),
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
-            baca.Memento(
-                context="Bassoons.Voice.1",
                 edition=Tag(string="-PARTS"),
                 manifest=None,
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=1,
-            ),
+            )
         ],
         "Bassoons.Voice.2": [
-            baca.Memento(
-                context="Bassoons.Voice.2",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            ),
             baca.Memento(
                 context="Bassoons.Voice.2",
                 edition=Tag(string="-PARTS"),
@@ -298,7 +282,7 @@
                 prototype="abjad.VoiceNumber",
                 synthetic_offset=None,
                 value=2,
-            ),
+            )
         ],
         "Cellos.Staff.1": [
             baca.Memento(
@@ -468,16 +452,6 @@
                 prototype="abjad.Dynamic",
                 synthetic_offset=None,
                 value="pp",
-            )
-        ],
-        "EnglishHorn.Music": [
-            baca.Memento(
-                context="EnglishHorn.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
             )
         ],
         "EnglishHorn.Staff": [
@@ -951,16 +925,6 @@
                 synthetic_offset=None,
                 value=2,
             ),
-        ],
-        "Oboe.Music": [
-            baca.Memento(
-                context="Oboe.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
         ],
         "Oboe.Staff": [
             baca.Memento(

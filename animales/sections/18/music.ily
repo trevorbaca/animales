@@ -1909,13 +1909,10 @@ number.18.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -2003,13 +2000,10 @@ number.18.FirstViolins.Voice.1.container = {
 
     % [FirstViolins.Voice.1 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -2138,13 +2132,10 @@ number.18.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -2232,13 +2223,10 @@ number.18.FirstViolins.Voice.2.container = {
 
     % [FirstViolins.Voice.2 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -2401,13 +2389,10 @@ number.18.FirstViolins.Voice.3.container = {
 
     % [FirstViolins.Voice.3 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -2495,13 +2480,10 @@ number.18.FirstViolins.Voice.3.container = {
 
     % [FirstViolins.Voice.3 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -2630,13 +2612,10 @@ number.18.FirstViolins.Voice.4.container = {
 
     % [FirstViolins.Voice.4 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -2724,13 +2703,10 @@ number.18.FirstViolins.Voice.4.container = {
 
     % [FirstViolins.Voice.4 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -3027,13 +3003,10 @@ number.18.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -3123,13 +3096,10 @@ number.18.SecondViolins.Voice.1.container = {
 
     % [SecondViolins.Voice.1 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -3258,13 +3228,10 @@ number.18.SecondViolins.Voice.2.container = {
 
     % [SecondViolins.Voice.2 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -3352,13 +3319,10 @@ number.18.SecondViolins.Voice.2.container = {
 
     % [SecondViolins.Voice.2 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -3521,13 +3485,10 @@ number.18.SecondViolins.Voice.3.container = {
 
     % [SecondViolins.Voice.3 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -3615,13 +3576,10 @@ number.18.SecondViolins.Voice.3.container = {
 
     % [SecondViolins.Voice.3 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -3750,13 +3708,10 @@ number.18.SecondViolins.Voice.4.container = {
 
     % [SecondViolins.Voice.4 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -3844,13 +3799,10 @@ number.18.SecondViolins.Voice.4.container = {
 
     % [SecondViolins.Voice.4 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -4013,13 +3965,10 @@ number.18.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -4107,13 +4056,10 @@ number.18.Violas.Voice.1.container = {
 
     % [Violas.Voice.1 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -4242,13 +4188,10 @@ number.18.Violas.Voice.2.container = {
 
     % [Violas.Voice.2 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -4336,13 +4279,10 @@ number.18.Violas.Voice.2.container = {
 
     % [Violas.Voice.2 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -4505,13 +4445,10 @@ number.18.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -4599,13 +4536,10 @@ number.18.Violas.Voice.3.container = {
 
     % [Violas.Voice.3 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -4734,13 +4668,10 @@ number.18.Violas.Voice.4.container = {
 
     % [Violas.Voice.4 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -4828,13 +4759,10 @@ number.18.Violas.Voice.4.container = {
 
     % [Violas.Voice.4 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -4999,13 +4927,10 @@ number.18.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -5095,13 +5020,10 @@ number.18.Cellos.Voice.1.container = {
 
     % [Cellos.Voice.1 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -5230,13 +5152,10 @@ number.18.Cellos.Voice.2.container = {
 
     % [Cellos.Voice.2 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -5324,13 +5243,10 @@ number.18.Cellos.Voice.2.container = {
 
     % [Cellos.Voice.2 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
       %! -PARTS
@@ -5481,13 +5397,10 @@ number.18.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 7]
     R1 * 3/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"3" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 
@@ -5575,13 +5488,10 @@ number.18.Contrabasses.Voice.3.container = {
 
     % [Contrabasses.Voice.3 measure 12]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
       %! SPANNER_STOP
     \stopTextSpan
 

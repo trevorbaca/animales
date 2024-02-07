@@ -239,7 +239,7 @@ def bcl(m, time_signatures):
         baca.pitch(o, "Ab2")
         baca.spanners.hairpin(
             o.leaves()[:2],
-            "p >o niente",
+            "p >o !",
         )
         baca.spanners.hairpin(
             o.leaves()[2:4],

@@ -155,7 +155,7 @@ def strings(cache, time_signatures, string_parts):
         )
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 2]),
-            f"niente o< {peak} >o niente",
+            f"niente o< {peak} >o !",
         )
 
     for abbreviation, items in string_parts.items():

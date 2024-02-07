@@ -1050,13 +1050,10 @@ number.15.BassClarinet.Music.container = {
 
     % [BassClarinet.Music measure 2]
     R1 * 2/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"2" #"4"
+      %! SPANNER_STOP
+    \!
 
     % [BassClarinet.Music measure 3]
     bf!1
