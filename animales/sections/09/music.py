@@ -166,7 +166,6 @@ def hp(m):
 
 def perc2(m):
     with baca.scope(m.leaves()) as o:
-        baca.dynamic(o.leaf(0), "niente")
         library.assign_part(o, "Percussion", 2)
 
 

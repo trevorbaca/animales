@@ -544,16 +544,6 @@
                 value=2,
             ),
         ],
-        "Percussion.1.Music": [
-            baca.Memento(
-                context="Percussion.1.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
-        ],
         "Percussion.1.Staff": [
             baca.Memento(
                 context="Percussion.1.Music",
@@ -595,16 +585,6 @@
                 synthetic_offset=None,
                 value=1,
             ),
-        ],
-        "Percussion.2.Music": [
-            baca.Memento(
-                context="Percussion.2.Music",
-                edition=None,
-                manifest=None,
-                prototype="abjad.Dynamic",
-                synthetic_offset=None,
-                value="niente",
-            )
         ],
         "Percussion.2.Staff": [
             baca.Memento(

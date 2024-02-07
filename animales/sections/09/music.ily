@@ -637,11 +637,6 @@ number.9.Percussion.2.Music.container = {
       %! REAPPLIED_STAFF_LINES
     \startStaff
     R1 * 4/4
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
