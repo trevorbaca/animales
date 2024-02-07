@@ -154,8 +154,9 @@ def strings(cache, time_signatures, string_parts):
             pieces=baca.select.cmgroups(o, [2]),
         )
         baca.piecewise.hairpin(
-            baca.select.mgroups(o, [2, 2]),
-            f"niente o< {peak} >o !",
+            baca.select.mgroups(o, [2, 1]),
+            f"o< {peak} >o !",
+            with_next_leaf=True,
         )
 
     for abbreviation, items in string_parts.items():

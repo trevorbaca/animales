@@ -1839,11 +1839,6 @@ number.18.FirstViolins.Voice.1.container = {
     % [FirstViolins.Voice.1 measure 4]
     a''1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -1930,11 +1925,6 @@ number.18.FirstViolins.Voice.1.container = {
     % [FirstViolins.Voice.1 measure 9]
     a''2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2062,11 +2052,6 @@ number.18.FirstViolins.Voice.2.container = {
     % [FirstViolins.Voice.2 measure 4]
     f''1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2153,11 +2138,6 @@ number.18.FirstViolins.Voice.2.container = {
     % [FirstViolins.Voice.2 measure 9]
     f''2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2319,11 +2299,6 @@ number.18.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 4]
     g''1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2410,11 +2385,6 @@ number.18.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 9]
     g''2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2542,11 +2512,6 @@ number.18.FirstViolins.Voice.4.container = {
     % [FirstViolins.Voice.4 measure 4]
     d''1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2633,11 +2598,6 @@ number.18.FirstViolins.Voice.4.container = {
     % [FirstViolins.Voice.4 measure 9]
     d''2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -2931,11 +2891,6 @@ number.18.SecondViolins.Voice.1.container = {
     % [SecondViolins.Voice.1 measure 4]
     b'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3024,11 +2979,6 @@ number.18.SecondViolins.Voice.1.container = {
     % [SecondViolins.Voice.1 measure 9]
     b'2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3158,11 +3108,6 @@ number.18.SecondViolins.Voice.2.container = {
     % [SecondViolins.Voice.2 measure 4]
     g'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3249,11 +3194,6 @@ number.18.SecondViolins.Voice.2.container = {
     % [SecondViolins.Voice.2 measure 9]
     g'2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3415,11 +3355,6 @@ number.18.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 4]
     a'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3506,11 +3441,6 @@ number.18.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 9]
     a'2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3638,11 +3568,6 @@ number.18.SecondViolins.Voice.4.container = {
     % [SecondViolins.Voice.4 measure 4]
     f'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3729,11 +3654,6 @@ number.18.SecondViolins.Voice.4.container = {
     % [SecondViolins.Voice.4 measure 9]
     f'2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3895,11 +3815,6 @@ number.18.Violas.Voice.1.container = {
     % [Violas.Voice.1 measure 4]
     d'1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -3986,11 +3901,6 @@ number.18.Violas.Voice.1.container = {
     % [Violas.Voice.1 measure 9]
     d'2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4118,11 +4028,6 @@ number.18.Violas.Voice.2.container = {
     % [Violas.Voice.2 measure 4]
     a1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4209,11 +4114,6 @@ number.18.Violas.Voice.2.container = {
     % [Violas.Voice.2 measure 9]
     a2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4375,11 +4275,6 @@ number.18.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 4]
     b1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4466,11 +4361,6 @@ number.18.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 9]
     b2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4598,11 +4488,6 @@ number.18.Violas.Voice.4.container = {
     % [Violas.Voice.4 measure 4]
     g1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4689,11 +4574,6 @@ number.18.Violas.Voice.4.container = {
     % [Violas.Voice.4 measure 9]
     g2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4855,11 +4735,6 @@ number.18.Cellos.Voice.1.container = {
     % [Cellos.Voice.1 measure 4]
     d1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -4948,11 +4823,6 @@ number.18.Cellos.Voice.1.container = {
     % [Cellos.Voice.1 measure 9]
     d2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5082,11 +4952,6 @@ number.18.Cellos.Voice.2.container = {
     % [Cellos.Voice.2 measure 4]
     g,1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5173,11 +5038,6 @@ number.18.Cellos.Voice.2.container = {
     % [Cellos.Voice.2 measure 9]
     g,2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5327,11 +5187,6 @@ number.18.Contrabasses.Voice.3.container = {
     % [Contrabasses.Voice.3 measure 4]
     g,1
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
@@ -5418,11 +5273,6 @@ number.18.Contrabasses.Voice.3.container = {
     % [Contrabasses.Voice.3 measure 9]
     g,2.
     :32
-      %! EXPLICIT_DYNAMIC_COLOR
-      %! EXPLICIT_DYNAMIC
-    - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-    \!
       %! SPANNER_START
     - \baca-dashed-line-with-arrow
       %! SPANNER_START
