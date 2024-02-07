@@ -1109,11 +1109,6 @@ number.19.FirstViolins.Voice.1.container = {
       %! -PARTS
     \voiceTwo
     d'16
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1177,11 +1172,6 @@ number.19.FirstViolins.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -1252,11 +1242,6 @@ number.19.FirstViolins.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -1315,11 +1300,6 @@ number.19.FirstViolins.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -2272,11 +2252,6 @@ number.19.SecondViolins.Voice.1.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2338,11 +2313,6 @@ number.19.SecondViolins.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -2413,11 +2383,6 @@ number.19.SecondViolins.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -2489,11 +2454,6 @@ number.19.SecondViolins.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -3451,11 +3411,6 @@ number.19.Violas.Voice.1.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3517,11 +3472,6 @@ number.19.Violas.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -3592,11 +3542,6 @@ number.19.Violas.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -3655,11 +3600,6 @@ number.19.Violas.Voice.4.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -4634,11 +4574,6 @@ number.19.Cellos.Voice.1.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT
@@ -4700,11 +4635,6 @@ number.19.Cellos.Voice.2.container = {
       %! -PARTS
     \voiceTwo
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! EXPLICIT_CLEF_REDRAW_COLOR
@@ -5656,11 +5586,6 @@ number.19.Contrabasses.Voice.3.container = {
       %! -PARTS
     \voiceOne
     r1
-      %! REAPPLIED_DYNAMIC_COLOR
-      %! REAPPLIED_DYNAMIC
-    - \tweak color #(x11-color 'green4)
-      %! REAPPLIED_DYNAMIC
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))
       %! +PARTS
 %%% ^ \animales-col-legno-battuti-explanation
       %! REAPPLIED_INSTRUMENT_ALERT

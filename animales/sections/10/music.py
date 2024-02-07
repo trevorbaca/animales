@@ -176,7 +176,7 @@ def bcl(m):
         baca.pitch(o, "A2")
         baca.spanners.hairpin(
             baca.select.rleak(o.pleaves()),
-            "p >o niente",
+            "p >o !",
         )
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "BassClarinet")
