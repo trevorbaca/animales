@@ -292,8 +292,8 @@ def attach_grand_pause_fermatas(cache, score, *, measure):
         if type(parent) is abjad.Container:
             continue
         with baca.scope(cache[voice.name][measure]) as o:
-            markup = abjad.Markup(r'\markup \musicglyph #"scripts.ufermata"')
-            wrappers = baca.markup(o[0], markup)
+            string = r'\markup \musicglyph #"scripts.ufermata"'
+            wrappers = baca.markup(o[0], string)
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
             wrappers = baca.literal(o[0], string)
@@ -413,8 +413,8 @@ def make_battuti(
                 assign_part(o, part_name, member)
             with baca.scope(cache[voice_name].get(*range_)) as o:
                 if first:
-                    markup = abjad.Markup(r"\animales-col-legno-battuti-explanation")
-                    wrappers = baca.markup(o.leaf(0), markup)
+                    string = r"\animales-col-legno-battuti-explanation"
+                    wrappers = baca.markup(o.leaf(0), string)
                     baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
                     baca.staff_lines(o.leaf(0), 1)
                     baca.clef(o.leaf(0), "percussion")
