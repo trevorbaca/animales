@@ -149,9 +149,8 @@ def strings(cache, time_signatures, string_parts):
     def tremolo(o, peak="f"):
         baca.stem_tremolo(o.pleaves())
         baca.mspanners.text(
-            (),
+            baca.select.cmgroups(o, [2]),
             "tasto => ext. pont. => tasto",
-            pieces=baca.select.cmgroups(o, [2]),
         )
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 1]),

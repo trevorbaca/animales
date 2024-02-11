@@ -141,9 +141,8 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.mspanners.text(
-            (),
+            [o.pleaves()[2:-2]],
             "ext. pont. => tasto",
-            pieces=[o.pleaves()[2:-2]],
         )
         baca.dynamic(o.phead(0), "ff-ancora")
         baca.spanners.hairpin(
