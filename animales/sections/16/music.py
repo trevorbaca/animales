@@ -140,7 +140,7 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         baca.accent(o.pleaves())
         wrappers = baca.markup(o.pleaf(0), r"\animales-ext-ponticello-like-acid-markup")
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.piecewise.text(
+        baca.mspanners.text(
             (),
             "ext. pont. => tasto",
             pieces=[o.pleaves()[2:-2]],
