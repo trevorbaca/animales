@@ -143,6 +143,7 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
         baca.mspanners.text(
             [o.pleaves()[2:-2]],
             "ext. pont. => tasto",
+            do_not_rleak=True,
         )
         baca.dynamic(o.phead(0), "ff-ancora")
         baca.spanners.hairpin(
