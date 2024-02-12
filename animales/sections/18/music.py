@@ -151,6 +151,7 @@ def strings(cache, time_signatures, string_parts):
         baca.mspanners.text(
             baca.select.cmgroups(o, [2]),
             "tasto => ext. pont. => tasto",
+            do_not_rleak=True,
         )
         baca.piecewise.hairpin(
             baca.select.mgroups(o, [2, 1]),

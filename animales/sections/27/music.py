@@ -126,6 +126,7 @@ def cb3(m, time_signatures):
         baca.mspanners.text(
             [o],
             "ord. => ext. pont.",
+            do_not_rleak=True,
         )
         baca.dynamic(o.phead(0), "fff")
         library.assign_part(o, "Contrabass", (1, 6))

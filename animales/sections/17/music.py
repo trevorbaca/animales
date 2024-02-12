@@ -303,6 +303,7 @@ def strings(cache, time_signatures):
         baca.mspanners.text(
             [o.pleaves()[2:-2]],
             "ext. pont. => tasto",
+            do_not_rleak=True,
         )
         baca.dynamic(o.phead(0), "ff")
         baca.spanners.hairpin(
