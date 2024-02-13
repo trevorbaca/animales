@@ -229,8 +229,9 @@ def strings(cache, names):
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.spanners.hairpin(
-            library.leaves_in_measure(o, 1, rleak=True),
+            library.leaves_in_measure(o, 1),
             "p < f",
+            rleak=True,
         )
         baca.spanners.hairpin(
             library.leaves_in_measure(o, -1, lleak=True),

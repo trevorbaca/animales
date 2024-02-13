@@ -322,12 +322,11 @@ def glissando_positions(argument, *, reverse=False, rotate=0, transpose=0):
     baca.staff_positions(argument, positions)
 
 
-def leaves_in_measure(argument, n, *, lleak=False, rleak=False):
+# TODO: remove
+def leaves_in_measure(argument, n, *, lleak=False):
     result = baca.select.mleaves(argument, n)
     if lleak is True:
         result = baca.select.lleak(result)
-    if rleak is True:
-        result = baca.select.rleak(result)
     return result
 
 

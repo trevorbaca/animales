@@ -314,8 +314,9 @@ def strings(cache, time_signatures):
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
         baca.spanners.hairpin(
-            library.leaves_in_measure(o, 1, rleak=True),
+            library.leaves_in_measure(o, 1),
             "p < ff",
+            rleak=True,
         )
         baca.spanners.hairpin(
             library.leaves_in_measure(o, -1, lleak=True),
