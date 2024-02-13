@@ -328,8 +328,9 @@ def strings(cache, time_signatures):
             only_parts=r"\markup { solo }",
         )
         baca.spanners.hairpin(
-            library.leaves_in_measure(o, 1, rleak=True),
+            library.leaves_in_measure(o, 1),
             "p < ff",
+            rleak=True,
         )
         baca.spanners.hairpin(
             library.leaves_in_measure(o, -1, lleak=True),
