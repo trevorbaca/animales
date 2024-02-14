@@ -60,9 +60,8 @@ def SKIPS(score):
 
 def swell(argument, peak):
     return baca.piecewise.hairpin(
-        baca.select.mgroups(argument, [2, 3]),
+        baca.select.mgroups(baca.select.rleak(argument), [2, 3, 1]),
         f"o< {peak} >o !",
-        rleak=True,
     )
 
 
