@@ -365,9 +365,6 @@ number.6.Percussion.1.Music.container = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     - \tweak direction #up
     \repeatTie

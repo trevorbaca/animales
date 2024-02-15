@@ -1035,9 +1035,6 @@ number.15.BassClarinet.Music.container = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     \repeatTie
       %! REAPPLIED_CLEF_REDRAW_COLOR
