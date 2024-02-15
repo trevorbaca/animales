@@ -373,9 +373,6 @@ number.17.Oboe.Music.container = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-    - \tweak to-barline ##t
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
     \>
     - \tweak stencil ##f
     ~
@@ -496,9 +493,6 @@ number.17.EnglishHorn.Music.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
@@ -638,10 +632,6 @@ number.17.Bassoons.Voice.1.container = {
       %! +PARTS
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
-%%% - \tweak to-barline ##t
-      %! +PARTS
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
 %%% \>
     - \tweak stencil ##f
     ~
@@ -736,9 +726,6 @@ number.17.Bassoons.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak color #blue
-      %! EXPLICIT_DYNAMIC
-      %! SPANNER_START
-    - \tweak to-barline ##t
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
