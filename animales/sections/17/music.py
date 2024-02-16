@@ -74,6 +74,7 @@ def swell(argument, peak):
     return baca.piecewise.hairpin(
         baca.select.mgroups(baca.select.rleak(argument), [2, 3, 1]),
         f"o< {peak} >o !",
+        do_not_bookend=True,
     )
 
 
