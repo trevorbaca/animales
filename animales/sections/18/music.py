@@ -153,7 +153,7 @@ def strings(cache, time_signatures, string_parts):
             "tasto => ext. pont. => tasto",
             do_not_rleak=True,
         )
-        baca.piecewise.hairpin(
+        baca.hairpinlib.hairpin(
             baca.select.mgroups(baca.select.rleak(o), [2, 1, 1]),
             f"o< {peak} >o !",
             do_not_bookend=True,
