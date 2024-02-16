@@ -154,9 +154,9 @@ def strings(cache, time_signatures, string_parts):
             do_not_rleak=True,
         )
         baca.hairpinlib.hairpin(
-            baca.select.mgroups(baca.select.rleak(o), [2, 1, 1]),
+            baca.select.mgroups(baca.select.rleak(o), [2, 2]),
             f"o< {peak} >o !",
-            do_not_bookend=True,
+            glue=True,
         )
 
     for abbreviation, items in string_parts.items():
