@@ -197,18 +197,18 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.spanners.hairpin(
+        wrappers = baca.hairpinlib.exact(
             o.tleaves(),
-            "mf < ff",
+            "mf<ff",
         )
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl3"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "mf < ff",
+            "mf<ff",
         )
     with baca.scope(cache["fl2"].get(1, 3)) as o:
         baca.instrument(o.leaf(0), "Flute", library.manifests)
@@ -217,18 +217,18 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.spanners.hairpin(
+        wrappers = baca.hairpinlib.exact(
             o.tleaves(),
-            "mf < ff",
+            "mf<ff",
         )
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["fl4"].get(1, 3)) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.tleaves(),
-            "mf < ff",
+            "mf<ff",
         )
     with baca.scope(cache["fl1"].leaves()) as o:
         library.assign_part(o, "Flute", 1)
@@ -243,9 +243,9 @@ def flutes(cache, time_signatures):
 def cl(cache, time_signatures):
     with baca.scope(cache["cl"].get(1, 3)) as o:
         baca.pitch(o, "Eb5")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "< ff",
+            "<ff",
             left_broken=True,
         )
     with baca.scope(cache["Clarinets.Rests"][4]) as o:
@@ -327,14 +327,14 @@ def strings(cache, time_signatures):
             not_parts=r"\markup { solo (first violin) }",
             only_parts=r"\markup { solo }",
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             library.leaves_in_measure(o, 1),
-            "p < ff",
+            "p<ff",
             rleak=True,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             library.leaves_in_measure(o, -1, lleak=True),
-            "ff > p",
+            "ff>p",
         )
     with baca.scope(cache["1vn3"].leaves()) as o:
         library.assign_part(o, "FirstViolin", 1)
@@ -345,9 +345,9 @@ def strings(cache, time_signatures):
                 baca.select.tleaves(o),
                 alteration="Ab3",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o.pleaves()[:2],
-                "< ff",
+                "<ff",
                 left_broken=True,
             )
     with baca.scope(cache["1vn1"].leaves()) as o:
@@ -372,9 +372,9 @@ def strings(cache, time_signatures):
             wrappers = baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["cb3"].get(1, 3)) as o:
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.pleaves()[:2],
-            "< ff",
+            "<ff",
             left_broken=True,
         )
         baca.pitch(o, "G1")

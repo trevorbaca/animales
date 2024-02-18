@@ -126,9 +126,9 @@ def cl(cache):
             not_parts=library.markups.solo_cl_1,
             only_parts=library.markups.solo,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
         library.assign_part(o, "Clarinet", 1)
     with baca.scope(m.get(5, 8)) as o:
@@ -139,9 +139,9 @@ def cl(cache):
             not_parts=library.markups.solo_cl_2,
             only_parts=library.markups.solo,
         ),
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
         library.assign_part(o, "Clarinet", 2)
     m = cache["Rests"]

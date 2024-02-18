@@ -123,9 +123,9 @@ def cl(cache):
     m = cache["cl"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "F5")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "< ff",
+            "<ff",
             left_broken=True,
         )
     with baca.scope(m.leaves()) as o:
@@ -184,9 +184,9 @@ def strings(cache):
                 o.tleaves(),
                 alteration="Bb3",
             )
-            baca.spanners.hairpin(
+            baca.hairpinlib.exact(
                 o.pleaves()[:2],
-                "< ff",
+                "<ff",
                 left_broken=True,
             )
     for name, section, part_numbers in (
@@ -218,9 +218,9 @@ def strings(cache):
     m = cache["cb3"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Ab1")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o.pleaves()[:2],
-            "< ff",
+            "<ff",
             left_broken=True,
         )
     with baca.scope(m.leaves()) as o:
