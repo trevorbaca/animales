@@ -150,9 +150,9 @@ def cl(cache, time_signatures):
         baca.pitch(o, "C5")
         baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
         library.assign_part(o, "Clarinet", 1)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
     with baca.scope(cache["Rests"].get(5, 8)) as o:
         library.assign_part(o, "Clarinet", 1)
@@ -162,9 +162,9 @@ def cl(cache, time_signatures):
         baca.pitch(o, "Cb5")
         baca.short_instrument_name(o.leaf(0), "Cl. 2", library.manifests)
         library.assign_part(o, "Clarinet", 2)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
 
 

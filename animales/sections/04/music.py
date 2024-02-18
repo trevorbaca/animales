@@ -165,9 +165,9 @@ def winds(cache):
             not_parts=library.markups.solo_cl_3,
             only_parts=library.markups.solo,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "mp < mf",
+            "mp<mf",
         )
 
 
@@ -228,14 +228,14 @@ def strings(cache, names):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             library.leaves_in_measure(o, 1),
-            "p < f",
+            "p<f",
             rleak=True,
         )
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             library.leaves_in_measure(o, -1, lleak=True),
-            "f > p",
+            "f>p",
         )
     for name in names:
         m = cache[name]
@@ -296,9 +296,9 @@ def cb3(cache):
     m = cache["cb3"]
     with baca.scope(m.get(3, 6)) as o:
         baca.pitch(o, "C2")
-        baca.spanners.hairpin(
+        baca.hairpinlib.exact(
             o,
-            "p < !",
+            "p<!",
             right_broken=True,
         )
     with baca.scope(m.leaves()) as o:
