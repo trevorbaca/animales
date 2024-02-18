@@ -164,7 +164,7 @@ def CB3(voice, time_signatures):
 def cl(m):
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "A4")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<mf",
         )
@@ -174,7 +174,7 @@ def cl(m):
 def bcl(m):
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "A2")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.pleaves(),
             "p>o!",
             rleak=True,
@@ -189,18 +189,18 @@ def brass(cache, time_signatures, voice_name_to_parameter_to_state):
         total = len(runs)
         for n, run in enumerate(runs, start=1):
             if n < total:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "mp<mf",
                 )
             else:
                 if len(run) == 1:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         run,
                         "mp",
                     )
                 else:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         run,
                         "mp<!",
                         right_broken=True,
@@ -331,7 +331,7 @@ def strings(cache):
                 alteration="Ab3",
                 right_broken=True,
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o,
                 "pp<!",
                 right_broken=True,
@@ -346,7 +346,7 @@ def strings(cache):
     m = cache["cb3"]
     with baca.scope(m.leaves()) as o:
         baca.pitch(o, "A1")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,

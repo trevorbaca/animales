@@ -59,7 +59,7 @@ def SKIPS(score):
 
 
 def swell(argument, peak):
-    return baca.hairpinlib.hairpin(
+    return baca.hairpins.hairpin(
         baca.select.mgroups(baca.select.rleak(argument), [2, 4]),
         f"o< {peak} >o !",
         glue=True,
@@ -146,7 +146,7 @@ def strings(cache, time_signatures, voice_abbreviation_to_members):
             do_not_rleak=True,
         )
         baca.dynamic(o.phead(0), "ff-ancora")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.pleaves()[2:-2],
             "ff>pp",
         )

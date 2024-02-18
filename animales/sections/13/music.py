@@ -129,7 +129,7 @@ def cl(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
         baca.pitch(o, "Eb5")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<!",
             right_broken=True,
@@ -140,7 +140,7 @@ def cl(m, time_signatures):
 def bcl(m, time_signatures):
     with baca.scope(m.get(5, 6)) as o:
         baca.pitch(o, "Ab2")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "o<!",
             right_broken=True,
@@ -169,7 +169,7 @@ def percussion(cache, time_signatures):
     with baca.scope(cache["perc1"].leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.pleaves()[:4],
             "o<mp",
         )
@@ -196,7 +196,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,
@@ -212,7 +212,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,
@@ -228,7 +228,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,
@@ -243,7 +243,7 @@ def strings(cache, time_signatures):
             right_broken=True,
             style="trill",
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,
@@ -259,7 +259,7 @@ def strings(cache, time_signatures):
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "pp<!",
             right_broken=True,
