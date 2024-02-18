@@ -101,7 +101,7 @@ def winds(cache):
             not_parts=library.markups.solo_cl_3,
             only_parts=library.markups.solo,
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<mf",
         )
@@ -113,7 +113,7 @@ def percussion(cache):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "p>o!",
             right_broken=True,
@@ -164,7 +164,7 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -179,7 +179,7 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -194,7 +194,7 @@ def strings(cache, absent_left_broken):
             style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -209,7 +209,7 @@ def strings(cache, absent_left_broken):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -223,7 +223,7 @@ def strings(cache, absent_left_broken):
             hide_middle_note_heads=True,
             right_broken=True,
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "ff>!",
             right_broken=True,

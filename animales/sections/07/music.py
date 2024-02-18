@@ -126,7 +126,7 @@ def cl(cache):
             not_parts=library.markups.solo_cl_1,
             only_parts=library.markups.solo,
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<mf",
         )
@@ -139,7 +139,7 @@ def cl(cache):
             not_parts=library.markups.solo_cl_2,
             only_parts=library.markups.solo,
         ),
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<mf",
         )

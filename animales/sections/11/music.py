@@ -165,7 +165,7 @@ def cl(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 2", library.manifests)
         baca.pitch(o, "Bb4")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "mp<mf",
         )
@@ -183,24 +183,24 @@ def brass(
         for i, run in enumerate(runs):
             if i == 0:
                 if len(run) == 1:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         run,
                         "<",
                         left_broken=True,
                     )
                 else:
-                    baca.hairpinlib.exact(
+                    baca.hairpins.exact(
                         run,
                         "<f",
                         left_broken=True,
                     )
             elif len(run) == 1:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "mp",
                 )
             else:
-                baca.hairpinlib.exact(
+                baca.hairpins.exact(
                     run,
                     "mp<ff",
                 )
@@ -327,7 +327,7 @@ def percussion(cache, time_signatures):
     with baca.scope(cache["perc2"].leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.pleaves()[:3],
             "o<p",
         )
@@ -362,7 +362,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -377,7 +377,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -392,7 +392,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -407,7 +407,7 @@ def strings(cache, time_signatures):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "f>!",
             right_broken=True,
@@ -420,7 +420,7 @@ def strings(cache, time_signatures):
             hide_middle_note_heads=True,
             right_broken=True,
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "ff>!",
             right_broken=True,

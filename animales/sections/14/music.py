@@ -197,7 +197,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.hairpinlib.exact(
+        wrappers = baca.hairpins.exact(
             o.tleaves(),
             "mf<ff",
         )
@@ -206,7 +206,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "mf<ff",
         )
@@ -217,7 +217,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.hairpinlib.exact(
+        wrappers = baca.hairpins.exact(
             o.tleaves(),
             "mf<ff",
         )
@@ -226,7 +226,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.tleaves(),
             "mf<ff",
         )
@@ -243,7 +243,7 @@ def flutes(cache, time_signatures):
 def cl(cache, time_signatures):
     with baca.scope(cache["cl"].get(1, 3)) as o:
         baca.pitch(o, "Eb5")
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o,
             "<ff",
             left_broken=True,
@@ -327,12 +327,12 @@ def strings(cache, time_signatures):
             not_parts=r"\markup { solo (first violin) }",
             only_parts=r"\markup { solo }",
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             library.leaves_in_measure(o, 1),
             "p<ff",
             rleak=True,
         )
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             library.leaves_in_measure(o, -1, lleak=True),
             "ff>p",
         )
@@ -345,7 +345,7 @@ def strings(cache, time_signatures):
                 baca.select.tleaves(o),
                 alteration="Ab3",
             )
-            baca.hairpinlib.exact(
+            baca.hairpins.exact(
                 o.pleaves()[:2],
                 "<ff",
                 left_broken=True,
@@ -372,7 +372,7 @@ def strings(cache, time_signatures):
             wrappers = baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
             baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["cb3"].get(1, 3)) as o:
-        baca.hairpinlib.exact(
+        baca.hairpins.exact(
             o.pleaves()[:2],
             "<ff",
             left_broken=True,
