@@ -124,7 +124,7 @@ def cl(m):
     with baca.scope(m.get(1, 6)) as o:
         baca.short_instrument_name(o.leaf(0), "Cl. 1", library.manifests)
         library.assign_part(o, "Clarinet", 1)
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp<!",
             right_broken=True,
@@ -144,7 +144,7 @@ def bcl(m):
         baca.clef(o.leaf(0), "treble")
         library.assign_part(o, "BassClarinet")
     with baca.scope(m.get(5, 6)) as o:
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "o<!",
             right_broken=True,
@@ -172,7 +172,7 @@ def perc2(m):
     with baca.scope(m.leaves()) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "mp>o!",
             right_broken=True,
@@ -198,7 +198,7 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<!",
             right_broken=True,
@@ -214,7 +214,7 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<!",
             right_broken=True,
@@ -230,7 +230,7 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<!",
             right_broken=True,
@@ -246,7 +246,7 @@ def strings(cache):
             style="trill",
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<!",
             right_broken=True,
@@ -261,7 +261,7 @@ def strings(cache):
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "pp<!",
             right_broken=True,

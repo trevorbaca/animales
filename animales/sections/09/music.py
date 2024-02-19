@@ -123,7 +123,7 @@ def cl(cache):
     m = cache["cl"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "F5")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "<ff",
             left_broken=True,
@@ -184,7 +184,7 @@ def strings(cache):
                 o.tleaves(),
                 alteration="Bb3",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o.pleaves()[:2],
                 "<ff",
                 left_broken=True,
@@ -218,7 +218,7 @@ def strings(cache):
     m = cache["cb3"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Ab1")
-        baca.hairpins.exact(
+        baca.hairpin(
             o.pleaves()[:2],
             "<ff",
             left_broken=True,

@@ -193,7 +193,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.hairpins.exact(
+        wrappers = baca.hairpin(
             o.tleaves(),
             "mf<ff",
         )
@@ -202,7 +202,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "mf<ff",
         )
@@ -210,7 +210,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        wrappers = baca.hairpins.exact(
+        wrappers = baca.hairpin(
             o.tleaves(),
             "mf<ff",
         )
@@ -219,7 +219,7 @@ def flutes(cache, time_signatures):
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         baca.spanners.slur(o.tleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o.tleaves(),
             "mf<ff",
         )
@@ -237,11 +237,11 @@ def bcl(m, time_signatures):
     with baca.scope(m.leaves()) as o:
         baca.repeat_tie(o.pleaf(0))
         baca.pitch(o, "Ab2")
-        baca.hairpins.exact(
+        baca.hairpin(
             o.leaves()[:2],
             "p>o!",
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             o.leaves()[2:4],
             "o<p",
         )
@@ -270,7 +270,7 @@ def percussion(cache, time_signatures):
     with baca.scope(cache["perc1"].get(1, 3)) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o.pleaves()[:2],
             "o<mp",
         )
@@ -279,7 +279,7 @@ def percussion(cache, time_signatures):
     with baca.scope(cache["perc2"].get(1, 3)) as o:
         baca.staff_position(o, 0)
         baca.stem_tremolo(o.pleaves())
-        baca.hairpins.exact(
+        baca.hairpin(
             o.pleaves()[:2],
             "o<mp",
         )
@@ -313,12 +313,12 @@ def strings(cache, time_signatures):
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
         baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
-        baca.hairpins.exact(
+        baca.hairpin(
             library.leaves_in_measure(o, 1),
             "p<ff",
             rleak=True,
         )
-        baca.hairpins.exact(
+        baca.hairpin(
             library.leaves_in_measure(o, -1, lleak=True),
             "ff>p",
         )
@@ -331,7 +331,7 @@ def strings(cache, time_signatures):
                 baca.select.tleaves(o),
                 alteration="Ab3",
             )
-            baca.hairpins.exact(
+            baca.hairpin(
                 o,
                 "pp<ff",
             )
@@ -358,7 +358,7 @@ def strings(cache, time_signatures):
         baca.markup(o.leaf(0), r"\animales-suddenly-ripped-off-markup")
     with baca.scope(cache["cb3"].get(1, 3)) as o:
         baca.pitch(o, "G1")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p<ff",
         )

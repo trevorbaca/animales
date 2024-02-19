@@ -157,7 +157,7 @@ def cb3(m, time_signatures):
         baca.staff_lines(o.leaf(0), 5)
         baca.pitch(o, "C#2")
         baca.markup(o.pleaf(0), r"\baca-arco-markup")
-        baca.hairpins.exact(
+        baca.hairpin(
             o,
             "p<!",
             right_broken=True,

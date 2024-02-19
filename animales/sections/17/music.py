@@ -71,7 +71,7 @@ def SKIPS(score):
 
 
 def swell(argument, peak):
-    return baca.hairpins.exact(
+    return baca.hairpin(
         baca.select.mgroups(baca.select.rleak(argument), [2, 4]),
         f"o< {peak}>o!",
     )
@@ -185,17 +185,17 @@ def brass(
         runs = baca.select.runs(argument)
         for i, run in enumerate(runs):
             if i == 0:
-                baca.hairpins.exact(
+                baca.hairpin(
                     run,
                     "mp<mf",
                 )
             elif i == 1:
-                baca.hairpins.exact(
+                baca.hairpin(
                     run,
                     "mp<f",
                 )
             elif i == 2:
-                baca.hairpins.exact(
+                baca.hairpin(
                     run,
                     "mp<ff",
                 )
@@ -305,7 +305,7 @@ def strings(cache, time_signatures):
             do_not_rleak=True,
         )
         baca.dynamic(o.phead(0), "ff")
-        baca.hairpins.exact(
+        baca.hairpin(
             o.pleaves()[2:-2],
             "ff>pp",
         )
