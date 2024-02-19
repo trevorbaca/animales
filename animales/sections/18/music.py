@@ -153,10 +153,9 @@ def strings(cache, time_signatures, string_parts):
             "tasto => ext. pont. => tasto",
             do_not_rleak=True,
         )
-        baca.hairpins.hairpin(
+        baca.hairpins.exact(
             baca.select.mgroups(baca.select.rleak(o), [2, 2]),
-            f"o< {peak} >o !",
-            glue=True,
+            f"o< {peak}>o!",
         )
 
     for abbreviation, items in string_parts.items():
