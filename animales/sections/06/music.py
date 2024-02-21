@@ -158,10 +158,10 @@ def strings(cache, absent_left_broken):
         baca.interpolate_pitches(o, "B3", "A6")
         baca.glissando(
             o.tleaves(),
+            abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            style="trill",
         )
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
@@ -173,10 +173,10 @@ def strings(cache, absent_left_broken):
         baca.interpolate_pitches(o, "B3", "A5")
         baca.glissando(
             o.tleaves(),
+            abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
@@ -188,10 +188,10 @@ def strings(cache, absent_left_broken):
         baca.interpolate_pitches(o, "B3", "A4")
         baca.glissando(
             o.tleaves(),
+            abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            style="trill",
         ),
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
@@ -203,10 +203,10 @@ def strings(cache, absent_left_broken):
         baca.interpolate_pitches(o, "B3", "C3")
         baca.glissando(
             o.tleaves(),
+            abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
-            style="trill",
         )
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(

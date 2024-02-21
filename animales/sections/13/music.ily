@@ -913,6 +913,7 @@ number.13.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1043,6 +1044,7 @@ number.13.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1173,6 +1175,7 @@ number.13.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1303,6 +1306,7 @@ number.13.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)

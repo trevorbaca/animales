@@ -576,6 +576,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
+    - \tweak style #'trill
     \glissando
     \repeatTie
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -782,6 +783,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
+    - \tweak style #'trill
     \glissando
     \repeatTie
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -988,6 +990,7 @@ number.6.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
+    - \tweak style #'trill
     \glissando
     \repeatTie
       %! REAPPLIED_CLEF_REDRAW_COLOR
@@ -1194,6 +1197,7 @@ number.6.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \>
+    - \tweak style #'trill
     \glissando
     \repeatTie
       %! REAPPLIED_CLEF_REDRAW_COLOR

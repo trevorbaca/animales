@@ -829,6 +829,7 @@ number.8.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -965,6 +966,7 @@ number.8.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1101,6 +1103,7 @@ number.8.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1237,6 +1240,7 @@ number.8.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     \<
+    - \tweak style #'trill
     \glissando
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
@@ -1460,7 +1464,6 @@ number.8.Contrabasses.Voice.3.container = {
       %! REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(2-6)" }
     bf,!4
-    - \trill
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
     - \tweak color #blue
