@@ -189,11 +189,10 @@ def perc3(m):
 
 def strings(cache):
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.interpolate_pitches(o, "Bb6", "B3")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "Bb6 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -204,11 +203,10 @@ def strings(cache):
         )
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.interpolate_pitches(o, "Bb5", "B3")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "Bb5 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -219,11 +217,10 @@ def strings(cache):
         )
         library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.interpolate_pitches(o, "Bb4", "B3")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "Bb4 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -234,11 +231,10 @@ def strings(cache):
         )
         library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.interpolate_pitches(o, "Bb2", "B3")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "Bb2 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -249,10 +245,9 @@ def strings(cache):
         )
         library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.interpolate_pitches(o, "Bb1", "A1")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
-            hide_middle_note_heads=True,
+            "Bb1 A1",
             right_broken=True,
         )
         baca.hairpin(
