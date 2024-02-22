@@ -159,7 +159,6 @@ def strings(cache, absent_left_broken):
         baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
-            allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
         )
@@ -174,7 +173,6 @@ def strings(cache, absent_left_broken):
         baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
-            allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
         ),
@@ -189,7 +187,6 @@ def strings(cache, absent_left_broken):
         baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
-            allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
         ),
@@ -204,7 +201,6 @@ def strings(cache, absent_left_broken):
         baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
-            allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
         )
@@ -219,7 +215,6 @@ def strings(cache, absent_left_broken):
         baca.interpolate_pitches(o, "B1", "A1")
         baca.basic_glissando(
             o.tleaves(),
-            allow_repeats=True,
             hide_middle_note_heads=True,
             right_broken=True,
         )
