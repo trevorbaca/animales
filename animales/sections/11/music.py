@@ -353,13 +353,13 @@ def strings(cache, time_signatures):
             wrappers = baca.stop_trill(o.leaf(0))
             baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.interpolate_pitches(o, "A3", "G6")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "A3 G6",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
+        baca.repeat_tie(o.pleaf(0))
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
             o,
@@ -367,13 +367,13 @@ def strings(cache, time_signatures):
             right_broken=True,
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.interpolate_pitches(o, "A3", "G5")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "A3 G5",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
+        baca.repeat_tie(o.pleaf(0))
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
             o,
@@ -381,13 +381,13 @@ def strings(cache, time_signatures):
             right_broken=True,
         )
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.interpolate_pitches(o, "A3", "G4")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "A3 G4",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
+        baca.repeat_tie(o.pleaf(0))
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
             o,
@@ -395,13 +395,13 @@ def strings(cache, time_signatures):
             right_broken=True,
         )
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.interpolate_pitches(o, "A3", "B2")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
+            "A3 B2",
             abjad.Tweak(r"- \tweak style #'trill"),
-            hide_middle_note_heads=True,
             right_broken=True,
         )
+        baca.repeat_tie(o.pleaf(0))
         baca.articulation(o.phead(0), "trill")
         baca.hairpin(
             o,
@@ -409,10 +409,9 @@ def strings(cache, time_signatures):
             right_broken=True,
         )
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.interpolate_pitches(o, "A1", "G1")
-        baca.basic_glissando(
+        baca.flat_glissando(
             o.tleaves(),
-            hide_middle_note_heads=True,
+            "A1 G1",
             right_broken=True,
         )
         baca.hairpin(
