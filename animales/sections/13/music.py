@@ -188,7 +188,7 @@ def percussion(cache, time_signatures):
 def strings(cache, time_signatures):
     with baca.scope(cache["1vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "Ab6", "A3")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -204,7 +204,7 @@ def strings(cache, time_signatures):
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "Ab5", "A3")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -220,7 +220,7 @@ def strings(cache, time_signatures):
         library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
         baca.interpolate_pitches(o, "Ab4", "A3")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -236,7 +236,7 @@ def strings(cache, time_signatures):
         library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
         baca.interpolate_pitches(o, "Ab2", "A3")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -252,7 +252,7 @@ def strings(cache, time_signatures):
         library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
         baca.interpolate_pitches(o, "Ab1", "G1")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,

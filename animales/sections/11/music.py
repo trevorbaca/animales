@@ -354,7 +354,7 @@ def strings(cache, time_signatures):
             baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
     with baca.scope(cache["1vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "A3", "G6")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -369,7 +369,7 @@ def strings(cache, time_signatures):
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.interpolate_pitches(o, "A3", "G5")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -384,7 +384,7 @@ def strings(cache, time_signatures):
         )
     with baca.scope(cache["va1"].leaves()) as o:
         baca.interpolate_pitches(o, "A3", "G4")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -399,7 +399,7 @@ def strings(cache, time_signatures):
         )
     with baca.scope(cache["vc1"].leaves()) as o:
         baca.interpolate_pitches(o, "A3", "B2")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             abjad.Tweak(r"- \tweak style #'trill"),
             allow_repeats=True,
@@ -414,7 +414,7 @@ def strings(cache, time_signatures):
         )
     with baca.scope(cache["cb3"].leaves()) as o:
         baca.interpolate_pitches(o, "A1", "G1")
-        baca.glissando(
+        baca.basic_glissando(
             o.tleaves(),
             allow_repeats=True,
             hide_middle_note_heads=True,

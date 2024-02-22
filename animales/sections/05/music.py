@@ -148,7 +148,7 @@ def strings(cache):
             "B3",
             allow_repitch=True,
         ),
-        baca.glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves())
         wrappers = baca.override.dls_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
