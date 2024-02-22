@@ -189,7 +189,7 @@ def perc3(m):
 
 def strings(cache):
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Bb6 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -203,7 +203,7 @@ def strings(cache):
         )
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Bb5 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -217,7 +217,7 @@ def strings(cache):
         )
         library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Bb4 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -231,7 +231,7 @@ def strings(cache):
         )
         library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Bb2 B3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -245,7 +245,7 @@ def strings(cache):
         )
         library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Bb1 A1",
             right_broken=True,

@@ -154,7 +154,7 @@ def strings(cache, absent_left_broken):
             wrappers = baca.stop_trill(o.leaf(0))
             baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "B3 A6",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -168,7 +168,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
         )
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "B3 A5",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -182,7 +182,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
         )
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "B3 A4",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -196,7 +196,7 @@ def strings(cache, absent_left_broken):
             right_broken=True,
         )
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "B3 C3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -211,7 +211,7 @@ def strings(cache, absent_left_broken):
         )
     with baca.scope(cache["cb3"].leaves()) as o:
         baca.repeat_tie(o.pleaf(0))
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "B1 A1",
             right_broken=True,

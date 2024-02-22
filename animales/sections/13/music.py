@@ -187,7 +187,7 @@ def percussion(cache, time_signatures):
 
 def strings(cache, time_signatures):
     with baca.scope(cache["1vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Ab6 A3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -201,7 +201,7 @@ def strings(cache, time_signatures):
         )
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Ab5 A3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -215,7 +215,7 @@ def strings(cache, time_signatures):
         )
         library.assign_part(o, "SecondViolin", (1, 18))
     with baca.scope(cache["va1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Ab4 A3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -229,7 +229,7 @@ def strings(cache, time_signatures):
         )
         library.assign_part(o, "Viola", (1, 18))
     with baca.scope(cache["vc1"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Ab2 A3",
             abjad.Tweak(r"- \tweak style #'trill"),
@@ -243,7 +243,7 @@ def strings(cache, time_signatures):
         baca.articulation(o.phead(0), "trill")
         library.assign_part(o, "Cello", (1, 14))
     with baca.scope(cache["cb3"].leaves()) as o:
-        baca.flat_glissando(
+        baca.multistage_glissando(
             o.tleaves(),
             "Ab1 G1",
             right_broken=True,
