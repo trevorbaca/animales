@@ -215,7 +215,7 @@ def strings(cache, names):
         baca.pitch(o.pleaf(0), "C5", allow_repitch=True)
         baca.pitch(o.pleaf(-1), "C6", allow_repitch=True)
         baca.tie(o.ptail(-2))
-        baca.glissando(o.tleaves())
+        baca.basic_glissando(o.tleaves())
         library.assign_part(o, "FirstViolin", 1)
         baca.edition(
             o.pleaf(0),
