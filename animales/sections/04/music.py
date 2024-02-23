@@ -215,7 +215,7 @@ def strings(cache, names):
         baca.pitch(o.pleaf(0), "C5", allow_repitch=True)
         baca.pitch(o.pleaf(-1), "C6", allow_repitch=True)
         baca.tie(o.ptail(-2))
-        baca.multistage_glissando(
+        baca.glissando(
             o.tleaves(),
             do_not_hide_middle_note_heads=True,
             do_not_untie=True,
