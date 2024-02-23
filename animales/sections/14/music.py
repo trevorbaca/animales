@@ -315,7 +315,7 @@ def strings(cache, time_signatures):
             "G4",
             allow_repitch=True,
         )
-        baca.basic_glissando(o.tleaves())
+        baca.glissando(o.tleaves(), do_not_hide_middle_note_heads=True)
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.override.dls_up(o)
