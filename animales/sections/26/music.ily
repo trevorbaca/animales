@@ -5005,7 +5005,7 @@ number.26.Contrabasses.Voice.3.container = {
     - \tweak color #blue
       %! EXPLICIT_DYNAMIC
     \p
-    ^ \baca-arco-markup
+    ^ \baca-boxed-acro-markup
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! EXPLICIT_DYNAMIC_COLOR
