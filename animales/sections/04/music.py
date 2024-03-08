@@ -262,7 +262,7 @@ def strings(cache, names):
     for name in names:
         m = cache[name]
         with baca.scope(m.get(3, 6)) as o:
-            baca.pitch(o, 0)
+            baca.pitch(o, "C4")
             wrappers = baca.markup(
                 o.pleaf(0),
                 r"\animales-still-non-vibrato-markup",
