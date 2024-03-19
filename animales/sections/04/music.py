@@ -226,7 +226,7 @@ def strings(cache, names):
             not_parts=library.markups.solo_first_violin,
             only_parts=library.markups.solo,
         )
-        wrappers = baca.override.dls_up(o)
+        wrappers = baca.override.dls_direction_up(o)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
         baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
