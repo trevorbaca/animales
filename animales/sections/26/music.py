@@ -156,7 +156,7 @@ def cb3(m, time_signatures):
         baca.clef(o.leaf(0), "bass")
         baca.staff_lines(o.leaf(0), 5)
         baca.pitch(o, "C#2")
-        baca.markup(o.pleaf(0), r"\baca-boxed-acro-markup")
+        baca.markup(o.pleaf(0), r"\baca-boxed-arco-markup")
         baca.hairpin(
             o,
             "p<!",
