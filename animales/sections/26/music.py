@@ -221,7 +221,12 @@ def persist_score(score, environment):
         all_music_in_part_containers=True,
         error_on_not_yet_pitched=True,
     )
-    baca.tags.activate(score, baca.tags.LOCAL_MEASURE_NUMBER)
+    baca.tags.activate(
+        score,
+        baca.tags.LOCAL_MEASURE_NUMBER,
+        *baca.tags.instrument_color_tags(),
+        *baca.tags.short_instrument_name_color_tags(),
+    )
     lilypond_file = baca.lilypond.file(
         score,
         include_layout_ly=True,
