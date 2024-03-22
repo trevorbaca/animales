@@ -61,7 +61,7 @@ def SKIPS(score):
         "H",
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], -8)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(voice, time_signatures):
@@ -137,7 +137,7 @@ def cl(cache):
             r"\animales-choke-sound-suddenly-explanation-markup",
         )
         wrappers = baca.override.mmrest_text_extra_offset(o, (-6, 0))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_SCORE)
+        baca.tags.tag(wrappers, baca.tags.ONLY_SCORE)
 
 
 def bcl(m):
@@ -208,13 +208,13 @@ def strings(cache):
                 o.leaf(0),
                 r"\animales-suddenly-ripped-off-markup",
             )
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(cache["FirstViolins.Voice.1.Rests"][4]) as o:
         wrappers = baca.markup(
             o.leaf(0),
             r"\animales-strings-suddenly-ripped-off-markup",
         )
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
     m = cache["cb3"]
     with baca.scope(m.get(1, 3)) as o:
         baca.pitch(o, "Ab1")

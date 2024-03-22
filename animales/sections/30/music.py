@@ -67,7 +67,7 @@ def pf(m, time_signatures):
             r"\animales-harmonic-touch-lowest-string-of-piano-markup",
         )
         wrappers = baca.override.text_script_x_offset(o, 3)
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     with baca.scope(m.leaves()) as o:
         library.assign_part(o, "Piano")
 
@@ -80,7 +80,7 @@ def perc4(m, time_signatures):
         baca.staff_position(o, 0)
         baca.markup(o.pleaf(0), r"\animales-stonecircle-markup")
         wrappers = baca.override.text_script_x_offset(o, 3)
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), '"mf"')
     with baca.scope(m[10]) as o:
         baca.mark(o.leaf(0), r"\animales-colophon-markup")
@@ -93,7 +93,7 @@ def pf_perc4(cache, time_signatures):
     for name in ("pf", "perc4"):
         with baca.scope(cache[name][1]) as o:
             wrappers = baca.literal(o.leaf(0), r"\magnifyStaff #10/7")
-            baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+            baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 @baca.build.timed("make_score")

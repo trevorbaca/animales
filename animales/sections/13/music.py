@@ -63,9 +63,9 @@ def SKIPS(score):
         ),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], 3)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
     wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(voice, time_signatures):

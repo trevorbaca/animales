@@ -55,9 +55,9 @@ def SKIPS(score):
         ),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], 1)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
     wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def WINDS(score, time_signatures):
@@ -130,7 +130,7 @@ def strings(cache, absent_left_broken):
     with baca.scope(cache["1vn1"].leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Vni. I", library.manifests)
         wrappers = baca.voice_number(o.leaf(0))
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.short_instrument_name(o.leaf(0), "Vni. II", library.manifests)
@@ -147,12 +147,12 @@ def strings(cache, absent_left_broken):
         m = cache[name]
         with baca.scope(m[1]) as o:
             wrappers = baca.stop_trill(o.leaf(0))
-            baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
+            baca.tags.tag(wrappers, baca.tags.NOT_SECTION)
     for name in absent_left_broken:
         m = cache[name]
         with baca.scope(m[1]) as o:
             wrappers = baca.stop_trill(o.leaf(0))
-            baca.tags.wrappers(wrappers, baca.tags.NOT_SECTION)
+            baca.tags.tag(wrappers, baca.tags.NOT_SECTION)
     with baca.scope(cache["1vn1"].leaves()) as o:
         baca.glissando(
             o.tleaves(),

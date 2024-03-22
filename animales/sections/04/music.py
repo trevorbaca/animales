@@ -227,11 +227,11 @@ def strings(cache, names):
             only_parts=library.markups.solo,
         )
         wrappers = baca.override.dls_direction_up(o)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.hairpin(
             library.leaves_in_measure(o, 1),
             "p<f",
@@ -267,13 +267,13 @@ def strings(cache, names):
                 o.pleaf(0),
                 r"\animales-still-non-vibrato-markup",
             )
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             baca.dynamic(o.phead(0), "p-sub")
     m = cache["1vn1"]
     with baca.scope(m.get(1, 2)) as o:
         library.assign_part(o, "FirstViolin", (1, 10))
         wrappers = baca.voice_number(o.leaf(0), 2)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
     m = cache["1vn1"]
     with baca.scope(m.get(3, 6)) as o:
         library.assign_part(o, "FirstViolin", (2, 10))
@@ -282,9 +282,9 @@ def strings(cache, names):
             r"\animales-all-other-strings-still-markup",
             direction=abjad.DOWN,
         )
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 2)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
     for name, section, part_numbers in (
         ("1vn3", "FirstViolin", (11, 18)),
         ("2vn1", "SecondViolin", (1, 10)),

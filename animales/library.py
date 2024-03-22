@@ -250,10 +250,10 @@ def assign_brass_sforzando_parts(
             if not do_not_attach_voice_numbers:
                 if part_number in (1, 2):
                     wrappers = baca.voice_number(o.leaf(0), 1)
-                    baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+                    baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
                 elif part_number in (3, 4):
                     wrappers = baca.voice_number(o.leaf(0), 2)
-                    baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+                    baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
 
 
 def assign_part(argument, name, token=None):
@@ -294,13 +294,13 @@ def attach_grand_pause_fermatas(cache, score, *, measure):
         with baca.scope(cache[voice.name][measure]) as o:
             string = r'\markup \musicglyph #"scripts.ufermata"'
             wrappers = baca.markup(o[0], string)
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.MultiMeasureRest.transparent = ##t"
             wrappers = baca.literal(o[0], string)
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.TimeSignature.stencil = ##f"
             wrappers = baca.literal(o[0], string)
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
 
 
 def get_music_voice_names(voice_names):
@@ -394,12 +394,12 @@ def make_battuti(
 
     def upper_voice(o):
         wrappers = baca.voice_number(o.leaf(0), 1)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         baca.staff_position(o, 1)
 
     def lower_voice(o):
         wrappers = baca.voice_number(o.leaf(0), 2)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         baca.staff_position(o, -1)
 
     for section, members in section_name_to_member_count.items():
@@ -414,7 +414,7 @@ def make_battuti(
                 if first:
                     string = r"\animales-col-legno-battuti-explanation"
                     wrappers = baca.markup(o.leaf(0), string)
-                    baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+                    baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
                     baca.staff_lines(o.leaf(0), 1)
                     baca.clef(o.leaf(0), "percussion")
                 if first and member % 2 == 1:
@@ -534,7 +534,7 @@ def make_brass_sforzando(cache, *, measure):
                 baca.dynamic(o.phead(0), "sffz")
             elif member in (3, 4):
                 wrappers = baca.dynamic(o.phead(0), "sffz")
-                baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+                baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             else:
                 raise ValueError(member)
             baca.pitch(o, pitch)
