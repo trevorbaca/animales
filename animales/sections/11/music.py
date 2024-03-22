@@ -496,7 +496,7 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         clock_time_override=abjad.MetronomeMark(abjad.Duration(1, 4), 95),
         error_on_not_yet_pitched=True,
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         *baca.section.instrument_color_tags(),
