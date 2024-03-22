@@ -144,7 +144,7 @@ def percussion(cache, time_signatures):
         baca.stem_tremolo(o.pleaves())
         baca.markup(o.pleaf(0), r"\animales-bass-drum-soft-yarn-mallets-markup")
         wrappers = baca.override.text_script_extra_offset(o, (0, 4))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "p")
         library.assign_part(o, "Percussion", 3)
     with baca.scope(cache["perc4"].leaves()) as o:
@@ -154,7 +154,7 @@ def percussion(cache, time_signatures):
         baca.stem_tremolo(o.pleaves())
         baca.markup(o.pleaf(0), r"\animales-tam-tam-soft-yarn-mallets-markup")
         wrappers = baca.override.text_script_extra_offset(o, (0, 4))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "p")
         library.assign_part(o, "Percussion", 4)
 

@@ -62,9 +62,9 @@ def SKIPS(score):
         ),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], -9)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
     wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
-    baca.tags.wrappers(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
 
 
 def CL(score, time_signatures):
@@ -207,7 +207,7 @@ def perc3(cache):
         baca.laissez_vibrer(o.ptails())
         baca.markup(o.pleaf(0), r"\animales-vibraphone-markup")
         wrappers = baca.override.text_script_extra_offset(o, (1.5, 1.5))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "mp")
         library.assign_part(o, "Percussion", 3)
 
@@ -219,7 +219,7 @@ def strings(cache):
             o.pleaf(0),
             r"\animales-strings-still-non-vib-markup",
         )
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         library.assign_part(o, "FirstViolin", (1, 18))
     with baca.scope(cache["2vn1"].leaves()) as o:
         baca.pitch(o, "Bb5")
@@ -242,27 +242,27 @@ def strings(cache):
             r"\animales-b-flat-equals-a-sharp-markup",
             direction=abjad.DOWN,
         )
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.markup(
             o.leaf(1),
             r"\animales-b-flat-equals-a-sharp-markup",
             direction=abjad.UP,
         )
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name][1]) as o:
             wrappers = baca.markup(
                 o.pleaf(0),
                 r"\animales-still-non-vibrato-markup",
             )
-            baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+            baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             baca.dynamic(o.phead(0), "pp")
     with baca.scope(cache["cb3"][1]) as o:
         wrappers = baca.markup(
             o.pleaf(0),
             r"\animales-still-non-vibrato-markup",
         )
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), "p")
 
 

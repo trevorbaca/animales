@@ -150,11 +150,11 @@ def strings(cache):
         ),
         baca.glissando(o.tleaves(), do_not_hide_middle_note_heads=True)
         wrappers = baca.override.dls_direction_up(o)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.voice_number(o.leaf(0), 1)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.stop_trill(o.leaf(0))
-        baca.tags.wrappers(wrappers, baca.tags.ONLY_PARTS)
+        baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.hairpin(
             library.leaves_in_measure(o, 1),
             "p<f",
@@ -169,7 +169,7 @@ def strings(cache):
     m = cache["1vn1"]
     with baca.scope(m[1]) as o:
         wrappers = baca.voice_number(o.leaf(0), 2)
-        baca.tags.wrappers(wrappers, baca.tags.NOT_PARTS)
+        baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
     m = cache["vc1"]
     with baca.scope(m[1]) as o:
         baca.clef(o.leaf(0), "bass")
