@@ -227,7 +227,7 @@ number.6.Clarinets.Music.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -243,7 +243,7 @@ number.6.Clarinets.Music.container = {
       %! EXPLICIT_DYNAMIC
     \mp
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Clarinet”)"
       %! -PARTS
     ^ \markup { solo (cl. 3) }
       %! +PARTS
@@ -260,10 +260,10 @@ number.6.Clarinets.Music.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "3" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cl." \hcenter-in #16 "3" } %@%
 
     % [Clarinets.Music measure 2]
     ds''1
@@ -324,7 +324,7 @@ number.6.Percussion.1.Music.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! -PARTS
@@ -355,7 +355,7 @@ number.6.Percussion.1.Music.container = {
       %! REDUNDANT_DYNAMIC
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Percussion”)"
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
     - \tweak circled-tip ##t
@@ -373,10 +373,10 @@ number.6.Percussion.1.Music.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 1" \hcenter-in #16 "(tri.)" } %@%
 
     % [Percussion.1.Music measure 2]
     c'1
@@ -442,7 +442,7 @@ number.6.Percussion.2.Music.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_STAFF_LINES_COLOR
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)
       %! -PARTS
@@ -471,7 +471,7 @@ number.6.Percussion.2.Music.container = {
       %! REAPPLIED_DYNAMIC
     \p
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Percussion”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Percussion”)"
     - \tweak direction #up
     \repeatTie
     - \tweak stencil ##f
@@ -479,10 +479,10 @@ number.6.Percussion.2.Music.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 2" \hcenter-in #16 "(cym.)" } %@%
 
     % [Percussion.2.Music measure 2]
     c'1
@@ -545,7 +545,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! -PARTS
     \oneVoice
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
@@ -566,7 +566,7 @@ number.6.FirstViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -582,10 +582,10 @@ number.6.FirstViolins.Voice.1.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I"
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. I" %@%
 
       %! RIGHT_BROKEN
       %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -683,7 +683,7 @@ number.6.FirstViolins.Voice.3 = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -701,16 +701,16 @@ number.6.FirstViolins.Voice.3 = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(11-18)" } %@%
 
     % [FirstViolins.Voice.3 measure 2]
     R1 * 4/4
@@ -756,7 +756,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -773,7 +773,7 @@ number.6.SecondViolins.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -789,10 +789,10 @@ number.6.SecondViolins.Voice.1.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II"
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vni. II" %@%
 
       %! RIGHT_BROKEN
       %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -890,7 +890,7 @@ number.6.SecondViolins.Voice.3 = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -908,16 +908,16 @@ number.6.SecondViolins.Voice.3 = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Violin”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Violin”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" } %@%
 
     % [SecondViolins.Voice.3 measure 2]
     R1 * 4/4
@@ -963,7 +963,7 @@ number.6.Violas.Voice.1.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #blue
+    %@% \once \override Staff.InstrumentName.color = #blue
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -980,7 +980,7 @@ number.6.Violas.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -996,10 +996,10 @@ number.6.Violas.Voice.1.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)
       %! -PARTS
       %! REDRAWN_EXPLICIT_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle."
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vle." %@%
 
       %! RIGHT_BROKEN
       %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -1097,7 +1097,7 @@ number.6.Violas.Voice.3 = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -1115,16 +1115,16 @@ number.6.Violas.Voice.3 = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Viola”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Viola”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" }
+    \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(11-18)" } %@%
 
     % [Violas.Voice.3 measure 2]
     R1 * 4/4
@@ -1170,7 +1170,7 @@ number.6.Cellos.Voice.1.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -1187,7 +1187,7 @@ number.6.Cellos.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
     \f
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Cello”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Cello”)"
       %! -SECTION
 %%% \stopTrillSpan
       %! EXPLICIT_DYNAMIC_COLOR
@@ -1203,10 +1203,10 @@ number.6.Cellos.Voice.1.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc."
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Vc." %@%
 
       %! RIGHT_BROKEN
       %! SHOW_TO_JOIN_BROKEN_SPANNERS
@@ -1304,7 +1304,7 @@ number.6.Contrabasses.Voice.3.container = {
       %! REAPPLIED_CLEF_COLOR
     \once \override Staff.Clef.color = #(x11-color 'green4)
       %! REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)
+    %@% \once \override Staff.InstrumentName.color = #(x11-color 'green4)
       %! REAPPLIED_CLEF_COLOR_CANCELLATION
     %@% \override Staff.Clef.color = ##f
       %! REAPPLIED_CLEF
@@ -1322,7 +1322,7 @@ number.6.Contrabasses.Voice.3.container = {
       %! REDUNDANT_DYNAMIC
     \ff
       %! REAPPLIED_INSTRUMENT_ALERT
-    ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
+    %@% ^ \baca-reapplied-instrument-markup "(“Contrabass”)"
       %! EXPLICIT_DYNAMIC_COLOR
       %! EXPLICIT_DYNAMIC
       %! SPANNER_START
@@ -1335,10 +1335,10 @@ number.6.Contrabasses.Voice.3.container = {
       %! REAPPLIED_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'OliveDrab)
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME_COLOR
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
+    %@% \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)
       %! -PARTS
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
-    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb."
+    \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Cb." %@%
 
       %! RIGHT_BROKEN
       %! SHOW_TO_JOIN_BROKEN_SPANNERS
