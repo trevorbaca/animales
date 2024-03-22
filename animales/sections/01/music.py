@@ -209,7 +209,7 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         first_section=True,
         part_manifest=library.part_manifest(),
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         *baca.section.instrument_color_tags(),

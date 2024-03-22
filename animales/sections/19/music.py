@@ -193,7 +193,7 @@ def persist_score(score, environment):
         error_on_not_yet_pitched=True,
         magnify_staves=(abjad.Fraction(6, 10), "-PARTS"),
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         *baca.section.instrument_color_tags(),

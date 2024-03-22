@@ -361,7 +361,7 @@ def persist_score(score, environment):
         all_music_in_part_containers=True,
         error_on_not_yet_pitched=True,
     )
-    baca.tags.activate(
+    baca.section.activate_tags(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
         *baca.section.instrument_color_tags(),
