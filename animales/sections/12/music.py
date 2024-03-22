@@ -400,8 +400,8 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
     baca.tags.activate(
         score,
         baca.tags.LOCAL_MEASURE_NUMBER,
-        *baca.tags.instrument_color_tags(),
-        *baca.tags.short_instrument_name_color_tags(),
+        *baca.section.instrument_color_tags(),
+        *baca.section.short_instrument_name_color_tags(),
     )
     assert "voice_name_to_parameter_to_state" not in metadata
     dictionary = dict(metadata)
