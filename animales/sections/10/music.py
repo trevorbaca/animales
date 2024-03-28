@@ -326,9 +326,10 @@ def strings(cache):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].leaves()) as o:
             baca.pitch(o, "A3")
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 o.tleaves(),
                 alteration="Ab3",
+                rleak=True,
                 right_broken=True,
             )
             baca.hairpin(

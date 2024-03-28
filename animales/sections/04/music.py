@@ -246,9 +246,10 @@ def strings(cache, names):
         with baca.scope(m.get(1, 2)) as o:
             baca.pitch(o, "Db4")
             baca.accent(o.pheads()[1:])
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 o.tleaves(),
                 alteration="Eb4",
+                rleak=True,
             ),
             baca.dynamic(o.pleaf(0), "f-sub-but-accents-continue-sffz")
     for name in ["1vn3", "2vn3"]:

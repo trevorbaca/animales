@@ -75,16 +75,18 @@ def strings(cache):
         # ... then pitch
         with baca.scope(m.get(1, 3)) as o:
             baca.pitch(o, "E4")
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 o.tleaves(),
                 alteration="F4",
+                rleak=True,
             )
             baca.dynamic(o.pleaf(0), "f-sub-but-accents-continue-sffz")
         with baca.scope(m.get(4, 5)) as o:
             baca.pitch(o, "Eb4")
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 o.tleaves(),
                 alteration="E4",
+                rleak=True,
                 right_broken=True,
             ),
             baca.dynamic(o.pleaf(0), "p-sub-but-accents-continue-sffz")
