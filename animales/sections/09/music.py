@@ -180,9 +180,10 @@ def strings(cache):
     for name in ["1vn1", "2vn1", "va1", "vc1"]:
         with baca.scope(cache[name].get(1, 3)) as o:
             baca.pitch(o, "Ab3")
-            baca.rspanners.trill(
+            baca.spanners.trill(
                 o.tleaves(),
                 alteration="Bb3",
+                rleak=True,
             )
             baca.hairpin(
                 o.pleaves()[:2],
