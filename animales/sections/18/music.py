@@ -148,10 +148,9 @@ def strings(cache, time_signatures, string_parts):
 
     def tremolo(o, peak="f"):
         baca.stem_tremolo(o.pleaves())
-        baca.mspanners.text(
+        baca.spanners.text(
             baca.select.cmgroups(o, [2]),
             "tasto => ext. pont. => tasto",
-            do_not_rleak=True,
         )
         baca.hairpin(
             baca.select.mgroups(baca.select.rleak(o), [2, 2]),
