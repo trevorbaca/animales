@@ -12,7 +12,7 @@ def group(staff_count, inside, after):
 def main():
     time_signatures = 10
     trill_space = 2
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             baca.layout.System(
@@ -253,6 +253,8 @@ def main():
                 ),
             ),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 20),
         spacing_overrides=(
             baca.layout.Override((22, 29), (1, 16)),
@@ -270,7 +272,7 @@ def main():
             baca.layout.Override((165, 173), (1, 45)),
         ),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 if __name__ == "__main__":

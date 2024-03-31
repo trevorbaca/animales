@@ -26,7 +26,7 @@ def make_systems(measure_numbers, between_systems=20):
 
 
 def main():
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             *make_systems([1, 11, 21, 31, 41, 51, 61], 24),
@@ -35,9 +35,11 @@ def main():
             2,
             *make_systems([76, 88, 99, 111, 121, 131, 141, 151, 161, 171], 21),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 8),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 if __name__ == "__main__":
