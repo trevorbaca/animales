@@ -12,8 +12,8 @@ def group(staff_count, inside, after):
 def main():
     time_signatures = 10
     trill_space = 2
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             baca.layout.System(
                 measure=1,
@@ -26,7 +26,7 @@ def main():
                 distances=(time_signatures + trill_space, 20),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             2,
             baca.layout.System(
                 measure=16,
@@ -40,7 +40,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             3,
             baca.layout.System(
                 measure=22,
@@ -65,7 +65,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             4,
             baca.layout.System(
                 measure=39,
@@ -92,7 +92,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             5,
             baca.layout.System(
                 measure=56,
@@ -106,7 +106,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             6,
             baca.layout.System(
                 measure=64,
@@ -120,7 +120,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             7,
             baca.layout.System(
                 measure=72,
@@ -134,7 +134,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             8,
             baca.layout.System(
                 measure=82,
@@ -149,7 +149,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             9,
             baca.layout.System(
                 measure=88,
@@ -164,7 +164,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             10,
             baca.layout.System(
                 measure=95,
@@ -176,7 +176,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             11,
             baca.layout.System(
                 measure=107,
@@ -189,7 +189,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             12,
             baca.layout.System(
                 measure=115,
@@ -201,7 +201,7 @@ def main():
                 ),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             13,
             baca.layout.System(
                 measure=127,
@@ -209,7 +209,7 @@ def main():
                 distances=(time_signatures, 16),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             14,
             baca.layout.System(
                 measure=134,
@@ -217,7 +217,7 @@ def main():
                 distances=(time_signatures, 16),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             15,
             baca.layout.System(
                 measure=142,
@@ -225,7 +225,7 @@ def main():
                 distances=(time_signatures, 12),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             16,
             baca.layout.System(
                 measure=149,
@@ -233,7 +233,7 @@ def main():
                 distances=(time_signatures, 12),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             17,
             baca.layout.System(
                 measure=158,
@@ -241,7 +241,7 @@ def main():
                 distances=(time_signatures, 12),
             ),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             18,
             baca.layout.System(
                 measure=165,
