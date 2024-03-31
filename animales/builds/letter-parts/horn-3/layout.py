@@ -25,12 +25,12 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
 
 
 def main():
-    layout = baca.layout.layout(
-        baca.layout.page(
+    layout = baca.layout.Layout(
+        baca.layout.Page(
             1,
             *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 5),
         ),
-        baca.layout.page(
+        baca.layout.Page(
             2,
             *make_systems([69, 82, 99, 109, 116, 127, 141, 151, 161, 171], 21, 5),
         ),
