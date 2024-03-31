@@ -15,7 +15,7 @@ def make_systems(measure_numbers, between_systems=20, after_global_context=0):
         top_margin = 10
     for i, measure_number in enumerate(measure_numbers):
         y_offset = top_margin + i * between_systems
-        system = baca.system(
+        system = baca.layout.System(
             measure=measure_number,
             y_offset=y_offset,
             distances=(after_global_context,),
@@ -25,26 +25,26 @@ def make_systems(measure_numbers, between_systems=20, after_global_context=0):
 
 
 def main():
-    layout = baca.make_layout(
-        baca.page(
+    layout = baca.layout.layout(
+        baca.layout.page(
             1,
             *make_systems([1, 9, 16, 24, 33, 41, 49], 24, 4),
         ),
-        baca.page(
+        baca.layout.page(
             2,
             *make_systems([56, 66, 76, 88, 99, 109, 119], 30, 4),
         ),
-        baca.page(
+        baca.layout.page(
             3,
             *make_systems([131, 137, 143, 149, 155, 161, 167], 28, 4),
         ),
-        spacing=(1, 8),
-        overrides=(
-            baca.region((127, 173), (1, 16)),
-            baca.region(164, (1, 4)),
+        default_spacing=(1, 8),
+        spacing_overrides=(
+            baca.layout.Override((127, 173), (1, 16)),
+            baca.layout.Override(164, (1, 4)),
         ),
     )
-    baca.section.make_layout_ly(layout)
+    baca.section.write_layout_ly(layout)
 
 
 if __name__ == "__main__":
