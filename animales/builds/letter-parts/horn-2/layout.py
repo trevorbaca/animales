@@ -25,7 +25,7 @@ def make_systems(measure_numbers, between_systems, global_context_padding):
 
 
 def main():
-    spacing = baca.make_layout(
+    layout = baca.make_layout(
         baca.page(
             1,
             *make_systems([1, 11, 21, 31, 41, 56, 62], 24, 5),
@@ -40,7 +40,7 @@ def main():
             baca.region((109, 118), (1, 12)),
         ),
     )
-    baca.section.make_layout_ly(spacing)
+    baca.section.make_layout_ly(layout)
 
 
 if __name__ == "__main__":
