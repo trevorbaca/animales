@@ -372,14 +372,16 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
 
 
 def make_layout():
-    layout = baca.layout.Layout(
+    breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
             baca.layout.System(1, y_offset=0, distances=(20, 20)),
         ),
+    )
+    spacing = baca.layout.Spacing(
         default_spacing=(1, 20),
     )
-    baca.build.write_layout_ly(layout)
+    baca.build.write_layout_ly(breaks, spacing)
 
 
 def main():
