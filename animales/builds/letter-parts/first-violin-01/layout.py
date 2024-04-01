@@ -40,8 +40,8 @@ def main():
         ),
     )
     spacing = baca.layout.Spacing(
-        default_spacing=(1, 8),
-        spacing_overrides=(
+        default=(1, 8),
+        overrides=(
             baca.layout.Override((36, 43), (1, 4)),
             baca.layout.Override((76, 81), (1, 4)),
             baca.layout.Override((82, 84), (1, 12)),
