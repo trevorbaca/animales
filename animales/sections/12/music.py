@@ -181,7 +181,7 @@ def brass(
         wrappers = baca.dynamic_up(o.leaf(0))
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.7)
+        wrappers = baca.override.note_column_force_hshift(o.pleaf(0), 1.7)
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.dynamic(o.phead(0), "sfz")
         baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
@@ -222,7 +222,7 @@ def brass(
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.0)
+        wrappers = baca.override.note_column_force_hshift(o.pleaf(0), 1.0)
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     with baca.scope(cache["tbn1"][1]) as o:
@@ -247,7 +247,7 @@ def brass(
         wrappers = baca.voice_number(o.leaf(0), 2)
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         wrappers = baca.force_accidental(o.pleaf(0), tag=baca.tags.NOT_PARTS)
-        wrappers = baca.override.note_column_shift(o.pleaf(0), 1.0)
+        wrappers = baca.override.note_column_force_hshift(o.pleaf(0), 1.0)
         baca.tags.tag(wrappers, baca.tags.NOT_PARTS)
         baca.dynamic(o.phead(0), "sfz")
     for name, pitches in (
