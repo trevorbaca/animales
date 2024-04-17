@@ -190,7 +190,6 @@ def persist_score(score, environment):
         environment,
         library.manifests,
         all_music_in_part_containers=True,
-        error_on_not_yet_pitched=True,
         magnify_staves=(abjad.Fraction(6, 10), "-PARTS"),
     )
     baca.section.activate_tags(
