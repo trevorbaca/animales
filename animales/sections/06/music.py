@@ -263,7 +263,6 @@ def persist_score(score, environment):
         library.manifests,
         all_music_in_part_containers=True,
         clock_time_override=abjad.MetronomeMark(abjad.Duration(1, 4), 95),
-        error_on_not_yet_pitched=True,
     )
     baca.section.activate_tags(
         score,

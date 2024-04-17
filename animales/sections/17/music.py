@@ -462,7 +462,6 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
         environment,
         library.manifests,
         all_music_in_part_containers=True,
-        error_on_not_yet_pitched=True,
     )
     baca.section.activate_tags(
         score,
