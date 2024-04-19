@@ -361,7 +361,7 @@ def make_score(
 
 
 def persist_score(score, environment, voice_name_to_parameter_to_state):
-    metadata = baca.section.postprocess_score(
+    metadata = baca.section.postprocess(
         score,
         environment,
         library.manifests,
