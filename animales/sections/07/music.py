@@ -57,14 +57,12 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[1 - 1],
         "F",
-        abjad.Tweak(
-            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
-        ),
+        baca.postevent.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], -9)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
     wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 def CL(score, time_signatures):

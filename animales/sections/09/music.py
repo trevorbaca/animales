@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from animales import library
@@ -61,7 +60,7 @@ def SKIPS(score):
         "H",
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], -8)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 def CL(voice, time_signatures):

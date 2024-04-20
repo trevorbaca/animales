@@ -59,7 +59,7 @@ def SKIPS(score):
         "G",
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], 3)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 def CL_BCL(score, time_signatures):
@@ -192,7 +192,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb6 B3",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -206,7 +206,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb5 B3",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -220,7 +220,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb4 B3",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -234,7 +234,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb2 B3",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")

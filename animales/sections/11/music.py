@@ -65,12 +65,12 @@ def SKIPS(skips):
     baca.rehearsal_mark(
         skips[1 - 1],
         "J",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
+        baca.postevent.extra_offset((0, 6), tag=baca.tags.ONLY_SCORE),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], 2)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
     wrappers = baca.override.text_spanner_y_offset(skips[:-1], 8)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 def CL(voice, time_signatures):
@@ -356,7 +356,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "A3 G6",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.repeat_tie(o.pleaf(0))
@@ -370,7 +370,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "A3 G5",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.repeat_tie(o.pleaf(0))
@@ -384,7 +384,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "A3 G4",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.repeat_tie(o.pleaf(0))
@@ -398,7 +398,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "A3 B2",
-            abjad.Tweak(r"- \tweak style #'trill"),
+            baca.postevent.style_trill(),
             right_broken=True,
         )
         baca.repeat_tie(o.pleaf(0))
