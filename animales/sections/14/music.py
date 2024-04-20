@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from animales import library
@@ -64,12 +63,10 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[1 - 1],
         "M",
-        abjad.Tweak(
-            r"- \tweak extra-offset #'(0 . 12)", tag=abjad.Tag("+TABLOID_SCORE")
-        ),
+        baca.postevent.extra_offset((0, 12), tag=library.ONLY_TABLOID_SCORE),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], -2)
-    baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+    baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 def FL1(voice, time_signatures):

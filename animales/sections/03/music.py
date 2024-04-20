@@ -1,4 +1,3 @@
-import abjad
 import baca
 
 from animales import library
@@ -38,7 +37,7 @@ def SKIPS(skips):
     baca.rehearsal_mark(
         skips[1 - 1],
         "B",
-        abjad.Tweak(r"- \tweak extra-offset #'(0 . 6)", tag=baca.tags.ONLY_SCORE),
+        baca.postevent.extra_offset((0, 6), tag=baca.tags.ONLY_SCORE),
     )
 
 

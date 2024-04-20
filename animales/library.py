@@ -1240,3 +1240,5 @@ voice_abbreviations = {
     "cb5": "Contrabasses.Voice.5",
     "cb6": "Contrabasses.Voice.6",
 }
+
+ONLY_TABLOID_SCORE = abjad.Tag("+TABLOID_SCORE")

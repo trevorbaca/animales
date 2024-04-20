@@ -30,9 +30,7 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[1 - 1],
         "CC",
-        abjad.Tweak(
-            r"- \tweak extra-offset #'(0 . 6)", tag=abjad.Tag("+TABLOID_SCORE")
-        ),
+        baca.postevent.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),
     )
     baca.bar_line(skips[10 - 1], "|.")
 
@@ -93,7 +91,7 @@ def pf_perc4(cache, time_signatures):
     for name in ("pf", "perc4"):
         with baca.scope(cache[name][1]) as o:
             wrappers = baca.literal(o.leaf(0), r"\magnifyStaff #10/7")
-            baca.tags.tag(wrappers, abjad.Tag("+TABLOID_SCORE"))
+            baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
 
 
 @baca.build.timed("make_score")
