@@ -192,7 +192,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb6 B3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -206,7 +206,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb5 B3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -220,7 +220,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb4 B3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -234,7 +234,7 @@ def strings(cache):
         baca.glissando(
             o.tleaves(),
             "Bb2 B3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")

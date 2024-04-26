@@ -65,7 +65,7 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[3 - 1],
         "C",
-        baca.postevent.extra_offset((0, -2), tag=baca.tags.ONLY_SCORE),
+        baca.tweak.extra_offset((0, -2), tag=baca.tags.ONLY_SCORE),
     )
 
 

@@ -58,7 +58,7 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[1 - 1],
         "L",
-        baca.postevent.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),
+        baca.tweak.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),
     )
     wrappers = baca.override.text_spanner_left_padding(skips[:-1], 3)
     baca.tags.tag(wrappers, library.ONLY_TABLOID_SCORE)
@@ -188,7 +188,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "Ab6 A3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -202,7 +202,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "Ab5 A3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -216,7 +216,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "Ab4 A3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.articulation(o.phead(0), "trill")
@@ -230,7 +230,7 @@ def strings(cache, time_signatures):
         baca.glissando(
             o.tleaves(),
             "Ab2 A3",
-            baca.postevent.style_trill(),
+            baca.tweak.style_trill(),
             right_broken=True,
         )
         baca.hairpin(
