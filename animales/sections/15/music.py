@@ -57,7 +57,7 @@ def SKIPS(score):
     baca.rehearsal_mark(
         skips[1 - 1],
         "N",
-        baca.postevent.extra_offset((0, -2), tag=library.ONLY_TABLOID_SCORE),
+        baca.tweak.extra_offset((0, -2), tag=library.ONLY_TABLOID_SCORE),
     )
 
 
