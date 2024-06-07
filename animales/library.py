@@ -421,7 +421,7 @@ def make_battuti(
                     short_instrument_name_ = section_name_to_short_instrument_name[
                         section
                     ]
-                    key = f"{short_instrument_name_} ({member}-{member+1})"
+                    key = f"{short_instrument_name_} ({member}-{member + 1})"
                     baca.short_instrument_name(o.leaf(0), key, manifests)
                 if member % 2 == 0:
                     lower_voice(o)
@@ -1116,7 +1116,7 @@ def _make_short_instrument_names():
         for member in range(1, count + 1):
             if member % 2 == 0:
                 continue
-            members = f"({member}-{member+1})"
+            members = f"({member}-{member + 1})"
             key = f"{section} {members}"
             value = _make_short_instrument_name([section, members])
             result[key] = value
