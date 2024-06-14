@@ -354,7 +354,7 @@ number.11.Horns.Voice.1.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(1+3)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -387,7 +387,7 @@ number.11.Horns.Voice.1.container = {
     fs'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs'4
@@ -404,7 +404,7 @@ number.11.Horns.Voice.1.container = {
     e'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -437,7 +437,7 @@ number.11.Horns.Voice.1.container = {
     fs'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs'4
@@ -451,7 +451,7 @@ number.11.Horns.Voice.1.container = {
     e'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -481,7 +481,7 @@ number.11.Horns.Voice.1.container = {
     \<
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs'4
@@ -665,7 +665,7 @@ number.11.Horns.Voice.2.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Hn." \hcenter-in #16 "(2+4)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -691,7 +691,7 @@ number.11.Horns.Voice.2.container = {
     fs'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs'8
@@ -709,7 +709,7 @@ number.11.Horns.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -739,7 +739,7 @@ number.11.Horns.Voice.2.container = {
     fs'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs'8
@@ -760,7 +760,7 @@ number.11.Horns.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -824,7 +824,7 @@ number.11.Horns.Voice.4.container = {
     ef'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef'4
@@ -865,7 +865,7 @@ number.11.Horns.Voice.4.container = {
     ef'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Horns.Voice.4 measure 5]
@@ -981,7 +981,7 @@ number.11.Trumpets.Voice.1.container = {
     af'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af'8
@@ -1014,7 +1014,7 @@ number.11.Trumpets.Voice.1.container = {
     bf'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         bf'8
@@ -1037,7 +1037,7 @@ number.11.Trumpets.Voice.1.container = {
 
     r8
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -1188,7 +1188,7 @@ number.11.Trumpets.Voice.3.container = {
     g'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         g'4
@@ -1223,7 +1223,7 @@ number.11.Trumpets.Voice.3.container = {
     a'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         a'4
@@ -1310,7 +1310,7 @@ number.11.Trumpets.Voice.2.container = {
     af'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af'4
@@ -1328,7 +1328,7 @@ number.11.Trumpets.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \f
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1475,7 +1475,7 @@ number.11.Trumpets.Voice.4.container = {
     g'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trumpets.Voice.4 measure 6]
@@ -1600,7 +1600,7 @@ number.11.Trombones.Voice.1.container = {
     af4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af8
@@ -1651,7 +1651,7 @@ number.11.Trombones.Voice.1.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1709,7 +1709,7 @@ number.11.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
     \f
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trombones.Voice.3 measure 3]
@@ -1749,7 +1749,7 @@ number.11.Trombones.Voice.3.container = {
     a2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         a4
@@ -1784,7 +1784,7 @@ number.11.Trombones.Voice.3.container = {
     g2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         g8
@@ -1940,7 +1940,7 @@ number.11.Trombones.Voice.2.container = {
     bf4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         bf4
@@ -2010,7 +2010,7 @@ number.11.Trombones.Voice.4.container = {
     g2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         g4
@@ -2033,7 +2033,7 @@ number.11.Trombones.Voice.4.container = {
 
     r8
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2073,7 +2073,7 @@ number.11.Trombones.Voice.4.container = {
     g2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trombones.Voice.4 measure 6]
@@ -2118,7 +2118,7 @@ number.11.Trombones.Staff.2 = <<
 
 number.11.Piano.Music.container = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 1]
@@ -2166,7 +2166,7 @@ number.11.Piano.Music.container = {
     % [Piano.Music measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2185,7 +2185,7 @@ number.11.Piano.Music.container = {
     % [Piano.Music measure 5]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 6]
@@ -2256,7 +2256,7 @@ number.11.Harp.Music.container = {
     % [Harp.Music measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -2273,7 +2273,7 @@ number.11.Harp.Music.container = {
     % [Harp.Music measure 5]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -2454,7 +2454,7 @@ number.11.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -2469,7 +2469,7 @@ number.11.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 3]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Percussion.3.Music measure 4]
@@ -3096,7 +3096,7 @@ number.11.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         \override NoteHead.style = #'harmonic
@@ -3115,7 +3115,7 @@ number.11.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 4]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.1 measure 5]

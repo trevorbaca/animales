@@ -1456,7 +1456,7 @@ number.12.Piano.Music.container = {
     % [Piano.Music measure 2]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 3]
@@ -1476,7 +1476,7 @@ number.12.Piano.Music.container = {
     % [Piano.Music measure 5]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1495,7 +1495,7 @@ number.12.Piano.Music.container = {
     % [Piano.Music measure 7]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 8]
@@ -1563,7 +1563,7 @@ number.12.Harp.Music.container = {
     % [Harp.Music measure 2]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1580,7 +1580,7 @@ number.12.Harp.Music.container = {
     % [Harp.Music measure 4]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1600,7 +1600,7 @@ number.12.Harp.Music.container = {
     % [Harp.Music measure 7]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1783,7 +1783,7 @@ number.12.Percussion.3.Music.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1804,7 +1804,7 @@ number.12.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 4]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1822,7 +1822,7 @@ number.12.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 6]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -2265,7 +2265,7 @@ number.12.Contrabasses.Voice.1.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         \override NoteHead.style = #'harmonic
@@ -2287,7 +2287,7 @@ number.12.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 4]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2307,7 +2307,7 @@ number.12.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 6]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4

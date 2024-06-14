@@ -851,7 +851,7 @@ number.5.FirstViolins.Voice.3.container = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -1059,7 +1059,7 @@ number.5.SecondViolins.Staff.1 = {
 
 number.5.SecondViolins.Voice.3.container = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.3 measure 1]
@@ -1121,7 +1121,7 @@ number.5.SecondViolins.Voice.3.container = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b4

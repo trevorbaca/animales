@@ -857,7 +857,7 @@ number.17.Horns.Voice.1.container = {
     d'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'4
@@ -874,7 +874,7 @@ number.17.Horns.Voice.1.container = {
     e'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -907,7 +907,7 @@ number.17.Horns.Voice.1.container = {
     d'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'4
@@ -924,7 +924,7 @@ number.17.Horns.Voice.1.container = {
     e'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -957,7 +957,7 @@ number.17.Horns.Voice.1.container = {
     d'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'4
@@ -971,7 +971,7 @@ number.17.Horns.Voice.1.container = {
     e'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -989,7 +989,7 @@ number.17.Horns.Voice.1.container = {
     d'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'4
@@ -1200,7 +1200,7 @@ number.17.Horns.Voice.2.container = {
     % [Horns.Voice.2 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1226,7 +1226,7 @@ number.17.Horns.Voice.2.container = {
     d'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1244,7 +1244,7 @@ number.17.Horns.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \mf
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1270,7 +1270,7 @@ number.17.Horns.Voice.2.container = {
     d'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1288,7 +1288,7 @@ number.17.Horns.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \f
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Horns.Voice.2 measure 7]
@@ -1318,7 +1318,7 @@ number.17.Horns.Voice.2.container = {
     d'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1339,7 +1339,7 @@ number.17.Horns.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1356,7 +1356,7 @@ number.17.Horns.Voice.2.container = {
     d'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1414,7 +1414,7 @@ number.17.Horns.Voice.4.container = {
     ef'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef'4
@@ -1455,7 +1455,7 @@ number.17.Horns.Voice.4.container = {
     ef'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef'4
@@ -1493,7 +1493,7 @@ number.17.Horns.Voice.4.container = {
     ef'!2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Horns.Voice.4 measure 8]
@@ -1522,7 +1522,7 @@ number.17.Horns.Voice.4.container = {
     ef'!2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Horns.Voice.4 measure 10]
@@ -1677,7 +1677,7 @@ number.17.Trumpets.Voice.1.container = {
     af'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af'8
@@ -1695,7 +1695,7 @@ number.17.Trumpets.Voice.1.container = {
     gf'!2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gf'8
@@ -1713,7 +1713,7 @@ number.17.Trumpets.Voice.1.container = {
 
     r8
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -1761,7 +1761,7 @@ number.17.Trumpets.Voice.3.container = {
     g'2.
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trumpets.Voice.3 measure 3]
@@ -1791,7 +1791,7 @@ number.17.Trumpets.Voice.3.container = {
     \<
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trumpets.Voice.3 measure 4]
@@ -1814,7 +1814,7 @@ number.17.Trumpets.Voice.3.container = {
 
     r8
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trumpets.Voice.3 measure 5]
@@ -2034,7 +2034,7 @@ number.17.Trumpets.Voice.2.container = {
     af'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af'4
@@ -2069,7 +2069,7 @@ number.17.Trumpets.Voice.2.container = {
     gf'2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trumpets.Voice.2 measure 7]
@@ -2091,7 +2091,7 @@ number.17.Trumpets.Voice.2.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2157,7 +2157,7 @@ number.17.Trumpets.Voice.4.container = {
     f'4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f'4
@@ -2178,7 +2178,7 @@ number.17.Trumpets.Voice.4.container = {
       %! EXPLICIT_DYNAMIC
     \mf
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2395,7 +2395,7 @@ number.17.Trombones.Voice.1.container = {
     af4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af4
@@ -2452,7 +2452,7 @@ number.17.Trombones.Voice.1.container = {
     af2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af8
@@ -2512,7 +2512,7 @@ number.17.Trombones.Voice.3.container = {
     \<
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f4
@@ -2567,7 +2567,7 @@ number.17.Trombones.Voice.3.container = {
     f2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trombones.Voice.3 measure 5]
@@ -2624,7 +2624,7 @@ number.17.Trombones.Voice.3.container = {
       %! EXPLICIT_DYNAMIC
     \ff
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2714,7 +2714,7 @@ number.17.Trombones.Voice.2.container = {
     % [Trombones.Voice.2 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2751,7 +2751,7 @@ number.17.Trombones.Voice.2.container = {
     gf!2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gf4
@@ -2786,7 +2786,7 @@ number.17.Trombones.Voice.2.container = {
     af2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         af8
@@ -2898,7 +2898,7 @@ number.17.Trombones.Voice.4.container = {
     f4
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         f8
@@ -2988,7 +2988,7 @@ number.17.Trombones.Voice.4.container = {
     g2
     ~
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trombones.Voice.4 measure 8]
@@ -3011,7 +3011,7 @@ number.17.Trombones.Voice.4.container = {
 
     r8
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Trombones.Voice.4 measure 9]

@@ -372,7 +372,7 @@ number.3.FirstViolins.Voice.3.container = {
       %! SPANNER_START
     \startTrillSpan e'
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef'8
@@ -625,7 +625,7 @@ number.3.SecondViolins.Voice.3.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'8
@@ -655,7 +655,7 @@ number.3.SecondViolins.Voice.3.container = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         e'4

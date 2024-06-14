@@ -276,7 +276,7 @@ number.15.Flutes.Voice.1.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(1+3)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         g''8
@@ -341,7 +341,7 @@ number.15.Flutes.Voice.1.container = {
     bf''!16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b''8
@@ -354,7 +354,7 @@ number.15.Flutes.Voice.1.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         cs'''!8
@@ -461,7 +461,7 @@ number.15.Flutes.Voice.3.container = {
     e''16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef''!8
@@ -474,7 +474,7 @@ number.15.Flutes.Voice.3.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Flutes.Voice.3 measure 2]
@@ -519,7 +519,7 @@ number.15.Flutes.Voice.3.container = {
     b''16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c'''8
@@ -532,7 +532,7 @@ number.15.Flutes.Voice.3.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         a''8
@@ -639,7 +639,7 @@ number.15.Flutes.Voice.2.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Fl." \hcenter-in #16 "(2+4)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef''!8
@@ -672,7 +672,7 @@ number.15.Flutes.Voice.2.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -706,7 +706,7 @@ number.15.Flutes.Voice.2.container = {
     f''16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs''!8
@@ -719,7 +719,7 @@ number.15.Flutes.Voice.2.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Flutes.Voice.2 measure 3]
@@ -753,7 +753,7 @@ number.15.Flutes.Voice.2.container = {
     af''!16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         a''8
@@ -853,7 +853,7 @@ number.15.Flutes.Voice.4.container = {
     d''16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef''!8
@@ -866,7 +866,7 @@ number.15.Flutes.Voice.4.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         ef''!8
@@ -900,7 +900,7 @@ number.15.Flutes.Voice.4.container = {
     af''!16
     ]
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Flutes.Voice.4 measure 3]
@@ -914,7 +914,7 @@ number.15.Flutes.Voice.4.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         fs''!8
@@ -1152,7 +1152,7 @@ number.15.Piano.Music.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \hcenter-in #16 "Pf."
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -1176,7 +1176,7 @@ number.15.Piano.Music.container = {
     % [Piano.Music measure 4]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -1265,7 +1265,7 @@ number.15.Harp.Music.container = {
     % [Harp.Music measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         bf'!8
@@ -1285,7 +1285,7 @@ number.15.Harp.Music.container = {
     % [Harp.Music measure 6]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         bf'!8
@@ -1590,7 +1590,7 @@ number.15.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         bf'!8
@@ -1605,7 +1605,7 @@ number.15.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 4]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Percussion.3.Music measure 5]
@@ -2436,7 +2436,7 @@ number.15.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2453,7 +2453,7 @@ number.15.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 4]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.1 measure 5]

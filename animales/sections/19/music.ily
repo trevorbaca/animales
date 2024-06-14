@@ -2403,7 +2403,7 @@ number.19.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2958,7 +2958,7 @@ number.19.SecondViolins.Voice.12.container = {
     % [SecondViolins.Voice.12 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.12 measure 3]
@@ -2968,7 +2968,7 @@ number.19.SecondViolins.Voice.12.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -4109,7 +4109,7 @@ number.19.Violas.Voice.12.container = {
       %! EXPLICIT_CLEF_REDRAW_COLOR
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
