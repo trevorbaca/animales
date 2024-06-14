@@ -1,3 +1,5 @@
+\version "2.25.16"
+
 number.25.Rests = {
 
     % [Rests measure 1]

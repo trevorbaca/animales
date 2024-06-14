@@ -1,3 +1,5 @@
+\version "2.25.16"
+
 number.7.Rests.container.1 = {
 
     % [Rests measure 1]

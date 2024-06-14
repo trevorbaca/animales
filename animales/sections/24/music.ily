@@ -1,3 +1,5 @@
+\version "2.25.16"
+
 number.24.Rests = {
 
     % [Rests measure 1]
