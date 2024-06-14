@@ -290,7 +290,7 @@ number.21.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -304,7 +304,7 @@ number.21.FirstViolins.Voice.3.container = {
     % [FirstViolins.Voice.3 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -336,7 +336,7 @@ number.21.FirstViolins.Voice.4.container = {
     \voiceTwo
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [FirstViolins.Voice.4 measure 2]
@@ -351,7 +351,7 @@ number.21.FirstViolins.Voice.4.container = {
     % [FirstViolins.Voice.4 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -547,7 +547,7 @@ number.21.FirstViolins.Voice.7.container = {
     % [FirstViolins.Voice.7 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -582,7 +582,7 @@ number.21.FirstViolins.Voice.8.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Violin”)"
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [FirstViolins.Voice.8 measure 2]
@@ -599,7 +599,7 @@ number.21.FirstViolins.Voice.8.container = {
     % [FirstViolins.Voice.8 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -825,7 +825,7 @@ number.21.FirstViolins.Voice.12.container = {
     % [FirstViolins.Voice.12 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -841,7 +841,7 @@ number.21.FirstViolins.Voice.12.container = {
     % [FirstViolins.Voice.12 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -919,7 +919,7 @@ number.21.FirstViolins.Voice.13.container = {
     % [FirstViolins.Voice.13 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1064,7 +1064,7 @@ number.21.FirstViolins.Voice.16.container = {
     % [FirstViolins.Voice.16 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1078,7 +1078,7 @@ number.21.FirstViolins.Voice.16.container = {
     % [FirstViolins.Voice.16 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1150,7 +1150,7 @@ number.21.FirstViolins.Voice.17.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. I" \hcenter-in #16 "(17-18)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [FirstViolins.Voice.17 measure 2]
@@ -1169,7 +1169,7 @@ number.21.FirstViolins.Voice.17.container = {
     % [FirstViolins.Voice.17 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1400,7 +1400,7 @@ number.21.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1428,7 +1428,7 @@ number.21.SecondViolins.Voice.4.container = {
     \voiceTwo
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1443,7 +1443,7 @@ number.21.SecondViolins.Voice.4.container = {
     % [SecondViolins.Voice.4 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1452,7 +1452,7 @@ number.21.SecondViolins.Voice.4.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -1639,7 +1639,7 @@ number.21.SecondViolins.Voice.7.container = {
     % [SecondViolins.Voice.7 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -1648,7 +1648,7 @@ number.21.SecondViolins.Voice.7.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -1681,7 +1681,7 @@ number.21.SecondViolins.Voice.8.container = {
     \voiceTwo
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.8 measure 2]
@@ -1907,7 +1907,7 @@ number.21.SecondViolins.Voice.12.container = {
     % [SecondViolins.Voice.12 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -1921,7 +1921,7 @@ number.21.SecondViolins.Voice.12.container = {
     % [SecondViolins.Voice.12 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -1995,7 +1995,7 @@ number.21.SecondViolins.Voice.13.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(13-14)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.13 measure 2]
@@ -2010,7 +2010,7 @@ number.21.SecondViolins.Voice.13.container = {
     % [SecondViolins.Voice.13 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -2161,7 +2161,7 @@ number.21.SecondViolins.Voice.16.container = {
     % [SecondViolins.Voice.16 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -2240,7 +2240,7 @@ number.21.SecondViolins.Voice.17.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(17-18)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.17 measure 2]
@@ -2257,7 +2257,7 @@ number.21.SecondViolins.Voice.17.container = {
     % [SecondViolins.Voice.17 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2487,7 +2487,7 @@ number.21.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2503,7 +2503,7 @@ number.21.Violas.Voice.3.container = {
     % [Violas.Voice.3 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2539,7 +2539,7 @@ number.21.Violas.Voice.4.container = {
     % [Violas.Voice.4 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2726,7 +2726,7 @@ number.21.Violas.Voice.7.container = {
     % [Violas.Voice.7 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2740,7 +2740,7 @@ number.21.Violas.Voice.7.container = {
     % [Violas.Voice.7 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -2768,7 +2768,7 @@ number.21.Violas.Voice.8.container = {
     \voiceTwo
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violas.Voice.8 measure 2]
@@ -2787,7 +2787,7 @@ number.21.Violas.Voice.8.container = {
     % [Violas.Voice.8 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -3012,7 +3012,7 @@ number.21.Violas.Voice.12.container = {
     % [Violas.Voice.12 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -3082,7 +3082,7 @@ number.21.Violas.Voice.13.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(13-14)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -3097,7 +3097,7 @@ number.21.Violas.Voice.13.container = {
     % [Violas.Voice.13 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -3106,7 +3106,7 @@ number.21.Violas.Voice.13.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -3251,7 +3251,7 @@ number.21.Violas.Voice.16.container = {
     % [Violas.Voice.16 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -3260,7 +3260,7 @@ number.21.Violas.Voice.16.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -3337,7 +3337,7 @@ number.21.Violas.Voice.17.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vle." \hcenter-in #16 "(17-18)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Violas.Voice.17 measure 2]
@@ -3567,7 +3567,7 @@ number.21.Cellos.Voice.3.container = {
     % [Cellos.Voice.3 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -3581,7 +3581,7 @@ number.21.Cellos.Voice.3.container = {
     % [Cellos.Voice.3 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -3615,7 +3615,7 @@ number.21.Cellos.Voice.4.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Cello”)"
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cellos.Voice.4 measure 2]
@@ -3630,7 +3630,7 @@ number.21.Cellos.Voice.4.container = {
     % [Cellos.Voice.4 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -3823,7 +3823,7 @@ number.21.Cellos.Voice.7.container = {
     % [Cellos.Voice.7 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d'8
@@ -3856,7 +3856,7 @@ number.21.Cellos.Voice.8.container = {
     \voiceTwo
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Cellos.Voice.8 measure 2]
@@ -3873,7 +3873,7 @@ number.21.Cellos.Voice.8.container = {
     % [Cellos.Voice.8 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -4099,7 +4099,7 @@ number.21.Cellos.Voice.12.container = {
     % [Cellos.Voice.12 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -4115,7 +4115,7 @@ number.21.Cellos.Voice.12.container = {
     % [Cellos.Voice.12 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -4195,7 +4195,7 @@ number.21.Cellos.Voice.13.container = {
     % [Cellos.Voice.13 measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -4351,7 +4351,7 @@ number.21.Contrabasses.Voice.2.container = {
     % [Contrabasses.Voice.2 measure 2]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -4365,7 +4365,7 @@ number.21.Contrabasses.Voice.2.container = {
     % [Contrabasses.Voice.2 measure 3]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -4435,7 +4435,7 @@ number.21.Contrabasses.Voice.3.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "(3-4)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.3 measure 2]
@@ -4454,7 +4454,7 @@ number.21.Contrabasses.Voice.3.container = {
     % [Contrabasses.Voice.3 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4

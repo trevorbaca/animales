@@ -436,7 +436,7 @@ number.13.Piano.Music.container = {
     % [Piano.Music measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -454,7 +454,7 @@ number.13.Piano.Music.container = {
     % [Piano.Music measure 4]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 5]
@@ -528,7 +528,7 @@ number.13.Harp.Music.container = {
     % [Harp.Music measure 3]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -544,7 +544,7 @@ number.13.Harp.Music.container = {
     % [Harp.Music measure 4]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -821,7 +821,7 @@ number.13.Percussion.3.Music.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Perc. 3" \hcenter-in #16 "(vib.)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -839,7 +839,7 @@ number.13.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         c''8
@@ -1437,7 +1437,7 @@ number.13.Contrabasses.Voice.1.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Cb." \hcenter-in #16 "1" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         \override NoteHead.style = #'harmonic
@@ -1454,7 +1454,7 @@ number.13.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 3]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.1 measure 4]

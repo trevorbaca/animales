@@ -2111,7 +2111,7 @@ number.25.SecondViolins.Voice.3.container = {
     % [SecondViolins.Voice.3 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -2516,7 +2516,7 @@ number.25.SecondViolins.Voice.12.container = {
     % [SecondViolins.Voice.12 measure 2]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.12 measure 3]
@@ -2526,7 +2526,7 @@ number.25.SecondViolins.Voice.12.container = {
 
     }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         b8
@@ -3377,7 +3377,7 @@ number.25.Violas.Voice.12.container = {
       %! REAPPLIED_INSTRUMENT_ALERT
     ^ \baca-reapplied-instrument-markup "(“Viola”)"
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4

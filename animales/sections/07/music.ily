@@ -464,7 +464,7 @@ number.7.Piano.Music.container = {
     % [Piano.Music measure 2]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r8
@@ -489,7 +489,7 @@ number.7.Piano.Music.container = {
     % [Piano.Music measure 4]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         r4
@@ -511,7 +511,7 @@ number.7.Piano.Music.container = {
     % [Piano.Music measure 7]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Piano.Music measure 8]
@@ -580,7 +580,7 @@ number.7.Harp.Music.container = {
     % [Harp.Music measure 2]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -606,7 +606,7 @@ number.7.Harp.Music.container = {
     % [Harp.Music measure 4]
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -628,7 +628,7 @@ number.7.Harp.Music.container = {
     % [Harp.Music measure 7]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -873,7 +873,7 @@ number.7.Percussion.2.Staff = {
 
 number.7.Percussion.3.Music.container = {
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Percussion.3.Music measure 1]
@@ -926,7 +926,7 @@ number.7.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 2]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Percussion.3.Music measure 3]
@@ -945,7 +945,7 @@ number.7.Percussion.3.Music.container = {
     % [Percussion.3.Music measure 5]
     r2.
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -1409,7 +1409,7 @@ number.7.Contrabasses.Voice.1.container = {
 
     r4
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.1 measure 2]
@@ -1449,7 +1449,7 @@ number.7.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 3]
     r2
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         d''8
@@ -1467,7 +1467,7 @@ number.7.Contrabasses.Voice.1.container = {
     % [Contrabasses.Voice.1 measure 5]
     r1
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [Contrabasses.Voice.1 measure 6]

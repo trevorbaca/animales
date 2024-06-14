@@ -408,7 +408,7 @@ number.2.FirstViolins.Voice.3.container = {
     ~
     \repeatTie
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         gf'8
@@ -669,7 +669,7 @@ number.2.SecondViolins.Voice.3.container = {
       %! REDRAWN_REAPPLIED_SHORT_INSTRUMENT_NAME
     \set Staff.shortInstrumentName = \markup \column { \hcenter-in #16 "Vni. II" \hcenter-in #16 "(11-18)" }
 
-    \times 2/3
+    \tuplet 3/2
     {
 
         % [SecondViolins.Voice.3 measure 2]
