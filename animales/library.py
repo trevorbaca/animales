@@ -292,7 +292,7 @@ def attach_grand_pause_fermatas(cache, score, *, measure):
         if type(parent) is abjad.Container:
             continue
         with baca.scope(cache[voice.name][measure]) as o:
-            string = r'\markup \musicglyph #"scripts.ufermata"'
+            string = r'\markup \musicglyph "scripts.ufermata"'
             wrappers = baca.markup(o[0], string)
             baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
             string = r"\once \override Score.MultiMeasureRest.transparent = ##t"

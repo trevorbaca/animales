@@ -395,7 +395,7 @@ number.30.Piano.Music.container = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-%%% ^ \markup \musicglyph #"scripts.ufermata"
+%%% ^ \markup \musicglyph "scripts.ufermata"
 
 }
 
@@ -627,7 +627,7 @@ number.30.Percussion.4.Music.container = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"1" #"4"
       %! +PARTS
-%%% ^ \markup \musicglyph #"scripts.ufermata"
+%%% ^ \markup \musicglyph "scripts.ufermata"
 
 }
 
