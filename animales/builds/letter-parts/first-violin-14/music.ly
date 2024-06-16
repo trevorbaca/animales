@@ -66,7 +66,7 @@
 
 \header {
     subtitle =
-        \markup \column \center-align
+        \markup \column \center-column
         {
             \override #'(font-name . "Palatino Italic") \fontsize #3
             {
