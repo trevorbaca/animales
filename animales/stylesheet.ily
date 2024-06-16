@@ -1,3 +1,4 @@
+\version "2.25.13"
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 11)
 
@@ -140,6 +141,7 @@
     \consists Staff_collecting_engraver
     \consists Time_signature_engraver
     \accepts GlobalSkips
+    \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
 
@@ -273,7 +275,7 @@
     explicitClefVisibility = #end-of-line-invisible
     forceClef = ##t
     rehearsalMarkFormatter = #format-mark-box-alphabet
-    proportionalNotationDuration = #(ly:make-moment 1 24)
+    proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
 }

@@ -1,3 +1,4 @@
+\version "2.25.13"
 \include "../../stylesheet.ily"
 
 #(set-default-paper-size "letter")
@@ -19,7 +20,7 @@
     title = \markup 
         \override #'(font-name . "Palatino")
         \column {
-            \center-align {
+            \center-column {
                 \fontsize #8
                 \line { ANIMALES }
                 \fontsize #8
