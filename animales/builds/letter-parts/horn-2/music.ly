@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "horn-2-layout.ly"
+        \include "horn-2-layout.ily"
         }
         {
             \context Score = "Score"

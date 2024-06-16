@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "bassoon-1-layout.ly"
+        \include "bassoon-1-layout.ily"
         }
         {
             \context Score = "Score"

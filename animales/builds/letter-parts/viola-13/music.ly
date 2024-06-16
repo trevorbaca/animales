@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "viola-13-layout.ly"
+        \include "viola-13-layout.ily"
         }
         {
             \context Score = "Score"

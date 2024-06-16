@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "cello-06-layout.ly"
+        \include "cello-06-layout.ily"
         }
         {
             \context Score = "Score"

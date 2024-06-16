@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "contrabass-3-layout.ly"
+        \include "contrabass-3-layout.ily"
         }
         {
             \context Score = "Score"
