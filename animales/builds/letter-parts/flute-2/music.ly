@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "flute-2-layout.ly"
+        \include "flute-2-layout.ily"
         }
         {
             \context Score = "Score"

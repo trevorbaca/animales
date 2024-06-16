@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "piano-layout.ly"
+        \include "piano-layout.ily"
         }
         {
             \context Score = "Score"

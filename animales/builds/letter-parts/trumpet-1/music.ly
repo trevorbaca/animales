@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "trumpet-1-layout.ly"
+        \include "trumpet-1-layout.ily"
         }
         {
             \context Score = "Score"

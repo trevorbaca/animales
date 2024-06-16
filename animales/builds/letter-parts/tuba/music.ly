@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "tuba-layout.ly"
+        \include "tuba-layout.ily"
         }
         {
             \context Score = "Score"

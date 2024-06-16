@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "harp-layout.ly"
+        \include "harp-layout.ily"
         }
         {
             \context Score = "Score"

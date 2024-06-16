@@ -80,7 +80,7 @@
 \score {
     <<
         {
-        \include "oboe-2-layout.ly"
+        \include "oboe-2-layout.ily"
         }
         {
             \context Score = "Score"
