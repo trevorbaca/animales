@@ -235,7 +235,7 @@ def persist_score(score, environment, voice_name_to_parameter_to_state):
     )
 
 
-def make_layout():
+def make_layout(environment):
     breaks = baca.layout.Breaks(
         baca.layout.Page(
             1,
@@ -245,7 +245,12 @@ def make_layout():
     spacing = baca.layout.Spacing(
         default=(1, 20),
     )
-    baca.build.write_layout_ily(breaks, spacing)
+    baca.build.write_layout_ily(
+        breaks,
+        environment.metadata["time_signatures"],
+        spacing,
+        first_measure_number=environment.first_measure_number,
+    )
 
 
 def main():
@@ -254,7 +259,7 @@ def main():
         score, voice_name_to_parameter_to_state = make_score(environment.timing)
         persist_score(score, environment, voice_name_to_parameter_to_state)
     if environment.arguments.layout:
-        make_layout()
+        make_layout(environment)
 
 
 if __name__ == "__main__":

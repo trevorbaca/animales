@@ -1,3 +1,6 @@
+import os
+import pathlib
+
 import baca
 
 part_identifier = "HN-1"
@@ -42,7 +45,10 @@ def main():
             baca.layout.Override((109, 118), (1, 12)),
         ),
     )
-    baca.build.write_layout_ily(breaks, spacing)
+    build_directory = pathlib.Path(os.getcwd())
+    sections_directory = baca.path.get_contents_directory(build_directory) / "sections"
+    time_signatures = baca.build.accumulate_time_signatures(sections_directory)
+    baca.build.write_layout_ily(breaks, time_signatures, spacing)
 
 
 if __name__ == "__main__":
