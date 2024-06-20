@@ -1,12 +1,12 @@
 \version "2.25.16"
+\include "baca.ily"
+
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 11)
 
-\include "baca.ily"
-
 \paper
 {
-  %bottom-margin = 10\mm
+  %bottom-margin = 10
   evenFooterMarkup = \markup
     \if \should-print-page-number
     \fill-line {
@@ -34,14 +34,14 @@
       " "
   }
   evenHeaderMarkup = \markup \fill-line { " " }
-  left-margin = 25\mm
+  left-margin = 25
   oddFooterMarkup = \evenFooterMarkup
   oddHeaderMarkup = \markup \fill-line { " " }
   print-first-page-number = ##f
   print-page-number = ##t
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  right-margin = 5\mm
+  right-margin = 5
   markup-markup-spacing.minimum-distance = 80
   markup-system-spacing = #'(
     (basic-distance . 0)
@@ -67,7 +67,7 @@
     (padding . 0)
     (stretchability . 0)
   )
-  top-margin = 15\mm
+  top-margin = 15
 }
 
 \layout
@@ -79,12 +79,8 @@
   ragged-right = ##t
 }
 
-%%% CONTEXTS
-
 \layout
 {
-
-  % GLOBAL SKIPS
   \context
   {
     \name GlobalSkips
@@ -92,27 +88,19 @@
     \consists Script_engraver
     \consists Text_engraver
     \consists \alternateTextSpannerEngraver
-
     \override TextScript.font-size = 6
-
     \override TextSpanner.font-size = 6
   }
-
-  % GLOBAL RESTS
   \context
   {
     \name GlobalRests
     \type Engraver_group
     \consists Multi_measure_rest_engraver
-
     \override MultiMeasureRest.transparent = ##t
-
     \override MultiMeasureRestText.font-size = 3
     \override MultiMeasureRestText.outside-staff-priority = 0
     \override MultiMeasureRestText.padding = 0
   }
-
-  % PAGE LAYOUT
   \context
   {
     \name PageLayout
@@ -120,8 +108,6 @@
     \consists Text_engraver
     \consists Text_spanner_engraver
   }
-
-  % GLOBAL CONTEXT
   \context
   {
     \name GlobalContext
@@ -144,18 +130,14 @@
     \defaultchild GlobalSkips
     \accepts GlobalRests
     \accepts PageLayout
-
     \override BarNumber.X-offset = -11
     \override BarNumber.font-size = 1
-
     \override MetronomeMark.X-extent = #'(0 . 0)
     \override MetronomeMark.Y-extent = #'(0 . 0)
     \override MetronomeMark.break-align-symbols = #'(left-edge)
     \override MetronomeMark.extra-offset = #'(0 . 4)
     \override MetronomeMark.font-size = 3
-
     \override TextSpanner.to-barline = ##t
-
     % prevents StaffSymbol from starting too early after cut-away measures:
     \override TimeSignature.X-extent = ##f
     \override TimeSignature.break-align-symbol = #'left-edge
@@ -163,7 +145,6 @@
     \override TimeSignature.font-size = 3
     \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
     \override TimeSignature.style = #'numbered
-
     \override VerticalAxisGroup.default-staff-staff-spacing = #'(
       (basic-distance . 0)
       (minimum-distance . 12)
@@ -171,54 +152,38 @@
       (stretchability . 0)
     )
     \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
-
   }
-
-  % STAFF GROUP
   \context
   {
     \StaffGroup
-
     \override StaffGroup.SystemStartBracket.collapse-height = #4
     \override Score.SystemStartBar.collapse-height = #4
   }
-
-  % PIANO STAFF
   \context
   {
     \PianoStaff
     \remove "Keep_alive_together_engraver" 
-
     \override PianoStaff.SystemStartBrace.collapse-height = #4
     \override Score.SystemStartBar.collapse-height = #4
   }
-
-  % STAFF
   \context
   {
     \Staff
     \remove Time_signature_engraver
   }
-
-  % VOICE
   \context
   {
     \Voice
     \remove Forbid_line_break_engraver
   }
-
-  % MUSIC CONTEXT
   \context
   {
     \ChoirStaff
     \name MusicContext
     \type Engraver_group
     \alias ChoirStaff
-
     systemStartDelimiter = #'SystemStartBar
   }
-
-  % SCORE
   \context
   {
     \Score
@@ -227,31 +192,21 @@
     \remove Bar_number_engraver
     \remove Metronome_mark_engraver
     \remove System_start_delimiter_engraver
-
     \override BarLine.X-extent = #'(0 . 0)
-
     \override Beam.damping = 99
-
     \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
     \override DynamicLineSpanner.padding = #1.5
-
     \override Glissando.thickness = 3
-
     \override Hairpin.to-barline = ##f
-
     \override NoteCollision.merge-differently-dotted = ##t
-
     \shape #'((-2 . 0) (-1 . 0) (-0.5 . 0) (0 . 0)) RepeatTie         
     \override RepeatTie.X-extent = ##f
-
     \override SpacingSpanner.strict-grace-spacing = ##t
     \override SpacingSpanner.strict-note-spacing = ##t
     \override SpacingSpanner.uniform-stretching = ##t
-
     \override StemTremolo.beam-width = 1.5
     \override StemTremolo.flag-count = 4
     \override StemTremolo.slope = 0.5
-
     \override TextScript.font-name = #"Palatino"
     \override TextScript.padding = 1
     % DISCOVERY: overriding textscript.x-extent = ##f
@@ -260,16 +215,11 @@
     % NOTE:    may be best to override NO text script properties.
     \override TextScript.X-extent = ##f
     \override TextScript.Y-extent = #'(-1.5 . 1.5)
-
     \override TextSpanner.staff-padding = 2
     \override TextSpanner.to-barline = ##t
-
     \override TrillSpanner.bound-details.right.padding = 2
-
     \override TupletBracket.full-length-to-extent = ##f
-
     \override TupletNumber.font-size = 1
-
     autoBeaming = ##f
     barNumberFormatter = #baca-oval-bar-numbers
     explicitClefVisibility = #end-of-line-invisible
@@ -324,7 +274,7 @@ animales-violas-eleven-eighteen-markup = \markup
 
 animales-cellos-markup = \markup \hcenter-in #16 Cellos
 
-%%% COLOPHON %%%
+% COLOPHON
 
 animales-colophon-markup = \markup
   \override #'(font-name . "Palatino")
@@ -335,7 +285,7 @@ animales-colophon-markup = \markup
     \line { Dec. 2017 \hspace #0.75 – \hspace #0.75 Mar. 2018. }
     }
 
-%%% DIRECTIVES %%%
+% DIRECTIVES
 
 animales-all-other-strings-still-markup = \baca-boxed-markup \markup
   \column {
