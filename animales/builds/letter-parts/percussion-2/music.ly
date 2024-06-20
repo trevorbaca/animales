@@ -34,6 +34,7 @@
 \include "../_sections/AA.ily"
 \include "../_sections/AB.ily"
 \include "../_sections/AC.ily"
+\include "layout.ily"
 
 \paper {
     evenFooterMarkup =
@@ -80,7 +81,7 @@
 \score {
     <<
         {
-        \include "percussion-2-layout.ily"
+        \include page-layout-score
         }
         {
             \context Score = "Score"
