@@ -4,13 +4,16 @@
 #(set-default-paper-size "tabloid")
 #(set-global-staff-size 12)
 
-\paper {
-    top-markup-spacing.minimum-distance = 20
+\paper
+{
+  top-markup-spacing.minimum-distance = 20
 }
 
-\layout {
-    \context {
-        \MusicContext
-        \RemoveAllEmptyStaves
-    }
+\layout
+{
+  \context
+  {
+    \MusicContext
+    \RemoveAllEmptyStaves
+  }
 }
