@@ -34,8 +34,10 @@
 \include "../_sections/AA.ily"
 \include "../_sections/AB.ily"
 \include "../_sections/AC.ily"
+\include "layout.ily"
 
-\paper {
+\paper
+{
     evenFooterMarkup =
         \markup
         \if \should-print-page-number
@@ -64,7 +66,8 @@
     oddFooterMarkup = \evenFooterMarkup
 }
 
-\header {
+\header
+{
     subtitle =
         \markup \column \center-column
         {
@@ -77,10 +80,11 @@
 }
 
 
-\score {
+\score
+{
     <<
         {
-        \include "bassoon-2-layout.ily"
+          \include page-layout-score
         }
         {
             \context Score = "Score"
