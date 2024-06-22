@@ -620,7 +620,7 @@ def make_empty_score(
     contrabasses=(),
 ):
     tag = baca.helpers.function_name(inspect.currentframe())
-    global_context = baca.score.make_global_context()
+    global_context = baca.score.make_global_context(make_time_signatures_context=True)
     flute_staves = _make_staves("Flutes", flutes)
     oboe_staves = _make_staves("Oboe", oboes)
     english_horn_staves = _make_staves("EnglishHorn", english_horn)
