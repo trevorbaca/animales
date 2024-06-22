@@ -103,13 +103,6 @@
   }
   \context
   {
-    \name PageLayout
-    \type Engraver_group
-    \consists Text_engraver
-    \consists Text_spanner_engraver
-  }
-  \context
-  {
     \name GlobalContext
     \type Engraver_group
     \consists Axis_group_engraver
@@ -129,7 +122,6 @@
     \accepts GlobalSkips
     \defaultchild GlobalSkips
     \accepts GlobalRests
-    \accepts PageLayout
     \override BarNumber.X-offset = -11
     \override BarNumber.font-size = 1
     \override MetronomeMark.X-extent = #'(0 . 0)
