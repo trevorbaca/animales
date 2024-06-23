@@ -52,6 +52,8 @@ number.7.Skips = {
 %%% \override TextSpanner.Y-offset = 8
       %! +TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = -9
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=76
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR

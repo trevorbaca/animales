@@ -30,6 +30,8 @@ number.14.Skips = {
     %@% \baca-thick-red-bar-line
       %! +TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = -2
+      %! EXPLICIT_METRONOME_MARK
+    \tempo 4=114
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
       %! RED_START_BAR
