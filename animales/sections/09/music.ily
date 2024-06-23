@@ -30,7 +30,7 @@ number.9.Skips = {
     %@% \baca-thick-red-bar-line
       %! +TABLOID_SCORE
 %%% \override TextSpanner.bound-details.left.padding = -8
-      %! EXPLICIT_METRONOME_MARK
+      %! LILYPOND_TEMPO_COMMAND
     \tempo 4=114
       %! RED_START_BAR
     %@% \tweak break-visibility ##(#t #t #f)
