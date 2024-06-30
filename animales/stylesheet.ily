@@ -202,14 +202,10 @@
     \override TextSpanner.staff-padding = 2
     \override TextSpanner.to-barline = ##t
     \override TrillPitchAccidental.avoid-slur = #'ignore
-    \override TrillSpanner.bound-details.right.padding = 2
+    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletNumber.font-size = 1
     autoBeaming = ##f
-    barNumberFormatter = #baca-oval-bar-numbers
-    explicitClefVisibility = #end-of-line-invisible
-    forceClef = ##t
-    rehearsalMarkFormatter = #format-mark-box-alphabet
     proportionalNotationDuration = \musicLength 1*1/24
     tupletFullLength = ##t
   }
