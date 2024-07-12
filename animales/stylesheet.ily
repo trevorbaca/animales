@@ -202,7 +202,6 @@
     \override TextSpanner.staff-padding = 2
     \override TextSpanner.to-barline = ##t
     \override TrillPitchAccidental.avoid-slur = #'ignore
-    \override TrillSpanner.Y-extent = ##f
     \override TupletBracket.full-length-to-extent = ##f
     \override TupletNumber.font-size = 1
     autoBeaming = ##f
