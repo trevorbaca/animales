@@ -117,7 +117,7 @@ def PF_HP_PERC3_CB1(
     time_signatures,
     voice_name_to_parameter_to_state,
     *,
-    previous_voice_name_to_parameter_to_state=None
+    previous_voice_name_to_parameter_to_state=None,
 ):
     parameter, name = "RHYTHM", "harp_exchange_rhythm"
     for abbreviation, part in [("pf", 3), ("hp", 2), ("perc3", 0), ("cb1", 1)]:
