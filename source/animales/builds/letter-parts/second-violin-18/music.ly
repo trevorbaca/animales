@@ -1,7 +1,7 @@
 % Animales desconocidos (2018) second violin 18 part
 % part_identifier = 'VN-2-18'
 
-\version "2.25.23"
+\version "2.25.24"
 
 \include "../stylesheet.ily"
 \include "../_sections/-.ily"
