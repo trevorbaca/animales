@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.28.Rests = {
+number.28.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/4
@@ -14,7 +15,8 @@ number.28.Rests = {
 }
 
 
-number.28.Skips = {
+number.28.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -122,7 +124,8 @@ number.28.Skips = {
 }
 
 
-number.28.TimeSignatures = {
+number.28.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! REAPPLIED_TIME_SIGNATURE_COLOR
@@ -154,7 +157,8 @@ number.28.TimeSignatures = {
 }
 
 
-number.28.Percussion.1.Music.container = {
+number.28.Percussion.1.Music.container =
+{
 
     % [Percussion.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -221,22 +225,29 @@ number.28.Percussion.1.Music.container = {
 }
 
 
-number.28.Percussion.1.Music = {
+number.28.Percussion.1.Music =
+{
 
-    { \number.28.Percussion.1.Music.container }
+    {
+        \number.28.Percussion.1.Music.container
+    }
 
 }
 
 
-number.28.Percussion.1.Staff = {
+number.28.Percussion.1.Staff =
+{
 
     \context Voice = "Percussion.1.Music"
-    { \number.28.Percussion.1.Music }
+    {
+        \number.28.Percussion.1.Music
+    }
 
 }
 
 
-number.28.Percussion.2.Music.container = {
+number.28.Percussion.2.Music.container =
+{
 
     % [Percussion.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -299,22 +310,29 @@ number.28.Percussion.2.Music.container = {
 }
 
 
-number.28.Percussion.2.Music = {
+number.28.Percussion.2.Music =
+{
 
-    { \number.28.Percussion.2.Music.container }
+    {
+        \number.28.Percussion.2.Music.container
+    }
 
 }
 
 
-number.28.Percussion.2.Staff = {
+number.28.Percussion.2.Staff =
+{
 
     \context Voice = "Percussion.2.Music"
-    { \number.28.Percussion.2.Music }
+    {
+        \number.28.Percussion.2.Music
+    }
 
 }
 
 
-number.28.Percussion.3.Music.container = {
+number.28.Percussion.3.Music.container =
+{
 
     % [Percussion.3.Music measure 1]
       %! REAPPLIED_CLEF
@@ -377,22 +395,29 @@ number.28.Percussion.3.Music.container = {
 }
 
 
-number.28.Percussion.3.Music = {
+number.28.Percussion.3.Music =
+{
 
-    { \number.28.Percussion.3.Music.container }
+    {
+        \number.28.Percussion.3.Music.container
+    }
 
 }
 
 
-number.28.Percussion.3.Staff = {
+number.28.Percussion.3.Staff =
+{
 
     \context Voice = "Percussion.3.Music"
-    { \number.28.Percussion.3.Music }
+    {
+        \number.28.Percussion.3.Music
+    }
 
 }
 
 
-number.28.Percussion.4.Music.container = {
+number.28.Percussion.4.Music.container =
+{
 
     % [Percussion.4.Music measure 1]
       %! REAPPLIED_CLEF
@@ -459,22 +484,29 @@ number.28.Percussion.4.Music.container = {
 }
 
 
-number.28.Percussion.4.Music = {
+number.28.Percussion.4.Music =
+{
 
-    { \number.28.Percussion.4.Music.container }
+    {
+        \number.28.Percussion.4.Music.container
+    }
 
 }
 
 
-number.28.Percussion.4.Staff = {
+number.28.Percussion.4.Staff =
+{
 
     \context Voice = "Percussion.4.Music"
-    { \number.28.Percussion.4.Music }
+    {
+        \number.28.Percussion.4.Music
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.1.container = {
+number.28.FirstViolins.Voice.1.container =
+{
 
     % [FirstViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -573,14 +605,18 @@ number.28.FirstViolins.Voice.1.container = {
 }
 
 
-number.28.FirstViolins.Voice.1 = {
+number.28.FirstViolins.Voice.1 =
+{
 
-    { \number.28.FirstViolins.Voice.1.container }
+    {
+        \number.28.FirstViolins.Voice.1.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.2.container = {
+number.28.FirstViolins.Voice.2.container =
+{
 
     % [FirstViolins.Voice.2 measure 1]
       %! -PARTS
@@ -636,25 +672,34 @@ number.28.FirstViolins.Voice.2.container = {
 }
 
 
-number.28.FirstViolins.Voice.2 = {
+number.28.FirstViolins.Voice.2 =
+{
 
-    { \number.28.FirstViolins.Voice.2.container }
+    {
+        \number.28.FirstViolins.Voice.2.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.1 = <<
+number.28.FirstViolins.Staff.1 =
+<<
 
     \context Voice = "FirstViolins.Voice.1"
-    { \number.28.FirstViolins.Voice.1 }
+    {
+        \number.28.FirstViolins.Voice.1
+    }
 
     \context Voice = "FirstViolins.Voice.2"
-    { \number.28.FirstViolins.Voice.2 }
+    {
+        \number.28.FirstViolins.Voice.2
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.3.container = {
+number.28.FirstViolins.Voice.3.container =
+{
 
     \tuplet 3/2
     {
@@ -765,14 +810,18 @@ number.28.FirstViolins.Voice.3.container = {
 }
 
 
-number.28.FirstViolins.Voice.3 = {
+number.28.FirstViolins.Voice.3 =
+{
 
-    { \number.28.FirstViolins.Voice.3.container }
+    {
+        \number.28.FirstViolins.Voice.3.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.4.container = {
+number.28.FirstViolins.Voice.4.container =
+{
 
     \tuplet 3/2
     {
@@ -852,25 +901,34 @@ number.28.FirstViolins.Voice.4.container = {
 }
 
 
-number.28.FirstViolins.Voice.4 = {
+number.28.FirstViolins.Voice.4 =
+{
 
-    { \number.28.FirstViolins.Voice.4.container }
+    {
+        \number.28.FirstViolins.Voice.4.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.2 = <<
+number.28.FirstViolins.Staff.2 =
+<<
 
     \context Voice = "FirstViolins.Voice.3"
-    { \number.28.FirstViolins.Voice.3 }
+    {
+        \number.28.FirstViolins.Voice.3
+    }
 
     \context Voice = "FirstViolins.Voice.4"
-    { \number.28.FirstViolins.Voice.4 }
+    {
+        \number.28.FirstViolins.Voice.4
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.5.container = {
+number.28.FirstViolins.Voice.5.container =
+{
 
     % [FirstViolins.Voice.5 measure 1]
       %! REAPPLIED_CLEF
@@ -972,14 +1030,18 @@ number.28.FirstViolins.Voice.5.container = {
 }
 
 
-number.28.FirstViolins.Voice.5 = {
+number.28.FirstViolins.Voice.5 =
+{
 
-    { \number.28.FirstViolins.Voice.5.container }
+    {
+        \number.28.FirstViolins.Voice.5.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.6.container = {
+number.28.FirstViolins.Voice.6.container =
+{
 
     % [FirstViolins.Voice.6 measure 1]
       %! -PARTS
@@ -1043,25 +1105,34 @@ number.28.FirstViolins.Voice.6.container = {
 }
 
 
-number.28.FirstViolins.Voice.6 = {
+number.28.FirstViolins.Voice.6 =
+{
 
-    { \number.28.FirstViolins.Voice.6.container }
+    {
+        \number.28.FirstViolins.Voice.6.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.3 = <<
+number.28.FirstViolins.Staff.3 =
+<<
 
     \context Voice = "FirstViolins.Voice.5"
-    { \number.28.FirstViolins.Voice.5 }
+    {
+        \number.28.FirstViolins.Voice.5
+    }
 
     \context Voice = "FirstViolins.Voice.6"
-    { \number.28.FirstViolins.Voice.6 }
+    {
+        \number.28.FirstViolins.Voice.6
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.7.container = {
+number.28.FirstViolins.Voice.7.container =
+{
 
     \tuplet 3/2
     {
@@ -1168,14 +1239,18 @@ number.28.FirstViolins.Voice.7.container = {
 }
 
 
-number.28.FirstViolins.Voice.7 = {
+number.28.FirstViolins.Voice.7 =
+{
 
-    { \number.28.FirstViolins.Voice.7.container }
+    {
+        \number.28.FirstViolins.Voice.7.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.8.container = {
+number.28.FirstViolins.Voice.8.container =
+{
 
     \tuplet 3/2
     {
@@ -1264,25 +1339,34 @@ number.28.FirstViolins.Voice.8.container = {
 }
 
 
-number.28.FirstViolins.Voice.8 = {
+number.28.FirstViolins.Voice.8 =
+{
 
-    { \number.28.FirstViolins.Voice.8.container }
+    {
+        \number.28.FirstViolins.Voice.8.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.4 = <<
+number.28.FirstViolins.Staff.4 =
+<<
 
     \context Voice = "FirstViolins.Voice.7"
-    { \number.28.FirstViolins.Voice.7 }
+    {
+        \number.28.FirstViolins.Voice.7
+    }
 
     \context Voice = "FirstViolins.Voice.8"
-    { \number.28.FirstViolins.Voice.8 }
+    {
+        \number.28.FirstViolins.Voice.8
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.9.container = {
+number.28.FirstViolins.Voice.9.container =
+{
 
     % [FirstViolins.Voice.9 measure 1]
       %! REAPPLIED_CLEF
@@ -1381,14 +1465,18 @@ number.28.FirstViolins.Voice.9.container = {
 }
 
 
-number.28.FirstViolins.Voice.9 = {
+number.28.FirstViolins.Voice.9 =
+{
 
-    { \number.28.FirstViolins.Voice.9.container }
+    {
+        \number.28.FirstViolins.Voice.9.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.10.container = {
+number.28.FirstViolins.Voice.10.container =
+{
 
     % [FirstViolins.Voice.10 measure 1]
       %! -PARTS
@@ -1444,25 +1532,34 @@ number.28.FirstViolins.Voice.10.container = {
 }
 
 
-number.28.FirstViolins.Voice.10 = {
+number.28.FirstViolins.Voice.10 =
+{
 
-    { \number.28.FirstViolins.Voice.10.container }
+    {
+        \number.28.FirstViolins.Voice.10.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.5 = <<
+number.28.FirstViolins.Staff.5 =
+<<
 
     \context Voice = "FirstViolins.Voice.9"
-    { \number.28.FirstViolins.Voice.9 }
+    {
+        \number.28.FirstViolins.Voice.9
+    }
 
     \context Voice = "FirstViolins.Voice.10"
-    { \number.28.FirstViolins.Voice.10 }
+    {
+        \number.28.FirstViolins.Voice.10
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.11.container = {
+number.28.FirstViolins.Voice.11.container =
+{
 
     % [FirstViolins.Voice.11 measure 1]
       %! REAPPLIED_CLEF
@@ -1557,14 +1654,18 @@ number.28.FirstViolins.Voice.11.container = {
 }
 
 
-number.28.FirstViolins.Voice.11 = {
+number.28.FirstViolins.Voice.11 =
+{
 
-    { \number.28.FirstViolins.Voice.11.container }
+    {
+        \number.28.FirstViolins.Voice.11.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.12.container = {
+number.28.FirstViolins.Voice.12.container =
+{
 
     \tuplet 3/2
     {
@@ -1658,25 +1759,34 @@ number.28.FirstViolins.Voice.12.container = {
 }
 
 
-number.28.FirstViolins.Voice.12 = {
+number.28.FirstViolins.Voice.12 =
+{
 
-    { \number.28.FirstViolins.Voice.12.container }
+    {
+        \number.28.FirstViolins.Voice.12.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.6 = <<
+number.28.FirstViolins.Staff.6 =
+<<
 
     \context Voice = "FirstViolins.Voice.11"
-    { \number.28.FirstViolins.Voice.11 }
+    {
+        \number.28.FirstViolins.Voice.11
+    }
 
     \context Voice = "FirstViolins.Voice.12"
-    { \number.28.FirstViolins.Voice.12 }
+    {
+        \number.28.FirstViolins.Voice.12
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.13.container = {
+number.28.FirstViolins.Voice.13.container =
+{
 
     % [FirstViolins.Voice.13 measure 1]
       %! REAPPLIED_CLEF
@@ -1767,14 +1877,18 @@ number.28.FirstViolins.Voice.13.container = {
 }
 
 
-number.28.FirstViolins.Voice.13 = {
+number.28.FirstViolins.Voice.13 =
+{
 
-    { \number.28.FirstViolins.Voice.13.container }
+    {
+        \number.28.FirstViolins.Voice.13.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.14.container = {
+number.28.FirstViolins.Voice.14.container =
+{
 
     % [FirstViolins.Voice.14 measure 1]
       %! -PARTS
@@ -1830,25 +1944,34 @@ number.28.FirstViolins.Voice.14.container = {
 }
 
 
-number.28.FirstViolins.Voice.14 = {
+number.28.FirstViolins.Voice.14 =
+{
 
-    { \number.28.FirstViolins.Voice.14.container }
+    {
+        \number.28.FirstViolins.Voice.14.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.7 = <<
+number.28.FirstViolins.Staff.7 =
+<<
 
     \context Voice = "FirstViolins.Voice.13"
-    { \number.28.FirstViolins.Voice.13 }
+    {
+        \number.28.FirstViolins.Voice.13
+    }
 
     \context Voice = "FirstViolins.Voice.14"
-    { \number.28.FirstViolins.Voice.14 }
+    {
+        \number.28.FirstViolins.Voice.14
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.15.container = {
+number.28.FirstViolins.Voice.15.container =
+{
 
     % [FirstViolins.Voice.15 measure 1]
       %! REAPPLIED_CLEF
@@ -1949,14 +2072,18 @@ number.28.FirstViolins.Voice.15.container = {
 }
 
 
-number.28.FirstViolins.Voice.15 = {
+number.28.FirstViolins.Voice.15 =
+{
 
-    { \number.28.FirstViolins.Voice.15.container }
+    {
+        \number.28.FirstViolins.Voice.15.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.16.container = {
+number.28.FirstViolins.Voice.16.container =
+{
 
     % [FirstViolins.Voice.16 measure 1]
       %! -PARTS
@@ -2022,25 +2149,34 @@ number.28.FirstViolins.Voice.16.container = {
 }
 
 
-number.28.FirstViolins.Voice.16 = {
+number.28.FirstViolins.Voice.16 =
+{
 
-    { \number.28.FirstViolins.Voice.16.container }
+    {
+        \number.28.FirstViolins.Voice.16.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.8 = <<
+number.28.FirstViolins.Staff.8 =
+<<
 
     \context Voice = "FirstViolins.Voice.15"
-    { \number.28.FirstViolins.Voice.15 }
+    {
+        \number.28.FirstViolins.Voice.15
+    }
 
     \context Voice = "FirstViolins.Voice.16"
-    { \number.28.FirstViolins.Voice.16 }
+    {
+        \number.28.FirstViolins.Voice.16
+    }
 
 >>
 
 
-number.28.FirstViolins.Voice.17.container = {
+number.28.FirstViolins.Voice.17.container =
+{
 
     % [FirstViolins.Voice.17 measure 1]
       %! REAPPLIED_CLEF
@@ -2133,14 +2269,18 @@ number.28.FirstViolins.Voice.17.container = {
 }
 
 
-number.28.FirstViolins.Voice.17 = {
+number.28.FirstViolins.Voice.17 =
+{
 
-    { \number.28.FirstViolins.Voice.17.container }
+    {
+        \number.28.FirstViolins.Voice.17.container
+    }
 
 }
 
 
-number.28.FirstViolins.Voice.18.container = {
+number.28.FirstViolins.Voice.18.container =
+{
 
     % [FirstViolins.Voice.18 measure 1]
       %! -PARTS
@@ -2206,25 +2346,34 @@ number.28.FirstViolins.Voice.18.container = {
 }
 
 
-number.28.FirstViolins.Voice.18 = {
+number.28.FirstViolins.Voice.18 =
+{
 
-    { \number.28.FirstViolins.Voice.18.container }
+    {
+        \number.28.FirstViolins.Voice.18.container
+    }
 
 }
 
 
-number.28.FirstViolins.Staff.9 = <<
+number.28.FirstViolins.Staff.9 =
+<<
 
     \context Voice = "FirstViolins.Voice.17"
-    { \number.28.FirstViolins.Voice.17 }
+    {
+        \number.28.FirstViolins.Voice.17
+    }
 
     \context Voice = "FirstViolins.Voice.18"
-    { \number.28.FirstViolins.Voice.18 }
+    {
+        \number.28.FirstViolins.Voice.18
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.1.container = {
+number.28.SecondViolins.Voice.1.container =
+{
 
     % [SecondViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -2325,14 +2474,18 @@ number.28.SecondViolins.Voice.1.container = {
 }
 
 
-number.28.SecondViolins.Voice.1 = {
+number.28.SecondViolins.Voice.1 =
+{
 
-    { \number.28.SecondViolins.Voice.1.container }
+    {
+        \number.28.SecondViolins.Voice.1.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.2.container = {
+number.28.SecondViolins.Voice.2.container =
+{
 
     % [SecondViolins.Voice.2 measure 1]
       %! -PARTS
@@ -2388,25 +2541,34 @@ number.28.SecondViolins.Voice.2.container = {
 }
 
 
-number.28.SecondViolins.Voice.2 = {
+number.28.SecondViolins.Voice.2 =
+{
 
-    { \number.28.SecondViolins.Voice.2.container }
+    {
+        \number.28.SecondViolins.Voice.2.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.1 = <<
+number.28.SecondViolins.Staff.1 =
+<<
 
     \context Voice = "SecondViolins.Voice.1"
-    { \number.28.SecondViolins.Voice.1 }
+    {
+        \number.28.SecondViolins.Voice.1
+    }
 
     \context Voice = "SecondViolins.Voice.2"
-    { \number.28.SecondViolins.Voice.2 }
+    {
+        \number.28.SecondViolins.Voice.2
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.3.container = {
+number.28.SecondViolins.Voice.3.container =
+{
 
     % [SecondViolins.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -2527,14 +2689,18 @@ number.28.SecondViolins.Voice.3.container = {
 }
 
 
-number.28.SecondViolins.Voice.3 = {
+number.28.SecondViolins.Voice.3 =
+{
 
-    { \number.28.SecondViolins.Voice.3.container }
+    {
+        \number.28.SecondViolins.Voice.3.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.4.container = {
+number.28.SecondViolins.Voice.4.container =
+{
 
     % [SecondViolins.Voice.4 measure 1]
       %! -PARTS
@@ -2621,25 +2787,34 @@ number.28.SecondViolins.Voice.4.container = {
 }
 
 
-number.28.SecondViolins.Voice.4 = {
+number.28.SecondViolins.Voice.4 =
+{
 
-    { \number.28.SecondViolins.Voice.4.container }
+    {
+        \number.28.SecondViolins.Voice.4.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.2 = <<
+number.28.SecondViolins.Staff.2 =
+<<
 
     \context Voice = "SecondViolins.Voice.3"
-    { \number.28.SecondViolins.Voice.3 }
+    {
+        \number.28.SecondViolins.Voice.3
+    }
 
     \context Voice = "SecondViolins.Voice.4"
-    { \number.28.SecondViolins.Voice.4 }
+    {
+        \number.28.SecondViolins.Voice.4
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.5.container = {
+number.28.SecondViolins.Voice.5.container =
+{
 
     % [SecondViolins.Voice.5 measure 1]
       %! REAPPLIED_CLEF
@@ -2732,14 +2907,18 @@ number.28.SecondViolins.Voice.5.container = {
 }
 
 
-number.28.SecondViolins.Voice.5 = {
+number.28.SecondViolins.Voice.5 =
+{
 
-    { \number.28.SecondViolins.Voice.5.container }
+    {
+        \number.28.SecondViolins.Voice.5.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.6.container = {
+number.28.SecondViolins.Voice.6.container =
+{
 
     % [SecondViolins.Voice.6 measure 1]
       %! -PARTS
@@ -2805,25 +2984,34 @@ number.28.SecondViolins.Voice.6.container = {
 }
 
 
-number.28.SecondViolins.Voice.6 = {
+number.28.SecondViolins.Voice.6 =
+{
 
-    { \number.28.SecondViolins.Voice.6.container }
+    {
+        \number.28.SecondViolins.Voice.6.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.3 = <<
+number.28.SecondViolins.Staff.3 =
+<<
 
     \context Voice = "SecondViolins.Voice.5"
-    { \number.28.SecondViolins.Voice.5 }
+    {
+        \number.28.SecondViolins.Voice.5
+    }
 
     \context Voice = "SecondViolins.Voice.6"
-    { \number.28.SecondViolins.Voice.6 }
+    {
+        \number.28.SecondViolins.Voice.6
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.7.container = {
+number.28.SecondViolins.Voice.7.container =
+{
 
     % [SecondViolins.Voice.7 measure 1]
       %! REAPPLIED_CLEF
@@ -2926,14 +3114,18 @@ number.28.SecondViolins.Voice.7.container = {
 }
 
 
-number.28.SecondViolins.Voice.7 = {
+number.28.SecondViolins.Voice.7 =
+{
 
-    { \number.28.SecondViolins.Voice.7.container }
+    {
+        \number.28.SecondViolins.Voice.7.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.8.container = {
+number.28.SecondViolins.Voice.8.container =
+{
 
     \tuplet 3/2
     {
@@ -3013,25 +3205,34 @@ number.28.SecondViolins.Voice.8.container = {
 }
 
 
-number.28.SecondViolins.Voice.8 = {
+number.28.SecondViolins.Voice.8 =
+{
 
-    { \number.28.SecondViolins.Voice.8.container }
+    {
+        \number.28.SecondViolins.Voice.8.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.4 = <<
+number.28.SecondViolins.Staff.4 =
+<<
 
     \context Voice = "SecondViolins.Voice.7"
-    { \number.28.SecondViolins.Voice.7 }
+    {
+        \number.28.SecondViolins.Voice.7
+    }
 
     \context Voice = "SecondViolins.Voice.8"
-    { \number.28.SecondViolins.Voice.8 }
+    {
+        \number.28.SecondViolins.Voice.8
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.9.container = {
+number.28.SecondViolins.Voice.9.container =
+{
 
     % [SecondViolins.Voice.9 measure 1]
       %! REAPPLIED_CLEF
@@ -3118,14 +3319,18 @@ number.28.SecondViolins.Voice.9.container = {
 }
 
 
-number.28.SecondViolins.Voice.9 = {
+number.28.SecondViolins.Voice.9 =
+{
 
-    { \number.28.SecondViolins.Voice.9.container }
+    {
+        \number.28.SecondViolins.Voice.9.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.10.container = {
+number.28.SecondViolins.Voice.10.container =
+{
 
     % [SecondViolins.Voice.10 measure 1]
       %! -PARTS
@@ -3191,25 +3396,34 @@ number.28.SecondViolins.Voice.10.container = {
 }
 
 
-number.28.SecondViolins.Voice.10 = {
+number.28.SecondViolins.Voice.10 =
+{
 
-    { \number.28.SecondViolins.Voice.10.container }
+    {
+        \number.28.SecondViolins.Voice.10.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.5 = <<
+number.28.SecondViolins.Staff.5 =
+<<
 
     \context Voice = "SecondViolins.Voice.9"
-    { \number.28.SecondViolins.Voice.9 }
+    {
+        \number.28.SecondViolins.Voice.9
+    }
 
     \context Voice = "SecondViolins.Voice.10"
-    { \number.28.SecondViolins.Voice.10 }
+    {
+        \number.28.SecondViolins.Voice.10
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.11.container = {
+number.28.SecondViolins.Voice.11.container =
+{
 
     % [SecondViolins.Voice.11 measure 1]
       %! REAPPLIED_CLEF
@@ -3302,14 +3516,18 @@ number.28.SecondViolins.Voice.11.container = {
 }
 
 
-number.28.SecondViolins.Voice.11 = {
+number.28.SecondViolins.Voice.11 =
+{
 
-    { \number.28.SecondViolins.Voice.11.container }
+    {
+        \number.28.SecondViolins.Voice.11.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.12.container = {
+number.28.SecondViolins.Voice.12.container =
+{
 
     \tuplet 3/2
     {
@@ -3389,25 +3607,34 @@ number.28.SecondViolins.Voice.12.container = {
 }
 
 
-number.28.SecondViolins.Voice.12 = {
+number.28.SecondViolins.Voice.12 =
+{
 
-    { \number.28.SecondViolins.Voice.12.container }
+    {
+        \number.28.SecondViolins.Voice.12.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.6 = <<
+number.28.SecondViolins.Staff.6 =
+<<
 
     \context Voice = "SecondViolins.Voice.11"
-    { \number.28.SecondViolins.Voice.11 }
+    {
+        \number.28.SecondViolins.Voice.11
+    }
 
     \context Voice = "SecondViolins.Voice.12"
-    { \number.28.SecondViolins.Voice.12 }
+    {
+        \number.28.SecondViolins.Voice.12
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.13.container = {
+number.28.SecondViolins.Voice.13.container =
+{
 
     \tuplet 3/2
     {
@@ -3525,14 +3752,18 @@ number.28.SecondViolins.Voice.13.container = {
 }
 
 
-number.28.SecondViolins.Voice.13 = {
+number.28.SecondViolins.Voice.13 =
+{
 
-    { \number.28.SecondViolins.Voice.13.container }
+    {
+        \number.28.SecondViolins.Voice.13.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.14.container = {
+number.28.SecondViolins.Voice.14.container =
+{
 
     % [SecondViolins.Voice.14 measure 1]
       %! -PARTS
@@ -3600,25 +3831,34 @@ number.28.SecondViolins.Voice.14.container = {
 }
 
 
-number.28.SecondViolins.Voice.14 = {
+number.28.SecondViolins.Voice.14 =
+{
 
-    { \number.28.SecondViolins.Voice.14.container }
+    {
+        \number.28.SecondViolins.Voice.14.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.7 = <<
+number.28.SecondViolins.Staff.7 =
+<<
 
     \context Voice = "SecondViolins.Voice.13"
-    { \number.28.SecondViolins.Voice.13 }
+    {
+        \number.28.SecondViolins.Voice.13
+    }
 
     \context Voice = "SecondViolins.Voice.14"
-    { \number.28.SecondViolins.Voice.14 }
+    {
+        \number.28.SecondViolins.Voice.14
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.15.container = {
+number.28.SecondViolins.Voice.15.container =
+{
 
     % [SecondViolins.Voice.15 measure 1]
       %! REAPPLIED_CLEF
@@ -3705,14 +3945,18 @@ number.28.SecondViolins.Voice.15.container = {
 }
 
 
-number.28.SecondViolins.Voice.15 = {
+number.28.SecondViolins.Voice.15 =
+{
 
-    { \number.28.SecondViolins.Voice.15.container }
+    {
+        \number.28.SecondViolins.Voice.15.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.16.container = {
+number.28.SecondViolins.Voice.16.container =
+{
 
     \tuplet 3/2
     {
@@ -3800,25 +4044,34 @@ number.28.SecondViolins.Voice.16.container = {
 }
 
 
-number.28.SecondViolins.Voice.16 = {
+number.28.SecondViolins.Voice.16 =
+{
 
-    { \number.28.SecondViolins.Voice.16.container }
+    {
+        \number.28.SecondViolins.Voice.16.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.8 = <<
+number.28.SecondViolins.Staff.8 =
+<<
 
     \context Voice = "SecondViolins.Voice.15"
-    { \number.28.SecondViolins.Voice.15 }
+    {
+        \number.28.SecondViolins.Voice.15
+    }
 
     \context Voice = "SecondViolins.Voice.16"
-    { \number.28.SecondViolins.Voice.16 }
+    {
+        \number.28.SecondViolins.Voice.16
+    }
 
 >>
 
 
-number.28.SecondViolins.Voice.17.container = {
+number.28.SecondViolins.Voice.17.container =
+{
 
     \tuplet 3/2
     {
@@ -3945,14 +4198,18 @@ number.28.SecondViolins.Voice.17.container = {
 }
 
 
-number.28.SecondViolins.Voice.17 = {
+number.28.SecondViolins.Voice.17 =
+{
 
-    { \number.28.SecondViolins.Voice.17.container }
+    {
+        \number.28.SecondViolins.Voice.17.container
+    }
 
 }
 
 
-number.28.SecondViolins.Voice.18.container = {
+number.28.SecondViolins.Voice.18.container =
+{
 
     % [SecondViolins.Voice.18 measure 1]
       %! -PARTS
@@ -4016,25 +4273,34 @@ number.28.SecondViolins.Voice.18.container = {
 }
 
 
-number.28.SecondViolins.Voice.18 = {
+number.28.SecondViolins.Voice.18 =
+{
 
-    { \number.28.SecondViolins.Voice.18.container }
+    {
+        \number.28.SecondViolins.Voice.18.container
+    }
 
 }
 
 
-number.28.SecondViolins.Staff.9 = <<
+number.28.SecondViolins.Staff.9 =
+<<
 
     \context Voice = "SecondViolins.Voice.17"
-    { \number.28.SecondViolins.Voice.17 }
+    {
+        \number.28.SecondViolins.Voice.17
+    }
 
     \context Voice = "SecondViolins.Voice.18"
-    { \number.28.SecondViolins.Voice.18 }
+    {
+        \number.28.SecondViolins.Voice.18
+    }
 
 >>
 
 
-number.28.Violas.Voice.1.container = {
+number.28.Violas.Voice.1.container =
+{
 
     % [Violas.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -4125,14 +4391,18 @@ number.28.Violas.Voice.1.container = {
 }
 
 
-number.28.Violas.Voice.1 = {
+number.28.Violas.Voice.1 =
+{
 
-    { \number.28.Violas.Voice.1.container }
+    {
+        \number.28.Violas.Voice.1.container
+    }
 
 }
 
 
-number.28.Violas.Voice.2.container = {
+number.28.Violas.Voice.2.container =
+{
 
     % [Violas.Voice.2 measure 1]
       %! -PARTS
@@ -4202,25 +4472,34 @@ number.28.Violas.Voice.2.container = {
 }
 
 
-number.28.Violas.Voice.2 = {
+number.28.Violas.Voice.2 =
+{
 
-    { \number.28.Violas.Voice.2.container }
+    {
+        \number.28.Violas.Voice.2.container
+    }
 
 }
 
 
-number.28.Violas.Staff.1 = <<
+number.28.Violas.Staff.1 =
+<<
 
     \context Voice = "Violas.Voice.1"
-    { \number.28.Violas.Voice.1 }
+    {
+        \number.28.Violas.Voice.1
+    }
 
     \context Voice = "Violas.Voice.2"
-    { \number.28.Violas.Voice.2 }
+    {
+        \number.28.Violas.Voice.2
+    }
 
 >>
 
 
-number.28.Violas.Voice.3.container = {
+number.28.Violas.Voice.3.container =
+{
 
     % [Violas.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -4317,14 +4596,18 @@ number.28.Violas.Voice.3.container = {
 }
 
 
-number.28.Violas.Voice.3 = {
+number.28.Violas.Voice.3 =
+{
 
-    { \number.28.Violas.Voice.3.container }
+    {
+        \number.28.Violas.Voice.3.container
+    }
 
 }
 
 
-number.28.Violas.Voice.4.container = {
+number.28.Violas.Voice.4.container =
+{
 
     % [Violas.Voice.4 measure 1]
       %! -PARTS
@@ -4384,25 +4667,34 @@ number.28.Violas.Voice.4.container = {
 }
 
 
-number.28.Violas.Voice.4 = {
+number.28.Violas.Voice.4 =
+{
 
-    { \number.28.Violas.Voice.4.container }
+    {
+        \number.28.Violas.Voice.4.container
+    }
 
 }
 
 
-number.28.Violas.Staff.2 = <<
+number.28.Violas.Staff.2 =
+<<
 
     \context Voice = "Violas.Voice.3"
-    { \number.28.Violas.Voice.3 }
+    {
+        \number.28.Violas.Voice.3
+    }
 
     \context Voice = "Violas.Voice.4"
-    { \number.28.Violas.Voice.4 }
+    {
+        \number.28.Violas.Voice.4
+    }
 
 >>
 
 
-number.28.Violas.Voice.5.container = {
+number.28.Violas.Voice.5.container =
+{
 
     % [Violas.Voice.5 measure 1]
       %! REAPPLIED_CLEF
@@ -4495,14 +4787,18 @@ number.28.Violas.Voice.5.container = {
 }
 
 
-number.28.Violas.Voice.5 = {
+number.28.Violas.Voice.5 =
+{
 
-    { \number.28.Violas.Voice.5.container }
+    {
+        \number.28.Violas.Voice.5.container
+    }
 
 }
 
 
-number.28.Violas.Voice.6.container = {
+number.28.Violas.Voice.6.container =
+{
 
     % [Violas.Voice.6 measure 1]
       %! -PARTS
@@ -4570,25 +4866,34 @@ number.28.Violas.Voice.6.container = {
 }
 
 
-number.28.Violas.Voice.6 = {
+number.28.Violas.Voice.6 =
+{
 
-    { \number.28.Violas.Voice.6.container }
+    {
+        \number.28.Violas.Voice.6.container
+    }
 
 }
 
 
-number.28.Violas.Staff.3 = <<
+number.28.Violas.Staff.3 =
+<<
 
     \context Voice = "Violas.Voice.5"
-    { \number.28.Violas.Voice.5 }
+    {
+        \number.28.Violas.Voice.5
+    }
 
     \context Voice = "Violas.Voice.6"
-    { \number.28.Violas.Voice.6 }
+    {
+        \number.28.Violas.Voice.6
+    }
 
 >>
 
 
-number.28.Violas.Voice.7.container = {
+number.28.Violas.Voice.7.container =
+{
 
     % [Violas.Voice.7 measure 1]
       %! REAPPLIED_CLEF
@@ -4690,14 +4995,18 @@ number.28.Violas.Voice.7.container = {
 }
 
 
-number.28.Violas.Voice.7 = {
+number.28.Violas.Voice.7 =
+{
 
-    { \number.28.Violas.Voice.7.container }
+    {
+        \number.28.Violas.Voice.7.container
+    }
 
 }
 
 
-number.28.Violas.Voice.8.container = {
+number.28.Violas.Voice.8.container =
+{
 
     % [Violas.Voice.8 measure 1]
       %! -PARTS
@@ -4787,25 +5096,34 @@ number.28.Violas.Voice.8.container = {
 }
 
 
-number.28.Violas.Voice.8 = {
+number.28.Violas.Voice.8 =
+{
 
-    { \number.28.Violas.Voice.8.container }
+    {
+        \number.28.Violas.Voice.8.container
+    }
 
 }
 
 
-number.28.Violas.Staff.4 = <<
+number.28.Violas.Staff.4 =
+<<
 
     \context Voice = "Violas.Voice.7"
-    { \number.28.Violas.Voice.7 }
+    {
+        \number.28.Violas.Voice.7
+    }
 
     \context Voice = "Violas.Voice.8"
-    { \number.28.Violas.Voice.8 }
+    {
+        \number.28.Violas.Voice.8
+    }
 
 >>
 
 
-number.28.Violas.Voice.9.container = {
+number.28.Violas.Voice.9.container =
+{
 
     % [Violas.Voice.9 measure 1]
       %! REAPPLIED_CLEF
@@ -4892,14 +5210,18 @@ number.28.Violas.Voice.9.container = {
 }
 
 
-number.28.Violas.Voice.9 = {
+number.28.Violas.Voice.9 =
+{
 
-    { \number.28.Violas.Voice.9.container }
+    {
+        \number.28.Violas.Voice.9.container
+    }
 
 }
 
 
-number.28.Violas.Voice.10.container = {
+number.28.Violas.Voice.10.container =
+{
 
     % [Violas.Voice.10 measure 1]
       %! -PARTS
@@ -4963,25 +5285,34 @@ number.28.Violas.Voice.10.container = {
 }
 
 
-number.28.Violas.Voice.10 = {
+number.28.Violas.Voice.10 =
+{
 
-    { \number.28.Violas.Voice.10.container }
+    {
+        \number.28.Violas.Voice.10.container
+    }
 
 }
 
 
-number.28.Violas.Staff.5 = <<
+number.28.Violas.Staff.5 =
+<<
 
     \context Voice = "Violas.Voice.9"
-    { \number.28.Violas.Voice.9 }
+    {
+        \number.28.Violas.Voice.9
+    }
 
     \context Voice = "Violas.Voice.10"
-    { \number.28.Violas.Voice.10 }
+    {
+        \number.28.Violas.Voice.10
+    }
 
 >>
 
 
-number.28.Violas.Voice.11.container = {
+number.28.Violas.Voice.11.container =
+{
 
     % [Violas.Voice.11 measure 1]
       %! REAPPLIED_CLEF
@@ -5074,14 +5405,18 @@ number.28.Violas.Voice.11.container = {
 }
 
 
-number.28.Violas.Voice.11 = {
+number.28.Violas.Voice.11 =
+{
 
-    { \number.28.Violas.Voice.11.container }
+    {
+        \number.28.Violas.Voice.11.container
+    }
 
 }
 
 
-number.28.Violas.Voice.12.container = {
+number.28.Violas.Voice.12.container =
+{
 
     % [Violas.Voice.12 measure 1]
       %! -PARTS
@@ -5155,25 +5490,34 @@ number.28.Violas.Voice.12.container = {
 }
 
 
-number.28.Violas.Voice.12 = {
+number.28.Violas.Voice.12 =
+{
 
-    { \number.28.Violas.Voice.12.container }
+    {
+        \number.28.Violas.Voice.12.container
+    }
 
 }
 
 
-number.28.Violas.Staff.6 = <<
+number.28.Violas.Staff.6 =
+<<
 
     \context Voice = "Violas.Voice.11"
-    { \number.28.Violas.Voice.11 }
+    {
+        \number.28.Violas.Voice.11
+    }
 
     \context Voice = "Violas.Voice.12"
-    { \number.28.Violas.Voice.12 }
+    {
+        \number.28.Violas.Voice.12
+    }
 
 >>
 
 
-number.28.Violas.Voice.13.container = {
+number.28.Violas.Voice.13.container =
+{
 
     \tuplet 3/2
     {
@@ -5284,14 +5628,18 @@ number.28.Violas.Voice.13.container = {
 }
 
 
-number.28.Violas.Voice.13 = {
+number.28.Violas.Voice.13 =
+{
 
-    { \number.28.Violas.Voice.13.container }
+    {
+        \number.28.Violas.Voice.13.container
+    }
 
 }
 
 
-number.28.Violas.Voice.14.container = {
+number.28.Violas.Voice.14.container =
+{
 
     % [Violas.Voice.14 measure 1]
       %! -PARTS
@@ -5347,25 +5695,34 @@ number.28.Violas.Voice.14.container = {
 }
 
 
-number.28.Violas.Voice.14 = {
+number.28.Violas.Voice.14 =
+{
 
-    { \number.28.Violas.Voice.14.container }
+    {
+        \number.28.Violas.Voice.14.container
+    }
 
 }
 
 
-number.28.Violas.Staff.7 = <<
+number.28.Violas.Staff.7 =
+<<
 
     \context Voice = "Violas.Voice.13"
-    { \number.28.Violas.Voice.13 }
+    {
+        \number.28.Violas.Voice.13
+    }
 
     \context Voice = "Violas.Voice.14"
-    { \number.28.Violas.Voice.14 }
+    {
+        \number.28.Violas.Voice.14
+    }
 
 >>
 
 
-number.28.Violas.Voice.15.container = {
+number.28.Violas.Voice.15.container =
+{
 
     % [Violas.Voice.15 measure 1]
       %! REAPPLIED_CLEF
@@ -5462,14 +5819,18 @@ number.28.Violas.Voice.15.container = {
 }
 
 
-number.28.Violas.Voice.15 = {
+number.28.Violas.Voice.15 =
+{
 
-    { \number.28.Violas.Voice.15.container }
+    {
+        \number.28.Violas.Voice.15.container
+    }
 
 }
 
 
-number.28.Violas.Voice.16.container = {
+number.28.Violas.Voice.16.container =
+{
 
     % [Violas.Voice.16 measure 1]
       %! -PARTS
@@ -5544,25 +5905,34 @@ number.28.Violas.Voice.16.container = {
 }
 
 
-number.28.Violas.Voice.16 = {
+number.28.Violas.Voice.16 =
+{
 
-    { \number.28.Violas.Voice.16.container }
+    {
+        \number.28.Violas.Voice.16.container
+    }
 
 }
 
 
-number.28.Violas.Staff.8 = <<
+number.28.Violas.Staff.8 =
+<<
 
     \context Voice = "Violas.Voice.15"
-    { \number.28.Violas.Voice.15 }
+    {
+        \number.28.Violas.Voice.15
+    }
 
     \context Voice = "Violas.Voice.16"
-    { \number.28.Violas.Voice.16 }
+    {
+        \number.28.Violas.Voice.16
+    }
 
 >>
 
 
-number.28.Violas.Voice.17.container = {
+number.28.Violas.Voice.17.container =
+{
 
     \tuplet 3/2
     {
@@ -5673,14 +6043,18 @@ number.28.Violas.Voice.17.container = {
 }
 
 
-number.28.Violas.Voice.17 = {
+number.28.Violas.Voice.17 =
+{
 
-    { \number.28.Violas.Voice.17.container }
+    {
+        \number.28.Violas.Voice.17.container
+    }
 
 }
 
 
-number.28.Violas.Voice.18.container = {
+number.28.Violas.Voice.18.container =
+{
 
     % [Violas.Voice.18 measure 1]
       %! -PARTS
@@ -5746,25 +6120,34 @@ number.28.Violas.Voice.18.container = {
 }
 
 
-number.28.Violas.Voice.18 = {
+number.28.Violas.Voice.18 =
+{
 
-    { \number.28.Violas.Voice.18.container }
+    {
+        \number.28.Violas.Voice.18.container
+    }
 
 }
 
 
-number.28.Violas.Staff.9 = <<
+number.28.Violas.Staff.9 =
+<<
 
     \context Voice = "Violas.Voice.17"
-    { \number.28.Violas.Voice.17 }
+    {
+        \number.28.Violas.Voice.17
+    }
 
     \context Voice = "Violas.Voice.18"
-    { \number.28.Violas.Voice.18 }
+    {
+        \number.28.Violas.Voice.18
+    }
 
 >>
 
 
-number.28.Cellos.Voice.1.container = {
+number.28.Cellos.Voice.1.container =
+{
 
     % [Cellos.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -5867,14 +6250,18 @@ number.28.Cellos.Voice.1.container = {
 }
 
 
-number.28.Cellos.Voice.1 = {
+number.28.Cellos.Voice.1 =
+{
 
-    { \number.28.Cellos.Voice.1.container }
+    {
+        \number.28.Cellos.Voice.1.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.2.container = {
+number.28.Cellos.Voice.2.container =
+{
 
     % [Cellos.Voice.2 measure 1]
       %! -PARTS
@@ -5930,25 +6317,34 @@ number.28.Cellos.Voice.2.container = {
 }
 
 
-number.28.Cellos.Voice.2 = {
+number.28.Cellos.Voice.2 =
+{
 
-    { \number.28.Cellos.Voice.2.container }
+    {
+        \number.28.Cellos.Voice.2.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.1 = <<
+number.28.Cellos.Staff.1 =
+<<
 
     \context Voice = "Cellos.Voice.1"
-    { \number.28.Cellos.Voice.1 }
+    {
+        \number.28.Cellos.Voice.1
+    }
 
     \context Voice = "Cellos.Voice.2"
-    { \number.28.Cellos.Voice.2 }
+    {
+        \number.28.Cellos.Voice.2
+    }
 
 >>
 
 
-number.28.Cellos.Voice.3.container = {
+number.28.Cellos.Voice.3.container =
+{
 
     \tuplet 3/2
     {
@@ -6065,14 +6461,18 @@ number.28.Cellos.Voice.3.container = {
 }
 
 
-number.28.Cellos.Voice.3 = {
+number.28.Cellos.Voice.3 =
+{
 
-    { \number.28.Cellos.Voice.3.container }
+    {
+        \number.28.Cellos.Voice.3.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.4.container = {
+number.28.Cellos.Voice.4.container =
+{
 
     \tuplet 3/2
     {
@@ -6166,25 +6566,34 @@ number.28.Cellos.Voice.4.container = {
 }
 
 
-number.28.Cellos.Voice.4 = {
+number.28.Cellos.Voice.4 =
+{
 
-    { \number.28.Cellos.Voice.4.container }
+    {
+        \number.28.Cellos.Voice.4.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.2 = <<
+number.28.Cellos.Staff.2 =
+<<
 
     \context Voice = "Cellos.Voice.3"
-    { \number.28.Cellos.Voice.3 }
+    {
+        \number.28.Cellos.Voice.3
+    }
 
     \context Voice = "Cellos.Voice.4"
-    { \number.28.Cellos.Voice.4 }
+    {
+        \number.28.Cellos.Voice.4
+    }
 
 >>
 
 
-number.28.Cellos.Voice.5.container = {
+number.28.Cellos.Voice.5.container =
+{
 
     % [Cellos.Voice.5 measure 1]
       %! REAPPLIED_CLEF
@@ -6279,14 +6688,18 @@ number.28.Cellos.Voice.5.container = {
 }
 
 
-number.28.Cellos.Voice.5 = {
+number.28.Cellos.Voice.5 =
+{
 
-    { \number.28.Cellos.Voice.5.container }
+    {
+        \number.28.Cellos.Voice.5.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.6.container = {
+number.28.Cellos.Voice.6.container =
+{
 
     % [Cellos.Voice.6 measure 1]
       %! -PARTS
@@ -6342,25 +6755,34 @@ number.28.Cellos.Voice.6.container = {
 }
 
 
-number.28.Cellos.Voice.6 = {
+number.28.Cellos.Voice.6 =
+{
 
-    { \number.28.Cellos.Voice.6.container }
+    {
+        \number.28.Cellos.Voice.6.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.3 = <<
+number.28.Cellos.Staff.3 =
+<<
 
     \context Voice = "Cellos.Voice.5"
-    { \number.28.Cellos.Voice.5 }
+    {
+        \number.28.Cellos.Voice.5
+    }
 
     \context Voice = "Cellos.Voice.6"
-    { \number.28.Cellos.Voice.6 }
+    {
+        \number.28.Cellos.Voice.6
+    }
 
 >>
 
 
-number.28.Cellos.Voice.7.container = {
+number.28.Cellos.Voice.7.container =
+{
 
     % [Cellos.Voice.7 measure 1]
       %! REAPPLIED_CLEF
@@ -6485,14 +6907,18 @@ number.28.Cellos.Voice.7.container = {
 }
 
 
-number.28.Cellos.Voice.7 = {
+number.28.Cellos.Voice.7 =
+{
 
-    { \number.28.Cellos.Voice.7.container }
+    {
+        \number.28.Cellos.Voice.7.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.8.container = {
+number.28.Cellos.Voice.8.container =
+{
 
     % [Cellos.Voice.8 measure 1]
       %! -PARTS
@@ -6558,25 +6984,34 @@ number.28.Cellos.Voice.8.container = {
 }
 
 
-number.28.Cellos.Voice.8 = {
+number.28.Cellos.Voice.8 =
+{
 
-    { \number.28.Cellos.Voice.8.container }
+    {
+        \number.28.Cellos.Voice.8.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.4 = <<
+number.28.Cellos.Staff.4 =
+<<
 
     \context Voice = "Cellos.Voice.7"
-    { \number.28.Cellos.Voice.7 }
+    {
+        \number.28.Cellos.Voice.7
+    }
 
     \context Voice = "Cellos.Voice.8"
-    { \number.28.Cellos.Voice.8 }
+    {
+        \number.28.Cellos.Voice.8
+    }
 
 >>
 
 
-number.28.Cellos.Voice.9.container = {
+number.28.Cellos.Voice.9.container =
+{
 
     % [Cellos.Voice.9 measure 1]
       %! REAPPLIED_CLEF
@@ -6661,14 +7096,18 @@ number.28.Cellos.Voice.9.container = {
 }
 
 
-number.28.Cellos.Voice.9 = {
+number.28.Cellos.Voice.9 =
+{
 
-    { \number.28.Cellos.Voice.9.container }
+    {
+        \number.28.Cellos.Voice.9.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.10.container = {
+number.28.Cellos.Voice.10.container =
+{
 
     % [Cellos.Voice.10 measure 1]
       %! -PARTS
@@ -6732,25 +7171,34 @@ number.28.Cellos.Voice.10.container = {
 }
 
 
-number.28.Cellos.Voice.10 = {
+number.28.Cellos.Voice.10 =
+{
 
-    { \number.28.Cellos.Voice.10.container }
+    {
+        \number.28.Cellos.Voice.10.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.5 = <<
+number.28.Cellos.Staff.5 =
+<<
 
     \context Voice = "Cellos.Voice.9"
-    { \number.28.Cellos.Voice.9 }
+    {
+        \number.28.Cellos.Voice.9
+    }
 
     \context Voice = "Cellos.Voice.10"
-    { \number.28.Cellos.Voice.10 }
+    {
+        \number.28.Cellos.Voice.10
+    }
 
 >>
 
 
-number.28.Cellos.Voice.11.container = {
+number.28.Cellos.Voice.11.container =
+{
 
     % [Cellos.Voice.11 measure 1]
       %! REAPPLIED_CLEF
@@ -6847,14 +7295,18 @@ number.28.Cellos.Voice.11.container = {
 }
 
 
-number.28.Cellos.Voice.11 = {
+number.28.Cellos.Voice.11 =
+{
 
-    { \number.28.Cellos.Voice.11.container }
+    {
+        \number.28.Cellos.Voice.11.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.12.container = {
+number.28.Cellos.Voice.12.container =
+{
 
     % [Cellos.Voice.12 measure 1]
       %! -PARTS
@@ -6925,25 +7377,34 @@ number.28.Cellos.Voice.12.container = {
 }
 
 
-number.28.Cellos.Voice.12 = {
+number.28.Cellos.Voice.12 =
+{
 
-    { \number.28.Cellos.Voice.12.container }
+    {
+        \number.28.Cellos.Voice.12.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.6 = <<
+number.28.Cellos.Staff.6 =
+<<
 
     \context Voice = "Cellos.Voice.11"
-    { \number.28.Cellos.Voice.11 }
+    {
+        \number.28.Cellos.Voice.11
+    }
 
     \context Voice = "Cellos.Voice.12"
-    { \number.28.Cellos.Voice.12 }
+    {
+        \number.28.Cellos.Voice.12
+    }
 
 >>
 
 
-number.28.Cellos.Voice.13.container = {
+number.28.Cellos.Voice.13.container =
+{
 
     % [Cellos.Voice.13 measure 1]
       %! REAPPLIED_CLEF
@@ -7066,14 +7527,18 @@ number.28.Cellos.Voice.13.container = {
 }
 
 
-number.28.Cellos.Voice.13 = {
+number.28.Cellos.Voice.13 =
+{
 
-    { \number.28.Cellos.Voice.13.container }
+    {
+        \number.28.Cellos.Voice.13.container
+    }
 
 }
 
 
-number.28.Cellos.Voice.14.container = {
+number.28.Cellos.Voice.14.container =
+{
 
     % [Cellos.Voice.14 measure 1]
       %! -PARTS
@@ -7131,19 +7596,27 @@ number.28.Cellos.Voice.14.container = {
 }
 
 
-number.28.Cellos.Voice.14 = {
+number.28.Cellos.Voice.14 =
+{
 
-    { \number.28.Cellos.Voice.14.container }
+    {
+        \number.28.Cellos.Voice.14.container
+    }
 
 }
 
 
-number.28.Cellos.Staff.7 = <<
+number.28.Cellos.Staff.7 =
+<<
 
     \context Voice = "Cellos.Voice.13"
-    { \number.28.Cellos.Voice.13 }
+    {
+        \number.28.Cellos.Voice.13
+    }
 
     \context Voice = "Cellos.Voice.14"
-    { \number.28.Cellos.Voice.14 }
+    {
+        \number.28.Cellos.Voice.14
+    }
 
 >>

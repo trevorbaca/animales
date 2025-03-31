@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.4.Rests = {
+number.4.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/4
@@ -23,7 +24,8 @@ number.4.Rests = {
 }
 
 
-number.4.Skips = {
+number.4.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -194,7 +196,8 @@ number.4.Skips = {
 }
 
 
-number.4.TimeSignatures = {
+number.4.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -239,7 +242,8 @@ number.4.TimeSignatures = {
 }
 
 
-number.4.Clarinets.Music.container = {
+number.4.Clarinets.Music.container =
+{
 
     % [Clarinets.Music measure 1]
       %! EXPLICIT_CLEF
@@ -325,22 +329,29 @@ number.4.Clarinets.Music.container = {
 }
 
 
-number.4.Clarinets.Music = {
+number.4.Clarinets.Music =
+{
 
-    { \number.4.Clarinets.Music.container }
+    {
+        \number.4.Clarinets.Music.container
+    }
 
 }
 
 
-number.4.Clarinets.Staff = {
+number.4.Clarinets.Staff =
+{
 
     \context Voice = "Clarinets.Music"
-    { \number.4.Clarinets.Music }
+    {
+        \number.4.Clarinets.Music
+    }
 
 }
 
 
-number.4.Horns.Voice.1.container = {
+number.4.Horns.Voice.1.container =
+{
 
     % [Horns.Voice.1 measure 1]
       %! EXPLICIT_CLEF
@@ -412,14 +423,18 @@ number.4.Horns.Voice.1.container = {
 }
 
 
-number.4.Horns.Voice.1 = {
+number.4.Horns.Voice.1 =
+{
 
-    { \number.4.Horns.Voice.1.container }
+    {
+        \number.4.Horns.Voice.1.container
+    }
 
 }
 
 
-number.4.Horns.Voice.3.container = {
+number.4.Horns.Voice.3.container =
+{
 
     % [Horns.Voice.3 measure 1]
       %! -PARTS
@@ -465,25 +480,34 @@ number.4.Horns.Voice.3.container = {
 }
 
 
-number.4.Horns.Voice.3 = {
+number.4.Horns.Voice.3 =
+{
 
-    { \number.4.Horns.Voice.3.container }
+    {
+        \number.4.Horns.Voice.3.container
+    }
 
 }
 
 
-number.4.Horns.Staff.1 = <<
+number.4.Horns.Staff.1 =
+<<
 
     \context Voice = "Horns.Voice.1"
-    { \number.4.Horns.Voice.1 }
+    {
+        \number.4.Horns.Voice.1
+    }
 
     \context Voice = "Horns.Voice.3"
-    { \number.4.Horns.Voice.3 }
+    {
+        \number.4.Horns.Voice.3
+    }
 
 >>
 
 
-number.4.Horns.Voice.2.container = {
+number.4.Horns.Voice.2.container =
+{
 
     % [Horns.Voice.2 measure 1]
       %! EXPLICIT_CLEF
@@ -555,14 +579,18 @@ number.4.Horns.Voice.2.container = {
 }
 
 
-number.4.Horns.Voice.2 = {
+number.4.Horns.Voice.2 =
+{
 
-    { \number.4.Horns.Voice.2.container }
+    {
+        \number.4.Horns.Voice.2.container
+    }
 
 }
 
 
-number.4.Horns.Voice.4.container = {
+number.4.Horns.Voice.4.container =
+{
 
     % [Horns.Voice.4 measure 1]
       %! -PARTS
@@ -608,25 +636,34 @@ number.4.Horns.Voice.4.container = {
 }
 
 
-number.4.Horns.Voice.4 = {
+number.4.Horns.Voice.4 =
+{
 
-    { \number.4.Horns.Voice.4.container }
+    {
+        \number.4.Horns.Voice.4.container
+    }
 
 }
 
 
-number.4.Horns.Staff.2 = <<
+number.4.Horns.Staff.2 =
+<<
 
     \context Voice = "Horns.Voice.2"
-    { \number.4.Horns.Voice.2 }
+    {
+        \number.4.Horns.Voice.2
+    }
 
     \context Voice = "Horns.Voice.4"
-    { \number.4.Horns.Voice.4 }
+    {
+        \number.4.Horns.Voice.4
+    }
 
 >>
 
 
-number.4.Trumpets.Voice.1.container = {
+number.4.Trumpets.Voice.1.container =
+{
 
     % [Trumpets.Voice.1 measure 1]
       %! EXPLICIT_CLEF
@@ -698,14 +735,18 @@ number.4.Trumpets.Voice.1.container = {
 }
 
 
-number.4.Trumpets.Voice.1 = {
+number.4.Trumpets.Voice.1 =
+{
 
-    { \number.4.Trumpets.Voice.1.container }
+    {
+        \number.4.Trumpets.Voice.1.container
+    }
 
 }
 
 
-number.4.Trumpets.Voice.3.container = {
+number.4.Trumpets.Voice.3.container =
+{
 
     % [Trumpets.Voice.3 measure 1]
       %! -PARTS
@@ -751,25 +792,34 @@ number.4.Trumpets.Voice.3.container = {
 }
 
 
-number.4.Trumpets.Voice.3 = {
+number.4.Trumpets.Voice.3 =
+{
 
-    { \number.4.Trumpets.Voice.3.container }
+    {
+        \number.4.Trumpets.Voice.3.container
+    }
 
 }
 
 
-number.4.Trumpets.Staff.1 = <<
+number.4.Trumpets.Staff.1 =
+<<
 
     \context Voice = "Trumpets.Voice.1"
-    { \number.4.Trumpets.Voice.1 }
+    {
+        \number.4.Trumpets.Voice.1
+    }
 
     \context Voice = "Trumpets.Voice.3"
-    { \number.4.Trumpets.Voice.3 }
+    {
+        \number.4.Trumpets.Voice.3
+    }
 
 >>
 
 
-number.4.Trumpets.Voice.2.container = {
+number.4.Trumpets.Voice.2.container =
+{
 
     % [Trumpets.Voice.2 measure 1]
       %! EXPLICIT_CLEF
@@ -841,14 +891,18 @@ number.4.Trumpets.Voice.2.container = {
 }
 
 
-number.4.Trumpets.Voice.2 = {
+number.4.Trumpets.Voice.2 =
+{
 
-    { \number.4.Trumpets.Voice.2.container }
+    {
+        \number.4.Trumpets.Voice.2.container
+    }
 
 }
 
 
-number.4.Trumpets.Voice.4.container = {
+number.4.Trumpets.Voice.4.container =
+{
 
     % [Trumpets.Voice.4 measure 1]
       %! -PARTS
@@ -894,25 +948,34 @@ number.4.Trumpets.Voice.4.container = {
 }
 
 
-number.4.Trumpets.Voice.4 = {
+number.4.Trumpets.Voice.4 =
+{
 
-    { \number.4.Trumpets.Voice.4.container }
+    {
+        \number.4.Trumpets.Voice.4.container
+    }
 
 }
 
 
-number.4.Trumpets.Staff.2 = <<
+number.4.Trumpets.Staff.2 =
+<<
 
     \context Voice = "Trumpets.Voice.2"
-    { \number.4.Trumpets.Voice.2 }
+    {
+        \number.4.Trumpets.Voice.2
+    }
 
     \context Voice = "Trumpets.Voice.4"
-    { \number.4.Trumpets.Voice.4 }
+    {
+        \number.4.Trumpets.Voice.4
+    }
 
 >>
 
 
-number.4.Trombones.Voice.1.container = {
+number.4.Trombones.Voice.1.container =
+{
 
     % [Trombones.Voice.1 measure 1]
       %! EXPLICIT_CLEF
@@ -984,14 +1047,18 @@ number.4.Trombones.Voice.1.container = {
 }
 
 
-number.4.Trombones.Voice.1 = {
+number.4.Trombones.Voice.1 =
+{
 
-    { \number.4.Trombones.Voice.1.container }
+    {
+        \number.4.Trombones.Voice.1.container
+    }
 
 }
 
 
-number.4.Trombones.Voice.3.container = {
+number.4.Trombones.Voice.3.container =
+{
 
     % [Trombones.Voice.3 measure 1]
       %! -PARTS
@@ -1037,25 +1104,34 @@ number.4.Trombones.Voice.3.container = {
 }
 
 
-number.4.Trombones.Voice.3 = {
+number.4.Trombones.Voice.3 =
+{
 
-    { \number.4.Trombones.Voice.3.container }
+    {
+        \number.4.Trombones.Voice.3.container
+    }
 
 }
 
 
-number.4.Trombones.Staff.1 = <<
+number.4.Trombones.Staff.1 =
+<<
 
     \context Voice = "Trombones.Voice.1"
-    { \number.4.Trombones.Voice.1 }
+    {
+        \number.4.Trombones.Voice.1
+    }
 
     \context Voice = "Trombones.Voice.3"
-    { \number.4.Trombones.Voice.3 }
+    {
+        \number.4.Trombones.Voice.3
+    }
 
 >>
 
 
-number.4.Trombones.Voice.2.container = {
+number.4.Trombones.Voice.2.container =
+{
 
     % [Trombones.Voice.2 measure 1]
       %! EXPLICIT_CLEF
@@ -1127,14 +1203,18 @@ number.4.Trombones.Voice.2.container = {
 }
 
 
-number.4.Trombones.Voice.2 = {
+number.4.Trombones.Voice.2 =
+{
 
-    { \number.4.Trombones.Voice.2.container }
+    {
+        \number.4.Trombones.Voice.2.container
+    }
 
 }
 
 
-number.4.Trombones.Voice.4.container = {
+number.4.Trombones.Voice.4.container =
+{
 
     % [Trombones.Voice.4 measure 1]
       %! -PARTS
@@ -1180,25 +1260,34 @@ number.4.Trombones.Voice.4.container = {
 }
 
 
-number.4.Trombones.Voice.4 = {
+number.4.Trombones.Voice.4 =
+{
 
-    { \number.4.Trombones.Voice.4.container }
+    {
+        \number.4.Trombones.Voice.4.container
+    }
 
 }
 
 
-number.4.Trombones.Staff.2 = <<
+number.4.Trombones.Staff.2 =
+<<
 
     \context Voice = "Trombones.Voice.2"
-    { \number.4.Trombones.Voice.2 }
+    {
+        \number.4.Trombones.Voice.2
+    }
 
     \context Voice = "Trombones.Voice.4"
-    { \number.4.Trombones.Voice.4 }
+    {
+        \number.4.Trombones.Voice.4
+    }
 
 >>
 
 
-number.4.Tuba.Music.container = {
+number.4.Tuba.Music.container =
+{
 
     % [Tuba.Music measure 1]
       %! EXPLICIT_CLEF
@@ -1268,22 +1357,29 @@ number.4.Tuba.Music.container = {
 }
 
 
-number.4.Tuba.Music = {
+number.4.Tuba.Music =
+{
 
-    { \number.4.Tuba.Music.container }
+    {
+        \number.4.Tuba.Music.container
+    }
 
 }
 
 
-number.4.Tuba.Staff = {
+number.4.Tuba.Staff =
+{
 
     \context Voice = "Tuba.Music"
-    { \number.4.Tuba.Music }
+    {
+        \number.4.Tuba.Music
+    }
 
 }
 
 
-number.4.Percussion.1.Music.container = {
+number.4.Percussion.1.Music.container =
+{
 
     % [Percussion.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1366,22 +1462,29 @@ number.4.Percussion.1.Music.container = {
 }
 
 
-number.4.Percussion.1.Music = {
+number.4.Percussion.1.Music =
+{
 
-    { \number.4.Percussion.1.Music.container }
+    {
+        \number.4.Percussion.1.Music.container
+    }
 
 }
 
 
-number.4.Percussion.1.Staff = {
+number.4.Percussion.1.Staff =
+{
 
     \context Voice = "Percussion.1.Music"
-    { \number.4.Percussion.1.Music }
+    {
+        \number.4.Percussion.1.Music
+    }
 
 }
 
 
-number.4.Percussion.2.Music.container = {
+number.4.Percussion.2.Music.container =
+{
 
     % [Percussion.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -1464,22 +1567,29 @@ number.4.Percussion.2.Music.container = {
 }
 
 
-number.4.Percussion.2.Music = {
+number.4.Percussion.2.Music =
+{
 
-    { \number.4.Percussion.2.Music.container }
+    {
+        \number.4.Percussion.2.Music.container
+    }
 
 }
 
 
-number.4.Percussion.2.Staff = {
+number.4.Percussion.2.Staff =
+{
 
     \context Voice = "Percussion.2.Music"
-    { \number.4.Percussion.2.Music }
+    {
+        \number.4.Percussion.2.Music
+    }
 
 }
 
 
-number.4.FirstViolins.Voice.2.container = {
+number.4.FirstViolins.Voice.2.container =
+{
 
     % [FirstViolins.Voice.2 measure 3]
       %! -PARTS
@@ -1594,7 +1704,8 @@ number.4.FirstViolins.Voice.2.container = {
 }
 
 
-number.4.FirstViolins.Voice.2 = {
+number.4.FirstViolins.Voice.2 =
+{
 
     % [FirstViolins.Voice.2 measure 1]
     R1 * 4/4
@@ -1606,12 +1717,15 @@ number.4.FirstViolins.Voice.2 = {
       %! DURATION_MULTIPLIER
     %@% ^ \baca-duration-multiplier-markup #"4" #"4"
 
-    { \number.4.FirstViolins.Voice.2.container }
+    {
+        \number.4.FirstViolins.Voice.2.container
+    }
 
 }
 
 
-number.4.FirstViolins.Voice.1.container.1 = {
+number.4.FirstViolins.Voice.1.container.1 =
+{
 
     % [FirstViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1664,7 +1778,8 @@ number.4.FirstViolins.Voice.1.container.1 = {
 }
 
 
-number.4.FirstViolins.Voice.1.container.2 = {
+number.4.FirstViolins.Voice.1.container.2 =
+{
 
     % [FirstViolins.Voice.1 measure 3]
       %! -PARTS
@@ -1703,27 +1818,38 @@ number.4.FirstViolins.Voice.1.container.2 = {
 }
 
 
-number.4.FirstViolins.Voice.1 = {
+number.4.FirstViolins.Voice.1 =
+{
 
-    { \number.4.FirstViolins.Voice.1.container.1 }
+    {
+        \number.4.FirstViolins.Voice.1.container.1
+    }
 
-    { \number.4.FirstViolins.Voice.1.container.2 }
+    {
+        \number.4.FirstViolins.Voice.1.container.2
+    }
 
 }
 
 
-number.4.FirstViolins.Staff.1 = <<
+number.4.FirstViolins.Staff.1 =
+<<
 
     \context Voice = "FirstViolins.Voice.2"
-    { \number.4.FirstViolins.Voice.2 }
+    {
+        \number.4.FirstViolins.Voice.2
+    }
 
     \context Voice = "FirstViolins.Voice.1"
-    { \number.4.FirstViolins.Voice.1 }
+    {
+        \number.4.FirstViolins.Voice.1
+    }
 
 >>
 
 
-number.4.FirstViolins.Voice.3.container = {
+number.4.FirstViolins.Voice.3.container =
+{
 
     % [FirstViolins.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -1804,22 +1930,29 @@ number.4.FirstViolins.Voice.3.container = {
 }
 
 
-number.4.FirstViolins.Voice.3 = {
+number.4.FirstViolins.Voice.3 =
+{
 
-    { \number.4.FirstViolins.Voice.3.container }
+    {
+        \number.4.FirstViolins.Voice.3.container
+    }
 
 }
 
 
-number.4.FirstViolins.Staff.2 = {
+number.4.FirstViolins.Staff.2 =
+{
 
     \context Voice = "FirstViolins.Voice.3"
-    { \number.4.FirstViolins.Voice.3 }
+    {
+        \number.4.FirstViolins.Voice.3
+    }
 
 }
 
 
-number.4.SecondViolins.Voice.1.container = {
+number.4.SecondViolins.Voice.1.container =
+{
 
     % [SecondViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1900,22 +2033,29 @@ number.4.SecondViolins.Voice.1.container = {
 }
 
 
-number.4.SecondViolins.Voice.1 = {
+number.4.SecondViolins.Voice.1 =
+{
 
-    { \number.4.SecondViolins.Voice.1.container }
+    {
+        \number.4.SecondViolins.Voice.1.container
+    }
 
 }
 
 
-number.4.SecondViolins.Staff.1 = {
+number.4.SecondViolins.Staff.1 =
+{
 
     \context Voice = "SecondViolins.Voice.1"
-    { \number.4.SecondViolins.Voice.1 }
+    {
+        \number.4.SecondViolins.Voice.1
+    }
 
 }
 
 
-number.4.SecondViolins.Voice.3.container = {
+number.4.SecondViolins.Voice.3.container =
+{
 
     % [SecondViolins.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -1993,22 +2133,29 @@ number.4.SecondViolins.Voice.3.container = {
 }
 
 
-number.4.SecondViolins.Voice.3 = {
+number.4.SecondViolins.Voice.3 =
+{
 
-    { \number.4.SecondViolins.Voice.3.container }
+    {
+        \number.4.SecondViolins.Voice.3.container
+    }
 
 }
 
 
-number.4.SecondViolins.Staff.2 = {
+number.4.SecondViolins.Staff.2 =
+{
 
     \context Voice = "SecondViolins.Voice.3"
-    { \number.4.SecondViolins.Voice.3 }
+    {
+        \number.4.SecondViolins.Voice.3
+    }
 
 }
 
 
-number.4.Violas.Voice.1.container = {
+number.4.Violas.Voice.1.container =
+{
 
     % [Violas.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -2096,22 +2243,29 @@ number.4.Violas.Voice.1.container = {
 }
 
 
-number.4.Violas.Voice.1 = {
+number.4.Violas.Voice.1 =
+{
 
-    { \number.4.Violas.Voice.1.container }
+    {
+        \number.4.Violas.Voice.1.container
+    }
 
 }
 
 
-number.4.Violas.Staff.1 = {
+number.4.Violas.Staff.1 =
+{
 
     \context Voice = "Violas.Voice.1"
-    { \number.4.Violas.Voice.1 }
+    {
+        \number.4.Violas.Voice.1
+    }
 
 }
 
 
-number.4.Violas.Voice.3.container = {
+number.4.Violas.Voice.3.container =
+{
 
     % [Violas.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -2194,22 +2348,29 @@ number.4.Violas.Voice.3.container = {
 }
 
 
-number.4.Violas.Voice.3 = {
+number.4.Violas.Voice.3 =
+{
 
-    { \number.4.Violas.Voice.3.container }
+    {
+        \number.4.Violas.Voice.3.container
+    }
 
 }
 
 
-number.4.Violas.Staff.2 = {
+number.4.Violas.Staff.2 =
+{
 
     \context Voice = "Violas.Voice.3"
-    { \number.4.Violas.Voice.3 }
+    {
+        \number.4.Violas.Voice.3
+    }
 
 }
 
 
-number.4.Cellos.Voice.1.container = {
+number.4.Cellos.Voice.1.container =
+{
 
     % [Cellos.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -2290,22 +2451,29 @@ number.4.Cellos.Voice.1.container = {
 }
 
 
-number.4.Cellos.Voice.1 = {
+number.4.Cellos.Voice.1 =
+{
 
-    { \number.4.Cellos.Voice.1.container }
+    {
+        \number.4.Cellos.Voice.1.container
+    }
 
 }
 
 
-number.4.Cellos.Staff.1 = {
+number.4.Cellos.Staff.1 =
+{
 
     \context Voice = "Cellos.Voice.1"
-    { \number.4.Cellos.Voice.1 }
+    {
+        \number.4.Cellos.Voice.1
+    }
 
 }
 
 
-number.4.Contrabasses.Voice.3.container = {
+number.4.Contrabasses.Voice.3.container =
+{
 
     % [Contrabasses.Voice.3 measure 1]
       %! EXPLICIT_CLEF
@@ -2385,16 +2553,22 @@ number.4.Contrabasses.Voice.3.container = {
 }
 
 
-number.4.Contrabasses.Voice.3 = {
+number.4.Contrabasses.Voice.3 =
+{
 
-    { \number.4.Contrabasses.Voice.3.container }
+    {
+        \number.4.Contrabasses.Voice.3.container
+    }
 
 }
 
 
-number.4.Contrabasses.Staff.2 = {
+number.4.Contrabasses.Staff.2 =
+{
 
     \context Voice = "Contrabasses.Voice.3"
-    { \number.4.Contrabasses.Voice.3 }
+    {
+        \number.4.Contrabasses.Voice.3
+    }
 
 }

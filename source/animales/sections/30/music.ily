@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.30.Rests = {
+number.30.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/4
@@ -37,7 +38,8 @@ number.30.Rests = {
 }
 
 
-number.30.Skips = {
+number.30.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -293,7 +295,8 @@ number.30.Skips = {
 }
 
 
-number.30.TimeSignatures = {
+number.30.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! EXPLICIT_TIME_SIGNATURE_COLOR
@@ -357,7 +360,8 @@ number.30.TimeSignatures = {
 }
 
 
-number.30.Piano.Music.container = {
+number.30.Piano.Music.container =
+{
 
     % [Piano.Music measure 1]
       %! REAPPLIED_CLEF
@@ -446,22 +450,29 @@ number.30.Piano.Music.container = {
 }
 
 
-number.30.Piano.Music = {
+number.30.Piano.Music =
+{
 
-    { \number.30.Piano.Music.container }
+    {
+        \number.30.Piano.Music.container
+    }
 
 }
 
 
-number.30.Piano.Staff = {
+number.30.Piano.Staff =
+{
 
     \context Voice = "Piano.Music"
-    { \number.30.Piano.Music }
+    {
+        \number.30.Piano.Music
+    }
 
 }
 
 
-number.30.Percussion.4.Music.container = {
+number.30.Percussion.4.Music.container =
+{
 
     % [Percussion.4.Music measure 1]
       %! REAPPLIED_CLEF
@@ -678,16 +689,22 @@ number.30.Percussion.4.Music.container = {
 }
 
 
-number.30.Percussion.4.Music = {
+number.30.Percussion.4.Music =
+{
 
-    { \number.30.Percussion.4.Music.container }
+    {
+        \number.30.Percussion.4.Music.container
+    }
 
 }
 
 
-number.30.Percussion.4.Staff = {
+number.30.Percussion.4.Staff =
+{
 
     \context Voice = "Percussion.4.Music"
-    { \number.30.Percussion.4.Music }
+    {
+        \number.30.Percussion.4.Music
+    }
 
 }

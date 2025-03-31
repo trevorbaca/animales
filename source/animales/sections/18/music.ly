@@ -18,13 +18,19 @@
             <<
 
                 \context GlobalRests = "Rests"
-                { \number.18.Rests }
+                {
+                    \number.18.Rests
+                }
 
                 \context GlobalSkips = "Skips"
-                { \number.18.Skips }
+                {
+                    \number.18.Skips
+                }
 
                 \context GlobalSkips = "TimeSignatures"
-                { \number.18.TimeSignatures }
+                {
+                    \number.18.TimeSignatures
+                }
 
             >>
 
@@ -42,10 +48,14 @@
                     <<
 
                         \context Staff = "Horns.Staff.1"
-                        { \number.18.Horns.Staff.1 }
+                        {
+                            \number.18.Horns.Staff.1
+                        }
 
                         \context Staff = "Horns.Staff.2"
-                        { \number.18.Horns.Staff.2 }
+                        {
+                            \number.18.Horns.Staff.2
+                        }
 
                     >>
 
@@ -57,10 +67,14 @@
                     <<
 
                         \context Staff = "Trumpets.Staff.1"
-                        { \number.18.Trumpets.Staff.1 }
+                        {
+                            \number.18.Trumpets.Staff.1
+                        }
 
                         \context Staff = "Trumpets.Staff.2"
-                        { \number.18.Trumpets.Staff.2 }
+                        {
+                            \number.18.Trumpets.Staff.2
+                        }
 
                     >>
 
@@ -72,10 +86,14 @@
                     <<
 
                         \context Staff = "Trombones.Staff.1"
-                        { \number.18.Trombones.Staff.1 }
+                        {
+                            \number.18.Trombones.Staff.1
+                        }
 
                         \context Staff = "Trombones.Staff.2"
-                        { \number.18.Trombones.Staff.2 }
+                        {
+                            \number.18.Trombones.Staff.2
+                        }
 
                     >>
 
@@ -92,13 +110,19 @@
                     <<
 
                         \context Staff = "FirstViolins.Staff.1"
-                        { \number.18.FirstViolins.Staff.1 }
+                        {
+                            \number.18.FirstViolins.Staff.1
+                        }
 
                         \context Staff = "FirstViolins.Staff.2"
-                        { \number.18.FirstViolins.Staff.2 }
+                        {
+                            \number.18.FirstViolins.Staff.2
+                        }
 
                         \context Staff = "FirstViolins.Staff.3"
-                        { \number.18.FirstViolins.Staff.3 }
+                        {
+                            \number.18.FirstViolins.Staff.3
+                        }
 
                     >>
 
@@ -110,10 +134,14 @@
                     <<
 
                         \context Staff = "SecondViolins.Staff.1"
-                        { \number.18.SecondViolins.Staff.1 }
+                        {
+                            \number.18.SecondViolins.Staff.1
+                        }
 
                         \context Staff = "SecondViolins.Staff.2"
-                        { \number.18.SecondViolins.Staff.2 }
+                        {
+                            \number.18.SecondViolins.Staff.2
+                        }
 
                     >>
 
@@ -125,18 +153,26 @@
                     <<
 
                         \context Staff = "Violas.Staff.1"
-                        { \number.18.Violas.Staff.1 }
+                        {
+                            \number.18.Violas.Staff.1
+                        }
 
                         \context Staff = "Violas.Staff.2"
-                        { \number.18.Violas.Staff.2 }
+                        {
+                            \number.18.Violas.Staff.2
+                        }
 
                     >>
 
                     \context Staff = "Cellos.Staff.1"
-                    { \number.18.Cellos.Staff.1 }
+                    {
+                        \number.18.Cellos.Staff.1
+                    }
 
                     \context Staff = "Contrabasses.Staff.2"
-                    { \number.18.Contrabasses.Staff.2 }
+                    {
+                        \number.18.Contrabasses.Staff.2
+                    }
 
                 >>
 

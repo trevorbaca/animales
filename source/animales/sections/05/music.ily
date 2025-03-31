@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.5.Rests = {
+number.5.Rests =
+{
 
     % [Rests measure 1]
     R1 * 3/4
@@ -23,7 +24,8 @@ number.5.Rests = {
 }
 
 
-number.5.Skips = {
+number.5.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -194,7 +196,8 @@ number.5.Skips = {
 }
 
 
-number.5.TimeSignatures = {
+number.5.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! REAPPLIED_TIME_SIGNATURE_COLOR
@@ -243,7 +246,8 @@ number.5.TimeSignatures = {
 }
 
 
-number.5.Clarinets.Music.container = {
+number.5.Clarinets.Music.container =
+{
 
     % [Clarinets.Music measure 1]
       %! REAPPLIED_CLEF
@@ -325,22 +329,29 @@ number.5.Clarinets.Music.container = {
 }
 
 
-number.5.Clarinets.Music = {
+number.5.Clarinets.Music =
+{
 
-    { \number.5.Clarinets.Music.container }
+    {
+        \number.5.Clarinets.Music.container
+    }
 
 }
 
 
-number.5.Clarinets.Staff = {
+number.5.Clarinets.Staff =
+{
 
     \context Voice = "Clarinets.Music"
-    { \number.5.Clarinets.Music }
+    {
+        \number.5.Clarinets.Music
+    }
 
 }
 
 
-number.5.Percussion.1.Music.container = {
+number.5.Percussion.1.Music.container =
+{
 
     % [Percussion.1.Music measure 1]
       %! REAPPLIED_CLEF
@@ -428,22 +439,29 @@ number.5.Percussion.1.Music.container = {
 }
 
 
-number.5.Percussion.1.Music = {
+number.5.Percussion.1.Music =
+{
 
-    { \number.5.Percussion.1.Music.container }
+    {
+        \number.5.Percussion.1.Music.container
+    }
 
 }
 
 
-number.5.Percussion.1.Staff = {
+number.5.Percussion.1.Staff =
+{
 
     \context Voice = "Percussion.1.Music"
-    { \number.5.Percussion.1.Music }
+    {
+        \number.5.Percussion.1.Music
+    }
 
 }
 
 
-number.5.Percussion.2.Music.container = {
+number.5.Percussion.2.Music.container =
+{
 
     % [Percussion.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -531,22 +549,29 @@ number.5.Percussion.2.Music.container = {
 }
 
 
-number.5.Percussion.2.Music = {
+number.5.Percussion.2.Music =
+{
 
-    { \number.5.Percussion.2.Music.container }
+    {
+        \number.5.Percussion.2.Music.container
+    }
 
 }
 
 
-number.5.Percussion.2.Staff = {
+number.5.Percussion.2.Staff =
+{
 
     \context Voice = "Percussion.2.Music"
-    { \number.5.Percussion.2.Music }
+    {
+        \number.5.Percussion.2.Music
+    }
 
 }
 
 
-number.5.FirstViolins.Voice.2.container = {
+number.5.FirstViolins.Voice.2.container =
+{
 
     % [FirstViolins.Voice.2 measure 1]
       %! -PARTS
@@ -693,14 +718,18 @@ number.5.FirstViolins.Voice.2.container = {
 }
 
 
-number.5.FirstViolins.Voice.2 = {
+number.5.FirstViolins.Voice.2 =
+{
 
-    { \number.5.FirstViolins.Voice.2.container }
+    {
+        \number.5.FirstViolins.Voice.2.container
+    }
 
 }
 
 
-number.5.FirstViolins.Voice.1.container = {
+number.5.FirstViolins.Voice.1.container =
+{
 
     % [FirstViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -780,9 +809,12 @@ number.5.FirstViolins.Voice.1.container = {
 }
 
 
-number.5.FirstViolins.Voice.1 = {
+number.5.FirstViolins.Voice.1 =
+{
 
-    { \number.5.FirstViolins.Voice.1.container }
+    {
+        \number.5.FirstViolins.Voice.1.container
+    }
 
       %! ANCHOR_NOTE
     % [FirstViolins.Voice.1 anchor note]
@@ -819,18 +851,24 @@ number.5.FirstViolins.Voice.1 = {
 }
 
 
-number.5.FirstViolins.Staff.1 = <<
+number.5.FirstViolins.Staff.1 =
+<<
 
     \context Voice = "FirstViolins.Voice.2"
-    { \number.5.FirstViolins.Voice.2 }
+    {
+        \number.5.FirstViolins.Voice.2
+    }
 
     \context Voice = "FirstViolins.Voice.1"
-    { \number.5.FirstViolins.Voice.1 }
+    {
+        \number.5.FirstViolins.Voice.1
+    }
 
 >>
 
 
-number.5.FirstViolins.Voice.3.container = {
+number.5.FirstViolins.Voice.3.container =
+{
 
     % [FirstViolins.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -916,9 +954,12 @@ number.5.FirstViolins.Voice.3.container = {
 }
 
 
-number.5.FirstViolins.Voice.3 = {
+number.5.FirstViolins.Voice.3 =
+{
 
-    { \number.5.FirstViolins.Voice.3.container }
+    {
+        \number.5.FirstViolins.Voice.3.container
+    }
 
       %! ANCHOR_NOTE
     % [FirstViolins.Voice.3 anchor note]
@@ -955,15 +996,19 @@ number.5.FirstViolins.Voice.3 = {
 }
 
 
-number.5.FirstViolins.Staff.2 = {
+number.5.FirstViolins.Staff.2 =
+{
 
     \context Voice = "FirstViolins.Voice.3"
-    { \number.5.FirstViolins.Voice.3 }
+    {
+        \number.5.FirstViolins.Voice.3
+    }
 
 }
 
 
-number.5.SecondViolins.Voice.1.container = {
+number.5.SecondViolins.Voice.1.container =
+{
 
     % [SecondViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1044,9 +1089,12 @@ number.5.SecondViolins.Voice.1.container = {
 }
 
 
-number.5.SecondViolins.Voice.1 = {
+number.5.SecondViolins.Voice.1 =
+{
 
-    { \number.5.SecondViolins.Voice.1.container }
+    {
+        \number.5.SecondViolins.Voice.1.container
+    }
 
       %! ANCHOR_NOTE
     % [SecondViolins.Voice.1 anchor note]
@@ -1083,15 +1131,19 @@ number.5.SecondViolins.Voice.1 = {
 }
 
 
-number.5.SecondViolins.Staff.1 = {
+number.5.SecondViolins.Staff.1 =
+{
 
     \context Voice = "SecondViolins.Voice.1"
-    { \number.5.SecondViolins.Voice.1 }
+    {
+        \number.5.SecondViolins.Voice.1
+    }
 
 }
 
 
-number.5.SecondViolins.Voice.3.container = {
+number.5.SecondViolins.Voice.3.container =
+{
 
     \tuplet 3/2
     {
@@ -1190,9 +1242,12 @@ number.5.SecondViolins.Voice.3.container = {
 }
 
 
-number.5.SecondViolins.Voice.3 = {
+number.5.SecondViolins.Voice.3 =
+{
 
-    { \number.5.SecondViolins.Voice.3.container }
+    {
+        \number.5.SecondViolins.Voice.3.container
+    }
 
       %! ANCHOR_NOTE
     % [SecondViolins.Voice.3 anchor note]
@@ -1229,15 +1284,19 @@ number.5.SecondViolins.Voice.3 = {
 }
 
 
-number.5.SecondViolins.Staff.2 = {
+number.5.SecondViolins.Staff.2 =
+{
 
     \context Voice = "SecondViolins.Voice.3"
-    { \number.5.SecondViolins.Voice.3 }
+    {
+        \number.5.SecondViolins.Voice.3
+    }
 
 }
 
 
-number.5.Violas.Voice.1.container = {
+number.5.Violas.Voice.1.container =
+{
 
     % [Violas.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1330,9 +1389,12 @@ number.5.Violas.Voice.1.container = {
 }
 
 
-number.5.Violas.Voice.1 = {
+number.5.Violas.Voice.1 =
+{
 
-    { \number.5.Violas.Voice.1.container }
+    {
+        \number.5.Violas.Voice.1.container
+    }
 
       %! ANCHOR_NOTE
     % [Violas.Voice.1 anchor note]
@@ -1369,15 +1431,19 @@ number.5.Violas.Voice.1 = {
 }
 
 
-number.5.Violas.Staff.1 = {
+number.5.Violas.Staff.1 =
+{
 
     \context Voice = "Violas.Voice.1"
-    { \number.5.Violas.Voice.1 }
+    {
+        \number.5.Violas.Voice.1
+    }
 
 }
 
 
-number.5.Violas.Voice.3.container = {
+number.5.Violas.Voice.3.container =
+{
 
     % [Violas.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -1446,9 +1512,12 @@ number.5.Violas.Voice.3.container = {
 }
 
 
-number.5.Violas.Voice.3 = {
+number.5.Violas.Voice.3 =
+{
 
-    { \number.5.Violas.Voice.3.container }
+    {
+        \number.5.Violas.Voice.3.container
+    }
 
       %! ANCHOR_NOTE
     % [Violas.Voice.3 anchor note]
@@ -1485,15 +1554,19 @@ number.5.Violas.Voice.3 = {
 }
 
 
-number.5.Violas.Staff.2 = {
+number.5.Violas.Staff.2 =
+{
 
     \context Voice = "Violas.Voice.3"
-    { \number.5.Violas.Voice.3 }
+    {
+        \number.5.Violas.Voice.3
+    }
 
 }
 
 
-number.5.Cellos.Voice.1.container = {
+number.5.Cellos.Voice.1.container =
+{
 
     % [Cellos.Voice.1 measure 1]
       %! EXPLICIT_CLEF
@@ -1590,9 +1663,12 @@ number.5.Cellos.Voice.1.container = {
 }
 
 
-number.5.Cellos.Voice.1 = {
+number.5.Cellos.Voice.1 =
+{
 
-    { \number.5.Cellos.Voice.1.container }
+    {
+        \number.5.Cellos.Voice.1.container
+    }
 
       %! ANCHOR_NOTE
     % [Cellos.Voice.1 anchor note]
@@ -1629,15 +1705,19 @@ number.5.Cellos.Voice.1 = {
 }
 
 
-number.5.Cellos.Staff.1 = {
+number.5.Cellos.Staff.1 =
+{
 
     \context Voice = "Cellos.Voice.1"
-    { \number.5.Cellos.Voice.1 }
+    {
+        \number.5.Cellos.Voice.1
+    }
 
 }
 
 
-number.5.Contrabasses.Voice.3.container = {
+number.5.Contrabasses.Voice.3.container =
+{
 
     % [Contrabasses.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -1712,9 +1792,12 @@ number.5.Contrabasses.Voice.3.container = {
 }
 
 
-number.5.Contrabasses.Voice.3 = {
+number.5.Contrabasses.Voice.3 =
+{
 
-    { \number.5.Contrabasses.Voice.3.container }
+    {
+        \number.5.Contrabasses.Voice.3.container
+    }
 
       %! ANCHOR_NOTE
     % [Contrabasses.Voice.3 anchor note]
@@ -1747,9 +1830,12 @@ number.5.Contrabasses.Voice.3 = {
 }
 
 
-number.5.Contrabasses.Staff.2 = {
+number.5.Contrabasses.Staff.2 =
+{
 
     \context Voice = "Contrabasses.Voice.3"
-    { \number.5.Contrabasses.Voice.3 }
+    {
+        \number.5.Contrabasses.Voice.3
+    }
 
 }

@@ -18,13 +18,19 @@
             <<
 
                 \context GlobalRests = "Rests"
-                { \number.9.Rests }
+                {
+                    \number.9.Rests
+                }
 
                 \context GlobalSkips = "Skips"
-                { \number.9.Skips }
+                {
+                    \number.9.Skips
+                }
 
                 \context GlobalSkips = "TimeSignatures"
-                { \number.9.TimeSignatures }
+                {
+                    \number.9.TimeSignatures
+                }
 
             >>
 
@@ -35,10 +41,14 @@
                 <<
 
                     \context Staff = "Clarinets.Staff"
-                    { \number.9.Clarinets.Staff }
+                    {
+                        \number.9.Clarinets.Staff
+                    }
 
                     \context Staff = "BassClarinet.Staff"
-                    { \number.9.BassClarinet.Staff }
+                    {
+                        \number.9.BassClarinet.Staff
+                    }
 
                 >>
 
@@ -46,7 +56,9 @@
                 <<
 
                     \context Staff = "Piano.Staff"
-                    { \number.9.Piano.Staff }
+                    {
+                        \number.9.Piano.Staff
+                    }
 
                 >>
 
@@ -54,7 +66,9 @@
                 <<
 
                     \context Staff = "Harp.Staff"
-                    { \number.9.Harp.Staff }
+                    {
+                        \number.9.Harp.Staff
+                    }
 
                 >>
 
@@ -62,10 +76,14 @@
                 <<
 
                     \context Staff = "Percussion.2.Staff"
-                    { \number.9.Percussion.2.Staff }
+                    {
+                        \number.9.Percussion.2.Staff
+                    }
 
                     \context Staff = "Percussion.3.Staff"
-                    { \number.9.Percussion.3.Staff }
+                    {
+                        \number.9.Percussion.3.Staff
+                    }
 
                 >>
 
@@ -73,16 +91,24 @@
                 <<
 
                     \context Staff = "FirstViolins.Staff.1"
-                    { \number.9.FirstViolins.Staff.1 }
+                    {
+                        \number.9.FirstViolins.Staff.1
+                    }
 
                     \context Staff = "SecondViolins.Staff.1"
-                    { \number.9.SecondViolins.Staff.1 }
+                    {
+                        \number.9.SecondViolins.Staff.1
+                    }
 
                     \context Staff = "Violas.Staff.1"
-                    { \number.9.Violas.Staff.1 }
+                    {
+                        \number.9.Violas.Staff.1
+                    }
 
                     \context Staff = "Cellos.Staff.1"
-                    { \number.9.Cellos.Staff.1 }
+                    {
+                        \number.9.Cellos.Staff.1
+                    }
 
                     \context StaffGroup = "ContrabassSquareStaffGroup"
                     \with
@@ -92,10 +118,14 @@
                     <<
 
                         \context Staff = "Contrabasses.Staff.1"
-                        { \number.9.Contrabasses.Staff.1 }
+                        {
+                            \number.9.Contrabasses.Staff.1
+                        }
 
                         \context Staff = "Contrabasses.Staff.2"
-                        { \number.9.Contrabasses.Staff.2 }
+                        {
+                            \number.9.Contrabasses.Staff.2
+                        }
 
                     >>
 

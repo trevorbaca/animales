@@ -1,6 +1,7 @@
 \version "2.25.24"
 
-number.8.Rests = {
+number.8.Rests =
+{
 
     % [Rests measure 1]
     R1 * 4/4
@@ -23,7 +24,8 @@ number.8.Rests = {
 }
 
 
-number.8.Skips = {
+number.8.Skips =
+{
 
     % [Skips measure 1]
       %! RED_START_BAR
@@ -194,7 +196,8 @@ number.8.Skips = {
 }
 
 
-number.8.TimeSignatures = {
+number.8.TimeSignatures =
+{
 
     % [TimeSignatures measure 1]
       %! REAPPLIED_TIME_SIGNATURE_COLOR
@@ -243,7 +246,8 @@ number.8.TimeSignatures = {
 }
 
 
-number.8.Clarinets.Music.container = {
+number.8.Clarinets.Music.container =
+{
 
     % [Clarinets.Music measure 1]
       %! REAPPLIED_CLEF
@@ -323,22 +327,29 @@ number.8.Clarinets.Music.container = {
 }
 
 
-number.8.Clarinets.Music = {
+number.8.Clarinets.Music =
+{
 
-    { \number.8.Clarinets.Music.container }
+    {
+        \number.8.Clarinets.Music.container
+    }
 
 }
 
 
-number.8.Clarinets.Staff = {
+number.8.Clarinets.Staff =
+{
 
     \context Voice = "Clarinets.Music"
-    { \number.8.Clarinets.Music }
+    {
+        \number.8.Clarinets.Music
+    }
 
 }
 
 
-number.8.BassClarinet.Music.container = {
+number.8.BassClarinet.Music.container =
+{
 
     % [BassClarinet.Music measure 1]
       %! EXPLICIT_CLEF
@@ -414,22 +425,29 @@ number.8.BassClarinet.Music.container = {
 }
 
 
-number.8.BassClarinet.Music = {
+number.8.BassClarinet.Music =
+{
 
-    { \number.8.BassClarinet.Music.container }
+    {
+        \number.8.BassClarinet.Music.container
+    }
 
 }
 
 
-number.8.BassClarinet.Staff = {
+number.8.BassClarinet.Staff =
+{
 
     \context Voice = "BassClarinet.Music"
-    { \number.8.BassClarinet.Music }
+    {
+        \number.8.BassClarinet.Music
+    }
 
 }
 
 
-number.8.Piano.Music.container = {
+number.8.Piano.Music.container =
+{
 
     % [Piano.Music measure 1]
       %! REAPPLIED_CLEF
@@ -502,22 +520,29 @@ number.8.Piano.Music.container = {
 }
 
 
-number.8.Piano.Music = {
+number.8.Piano.Music =
+{
 
-    { \number.8.Piano.Music.container }
+    {
+        \number.8.Piano.Music.container
+    }
 
 }
 
 
-number.8.Piano.Staff = {
+number.8.Piano.Staff =
+{
 
     \context Voice = "Piano.Music"
-    { \number.8.Piano.Music }
+    {
+        \number.8.Piano.Music
+    }
 
 }
 
 
-number.8.Harp.Music.container = {
+number.8.Harp.Music.container =
+{
 
     % [Harp.Music measure 1]
       %! REAPPLIED_CLEF
@@ -594,22 +619,29 @@ number.8.Harp.Music.container = {
 }
 
 
-number.8.Harp.Music = {
+number.8.Harp.Music =
+{
 
-    { \number.8.Harp.Music.container }
+    {
+        \number.8.Harp.Music.container
+    }
 
 }
 
 
-number.8.Harp.Staff = {
+number.8.Harp.Staff =
+{
 
     \context Voice = "Harp.Music"
-    { \number.8.Harp.Music }
+    {
+        \number.8.Harp.Music
+    }
 
 }
 
 
-number.8.Percussion.2.Music.container = {
+number.8.Percussion.2.Music.container =
+{
 
     % [Percussion.2.Music measure 1]
       %! REAPPLIED_CLEF
@@ -711,22 +743,29 @@ number.8.Percussion.2.Music.container = {
 }
 
 
-number.8.Percussion.2.Music = {
+number.8.Percussion.2.Music =
+{
 
-    { \number.8.Percussion.2.Music.container }
+    {
+        \number.8.Percussion.2.Music.container
+    }
 
 }
 
 
-number.8.Percussion.2.Staff = {
+number.8.Percussion.2.Staff =
+{
 
     \context Voice = "Percussion.2.Music"
-    { \number.8.Percussion.2.Music }
+    {
+        \number.8.Percussion.2.Music
+    }
 
 }
 
 
-number.8.Percussion.3.Music.container = {
+number.8.Percussion.3.Music.container =
+{
 
     % [Percussion.3.Music measure 1]
       %! REAPPLIED_CLEF
@@ -811,22 +850,29 @@ number.8.Percussion.3.Music.container = {
 }
 
 
-number.8.Percussion.3.Music = {
+number.8.Percussion.3.Music =
+{
 
-    { \number.8.Percussion.3.Music.container }
+    {
+        \number.8.Percussion.3.Music.container
+    }
 
 }
 
 
-number.8.Percussion.3.Staff = {
+number.8.Percussion.3.Staff =
+{
 
     \context Voice = "Percussion.3.Music"
-    { \number.8.Percussion.3.Music }
+    {
+        \number.8.Percussion.3.Music
+    }
 
 }
 
 
-number.8.FirstViolins.Voice.1.container = {
+number.8.FirstViolins.Voice.1.container =
+{
 
     % [FirstViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -950,22 +996,29 @@ number.8.FirstViolins.Voice.1.container = {
 }
 
 
-number.8.FirstViolins.Voice.1 = {
+number.8.FirstViolins.Voice.1 =
+{
 
-    { \number.8.FirstViolins.Voice.1.container }
+    {
+        \number.8.FirstViolins.Voice.1.container
+    }
 
 }
 
 
-number.8.FirstViolins.Staff.1 = {
+number.8.FirstViolins.Staff.1 =
+{
 
     \context Voice = "FirstViolins.Voice.1"
-    { \number.8.FirstViolins.Voice.1 }
+    {
+        \number.8.FirstViolins.Voice.1
+    }
 
 }
 
 
-number.8.SecondViolins.Voice.1.container = {
+number.8.SecondViolins.Voice.1.container =
+{
 
     % [SecondViolins.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1087,22 +1140,29 @@ number.8.SecondViolins.Voice.1.container = {
 }
 
 
-number.8.SecondViolins.Voice.1 = {
+number.8.SecondViolins.Voice.1 =
+{
 
-    { \number.8.SecondViolins.Voice.1.container }
+    {
+        \number.8.SecondViolins.Voice.1.container
+    }
 
 }
 
 
-number.8.SecondViolins.Staff.1 = {
+number.8.SecondViolins.Staff.1 =
+{
 
     \context Voice = "SecondViolins.Voice.1"
-    { \number.8.SecondViolins.Voice.1 }
+    {
+        \number.8.SecondViolins.Voice.1
+    }
 
 }
 
 
-number.8.Violas.Voice.1.container = {
+number.8.Violas.Voice.1.container =
+{
 
     % [Violas.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1224,22 +1284,29 @@ number.8.Violas.Voice.1.container = {
 }
 
 
-number.8.Violas.Voice.1 = {
+number.8.Violas.Voice.1 =
+{
 
-    { \number.8.Violas.Voice.1.container }
+    {
+        \number.8.Violas.Voice.1.container
+    }
 
 }
 
 
-number.8.Violas.Staff.1 = {
+number.8.Violas.Staff.1 =
+{
 
     \context Voice = "Violas.Voice.1"
-    { \number.8.Violas.Voice.1 }
+    {
+        \number.8.Violas.Voice.1
+    }
 
 }
 
 
-number.8.Cellos.Voice.1.container = {
+number.8.Cellos.Voice.1.container =
+{
 
     % [Cellos.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1361,22 +1428,29 @@ number.8.Cellos.Voice.1.container = {
 }
 
 
-number.8.Cellos.Voice.1 = {
+number.8.Cellos.Voice.1 =
+{
 
-    { \number.8.Cellos.Voice.1.container }
+    {
+        \number.8.Cellos.Voice.1.container
+    }
 
 }
 
 
-number.8.Cellos.Staff.1 = {
+number.8.Cellos.Staff.1 =
+{
 
     \context Voice = "Cellos.Voice.1"
-    { \number.8.Cellos.Voice.1 }
+    {
+        \number.8.Cellos.Voice.1
+    }
 
 }
 
 
-number.8.Contrabasses.Voice.1.container = {
+number.8.Contrabasses.Voice.1.container =
+{
 
     % [Contrabasses.Voice.1 measure 1]
       %! REAPPLIED_CLEF
@@ -1465,22 +1539,29 @@ number.8.Contrabasses.Voice.1.container = {
 }
 
 
-number.8.Contrabasses.Voice.1 = {
+number.8.Contrabasses.Voice.1 =
+{
 
-    { \number.8.Contrabasses.Voice.1.container }
+    {
+        \number.8.Contrabasses.Voice.1.container
+    }
 
 }
 
 
-number.8.Contrabasses.Staff.1 = {
+number.8.Contrabasses.Staff.1 =
+{
 
     \context Voice = "Contrabasses.Voice.1"
-    { \number.8.Contrabasses.Voice.1 }
+    {
+        \number.8.Contrabasses.Voice.1
+    }
 
 }
 
 
-number.8.Contrabasses.Voice.3.container = {
+number.8.Contrabasses.Voice.3.container =
+{
 
     % [Contrabasses.Voice.3 measure 1]
       %! REAPPLIED_CLEF
@@ -1598,16 +1679,22 @@ number.8.Contrabasses.Voice.3.container = {
 }
 
 
-number.8.Contrabasses.Voice.3 = {
+number.8.Contrabasses.Voice.3 =
+{
 
-    { \number.8.Contrabasses.Voice.3.container }
+    {
+        \number.8.Contrabasses.Voice.3.container
+    }
 
 }
 
 
-number.8.Contrabasses.Staff.2 = {
+number.8.Contrabasses.Staff.2 =
+{
 
     \context Voice = "Contrabasses.Voice.3"
-    { \number.8.Contrabasses.Voice.3 }
+    {
+        \number.8.Contrabasses.Voice.3
+    }
 
 }
