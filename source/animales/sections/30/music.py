@@ -81,7 +81,7 @@ def perc4(m, time_signatures):
         baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
         baca.dynamic(o.phead(0), '"mf"')
     with baca.scope(m[10]) as o:
-        baca.mark(o.leaf(0), r"\animales-colophon-markup")
+        baca.rehearsal_mark(o.leaf(0), r"\animales-colophon-markup")
         baca.override.rehearsal_mark_direction_down(o.rleaf(-1))
         baca.override.rehearsal_mark_padding(o.rleaf(-1), 6)
         baca.override.rehearsal_mark_self_alignment_x(o.rleaf(-1), abjad.RIGHT)
