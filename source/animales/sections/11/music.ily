@@ -43,7 +43,7 @@ number.11.Skips =
     s1 * 4/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 6)
-    - \baca-rehearsal-mark-markup "J" #10
+    - \baca-dimensionless-boxed-markup "J" #10
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK

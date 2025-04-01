@@ -89,7 +89,7 @@ number.4.Skips =
     s1 * 4/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . -2)
-    - \baca-rehearsal-mark-markup "C" #10
+    - \baca-dimensionless-boxed-markup "C" #10
       %! CLOCK_TIME
     %@% \bacaStopTextSpanCT
       %! LOCAL_MEASURE_NUMBER

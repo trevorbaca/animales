@@ -43,7 +43,7 @@ number.6.Skips =
     s1 * 4/4
       %! +TABLOID_SCORE
 %%% - \tweak extra-offset #'(0 . 6)
-    - \baca-rehearsal-mark-markup "E" #10
+    - \baca-dimensionless-boxed-markup "E" #10
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK

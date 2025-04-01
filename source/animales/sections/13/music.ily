@@ -43,7 +43,7 @@ number.13.Skips =
     s1 * 3/4
       %! +TABLOID_SCORE
 %%% - \tweak extra-offset #'(0 . 6)
-    - \baca-rehearsal-mark-markup "L" #10
+    - \baca-dimensionless-boxed-markup "L" #10
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK

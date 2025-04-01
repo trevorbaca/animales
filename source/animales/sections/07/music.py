@@ -54,7 +54,7 @@ def SKIPS(score):
     baca.metronome_mark(
         skips[1 - 1], library.metronome_marks["76"], manifests=library.manifests
     )
-    baca.rehearsal_mark(
+    baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "F",
         baca.tweak.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),

@@ -71,7 +71,7 @@ number.12.Skips =
     s1 * 4/4
       %! +SCORE
 %%% - \tweak extra-offset #'(0 . 6)
-    - \baca-rehearsal-mark-markup "K" #10
+    - \baca-dimensionless-boxed-markup "K" #10
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR

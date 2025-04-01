@@ -41,7 +41,7 @@ number.9.Skips =
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "09"
     s1 * 4/4
-    - \baca-rehearsal-mark-markup "H" #10
+    - \baca-dimensionless-boxed-markup "H" #10
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! EXPLICIT_METRONOME_MARK_WITH_COLOR

@@ -61,8 +61,7 @@ def make_empty_score(previous_final_measure_number):
 
 def SKIPS(score):
     skips = score["Skips"]
-
-    baca.rehearsal_mark(
+    baca.dimensionless_boxed_markup(
         skips[3 - 1],
         "C",
         baca.tweak.extra_offset((0, -2), tag=baca.tags.ONLY_SCORE),

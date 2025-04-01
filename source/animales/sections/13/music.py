@@ -55,7 +55,7 @@ def make_empty_score(previous_final_measure_number):
 def SKIPS(score):
     skips = score["Skips"]
     baca.metronome_mark(skips[1 - 1], baca.Accelerando(), manifests=library.manifests)
-    baca.rehearsal_mark(
+    baca.dimensionless_boxed_markup(
         skips[1 - 1],
         "L",
         baca.tweak.extra_offset((0, 6), tag=library.ONLY_TABLOID_SCORE),

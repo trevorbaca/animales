@@ -32,7 +32,7 @@ number.27.Skips =
     s1 * 2/4
       %! +TABLOID_SCORE
 %%% - \tweak extra-offset #'(0 . 6)
-    - \baca-rehearsal-mark-markup "Z" #10
+    - \baca-dimensionless-boxed-markup "Z" #10
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR
     - \baca-invisible-line
       %! REAPPLIED_METRONOME_MARK_WITH_COLOR

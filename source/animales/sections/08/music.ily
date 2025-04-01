@@ -39,7 +39,7 @@ number.8.Skips =
       %! RED_START_BAR
     %@% \mark \markup \with-dimensions-from \null "08"
     s1 * 4/4
-    - \baca-rehearsal-mark-markup "G" #10
+    - \baca-dimensionless-boxed-markup "G" #10
       %! EXPLICIT_METRONOME_MARK
     %@% - \baca-dashed-line-with-arrow
       %! EXPLICIT_METRONOME_MARK
