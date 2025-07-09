@@ -457,7 +457,7 @@ def make_brass_manifest_rhythm(
         12: ([6, 6, 6, -2], 4, [1, 0, 0, 0]),
     }[part]
     if delay is None:
-        preamble = ()
+        preamble = []
     else:
         preamble = [-delay]
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -807,7 +807,7 @@ def make_harp_exchange_rhythm(
     return music, state
 
 
-def make_pennant_rhythm(time_signatures, extra_counts=(), silences=None):
+def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
     durations = [_.duration for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
