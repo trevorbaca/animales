@@ -66,7 +66,7 @@ def SKIPS(score):
 def CL(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 6), head=voice.name)
+    music = baca.make_mmrests(time_signatures(4, 6), head=voice.get_name())
     voice.extend(music)
 
 
@@ -114,7 +114,7 @@ def STRINGS(score, time_signatures):
         voice = score[library.voice_abbreviations[abbreviation]]
         music = baca.make_repeat_tied_notes(time_signatures(1, 3))
         voice.extend(music)
-        music = baca.make_mmrests(time_signatures(4, 6), head=voice.name)
+        music = baca.make_mmrests(time_signatures(4, 6), head=voice.get_name())
         voice.extend(music)
 
 
