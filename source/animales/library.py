@@ -363,7 +363,9 @@ def MAKE_BATTUTI(
             if append_fermata_measure is True:
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
-                music = baca.make_mmrests(signatures(fermata_measure), head=voice.get_name())
+                music = baca.make_mmrests(
+                    signatures(fermata_measure), head=voice.get_name()
+                )
                 voice.extend(music)
 
 
