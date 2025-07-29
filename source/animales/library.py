@@ -288,7 +288,7 @@ def attach_grand_pause_fermatas(cache, score, *, measure):
     do not receive GlobalRests variables.
     """
     for voice in abjad.iterate.components(score, abjad.Voice):
-        parent = abjad.get.parentage(voice).get_parent()
+        parent = abjad.get.parentage(voice).parent()
         if type(parent) is abjad.Container:
             continue
         with baca.scope(cache[voice.get_name()][measure]) as o:
