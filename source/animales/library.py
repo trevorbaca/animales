@@ -347,7 +347,7 @@ def MAKE_BATTUTI(
         "Cellos": 14,
         "Contrabasses": 6,
     }
-    duration = sum([_.get_duration() for _ in signatures()])
+    duration = sum([_.duration() for _ in signatures()])
     assert isinstance(duration, abjad.Duration), repr(duration)
     pair = abjad.duration.with_denominator(duration, 16)
     wrap = pair[0]
@@ -441,7 +441,7 @@ def make_brass_manifest_rhythm(
     previous_state = previous_state or {}
     assert isinstance(previous_state, dict)
     assert part in range(1, 12 + 1), repr(part)
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     counts, delay, extra_counts = {
@@ -570,7 +570,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     extra_counts = []
     if index % 9 in [2, 3, 6, 7]:
         extra_counts = [-1]
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -588,7 +588,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
 
 def make_downbeat_attack(time_signatures, count=1, denominator=8):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.talea(durations, [count], denominator, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     lts = baca.select.lts(voice)[1:]
@@ -696,7 +696,7 @@ def make_empty_score(
 
 def make_glissando_rhythm(time_signatures, rotate=0):
     tag = baca.helpers.function_name(inspect.currentframe())
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     tuplets = rmakers.talea(
         durations,
         abjad.sequence.rotate([5, 1, 2, 1], n=rotate),
@@ -773,7 +773,7 @@ def make_harp_exchange_rhythm(
         counts.append(2)
         rest = -(count - 2)
         counts.append(rest)
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -810,7 +810,7 @@ def make_harp_exchange_rhythm(
 
 
 def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.helpers.function_name(inspect.currentframe())
@@ -877,7 +877,7 @@ def make_sforzando_exchange_rhythm(
         part_to_counts[part] = counts
     preamble = part_to_preamble[this_part]
     counts = part_to_counts[this_part]
-    durations = [_.get_duration() for _ in time_signatures]
+    durations = [_.duration() for _ in time_signatures]
     durations = [sum(durations)]
     durations = baca.sequence.quarters(durations)
     tag = baca.helpers.function_name(inspect.currentframe())
