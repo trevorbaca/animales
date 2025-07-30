@@ -291,7 +291,7 @@ def attach_grand_pause_fermatas(cache, score, *, measure):
         parent = abjad.get.parentage(voice).parent()
         if type(parent) is abjad.Container:
             continue
-        with baca.scope(cache[voice.get_name()][measure]) as o:
+        with baca.scope(cache[voice.name()][measure]) as o:
             string = r'\markup \musicglyph "scripts.ufermata"'
             wrappers = baca.markup(o[0], string)
             baca.tags.tag(wrappers, baca.tags.ONLY_PARTS)
@@ -364,7 +364,7 @@ def MAKE_BATTUTI(
                 stop_measure = range_[1]
                 fermata_measure = stop_measure + 1
                 music = baca.make_mmrests(
-                    signatures(fermata_measure), head=voice.get_name()
+                    signatures(fermata_measure), head=voice.name()
                 )
                 voice.extend(music)
 

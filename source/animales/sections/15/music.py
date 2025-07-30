@@ -166,14 +166,14 @@ def STRINGS(score, time_signatures):
         voice.extend(music)
     for name in ["1vn1", "1vn2", "2vn1", "va1", "vc1"]:
         voice = score[library.voice_abbreviations[name]]
-        music = baca.make_mmrests(time_signatures(4, 7), head=voice.get_name())
+        music = baca.make_mmrests(time_signatures(4, 7), head=voice.name())
         voice.extend(music)
 
 
 def CB3(voice, time_signatures):
     music = baca.make_repeat_tied_notes(time_signatures(1, 3))
     voice.extend(music)
-    music = baca.make_mmrests(time_signatures(4, 7), head=voice.get_name())
+    music = baca.make_mmrests(time_signatures(4, 7), head=voice.name())
     voice.extend(music)
 
 
