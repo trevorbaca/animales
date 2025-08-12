@@ -39,35 +39,35 @@
     "container_to_part_assignment": {
         "number.6.Cellos.Voice.1.container": (
             PartAssignment(name="Cello", token=(1, 14)),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.Clarinets.Music.container": (
             PartAssignment(name="Clarinet", token=3),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.Contrabasses.Voice.3.container": (
             PartAssignment(name="Contrabass", token=(1, 6)),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.FirstViolins.Voice.1.container": (
             PartAssignment(name="FirstViolin", token=(1, 18)),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.Percussion.1.Music.container": (
             PartAssignment(name="Percussion", token=1),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.Percussion.2.Music.container": (
             PartAssignment(name="Percussion", token=2),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.SecondViolins.Voice.1.container": (
             PartAssignment(name="SecondViolin", token=(1, 18)),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
         "number.6.Violas.Voice.1.container": (
             PartAssignment(name="Viola", token=(1, 18)),
-            Timespan(Offset(0, 1), Offset(5, 1)),
+            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(5, 1))),
         ),
     },
     "duration": "0'13''",
