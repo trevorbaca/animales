@@ -17,11 +17,11 @@
     "container_to_part_assignment": {
         "number.30.Percussion.4.Music.container": (
             PartAssignment(name="Percussion", token=4),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(33, 4))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(33, 4))),
         ),
         "number.30.Piano.Music.container": (
             PartAssignment(name="Piano", token=None),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(33, 4))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(33, 4))),
         ),
     },
     "duration": "0'28''",

@@ -62,115 +62,115 @@
     "container_to_part_assignment": {
         "number.18.Cellos.Voice.1.container": (
             PartAssignment(name="Cello", token=(1, 8)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Cellos.Voice.2.container": (
             PartAssignment(name="Cello", token=(9, 14)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Contrabasses.Voice.3.container": (
             PartAssignment(name="Contrabasse", token=(1, -1)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.FirstViolins.Voice.1.container": (
             PartAssignment(name="FirstViolin", token=(1, 4)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.FirstViolins.Voice.2.container": (
             PartAssignment(name="FirstViolin", token=(5, 8)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.FirstViolins.Voice.3.container": (
             PartAssignment(name="FirstViolin", token=(9, 12)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.FirstViolins.Voice.4.container": (
             PartAssignment(name="FirstViolin", token=(13, 17)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.FirstViolins.Voice.5.container": (
             PartAssignment(name="FirstViolin", token=18),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Horns.Voice.1.container": (
             PartAssignment(name="Horn", token=1),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Horns.Voice.2.container": (
             PartAssignment(name="Horn", token=2),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Horns.Voice.3.container": (
             PartAssignment(name="Horn", token=3),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Horns.Voice.4.container": (
             PartAssignment(name="Horn", token=4),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.SecondViolins.Voice.1.container": (
             PartAssignment(name="SecondViolin", token=(1, 4)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.SecondViolins.Voice.2.container": (
             PartAssignment(name="SecondViolin", token=(5, 8)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.SecondViolins.Voice.3.container": (
             PartAssignment(name="SecondViolin", token=(9, 12)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.SecondViolins.Voice.4.container": (
             PartAssignment(name="SecondViolin", token=(13, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trombones.Voice.1.container": (
             PartAssignment(name="Trombone", token=1),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trombones.Voice.2.container": (
             PartAssignment(name="Trombone", token=2),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trombones.Voice.3.container": (
             PartAssignment(name="Trombone", token=3),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trombones.Voice.4.container": (
             PartAssignment(name="Trombone", token=4),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trumpets.Voice.1.container": (
             PartAssignment(name="Trumpet", token=1),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trumpets.Voice.2.container": (
             PartAssignment(name="Trumpet", token=2),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trumpets.Voice.3.container": (
             PartAssignment(name="Trumpet", token=3),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Trumpets.Voice.4.container": (
             PartAssignment(name="Trumpet", token=4),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Violas.Voice.1.container": (
             PartAssignment(name="Viola", token=(1, 4)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Violas.Voice.2.container": (
             PartAssignment(name="Viola", token=(5, 8)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Violas.Voice.3.container": (
             PartAssignment(name="Viola", token=(9, 12)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
         "number.18.Violas.Voice.4.container": (
             PartAssignment(name="Viola", token=(13, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 1))),
         ),
     },
     "duration": "0'31''",

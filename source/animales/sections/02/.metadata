@@ -29,31 +29,31 @@
     "container_to_part_assignment": {
         "number.2.Cellos.Voice.1.container": (
             PartAssignment(name="Cello", token=(1, 14)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.FirstViolins.Voice.1.container": (
             PartAssignment(name="FirstViolin", token=(1, 10)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.FirstViolins.Voice.3.container": (
             PartAssignment(name="FirstViolin", token=(11, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.SecondViolins.Voice.1.container": (
             PartAssignment(name="SecondViolin", token=(1, 10)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.SecondViolins.Voice.3.container": (
             PartAssignment(name="SecondViolin", token=(11, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.Violas.Voice.1.container": (
             PartAssignment(name="Viola", token=(1, 10)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
         "number.2.Violas.Voice.3.container": (
             PartAssignment(name="Viola", token=(11, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(9, 2))),
         ),
     },
     "duration": "0'10''",

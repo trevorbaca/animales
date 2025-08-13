@@ -41,51 +41,51 @@
     "container_to_part_assignment": {
         "number.8.BassClarinet.Music.container": (
             PartAssignment(name="BassClarinet", token=None),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Cellos.Voice.1.container": (
             PartAssignment(name="Cello", token=(1, 14)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Clarinets.Music.container": (
             PartAssignment(name="Clarinet", token=1),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Contrabasses.Voice.1.container": (
             PartAssignment(name="Contrabass", token=1),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Contrabasses.Voice.3.container": (
             PartAssignment(name="Contrabass", token=(2, 6)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.FirstViolins.Voice.1.container": (
             PartAssignment(name="FirstViolin", token=(1, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Harp.Music.container": (
             PartAssignment(name="Harp", token=None),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Percussion.2.Music.container": (
             PartAssignment(name="Percussion", token=2),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Percussion.3.Music.container": (
             PartAssignment(name="Percussion", token=3),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Piano.Music.container": (
             PartAssignment(name="Piano", token=None),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.SecondViolins.Voice.1.container": (
             PartAssignment(name="SecondViolin", token=(1, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
         "number.8.Violas.Voice.1.container": (
             PartAssignment(name="Viola", token=(1, 18)),
-            Timespan.fvo(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
+            Timespan(ValueOffset(Fraction(0, 1)), ValueOffset(Fraction(11, 2))),
         ),
     },
     "duration": "0'14''",
