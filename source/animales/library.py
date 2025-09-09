@@ -348,7 +348,7 @@ def MAKE_BATTUTI(
         "Contrabasses": 6,
     }
     duration = sum([_.duration() for _ in signatures()])
-    assert isinstance(duration, abjad.ValueDuration), repr(duration)
+    assert isinstance(duration, abjad.Duration), repr(duration)
     pair = abjad.duration.pair_with_denominator(duration.as_fraction(), 16)
     wrap = pair[0]
     for section, members in section_name_to_member_count.items():
@@ -1017,14 +1017,14 @@ instruments = {
 
 
 metronome_marks = {
-    "48": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 48),
-    "60": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 60),
-    "76": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 76),
-    "84": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 84),
-    "96": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 96),
-    "114": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 114),
-    "120": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 120),
-    "132": abjad.MetronomeMark(abjad.ValueDuration(1, 4), 132),
+    "48": abjad.MetronomeMark(abjad.Duration(1, 4), 48),
+    "60": abjad.MetronomeMark(abjad.Duration(1, 4), 60),
+    "76": abjad.MetronomeMark(abjad.Duration(1, 4), 76),
+    "84": abjad.MetronomeMark(abjad.Duration(1, 4), 84),
+    "96": abjad.MetronomeMark(abjad.Duration(1, 4), 96),
+    "114": abjad.MetronomeMark(abjad.Duration(1, 4), 114),
+    "120": abjad.MetronomeMark(abjad.Duration(1, 4), 120),
+    "132": abjad.MetronomeMark(abjad.Duration(1, 4), 132),
 }
 
 
