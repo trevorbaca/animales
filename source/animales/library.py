@@ -1,5 +1,5 @@
+import dataclasses
 import inspect
-import types
 
 import abjad
 import baca
@@ -941,7 +941,16 @@ def make_trill_rhythm(
         )
 
 
-markups = types.SimpleNamespace(
+@dataclasses.dataclass(frozen=True)
+class Markups:
+    solo: str
+    solo_cl_1: str
+    solo_cl_2: str
+    solo_cl_3: str
+    solo_first_violin: str
+
+
+markups = Markups(
     solo=r"\markup { solo }",
     solo_cl_1=r"\markup { solo (cl. 1) }",
     solo_cl_2=r"\markup { solo (cl. 2) }",
