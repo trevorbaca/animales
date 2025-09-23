@@ -565,7 +565,9 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     counts_ = abjad.sequence.repeat_to_weight(counts_, total_players * wrap)
     shards = abjad.sequence.split(counts_, [wrap], cyclic=True, overhang=abjad.EXACT)
     assert len(shards) == total_players
-    assert abjad.sequence.weight(shards) == abjad.sequence.weight(counts_)
+    assert abjad.math.weight(
+        abjad.sequence.flatten(shards), start=0
+    ) == abjad.math.weight(abjad.sequence.flatten(counts_), start=0)
     counts_ = shards[index]
     extra_counts = []
     if index % 9 in [2, 3, 6, 7]:
