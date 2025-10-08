@@ -598,7 +598,8 @@ def make_downbeat_attack(time_signatures, count=1, denominator=8):
     tuplets = rmakers.talea(durations, [count], denominator, tag=tag)
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     lts = baca.select.lts(voice)[1:]
-    rmakers.force_rest(lts, tag=tag)
+    leaves = abjad.select.leaves(lts)
+    rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled(voice, tag=tag)
@@ -802,13 +803,15 @@ def make_harp_exchange_rhythm(
     if force_rest_tuplets is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, force_rest_tuplets)
-        rmakers.force_rest(tuplets, tag=tag)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     logical_tie_count_2 = len(baca.select.lts(voice))
     if logical_tie_count_1 != logical_tie_count_2:
         overage = logical_tie_count_2 - logical_tie_count_1
         state["logical_ties_produced"] += overage
     if silence_first is True:
-        rmakers.force_rest(baca.select.lt(voice, 0), tag=tag)
+        lt = baca.select.lt(voice, 0)
+        rmakers.force_rest(lt, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
@@ -831,7 +834,8 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
     if silences is not None:
         tuplets = abjad.select.tuplets(voice)
         tuplets = abjad.select.get(tuplets, silences)
-        rmakers.force_rest(tuplets, tag=tag)
+        leaves = abjad.select.leaves(tuplets)
+        rmakers.force_rest(leaves, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
