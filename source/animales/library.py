@@ -477,7 +477,7 @@ def make_brass_manifest_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
@@ -582,7 +582,7 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.force_diminution(tuplets)
@@ -602,7 +602,7 @@ def make_downbeat_attack(time_signatures, count=1, denominator=8):
     rmakers.force_rest(leaves, tag=tag)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -840,7 +840,7 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.rewrite_rest_filled(voice, tag=tag)
+    rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
     rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
     rmakers.force_diminution(tuplets)
