@@ -478,8 +478,8 @@ def make_brass_manifest_rhythm(
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     music = abjad.mutate.eject_contents(voice)
@@ -583,8 +583,8 @@ def make_clb_rhythm(time_signatures, section, member, counts, wrap):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.force_diminution(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -815,7 +815,7 @@ def make_harp_exchange_rhythm(
     tuplets = abjad.select.tuplets(voice)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.trivialize(voice)
+    rmakers.trivialize_tuplets(tuplets)
     tuplets = abjad.select.tuplets(voice)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -841,8 +841,8 @@ def make_pennant_rhythm(time_signatures, extra_counts=None, silences=None):
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
     rmakers.rewrite_rest_filled_tuplets(tuplets, tag=tag)
-    rmakers.trivialize(voice)
     tuplets = abjad.select.tuplets(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.force_diminution(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
@@ -915,7 +915,7 @@ def make_sforzando_exchange_rhythm(
     voice = rmakers.wrap_in_time_signature_staff(tuplets, time_signatures)
     leaf_lists = [_[:] for _ in tuplets]
     rmakers.beam(leaf_lists, tag=tag)
-    rmakers.trivialize(voice)
+    rmakers.trivialize_tuplets(tuplets)
     rmakers.extract_trivial(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
