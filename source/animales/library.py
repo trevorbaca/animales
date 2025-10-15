@@ -820,7 +820,7 @@ def make_harp_exchange_rhythm(
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music, state
 
@@ -919,7 +919,7 @@ def make_sforzando_exchange_rhythm(
     rmakers.extract_trivial_tuplets(tuplets)
     rmakers.rewrite_meter(voice, tag=tag)
     leaves = abjad.select.leaves(voice)
-    rmakers.force_repeat_tie(leaves, tag=tag)
+    rmakers.replace_ties_with_repeat_ties(leaves, tag=tag)
     music = abjad.mutate.eject_contents(voice)
     return music, state
 
