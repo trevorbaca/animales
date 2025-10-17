@@ -459,9 +459,9 @@ def make_brass_manifest_rhythm(
         12: ([6, 6, 6, -2], 4, [1, 0, 0, 0]),
     }[part]
     if delay is None:
-        preamble = []
+        preamble_counts = []
     else:
-        preamble = [-delay]
+        preamble_counts = [-delay]
     tag = baca.helpers.function_name(inspect.currentframe())
     state = {}
     tuplets = rmakers.talea(
@@ -469,7 +469,7 @@ def make_brass_manifest_rhythm(
         counts,
         8,
         extra_counts=extra_counts,
-        preamble=preamble,
+        preamble_counts=preamble_counts,
         previous_state=previous_state,
         state=state,
         tag=tag,
@@ -765,19 +765,19 @@ def make_harp_exchange_rhythm(
         index += 1
         if 999 < index:
             break
-    part_to_preamble = {}
+    part_to_preamble_counts = {}
     part_to_counts = {}
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        preamble = []
+        preamble_counts = []
         if offset != 0:
-            preamble.append(offset)
-        part_to_preamble[part] = preamble
+            preamble_counts.append(offset)
+        part_to_preamble_counts[part] = preamble_counts
         counts = abjad.math.difference_series(indices)
         period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
-    preamble = part_to_preamble[this_part]
+    preamble_counts = part_to_preamble_counts[this_part]
     counts = []
     for count in part_to_counts[this_part]:
         counts.append(2)
@@ -793,7 +793,7 @@ def make_harp_exchange_rhythm(
         counts,
         16,
         extra_counts=[2],
-        preamble=preamble,
+        preamble_counts=preamble_counts,
         previous_state=previous_state,
         state=state,
         tag=tag,
@@ -883,19 +883,19 @@ def make_sforzando_exchange_rhythm(
             part = (part + 1) % len(part_to_pattern)
             pattern = part_to_pattern[part]
         index += 1
-    part_to_preamble = {}
+    part_to_preamble_counts = {}
     part_to_counts = {}
     for part, indices in part_to_indices.items():
         offset = indices[0]
-        preamble = []
+        preamble_counts = []
         if offset != 0:
-            preamble.append(offset)
-        part_to_preamble[part] = preamble
+            preamble_counts.append(offset)
+        part_to_preamble_counts[part] = preamble_counts
         counts = abjad.math.difference_series(indices)
         period = baca.sequence.period_of_rotation(counts)
         counts = counts[:period]
         part_to_counts[part] = counts
-    preamble = part_to_preamble[this_part]
+    preamble_counts = part_to_preamble_counts[this_part]
     counts = part_to_counts[this_part]
     durations = abjad.duration.durations(time_signatures)
     durations = [sum(durations)]
@@ -907,7 +907,7 @@ def make_sforzando_exchange_rhythm(
         counts,
         16,
         extra_counts=[2],
-        preamble=preamble,
+        preamble_counts=preamble_counts,
         previous_state=previous_state,
         state=state,
         tag=tag,
